@@ -40,20 +40,22 @@ export default {
     defaultlocale: "en",
     locales: ["pl", "en"],
     sources: {
-      github: {
+      pl: {
         prefix: "/pl", // Prefix for routes used to query contents
         driver: "github", // Driver used to fetch contents (view unstorage documentation)
-        repo: "webo-agency/pl",
-        branch: "main",
+        repo: "webo-agency/www",
+        branch: "pl_PL",
         dir: "content", // Directory where contents are located. It could be a subdirectory of the repository.
+        token: process.env.GITHUB_TOKEN,
         // Imagine you have a blog inside your content folder. You can set this option to `content/blog` with the prefix option to `/blog` to avoid conflicts with local files.
       },
-      github: {
+      en: {
         prefix: "/en", // Prefix for routes used to query contents
         driver: "github", // Driver used to fetch contents (view unstorage documentation)
-        repo: "webo-agency/en",
-        branch: "main",
+        repo: "webo-agency/www",
+        branch: "en_GB",
         dir: "content", // Directory where contents are located. It could be a subdirectory of the repository.
+        token: process.env.GITHUB_TOKEN,
         // Imagine you have a blog inside your content folder. You can set this option to `content/blog` with the prefix option to `/blog` to avoid conflicts with local files.
       },
     },
