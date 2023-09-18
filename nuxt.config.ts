@@ -1,12 +1,12 @@
-var appManifest = require('./package.json');
+var appManifest = require("./package.json");
 
-require("dotenv").config();
+//require("dotenv").config();
 
 const API_URL = process.env.API_URL;
 const API_AFFIX = process.env.API_AFFIX;
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
-export default ({
+export default {
   name: "webo-theme",
   rootDir: __dirname,
   srcDir: __dirname,
@@ -17,20 +17,26 @@ export default ({
     GOOGLE_FONTS: "Montserrat:400,500,600,700,800:latin,latin-ext&display=swap",
   },
   globalName: process.env.NAME,
-  app:{
+  app: {
     head: {
-      viewport: 'width=device-width, initial-scale=1',
-      charset: 'utf-8',
+      viewport: "width=device-width, initial-scale=1",
+      charset: "utf-8",
     },
-    pageTransition: { name: 'page', mode: 'out-in' }
+    pageTransition: { name: "page", mode: "out-in" },
   },
   experiments: {
-    payloadExtraction: false
+    payloadExtraction: false,
   },
   components: true,
-  css: ["assets/css/style.css","assets/css/main.css"],
+  css: ["assets/css/style.css", "assets/css/main.css"],
   plugins: ["~/plugins/textformatter.js"],
-  modules: ["@nuxt/content", "@nuxt/image", 'nuxt-bugsnag','@nuxtjs/tailwindcss','@nuxtjs/i18n'],
+  modules: [
+    "@nuxt/content",
+    "@nuxt/image",
+    "nuxt-bugsnag",
+    "@nuxtjs/tailwindcss",
+    "@nuxtjs/i18n",
+  ],
   // unocss: {
   //   autoImport: true,
   //   uno: true, // enabled `@unocss/preset-uno`
@@ -41,44 +47,44 @@ export default ({
   //   rules: [],
   // },
   i18n: {
-    differentDomains: (process.env.NODE_ENV === 'production'),
-    fallbackLocale: 'en',
-    defaultLocale: 'en',
+    differentDomains: process.env.NODE_ENV === "production",
+    fallbackLocale: "en",
+    defaultLocale: "en",
     noPrefixDefaultLocale: true,
-    strategy: 'prefix_except_default',
+    strategy: "prefix_except_default",
     detectBrowserLanguage: false,
     locales: [
       {
-         code: 'pl',
-         iso: 'pl-PL',
-         domain: 'webo.pl',
-         name: 'Polski',
-       },
-       {
-         code: 'en',
-         iso: 'en-US',
-         domain: 'webo.agency',
-         name: 'English',
-       },
+        code: "pl",
+        iso: "pl-PL",
+        domain: "webo.pl",
+        name: "Polski",
+      },
+      {
+        code: "en",
+        iso: "en-US",
+        domain: "webo.agency",
+        name: "English",
+      },
     ],
   },
   image: {
-    provider: 'ipx',
+    provider: "ipx",
     ipx: {
       modifiers: {
-        quality: '95',
-        format: 'webp',
-      }
-    }
+        quality: "95",
+        format: "webp",
+      },
+    },
   },
   bugsnag: {
     publishRelease: true,
     config: {
-      apiKey: 'e84d63a6f7b1a2db9acda61d3dc7d892',
-      enabledReleaseStages: ['development','staging', 'production'],
+      apiKey: "e84d63a6f7b1a2db9acda61d3dc7d892",
+      enabledReleaseStages: ["development", "staging", "production"],
       releaseStage: process.env.NODE_ENV,
       appVersion: appManifest.version,
-    }
+    },
   },
   vueuse: {
     ssrHandlers: true,
@@ -91,7 +97,7 @@ export default ({
 
   target: "static",
   generate: {
-    fallback: '404.html',
+    fallback: "404.html",
     // routes() {
     //   let _calls = [];
 
@@ -151,5 +157,5 @@ export default ({
         },
       },
     },
-  }
-});
+  },
+};
