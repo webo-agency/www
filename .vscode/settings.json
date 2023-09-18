@@ -1,0 +1,5 @@
+{
+  "debug.node.autoAttach": "on",
+  "i18n-ally.localesPaths": [],
+  "nuxt.isNuxtApp": true
+}

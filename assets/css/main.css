@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    b, strong{
+        @apply font-semibold
+    }
+}
+
+@layer utilities{
+    .text-outline{
+        text-shadow:
+        -1px -1px 0 rgb(7 231 196),  
+        1px -1px 0 rgb(7 231 196),
+        -1px 1px 0 rgb(7 231 196),
+        1px 1px 0 rgb(7 231 196)
+    };
+}

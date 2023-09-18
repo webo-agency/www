@@ -1,0 +1,27 @@
+body,
+html,
+#__webo,
+#__layout,
+#__nuxt {
+  height: 100%;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.filter {
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
+.page-enter-active {
+  transition: all 0.5s easy-in;
+}
+.page-leave-active {
+  transition: all 0.5s easy-out;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+}
