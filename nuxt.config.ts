@@ -155,5 +155,8 @@ export default {
         },
       },
     },
+    rollupOptions: {
+      external: ["textformatter.js"],
+    },
   },
 };
