@@ -300,11 +300,6 @@
         </CustomLink>
       </div>
     </div>
-    <div>
-      <nuxt-link to="https://webo.pl"> PL </nuxt-link>
-      <nuxt-link to="https://webo.agency/kontakt"> EN KONTAKT </nuxt-link>
-      <nuxt-link to="https://webo.pl/kontakt"> PL KONTAKT </nuxt-link>
-    </div>
   </div>
 </template>
 
