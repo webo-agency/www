@@ -34,8 +34,30 @@ export default {
     "@nuxt/image",
     "nuxt-bugsnag",
     "@nuxtjs/tailwindcss",
-    //    "@nuxtjs/i18n",
+    "@nuxtjs/i18n",
   ],
+  content: {
+    defaultlocale: "en",
+    locales: ["en", "pl"],
+    sources: {
+      github: {
+        prefix: "/pl", // Prefix for routes used to query contents
+        driver: "github", // Driver used to fetch contents (view unstorage documentation)
+        repo: "webo-agency/pl",
+        branch: "main",
+        dir: "content", // Directory where contents are located. It could be a subdirectory of the repository.
+        // Imagine you have a blog inside your content folder. You can set this option to `content/blog` with the prefix option to `/blog` to avoid conflicts with local files.
+      },
+      github: {
+        prefix: "/en", // Prefix for routes used to query contents
+        driver: "github", // Driver used to fetch contents (view unstorage documentation)
+        repo: "webo-agency/pl",
+        branch: "main",
+        dir: "content", // Directory where contents are located. It could be a subdirectory of the repository.
+        // Imagine you have a blog inside your content folder. You can set this option to `content/blog` with the prefix option to `/blog` to avoid conflicts with local files.
+      },
+    },
+  },
   // unocss: {
   //   autoImport: true,
   //   uno: true, // enabled `@unocss/preset-uno`
@@ -45,28 +67,28 @@ export default {
   //   shortcuts: [],
   //   rules: [],
   // },
-  // i18n: {
-  //   differentDomains: process.env.NODE_ENV === "production",
-  //   fallbackLocale: "en",
-  //   defaultLocale: "en",
-  //   noPrefixDefaultLocale: true,
-  //   strategy: "prefix_except_default",
-  //   detectBrowserLanguage: false,
-  //   locales: [
-  //     {
-  //       code: "pl",
-  //       iso: "pl-PL",
-  //       domain: "webo.pl",
-  //       name: "Polski",
-  //     },
-  //     {
-  //       code: "en",
-  //       iso: "en-US",
-  //       domain: "webo.agency",
-  //       name: "English",
-  //     },
-  //   ],
-  // },
+  i18n: {
+    differentDomains: process.env.NODE_ENV === "production",
+    fallbackLocale: "en",
+    defaultLocale: "en",
+    noPrefixDefaultLocale: true,
+    strategy: "prefix_except_default",
+    detectBrowserLanguage: false,
+    locales: [
+      {
+        code: "pl",
+        iso: "pl-PL",
+        domain: "webo.pl",
+        name: "Polski",
+      },
+      {
+        code: "en",
+        iso: "en-US",
+        domain: "webo.agency",
+        name: "English",
+      },
+    ],
+  },
   image: {
     provider: "ipx",
     ipx: {
@@ -96,10 +118,8 @@ export default {
 
   target: "static",
   generate: {
-    fallback: "404.html",
     // routes() {
     //   let _calls = [];
-
     //   _calls.push(axios.get(`${process.env.API_URL}${process.env.API_AFFIX}`));
     //   //@TODO: [BEOK-1] Per page loop. As another module can be usefull
     //   languages.availableLanguage.forEach(function (locale) {
@@ -116,14 +136,11 @@ export default {
     //       )
     //     );
     //   });
-
     //   return axios.all(_calls).then(
     //     axios.spread((...res) => {
     //       let _routeArray = [];
-
     //       let rootRequest = res[0];
     //       delete res[0];
-
     //       res.map((singleResponse) => {
     //         singleResponse.data.forEach((page) => {
     //           if (
@@ -139,7 +156,6 @@ export default {
     //             });
     //         });
     //       });
-
     //       return _routeArray;
     //     })
     //   );
