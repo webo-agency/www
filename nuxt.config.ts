@@ -35,7 +35,7 @@ export default {
     "@nuxt/image",
     "nuxt-bugsnag",
     "@nuxtjs/tailwindcss",
-    "@nuxtjs/i18n",
+    //    "@nuxtjs/i18n",
   ],
   // unocss: {
   //   autoImport: true,
@@ -46,28 +46,28 @@ export default {
   //   shortcuts: [],
   //   rules: [],
   // },
-  i18n: {
-    differentDomains: process.env.NODE_ENV === "production",
-    fallbackLocale: "en",
-    defaultLocale: "en",
-    noPrefixDefaultLocale: true,
-    strategy: "prefix_except_default",
-    detectBrowserLanguage: false,
-    locales: [
-      {
-        code: "pl",
-        iso: "pl-PL",
-        domain: "webo.pl",
-        name: "Polski",
-      },
-      {
-        code: "en",
-        iso: "en-US",
-        domain: "webo.agency",
-        name: "English",
-      },
-    ],
-  },
+  // i18n: {
+  //   differentDomains: process.env.NODE_ENV === "production",
+  //   fallbackLocale: "en",
+  //   defaultLocale: "en",
+  //   noPrefixDefaultLocale: true,
+  //   strategy: "prefix_except_default",
+  //   detectBrowserLanguage: false,
+  //   locales: [
+  //     {
+  //       code: "pl",
+  //       iso: "pl-PL",
+  //       domain: "webo.pl",
+  //       name: "Polski",
+  //     },
+  //     {
+  //       code: "en",
+  //       iso: "en-US",
+  //       domain: "webo.agency",
+  //       name: "English",
+  //     },
+  //   ],
+  // },
   image: {
     provider: "ipx",
     ipx: {
