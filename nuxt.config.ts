@@ -27,7 +27,7 @@ export default {
   },
   components: true,
   css: ["assets/css/style.css", "assets/css/main.css"],
-  plugins: ["~/plugins/textformatter.js"],
+  plugins: ["/plugins/textformatter.js"],
   modules: [
     "@nuxt/content",
     "@nuxt/image",
@@ -154,9 +154,6 @@ export default {
           autoprefixer: {},
         },
       },
-    },
-    rollupOptions: {
-      external: ["textformatter.js"],
     },
   },
 };
