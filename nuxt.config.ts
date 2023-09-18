@@ -38,7 +38,7 @@ export default {
   ],
   content: {
     defaultlocale: "en",
-    locales: ["en", "pl"],
+    locales: ["pl", "en"],
     sources: {
       github: {
         prefix: "/pl", // Prefix for routes used to query contents
@@ -51,7 +51,7 @@ export default {
       github: {
         prefix: "/en", // Prefix for routes used to query contents
         driver: "github", // Driver used to fetch contents (view unstorage documentation)
-        repo: "webo-agency/pl",
+        repo: "webo-agency/en",
         branch: "main",
         dir: "content", // Directory where contents are located. It could be a subdirectory of the repository.
         // Imagine you have a blog inside your content folder. You can set this option to `content/blog` with the prefix option to `/blog` to avoid conflicts with local files.
@@ -78,13 +78,13 @@ export default {
       {
         code: "pl",
         iso: "pl-PL",
-        domain: "webo.pl",
+        domain: "https://webo.pl",
         name: "Polski",
       },
       {
         code: "en",
         iso: "en-US",
-        domain: "webo.agency",
+        domain: "https://webo.agency",
         name: "English",
       },
     ],
