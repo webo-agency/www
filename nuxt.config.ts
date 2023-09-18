@@ -27,8 +27,8 @@ export default {
     payloadExtraction: false,
   },
   components: true,
-  css: ["./assets/css/style.css", "./assets/css/main.css"],
-  plugins: ["./plugins/textformatter.js"],
+  css: ["assets/css/style.css", "assets/css/main.css"],
+  plugins: ["plugins/textformatter.js"],
   modules: [
     "@nuxt/content",
     "@nuxt/image",
