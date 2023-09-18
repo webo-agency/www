@@ -1,6 +1,6 @@
 var appManifest = require("./package.json");
 
-//require("dotenv").config();
+require("dotenv").config();
 
 const API_URL = process.env.API_URL;
 const API_AFFIX = process.env.API_AFFIX;
