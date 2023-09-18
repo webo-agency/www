@@ -74,19 +74,19 @@ export default {
     fallbackLocale: "en",
     defaultLocale: "en",
     noPrefixDefaultLocale: true,
-    strategy: "prefix_except_default",
+    strategy: "no_prefix",
     detectBrowserLanguage: false,
     locales: [
       {
         code: "pl",
         iso: "pl-PL",
-        domain: "https://webo.pl",
+        domain: "https://webo.pl/",
         name: "Polski",
       },
       {
         code: "en",
         iso: "en-US",
-        domain: "https://webo.agency",
+        domain: "https://webo.agency/",
         name: "English",
       },
     ],
@@ -163,7 +163,11 @@ export default {
     //   );
     // },
   },
-
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+    },
+  },
   build: {
     transpile: ["swiper"],
     postcss: {
