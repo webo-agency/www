@@ -23,9 +23,6 @@ export default {
     },
     pageTransition: { name: "page", mode: "out-in" },
   },
-  experiments: {
-    payloadExtraction: false,
-  },
   components: true,
   css: ["assets/css/style.css", "assets/css/main.css"],
   plugins: ["plugins/textformatter.js"],
@@ -34,7 +31,31 @@ export default {
     "@nuxt/image",
     "nuxt-bugsnag",
     "@nuxtjs/tailwindcss",
-    "@nuxtjs/i18n",
+    [
+      "@nuxtjs/i18n",
+      {
+        differentDomains: process.env.NODE_ENV === "production",
+        fallbackLocale: "en",
+        defaultLocale: "en",
+        noPrefixDefaultLocale: true,
+        strategy: "prefix_and_default",
+        detectBrowserLanguage: false,
+        locales: [
+          {
+            code: "pl",
+            iso: "pl-PL",
+            domain: "https://webo.pl/",
+            name: "Polski",
+          },
+          {
+            code: "en",
+            iso: "en-US",
+            domain: "https://webo.agency/",
+            name: "English",
+          },
+        ],
+      },
+    ],
   ],
   content: {
     defaultlocale: "en",
@@ -69,28 +90,6 @@ export default {
   //   shortcuts: [],
   //   rules: [],
   // },
-  i18n: {
-    differentDomains: process.env.NODE_ENV === "production",
-    fallbackLocale: "en",
-    defaultLocale: "en",
-    noPrefixDefaultLocale: true,
-    strategy: "no_prefix",
-    detectBrowserLanguage: false,
-    locales: [
-      {
-        code: "pl",
-        iso: "pl-PL",
-        domain: "https://webo.pl/",
-        name: "Polski",
-      },
-      {
-        code: "en",
-        iso: "en-US",
-        domain: "https://webo.agency/",
-        name: "English",
-      },
-    ],
-  },
   image: {
     provider: "ipx",
     ipx: {
@@ -117,7 +116,6 @@ export default {
   //     lang: "en",
   //   },
   // },
-
   target: "static",
   generate: {
     // routes() {
