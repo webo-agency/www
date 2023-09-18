@@ -8,6 +8,7 @@ const API_AFFIX = process.env.API_AFFIX;
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default {
   name: "webo-theme",
+
   env: {
     CONTEXT: process.env.CONTEXT,
     API_URL: API_URL,
@@ -26,8 +27,8 @@ export default {
     payloadExtraction: false,
   },
   components: true,
-  css: ["assets/css/style.css", "assets/css/main.css"],
-  plugins: ["/plugins/textformatter.js"],
+  css: ["@/assets/css/style.css", "@/assets/css/main.css"],
+  plugins: ["@/plugins/textformatter.js"],
   modules: [
     "@nuxt/content",
     "@nuxt/image",
