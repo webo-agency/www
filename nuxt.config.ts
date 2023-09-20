@@ -24,7 +24,7 @@ export default {
       viewport: "width=device-width, initial-scale=1",
       charset: "utf-8",
     },
-    // pageTransition: { name: "page", mode: "out-in" }, #blocked by issue in vue core
+    pageTransition: { name: "page", mode: "out-in" },
   },
   components: true,
   css: [

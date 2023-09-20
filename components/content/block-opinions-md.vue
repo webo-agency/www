@@ -64,7 +64,7 @@ export default {
 };
 </script>
 
-<style  lang="postcss" scoped>
+<style lang="postcss" scoped>
 .swiper-pagination :deep(.swiper-pagination-bullet) {
   @apply w-[25px] h-[5px] rounded-[5px] opacity-100 bg-gray-default
     transition duration-200 mx-[5px];
