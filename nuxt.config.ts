@@ -12,7 +12,9 @@ const API_AFFIX = process.env.API_AFFIX;
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default {
   name: "webo-theme",
-
+  experimental: {
+    payloadExtraction: false,
+  },
   env: {
     CONTEXT: process.env.CONTEXT,
     API_URL: API_URL,
