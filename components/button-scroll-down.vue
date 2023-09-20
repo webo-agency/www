@@ -39,59 +39,55 @@
 
 <script>
 export default {
-    data(){
-        return {
-            isMounted: false
-        }
+  data() {
+    return {
+      isMounted: false,
+    };
+  },
+  props: {
+    getContainerRef: {
+      type: Function,
+      default: () => ({}),
     },
-    props:{
-        getContainerRef:{
-            type: Function,
-            default: () => ({})
-        } 
-    },
-  mounted(){
-    setTimeout(()=>{
-      this.isMounted = true
-    },500)
+  },
+  mounted() {
+    this.$nextTick(() => {
+      this.isMounted = true;
+    });
   },
   methods: {
     scrollDown() {
-        const container = this.getContainerRef() 
-        if (container) {
-            const elHeight = container.clientHeight;
-            const scroollDistance = elHeight;
-            window.scrollTo({
-              top: scroollDistance,
-              behavior: "smooth",
-            });
-        }
+      const container = this.getContainerRef();
+      if (container) {
+        const elHeight = container.clientHeight;
+        const scroollDistance = elHeight;
+        window.scrollTo({
+          top: scroollDistance,
+          behavior: "smooth",
+        });
+      }
     },
   },
 };
 </script>
 
 <style>
-
 @keyframes path1anim {
-  0%{
-    stroke-dasharray:  25px;
+  0% {
+    stroke-dasharray: 25px;
     stroke-dashoffset: 33;
-
   }
-  30%{
-    stroke-dasharray:  110px;
+  30% {
+    stroke-dasharray: 110px;
     stroke-dashoffset: 0px;
   }
-  80%{
-    stroke-dasharray:  110px;
+  80% {
+    stroke-dasharray: 110px;
     stroke-dashoffset: 0px;
-
   }
-  100%{
-    stroke-dasharray:  25px;
+  100% {
+    stroke-dasharray: 25px;
     stroke-dashoffset: 33;
-
   }
 }
 
@@ -100,38 +96,38 @@ export default {
 }
 
 .path1b {
-  animation: path1anim 7s infinite ease-in-out; 
+  animation: path1anim 7s infinite ease-in-out;
 }
 
 @keyframes path2anim {
-  0%{
-    stroke-dasharray:  13px;
+  0% {
+    stroke-dasharray: 13px;
     stroke-dashoffset: 13px;
   }
 
-  20%{
-    stroke-dasharray:  13px;
+  20% {
+    stroke-dasharray: 13px;
     stroke-dashoffset: 13px;
-    transform: translateY(-6px)
+    transform: translateY(-6px);
   }
-  30%{
-    stroke-dasharray:  13px ;
-    stroke-dashoffset: 0px ;
-    transform: translateY(3px)
+  30% {
+    stroke-dasharray: 13px;
+    stroke-dashoffset: 0px;
+    transform: translateY(3px);
   }
-  60%{
-    stroke-dasharray:  13px ;
-    stroke-dashoffset: 0px ;
-    transform: translateY(0px)
+  60% {
+    stroke-dasharray: 13px;
+    stroke-dashoffset: 0px;
+    transform: translateY(0px);
   }
-  90%{
-    stroke-dasharray:  13px ;
-    stroke-dashoffset: -52px ;
-    transform: translateY(0px)
+  90% {
+    stroke-dasharray: 13px;
+    stroke-dashoffset: -52px;
+    transform: translateY(0px);
   }
 
-  100%{
-    stroke-dasharray:  13px;
+  100% {
+    stroke-dasharray: 13px;
     stroke-dashoffset: -65px;
     transform: translateY(10px);
   }
@@ -140,8 +136,4 @@ export default {
 .path2 {
   animation: path2anim 7s infinite cubic-bezier(0.165, 0.84, 0.44, 1);
 }
-
-
-
-
 </style>
