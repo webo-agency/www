@@ -58,6 +58,7 @@ export default {
   mounted() {
     // setTimeout(() => {
     this.checkAfterMount();
+    isVisible(true);
     // }, 200);
   },
   methods: {
