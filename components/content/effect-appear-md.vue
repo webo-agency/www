@@ -21,28 +21,27 @@ export default {
       default: 0,
     },
   },
-  setup() {
-    //   const container = ref(null);
-    //   const { x, y, top, right, bottom, left, width, height } =
-    //     useElementBounding(container);
-    //   const windowHeight = useWindowSize().height;
-    //   const windowWidth = useWindowSize().width;
-    //   const isVisible = computed(() => {
-    //     let calcOffset = height.value * 0.5 > 200 ? 200 : height.value * 0.5;
-    //     return (
-    //       y.value <
-    //       windowHeight.value - (windowWidth.value > 768 ? calcOffset : 150)
-    //     );
-    //   });
-    //   return {
-    //     container,
-    //     y,
-    //     height,
-    //     windowHeight,
-    //     isVisible,
-    //   };
-    return {};
-  },
+  // setup() {
+  //   const container = ref(null);
+  //   const { x, y, top, right, bottom, left, width, height } =
+  //     useElementBounding(container);
+  //   const windowHeight = useWindowSize().height;
+  //   const windowWidth = useWindowSize().width;
+  //   const isVisible = computed(() => {
+  //     let calcOffset = height.value * 0.5 > 200 ? 200 : height.value * 0.5;
+  //     return (
+  //       y.value <
+  //       windowHeight.value - (windowWidth.value > 768 ? calcOffset : 150)
+  //     );
+  //   });
+  //   return {
+  //     container,
+  //     y,
+  //     height,
+  //     windowHeight,
+  //     isVisible,
+  //   };
+  // },
   data() {
     return {
       visited: false,
