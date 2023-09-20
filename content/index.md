@@ -52,7 +52,7 @@ Dostarczamy optymalne produkty cyfrowe. Jesteśmy ciekawi Twoich potrzeb - to on
 
 :::block-offer-tiles-md
 ::::offer-tile-md
---- 
+---
 icon: '/img/icons/store.png'
 bgIcon: '/img/icons/store_bgIcon.png'
 link: 'https://www.webo.agency/uslugi/sklepy-internetowe'
@@ -65,7 +65,7 @@ E-commerce z płynnym procesem zakupowym, dostosowany do potrzeb Twojej firmy. T
 ::::
 
 ::::offer-tile-md
---- 
+---
 icon: '/img/icons/site.png'
 bgIcon: '/img/icons/site_bgIcon.png'
 link: 'https://www.webo.agency/uslugi/strony-internetowe'
@@ -79,7 +79,7 @@ Kreujemy szybkie nowoczesne i funkcjonalne strony internetowe, na których Twój
 ::::
 
 ::::offer-tile-md
---- 
+---
 icon: '/img/icons/apps.png'
 bgIcon: '/img/icons/apps_bgIcon.png'
 link: ''
@@ -93,7 +93,7 @@ Dedykowane do specjalnych zastosowań w Twojej firmie. Przyjazne dla użytkownik
 ::::
 
 ::::offer-tile-md
---- 
+---
 icon: '/img/icons/pwa.png'
 bgIcon: '/img/icons/pwa_bgIcon.png'
 link: 'https://www.webo.agency/uslugi/strony-headless-pwa'
@@ -107,7 +107,7 @@ Wykonane w nowych technologiach, dostarczające maksimum wydajności zapewniają
 ::::
 
 ::::offer-tile-md
---- 
+---
 icon: '/img/icons/support.png'
 link: 'https://www.webo.agency/uslugi/wsparcie-i-rozwoj'
 delay: 4
@@ -118,7 +118,7 @@ delay: 4
 ::::
 
 ::::offer-tile-md
---- 
+---
 icon: '/img/icons/uxui.png'
 link: ''
 delay: 5
@@ -252,7 +252,7 @@ class: w-full mb-[100px] tablet:mb-[200px] bg-gray-light
 :::block-columns-img-md
 ---
 image.url: '/img/content-images/1solutions.png'
-imageMobile.url: '/img/content-images/1solutions_mobile.png' 
+imageMobile.url: '/img/content-images/1solutions_mobile.png'
 ---
 #subtitle
 *3/* Skalowalne rozwiązania
@@ -420,7 +420,7 @@ delay: 0
 ##### Realizujemy cele biznesowe
 
 #description
-Jako partner technologiczny przed rozpoczęciem projektu analizujemy Twoje założenia biznesowe- to one są najważniejsze.
+Jako partner technologiczny przed rozpoczęciem projektu analizujemy Twoje założenia biznesowe - to one są najważniejsze.
 
 ::::
 ::::icon-tile-md
@@ -617,7 +617,7 @@ Adam Przebinda
 Członek zarządu - **DeltaHR**
 
 #message
-Bardzo profesjonalna firma, indywidualne podejście do klienta, **dobry i ciągły kontakt** co pozwala na bieżąco kontrolować pracę nad projektem. **Każdy szczegół dopracowany** dokładnie tak jak tego oczekiwałem, śmiało i z czystym sumieniem mogę polecić. **Wiedza, podejście do klienta, czas realizacji** - wszystko 10/10. 
+Bardzo profesjonalna firma, indywidualne podejście do klienta, **dobry i ciągły kontakt** co pozwala na bieżąco kontrolować pracę nad projektem. **Każdy szczegół dopracowany** dokładnie tak jak tego oczekiwałem, śmiało i z czystym sumieniem mogę polecić. **Wiedza, podejście do klienta, czas realizacji** - wszystko 10/10.
 
 :::::
 ::::
