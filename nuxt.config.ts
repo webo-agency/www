@@ -33,36 +33,7 @@ export default {
     join(currentDir, "./assets/css/main.css"),
   ],
   plugins: [join(currentDir, "./plugins/textformatter.js")],
-  modules: [
-    "@nuxt/content",
-    "@nuxt/image",
-    "@nuxtjs/tailwindcss",
-    [
-      "@nuxtjs/i18n",
-      {
-        differentDomains: process.env.NODE_ENV === "production",
-        fallbackLocale: "en",
-        defaultLocale: "en",
-        noPrefixDefaultLocale: true,
-        strategy: "no_prefix",
-        detectBrowserLanguage: false,
-        locales: [
-          {
-            code: "pl",
-            iso: "pl-PL",
-            domain: "https://webo.pl/",
-            name: "Polski",
-          },
-          {
-            code: "en",
-            iso: "en-US",
-            domain: "https://webo.agency/",
-            name: "English",
-          },
-        ],
-      },
-    ],
-  ],
+  modules: ["@nuxt/content", "@nuxt/image", "@nuxtjs/tailwindcss"],
   // unocss: {
   //   autoImport: true,
   //   uno: true, // enabled `@unocss/preset-uno`

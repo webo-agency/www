@@ -26,10 +26,8 @@
     "deploy": "npx nuxi generate"
   },
   "dependencies": {
-    "@bugsnag/plugin-aws-lambda": "^7.18.0",
     "@nuxt/content": "^2.8.2",
     "@nuxt/image": "^1.0.0-rc.2",
-    "@nuxtjs/i18n": "8.0.0-rc.4",
     "@nuxtjs/tailwindcss": "^6.1.3",
     "@unocss/nuxt": "^0.46.5",
     "@unocss/transformer-directives": "^0.46.5",
@@ -44,7 +42,6 @@
     "markdown-it-ins": "^3.0.1",
     "node-fetch": "^3.3.1",
     "nuxt": "3.7.3",
-    "nuxt-bugsnag": "^7.0.0",
     "sitemap": "^7.1.1",
     "swiper": "^8.4.5"
   },
