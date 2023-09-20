@@ -137,7 +137,7 @@ class: mb-[100px] tablet:mb-[200px]
 :::effect-appear-md
 ::::block-cta-md
 ---
-button.link: 'https://www.webo.agency/kontakt'
+button.link: https://www.webo.agency/kontakt
 button.title: 'Skontaktuj się'
 ---
 
@@ -244,8 +244,6 @@ Po Twojej akceptacji publikujemy stronę www, następnie rozwijamy ją w ramach 
 ::::
 :::
 ::
-
-<!--
 
 ::page-section-md
 ---
@@ -538,7 +536,6 @@ symbol: '%'
 :::
 ::
 
-
 ::page-section-md
 ---
 id: opinie
@@ -627,6 +624,7 @@ Bardzo profesjonalna firma, indywidualne podejście do klienta, **dobry i ciąg�
 :::
 ::
 
+
 ::page-section-md
 ---
 class: mb-[50px] tablet:mb-[100px]
@@ -647,4 +645,3 @@ button.title: 'Skontaktuj się'
 ::::
 :::
 ::
--->

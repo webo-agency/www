@@ -56,10 +56,9 @@ export default {
     },
   },
   mounted() {
-    this.$nextTick(() => {
+    setTimeout(() => {
       this.checkAfterMount();
-    });
-    // }, 200);
+    }, 200);
   },
   methods: {
     checkAfterMount() {

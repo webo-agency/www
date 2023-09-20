@@ -1,50 +1,52 @@
 <template>
   <li class="basis-full tablet-small:basis-1/2 desktop:basis-1/3">
-    <div
-      ref="container"
-      class="tile max-w-md tablet-small:mr-[75px] mb-10 desktop:mb-16 group"
-      :class="{ 'flex flex-wrap items-center': iconInline }"
-    >
+    <EffectAppearMdc :delay="delay ? delay * 100 : 0">
       <div
-        class="w-[40px] h-[40px] desktop:w-[60px] desktop:h-[60px]"
-        :class="iconInline ? 'shrink-0 mb-5 mr-5' : 'mb-2.5 '"
+        ref="container"
+        class="tile max-w-md tablet-small:mr-[75px] mb-10 desktop:mb-16 group"
+        :class="{ 'flex flex-wrap items-center': iconInline }"
       >
-        <nuxt-picture
-          class="block shrink-0 w-full h-full overflow-hidden object-contain p-[5px] desktop:p-2.5 rounded-[5px] bg-green-light"
-          v-if="iconUrl"
-          :src="iconUrl"
-          :imgAttrs="{ class: 'w-full h-full object-contain' }"
-        />
-      </div>
+        <div
+          class="w-[40px] h-[40px] desktop:w-[60px] desktop:h-[60px]"
+          :class="iconInline ? 'shrink-0 mb-5 mr-5' : 'mb-2.5 '"
+        >
+          <nuxt-picture
+            class="block shrink-0 w-full h-full overflow-hidden object-contain p-[5px] desktop:p-2.5 rounded-[5px] bg-green-light"
+            v-if="iconUrl"
+            :src="iconUrl"
+            :imgAttrs="{ class: 'w-full h-full object-contain' }"
+          />
+        </div>
 
-      <div
-        v-if="$slots.title"
-        class="max-w-sm text-lg desktop:text-xl font-semibold"
-        :class="
-          iconInline
-            ? 'basis-[calc(100%_-_60px)] tablet:basis-[calc(100%_-_80px)] mb-5'
-            : 'mb-5 '
-        "
-      >
-        <ContentSlot :use="$slots.title" />
+        <div
+          v-if="$slots.title"
+          class="max-w-sm text-lg desktop:text-xl font-semibold"
+          :class="
+            iconInline
+              ? 'basis-[calc(100%_-_60px)] tablet:basis-[calc(100%_-_80px)] mb-5'
+              : 'mb-5 '
+          "
+        >
+          <ContentSlot :use="$slots.title" />
+        </div>
+        <div
+          v-if="$slots.description"
+          class="w-full mb-5 desktop:mb-[30px] leading-7 text-sm desktop:text-base font-normal"
+        >
+          <ContentSlot :use="$slots.description" />
+        </div>
+        <div
+          v-if="line"
+          class="line relative w-[135px] h-0.5 rounded-full bg-gray-light overflow-hidden"
+          :class="{ active: focusActive }"
+        ></div>
       </div>
-      <div
-        v-if="$slots.description"
-        class="w-full mb-5 desktop:mb-[30px] leading-7 text-sm desktop:text-base font-normal"
-      >
-        <ContentSlot :use="$slots.description" />
-      </div>
-      <div
-        v-if="line"
-        class="line relative w-[135px] h-0.5 rounded-full bg-gray-light overflow-hidden"
-        :class="{ active: focusActive }"
-      ></div>
-    </div>
+    </EffectAppearMdc>
   </li>
 </template>
 
 <script>
-// import EffectAppearMdc from "./effect-appear-md.vue";
+import EffectAppearMdc from "./effect-appear-md.vue";
 import { computed, ref } from "vue";
 import { useElementBounding, useWindowSize } from "@vueuse/core";
 

@@ -51,9 +51,9 @@ export default {
     },
   },
   mounted() {
-    this.$nextTick(() => {
+    setTimeout(() => {
       this.isMounted = true;
-    });
+    }, 500);
   },
   methods: {
     scrollDown() {

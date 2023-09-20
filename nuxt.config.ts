@@ -60,6 +60,9 @@ export default {
       appVersion: appManifest.version,
     },
   },
+  vueuse: {
+    ssrHandlers: true,
+  },
   // pwa: {
   //   manifest: {
   //     lang: "en",
