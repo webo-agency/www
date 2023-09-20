@@ -28,9 +28,12 @@ export default {
     const windowHeight = useWindowSize().height;
     const windowWidth = useWindowSize().width;
     const isVisible = computed(() => {
-      let calcOffset = height.value * 0.5 > 200 ? 200 : height.value * 0.5
-        
-      return y.value < windowHeight.value - (windowWidth.value > 768 ? calcOffset : 150);
+      let calcOffset = height.value * 0.5 > 200 ? 200 : height.value * 0.5;
+
+      return (
+        y.value <
+        windowHeight.value - (windowWidth.value > 768 ? calcOffset : 150)
+      );
     });
     return {
       container,
@@ -53,9 +56,9 @@ export default {
     },
   },
   mounted() {
-    setTimeout(() => {
-      this.checkAfterMount();
-    }, 200);
+    // setTimeout(() => {
+    this.checkAfterMount();
+    // }, 200);
   },
   methods: {
     checkAfterMount() {
@@ -67,7 +70,7 @@ export default {
 };
 </script>
 
-<style  lang="postcss" scoped>
+<style lang="postcss" scoped>
 @media only screen and (max-width: 767px) {
   .desktop-delay :deep() {
     @apply !delay-[0s];
