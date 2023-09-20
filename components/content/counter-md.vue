@@ -55,9 +55,9 @@ export default {
       if (this.value < this.target) {
         this.value = Math.round(this.value * 10000) / 10000 + increment;
         this.displayValue = Math.trunc(this.value);
-        this.$nextTick(() => {
+        setTimeout(() => {
           this.updateCounter();
-        });
+        }, 10);
       }
     },
   },
