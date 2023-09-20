@@ -1,6 +1,10 @@
+import { fileURLToPath } from "url";
+import { dirname, join } from "path";
 var appManifest = require("./package.json");
 
 require("dotenv").config();
+
+const currentDir = dirname(fileURLToPath(import.meta.url));
 
 const API_URL = process.env.API_URL;
 const API_AFFIX = process.env.API_AFFIX;
@@ -24,12 +28,14 @@ export default {
     pageTransition: { name: "page", mode: "out-in" },
   },
   components: true,
-  css: ["assets/css/style.css", "assets/css/main.css"],
-  plugins: ["plugins/textformatter.js"],
+  css: [
+    join(currentDir, "./assets/css/style.css"),
+    join(currentDir, "./assets/css/main.css"),
+  ],
+  plugins: [join(currentDir, "./plugins/textformatter.js")],
   modules: [
     "@nuxt/content",
     "@nuxt/image",
-    "nuxt-bugsnag",
     "@nuxtjs/tailwindcss",
     [
       "@nuxtjs/i18n",
@@ -38,7 +44,7 @@ export default {
         fallbackLocale: "en",
         defaultLocale: "en",
         noPrefixDefaultLocale: true,
-        strategy: "prefix_and_default",
+        strategy: "no_prefix",
         detectBrowserLanguage: false,
         locales: [
           {
