@@ -21,7 +21,7 @@ export default {
       default: 0,
     },
   },
-  setup() {
+  async setup() {
     const container = ref(null);
     const { x, y, top, right, bottom, left, width, height } =
       useElementBounding(container);

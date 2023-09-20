@@ -62,7 +62,7 @@ export default {
     },
   },
   components: { EffectAppearMdc },
-  setup() {
+  async setup() {
     const container = ref(null);
     const { x, y, top, right, bottom, left, width, height } =
       useElementBounding(container);
