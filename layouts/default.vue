@@ -38,66 +38,65 @@ const headData = settings.value.head
 
 const navItems = formatNavItems(navItemsRaw.value,0) 
 
-  useHead({
-    title: 'Webo - Cyfrowy partner',
-    meta: [
-      {
-        hid: "description",
-        name: "description",
-        content:
-          "Rozwiązania cyfrowe takie jak strony web czy projektowanie budowane w myśl procesu agile",
-      },
-      { name: "msapplication-TileColor", content: "#da532c" },
-      { name: "msapplication-TileImage", content: "/mstile-150x150.png" },
-      { name: "theme-color", content: "#ffffff" },
-      { name: "robots", content: "INDEX,FOLLOW" },
-    ],
-    script: [
-      // { src: `https://polyfill.io/v3/polyfill.min.js?features=${features}&flags=gated`, body: true, async: true, defer: true  },
-    ],
-    link: [
-      {
-        rel: "icon",
-        type: "image/x-icon",
-        href: "/img/favicon/favicon.ico",
-      },
-      {
-        rel: "apple-touch-icon",
-        sizes: "180x180",
-        href: "/img/favicon/apple-touch-icon.png",
-      },
-      {
-        rel: "icon",
-        type: "image/png",
-        sizes: "32x32",
-        href: "/img/favicon/favicon-32x32.png",
-      },
-      {
-        rel: "icon",
-        type: "image/png",
-        sizes: "16x16",
-        href: "/img/favicon/favicon-16x16.png",
-      },
-      {
-        rel: "mask-icon",
-        href: "/favicon/safari-pinned-tab.svg",
-        color: "#07e7c4",
-      },
-      {
-        rel: "preconnect",
-        href: "https://fonts.gstatic.com",
-        crossorigin: true,
-      },
-      {
-        rel: "preconnect",
-        href: "https://fonts.googleapis.com",
-      },
-      {
-        rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&subset=latin,latin-ext&display=swap",
-      },
-    ],
+useServerSeoMeta({
+    title: headData.title,
+    description: headData.description,
+    ogDescription: headData.description,
   });
+
+useHead({
+  meta: [
+    { name: "msapplication-TileColor", content: "#da532c" },
+    { name: "msapplication-TileImage", content: "/mstile-150x150.png" },
+    { name: "theme-color", content: "#ffffff" },
+    { name: "robots", content: "INDEX,FOLLOW" },
+  ],
+  script: [
+    // { src: `https://polyfill.io/v3/polyfill.min.js?features=${features}&flags=gated`, body: true, async: true, defer: true  },
+  ],
+  link: [
+    {
+      rel: "icon",
+      type: "image/x-icon",
+      href: "/img/favicon/favicon.ico",
+    },
+    {
+      rel: "apple-touch-icon",
+      sizes: "180x180",
+      href: "/img/favicon/apple-touch-icon.png",
+    },
+    {
+      rel: "icon",
+      type: "image/png",
+      sizes: "32x32",
+      href: "/img/favicon/favicon-32x32.png",
+    },
+    {
+      rel: "icon",
+      type: "image/png",
+      sizes: "16x16",
+      href: "/img/favicon/favicon-16x16.png",
+    },
+    {
+      rel: "mask-icon",
+      href: "/favicon/safari-pinned-tab.svg",
+      color: "#07e7c4",
+    },
+    {
+      rel: "preconnect",
+      href: "https://fonts.gstatic.com",
+      crossorigin: true,
+    },
+    {
+      rel: "preconnect",
+      href: "https://fonts.googleapis.com",
+    },
+    {
+      rel: "stylesheet",
+      href: "https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&subset=latin,latin-ext&display=swap",
+    },
+  ],
+})
 
 </script>
 
