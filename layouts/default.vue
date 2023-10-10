@@ -1,7 +1,7 @@
 <template>
   <div class="h-full font-body">
     <LayoutNavbar
-      :menu="navbarData.menu"
+      :menu="navItems"
       :socials="generalData.socials"
       :clutchLink="generalData.clutchLink"
     />
@@ -30,11 +30,13 @@
 <script setup>
 
 const { data:settings } = await  useAsyncData(() => queryContent().where({_file: "_settings.md"}).findOne()) 
+const { data:navItemsRaw } = await  useAsyncData(() => queryContent().where({showInNav: true}).find()) 
 
 const footerData = settings.value.footer
-const navbarData = settings.value.navbar
 const generalData = settings.value.general
 const headData = settings.value.head
+
+const navItems = formatNavItems(navItemsRaw.value,0) 
 
   useHead({
     title: 'Webo - Cyfrowy partner',

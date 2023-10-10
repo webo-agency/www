@@ -1,3 +1,7 @@
+---
+name: O nas
+showInNav: true
+---
 ::block-banner-md
 ---
 bgUrl: './img/contact_bg.png'

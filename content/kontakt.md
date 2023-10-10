@@ -1,3 +1,8 @@
+---
+name: Napisz do nas
+showInNav: true
+navButton: true
+---
 ::block-banner-md
 ---
 bgUrl: './img/contact_bg.png'

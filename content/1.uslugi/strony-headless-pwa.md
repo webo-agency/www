@@ -1,3 +1,10 @@
+---
+name: Strony HeadlessPWA
+description: Nowa technologia -  maksimum wydajności i bezpieczeństwa.
+showInNav: true
+draft: false
+public: true
+---
 ::block-banner-md
 ---
 bgUrl: './img/services-headless.png'

@@ -1,3 +1,10 @@
+---
+name: Strony www
+description: Strony na których Twój klient szybko znajdzie to czego szuka..
+showInNav: true
+draft: false
+public: true
+---
 ::block-banner-md
 ---
 bgUrl: './img/services-websites.png'

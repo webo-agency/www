@@ -1,3 +1,10 @@
+---
+name: Wsparcie i rozwój
+description: Wsparcie techniczne i rozwój Twojej strony / sklepu internetowego.
+showInNav: true
+draft: false
+public: true
+---
 ::block-banner-md
 ---
 bgUrl: './img/services-support.png'

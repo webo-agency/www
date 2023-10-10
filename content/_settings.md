@@ -1,36 +1,4 @@
 ---
-navbar:
-    menu:
-        - name: Usługi
-          link: https://www.webo.agency/#uslugi
-          menu:
-            title: 'Wybierz usługę, którą jesteś zainteresowany'
-            links:
-                - link: https://www.webo.agency/uslugi/sklepy-internetowe
-                  name: Sklepy internetowe
-                  description: Łatwe w obsłudze sklepy internetowe z płynnym procesem sprzedaży.
-                - link: https://www.webo.agency/uslugi/strony-internetowe
-                  name: Strony www
-                  description: Strony na których Twój klient szybko znajdzie to czego szuka..
-                - link: ''
-                  name: Aplikacje internetowe
-                  description: Dedykowane do specjalnych zastosowań w Twojej firmie.
-                - link: https://www.webo.agency/uslugi/strony-headless-pwa
-                  name: Strony HeadlessPWA
-                  description: Nowa technologia -  maksimum wydajności i bezpieczeństwa.
-                - link: https://www.webo.agency/uslugi/wsparcie-i-rozwoj
-                  name: Wsparcie i rozwój
-                  description: Wsparcie techniczne i rozwój Twojej strony / sklepu internetowego.
-                - link: ''
-                  name: Projektowanie UX/UI
-                  description: Projektowanie stron i sklepów skoncentrowane na użytkowniku.
-        - name: O nas
-          link: https://www.webo.agency/o-nas
-        - name: Realizacje
-          link: https://www.webo.agency/realizacje
-        - name: Napisz do nas
-          link: https://www.webo.agency/kontakt
-          button: true
 footer:
     privacyPolicyLink: https://www.webo.agency/polityka-prywatnosci
     privacyPolicyTitle: Polityka prywatności
