@@ -27,7 +27,7 @@ footer:
         - title: Kontakt
           link: https://www.webo.agency/kontakt
 general:
-    lang: ENG
+    lang: EN
     brandName: Webo agency
     address: ul. Lipowa 58C, 44-100 Gliwice
     mail: info@webo.agency

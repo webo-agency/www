@@ -33,8 +33,46 @@
 
 <script setup>
 const currLang = useState("lang");
-const languages = ["PL", "ENG"];
+const languages = ["PL", "EN"];
+
 const langList = computed(() =>
   languages.filter((lang) => lang != currLang.value)
 );
+
+watch(currLang,async (selectedLang) => {
+  const path = await getLocalePath(selectedLang)
+  console.log(path);
+  // if (window) {
+  //   window.location.href = path
+  // }
+
+})
+
+async function getLocalePath(locale){
+  const domains = {
+    PL: 'https://webo.pl',
+    EN: 'https://webo.agency'
+  }
+  const route = useRoute()
+  const routeClear = route.fullPath.split('#')[0]
+  const pageData = await queryContent().where({_path: routeClear}).findOne()
+  const pageDataLocales = pageData?.hreflangs
+  const domainLocale = domains[locale] 
+  
+  if (!domainLocale) {
+    return  '/'
+  }
+
+  if (!pageDataLocales) {
+    return domainLocale + '/'
+  }
+
+  let path = pageDataLocales[locale]
+
+  if (!path) {
+    return domainLocale + '/'
+  }
+
+  return domainLocale + path 
+}
 </script>
