@@ -36,7 +36,8 @@ const footerData = settings.value.footer
 const generalData = settings.value.general
 const headData = settings.value.head
 
-const navItems = formatNavItems(navItemsRaw.value,0) 
+const navItems = formatNavItems(navItemsRaw.value,0)
+const currLang = useState("lang", () => generalData.lange ?? "ENG");
 
 useServerSeoMeta({
     title: headData.title,
