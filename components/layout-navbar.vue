@@ -78,7 +78,7 @@
           />
         </div>
         <div
-          class="flex flex-col justify-between desktop:justify-center h-full scrollbar-none overflow-y-auto"
+          class="flex flex-col justify-between desktop:justify-center h-full scrollbar-none overflow-y-auto desktop:overflow-visible"
         >
           <ul
             class="shrink-0 flex flex-col desktop:flex-row desktop:items-center my-10 desktop:my-0"
@@ -204,6 +204,9 @@
                   </ul>
                 </div>
               </div>
+            </li>
+            <li>
+              <LangSwitcher/>
             </li>
           </ul>
           <div
@@ -356,7 +359,7 @@ export default {
       this.isTransparent = false;
     }
 
-    this.onWidthChange()
+    this.onWidthChange();
 
     window.addEventListener("resize", this.onWidthChange);
   },
