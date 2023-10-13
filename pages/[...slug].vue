@@ -58,17 +58,19 @@
     </div>
 </template>
   
-<script setup>
+<script async setup>
 const route = useRoute()
 const { data: pageData } = await useAsyncData('page-data', () => queryContent(route.path).findOne(),{
-  server: true
+  server: true,
+  initialCache: false
 })
 
 const hrefLangs = useState("hrefLangs",() => getPageLangs(pageData.value));
 
 watch(pageData,(newPageData)=>{
   hrefLangs.value = getPageLangs(newPageData)
-})
+  console.log('nowo storna',hrefLangs.value);
+},{deep: true, immediate: true})
 
 const alternateLinks = computed(()=>{
   return hrefLangs.value.map(lang=>{
