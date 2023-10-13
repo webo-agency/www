@@ -69,7 +69,6 @@ const hrefLangs = useState("hrefLangs",() => getPageLangs(pageData.value));
 
 watch(pageData,(newPageData)=>{
   hrefLangs.value = getPageLangs(newPageData)
-  console.log('nowo storna',hrefLangs.value);
 },{deep: true, immediate: true})
 
 const alternateLinks = computed(()=>{
