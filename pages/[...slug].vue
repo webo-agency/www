@@ -11,7 +11,7 @@
                 :title="'Back to home'"
               ></ButtonMain>
             </div>
-          </PageSection>
+            </PageSection>
         </template>
       </ContentDoc>
       <PageSection classes="mb-20 tablet:mb-[130px]">
@@ -56,4 +56,32 @@
         </template>
       </PageSection>
     </div>
-  </template>
+</template>
+  
+<script setup>
+const route = useRoute()
+const { data: pageData } = await useAsyncData('page-data', () => queryContent(route.path).findOne(),{
+  server: true
+})
+
+const hrefLangs = useState("hrefLangs",() => getPageLangs(pageData.value));
+
+watch(pageData,(newPageData)=>{
+  hrefLangs.value = getPageLangs(newPageData)
+})
+
+const alternateLinks = computed(()=>{
+  return hrefLangs.value.map(lang=>{
+    return {
+      rel:'alternate',
+      href: lang.href,
+      hreflang: lang.hreflang,
+    }
+  })
+})
+
+useHead({
+  link: alternateLinks
+})
+
+</script>
