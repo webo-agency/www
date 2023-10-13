@@ -37,8 +37,9 @@
 </template>
 
 <script setup>
+const route = useRoute()
 const currLang = useState("lang");
-const hrefLangs = useState("hrefLangs");
+const hrefLangs = useState("hrefLangs"+route.fullPath.split('#')[0]);
 const locales = {
   "PL":'pl-PL',
   "EN":'en-US'

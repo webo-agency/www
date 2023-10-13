@@ -60,16 +60,11 @@
   
 <script async setup>
 const route = useRoute()
-const { data: pageData } = await useAsyncData('page-data', () => queryContent(route.path).findOne(),{
+const { data: pageData } = await useAsyncData('page-data-'+route.fullPath.split('#')[0],() => queryContent(route.path).findOne(),{
   server: true,
-  initialCache: false
 })
-
-const hrefLangs = useState("hrefLangs",() => getPageLangs(pageData.value));
-
-watch(pageData,(newPageData)=>{
-  hrefLangs.value = getPageLangs(newPageData)
-},{deep: true, immediate: true})
+const hrefLangs = computed(()=> getPageLangs(pageData.value.hreflangs));
+const hrefLangsState = useState("hrefLangs"+route.fullPath.split('#')[0],() => hrefLangs.value);
 
 const alternateLinks = computed(()=>{
   return hrefLangs.value.map(lang=>{

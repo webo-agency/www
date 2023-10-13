@@ -14,8 +14,7 @@ const domains = {
   EN: "https://webo.agency",
 };
 
-export default function getPageLangs(pageData: any) {
-  const hreflangs = pageData.hreflangs;
+export default function getPageLangs(hreflangs: any) {
   if (!hreflangs) {
     return [];
   }
