@@ -365,8 +365,9 @@ linktitle: Zobacz więcej projektów
 :::effect-appear-md
 ::::block-cases-slider-md
 ---
-techFilters:
-    - Nuxt
+selectedSlugs:
+    - isw
+    - 5gmadetogether
 ---
 
 ::::

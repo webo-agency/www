@@ -63,24 +63,31 @@ export default {
     techFilters:{
       type: Array,
       default: []
+    },
+    selectedSlugs:{
+      type: Array,
+      default: []
     }
   },
   methods:{
     checkCaseVisibility(case_page){
 
-      if (this.techFilters.length === 0) {
-        return this.checkHomepageVisibility(case_page.homepage_hidden)
-      }
-
-      if (this.checkHomepageVisibility(case_page.homepage_hidden) && this.checkTechFilters(case_page.technologies)) {
-        return true
-      }
-
-      return false
+      return this.checkHomepageVisibility(case_page.homepage_hidden) 
+          && this.checkTechFilters(case_page.technologies) 
+          && this.checkSelectedSlugs(case_page)
     },
 
+    checkSelectedSlugs(case_page){
+      if (this.selectedSlugs.length == 0) return true
+        
+      const selectedPaths = this.selectedSlugs.map(slug => `/${case_page._dir}/${slug}`)
+      return selectedPaths.includes(case_page._path)
+    },
 
     checkTechFilters(caseTechnologies){
+
+      if(this.techFilters.length == 0) return true
+
       if (caseTechnologies === undefined) {
         return false
       }
