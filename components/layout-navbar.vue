@@ -78,17 +78,17 @@
           />
         </div>
         <div
-          class="flex flex-col justify-between desktop:justify-center h-full scrollbar-none overflow-y-auto"
+          class="flex flex-col justify-between desktop:justify-center h-full scrollbar-none overflow-y-auto desktop:overflow-visible"
         >
           <ul
-            class="shrink-0 flex flex-col desktop:flex-row desktop:items-center my-10 desktop:my-0"
+            class="shrink-0 flex flex-col desktop:flex-row desktop:items-center desktop:gap-[26px] my-10 desktop:my-0"
           >
             <li
               v-for="(item, index) in menu"
               :key="index"
-              class="w-full desktop:w-auto mb-2 desktop:mb-0 mr-[26px] last:mr-0 rounded-[5px] font-semibold overflow-hidden transition-[transform,opacity] duration-300"
+              class="w-full desktop:w-auto mb-2 desktop:mb-0  rounded-[5px] font-semibold overflow-hidden transition-[transform,opacity] duration-300"
               :class="[
-                { 'text-green-main': hoverItem == item.name },
+                { 'text-green-main desktop:[&_.collapse-icon]:rotate-180': hoverItem == item.name },
                 {
                   '-translate-x-full desktop:translate-x-0 opacity-0':
                     !mobileExpanded && !isLargeScreen,
@@ -103,6 +103,9 @@
                       ? (menu.length - index) * 40 + 'ms'
                       : '',
                 },
+                {
+                  order: index*2
+                }
               ]"
               @mouseover="
                 item.menu
@@ -139,7 +142,7 @@
                 <div
                   class="prose"
                   v-html="item.name"
-                  :class="item.button ? 'z-10 text-base leading-5' : ' text-lg'"
+                  :class="[item.button ? 'z-10 text-base leading-5' : ' text-lg',{'desktop:pr-8':item.menu}]"
                 ></div>
                 <span
                   v-if="item.button"
@@ -154,11 +157,11 @@
                 v-if="item.menu"
               >
                 <div
-                  class="absolute right-0 z-20 -top-10 w-10 h-10 flex justify-center items-center desktop:hidden text-gray-darker"
+                  class="absolute right-0 desktop:right-2 z-20 -top-10 desktop:top-[-46px] w-10 h-10 flex justify-center items-center desktop:pointer-events-none text-gray-darker desktop:text-inherit"
                   @click="toggleCollapse(index)"
                 >
                   <svg
-                    class="collapse-icon transition duration-300 fill-current"
+                    class="collapse-icon transition duration-300 desktop:transition-transform fill-current text-inherit"
                     width="15"
                     height="8"
                     viewBox="0 0 10 6"
@@ -166,7 +169,6 @@
                   >
                     <path
                       d="M9.15962 -3.67343e-08L10 0.840384L5 5.84046L-3.67343e-08 0.840383L0.840383 -4.0038e-07L5 4.21488L9.15962 -3.67343e-08Z"
-                      fill="#212121"
                     />
                   </svg>
                 </div>
@@ -204,6 +206,30 @@
                   </ul>
                 </div>
               </div>
+            </li>
+            <li 
+                class="mb-2 desktop:mb-0 transition-[transform,opacity] duration-300 order-[9999]"
+                :class="{
+                  '-translate-x-full desktop:translate-x-0 opacity-0':
+                    !mobileExpanded && !isLargeScreen,
+                }"
+                :style="[
+                  {
+                    'transition-delay':
+                      mobileExpanded && !isLargeScreen
+                        ? menu.length * 60 + 'ms'
+                        : !mobileExpanded && !isLargeScreen
+                          ? '0ms'
+                          : '',
+                  },
+                  {
+                    order: isLargeScreen && menu.length > 0
+                     ? (menu.length - 1) * 2 - 1
+                     : '9999'
+                  }
+                ]"
+>
+              <LangSwitcher/>
             </li>
           </ul>
           <div
@@ -356,7 +382,7 @@ export default {
       this.isTransparent = false;
     }
 
-    this.onWidthChange()
+    this.onWidthChange();
 
     window.addEventListener("resize", this.onWidthChange);
   },

@@ -1,3 +1,8 @@
+---
+hreflangs:
+    EN: '/'
+    PL: '/'
+---
 ::block-hero-md
 ---
 button.title: Rozpocznij projekt
