@@ -648,6 +648,13 @@ linktitle: Zobacz więcej projektów
 #full
 :::effect-appear-md
 ::::block-cases-slider-md
+---
+selectedSlugs:
+    - feeby
+    - mancraft
+    - oravio
+---
+
 :::::case-tile-md
 ---
 image.url: '/img/case-studies/IS-Wireless.jpg'
