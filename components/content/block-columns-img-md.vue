@@ -43,6 +43,7 @@
               ? 'block tablet-wide:hidden'
               : 'block tablet-wide:pt-0'
           "
+          :imgAttrs="{class: 'w-full'}"
           :src="imageMobile.url"
           :title="imageMobile.title ? imageMobile.title : ''"
           :alt="imageMobile.alt ? imageMobile.alt : 'WEBO image'"

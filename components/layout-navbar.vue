@@ -6,7 +6,7 @@
     }"
   >
     <div
-      class="absolute desktop:hidden top-0 left-0 h-screen w-screen bg-black/50 pointer-events-none transition duration-500"
+      class="absolute desktop:hidden top-0 left-0 h-d-screen w-screen bg-black/50 pointer-events-none transition duration-500"
       :class="{ 'opacity-0': !mobileExpanded || isLargeScreen }"
     ></div>
 
@@ -20,7 +20,7 @@
           'bg-white shadow-lg shadow-gray-dark/[0.02] border-b-white':
             !isTransparent || mobileExpanded,
         },
-        mobileExpanded ? 'h-screen ' : 'h-[60px] desktop:h-[94px]',
+        mobileExpanded ? 'h-d-screen ' : 'h-[60px] desktop:h-[94px]',
       ]"
     >
       <div

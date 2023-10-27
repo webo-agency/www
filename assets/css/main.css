@@ -9,6 +9,10 @@
 }
 
 @layer utilities{
+    .h-d-screen {
+        height: 100vh;
+        height: 100dvh;
+    }
     .text-outline{
         text-shadow:
         -1px -1px 0 rgb(7 231 196),  
