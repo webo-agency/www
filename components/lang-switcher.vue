@@ -39,7 +39,6 @@
 <script setup>
 const route = useRoute()
 const currLang = useState("lang");
-const hrefLangs = useState("hrefLangs"+route.fullPath.split('#')[0]);
 const locales = {
   "PL":'pl-PL',
   "EN":'en-US'
@@ -58,6 +57,7 @@ watch(currLang, (newLang) => {
 })
 
 function toggleLink(lang){
+  const hrefLangs = useState("hrefLangs"+route.fullPath.split('#')[0]);
   const domains = {
     PL: "https://webo.pl",
     EN: "https://webo.agency",
