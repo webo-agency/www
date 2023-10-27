@@ -37,7 +37,7 @@ const generalData = settings.value.general
 const headData = settings.value.head
 
 const navItems = formatNavItems(navItemsRaw.value,0)
-const currLang = useState("lang", () => generalData.lange ?? "EN");
+const currLang = useState("lang", () => generalData.lang ?? "EN");
 
 useServerSeoMeta({
     title: headData.title,
