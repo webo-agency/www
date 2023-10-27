@@ -2,7 +2,7 @@
   <div class="relative group w-fit text-center">
     <div class="flex gap-2.5 items-center py-3 desktop:p-3 cursor-pointer">
       <span
-        class="shrink-0 block text-inherit text-lg font-semibold transition duration-300 group-hover:text-green-main"
+        class="shrink-0 block text-inherit text-lg desktop:text-base font-semibold transition duration-300 group-hover:text-green-main"
         >{{ currLang }}</span
       >
       <svg class="shrink-0 transition duration-300 fill-current group-hover:text-green-main group-hover:!rotate-180"
