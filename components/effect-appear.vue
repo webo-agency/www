@@ -2,7 +2,7 @@
   <div
     ref="container"
     class="effect transition duration-500"
-    :class="[{ 'opacity-0 translate-y-2.5': !visited && toggleOpacity },{'active':isInCenter}]"
+    :class="{ 'opacity-0 translate-y-2.5': !visited && toggleOpacity, 'active':isInCenter}"
     :style="{ 'transition-delay': delay + 'ms' }"
   >
     <slot></slot>
@@ -25,7 +25,7 @@ export default {
       default: 0,
     },
   },
-  setup() {
+  async setup() {
     const container = ref(null);
     const { x, y, top, right, bottom, left, width, height } =
       useElementBounding(container);
@@ -33,12 +33,12 @@ export default {
     const isVisible = computed(() => {
       return y.value < windowHeight.value - height.value * 0.5;
     });
-    const isInCenter = computed(()=>{
+    const isInWindowCenter = computed(()=>{
       return windowHeight.value / 2 - (height.value + 36) < y.value &&
         y.value < windowHeight.value / 2;
     })
     return {
-      isInCenter,
+      isInWindowCenter,
       container,
       y,
       height,
@@ -49,6 +49,7 @@ export default {
   data() {
     return {
       visited: false,
+      isInCenter: false
     };
   },
   watch: {
@@ -57,11 +58,16 @@ export default {
         this.visited = true;
       }
     },
+    isInWindowCenter(value){
+      if (value != undefined) {
+        this.isInCenter = value
+      }
+    }
   },
   mounted() {
-    this.$nextTick(() => {
+    setTimeout(() => {
       this.checkAfterMount();
-    });
+    }, 200);
   },
   methods: {
     checkAfterMount() {
