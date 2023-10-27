@@ -530,6 +530,21 @@ Właściciel - **Caffe wasyl**
 **Dzięki Webo uratowałem swój biznes**, uruchomili mój sklep internetowy w **ciągu miesiąca**. Oby jak najwięcej takich ludzi!
 
 :::::
+:::::opinion-md
+---
+rating: 5
+---
+
+#author
+Radosław Cyganek
+
+#title
+Executive - **Proton Multimedia**
+
+#message
+Dzięki pracy Webo mój klient osiągnął wyższe pozycje w wyszukiwarkach, **poprawił satysfakcję użytkowników i zwiększył ich zaangażowanie**. Firma proaktywnie **zarządzała ryzykiem** i zapewniała alternatywne rozwiązanie, aby osiągnąć cele klienta. Ich **szybkość reakcji i kreatywność** były godne pochwały.
+
+:::::
 ::::
 :::
 ::

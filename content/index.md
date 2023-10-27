@@ -625,6 +625,21 @@ Członek zarządu - **DeltaHR**
 Bardzo profesjonalna firma, indywidualne podejście do klienta, **dobry i ciągły kontakt** co pozwala na bieżąco kontrolować pracę nad projektem. **Każdy szczegół dopracowany** dokładnie tak jak tego oczekiwałem, śmiało i z czystym sumieniem mogę polecić. **Wiedza, podejście do klienta, czas realizacji** - wszystko 10/10.
 
 :::::
+:::::opinion-md
+---
+rating: 5
+---
+
+#author
+Radosław Cyganek
+
+#title
+Executive - **Proton Multimedia**
+
+#message
+Dzięki pracy Webo mój klient osiągnął wyższe pozycje w wyszukiwarkach, **poprawił satysfakcję użytkowników i zwiększył ich zaangażowanie**. Firma proaktywnie **zarządzała ryzykiem** i zapewniała alternatywne rozwiązanie, aby osiągnąć cele klienta. Ich **szybkość reakcji i kreatywność** były godne pochwały.
+
+:::::
 ::::
 :::
 ::
