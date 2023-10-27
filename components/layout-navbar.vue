@@ -11,16 +11,16 @@
     ></div>
 
     <div
-      class="relative px-5 tablet:px-10 desktop:px-20 desktop:overflow-visible transition-all duration-500 desktop:duration-300"
+      class="relative px-5 tablet:px-10 desktop:px-20 desktop:overflow-visible transition-all duration-500 desktop:duration-300 border-0 border-b border-b-gray-dark"
       :class="[
         {
           '-translate-y-full shadow-none': !isVisible && !mobileExpanded,
         },
         {
-          'bg-white shadow-lg shadow-gray-dark/[0.02]':
+          'bg-white shadow-lg shadow-gray-dark/[0.02] border-b-white':
             !isTransparent || mobileExpanded,
         },
-        mobileExpanded ? 'h-screen ' : 'h-[60px] desktop:h-[100px]',
+        mobileExpanded ? 'h-screen ' : 'h-[60px] desktop:h-[94px]',
       ]"
     >
       <div
@@ -140,9 +140,9 @@
                 @click="!isLargeScreen ? toggleMobile() : hardClosePopup()"
               >
                 <div
-                  class="prose"
+                  class="prose uppercase"
                   v-html="item.name"
-                  :class="[item.button ? 'z-10 text-base leading-5' : ' text-lg',{'desktop:pr-8':item.menu}]"
+                  :class="[item.button ? 'z-10 text-base leading-5' : ' text-lg desktop:text-base',{'desktop:pr-8':item.menu}]"
                 ></div>
                 <span
                   v-if="item.button"
@@ -161,7 +161,7 @@
                   @click="toggleCollapse(index)"
                 >
                   <svg
-                    class="collapse-icon transition duration-300 desktop:transition-transform fill-current text-inherit"
+                    class="collapse-icon transition !duration-300 desktop:transition-transform fill-current text-inherit"
                     width="15"
                     height="8"
                     viewBox="0 0 10 6"
