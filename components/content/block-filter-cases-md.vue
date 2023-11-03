@@ -123,7 +123,7 @@
 export default {
   props: {
     contentFolder: {
-      type:string,
+      type: String,
       required: true
     },
     filters: Array,
