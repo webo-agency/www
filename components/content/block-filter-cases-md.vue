@@ -90,10 +90,11 @@
       <slot name="cases"></slot>
     </div>
     <div
+      v-if="contentFolder"
       ref="casesContainer"
       class="relative flex flex-wrap gap-5 gap-y-10 tablet:gap-y-20 overflow-hidden"
     >
-      <ContentList :path="'/realizacje/'" :query="{ path: '/realizacje/', where: { _path: { $ne: '/realizacje/isw'} }, sort: { homepage_hidden: false }}" v-slot="{list}">
+      <ContentList :path="`/${contentFolder}/`" :query="{ path: `/${contentFolder}/`, where: { _path: { $ne: `/${contentFolder}/isw`} }, sort: { homepage_hidden: false }}" v-slot="{list}">
           <block-filter-tile-cases-md v-for="case_page in list" :key="case_page._path" :data="case_page" :activeType="activeType" :activeTech="activeTech" />
       </ContentList> 
     </div>
@@ -121,6 +122,10 @@
 <script>
 export default {
   props: {
+    contentFolder: {
+      type:string,
+      required: true
+    },
     filters: Array,
     technologies: Array,
   },
