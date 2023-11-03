@@ -7,12 +7,12 @@
         class="relative desktop-wide:w-screen pr-5 tablet:pr-10 desktop:pr-20 -mr-5 tablet:-mr-10 desktop:-mr-20 desktop-wide:mr-0 h-full overflow-hidden"
       >
         <div class="max-w-screen-desktop-wide">
-          <div
+          <div v-if="contentFolder"
             ref="swiper"
             class="swiper swiper-container case-swiper w-full h-full !overflow-visible"
           >
             <div class="swiper-wrapper flex h-full">
-              <ContentList :path="'/realizacje/'" :query="{ path: '/realizacje/'}" v-slot="{list}">
+              <ContentList :path="`/${contentFolder}/`" :query="{ path: `/${contentFolder}/`}" v-slot="{list}">
                   <case-tile-md v-for="case_page in list.filter(case_page => checkCaseVisibility(case_page))" :key="case_page._path" :data="case_page" />
               </ContentList> 
             </div>
@@ -60,6 +60,10 @@ export default {
     };
   },
   props:{
+    contentFolder:{
+      type: String,
+      required: true,
+    },
     techFilters:{
       type: Array,
       default: []

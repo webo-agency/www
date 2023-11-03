@@ -652,6 +652,7 @@ linktitle: Zobacz więcej projektów
 :::effect-appear-md
 ::::block-cases-slider-md
 ---
+contentFolder: realizacje
 selectedSlugs:
     - feeby
     - mancraft

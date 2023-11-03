@@ -356,6 +356,9 @@ linktitle: Zobacz więcej projektów
 #full
 :::effect-appear-md
 ::::block-cases-slider-md
+---
+contentFolder: realizacje
+---
 
 ::::
 :::
