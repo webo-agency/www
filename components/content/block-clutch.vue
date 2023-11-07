@@ -43,7 +43,7 @@ export default {
 
 <style lang="postcss" scoped>
 .rating-list li{
-  @apply text-lg tablet:text-xl flex justify-between w-full max-w-[210px] ml-0 mb-1 before:hidden
+  @apply text-lg tablet:text-xl flex justify-between w-full max-w-[210px] !ml-0 !mb-1 before:!hidden
 }
 
 .rating-list li span{

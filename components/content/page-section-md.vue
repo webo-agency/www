@@ -171,11 +171,13 @@ export default {
 }
 
 .static-content :deep(.block-bg) {
-  @apply mb-7 desktop:mb-[60px] py-10 desktop:py-24 px-7 desktop:px-[60px]  rounded-[5px] bg-gray-light;
+  @apply mb-7 desktop:mb-[60px] py-10 desktop:py-20 px-7 desktop:px-[60px]  rounded-[5px] bg-gray-light;
 }
 
-.static-content :deep(.block-bg div:last-child p ) {
-  @apply mb-0;
+.static-content :deep(.block-bg div:last-child p ),
+.static-content :deep(.block-bg >:last-child ),
+.static-content :deep(.block-bg div:last-child ul) {
+  @apply !mb-0;
 }
 
 .static-content :deep(.block-bg > *) {

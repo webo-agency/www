@@ -3,7 +3,7 @@
     class="mt-[100px] tablet:mt-[200px]"
     :style="[{ 'max-width': maxWidth + 'px' }]"
   >
-    <div v-if="logoUrl" class="mb-5">
+    <div v-if="logoUrl" class="mb-5 md:mb-7">
       <nuxt-picture class="max-w-[150px] h-[50px] object-contain" :src="logoUrl" />
     </div>
     <div
