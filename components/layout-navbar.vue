@@ -128,7 +128,7 @@
                 class="flex items-center justify-between p-3 mr-12 desktop:mr-0 hover:text-green-main transition duration-300 group"
                 :class="[
                   item.button
-                    ? 'button relative border-green-main border-solid border-2 text-green-main hover:text-current px-5 py-[13px] desktop:py-1.5 rounded-[5px] overflow-hidden'
+                    ? 'button relative border-green-main border-solid border-2 text-green-main hover:text-current px-5 py-2.5 rounded-full overflow-hidden'
                     : 'p-2 pl-0 desktop:p-3',
                   (!isTransparent || mobileExpanded) && item.button
                     ? 'bg-green-light hover:text-white'

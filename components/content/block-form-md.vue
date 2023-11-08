@@ -17,6 +17,7 @@
       :class="{'opacity-0':mailSent}">
         <ButtonMain
           :tagButton="true"
+          :isWide=true
           class="mb-2.5 desktop:mb-6 text-white"
           ref="sendButton"
           @click="sendForm()"

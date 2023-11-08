@@ -31,6 +31,7 @@
           class="text-gray-darker"
           :link="button.link"
           :title="button.title"
+          :isWide=true
         />
       </div>
       
