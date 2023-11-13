@@ -26,6 +26,7 @@
         :googleRatingText="generalData.googleRatingText"
         :showContributions="true"
       />
+      <FbChat :id="238379120057786" :locale="generalData.lang == 'PL' ? 'pl_PL': 'en_US'" />
     </div>
   </div>
 </template>
