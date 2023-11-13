@@ -1,6 +1,6 @@
 {
   "name": "@webo-agency/theme",
-  "version": "3.6.17",
+  "version": "3.6.18",
   "main": "./nuxt.config.ts",
   "type": "module",
   "exports": "./nuxt.config.ts",
