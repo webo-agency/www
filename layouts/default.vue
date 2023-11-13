@@ -21,6 +21,9 @@
         :location="generalData.address"
         :socials="generalData.socials"
         :clutchLink="generalData.clutchLink"
+        :googleRating="generalData.googleRating"
+        :googleRatingLink="generalData.googleRatingLink"
+        :googleRatingText="generalData.googleRatingText"
         :showContributions="true"
       />
     </div>

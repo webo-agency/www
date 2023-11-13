@@ -1,11 +1,12 @@
 <template>
   <div v-if="rating" class="flex items-center mb-7">
-      <span class="text-xl tablet:text-2xl font-semibold mr-2">
+      <span class="font-semibold mr-2"  :class="[small ? 'text-lg' : 'text-xl tablet:text-2xl']">
         {{(Math.round(rating * 100) / 100).toFixed(1)}}
       </span>
-      <div class="flex gap-[6px] w-max ">
+      <div class="flex w-max gap-[6px]">
       <div v-for="index in 5" :key="index" class="relative overflow-hidden">
         <svg
+        :class="{'w-[18px] h-[18px]':small}"
           width="21"
           height="20"
           viewBox="0 0 21 20"
@@ -34,6 +35,10 @@
 export default {
     props:{
         rating: Number,
+        small:{
+          type: Boolean,
+          default: false
+        }
     }
 
 }

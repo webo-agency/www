@@ -137,8 +137,9 @@
             />
           </div>
 
-          <div class="flex flex-col phone-wide:flex-row gap-10 tablet-wide:basis-2/5">
-            <RatingClutch class="self-baseline p-2 bg-white rounded-[5px]"/>
+          <div class="flex flex-col phone-wide:flex-row flex-wrap gap-5 tablet:gap-10 tablet-wide:basis-2/3">
+            <RatingClutch class="self-start p-2 bg-white rounded-[5px]"/>
+            <RatingGoogle class="self-start p-2 bg-white rounded-[5px]" :rating="googleRating" :link="googleRatingLink" :text="googleRatingText"/>
             <div v-if="showContributions" class="max-w-[270px]">
               <svg
                 width="138"
@@ -243,6 +244,9 @@ export default {
     location: String,
     socials: Array,
     clutchLink: String,
+    googleRating: Number,
+    googleRatingLink: String,
+    googleRatingText: String,
     showContributions: Boolean,
   },
   components: { Socials, CustomLink },

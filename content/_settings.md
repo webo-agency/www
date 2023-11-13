@@ -33,6 +33,9 @@ general:
     mail: info@webo.agency
     tel: '+48721733397'
     clutchLink: https://clutch.co/profile/webo
+    googleRating: 5
+    googleRatingLink: https://www.google.com/search?q=webo+gliwice&sca_esv=581867933&ei=avdRZdPPHbCVxc8PqvGHwAM&ved=0ahUKEwjTrJKs38CCAxWwSvEDHar4ATgQ4dUDCBA&uact=5&oq=webo+gliwice&gs_lp=Egxnd3Mtd2l6LXNlcnAiDHdlYm8gZ2xpd2ljZTICECZIsdsJUPXHCVj1xwlwAngAkAEAmAFXoAFXqgEBMbgBA8gBAPgBAeIDBBgBIEGIBgE&sclient=gws-wiz-serp#lrd=0x471131b61b903edb:0xe16af5e90276dac,1,,,,
+    googleRatingText: Read our reviews
     socials:
         - type: facebook
           link: https://facebook.com/meet.webo/
