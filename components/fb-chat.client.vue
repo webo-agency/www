@@ -1,6 +1,6 @@
 <template>
-  <div class="w-full sticky z-40 bottom-0 px-5 tablet:px-10 desktop:px-20 pointer-events-none ">
-        <div class=" flex justify-end max-w-screen-desktop-wide mx-auto pointer-events-none h-0">
+  <div class="w-full sticky z-40 bottom-0 px-5 tablet:px-10 desktop:px-20">
+        <div class=" flex justify-end max-w-screen-desktop-wide mx-auto h-0">
           <div id="fb-root"></div>
           <div id="fb-customer-chat" class="fb-customerchat">
         </div>
@@ -52,7 +52,7 @@ onMounted(()=>{
 }
 
 .fb_dialog{
-  @apply !top-0 !relative !h-0 !overflow-visible
+  @apply !top-0 !relative !h-0 !overflow-visible !p-0
 }
 
 .fb_dialog_content iframe{
@@ -69,7 +69,11 @@ onMounted(()=>{
 }
 
 .fb_iframe_widget iframe{
-  @apply !absolute !max-h-[calc(100vh_-_84px)]
+  @apply !absolute
+}
+
+.fb_iframe_widget iframe.fb_customer_chat_bounce_in_v2{
+  @apply !max-h-[calc(100vh_-_84px)]
 }
 
 

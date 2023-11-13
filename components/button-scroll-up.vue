@@ -2,7 +2,7 @@
     <div class="w-full sticky z-40 bottom-0 px-5 tablet:px-10 desktop:px-20 pointer-events-none ">
         <div class=" flex justify-end max-w-screen-desktop-wide mx-auto pointer-events-none h-0 items-end overflow-visible  transition duration-200"
         :class="{'translate-y-[100px] opacity-0' :isHidden}">
-            <button class="appearance-none flex items-center justify-center bg-green-main rounded-full w-14 tablet:w-16 h-14 tablet:h-16 hover:bg-green-mainHover bottom-0 mb-[90px] shadow-green-mainHover/40 shadow-lg transition duration-300 pointer-events-auto"
+            <button class="appearance-none flex items-center justify-center bg-green-main rounded-full w-[60px] h-[60px] hover:bg-green-mainHover bottom-0 mb-[90px] shadow-green-mainHover/40 shadow-lg transition duration-300 pointer-events-auto"
              @click="scrollToTop()"
              >
                 <svg width="19" height="25" viewBox="0 0 19 25" fill="none" xmlns="http://www.w3.org/2000/svg">
