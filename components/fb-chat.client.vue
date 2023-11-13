@@ -18,7 +18,7 @@ function addFacebookSDK(){
     var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
         js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        js.src = `https://connect.facebook.net/${props.locale}/sdk/xfbml.customerchat.js`;
         fjs.parentNode.insertBefore(js, fjs);
 }
 
@@ -41,3 +41,33 @@ onMounted(()=>{
     initFacebookChat()
 })
 </script>
+
+<style>
+#fb-root{
+  @apply !sticky !bottom-0 !z-40
+}
+
+.fb_dialog{
+  @apply !top-0 !relative !h-0 !overflow-visible
+}
+
+.fb_dialog_content iframe{
+  @apply !absolute !bottom-4 !right-0
+}
+
+
+.fb_iframe_widget{
+  @apply !overflow-visible !bottom-0 !w-full
+}
+
+.fb_iframe_widget > span{
+  @apply !w-full
+}
+
+.fb_iframe_widget iframe{
+  @apply max-h-[calc(100vh_-_84px)]
+}
+
+
+
+</style>

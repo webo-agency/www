@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full sticky z-40 bottom-10 px-5 tablet:px-10 desktop:px-20 pointer-events-none ">
+    <div class="w-full sticky z-40 bottom-[70px] px-5 tablet:px-10 desktop:px-20 pointer-events-none ">
         <div class=" flex justify-end max-w-screen-desktop-wide mx-auto pointer-events-none h-0 items-end overflow-visible  transition duration-200"
         :class="{'translate-y-[100px] opacity-0' :isHidden}">
             <button class="appearance-none flex items-center justify-center bg-green-main rounded-full w-14 tablet:w-16 h-14 tablet:h-16 hover:bg-green-mainHover bottom-0 mb-5 tablet:mb-10 shadow-green-mainHover/40 shadow-lg transition duration-300 pointer-events-auto"
