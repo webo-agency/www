@@ -56,7 +56,11 @@ onMounted(()=>{
 }
 
 .fb_dialog_content iframe{
-  @apply tablet:!absolute tablet:!bottom-4 !right-0 !mx-0
+  @apply !absolute !bottom-4 !right-0 !mx-0
+}
+
+.fb_dialog_content > div{
+  @apply !absolute !bottom-4 !right-0 !mx-0
 }
 
 
@@ -68,12 +72,21 @@ onMounted(()=>{
   @apply !w-full
 }
 
+.fb_new_ui_mobile_overlay_active .fb_iframe_widget iframe{
+  @apply tablet:!fixed
+}
+
 .fb_iframe_widget iframe{
-  @apply !absolute
+  @apply !fixed tablet:!absolute
 }
 
 .fb_iframe_widget iframe.fb_customer_chat_bounce_in_v2{
   @apply !max-h-[calc(100vh_-_84px)]
+}
+
+.fb-customerchat > div{
+  transform: translateZ(10px) translateX(24px) translateY(8px);
+  @apply absolute
 }
 
 
