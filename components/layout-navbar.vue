@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="fixed top-0 left-0 w-full z-40"
+    class="fixed top-0 left-0 w-full z-50"
     :class="{
       'pointer-events-none': !isVisible && !mobileExpanded,
     }"

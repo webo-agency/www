@@ -18,8 +18,8 @@ import { useWindowScroll, useWindowSize } from '@vueuse/core'
 
 export default{
     setup(){
-        const { width, height } = useWindowSize()        
-        const { x, y } = useWindowScroll()
+        const { height } = useWindowSize()        
+        const { y } = useWindowScroll()
         return {y,height}
     },
     data(){
