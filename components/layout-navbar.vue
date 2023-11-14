@@ -1,8 +1,9 @@
 <template>
   <nav
-    class="fixed top-0 left-0 w-full z-50"
+    class="fixed top-0 left-0 w-full z-40"
     :class="{
       'pointer-events-none': !isVisible && !mobileExpanded,
+      '!z-50':mobileExpandedVisible
     }"
   >
     <div
@@ -22,6 +23,8 @@
         },
         mobileExpanded ? 'h-d-screen ' : 'h-[60px] desktop:h-[94px]',
       ]"
+      @transitionstart="mobileExpanded == true ? mobileExpandedVisible = true : null"
+      @transitionend="mobileExpanded == false ? mobileExpandedVisible = false : null"
     >
       <div
         ref="container"
@@ -287,6 +290,7 @@ export default {
       isTransparent: true,
       isLargeScreen: true,
       mobileExpanded: false,
+      mobileExpandedVisible: false,
       popUpData: null,
       popUpActive: false,
       popUpHover: false,

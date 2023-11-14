@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full sticky z-40 bottom-0 px-5 tablet:px-10 desktop:px-20 overflow-x-clip">
+  <div class="w-full sticky z-40 bottom-0 px-5 tablet:px-10 desktop:px-20">
         <div class=" flex justify-end max-w-screen-desktop-wide mx-auto h-0">
           <div id="fb-root"></div>
           <div id="fb-customer-chat" class="fb-customerchat">
