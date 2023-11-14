@@ -56,7 +56,7 @@ onMounted(()=>{
 }
 
 .fb_dialog_content iframe{
-  @apply !absolute !bottom-4 !right-0 !mx-0
+  @apply tablet:!absolute tablet:!bottom-4 !right-0 !mx-0
 }
 
 
