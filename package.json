@@ -1,6 +1,6 @@
 {
   "name": "@webo-agency/theme",
-  "version": "3.6.23",
+  "version": "3.6.24",
   "main": "./nuxt.config.ts",
   "type": "module",
   "exports": "./nuxt.config.ts",
@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@nuxt/content": "^2.9.0",
-    "@nuxt/image": "1.0.0",
+    "@nuxt/image": "^1.0.0",
     "@nuxtjs/tailwindcss": "^6.8.1",
     "@unocss/transformer-directives": "^0.46.5",
     "@vueuse/core": "^9.13.0",
@@ -40,7 +40,7 @@
     "markdown-it-attrs": "^4.1.6",
     "markdown-it-ins": "^3.0.1",
     "node-fetch": "^3.3.2",
-    "nuxt": "3.8.0",
+    "nuxt": "^3.8.1",
     "sitemap": "^7.1.1",
     "swiper": "^8.4.7"
   },
