@@ -57,7 +57,7 @@
   
 <script async setup>
 const route = useRoute()
-const { data: pageData } = await useAsyncData('page-data-'+route.fullPath.split('#')[0],() => queryContent(route.path).findOne(),{
+const { data: pageData } = await useAsyncData('page-data-'+route.fullPath.split('#')[0].split('?')[0],() => queryContent(route.path).findOne(),{
   server: true,
 })
 const hrefLangs = computed(()=> getPageLangs(pageData.value.hreflangs));
