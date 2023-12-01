@@ -17,7 +17,7 @@
               v-if="data.image && data.image.url"
               :src="data.image.url"
               :title="data.image.title ? data.image.title : ''"
-              :alt="data.image.alt ? data.image.alt : 'Case study data.image'"
+              :alt="data.image.alt ? data.image.alt : 'Post thumbnail image'"
               :imgAttrs="{class:'h-full w-full object-cover'}"
             ></nuxt-picture>
           </div>
