@@ -7,21 +7,7 @@
       <ContentSlot :use="$slots.title" />
     </div>
     <div class="flex flex-col tablet:flex-row justify-between mb-10">
-      <ul class="flex flex-wrap gap-x-5 gap-y-2.5 mb-5 tablet:mb-0">
-        <li
-          v-for="(filter, index) in filters"
-          :key="index"
-          class="py-[7px] px-5 text-sm tablet:text-base rounded-[5px] transition duration-200 cursor-pointer"
-          :class="[
-            activeType.includes(filter)
-              ? 'bg-green-main hover:bg-green-mainHover text-white'
-              : 'bg-green-light hover:bg-green-mainHover/10 text-gray-darker',
-          ]"
-          @click="toggleFilter(filter)"
-        >
-          {{ filter }}
-        </li>
-      </ul>
+      <FiltersList :filters="filters" v-model="activeType"/>
       <div class="shrink-0 relative flex flex-wrap justify-between">
         <div v-if="$slots.select"
           class="block py-[7px] px-5 text-sm tablet:text-base text-gray-darker"
@@ -143,21 +129,15 @@ export default {
     },
     activeTech(){
       this.updateVisible()
+    },
+    activeType(){
+      this.updateVisible()
     }
   },
   mounted(){
     this.updateVisible()
   },
   methods: {
-    toggleFilter(value) {
-      let filterIndex = this.activeType.indexOf(value);
-      if (filterIndex > -1) {
-        this.activeType.splice(filterIndex, 1);
-      } else {
-        this.activeType.push(value);
-      }
-      this.updateVisible()
-    },
 
     toggleExpand() {
       this.selectExpanded = !this.selectExpanded;
