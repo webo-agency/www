@@ -1,44 +1,35 @@
 <template>
   <div
-    class="mt-[100px] tablet:mt-[200px]"
-    :style="[{ 'max-width': maxWidth + 'px' }]"
+    class="relative flex flex-col justify-end rounded-[20px] overflow-hidden"
   >
-    <div v-if="logoUrl" class="mb-5 md:mb-7">
-      <nuxt-picture class="max-w-[150px] h-[50px] object-contain" :src="logoUrl" />
+    <nuxt-picture v-if="bgUrl" class="absolute inset-0 z-0 object-cover" :img-attrs="{class: 'w-full h-full object-cover'}" :src="bgUrl" />
+    <span class="absolute z-10 inset-0 bg-gradient-to-t from-black/75 to-transparent"></span>
+    <div class="mx-blog relative z-20 flex flex-col justify-end pt-40 tablet:pt-56">
+      <ul
+        v-if="$slots.tags"
+        class="tags-list flex flex-row flex-wrap gap-x-5 gap-y-2 mb-5"
+      >
+        <ContentSlot :use="$slots.tags" unwrap="ul" />
+      </ul>
+      <div
+        v-if="$slots.title"
+        class=" text-2xl tablet:text-3xl desktop:text-5xl font-semibold pb-5 text-white mb-5"
+      >
+        <ContentSlot :use="$slots.title" />
+      </div>
     </div>
-    <div
-      v-if="$slots.title"
-      class="text-3xl tablet:text-4xl desktop:text-5xl font-semibold pb-5"
-    >
-      <ContentSlot :use="$slots.title" />
-    </div>
-    <ul
-      v-if="$slots.tags"
-      class="tags-list flex flex-row flex-wrap gap-x-5 gap-y-2 mb-10"
-    >
-      <ContentSlot :use="$slots.tags" unwrap="ul" />
-    </ul>
-    {{postData}}
   </div>
 </template>
 
 <script setup>
 
-  const route = useRoute()
-  const { data:postData } = await useAsyncData(() => queryContent(route.fullPath.split('/')).findOne()) 
-
   const props = defineProps({
-    logoUrl: String,
-    maxWidth: {
-      type: Number,
-      default: 920,
-    },
+    bgUrl: String,
   })
 </script>
 
 <style  lang="postcss" scoped>
 :deep(.tags-list li) {
-  @apply bg-gray-light text-black/25 rounded-[5px] py-[7px] px-[15px]
-    text-lg desktop:text-xl font-semibold leading-none desktop:leading-none;
+  @apply bg-white text-gray-darker rounded-full py-3 px-5 text-sm uppercase font-normal leading-none;
 }
 </style>

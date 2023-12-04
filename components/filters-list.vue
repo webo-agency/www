@@ -36,7 +36,7 @@ const props = defineProps({
     }
 })
 
-const selected = ref(props.modelValue.value ?? [])
+const selected = ref(props.modelValue ? props.clearText? props.modelValue.join() : props.modelValue  : [])
 
 const clearFilters = () => {
     selected.value = props.clearText ? null : []

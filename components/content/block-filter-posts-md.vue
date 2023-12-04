@@ -51,7 +51,7 @@ export default {
   },
   data() {
     return {
-      activeFilters: [],
+      activeFilters: this.$route.query.cat ? [this.$route.query.cat] : [],
       shownCases:9
     };
   },
@@ -73,6 +73,7 @@ export default {
     },
 
     updateVisible(){
+      this.$router.push({query: {cat: this.activeFilters}})
       this.$nextTick(()=>{
         const tilesContainer = this.$refs.postsContainer
         tilesContainer.querySelectorAll('.case-tile').forEach((item) => {

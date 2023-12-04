@@ -12,17 +12,16 @@ draft: false
 
 ::page-section-md
 ---
-class: mb-10 tablet:mb-20 mt-[100px] tablet:mt-[200px]
+class: mb-20 tablet:mb-[100px]
 ---
 :::effect-appear-md
 ::::block-header-post-md
 ---
-class: mx-default
-logoUrl: '/img/logos/5G.png'
+bgUrl: /img/blog-images/webo_blog_headless_wp.jpg
 ---
 
 #title
-## 5G Made Together - Strona internetowa w architekturze Headless dla międzynarodowej konferencji technologicznej
+# CMS Wordpress + Headless czyli silniki rakietowe dla Twojej strony www
 
 #description
 **5G Made Together** jest konferencją i stowarzyszeniem działającym pod tą samą nazwą, **organizowaną przez firmę IS-Wireless.**
@@ -31,8 +30,7 @@ logoUrl: '/img/logos/5G.png'
 Zobacz online
 
 #tags
-- Strona www
-- Projektowanie UX/UI
+- Technologia
 
 ::::
 :::
@@ -40,79 +38,113 @@ Zobacz online
 
 ::page-section-md
 ---
-class: mb-[50px] tablet:mb-[150px]
+class: static-content mb-10
 ---
 :::effect-appear-md
-::::prose-figure{src="/img/content-images/case-5g-img1.png"}
-::::
-:::
-::
+---
+class: mx-blog
+---
 
-::page-section-md
----
-class: static-content mb-10 tablet:mb-[90px]
----
-:::effect-appear-md
----
-class: mx-default
----
-### **O kliencie**
-:::
-:::effect-appear-md
----
-class: mx-default flex flex-col md:flex-row gap-10 lg:gap-20
----
+### **Co to jest Headless CMS?**
 
 ::::prose-p3
-
-**Konferencja 5G Made Together** organizowana jest kilka razy w roku, obejmując tematy z zakresu transformacji cyfrowej, technologii, cyberbezpieczeństwa, biznesu i nauki. Każda edycja to liczne grono znakomitych specjalistów z całego świata, w tym najlepszych inżynierów, przedsiębiorców, wykładowców akademickich i członków organizacji rządowych.
-
-Organizatorem konferencji jest firma IS-Wireless, która rozwija i dostarcza sieci mobilne 4G i 5G w modelu otwartym (Open RAN), zyskującym popularność na całym świecie. Firma dostarcza oprogramowanie i sprzęt niezbędny do budowy sieci mobilnych zarówno w obszarze RAN, jak i Core.
+Strony internetowe wykonane w architekturze Headless polegają na oddzieleniu interfejsu użytkownika (frontendu) od funkcji administracyjnych i zasobów wewnętrznych (backend). Obie warstwy są wobec siebie niezależne, a komunikacja między nimi wykonywana jest za pomocą API. Strona internetowa wykonana w architekturze Headless umożliwia m.in lepszą optymalizację serwisu, ultra szybkie łądowanie, nielimitowany rozwój strony spełniając przy tym najwyższe standardy bezpieczeństwa. W połączeniu z systemem zarządzania treści Wordpress, zyskujesz w/w zalety z zachowaniem funkcjonalności i łatwości edycji treści WP.
 ::::
 
-::::prose-bg
+:::
+:::effect-appear-md
 ---
-class: min-w-[280px] md:self-baseline !p-[30px] !mx-0 font-semibold
---- 
+class: mx-blog
+---
 
-::::prose-p6
----
-class: uppercase [&_p]:!mb-2
----
-_Kraj_
-::::
-::::prose-p4
----
-class: mx-0 [&_p]:!mb-4
----
-**Polska**
+#### **Kiedy warto realizować serwisy internetowe w oparciu o Headless?**
+
+::::prose-p3
+Strony internetowe Headless mają szczególnie dużą wartość dla firm technologicznych oraz działających w dziale R&D (badania i rozwój). Wynika to ze specyfiki sektorów działalności i narażeniu na możliwe zewnętrzne zagrożenia. Headless znajdzie też zastosowanie dla rozbudowanych serwisów internetowych publikujących treści w wielu kanałach dystrybucji i działających na dużą skalę, potrzebujących wysokiej wydajności i redukcji kosztów utrzymania w długim okresie czasu.
 ::::
 
-::::prose-p6
+:::
+:::effect-appear-md
 ---
-class: uppercase [&_p]:!mb-2
+class: mx-blog mb-10 tablet:mb-[60px]
 ---
-_Branża_
+::::prose-figure{src="/img/content-images/case-5g-img2.png"}
 ::::
-::::prose-p4
+:::
+:::effect-appear-md
 ---
-class: mx-0 [&_p]:!mb-4
+class: mx-blog
 ---
-**Technologie**
-::::
 
-::::prose-p6
----
-class: uppercase [&_p]:!mb-2
----
-_Zakres prac_
-::::
-::::prose-p4
----
-class: mx-0 [&_p]:!mb-4
----
-**MVP, Projektowanie UX/UI, Programowanie, Headless, Rozwój**
-::::
+#### **Dzięki nowoczesnej architekturze, zastosowanie nowych technologii webowych wpłynie pozytywnie m.in. na:**
 
+- Zmniejszenie ryzyka utraty wrażliwych danych wewnętrznych
+- Zwiększenia dostępności strony nawet ze słabym łączem lub trybem offline
+- Niezależność pracy zespołów frontend i backend nad stroną
+- Zwiększenie wydajności i efektywności działania nawet przy bardzo rozbudowanych stronach
+
+:::
+::
+
+::page-section-md
+---
+class: mb-20
+---
+:::block-post-share
+---
+shareText: 'Udostępnij:'
+tags:
+    - Technologia
+---
+
+:::
+::
+
+::page-section-md
+---
+class: mb-20 tablet:mb-[100px]
+---
+:::effect-appear-md
+::::block-header-link-md
+---
+url: 'https://www.webo.pl/blog'
+linktitle: Zobacz wszystkie wpisy
+---
+
+#title
+#### Sprawdź podobne publikacje
+
+::::
+::::block-post-related
+---
+relatedPostsLinks:
+    - cms-wordpress-i-headless-czyli-silniki-rakietowe-dla-twojej-strony-www
+---
+::::
+:::
+::
+
+
+::page-section-md
+---
+class: mb-[50px] tablet:mb-[100px]
+---
+:::effect-appear-md
+::::block-cta-md
+---
+button.link: https://www.webo.agency/kontakt
+button.title: 'Skontaktuj się z nami'
+button.isWide: true
+maxWidth: 560
+class: block [&_.title]:!mb-4 [&_p]:max-w-[312px] [&_p]:font-medium
+---
+
+#title
+### Potrzebujesz naszej pomocy lub wyceny projektu?
+
+#description
+Skontaktuj się z nami i skorzystaj z bezpłatnej konsultacji
+
+::::
 :::
 ::

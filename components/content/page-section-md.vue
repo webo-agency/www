@@ -35,6 +35,10 @@ export default {
   @apply mx-5 tablet:mx-20 desktop:mx-[120px]
 }
 
+:deep(.mx-blog) {
+  @apply mx-5 tablet:mx-10 desktop:mx-auto desktop:max-w-[934px]
+}
+
 :deep(.mx-none *){
   @apply mx-0
 }

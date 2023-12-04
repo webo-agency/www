@@ -71,7 +71,8 @@ class: mb-[50px] tablet:mb-[100px]
 button.link: https://www.webo.agency/kontakt
 button.title: 'Skontaktuj się z nami'
 button.isWide: true
-class: block [&_.title]:!mb-4
+maxWidth: 560
+class: block [&_.title]:!mb-4 [&_p]:max-w-[312px] [&_p]:font-medium
 ---
 
 #title
@@ -79,7 +80,6 @@ class: block [&_.title]:!mb-4
 
 #description
 Skontaktuj się z nami i skorzystaj z bezpłatnej konsultacji
-
 
 ::::
 :::

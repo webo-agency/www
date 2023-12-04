@@ -32,7 +32,7 @@ export default {
     join(currentDir, "./assets/css/main.css"),
   ],
   plugins: [join(currentDir, "./plugins/textformatter.js")],
-  modules: ["@nuxt/content", "@nuxt/image", "@nuxtjs/tailwindcss"],
+  modules: ["@nuxt/content", "@nuxt/image", "@nuxtjs/tailwindcss",'@stefanobartoletti/nuxt-social-share'],
   // unocss: {
   //   autoImport: true,
   //   uno: true, // enabled `@unocss/preset-uno`
