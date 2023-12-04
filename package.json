@@ -32,6 +32,7 @@
     "@unocss/transformer-directives": "^0.46.5",
     "@vueuse/core": "^9.13.0",
     "@vueuse/nuxt": "^9.13.0",
+    "@stefanobartoletti/nuxt-social-share": "^0.5.0",
     "core-js": "^3.32.2",
     "dotenv": "^16.3.1",
     "form-data": "^4.0.0",
@@ -45,7 +46,6 @@
     "swiper": "^8.4.7"
   },
   "devDependencies": {
-    "@stefanobartoletti/nuxt-social-share": "^0.5.0",
     "wrangler": "^2.20.1"
   }
 }
