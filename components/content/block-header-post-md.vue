@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative flex flex-col justify-end rounded-[20px] overflow-hidden"
+    class="relative flex flex-col justify-end rounded-[20px] overflow-hidden desktop:mt-[30px]"
   >
     <nuxt-picture v-if="bgUrl" class="absolute inset-0 z-0 object-cover" :img-attrs="{class: 'w-full h-full object-cover'}" :src="bgUrl" />
     <span class="absolute z-10 inset-0 bg-gradient-to-t from-black/75 to-transparent"></span>

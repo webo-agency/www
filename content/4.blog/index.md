@@ -37,7 +37,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ::page-section-md
 ---
-class: mb-[50px] tablet:mb-[150px]
+class: mb-[50px] tablet:mb-[100px]
 ---
 
 :::block-filter-posts-md
@@ -56,6 +56,8 @@ Kategorie:
 #loadMore
 Zobacz więcej
 
+:::
+:::block-bg-map-md{class="-z-10 !-bottom-[200px] !top-auto !h-full"}
 :::
 ::
 

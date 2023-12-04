@@ -7,7 +7,7 @@
             class="swiper-wrapper items-center"
             >
                 <ContentList :path="archivePathWithTrailing" :query="{ where: { _path: { $in: postsLinksFormatted} }}" v-slot="{list}">
-                    <BlockPostTile v-for="case_page in list" :key="case_page._path" :data="case_page" class="swiper-slide shrink-0 flex-grow-0"/>
+                    <PostTileMd v-for="case_page in list" :key="case_page._path" :data="case_page" class="swiper-slide shrink-0 flex-grow-0"/>
                 </ContentList>                 
             </div>
         </div>

@@ -68,7 +68,11 @@ Strony internetowe Headless mają szczególnie dużą wartość dla firm technol
 ---
 class: mx-blog mb-10 tablet:mb-[60px]
 ---
-::::prose-figure{src="/img/content-images/case-5g-img2.png"}
+::::prose-figure
+---
+src: /img/content-images/case-5g-img2.png
+rounded: true
+---
 ::::
 :::
 :::effect-appear-md

@@ -1,9 +1,9 @@
 <template>
     <div
-    class="case-tile relative w-full flex flex-col z-20 bg-white"
+    class="case-tile relative w-full flex flex-col z-20"
     v-show="isVisible"
     :class="{'case-tile-hidden':!isVisible}">
-        <BlockPostTile :data="data"/>
+        <PostTileMd :data="data"/>
     </div>
 </template>
 
