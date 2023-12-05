@@ -1,10 +1,13 @@
 ---
 introduction.title: 'CMS Wordpress + Headless czyli silniki rakietowe dla Twojej strony www'
 introduction.titleFormatted: 'CMS Wordpress + Headless czyli silniki rakietowe dla <em>Twojej strony www</em>'
-introduction.description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+introduction.description: 'Strony internetowe wykonane w architekturze Headless polegają na oddzieleniu interfejsu użytkownika (frontendu) od funkcji administracyjnych i zasobów wewnętrznych (backend).'
 category:
     - Technologia
 image.url: '/img/blog-images/webo_blog_headless_wp.jpg'
+hreflangs:
+    EN: '/blog'
+    PL: '/blog/cms-wordpress-i-headless-czyli-silniki-rakietowe-dla-twojej-strony-www'
 public: true
 draft: false
 ---
@@ -22,12 +25,6 @@ bgUrl: /img/blog-images/webo_blog_headless_wp.jpg
 
 #title
 # CMS Wordpress + Headless czyli silniki rakietowe dla Twojej strony www
-
-#description
-**5G Made Together** jest konferencją i stowarzyszeniem działającym pod tą samą nazwą, **organizowaną przez firmę IS-Wireless.**
-
-#buttontext
-Zobacz online
 
 #tags
 - Technologia
@@ -111,7 +108,7 @@ class: mb-20 tablet:mb-[100px]
 :::effect-appear-md
 ::::block-header-link-md
 ---
-url: 'https://www.webo.pl/blog'
+url: 'https://www.webo.agency/blog'
 linktitle: Zobacz wszystkie wpisy
 ---
 
@@ -122,7 +119,8 @@ linktitle: Zobacz wszystkie wpisy
 ::::block-post-related
 ---
 relatedPostsLinks:
-    - cms-wordpress-i-headless-czyli-silniki-rakietowe-dla-twojej-strony-www
+    - co-wplywa-na-szybkosc-ladowania-strony-i-dlaczego-to-takie-wazne
+    - czym-jest-konwersja-w-sklepie-internetowym-i-co-na-nia-wplywa
 ---
 ::::
 :::

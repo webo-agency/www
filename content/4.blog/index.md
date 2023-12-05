@@ -1,6 +1,9 @@
 ---
 name: Blog
 showInNav: true
+hreflangs:
+    EN: '/blog'
+    PL: '/blog'
 ---
 
 ::page-section-md
@@ -22,13 +25,13 @@ class: my-16 tablet:my-[100px]
 :::::
 ::::
 
-#right
+<!-- #right
 ::::effect-appear-md
 ---
 class: text-justify desktop:pr-12 tablet:mt-8
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris commodo consequat.
-::::
+:::: -->
 
 :::
 ::
@@ -47,7 +50,6 @@ contentFolder: blog
 filters:
     - Technologia
     - Design
-    - Wydarzenia
 ---
 
 #filtersText

@@ -6,7 +6,9 @@
       :clutchLink="generalData.clutchLink"
     />
     <div class="relative flex flex-col justify-between h-full mt-[100px]">
-      <NuxtPage />
+      <main>
+        <NuxtPage />
+      </main>
       <button-scroll-up class="shrink-0" />
       <FbChat :id="238379120057786" :locale="generalData.lang == 'PL' ? 'pl_PL': 'en_US'" />
       <LayoutFooter
