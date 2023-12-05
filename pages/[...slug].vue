@@ -72,9 +72,30 @@ const alternateLinks = computed(()=>{
     }
   })
 })
+const img = useImage()
+const headData = computed(()=>{
+  if (!pageData.value) return
+  
+  let data = {}
+
+  if (pageData.value.introduction?.title){
+    data.title = pageData.value.introduction.title 
+    data.ogTitle = pageData.value.introduction.title 
+  } 
+  if (pageData.value.introduction?.description){
+    data.description = pageData.value.introduction.description 
+    data.ogDescription = pageData.value.introduction.description 
+  } 
+  if (pageData.value.image?.url) data.ogImage = img(pageData.value.image.url)
+  
+  return data
+
+})
+
+useSeoMeta(headData.value);
 
 useHead({
-  link: alternateLinks
+  link: alternateLinks,
 })
 
 </script>
