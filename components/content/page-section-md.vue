@@ -1,7 +1,7 @@
 <template>
   <component class="relative w-full" :is="wrapper" :id="id" :class="'relative w-full ' + classes">
     <div class="px-5 tablet:px-10 desktop:px-20">
-      <div class="mx-auto max-w-screen-desktop-wide">
+      <div class="mx-auto max-w-screen-desktop-wide" :class="innerContainerClasses">
         <slot> </slot>
       </div>
     </div>
@@ -22,6 +22,10 @@ export default {
       type: String,
       default: "",
     },
+    innerContainerClasses:{
+      type: String,
+      default: "",
+    }, 
     id: {
       type: String,
     },

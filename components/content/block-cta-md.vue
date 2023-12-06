@@ -1,6 +1,7 @@
 <template>
   <div
     class="relative flex flex-col tablet-wide:flex-row justify-between tablet-wide:items-center px-10 desktop-wide:px-[120px] py-[60px] desktop:py-20 rounded-[5px] bg-green-light overflow-hidden"
+    :class="{'tablet-wide:!flex-col [&_*]:text-center' :vertical}"
   >
     <EffectParallax
       :innerClass="'w-[110%] tablet:w-full h-full -top-[15%] tablet:top-0 -right-16 tablet:right-auto z-10'"
@@ -120,7 +121,10 @@ export default {
       type: Number,
       default: 620
     },
-
+    vertical:{
+      type: Boolean,
+      default: false
+    },
     button: {
       type: Object,
       required: false,
