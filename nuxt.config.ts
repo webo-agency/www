@@ -32,7 +32,7 @@ export default {
     join(currentDir, "./assets/css/main.css"),
   ],
   plugins: [join(currentDir, "./plugins/textformatter.js")],
-  modules: ["@nuxt/content", "@nuxt/image", "@nuxtjs/tailwindcss",'@stefanobartoletti/nuxt-social-share'],
+  modules: ["@nuxt/content", "@nuxt/image", "@nuxtjs/tailwindcss",'@stefanobartoletti/nuxt-social-share','nuxt-simple-sitemap'],
   // unocss: {
   //   autoImport: true,
   //   uno: true, // enabled `@unocss/preset-uno`
@@ -42,6 +42,16 @@ export default {
   //   shortcuts: [],
   //   rules: [],
   // },
+  // content: {
+  //   documentDriven: true
+  // },
+  site:{
+    url: 'https://www.webo.agency',
+  },
+  sitemap:{
+    discoverImages: true,
+    autoLastmod: true,
+  },
   image: {
     provider: "ipx",
     ipx: {

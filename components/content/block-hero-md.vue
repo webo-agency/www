@@ -4,8 +4,10 @@
     class="relative h-[90vh] min-h-[650px] desktop:h-[860px] px-5 tablet:px-10 desktop:px-20 bg-center bg-cover bg-no-repeat ultraHd:bg-contain bg-gray-darker -mt-[100px]"
   >
     <nuxt-picture
-      src="/img/banner_bg.png"
-      class="absolute inset-0 z-0 w-full h-full object-cover"
+      src="/img/banner_bg.webp"
+      class="absolute inset-0 z-0 w-full h-full object-cover max-h-[900px]"
+      format="webp"
+      loading="eager"
       :imgAttrs="{class:'w-full h-full object-cover'}"
     />
     <div

@@ -2,6 +2,8 @@
 hreflangs:
     EN: '/'
     PL: '/'
+sitemap:
+  priority: 1
 ---
 ::block-hero-md
 ---
