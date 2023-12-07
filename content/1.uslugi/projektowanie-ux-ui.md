@@ -537,7 +537,7 @@ classes: mb-20 tablet:mb-[150px]
 :::effect-appear-md
 ::::prose-figure
 ---
-src: /img/content-images/uxui-consultation.png
+src: /img/content-images/ui-components.png
 ---
 ::::
 :::
