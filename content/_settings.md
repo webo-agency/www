@@ -13,9 +13,9 @@ footer:
         - title: MVP
           link: ''
         - title: Wsparcie i rozwój sklepów
-          link: ''
+          link: 'https://www.webo.agency/uslugi/wsparcie-i-rozwoj'
         - title: Projektowanie UX/UI
-          link: ''
+          link: 'https://www.webo.agency/uslugi/projektowanie-ux-ui'
     brandTitle: Firma
     brandMenu: 
         - title: O nas
