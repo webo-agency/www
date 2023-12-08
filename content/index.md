@@ -127,7 +127,7 @@ delay: 4
 ::::offer-tile-md
 ---
 icon: '/img/icons/uxui.png'
-link: 'https://webo.pl/uslugi/projektowanie-ux-ui'
+link: 'https://www.webo.agency/uslugi/projektowanie-ux-ui'
 delay: 5
 ---
 #title
