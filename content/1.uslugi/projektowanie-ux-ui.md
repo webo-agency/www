@@ -15,7 +15,7 @@ class: block !mb-0
 ---
 
 #subtitle
-*-/* Gwarantowana dostępność specjalistów IT
+*-/* User Experience Design
 
 #title
 ## Projektowanie UX/UI stron www, sklepów i aplikacji
