@@ -304,7 +304,7 @@ rounded: false
 
 ::page-section-md
 ---
-class: static-content mb-[50px] tablet:mb-[100px]
+class: static-content mb-[50px] tablet:mb-[100px] hidden
 ---
 :::effect-appear-md
 ::::block-columns-5-7-md
