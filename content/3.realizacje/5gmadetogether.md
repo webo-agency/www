@@ -11,9 +11,6 @@ technologies:
 image.url: '/img/case-studies/5gmadetogether.jpg'
 homepage_hidden: false
 public: true
-hreflangs:
-    EN: '/case-studies/eurostal-konfigurator'
-    PL: '/realizacje/eurostal-konfigurator'
 ---
 
 
