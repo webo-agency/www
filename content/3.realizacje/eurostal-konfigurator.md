@@ -306,11 +306,19 @@ class: static-content mb-[50px] desktop:mb-[100px]
 ---
 :::effect-appear-md
 ---
-class: mx-default
+class: mx-default relative
 ---
+
+::::svg-decorated
+---
+decoration: true
+class: -bottom-6 -left-32
+---
+::::
 
 ### **Rezultat pracy**
 ::::prose-p3
+
 Ostatnim etapem prac było wykonanie optymalizacji zdjęć które przyśpieszyło czas ładowania, dodanie prostego formularza kontaktowego oraz publikacja konfiguratora na kilku sklepach klienta.
 
 W efekcie prac nasz klient otrzymał gotowy konfigurator produktu który może być dowolnie rozbudowywany, zarówno o funkcje sprzedażowe, jak i konstrukcyjne wpływające na wygląd i specyfikę sprzedawanych garaży - zastosowana technologia nie stawia ograniczeń. 
