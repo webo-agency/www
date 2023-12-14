@@ -336,7 +336,7 @@ class: mb-[50px] tablet:mb-[100px]
 :::effect-appear-md
 ::::prose-figure
 ---
-src: '/img/content-images/case-eurostall-img1.png'
+src: '/img/content-images/case-eurostall-img4.png'
 rounded: false
 ---
 :::
