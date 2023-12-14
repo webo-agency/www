@@ -233,13 +233,10 @@ class: mx-default [&_h3]:!mb-0
 ---
 class: mb-[50px] tablet:mb-[100px]
 ---
-#full
+
 :::effect-appear-md
-::::prose-figure
----
-src: '/img/content-images/case-eurostall-img2.png'
-rounded: false
----
+::::prose-figure{src="/img/content-images/case-eurostall-img2.png"}
+::::
 :::
 ::
 
@@ -259,13 +256,10 @@ class: mx-default [&_h3]:!mb-0
 ---
 class: mb-[50px]
 ---
-#full
+
 :::effect-appear-md
-::::prose-figure
----
-src: '/img/content-images/case-eurostall-img3.png'
-rounded: false
----
+::::prose-figure{src="/img/content-images/case-eurostall-img3.png"}
+::::
 :::
 ::
 
@@ -329,13 +323,10 @@ W efekcie prac nasz klient otrzymał gotowy konfigurator produktu który może b
 ---
 class: mb-[50px] tablet:mb-[100px]
 ---
-#full
+
 :::effect-appear-md
-::::prose-figure
----
-src: '/img/content-images/case-eurostall-img4.png'
-rounded: false
----
+::::prose-figure{src="/img/content-images/case-eurostall-img4.png"}
+::::
 :::
 ::
 
