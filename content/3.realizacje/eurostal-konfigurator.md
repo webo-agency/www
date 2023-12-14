@@ -302,9 +302,6 @@ class: mx-default
 class: mx-default
 ---
 ::::prose-figure{src="/img/content-images/case-eurostall-tech.png"}
----
-class: hidden tablet:block
----
 ::::
 :::
 ::
