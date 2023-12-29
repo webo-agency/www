@@ -16,7 +16,7 @@
                 <ContentSlot :use="$slots.title" />
             </div>
             <div v-if="$slots.description" class="shrink-0 p-[5px] w-[30px] h-[30px] relative ml-auto">
-                <svg class=" top-[5px] left-[5px] absolute transition duration-300 fill-gray-darker group-hover:fill-green-main rotate-90" :class="{'rotate-180':isExpanded}" xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                <svg class=" top-[5px] left-[5px] absolute transition duration-300 fill-gray-darker group-hover:fill-green-main rotate-90" :class="{'!rotate-180':isExpanded}" xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
                     <rect class="fill-inherit " y="9.5" width="20" height="2"/>
                 </svg>
                 <svg class="top-[5px] left-[5px] absolute transition duration-300 fill-gray-darker group-hover:fill-green-main" :class="{'rotate-180':isExpanded}" xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
