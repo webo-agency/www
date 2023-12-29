@@ -17,24 +17,24 @@
             :logos="[
               {
                 link: 'https://is-wireless.com/',
-                imgUrl: '/img/logos/isw.png',
+                imgUrl: '/img/logos/isw.svg',
               },
               { link: 'https://feeby.pl/', imgUrl: '/img/logos/Feeby.png' },
               {
                 link: 'https://5gmadetogether.com/',
-                imgUrl: '/img/logos/5G.png',
+                imgUrl: '/img/logos/5G.svg',
               },
               {
                 link: 'https://www.swistak-krakow.pl/',
-                imgUrl: '/img/logos/Swistak.png',
+                imgUrl: '/img/logos/Swistak.svg',
               },
               {
                 link: 'https://shop-mancraft.com/pl/',
-                imgUrl: '/img/logos/Mancraft.png',
+                imgUrl: '/img/logos/Mancraft.svg',
               },
               {
                 link: 'https://oravio.pl/',
-                imgUrl: '/img/logos/Oravio.png',
+                imgUrl: '/img/logos/Oravio.svg',
               },
               {
                 link: 'https://eurostal-garage.it/',
@@ -46,7 +46,7 @@
               },
               {
                 link: 'https://www.caffewasyl.pl/',
-                imgUrl: '/img/logos/CaffeWasyl.png',
+                imgUrl: '/img/logos/CaffeWasyl.svg',
               },
             ]"
           />
