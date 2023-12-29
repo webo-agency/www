@@ -145,6 +145,7 @@
                 src="/img/contributions.webp"
                 width="138"
                 height="64"
+                fit="inside"
                 class="object-contain object-left-top"
               />
             </div>
