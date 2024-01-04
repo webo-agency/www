@@ -76,7 +76,7 @@
     >
       <EffectAppearMdc>
         <div
-          class="pt-32 desktop:pt0 mt-0 desktop:mt-[60px] max-w-[940px] transition duration-300"
+          class="pt-32 desktop:pt-0 mt-0 desktop:mt-[60px] max-w-[940px] transition duration-300"
         >
           <p class="text-[14px] desktop:text-lg text-white">
             <em class="font-semibold text-green-main not-italic mr-1">-/</em>
