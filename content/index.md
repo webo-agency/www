@@ -7,36 +7,28 @@ sitemap:
 ---
 ::block-hero-md
 ---
-button.title: Rozpocznij projekt
+button.title: Dowiedz się więcej
 button.link: https://www.webo.agency/kontakt
 ---
 
 #subtitle
  Witaj w Webo
 
+
 #title
-# Dostarczamy efekty przez *UX i technologię!*
+# Jesteśmy specjalistami od solidnych *stron internetowych*
 
 #description
-Stwórzmy razem rozwiązanie dla <u>Twojej firmy</u>
+Tworzonych bez szablonów czy gotowców - <u>od podstaw zgodnie z dokumentacją, jak należy.</u>
 
 ::
 
-
-::block-highlighted-md
----
-class: mb-[100px] tablet:mb-[200px]
----
-
-### Jesteśmy młodą agencją interaktywną, założoną przez specjalistów z *10 letnim doświadczeniem* w *tworzeniu produktów cyfrowych.*
-
-::
 
 
 ::page-section-md
 ---
 id: uslugi
-classes: mb-[50px] tablet:mb-[150px]
+classes: mb-[50px] tablet:mb-[150px] pt-[80px] desktop:pt-[120px]
 ---
 :::effect-appear-md
 ::::block-header-md

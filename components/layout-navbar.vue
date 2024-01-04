@@ -3,7 +3,7 @@
     class="fixed top-0 left-0 w-full z-40"
     :class="{
       'pointer-events-none': !isVisible && !mobileExpanded,
-      '!z-50':mobileExpandedVisible
+      '!z-50': mobileExpandedVisible,
     }"
   >
     <div
@@ -12,7 +12,7 @@
     ></div>
 
     <div
-      class="relative px-5 tablet:px-10 desktop:px-20 desktop:overflow-visible transition-all duration-500 desktop:duration-300 border-0 border-b border-b-gray-dark"
+      class="relative px-5 tablet:px-10 desktop:px-20 desktop:overflow-visible transition-all duration-500 desktop:duration-300 border-0 border-b border-b-[rgba(8,219,186,0.2)]"
       :class="[
         {
           '-translate-y-full shadow-none': !isVisible && !mobileExpanded,
@@ -23,8 +23,12 @@
         },
         mobileExpanded ? 'h-d-screen ' : 'h-[60px] desktop:h-[94px]',
       ]"
-      @transitionstart="mobileExpanded == true ? mobileExpandedVisible = true : null"
-      @transitionend="mobileExpanded == false ? mobileExpandedVisible = false : null"
+      @transitionstart="
+        mobileExpanded == true ? (mobileExpandedVisible = true) : null
+      "
+      @transitionend="
+        mobileExpanded == false ? (mobileExpandedVisible = false) : null
+      "
     >
       <div
         ref="container"
@@ -33,7 +37,9 @@
           isTransparent && !mobileExpanded ? 'text-white' : 'text-gray-darker'
         "
       >
-        <div class="flex items-center justify-between py-3 tablet:py-2 desktop:py-0">
+        <div
+          class="flex items-center justify-between py-3 tablet:py-2 desktop:py-0"
+        >
           <CustomLink
             :url="'https://www.webo.agency/'"
             :activeClass="'none'"
@@ -89,9 +95,12 @@
             <li
               v-for="(item, index) in menu"
               :key="index"
-              class="w-full desktop:w-auto mb-2 desktop:mb-0  rounded-[5px] font-semibold overflow-hidden transition-[transform,opacity] duration-300"
+              class="w-full desktop:w-auto mb-2 desktop:mb-0 rounded-[5px] font-semibold overflow-hidden transition-[transform,opacity] duration-300"
               :class="[
-                { 'text-green-main desktop:[&_.collapse-icon]:rotate-180': hoverItem == item.name },
+                {
+                  'text-green-main desktop:[&_.collapse-icon]:rotate-180':
+                    hoverItem == item.name,
+                },
                 {
                   '-translate-x-full desktop:translate-x-0 opacity-0':
                     !mobileExpanded && !isLargeScreen,
@@ -107,8 +116,8 @@
                       : '',
                 },
                 {
-                  order: index*2
-                }
+                  order: index * 2,
+                },
               ]"
               @mouseover="
                 item.menu
@@ -145,7 +154,12 @@
                 <div
                   class="prose uppercase"
                   v-html="item.name"
-                  :class="[item.button ? 'z-10 text-base leading-5' : ' text-lg desktop:text-base',{'desktop:pr-8':item.menu}]"
+                  :class="[
+                    item.button
+                      ? 'z-10 text-base leading-5'
+                      : ' text-lg desktop:text-base',
+                    { 'desktop:pr-8': item.menu },
+                  ]"
                 ></div>
                 <span
                   v-if="item.button"
@@ -210,29 +224,30 @@
                 </div>
               </div>
             </li>
-            <li 
-                class="mb-2 desktop:mb-0 transition-[transform,opacity] duration-300 order-[9999]"
-                :class="{
-                  '-translate-x-full desktop:translate-x-0 opacity-0':
-                    !mobileExpanded && !isLargeScreen,
-                }"
-                :style="[
-                  {
-                    'transition-delay':
-                      mobileExpanded && !isLargeScreen
-                        ? menu.length * 60 + 'ms'
-                        : !mobileExpanded && !isLargeScreen
-                          ? '0ms'
-                          : '',
-                  },
-                  {
-                    order: isLargeScreen && menu.length > 0
-                     ? (menu.length - 1) * 2 - 1
-                     : '9999'
-                  }
-                ]"
->
-              <LangSwitcher/>
+            <li
+              class="mb-2 desktop:mb-0 transition-[transform,opacity] duration-300 order-[9999]"
+              :class="{
+                '-translate-x-full desktop:translate-x-0 opacity-0':
+                  !mobileExpanded && !isLargeScreen,
+              }"
+              :style="[
+                {
+                  'transition-delay':
+                    mobileExpanded && !isLargeScreen
+                      ? menu.length * 60 + 'ms'
+                      : !mobileExpanded && !isLargeScreen
+                      ? '0ms'
+                      : '',
+                },
+                {
+                  order:
+                    isLargeScreen && menu.length > 0
+                      ? (menu.length - 1) * 2 - 1
+                      : '9999',
+                },
+              ]"
+            >
+              <LangSwitcher />
             </li>
           </ul>
           <div
@@ -248,7 +263,7 @@
               :socials="socials"
               :invertColors="true"
             />
-            <RatingClutch/>
+            <RatingClutch />
           </div>
         </div>
       </div>
