@@ -28,9 +28,23 @@ Tworzonych bez szablonów czy gotowców - <u>od podstaw zgodnie z dokumentacją,
 ::page-section-md
 ---
 id: uslugi
-classes: mb-[50px] tablet:mb-[150px] pt-[80px] desktop:pt-[120px]
+classes: mb-[50px] tablet:mb-[150px] pt-[80px] desktop:pt-[120px] 
 ---
+
 :::effect-appear-md
+:::svg-decorated
+---
+decoration: true
+class: bottom-0 right-[10%] scale-x-[-1]
+---
+:::
+:::svg-bg-dots
+---
+decoration: true
+class: top-0 right-0
+---
+:::
+
 ::::block-header-two-cols-md
 ---
 class: mb-10 tablet:mb-20

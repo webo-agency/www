@@ -73,7 +73,7 @@
               </div>
               <nuxt-picture
                 v-if="technologies"
-                class="w-[230px] h-[50px] mb-20"
+                class="min-w-[230px] h-[50px] mb-20"
                 :src="
                   technologies
                     ? technologies

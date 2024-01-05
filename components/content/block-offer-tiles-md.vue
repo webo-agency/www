@@ -1,7 +1,10 @@
 <template>
   <div class="flex flex-wrap relative">
     <slot> </slot>
-    <div v-if="decoration" class="hidden desktop:block absolute -bottom-5 -left-16 desktop-wide:-left-28 -z-10">
+    <div
+      v-if="decoration"
+      class="hidden desktop:block absolute -bottom-5 -left-16 desktop-wide:-left-28 -z-10"
+    >
       <svg
         width="96"
         height="128"
@@ -17,18 +20,18 @@
         />
       </svg>
     </div>
-</div>
+  </div>
 </template>
 
 <script>
 export default {
   name: "BlockOfferTilesMdc",
-  props:{
+  props: {
     decoration: {
       type: Boolean,
-      default: false
-    }
-  }
+      default: false,
+    },
+  },
 };
 </script>
 
