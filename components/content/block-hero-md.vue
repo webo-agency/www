@@ -104,7 +104,7 @@
         class="rating h-[65px] z-[2] flex gap-[20px] desktop:absolute desktop:bottom-[14%] desktop:right-[6%]"
       >
         <RatingClutch
-          class="p-2 bg-white rounded-[5px] h-[52px] desktop:h-auto"
+          class="p-2 bg-white rounded-[5px] h-[52px] desktop:h-auto max-w-[100px] tablet:max-w-[204px]"
         />
         <RatingGoogle
           class="p-2 bg-white rounded-[5px] h-[52px] desktop:h-auto"
@@ -222,7 +222,7 @@ export default {
       let shapeParallax = this.$refs.shapeParallax;
       let desktop;
 
-      if (!shapeParallax) return
+      if (!shapeParallax) return;
 
       window.innerWidth > 1600 ? (desktop = false) : (desktop = true);
       shapeParallax.style.top = 250 + event.clientY / 50 + "px";
