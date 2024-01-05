@@ -101,7 +101,7 @@
         </div>
       </EffectAppearMdc>
       <div
-        class="rating h-[65px] z-[2] flex flex-wrap gap-[20px] desktop:absolute desktop:bottom-[14%] desktop:right-[6%]"
+        class="rating h-[65px] z-[2] flex gap-[20px] desktop:absolute desktop:bottom-[14%] desktop:right-[6%]"
       >
         <RatingClutch
           class="p-2 bg-white rounded-[5px] h-[52px] desktop:h-auto"
