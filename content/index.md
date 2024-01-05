@@ -5,7 +5,7 @@ hreflangs:
 sitemap:
   priority: 1
 ---
-::block-hero-md
+<!-- ::block-hero-md
 ---
 button.title: Dowiedz się więcej
 button.link: https://www.webo.agency/kontakt
@@ -324,7 +324,7 @@ Używane technologie
 
 ::::
 :::
-::
+:: -->
 
 ::page-section-md
 ---
@@ -347,14 +347,11 @@ linktitle: Zobacz więcej projektów
 ::::
 :::
 
-#full
-:::effect-appear-md
-::::block-cases-slider-md
+:::block-cases-slider-md
 ---
 contentFolder: realizacje
 ---
 
-::::
 :::
 ::
 

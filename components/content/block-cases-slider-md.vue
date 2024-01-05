@@ -1,120 +1,81 @@
 <template>
-  <div class="px-5 tablet:px-10 desktop:px-20 overflow-hidden">
-    <div
-      class="relative w-full mx-auto max-w-screen-desktop-wide rounded-[5px]"
-    >
-      <div
-        class="relative desktop-wide:w-screen pr-5 tablet:pr-10 desktop:pr-20 -mr-5 tablet:-mr-10 desktop:-mr-20 desktop-wide:mr-0 h-full overflow-hidden"
-      >
-        <div class="max-w-screen-desktop-wide">
-          <div v-if="contentFolder"
-            ref="swiper"
-            class="swiper swiper-container case-swiper w-full h-full !overflow-visible"
-          >
-            <div class="swiper-wrapper flex h-full">
-              <ContentList :path="`/${contentFolder}/`" :query="{ path: `/${contentFolder}/`}" v-slot="{list}">
-                  <case-tile-md v-for="case_page in list.filter(case_page => checkCaseVisibility(case_page))" :key="case_page._path" :data="case_page" />
-              </ContentList> 
-            </div>
-            <div
-              class="block swiper-pagination !relative mt-10 desktop:mt-20"
-            ></div>
-          </div>
-        </div>
-      </div>
+  <div v-if="contentFolder">
+    <div class="cases-container">
+      <case-tile-md v-for="case_page in casesFiltered" :key="case_page._path" :data="case_page" :mousePos="mousePos" />
     </div>
+    <div class="!relative mt-10 desktop:mt-20"> show more {{ route }} </div>
   </div>
 </template>
 
-<script>
-import { Swiper, Autoplay, Pagination } from "swiper";
-import "swiper/css/bundle";
+<script setup>
+import { useMouse } from '@vueuse/core'
 
-export default {
-  name: "BlockCasesSliderMed",
-  data() {
-    return {
-      swiper: null,
-      swiperOptionsObject: {
-        modules: [Autoplay, Pagination],
-        slidesPerView: "auto",
-        spaceBetween: 0,
-        direction: "horizontal",
-        loop: true,
-        pagination: {
-          dynamicBullets: true,
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        speed: 600,
-        autoplay: {
-          delay: 3000,
-          disableOnInteraction: false,
-          pauseOnMouseEnter: true,
-        },
-        preloadImages: false,
-        lazy: {
-          loadPrevNext: true,
-        },
-      },
-    };
-  },
-  props:{
-    contentFolder:{
+const props = defineProps(
+  {
+    contentFolder: {
       type: String,
       required: true,
     },
-    techFilters:{
+    techFilters: {
       type: Array,
       default: []
     },
-    selectedSlugs:{
+    selectedSlugs: {
       type: Array,
       default: []
     }
-  },
-  methods:{
-    checkCaseVisibility(case_page){
+  }
+)
 
-      return this.checkHomepageVisibility(case_page.homepage_hidden) 
-          && this.checkTechFilters(case_page.technologies) 
-          && this.checkSelectedSlugs(case_page)
-    },
+const route = computed(() => useRoute())
+const mousePos = useMouse()
 
-    checkSelectedSlugs(case_page){
-      if (this.selectedSlugs.length == 0) return true
-        
-      const selectedPaths = this.selectedSlugs.map(slug => `/${case_page._dir}/${slug}`)
-      return selectedPaths.includes(case_page._path)
-    },
+const { data: cases } = await useAsyncData('cases', () => queryContent(props.contentFolder).find())
 
-    checkTechFilters(caseTechnologies){
+const casesFiltered = computed(() =>
+  cases.value.filter(case_page => checkCaseVisibility(case_page))
+)
 
-      if(this.techFilters.length == 0) return true
+function checkCaseVisibility(case_page) {
+  return checkHomepageVisibility(case_page.homepage_hidden)
+    && checkTechFilters(case_page.technologies)
+    && checkSelectedSlugs(case_page)
+    && case_page._path !== `/${props.contentFolder}`
+}
 
-      if (caseTechnologies === undefined) {
-        return false
-      }
-      return caseTechnologies.some(r => this.techFilters.includes(r))
-    },
+function checkSelectedSlugs(case_page) {
+  if (props.selectedSlugs.length == 0) return true
 
-    checkHomepageVisibility(isHomepageHidden){
-      return !(isHomepageHidden && (this.$route.fullPath == '/'))
-    }
-  },
-  mounted() {
-    this.swiper = new Swiper(this.$refs.swiper, this.swiperOptionsObject);
-  },
-};
+  const selectedPaths = props.selectedSlugs.map(slug => `/${case_page._dir}/${slug}`)
+  return selectedPaths.includes(case_page._path)
+}
+
+function checkTechFilters(caseTechnologies) {
+
+  if (props.techFilters.length == 0) return true
+
+  if (caseTechnologies === undefined) {
+    return false
+  }
+  return caseTechnologies.some(r => props.techFilters.includes(r))
+}
+
+function checkHomepageVisibility(isHomepageHidden) {
+  return !(isHomepageHidden && (route.value.fullPath == '/'))
+}
+
 </script>
 
-<style  lang="postcss" scoped>
-.swiper-pagination :deep(.swiper-pagination-bullet) {
-  @apply w-[25px] h-[5px] rounded-[5px] opacity-100 bg-gray-default
-    transition duration-200 mx-[5px];
+<style scoped>
+.cases-container {
+  @apply grid tablet:grid-cols-2;
 }
-.swiper-pagination
-  :deep(.swiper-pagination-bullet.swiper-pagination-bullet-active) {
-  @apply bg-green-main;
+
+.cases-container>*:nth-child(4n - 1) {
+  @apply w-4/5 self-end justify-self-start
+}
+
+.cases-container>*:nth-child(4n - 2) {
+  @apply w-4/5 self-start justify-self-end
 }
 </style>
