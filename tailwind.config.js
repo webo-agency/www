@@ -7,7 +7,7 @@ module.exports = {
     "./pages/**/*.vue",
     "./plugins/**/*.{js,ts}",
     "./nuxt.config.{js,ts}",
-    "./app.vue"
+    "./app.vue",
   ],
   theme: {
     extend: {
@@ -26,7 +26,7 @@ module.exports = {
       fontFamily: {
         body: "Montserrat, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji",
       },
-  
+
       fontSize: {
         base: ["16px", "28px"],
         xl: ["20px", "31px"],
@@ -36,7 +36,8 @@ module.exports = {
       },
       colors: {
         green: {
-          main: "#07E7C4",
+          // main: "#07E7C4",
+          main: "#06CEAF",
           mainHover: "#07C7A9",
           light: "#F3FEFC",
         },
@@ -51,4 +52,4 @@ module.exports = {
     },
   },
   plugins: [],
-}
+};

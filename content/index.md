@@ -31,17 +31,17 @@ id: uslugi
 classes: mb-[50px] tablet:mb-[150px] pt-[80px] desktop:pt-[120px]
 ---
 :::effect-appear-md
-::::block-header-md
+::::block-header-two-cols-md
 ---
 class: mb-10 tablet:mb-20
-maxWidth: 450
+maxWidth: 640
 ---
 
 #subtitle
 *1/* Usługi
 
 #title
-## W czym możemy Ci *pomóc?*
+## Dostarczamy rozwiązania *internetowe dla firm*
 
 #description
 Dostarczamy optymalne produkty cyfrowe. Jesteśmy ciekawi Twoich potrzeb - to one są podstawą oferowanych przez nas rozwiązań
@@ -52,8 +52,25 @@ Dostarczamy optymalne produkty cyfrowe. Jesteśmy ciekawi Twoich potrzeb - to on
 :::block-offer-tiles-md
 ::::offer-tile-md
 ---
+icon: '/img/icons/site.png'
+technologies: '/img/icons/websites-technologies.png'
+link: 'https://www.webo.agency/uslugi/strony-internetowe'
+delay: 1
+---
+#title
+##### Strony internetowe
+
+#description
+Kreujemy szybkie nowoczesne i funkcjonalne strony internetowe, na których Twój klient szybko znajdzie to czego szuka.
+
+#readMoreText
+Dowiedz się więcej
+::::
+
+::::offer-tile-md
+---
 icon: '/img/icons/store.png'
-bgIcon: '/img/icons/store_bgIcon.png'
+technologies: '/img/icons/stores-technologies.png'
 link: 'https://www.webo.agency/uslugi/sklepy-internetowe'
 ---
 #title
@@ -61,26 +78,15 @@ link: 'https://www.webo.agency/uslugi/sklepy-internetowe'
 
 #description
 E-commerce z płynnym procesem zakupowym, dostosowany do potrzeb Twojej firmy. Tworzymy sklepy przygotowane do dalszego rozwoju i ekspansji.
-::::
 
-::::offer-tile-md
----
-icon: '/img/icons/site.png'
-bgIcon: '/img/icons/site_bgIcon.png'
-link: 'https://www.webo.agency/uslugi/strony-internetowe'
-delay: 1
----
-#title
-##### Strony www
-
-#description
-Kreujemy szybkie nowoczesne i funkcjonalne strony internetowe, na których Twój klient szybko znajdzie to czego szuka.
+#readMoreText
+Dowiedz się więcej
 ::::
 
 ::::offer-tile-md
 ---
 icon: '/img/icons/apps.png'
-bgIcon: '/img/icons/apps_bgIcon.png'
+technologies: '/img/icons/websites-technologies.png'
 link: ''
 delay: 2
 ---
@@ -89,41 +95,43 @@ delay: 2
 
 #description
 Dedykowane do specjalnych zastosowań w Twojej firmie. Przyjazne dla użytkowników i proste w zarządzaniu.
-::::
 
-::::offer-tile-md
----
-icon: '/img/icons/pwa.png'
-bgIcon: '/img/icons/pwa_bgIcon.png'
-link: 'https://www.webo.agency/uslugi/strony-headless-pwa'
-delay: 3
----
-#title
-##### Strony Headless / PWA
-
-#description
-Wykonane w nowych technologiach, dostarczające maksimum wydajności zapewniające najwyższy standard bezpieczeństwa.
+#readMoreText
+Dowiedz się więcej
 ::::
 
 ::::offer-tile-md
 ---
 icon: '/img/icons/support.png'
+technologies: '/img/icons/support-technologies.png'
 link: 'https://www.webo.agency/uslugi/wsparcie-i-rozwoj'
 delay: 4
 ---
 #title
-##### Wsparcie i rozwój sklepów internetowych i stron www
+##### Wsparcie i rozwój
 
+#description
+Dzięki któremu zabezpieczysz zasoby, zmaksymalizujesz wydajność i zredukujesz koszta utrzymania strony internetowej.
+
+#readMoreText
+Dowiedz się więcej
 ::::
 
 ::::offer-tile-md
 ---
 icon: '/img/icons/uxui.png'
+technologies: '/img/icons/uxui-technologies.png'
 link: 'https://www.webo.agency/uslugi/projektowanie-ux-ui'
 delay: 5
 ---
 #title
-Projektowanie UX/UI
+##### Projektowanie UX/UI
+
+#description
+Dzięki której zwiększysz zaangażowanie klientów, wyróżnisz się na rynku i uprościsz korzystanie ze swojej strony / sklepu internetowego.
+
+#readMoreText
+Dowiedz się więcej
 
 ::::
 :::
