@@ -4,12 +4,6 @@
     ref="container"
     class="relative h-[90vh] min-h-[650px] desktop:h-[860px] px-5 tablet:px-10 desktop:px-20 bg-center bg-cover bg-no-repeat ultraHd:bg-contain bg-gray-darker -mt-[100px]"
   >
-    <img
-      src="/img/banner-gradient.png"
-      alt="banner-gradient"
-      class="absolute inset-0 z-[1] w-full h-full object-cover max-h-[900px]"
-    />
-
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="20"
@@ -43,7 +37,7 @@
     </svg>
 
     <div
-      id="shapeParallax"
+      ref="shapeParallax"
       class="tech_icons_shape hidden desktop:flex items-center absolute desktop-wide:top-[250px] right-[40px] fullHd:right-[260px] z-[2] desktop-wide:scale-[0.8] fullHd:scale-100"
     >
       <svg
@@ -64,7 +58,7 @@
     </div>
 
     <nuxt-picture
-      src="/img/banner_bg.jpg"
+      src="/img/banner_bg.png"
       class="absolute inset-0 z-0 w-full h-full object-cover max-h-[900px]"
       format="webp"
       loading="eager"
@@ -107,7 +101,7 @@
         </div>
       </EffectAppearMdc>
       <div
-        class="rating h-[65px] z-[2] flex gap-[20px] desktop:absolute desktop:bottom-[14%] desktop:right-[6%]"
+        class="rating h-[65px] z-[2] flex flex-wrap gap-[20px] desktop:absolute desktop:bottom-[14%] desktop:right-[6%]"
       >
         <RatingClutch
           class="p-2 bg-white rounded-[5px] h-[52px] desktop:h-auto"
@@ -225,8 +219,11 @@ export default {
       }, typeSpeed);
     },
     mouseMove(event) {
-      let shapeParallax = document.getElementById("shapeParallax");
+      let shapeParallax = this.$refs.shapeParallax;
       let desktop;
+
+      if (!shapeParallax) return
+
       window.innerWidth > 1600 ? (desktop = false) : (desktop = true);
       shapeParallax.style.top = 250 + event.clientY / 50 + "px";
       shapeParallax.style.right =
