@@ -577,7 +577,7 @@ center: true
 *7/* Opinie
 
 #title
-### Jesteśmy rekomendowani przez małe i średnie przedsiębiorstwa
+### Jesteśmy rekomendowani przez *małe i średnie przedsiębiorstwa*
 
 :::
 
@@ -589,14 +589,16 @@ center: true
 rating: 5
 ---
 
+#message
+W firmie Webo zamówiłem **stronę www**. Już na etapie **badania potrzeb dało się czuć profesjonalizm**. Jestem **zadowolonym klientem** i używam swojej strony www w kontkatach z moimi klientami :)
+
 #author
 Bartłomiej Świstak Piotrowski
 
 #title
 Konsultant strategii w biznesie - **Krakowski świstak**
 
-#message
-W firmie Webo zamówiłem **stronę www**. Już na etapie **badania potrzeb dało się czuć profesjonalizm**. Jestem **zadowolonym klientem** i używam swojej strony www w kontkatach z moimi klientami :)
+
 
 :::::
 :::::opinion-md

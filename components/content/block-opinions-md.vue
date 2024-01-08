@@ -55,6 +55,13 @@ export default {
         lazy: {
           loadPrevNext: true,
         },
+        breakpoints: {
+          1248: {
+            slidesPerView: "auto",
+            slidesPerGroupAuto: false,
+            spaceBetween: 20,
+          },
+        },
       },
     };
   },
