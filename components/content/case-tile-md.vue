@@ -35,7 +35,7 @@
       class="mb-5 tablet:mb-8 mr-2.5 tablet:mr-5 text-sm leading-7 desktop:text-base">
       {{ data.introduction.description }}
     </p>
-    <ul v-if="data.technologies" class="flex gap-[5px] h-[30px] mb-5 tablet:mb-8">
+    <ul v-if="data.technologies && showTech" class="flex gap-[5px] h-[30px] mb-5 tablet:mb-8">
       <li v-for="tech, index in data.technologies" :key="index"
         class="h-full w-[30px] rounded-full p-1 bg-white border border-gray-default overflow-hidden">
         <nuxt-picture v-if="techIcon[tech]" :src="techIcon[tech]" class="h-full w-full object-contain"
@@ -48,6 +48,10 @@
 <script setup>
 const props = defineProps({
   data: Object,
+  showTech: {
+    type: Boolean,
+    detault: false
+  },
   mousePos: Object
 })
 const imgContainer = ref(null)

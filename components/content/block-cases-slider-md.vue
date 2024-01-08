@@ -1,9 +1,10 @@
 <template>
   <div v-if="contentFolder">
     <div class="cases-container">
-      <case-tile-md v-for="case_page in casesFiltered" :key="case_page._path" :data="case_page" :mousePos="mousePos" />
+      <case-tile-md v-for="case_page in casesFiltered" :key="case_page._path" :data="case_page" :mousePos="mousePos"
+        :showTech="false" />
     </div>
-    <div class="!relative mt-10 desktop:mt-20"> show more {{ route }} </div>
+    <div class="!relative mt-10 desktop:mt-20"> show more </div>
   </div>
 </template>
 
@@ -27,7 +28,7 @@ const props = defineProps(
   }
 )
 
-const route = computed(() => useRoute())
+const routeTest = computed(() => useRoute().path)
 const mousePos = useMouse()
 
 const { data: cases } = await useAsyncData('cases', () => queryContent(props.contentFolder).find())
@@ -61,7 +62,7 @@ function checkTechFilters(caseTechnologies) {
 }
 
 function checkHomepageVisibility(isHomepageHidden) {
-  return !(isHomepageHidden && (route.value.fullPath == '/'))
+  return !(isHomepageHidden && (useRoute().fullPath == '/'))
 }
 
 </script>
