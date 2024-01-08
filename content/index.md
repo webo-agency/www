@@ -332,10 +332,9 @@ id: realizacje
 class: mb-[80px] tablet:mb-[130px]
 ---
 :::effect-appear-md
-::::block-header-link-md
+::::block-header-md
 ---
-url: 'https://www.webo.agency/realizacje'
-linktitle: Zobacz więcej projektów
+class: mb-10 tablet:mb-20
 ---
 
 #subtitle
@@ -350,6 +349,8 @@ linktitle: Zobacz więcej projektów
 :::block-cases-slider-md
 ---
 contentFolder: realizacje
+moreBtn.url: 'https://www.webo.agency/realizacje'
+moreBtn.linktitle: Zobacz więcej projektów
 ---
 
 :::

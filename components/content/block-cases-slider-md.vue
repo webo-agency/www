@@ -1,10 +1,18 @@
 <template>
   <div v-if="contentFolder">
     <div class="cases-container">
-      <case-tile-md v-for="case_page in casesFiltered" :key="case_page._path" :data="case_page" :mousePos="mousePos"
-        :showTech="false" />
+      <EffectAppearMd v-for="case_page in casesFiltered" :key="case_page._path">
+        <CaseTileMd :data="case_page" :mousePos="mousePos" :showTech="false" />
+      </EffectAppearMd>
     </div>
-    <div class="!relative mt-10 desktop:mt-20"> show more </div>
+    <div v-if="moreBtnVisible" class="!relative mt-10 desktop:mt-20">
+      <CustomLink :url="moreBtn.url" :activeClass="'none-temp'"
+        class="group flex items-center w-fit mx-auto text-base font-semibold border-gray-darker border-solid border-2 text-gray-darker hover:bg-green-main hover:border-green-main px-5 tablet:px-8 py-2.5 tablet:py-3.5 rounded-full transition duration-200 uppercase overflow-hidden">
+        {{ moreBtn.linktitle }}
+        <span
+          class="h-0.5 w-[14px] ml-3 mt-0.5 bg-gray-darker z-10 group-hover:translate-x-1 transition-transform duration-200"></span>
+      </CustomLink>
+    </div>
   </div>
 </template>
 
@@ -17,6 +25,9 @@ const props = defineProps(
       type: String,
       required: true,
     },
+    moreBtn: {
+      type: Object
+    },
     techFilters: {
       type: Array,
       default: []
@@ -28,14 +39,17 @@ const props = defineProps(
   }
 )
 
-const routeTest = computed(() => useRoute().path)
 const mousePos = useMouse()
 
 const { data: cases } = await useAsyncData('cases', () => queryContent(props.contentFolder).find())
 
 const casesFiltered = computed(() =>
-  cases.value.filter(case_page => checkCaseVisibility(case_page))
+  cases.value.filter(case_page => checkCaseVisibility(case_page)).slice(0, 4)
 )
+
+const moreBtnVisible = computed(() => {
+  return props.moreBtn && props.moreBtn.url && props.moreBtn.linktitle
+})
 
 function checkCaseVisibility(case_page) {
   return checkHomepageVisibility(case_page.homepage_hidden)
@@ -73,10 +87,10 @@ function checkHomepageVisibility(isHomepageHidden) {
 }
 
 .cases-container>*:nth-child(4n - 1) {
-  @apply w-4/5 self-end justify-self-start
+  @apply tablet:w-4/5 tablet:self-end tablet:justify-self-start
 }
 
 .cases-container>*:nth-child(4n - 2) {
-  @apply w-4/5 self-start justify-self-end
+  @apply tablet:w-4/5 tablet:self-start tablet:justify-self-end
 }
 </style>
