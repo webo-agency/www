@@ -16,10 +16,10 @@
             </svg>
           </span>
         </div>
-        <nuxt-picture v-if="data.image && data.image.url" wdith="665" height="738"
-          class="relative z-0 h-full w-full group-hover:!scale-[103%] transition-all duration-500 "
-          :imgAttrs="{ class: 'w-full h-full object-cover object-left-top' }" :src="data.image.url"
-          :title="data.image.title ? data.image.title : ''" :alt="data.image.alt ? data.image.alt : 'Case study image'" />
+        <nuxt-picture v-if="data.image && data.image.url" class="relative z-0 h-full w-full "
+          :imgAttrs="{ class: 'w-full h-full object-cover object-left-top', wdith: 665, height: 738 }"
+          :src="data.image.url" :title="data.image.title ? data.image.title : ''"
+          :alt="data.image.alt ? data.image.alt : 'Case study image'" />
       </div>
       <ul v-if="data.type" class="flex flex-wrap mb-5 desktop:mb-8 gap-x-5 gap-y-2.5">
         <li v-for="tag, index in data.type" :key="index"
@@ -27,7 +27,8 @@
           {{ tag }}</li>
       </ul>
       <h4 v-if="data.introduction?.title"
-        class="mr-2.5 tablet:mr-5 mb-5 desktop:mb-8 text-xl desktop:text-2xl font-semibold transition duration-300">
+        class="mr-2.5 tablet:mr-5 mb-5 desktop:mb-8 text-gray-darker text-xl desktop:text-2xl font-semibold transition duration-300"
+        :class="{ 'group-hover:underline': !data.draft || data.fallback }">
         {{ data.introduction.title }}
       </h4>
     </CustomLink>

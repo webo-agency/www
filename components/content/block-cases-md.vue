@@ -5,14 +5,16 @@
         <CaseTileMd :data="case_page" :mousePos="mousePos" :showTech="false" />
       </EffectAppearMd>
     </div>
-    <div v-if="moreBtnVisible" class="!relative mt-10 desktop:mt-20">
-      <CustomLink :url="moreBtn.url" :activeClass="'none-temp'"
-        class="group flex items-center w-fit mx-auto text-base font-semibold border-gray-darker border-solid border-2 text-gray-darker hover:bg-green-main hover:border-green-main px-5 tablet:px-8 py-2.5 tablet:py-3.5 rounded-full transition duration-200 uppercase overflow-hidden">
-        {{ moreBtn.linktitle }}
-        <span
-          class="h-0.5 w-[14px] ml-3 mt-0.5 bg-gray-darker z-10 group-hover:translate-x-1 transition-transform duration-200"></span>
-      </CustomLink>
-    </div>
+    <EffectAppearMd>
+      <div v-if="moreBtnVisible" class="!relative mt-10 desktop:mt-20">
+        <CustomLink :url="moreBtn.url" :activeClass="'none-temp'"
+          class="group flex items-center w-fit mx-auto text-base font-semibold border-gray-darker border-solid border-2 text-gray-darker hover:bg-green-main hover:border-green-main px-5 tablet:px-8 py-2.5 tablet:py-3.5 rounded-full transition duration-200 uppercase overflow-hidden">
+          {{ moreBtn.linktitle }}
+          <span
+            class="h-0.5 w-[14px] ml-3 mt-0.5 bg-gray-darker z-10 group-hover:translate-x-1 transition-transform duration-200"></span>
+        </CustomLink>
+      </div>
+    </EffectAppearMd>
   </div>
 </template>
 
@@ -41,7 +43,22 @@ const props = defineProps(
 
 const mousePos = useMouse()
 
-const { data: cases } = await useAsyncData('cases', () => queryContent(props.contentFolder).find())
+const { data: cases } = await useAsyncData('cases', () =>
+  queryContent(props.contentFolder)
+    .where([{
+      _path:
+      {
+        $ne: `/${props.contentFolder}`
+      }
+    },
+    {
+      tile_hidden:
+        { $eq: false }
+    }
+    ]).
+    sort({ tile_order: 1 })
+    .find()
+)
 
 const casesFiltered = computed(() =>
   cases.value.filter(case_page => checkCaseVisibility(case_page)).slice(0, 4)
@@ -52,10 +69,7 @@ const moreBtnVisible = computed(() => {
 })
 
 function checkCaseVisibility(case_page) {
-  return checkHomepageVisibility(case_page.homepage_hidden)
-    && checkTechFilters(case_page.technologies)
-    && checkSelectedSlugs(case_page)
-    && case_page._path !== `/${props.contentFolder}`
+  return checkTechFilters(case_page.technologies) && checkSelectedSlugs(case_page)
 }
 
 function checkSelectedSlugs(case_page) {

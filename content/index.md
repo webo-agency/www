@@ -5,7 +5,7 @@ hreflangs:
 sitemap:
   priority: 1
 ---
-<!-- ::block-hero-md
+::block-hero-md
 ---
 button.title: Dowiedz się więcej
 button.link: https://www.webo.agency/kontakt
@@ -324,7 +324,7 @@ Używane technologie
 
 ::::
 :::
-:: -->
+::
 
 ::page-section-md
 ---
@@ -346,11 +346,11 @@ class: mb-10 tablet:mb-20
 ::::
 :::
 
-:::block-cases-slider-md
+:::block-cases-md
 ---
 contentFolder: realizacje
 moreBtn.url: 'https://www.webo.agency/realizacje'
-moreBtn.linktitle: Zobacz więcej projektów
+moreBtn.linktitle: Zobacz wszystkie projekty
 ---
 
 :::

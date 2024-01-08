@@ -346,10 +346,9 @@ id: realizacje
 class: mb-[80px] tablet:mb-[130px]
 ---
 :::effect-appear-md
-::::block-header-link-md
+::::block-header-md
 ---
-url: 'https://www.behance.net/webo_agency'
-linktitle: Zobacz więcej projektów
+class: mb-10 tablet:mb-20
 ---
 
 #subtitle
@@ -361,17 +360,16 @@ linktitle: Zobacz więcej projektów
 ::::
 :::
 
-#full
-:::effect-appear-md
-::::block-cases-slider-md
+:::block-cases-md
 ---
 contentFolder: realizacje
 selectedSlugs:
     - isw
     - 5gmadetogether
+moreBtn.url: 'https://www.webo.agency/realizacje'
+moreBtn.linktitle: Zobacz wszystkie projekty
 ---
 
-::::
 :::
 ::
 

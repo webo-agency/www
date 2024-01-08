@@ -9,7 +9,7 @@ technologies:
     - TailwindCSS
     - Drupal CMS
 image.url: '/img/case-studies/Przemijanie.png'
-homepage_hidden: true
+tile_hidden: true
 public: false
 draft: true
 ---

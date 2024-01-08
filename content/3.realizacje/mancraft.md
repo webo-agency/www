@@ -9,7 +9,7 @@ technologies:
     - PrestaShop
     - TailwindCSS
 image.url: '/img/case-studies/Mancraft.jpg'
-homepage_hidden: false
+tile_hidden: true
 public: false
 draft: true
 ---

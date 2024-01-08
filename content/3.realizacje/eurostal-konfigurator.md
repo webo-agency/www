@@ -6,8 +6,9 @@ type:
 technologies:
     - Wordpress CMS
     - TailwindCSS
-image.url: '/img/content-images/case-eurostall-img1.png'
-homepage_hidden: false
+image.url: '/img/case-studies/Eurostal.png'
+tile_hidden: false
+tile_order: 2
 public: true
 ---
 

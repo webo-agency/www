@@ -7,7 +7,7 @@ type:
 technologies:
     - Wordpress CMS
 image.url: '/img/case-studies/CaffeWasyl.jpg'
-homepage_hidden: true
+tile_hidden: true
 public: false
 draft: true
 ---

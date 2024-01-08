@@ -77,6 +77,7 @@ technologies:
     - Drupal CMS
     - JavaScript
     - Node.js
+allTechText: 'Wszystkie'
 ---
 
 #title
