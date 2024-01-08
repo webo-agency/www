@@ -633,10 +633,9 @@ id: realizacje
 class: mb-[80px] tablet:mb-[130px]
 ---
 :::effect-appear-md
-::::block-header-link-md
+::::block-header-md
 ---
-url: 'https://www.behance.net/webo_agency'
-linktitle: Zobacz więcej projektów
+class: mb-10 tablet:mb-20
 ---
 
 #subtitle
@@ -648,94 +647,13 @@ linktitle: Zobacz więcej projektów
 ::::
 :::
 
-#full
-:::effect-appear-md
-::::block-cases-slider-md
+:::block-cases-md
 ---
 contentFolder: realizacje
-selectedSlugs:
-    - feeby
-    - mancraft
-    - oravio
+moreBtn.url: 'https://www.webo.agency/realizacje'
+moreBtn.linktitle: Zobacz wszystkie projekty
 ---
 
-:::::case-tile-md
----
-image.url: '/img/case-studies/IS-Wireless.jpg'
----
-
-#title
-#### Strona interntowa w trybie headless dla polskiego dostawcy rozwiązań sieciowych 5G
-
-#description
-**is-wireless.com** to nowoczesna strona www działająca w oparciu o **CMS Wordpress**. Całość wykonana została w trybie **headless**, w celu maksymalnego przyśpieszenia.
-
-:::::
-:::::case-tile-md
----
-url: 'https://www.behance.net/gallery/149635813/Feeby-Home-decor-E-commerce'
-image.url: '/img/case-studies/Feeby.jpg'
----
-
-#title
-#### Sklep internetowy polskiego producenta dekoracji w oparciu o Prestashop i Tailwind CSS
-
-#description
-'**Feeby** to polski producent dekoracji działający na rynku od ponad 25 lat. Nasza współpraca polega na **wdrożeniu, utrzymaniu** sklepu, a także na **rozwoju o nowe funkcjonalności** .
-
-:::::
-:::::case-tile-md
----
-image.url: '/img/case-studies/Mancraft.jpg'
----
-
-#title
-#### Sklep internetowy B2C/B2B producenta ASG premium, w oparciu o Prestashop.
-
-#description
-**Mancraft Airosft** to polski producent akcesorii ASG premium. Naszym zadaniem była **migracja wielowalutowego sklepu** z Prestashop 1.6 do 1.7, następnie **odświeżenie warstwy wizualnej i rozbudowa**.
-
-:::::
-:::::case-tile-md
----
-url: 'https://www.behance.net/gallery/130839559/ORAVIO-Toothbrush-E-commerce'
-image.url: '/img/case-studies/Oravio.jpg'
----
-
-#title
-#### UX/UI Sklepu internetowego producenta szczoteczek sonicznych klasy premium
-
-#description
-**Oravio** to to polski producent wysokiej jakości szczoteczek sonicznych. Naszym zadaniem było zaprojektowanie **łatwego w obsłudze interfejsu**, eksponującego najważniejsze cechy produktu.
-
-:::::
-:::::case-tile-md
----
-url: 'https://www.behance.net/gallery/138146291/EUROSTAL-Metal-garage-e-commerce'
-image.url: '/img/case-studies/Eurostal.jpg'
----
-
-#title
-#### Projekt UX/UI sklepu internetowego polskiego producenta garaży blaszanych
-
-#description
-**Eurostal** to producent wysokiej jakości garaży blaszanych. Naszym zadaniem było **zaprojektowanie intuicyjnego interfejsu** nowego sklepu wraz z **rozszerzonym konfiguratorem** produktu.
-
-:::::
-:::::case-tile-md
----
-url: 'https://www.behance.net/gallery/105506995/Proton-Multimedia-IT-Services'
-image.url: '/img/case-studies/Proton.jpg'
----
-
-#title
-#### Strona internetowa dostawcy usług IT dla gospodarstw domowych i firm.
-
-#description
-**Proton Multimedia** świadczy usłgi wsparcia IT dla firm i gospodarstw domowych. Nasza praca polegała na dostarczeniu **wysokiej jakości** strony internetowej z **wykorzystaniem nowoczesnych rozwiązań**.
-
-:::::
-::::
 :::
 ::
 

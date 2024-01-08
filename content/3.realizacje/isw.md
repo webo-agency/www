@@ -8,8 +8,9 @@ technologies:
     - TailwindCSS
     - Vue.js
     - Nuxt
-image.url: '/img/case-studies/IS-Wireless.jpg'
-homepage_hidden: false
+image.url: '/img/case-studies/IS-Wireless.png'
+tile_hidden: false
+tile_order: 3
 public: false
 draft: true
 ---
