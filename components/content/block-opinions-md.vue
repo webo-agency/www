@@ -11,6 +11,45 @@
             ref="swiper"
             class="swiper swiper-container w-full h-full !overflow-visible"
           >
+            <div
+              class="swiper-navigation w-full hidden desktop:flex gap-5 justify-between absolute bottom-[240px] z-[2]"
+            >
+              <div
+                class="pointer-events-auto ml-12 cursor-pointer desktop:flex items-center justify-center w-[120px] h-[120px] rounded-full bg-green-main transition duration-200"
+                data-swiper-prev-opinions
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="16"
+                  viewBox="0 0 24 16"
+                  fill="none"
+                  class="rotate-180"
+                >
+                  <path
+                    d="M15.6 0.111328L14.2742 1.43713L19.899 7.06195H0.513672V8.93701H19.8988L14.2742 14.5617L15.6 15.8875L23.4882 7.99939L15.6 0.111328Z"
+                    fill="#202020"
+                  ></path>
+                </svg>
+              </div>
+              <div
+                class="pointer-events-auto mr-24 cursor-pointer desktop:flex items-center justify-center w-[120px] h-[120px] rounded-full bg-green-main transition duration-200"
+                data-swiper-next-opinions
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="16"
+                  viewBox="0 0 24 16"
+                  fill="none"
+                >
+                  <path
+                    d="M15.6 0.111328L14.2742 1.43713L19.899 7.06195H0.513672V8.93701H19.8988L14.2742 14.5617L15.6 15.8875L23.4882 7.99939L15.6 0.111328Z"
+                    fill="#202020"
+                  ></path>
+                </svg>
+              </div>
+            </div>
             <div class="swiper-wrapper flex h-full">
               <slot> </slot>
             </div>
@@ -23,7 +62,7 @@
 </template>
 
 <script>
-import { Swiper, Autoplay, Pagination } from "swiper";
+import { Swiper, Pagination, Navigation } from "swiper";
 import "swiper/css/bundle";
 
 export default {
@@ -33,27 +72,37 @@ export default {
     return {
       swiper: null,
       swiperOptionsObject: {
-        modules: [Autoplay, Pagination],
+        modules: [Pagination, Navigation],
         slidesPerView: "auto",
         slidesPerGroupAuto: false,
         spaceBetween: 0,
         direction: "horizontal",
-        loop: true,
+        loop: false,
         pagination: {
           dynamicBullets: true,
           el: ".swiper-pagination",
           clickable: true,
         },
-
-        speed: 600,
-        autoplay: {
-          delay: 3000,
-          disableOnInteraction: false,
-          pauseOnMouseEnter: true,
+        navigation: {
+          nextEl: "[data-swiper-next-opinions]",
+          prevEl: "[data-swiper-prev-opinions]",
         },
+        speed: 600,
+        // autoplay: {
+        // delay: 3000,
+        // disableOnInteraction: false,
+        // pauseOnMouseEnter: true,
+        // },
         preloadImages: false,
         lazy: {
           loadPrevNext: true,
+        },
+        breakpoints: {
+          1248: {
+            slidesPerView: 3,
+            slidesPerGroup: 2,
+            spaceBetween: 20,
+          },
         },
       },
     };
@@ -64,7 +113,7 @@ export default {
 };
 </script>
 
-<style lang="postcss" scoped>
+<style scoped>
 .swiper-pagination :deep(.swiper-pagination-bullet) {
   @apply w-[25px] h-[5px] rounded-[5px] opacity-100 bg-gray-default
     transition duration-200 mx-[5px];
@@ -72,5 +121,9 @@ export default {
 .swiper-pagination
   :deep(.swiper-pagination-bullet.swiper-pagination-bullet-active) {
   @apply bg-green-main;
+}
+[data-swiper-prev-opinions].swiper-button-disabled,
+[data-swiper-next-opinions].swiper-button-disabled {
+  @apply pointer-events-none opacity-0;
 }
 </style>
