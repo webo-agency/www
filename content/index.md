@@ -566,20 +566,41 @@ id: opinie
 class: mb-[50px] tablet:mb-[150px]
 ---
 
-:::block-header-md
+:::block-columns-1-1-md
 ---
-class: mb-[50px] tablet:mb-[100px]
-maxWidth: 700
-center: true
+class: mb-10 tablet:mb-24 [&_.right]:flex [&_.right]:items-center [&_.right]:justify-end [&_.right]:gap-[20px]
 ---
 
+#right
+::::widget-rating-clutch
+---
+class: h-[60px] p-2 mt-6 tablet:mt-0 rounded-[5px] border-[1px] border-green-main
+---
+::::
+
+::::widget-rating-google
+---
+class: h-[60px] p-1 mt-6 tablet:mt-0 rounded-[5px] border-[1px] border-green-main
+rating: 5
+link: https://www.google.com/search?q=webo+gliwice&sca_esv=581867933&ei=avdRZdPPHbCVxc8PqvGHwAM&ved=0ahUKEwjTrJKs38CCAxWwSvEDHar4ATgQ4dUDCBA&uact=5&oq=webo+gliwice&gs_lp=Egxnd3Mtd2l6LXNlcnAiDHdlYm8gZ2xpd2ljZTICECZIsdsJUPXHCVj1xwlwAngAkAEAmAFXoAFXqgEBMbgBA8gBAPgBAeIDBBgBIEGIBgE&sclient=gws-wiz-serp#lrd=0x471131b61b903edb:0xe16af5e90276dac,1,,,,
+text: See all our reviews
+---
+::::
+
+#left
+::::effect-appear-md
+:::::block-header-md
+
 #subtitle
-*7/* Opinie
+*7/*  test Opinie
 
 #title
 ### Jesteśmy rekomendowani przez *małe i średnie przedsiębiorstwa*
-
+:::::
+::::
 :::
+
+
 
 #full
 :::effect-appear-md
