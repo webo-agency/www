@@ -36,12 +36,12 @@ module.exports = {
       },
       colors: {
         green: {
-          // main: "#07E7C4",
           main: "#06CEAF",
           mainHover: "#07C7A9",
           light: "#F3FEFC",
         },
         gray: {
+          darkest: "#010302",
           darker: "#202020",
           dark: "#424242",
           default: "#E9E9E9",

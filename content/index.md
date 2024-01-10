@@ -380,23 +380,112 @@ moreBtn.linktitle: Zobacz wszystkie projekty
 
 ::page-section-md
 ---
-class: mb-[100px] tablet:mb-[200px]
+class: bg-gray-darkest mb-[100px] tablet:mb-[200px] pt-10 tablet:pt-[100px] [&_.right]:relative
 ---
 
-#full
-:::effect-appear-md
-::::block-text-bg-md
+:::block-columns-1-1-md
+
+#left
+::::effect-appear-md
+:::::block-header-md
 ---
-imgUrl: '/img/content-images/5teamwork.png'
+textWhite: true
+class: mb-10 tablet:mb-20
 ---
 
 #subtitle
-*5/* Nasza misja
+*5/* Nasze podejście
 
 #title
-### Stosując nowoczesne narzędzia, *rozwiązujemy problemy* użytkowników, *osiągając* dzięki temu cele *biznesowe* naszych partnerów.
+### Dlaczego warto <br> nam *zaufać?*
 
+#description
+::::::prose-p-3
+---
+class: px-5 tablet:px-10
+---
+Nasz zespół to solidne umysły ścisłe. Znamy się na technologii jak na niczym innym, pracujemy na twardych danych a nie domysłach.
+::::::
+:::::
 ::::
+
+::::block-list-ul-md
+---
+class: mb-10 gap-5 grid tablet:grid-cols-2
+---
+
+:::::tile-dark-icon-md
+---
+iconUrl: '/img/icons/icn_chart.png'
+delay: 0
+---
+
+#title
+#### Zawsze opieramy się o dokumentację techniczną
+
+#description
+Dzięki czemu nasze strony są wydajne i bezpieczne, a kod strony odpowiednio zoptymalizowany.
+
+:::::
+:::::prose-li
+---
+class: hidden tablet:block h-5
+---
+:::::
+
+
+:::::tile-dark-icon-md
+---
+iconUrl: '/img/icons/uxui.png'
+delay: 1
+---
+
+#title
+#### Tworzymy strony stabilnie działające przez lata
+
+#description
+Dbamy o szczegóły i jakość naszej pracy, stawiamy na ręcznie programowane strony, bez śmieciowego kodu
+
+:::::
+:::::tile-dark-icon-md
+---
+iconUrl: '/img/icons/arrows.png'
+delay: 2
+---
+
+#title
+#### Jesteśmy zespołem od zadań specjalnych
+
+#description
+Nie ma rzeczy niemożliwych 
+i problemów których nie da się rozwiązać - udowadnialiśmy to wielokrotnie
+
+:::::
+:::::tile-dark-icon-md
+---
+iconUrl: '/img/icons/arrows.png'
+delay: 3
+---
+
+#title
+#### W naszej pracy stawiamy na techniczne podejście
+#description
+Należy coś wymyślić
+
+:::::
+::::
+
+#right
+::::effect-parallax-md
+:::::img-decorated-md
+---
+imgUrl: '/img/content-images/approach-img.png'
+decoration: false
+class: mt-10 !pl-10 !w-full
+---
+:::::
+::::
+
 :::
 ::
 
