@@ -140,7 +140,9 @@
           <div
             class="flex flex-col phone-wide:flex-row flex-wrap gap-5 tablet:gap-10 tablet-wide:basis-2/3"
           >
-            <WidgetRatingClutch class="self-start p-2 bg-white rounded-[5px]" />
+            <WidgetRatingClutch
+              class="w-[204px] self-start p-2 bg-white rounded-[5px]"
+            />
             <WidgetRatingGoogle
               class="self-start p-2 bg-white rounded-[5px]"
               :rating="googleRating"

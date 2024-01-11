@@ -257,7 +257,7 @@
               :socials="socials"
               :invertColors="true"
             />
-            <WidgetRatingClutch />
+            <WidgetRatingClutch :shrinkMobile="false" />
           </div>
         </div>
       </div>
