@@ -1,61 +1,46 @@
 <template>
   <div class="h-full font-body">
-    <LayoutNavbar
-      :menu="navItems"
-      :socials="generalData.socials"
-      :clutchLink="generalData.clutchLink"
-    />
+    <LayoutNavbar :menu="navItems" :socials="generalData.socials" :clutchLink="generalData.clutchLink" />
     <div class="relative flex flex-col justify-between h-full mt-[100px]">
       <main>
         <NuxtPage />
       </main>
       <button-scroll-up class="shrink-0" />
-      <FbChat :id="238379120057786" :locale="generalData.lang == 'PL' ? 'pl_PL': 'en_US'" />
-      <LayoutFooter
-        :mail="generalData.mail"
-        :tel="generalData.tel"
-        :privacyPolicyLink="footerData.privacyPolicyLink"
-        :privacyPolicyTitle="footerData.privacyPolicyTitle"
-        :servicesTitle="footerData.servicesTitle"
-        :services="footerData.servicesMenu"
-        :brandTitle="footerData.brandTitle"
-        :brand="footerData.brandMenu"
-        :brandName="generalData.brandName"
-        :location="generalData.address"
-        :socials="generalData.socials"
-        :clutchLink="generalData.clutchLink"
-        :googleRating="generalData.googleRating"
-        :googleRatingLink="generalData.googleRatingLink"
-        :googleRatingText="generalData.googleRatingText"
-        :showContributions="true"
-      />
+      <FbChat :id="238379120057786" :locale="generalData.lang == 'PL' ? 'pl_PL' : 'en_US'" />
+      <LayoutFooter :mail="generalData.mail" :tel="generalData.tel" :privacyPolicyLink="footerData.privacyPolicyLink"
+        :privacyPolicyTitle="footerData.privacyPolicyTitle" :servicesTitle="footerData.servicesTitle"
+        :services="footerData.servicesMenu" :brandTitle="footerData.brandTitle" :brand="footerData.brandMenu"
+        :brandName="generalData.brandName" :location="generalData.address" :socials="generalData.socials"
+        :clutchLink="generalData.clutchLink" :googleRating="generalData.googleRating"
+        :googleRatingLink="generalData.googleRatingLink" :googleRatingText="generalData.googleRatingText"
+        :showContributions="true" />
     </div>
   </div>
 </template>
 
 <script setup>
 
-const { data:settings } = await  useAsyncData(() => queryContent().where({_file: "_settings.md"}).findOne()) 
-const { data:navItemsRaw } = await  useAsyncData(() => queryContent().where({showInNav: true}).find()) 
+const { data: settings } = await useAsyncData(() => queryContent().where({ _file: "_settings.md" }).findOne())
+const { data: navItemsRaw } = await useAsyncData(() => queryContent().where({ showInNav: true }).find())
 
 const footerData = settings.value.footer
 const generalData = settings.value.general
 const headData = settings.value.head
 
-const navItems = formatNavItems(navItemsRaw.value,0)
+const navItems = formatNavItems(navItemsRaw.value, 0)
 const currLang = useState("lang", () => generalData.lang ?? "EN");
 
 useServerSeoMeta({
-    title: headData.title,
-    description: headData.description,
-    ogDescription: headData.description,
-  });
+  title: headData.title,
+  description: headData.description,
+  ogDescription: headData.description,
+});
 
 useHead({
   meta: [
     { name: "msapplication-TileColor", content: "#da532c" },
     { name: "msapplication-TileImage", content: "/mstile-150x150.png" },
-    { name: "theme-color", content: "#ffffff" },
+    { name: "theme-color", content: "#06CEAF" },
     { name: "robots", content: "INDEX,FOLLOW" },
   ],
   script: [
@@ -108,15 +93,16 @@ useHead({
 </script>
 
 <style>
-  .page-enter-active,
-  .page-leave-active {
-    transition: all 0.15s;
-  }
-  .page-enter-from,
-  .page-leave-to {
-    opacity: 0;
-  }
-  
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.15s;
+}
+
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+}
+
 .prose em {
   @apply text-green-main not-italic;
 }
@@ -125,7 +111,7 @@ useHead({
   @apply underline transition duration-200 hover:text-green-main cursor-pointer;
 }
 
-.no-link-style a{
+.no-link-style a {
   @apply no-underline hover:text-current
 }
 </style>
