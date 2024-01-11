@@ -1,30 +1,19 @@
 <template>
   <div>
     <div :class="textWhite ? 'text-white' : 'text-gray-darker'">
-      <div
-        v-if="$slots.subtitle"
-        class="subtitle text-base desktop:text-lg"
-        :class="{ 'text-center': center }"
-      >
+      <div v-if="$slots.subtitle" class="subtitle text-base desktop:text-lg font-normal"
+        :class="{ 'text-center': center }">
         <ContentSlot :use="$slots.subtitle" />
       </div>
-      <div
-        v-if="$slots.title"
-        class="title text-2xl tablet:text-3xl desktop:text-4xl font-semibold"
-        :class="[
-          { ' mx-auto text-center': center },
-          { 'mb-7 desktop:mb-12 ': $slots.description },
-        ]"
-        :style="[{ 'max-width': maxWidth + 'px' }]"
-      >
+      <div v-if="$slots.title" class="title text-2xl tablet:text-3xl desktop:text-4xl font-semibold" :class="[
+        { ' mx-auto text-center': center },
+        { 'mb-7 desktop:mb-12 ': $slots.description },
+      ]" :style="[{ 'max-width': maxWidth + 'px' }]">
         <ContentSlot :use="$slots.title" />
       </div>
-      <div
-        v-if="$slots.description"
-        class="text-base desktop:text-lg font-normal"
+      <div v-if="$slots.description" class="text-base desktop:text-lg font-medium"
         :class="{ ' mx-auto text-center': center }"
-        :style="[{ 'max-width': (!descriptionFullWidth ? (maxWidth + 'px') : 'none')}]"
-      >
+        :style="[{ 'max-width': (!descriptionFullWidth ? (maxWidth + 'px') : 'none') }]">
         <ContentSlot :use="$slots.description" />
       </div>
     </div>
@@ -55,11 +44,11 @@ export default {
 }
 
 .title :deep(h5) {
-  @apply text-2xl tablet:text-3xl  pb-5;
+  @apply text-2xl tablet:text-3xl pb-5;
 }
 
 .title :deep(h6) {
-  @apply text-xl tablet:text-2xl  pb-5;
+  @apply text-xl tablet:text-2xl pb-5;
 }
 
 .subtitle :deep(em) {

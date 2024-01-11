@@ -380,23 +380,131 @@ moreBtn.linktitle: Zobacz wszystkie projekty
 
 ::page-section-md
 ---
-class: mb-[100px] tablet:mb-[200px]
+class: bg-gray-darkest relative z-10 overflow-hidden mb-[100px] tablet:mb-[200px] pt-10 tablet:pt-[100px] [&_.right]:relative [&_.right]:flex [&_.right]:items-end
 ---
 
-#full
-:::effect-appear-md
-::::block-text-bg-md
+:::block-columns-1-1-md
+
+#left
+::::effect-appear-md
+:::::block-header-md
 ---
-imgUrl: '/img/content-images/5teamwork.png'
+textWhite: true
+class: mb-10 tablet:mb-20
 ---
 
 #subtitle
-*5/* Nasza misja
+*5/* Nasze podejście
 
 #title
-### Stosując nowoczesne narzędzia, *rozwiązujemy problemy* użytkowników, *osiągając* dzięki temu cele *biznesowe* naszych partnerów.
+### Dlaczego warto <br> nam *zaufać?*
 
+#description
+::::::prose-p-3
+---
+class: px-5 tablet:px-10
+---
+Nasz zespół to solidne umysły ścisłe. Znamy się na technologii jak na niczym innym, pracujemy na twardych danych a nie domysłach.
+::::::
+:::::
 ::::
+
+::::block-list-ul-md
+---
+class: mb-10 gap-5 columns-1 tablet:columns-2 [&_li]:inline-block space-y-5
+---
+
+:::::tile-dark-icon-md
+---
+iconUrl: '/img/icons/icn_chart.png'
+delay: 0
+---
+
+#title
+#### Zawsze opieramy się o dokumentację techniczną
+
+#description
+Dzięki czemu nasze strony są wydajne i bezpieczne, a kod strony odpowiednio zoptymalizowany.
+
+:::::
+:::::tile-dark-icon-md
+---
+iconUrl: '/img/icons/arrows.png'
+delay: 2
+class: mt-0 tablet:mt-5
+---
+
+#title
+#### Jesteśmy zespołem od zadań specjalnych
+
+#description
+Nie ma rzeczy niemożliwych 
+i problemów których nie da się rozwiązać - udowadnialiśmy to wielokrotnie
+
+:::::
+:::::tile-dark-icon-md
+---
+iconUrl: '/img/icons/uxui.png'
+delay: 1
+---
+
+#title
+#### Tworzymy strony stabilnie działające przez lata
+
+#description
+Dbamy o szczegóły i jakość naszej pracy, stawiamy na ręcznie programowane strony, bez śmieciowego kodu
+
+:::::
+:::::tile-dark-icon-md
+---
+iconUrl: '/img/icons/arrows.png'
+delay: 3
+---
+
+#title
+#### Wielokrotnie testujemy przed publikacją
+
+#description
+Przed publikacją gruntownie sprawdzamy działanie  strony, zarówno manualnie jak i wykorzystując testy automatyczne.
+
+:::::
+::::
+
+#right
+::::effect-appear-md
+---
+class: w-full
+---
+:::::effect-parallax-md
+---
+parallaxScale: 0.15
+startBottom: true
+---
+::::::img-decorated-md
+---
+imgUrl: '/img/content-images/approach-img.png'
+decoration: false
+class: mt-0 !mb-0 !pl-20 tablet:!pl-32 !w-full relative after:block after:content-[''] after:bottom-0 after:inset-x-0 after:top-1/3 after:z-30 after:bg-gradient-to-t after:bg-gradient-from after:from-gray-darkest after:absolute
+---
+::::::
+:::::
+:::::effect-parallax-md
+---
+class: bottom-0 left-10 !absolute
+parallaxScale: 0.05
+startBottom: true
+---
+::::::img-decorated-md
+---
+imgUrl: '/img/logo-o-cropped.svg'
+decoration: false
+class: mt-0 !pl-0 !mb-0 !w-[70%] !ml-0
+---
+::::::
+:::::
+::::
+
+
 :::
 ::
 
