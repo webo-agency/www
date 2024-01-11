@@ -162,11 +162,12 @@ button.link: https://www.webo.agency/kontakt
 button.title: 'Skontaktuj się'
 ---
 
-#subtitle
-*-/* Szukasz innej usługi?
 
 #title
-## Napisz do nas Porozmawiajmy!
+## Szukasz innej usługi?
+
+#description
+Umów się na bezpłatną konsultację, porozmawiajmy!
 
 ::::
 :::
