@@ -1,43 +1,44 @@
 <template>
-  <div ref="container" class="relative w-full h-full overflow-hidden">
-    <ClientOnly>
-      <div class="will-change-transform" :class="innerClass" :style="parallaxStyle">
-        <slot> </slot>
-      </div>
-    </ClientOnly>
+  <div ref="container" class="relative w-full">
+    <div ref="parallaxEl" class="will-change-transform" :class="innerClass">
+      <slot> </slot>
+    </div>
   </div>
 </template>
 
-<script>
-import { useElementBounding } from "@vueuse/core";
-import { computed, ref, toRef } from "vue";
-export default {
-  name: "EffectParallax",
-  props: {
-    innerClass: {
-      type: String,
-      default: "",
-    },
-    parallaxScale: {
-      type: Number,
-      default: 0.1,
-    },
+<script setup>
+import { useElementBounding, useWindowSize } from "@vueuse/core";
+const props = defineProps({
+  innerClass: {
+    type: String,
+    default: "",
   },
-  setup(props) {
-    const container = ref(null);
-
-    const { x, y, top, right, bottom, left, width, height } =
-      useElementBounding(container);
-
-    const parallaxScale = toRef(props, "parallaxScale");
-
-    const parallaxStyle = computed(() => ({
-      transform: `translateY(${-y.value * parallaxScale.value}px)`,
-    }));
-
-    return { container, y, parallaxStyle };
+  parallaxScale: {
+    type: Number,
+    default: 0.1,
   },
-};
+  startBottom: {
+    type: Boolean,
+    default: false
+  }
+})
+const container = ref(null);
+const parallaxEl = ref(null);
+const { height: windowHeight } = useWindowSize()
+const { y, height } =
+  useElementBounding(container);
+
+const parallaxStyle = computed(() => {
+  const translateY = process.server ? 0 : (props.startBottom ? -(y.value + height.value - windowHeight.value) : -y.value);
+  return `transform: translateY(${translateY * props.parallaxScale}px)`;
+});
+
+watch(parallaxStyle, (styleVal) => {
+  if (parallaxEl.value && styleVal) {
+    parallaxEl.value.style = styleVal
+  }
+})
+
 </script>
 
 <style></style>

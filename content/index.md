@@ -380,7 +380,7 @@ moreBtn.linktitle: Zobacz wszystkie projekty
 
 ::page-section-md
 ---
-class: bg-gray-darkest mb-[100px] tablet:mb-[200px] pt-10 tablet:pt-[100px] [&_.right]:relative
+class: bg-gray-darkest relative z-10 overflow-hidden mb-[100px] tablet:mb-[200px] pt-10 tablet:pt-[100px] [&_.right]:relative [&_.right]:flex [&_.right]:items-end
 ---
 
 :::block-columns-1-1-md
@@ -411,7 +411,7 @@ Nasz zespół to solidne umysły ścisłe. Znamy się na technologii jak na nicz
 
 ::::block-list-ul-md
 ---
-class: mb-10 gap-5 grid tablet:grid-cols-2
+class: mb-10 gap-5 columns-1 tablet:columns-2 [&_li]:inline-block space-y-5
 ---
 
 :::::tile-dark-icon-md
@@ -427,13 +427,21 @@ delay: 0
 Dzięki czemu nasze strony są wydajne i bezpieczne, a kod strony odpowiednio zoptymalizowany.
 
 :::::
-:::::prose-li
+:::::tile-dark-icon-md
 ---
-class: hidden tablet:block h-5
+iconUrl: '/img/icons/arrows.png'
+delay: 2
+class: mt-0 tablet:mt-5
 ---
+
+#title
+#### Jesteśmy zespołem od zadań specjalnych
+
+#description
+Nie ma rzeczy niemożliwych 
+i problemów których nie da się rozwiązać - udowadnialiśmy to wielokrotnie
+
 :::::
-
-
 :::::tile-dark-icon-md
 ---
 iconUrl: '/img/icons/uxui.png'
@@ -450,41 +458,52 @@ Dbamy o szczegóły i jakość naszej pracy, stawiamy na ręcznie programowane s
 :::::tile-dark-icon-md
 ---
 iconUrl: '/img/icons/arrows.png'
-delay: 2
----
-
-#title
-#### Jesteśmy zespołem od zadań specjalnych
-
-#description
-Nie ma rzeczy niemożliwych 
-i problemów których nie da się rozwiązać - udowadnialiśmy to wielokrotnie
-
-:::::
-:::::tile-dark-icon-md
----
-iconUrl: '/img/icons/arrows.png'
 delay: 3
 ---
 
 #title
-#### W naszej pracy stawiamy na techniczne podejście
+#### Wielokrotnie testujemy przed publikacją
+
 #description
-Należy coś wymyślić
+Przed publikacją gruntownie sprawdzamy działanie  strony, zarówno manualnie jak i wykorzystując testy automatyczne.
 
 :::::
 ::::
 
 #right
-::::effect-parallax-md
-:::::img-decorated-md
+::::effect-appear-md
+---
+class: w-full
+---
+:::::effect-parallax-md
+---
+parallaxScale: 0.15
+startBottom: true
+---
+::::::img-decorated-md
 ---
 imgUrl: '/img/content-images/approach-img.png'
 decoration: false
-class: mt-10 !pl-10 !w-full
+class: mt-0 !mb-0 !pl-20 tablet:!pl-32 !w-full relative after:block after:content-[''] after:bottom-0 after:inset-x-0 after:top-1/3 after:z-30 after:bg-gradient-to-t after:bg-gradient-from after:from-gray-darkest after:absolute
 ---
+::::::
+:::::
+:::::effect-parallax-md
+---
+class: bottom-0 left-10 !absolute
+parallaxScale: 0.05
+startBottom: true
+---
+::::::img-decorated-md
+---
+imgUrl: '/img/logo-o-cropped.svg'
+decoration: false
+class: mt-0 !pl-0 !mb-0 !w-[70%] !ml-0
+---
+::::::
 :::::
 ::::
+
 
 :::
 ::

@@ -1,5 +1,5 @@
 <template>
-    <li>
+    <li class="w-full">
         <EffectAppearMdc :delay="delay ? delay * 100 : 0">
             <div class="group p-5 bg-gradient-to-b from-gray-darker/50"
                 :class="{ 'flex flex-wrap items-center': iconInline }">
