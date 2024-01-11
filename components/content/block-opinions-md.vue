@@ -1,10 +1,10 @@
 <template>
-  <div class="px-5 tablet:px-10 desktop:px-0 overflow-hidden">
+  <div class="px-5 tablet:px-10 desktop:px-0 overflow-hidden w-full">
     <div
-      class="relative w-full mx-auto desktop:mx-0 max-w-screen-desktop-wide rounded-[5px]"
+      class="relative w-full mx-auto desktop:mx-auto max-w-screen-desktop-wide rounded-[5px]"
     >
       <div
-        class="relative desktop-wide:w-screen pr-5 tablet:pr-10 desktop:pr-20 -mr-5 tablet:-mr-10 desktop:-mr-20 desktop-wide:mr-0 h-full overflow-hidden"
+        class="relative desktop-wide:w-screen pr-5 tablet:pr-10 desktop:pr-20 -mr-5 tablet:-mr-10 desktop:-mr-20 desktop-wide:mr-0 h-full overflow-visible"
       >
         <div class="max-w-screen-desktop-wide">
           <div
@@ -33,7 +33,7 @@
                 </svg>
               </div>
               <div
-                class="pointer-events-auto mr-24 cursor-pointer desktop:flex items-center justify-center w-[120px] h-[120px] rounded-full bg-green-main transition duration-200"
+                class="pointer-events-auto mr-24 cursor-pointer desktop:flex items-center justify-center w-[120px] h-[120px] rounded-full bg-green-main hover:bg-green-mainHover transition duration-200"
                 data-swiper-next-opinions
               >
                 <svg
@@ -62,7 +62,7 @@
 </template>
 
 <script>
-import { Swiper, Pagination, Navigation, Autoplay } from "swiper";
+import { Swiper, Pagination, Navigation } from "swiper";
 import "swiper/css/bundle";
 
 export default {
@@ -72,12 +72,12 @@ export default {
     return {
       swiper: null,
       swiperOptionsObject: {
-        modules: [Autoplay, Pagination, Navigation],
+        modules: [Pagination, Navigation],
         slidesPerView: "auto",
         slidesPerGroupAuto: false,
         spaceBetween: 0,
         direction: "horizontal",
-        loop: true,
+        loop: false,
         grabCursor: true,
         pagination: {
           dynamicBullets: true,
@@ -89,11 +89,11 @@ export default {
           prevEl: "[data-swiper-prev-opinions]",
         },
         speed: 600,
-        autoplay: {
-          delay: 3000,
-          disableOnInteraction: false,
-          pauseOnMouseEnter: true,
-        },
+        // autoplay: {
+        //   delay: 3000,
+        //   disableOnInteraction: false,
+        //   pauseOnMouseEnter: true,
+        // },
         preloadImages: false,
         lazy: {
           loadPrevNext: true,
@@ -128,5 +128,15 @@ export default {
 }
 [data-swiper-prev-opinions] {
   @apply pointer-events-none opacity-0;
+}
+</style>
+<style>
+.swiper-slide.swiper-slide-prev,
+.swiper-slide {
+  @apply opacity-30 transition duration-200;
+}
+.swiper-slide.swiper-slide-active,
+.swiper-slide.swiper-slide-next {
+  @apply opacity-100 transition duration-200;
 }
 </style>
