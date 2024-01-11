@@ -285,7 +285,7 @@ moreBtn.linktitle: Zobacz wszystkie projekty
 
 ::page-section-md
 ---
-class: bg-gray-darkest relative z-10 overflow-hidden mb-[100px] tablet:mb-[200px] pt-10 tablet:pt-[100px] [&_.right]:relative [&_.right]:flex [&_.right]:items-end
+class: bg-gray-darkest relative z-10 overflow-hidden mb-[100px] tablet:mb-[200px] pt-10 tablet:pt-[100px] [&_.right]:relative [&_.right]:flex [&_.right]:items-end [&_.right]:overflow-hidden [&_.right]:tablet:overflow-visible
 ---
 
 :::block-columns-1-1-md
@@ -389,7 +389,8 @@ startBottom: true
 ---
 imgUrl: '/img/content-images/approach-img.png'
 decoration: false
-class: mt-0 !mb-0 !pl-20 tablet:!pl-32 !w-full relative after:block after:content-[''] after:bottom-0 after:inset-x-0 after:top-1/3 after:z-30 after:bg-gradient-to-t after:bg-gradient-from after:from-gray-darkest after:absolute
+gradient: true
+class: mt-0 !mb-0 !pl-20 tablet:!pl-32 !w-full
 ---
 ::::::
 :::::
