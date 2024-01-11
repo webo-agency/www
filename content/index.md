@@ -590,7 +590,7 @@ text: See all our reviews
 :::::block-header-md
 
 #subtitle
-*7/*  test Opinie
+*7/*  Opinie
 
 #title
 ### Jesteśmy rekomendowani przez *małe i średnie przedsiębiorstwa*

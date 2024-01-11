@@ -1,5 +1,5 @@
 <template>
-  <div class="px-5 tablet:px-10 desktop:px-20 overflow-hidden">
+  <div class="px-5 tablet:px-10 desktop:px-0 overflow-hidden">
     <div
       class="relative w-full mx-auto max-w-screen-desktop-wide rounded-[5px]"
     >
@@ -12,10 +12,10 @@
             class="swiper swiper-container w-full h-full !overflow-visible"
           >
             <div
-              class="swiper-navigation w-full hidden desktop:flex gap-5 justify-between absolute bottom-[240px] z-[2]"
+              class="swiper-navigation w-full hidden desktop:flex gap-5 justify-between absolute bottom-[240px] z-[2] pointer-events-none"
             >
               <div
-                class="pointer-events-auto ml-12 cursor-pointer desktop:flex items-center justify-center w-[120px] h-[120px] rounded-full bg-green-main transition duration-200"
+                class="hidden pointer-events-auto ml-12 cursor-pointer desktop:flex items-center justify-center w-[120px] h-[120px] rounded-full bg-green-main transition duration-200"
                 data-swiper-prev-opinions
               >
                 <svg
@@ -62,7 +62,7 @@
 </template>
 
 <script>
-import { Swiper, Pagination, Navigation } from "swiper";
+import { Swiper, Pagination, Navigation, Autoplay } from "swiper";
 import "swiper/css/bundle";
 
 export default {
@@ -72,12 +72,13 @@ export default {
     return {
       swiper: null,
       swiperOptionsObject: {
-        modules: [Pagination, Navigation],
+        modules: [Autoplay, Pagination, Navigation],
         slidesPerView: "auto",
         slidesPerGroupAuto: false,
         spaceBetween: 0,
         direction: "horizontal",
-        loop: false,
+        loop: true,
+        grabCursor: true,
         pagination: {
           dynamicBullets: true,
           el: ".swiper-pagination",
@@ -88,19 +89,18 @@ export default {
           prevEl: "[data-swiper-prev-opinions]",
         },
         speed: 600,
-        // autoplay: {
-        // delay: 3000,
-        // disableOnInteraction: false,
-        // pauseOnMouseEnter: true,
-        // },
+        autoplay: {
+          delay: 2000,
+          disableOnInteraction: false,
+          pauseOnMouseEnter: true,
+        },
         preloadImages: false,
         lazy: {
           loadPrevNext: true,
         },
         breakpoints: {
           1248: {
-            slidesPerView: 3,
-            slidesPerGroup: 2,
+            slidesPerView: 2.5,
             spaceBetween: 20,
           },
         },
@@ -124,6 +124,9 @@ export default {
 }
 [data-swiper-prev-opinions].swiper-button-disabled,
 [data-swiper-next-opinions].swiper-button-disabled {
+  @apply pointer-events-none opacity-0;
+}
+[data-swiper-prev-opinions] {
   @apply pointer-events-none opacity-0;
 }
 </style>
