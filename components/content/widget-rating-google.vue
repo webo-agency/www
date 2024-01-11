@@ -18,7 +18,7 @@
       <div class="right-col">
         <p class="hidden desktop:block text-xs text-black">Google Rating</p>
         <RatingStars class="!mb-0" :rating="rating" :small="true" />
-        <p class="underline text-[10px] text-gray-dark">{{ text }}</p>
+        <p class="text-[10px] text-gray-dark">{{ text }}</p>
       </div>
     </div>
   </CustomLink>
