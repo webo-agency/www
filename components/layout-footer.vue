@@ -137,9 +137,16 @@
             />
           </div>
 
-          <div class="flex flex-col phone-wide:flex-row flex-wrap gap-5 tablet:gap-10 tablet-wide:basis-2/3">
-            <RatingClutch class="self-start p-2 bg-white rounded-[5px]"/>
-            <RatingGoogle class="self-start p-2 bg-white rounded-[5px]" :rating="googleRating" :link="googleRatingLink" :text="googleRatingText"/>
+          <div
+            class="flex flex-col phone-wide:flex-row flex-wrap gap-5 tablet:gap-10 tablet-wide:basis-2/3"
+          >
+            <WidgetRatingClutch class="self-start p-2 bg-white rounded-[5px]" />
+            <WidgetRatingGoogle
+              class="self-start p-2 bg-white rounded-[5px]"
+              :rating="googleRating"
+              :link="googleRatingLink"
+              :text="googleRatingText"
+            />
             <div v-if="showContributions" class="max-w-[270px]">
               <nuxt-picture
                 src="/img/contributions.webp"
