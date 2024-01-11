@@ -1,7 +1,7 @@
 <template>
   <div class="px-5 tablet:px-10 desktop:px-0 overflow-hidden">
     <div
-      class="relative w-full mx-auto max-w-screen-desktop-wide rounded-[5px]"
+      class="relative w-full mx-auto desktop:mx-0 max-w-screen-desktop-wide rounded-[5px]"
     >
       <div
         class="relative desktop-wide:w-screen pr-5 tablet:pr-10 desktop:pr-20 -mr-5 tablet:-mr-10 desktop:-mr-20 desktop-wide:mr-0 h-full overflow-hidden"
@@ -90,7 +90,7 @@ export default {
         },
         speed: 600,
         autoplay: {
-          delay: 2000,
+          delay: 3000,
           disableOnInteraction: false,
           pauseOnMouseEnter: true,
         },
