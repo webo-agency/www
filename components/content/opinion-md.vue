@@ -1,6 +1,6 @@
 <template>
   <div
-    class="swiper-slide bg-[#ECF6F4] flex flex-col justify-between w-[576px] min-h-[460px] basis-full tablet:basis-[40%] shrink-0 mr-10 tablet:mr-0 tablet:pr-10 p-[30px_20px] desktop:p-[60px_40px] tansition duration-200"
+    class="swiper-slide bg-[#ECF6F4] flex flex-col justify-between min-h-[460px] shrink-0 tablet:pr-10 p-[30px_20px] desktop:p-[60px_40px] !transition !duration-200"
   >
     <div v-if="$slots.message" class="prose leading-7 text-sm tablet:text-base">
       <ContentSlot :use="$slots.message" />
@@ -94,4 +94,13 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.swiper-slide.swiper-slide-prev,
+.swiper-slide {
+  @apply opacity-30;
+}
+.swiper-slide.swiper-slide-active,
+.swiper-slide.swiper-slide-next {
+  @apply opacity-100;
+}
+</style>

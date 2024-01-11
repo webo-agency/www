@@ -62,7 +62,7 @@
 </template>
 
 <script>
-import { Swiper, Pagination, Navigation } from "swiper";
+import { Swiper, Pagination, Navigation, Autoplay } from "swiper";
 import "swiper/css/bundle";
 
 export default {
@@ -72,10 +72,10 @@ export default {
     return {
       swiper: null,
       swiperOptionsObject: {
-        modules: [Pagination, Navigation],
-        slidesPerView: "auto",
+        modules: [Pagination, Navigation, Autoplay],
+        slidesPerView: 1,
         slidesPerGroupAuto: false,
-        spaceBetween: 0,
+        spaceBetween: 20,
         direction: "horizontal",
         loop: false,
         grabCursor: true,
@@ -89,19 +89,21 @@ export default {
           prevEl: "[data-swiper-prev-opinions]",
         },
         speed: 600,
-        // autoplay: {
-        //   delay: 3000,
-        //   disableOnInteraction: false,
-        //   pauseOnMouseEnter: true,
-        // },
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+          pauseOnMouseEnter: true,
+        },
         preloadImages: false,
         lazy: {
           loadPrevNext: true,
         },
         breakpoints: {
+          768: {
+            slidesPerView: 1.5,
+          },
           1248: {
             slidesPerView: 2.5,
-            spaceBetween: 20,
           },
         },
       },
@@ -128,15 +130,5 @@ export default {
 }
 [data-swiper-prev-opinions] {
   @apply pointer-events-none opacity-0;
-}
-</style>
-<style>
-.swiper-slide.swiper-slide-prev,
-.swiper-slide {
-  @apply opacity-30 transition duration-200;
-}
-.swiper-slide.swiper-slide-active,
-.swiper-slide.swiper-slide-next {
-  @apply opacity-100 transition duration-200;
 }
 </style>
