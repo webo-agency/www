@@ -172,99 +172,6 @@ button.title: 'Skontaktuj się'
 :::
 ::
 
-::page-section-md
----
-class: mb-[50px] tablet:mb-[150px]
----
-:::effect-appear-md
-::::block-header-md
----
-class: mb-20
-maxWidth: 650
-center: true
----
-
-#subtitle
-*2/* Proces
-
-#title
-## Do projektów podchodzimy etapowo
-
-#description
-W realizacji projektu istotne jest posiadanie szerokiej wiedzy z zakresu technologii i projektowania nastawionego na użytkownika oraz wypracowanego procesu, który zapewnia realizację założeń bez obsów czasowych i w ustalonym budżecie.
-
-::::
-:::
-
-#full
-:::block-process-md
-::::process-tile-md
----
-number: 1
----
-#title
-##### Zbieramy wymagania
-
-#description
-Jest to pierwszy krok jaki musimy wykonać w celu stworzenia strony. Poznajemy wszystkie założenia oraz Twoją firmę, jej klientów i branżę.
-::::
-
-::::process-tile-md
----
-number: 2
----
-#title
-##### Analizujemy informacje
-
-#description
-Wytyczamy ścieżki użytkownika, projektujemy architekturę informacji oraz prototyp, kończąc na gotowym wyglądzie strony.
-::::
-
-::::process-tile-md
----
-number: 3
----
-#title
-##### Projektujemy interfejs
-
-#description
-Wytyczamy ścieżki użytkownika, projektujemy architekturę informacji oraz prototyp, kończąc na gotowym wyglądzie strony.
-::::
-
-::::process-tile-md
----
-number: 4
----
-#title
-##### Wdrażamy stronę
-
-#description
-Instalujemy i kodujemy zaprojektowane rozwiązanie w wybranej technologii. Efektem jest gotowa do testów aplikacja.
-::::
-
-::::process-tile-md
----
-number: 5
----
-#title
-##### Testujemy i poprawiamy
-
-#description
-Sprawdzamy poprawność funkcjonowania systemu, wprowadzamy poprawki - ostatecznie Ty akceptujesz czy ruszamy na podbój internetu.
-::::
-
-::::process-tile-md
----
-number: 6
----
-#title
-##### Publikujemy i rozwijamy
-
-#description
-Po Twojej akceptacji publikujemy stronę www, następnie rozwijamy ją w ramach usługi wsparcia technicznego.
-::::
-:::
-::
 
 ::page-section-md
 ---
@@ -276,7 +183,7 @@ image.url: '/img/content-images/1solutions.png'
 imageMobile.url: '/img/content-images/1solutions_mobile.png'
 ---
 #subtitle
-*3/* Skalowalne rozwiązania
+*2/* Skalowalne rozwiązania
 
 #title
 ### Wybierzemy najlepsze rozwiązanie dla *Twojego biznesu*
@@ -360,7 +267,7 @@ class: mb-10 tablet:mb-20
 ---
 
 #subtitle
-*4/* Case study
+*3/* Case study
 
 #title
 ### Jasteśmy dumni <br> z *wykonanych projektów*
@@ -394,7 +301,7 @@ class: mb-10 tablet:mb-20
 ---
 
 #subtitle
-*5/* Nasze podejście
+*4/* Nasze podejście
 
 #title
 ### Dlaczego warto <br> nam *zaufać?*
@@ -510,164 +417,6 @@ class: mt-0 !pl-0 !mb-0 !w-[70%] !ml-0
 
 ::page-section-md
 ---
-id: o-nas
-class: mb-[100px] tablet:mb-[200px]
----
-:::block-bg-map-md
-:::
-
-:::effect-appear-md
-::::block-header-md
----
-class: relative z-10 mb-10 tablet:mb-20
-maxWidth: 570
----
-
-#subtitle
-*6/* Korzyści dla biznesu
-
-#title
-### Dlaczego warto z nami *współpracować?*
-
-#description
-Zajmujemy się kompleksowym wdrażaniem rozwiązań cyfrowych dla biznesu. Jeśli chcesz prowadzić i rozwijać swój biznes w sieci, my wiemy jak to zrobić!
-
-::::
-:::
-
-:::block-icons-md
----
-class: mb-[50px] tablet:mb-[100px]
----
-
-::::icon-tile-md
----
-iconUrl: '/img/icons/icn_chart.png'
-delay: 0
----
-
-#title
-##### Realizujemy cele biznesowe
-
-#description
-Jako partner technologiczny przed rozpoczęciem projektu analizujemy Twoje założenia biznesowe - to one są najważniejsze.
-
-::::
-::::icon-tile-md
----
-iconUrl: '/img/icons/uxui.png'
-delay: 1
----
-
-#title
-##### Dbamy o potrzeby użytkownika
-
-#description
-Każdy projekt opieramy o potrzeby użytkowników. Dzięki temu dostarczamy intuicyjne strony www, połączone z unikalnym designem.
-
-::::
-::::icon-tile-md
----
-iconUrl: '/img/icons/arrows.png'
-delay: 2
----
-
-#title
-##### Stawiamy na Twój rozwój
-
-#description
-Celem prowadzenia biznesu jest jego rozwój. Tworzymy skalowalne rozwiązania, zapewniając że strona www jest gotowa na Twój sukces.
-
-::::
-::::icon-tile-md
----
-iconUrl: '/img/icons/gears.png'
-delay: 3
----
-
-#title
-##### Automatyzujemy procesy
-
-#description
-Rozwijamy strony o automatyzacje, dzięki temu oszczędzamy Twój czas, a przy tym pieniądze potrzebne na zarządzanie stroną.
-
-::::
-::::icon-tile-md
----
-iconUrl: '/img/icons/AZ.png'
-delay: 4
----
-
-#title
-##### Działamy kompleksowo
-
-#description
-Od wstępnych rozmów, przez projekt strony i wdrożenie, po rozwój i wsparcie. Świadczymy usługi na każdym etapie życia produktu.
-
-::::
-::::icon-tile-md
----
-iconUrl: '/img/icons/partnership.png'
-delay: 5
----
-
-#title
-##### Budujemy partnerskie relacje
-
-#description
-Zależy nam na Twoim biznesie. We współpracy stawiamy na transparentność i zaufanie aby każdy był zadowolony z podejmowanych działań.
-
-::::
-:::
-
-:::effect-appear-md
-::::block-counters-md
-:::::counter-md
----
-target: 50
-symbol: '+'
----
-
-#title
-##### Wykonanych projektów
-
-:::::
-:::::counter-md
----
-target: 10
-symbol: '+'
----
-
-#title
-##### Wspieranych firm i instytucji
-
-:::::
-:::::counter-md
----
-target: 20
-symbol: '+'
----
-
-#title
-##### Używanych rozwiązań OpenSource
-
-:::::
-:::::counter-md
----
-target: 98
-symbol: '%'
----
-
-#title
-##### Trwałych relacji biznesowych
-
-:::::
-::::
-:::
-::
-
-::page-section-md
----
 id: opinie
 class: mb-[50px] tablet:mb-[150px]
 ---
@@ -698,7 +447,7 @@ text: See all our reviews
 :::::block-header-md
 
 #subtitle
-*7/*  Opinie
+*4/*  Opinie
 
 #title
 ### Jesteśmy rekomendowani przez *małe i średnie przedsiębiorstwa*
