@@ -1,5 +1,11 @@
 <template>
-  <div class="w-[204px] items-center overflow-hidden">
+  <div
+    class="tablet:w-[204px] h-[65px] p-2 tablet:mt-0 bg-white rounded-[5px] overflow-hidden"
+    :class="[
+      { 'border-[1px] border-green-main': border },
+      { 'w-[100px]': shrinkMobile },
+    ]"
+  >
     <div
       class="clutch-widget"
       data-url="https://widget.clutch.co"
@@ -12,7 +18,19 @@
     ></div>
   </div>
 </template>
+
 <script setup>
+const props = defineProps({
+  border: {
+    type: Boolean,
+    default: false,
+  },
+  shrinkMobile: {
+    type: Boolean,
+    default: true,
+  },
+});
+
 useHead({
   script: [
     {

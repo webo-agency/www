@@ -101,13 +101,10 @@
         </div>
       </EffectAppearMdc>
       <div
-        class="rating h-[65px] z-[2] flex gap-[20px] desktop:absolute desktop:bottom-[14%] desktop:right-[6%]"
+        class="z-[2] flex gap-[20px] desktop:absolute desktop:bottom-[14%] desktop:right-[6%]"
       >
-        <WidgetRatingClutch
-          class="p-2 bg-white rounded-[5px] h-[52px] desktop:h-auto max-w-[100px] tablet:max-w-[204px]"
-        />
+        <WidgetRatingClutch />
         <WidgetRatingGoogle
-          class="p-2 bg-white rounded-[5px] h-[52px] desktop:h-auto"
           :rating="5"
           :link="'https://www.google.com/search?q=webo+gliwice&sca_esv=581867933&ei=avdRZdPPHbCVxc8PqvGHwAM&ved=0ahUKEwjTrJKs38CCAxWwSvEDHar4ATgQ4dUDCBA&uact=5&oq=webo+gliwice&gs_lp=Egxnd3Mtd2l6LXNlcnAiDHdlYm8gZ2xpd2ljZTICECZIsdsJUPXHCVj1xwlwAngAkAEAmAFXoAFXqgEBMbgBA8gBAPgBAeIDBBgBIEGIBgE&sclient=gws-wiz-serp#lrd=0x471131b61b903edb:0xe16af5e90276dac,1,,,,'"
           :text="'See all our reviews'"
