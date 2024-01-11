@@ -3,8 +3,9 @@
     { 'border-[1px] border-green-main': border },
     [shrinkMobile ? 'w-[100px] tablet:w-[204px]' : 'w-[204px]'],
   ]">
-    <div class="clutch-widget" data-url="https://widget.clutch.co" data-widget-type="2" data-height="45"
-      data-nofollow="true" data-expandifr="true" data-scale="100" data-clutchcompany-id="1892969"></div>
+    <iframe id="iframe-0.9718574281008987" width="100%"
+      src="https://widget.clutch.co/widgets/get/2?ref_domain=localhost&amp;uid=1892969&amp;rel_nofollow=true&amp;ref_path=/"
+      height="45px" scrolling="no" style="border: none; overflow: hidden; display: block; height: 45px;"></iframe>
   </div>
 </template>
 
@@ -12,15 +13,5 @@
 defineProps({
   border: { type: Boolean, default: false },
   shrinkMobile: { type: Boolean, default: true }
-});
-
-useHead({
-  script: [
-    {
-      type: "text/javascript",
-      src: "https://widget.clutch.co/static/js/widget.js",
-      async: true,
-    },
-  ],
 });
 </script>
