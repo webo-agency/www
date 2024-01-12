@@ -41,7 +41,7 @@ class: bottom-0 right-[10%] scale-x-[-1]
 :::svg-bg-dots
 ---
 decoration: true
-class: tablet:top-56 right-0 scale-100 tablet:scale-100
+class: tablet:top-56 right-0
 ---
 :::
 
