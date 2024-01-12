@@ -391,7 +391,7 @@ class: overflow-hidden tablet:overflow-visible
 imgUrl: '/img/content-images/approach-img.png'
 decoration: false
 gradient: true
-class: mt-0 !mb-0 !pl-0 !pl-8 tablet-wide:!pl-32 !w-full
+class: mt-0 !mb-0 !pl-0 tablet:!pl-8 tablet-wide:!pl-32 !w-full
 ---
 ::::::
 :::::
