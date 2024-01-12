@@ -285,7 +285,7 @@ moreBtn.linktitle: Zobacz wszystkie projekty
 
 ::page-section-md
 ---
-class: bg-gray-darkest relative z-10 overflow-hidden mb-[100px] tablet:mb-[200px] pt-10 tablet:pt-[100px] [&_.right]:relative [&_.right]:flex [&_.right]:items-end [&_.right]:overflow-hidden [&_.right]:tablet:overflow-visible
+class: bg-gray-darkest relative z-10 overflow-hidden mb-[100px] tablet:mb-[200px] pt-10 tablet:pt-[100px] [&_.right]:relative [&_.right]:flex [&_.right]:items-end
 ---
 
 :::block-columns-1-1-md
@@ -384,19 +384,20 @@ class: w-full
 ---
 parallaxScale: 0.15
 startBottom: true
+class: overflow-hidden tablet:overflow-visible
 ---
 ::::::img-decorated-md
 ---
 imgUrl: '/img/content-images/approach-img.png'
 decoration: false
 gradient: true
-class: mt-0 !mb-0 !pl-20 tablet:!pl-32 !w-full
+class: mt-0 !mb-0 !pl-0 !pl-8 tablet-wide:!pl-32 !w-full
 ---
 ::::::
 :::::
 :::::effect-parallax-md
 ---
-class: bottom-0 left-10 !absolute
+class: bottom-0 -left-4 tablet:left-10 !absolute
 parallaxScale: 0.05
 startBottom: true
 ---
