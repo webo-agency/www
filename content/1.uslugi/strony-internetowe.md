@@ -689,11 +689,11 @@ button.title: 'Umów się na konsultację'
 button.isWide: true
 ---
 
-#subtitle
-*-/* Potrzebujesz więcej informacji?
-
 #title
-### Umów się na rozmowę i poznaj jak tworzymy wydajne strony www
+#### Potrzebujesz więcej informacji?
+
+#description
+Umów się na rozmowę i poznaj jak tworzymy wydajne strony www
 
 ::::
 :::

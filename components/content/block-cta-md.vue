@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative flex flex-col tablet-wide:flex-row justify-between tablet-wide:items-center px-10 desktop-wide:px-[120px] py-[60px] desktop:py-20 rounded-[5px] overflow-hidden"
+    class="relative flex flex-col justify-between items-center px-5 desktop-wide:px-[120px] py-[60px] desktop:py-20 [&>div>div>div]:mb-2"
     :class="{ 'tablet-wide:!flex-col [&_*]:text-center': vertical }"
   >
     <BlockHeaderMdc
@@ -8,17 +8,25 @@
       :maxWidth="maxWidth"
     >
       <template v-if="$slots.subtitle" #subtitle>
-        <slot name="subtitle" />
+        <div class="text-center">
+          <slot name="subtitle" />
+        </div>
       </template>
       <template v-if="$slots.title" #title>
-        <slot name="title" />
+        <div class="font-semibold text-center">
+          <slot name="title" />
+        </div>
       </template>
       <template v-if="$slots.description" #description>
-        <slot name="description" />
+        <div
+          class="mb-4 text-[16px] desktop:text-[20px] font-normal text-center"
+        >
+          <slot name="description" />
+        </div>
       </template>
     </BlockHeaderMdc>
     <ButtonMain
-      class="mt-10 mx-auto desktop:mx-0 text-white z-20"
+      class="mt-5 mx-auto desktop:mx-0 text-black z-20"
       :link="button.link"
       :title="button.title"
       :isWide="button.isWide"

@@ -28,7 +28,7 @@ Tworzonych bez szablonów czy gotowców - <u>od podstaw zgodnie z dokumentacją,
 ::page-section-md
 ---
 id: uslugi
-classes: mb-[50px] tablet:mb-[150px] pt-[80px] desktop:pt-[120px] 
+classes: mb-[50px] tablet:mb-[100px] pt-[80px] desktop:pt-[120px] 
 ---
 
 :::effect-appear-md
@@ -41,7 +41,7 @@ class: bottom-0 right-[10%] scale-x-[-1]
 :::svg-bg-dots
 ---
 decoration: true
-class: top-0 right-0
+class: tablet:top-56 right-0 scale-100 tablet:scale-100
 ---
 :::
 
@@ -153,18 +153,25 @@ Dowiedz się więcej
 
 ::page-section-md
 ---
-class: mb-[100px] tablet:mb-[200px]
+class: mb-[100px] tablet:mb-[100px]
 ---
 :::effect-appear-md
+
+::::svg-bg-dots
+---
+decoration: true
+class: block desktop:hidden top-0 right-0
+---
+::::
+
 ::::block-cta-md
 ---
 button.link: https://www.webo.agency/kontakt
 button.title: 'Skontaktuj się'
 ---
 
-
 #title
-## Szukasz innej usługi?
+#### Szukasz innej usługi?
 
 #description
 Umów się na bezpłatną konsultację, porozmawiajmy!
@@ -419,7 +426,7 @@ class: mt-0 !pl-0 !mb-0 !w-[70%] !ml-0
 ::page-section-md
 ---
 id: opinie
-class: mb-[50px] tablet:mb-[150px]
+class: mb-[50px] tablet:mb-[100px]
 ---
 
 :::block-columns-1-1-md
@@ -554,11 +561,11 @@ button.link: https://www.webo.agency/kontakt
 button.title: 'Skontaktuj się'
 ---
 
-#subtitle
-*-/* Zainteresowała Cię nasza oferta?
-
 #title
-## Skontaktuj się z nami i rozpocznij współpracę
+#### Zainteresowała Cię nasza oferta?
+
+#description
+Skontaktuj się z nami i rozpocznij współpracę
 
 ::::
 :::
