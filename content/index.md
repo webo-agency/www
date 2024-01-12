@@ -28,7 +28,7 @@ Tworzonych bez szablonów czy gotowców - <u>od podstaw zgodnie z dokumentacją,
 ::page-section-md
 ---
 id: uslugi
-classes: mb-[50px] tablet:mb-[100px] pt-[80px] desktop:pt-[120px] 
+classes: mb-[50px] tablet:mb-[80px] pt-[80px] desktop:pt-[120px] 
 ---
 
 :::effect-appear-md
@@ -167,7 +167,9 @@ class: block desktop:hidden top-0 right-0
 ::::block-cta-md
 ---
 button.link: https://www.webo.agency/kontakt
-button.title: 'Skontaktuj się'
+button.title: 'Skontaktuj się z nami'
+button.isWide: true
+class: tablet:mb-18 
 ---
 
 #title

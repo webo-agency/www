@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative flex flex-col justify-between items-center px-5 desktop-wide:px-[120px] py-[60px] desktop:py-20 [&>div>div>div]:mb-2"
+    class="relative flex flex-col justify-between items-center px-5 desktop-wide:px-[120px] py-[40px] desktop:py-0 [&>div>div>div]:mb-2"
     :class="{ 'tablet-wide:!flex-col [&_*]:text-center': vertical }"
   >
     <BlockHeaderMdc
