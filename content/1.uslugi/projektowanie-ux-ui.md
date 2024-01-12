@@ -592,11 +592,11 @@ button.title: 'Umów się na konsultację'
 button.isWide: true
 ---
 
-#subtitle
-*-/* Potrzebujesz więcej informacji?
-
 #title
-### Umów się na bezpłatną konsultację i poznaj nasza ofertę
+#### Potrzebujesz więcej informacji?
+
+#description
+Umów się na bezpłatną konsultację i poznaj nasza ofertę
 
 ::::
 :::

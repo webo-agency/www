@@ -26,7 +26,7 @@ Tworzonych bez szablonów czy gotowców - <u>od podstaw zgodnie z dokumentacją,
 ::page-section-md
 ---
 id: uslugi
-classes: mb-[50px] tablet:mb-[150px] pt-[80px] desktop:pt-[120px] 
+classes: mb-[50px] tablet:mb-[100px] pt-[80px] desktop:pt-[120px] 
 ---
 
 :::effect-appear-md
@@ -39,7 +39,7 @@ class: bottom-0 right-[10%] scale-x-[-1]
 :::svg-bg-dots
 ---
 decoration: true
-class: top-0 right-0
+class: tablet:top-56 right-0 scale-100 tablet:scale-100
 ---
 :::
 
@@ -151,20 +151,28 @@ Dowiedz się więcej
 
 ::page-section-md
 ---
-class: mb-[100px] tablet:mb-[200px]
+class: mb-[100px] tablet:mb-[100px]
 ---
 :::effect-appear-md
+
+::::svg-bg-dots
+---
+decoration: true
+class: block desktop:hidden top-0 right-0
+---
+::::
+
 ::::block-cta-md
 ---
 button.link: https://www.webo.agency/kontakt
 button.title: 'Skontaktuj się'
 ---
 
-#subtitle
-*-/* Szukasz innej usługi?
-
 #title
-## Napisz do nas Porozmawiajmy!
+#### Szukasz innej usługi?
+
+#description
+Umów się na bezpłatną konsultację, porozmawiajmy!
 
 ::::
 :::

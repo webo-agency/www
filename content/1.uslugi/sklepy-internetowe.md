@@ -180,11 +180,11 @@ button.link: https://www.webo.agency/kontakt
 button.title: 'Skontaktuj się'
 ---
 
-#subtitle
-*-/* Nie wiesz jakąofertę wybrać?
-
 #title
-### Dowiedz się które rozwiązanie będzie optymalne dla Twojego biznesu
+Nie wiesz jaką ofertę wybrać?
+
+#description
+#### Dowiedz się które rozwiązanie będzie optymalne dla Twojego biznesu
 
 ::::
 :::
@@ -669,11 +669,11 @@ button.link: https://www.webo.agency/kontakt
 button.title: 'Skontaktuj się'
 ---
 
-#subtitle
-*-/* Zainteresowała Cię nasza oferta?
-
 #title
-## Skontaktuj się z nami i rozpocznij współpracę
+#### Zainteresowała Cię nasza oferta?
+
+#description
+Skontaktuj się z nami i rozpocznij współpracę
 
 ::::
 :::

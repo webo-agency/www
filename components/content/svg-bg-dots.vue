@@ -1,5 +1,5 @@
 <template>
-  <div v-if="decoration" class="dots hidden desktop:block absolute z-[-1]">
+  <div v-if="decoration" class="dots absolute z-[-1]">
     <nuxt-picture
       class="w-full h-full"
       :src="'/img/bg-dots.png'"

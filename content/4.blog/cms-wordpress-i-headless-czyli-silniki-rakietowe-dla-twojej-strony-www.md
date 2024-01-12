@@ -138,11 +138,11 @@ button.link: https://www.webo.agency/kontakt
 button.title: 'Skontaktuj się z nami'
 button.isWide: true
 maxWidth: 560
-class: block [&_.title]:!mb-4 [&_p]:max-w-[312px] [&_p]:font-medium
+class: block [&_.title]:!mb-4 [&_p]:font-medium
 ---
 
 #title
-### Potrzebujesz naszej pomocy lub wyceny projektu?
+#### Potrzebujesz naszej pomocy lub wyceny projektu?
 
 #description
 Skontaktuj się z nami i skorzystaj z bezpłatnej konsultacji
