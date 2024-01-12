@@ -169,7 +169,7 @@ class: block desktop:hidden top-0 right-0
 button.link: https://www.webo.agency/kontakt
 button.title: 'Skontaktuj się z nami'
 button.isWide: true
-class: tablet:mb-18 
+class: tablet:mb-[150px]
 ---
 
 #title
