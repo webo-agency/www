@@ -7,65 +7,17 @@
         <ButtonMain class="text-white" :link="'/'" :title="'Back to home'"></ButtonMain>
       </div>
     </PageSection>
-    <PageSection classes="mb-20 tablet:mb-[130px]">
-      <BlockBrands :logos="[
-        {
-          link: 'https://is-wireless.com/',
-          imgUrl: '/img/logos/isw.svg',
-        },
-        { link: 'https://feeby.pl/', imgUrl: '/img/logos/Feeby.png' },
-        {
-          link: 'https://5gmadetogether.com/',
-          imgUrl: '/img/logos/5G.svg',
-        },
-        {
-          link: 'https://www.swistak-krakow.pl/',
-          imgUrl: '/img/logos/Swistak.svg',
-        },
-        {
-          link: 'https://shop-mancraft.com/pl/',
-          imgUrl: '/img/logos/Mancraft.svg',
-        },
-        {
-          link: 'https://oravio.pl/',
-          imgUrl: '/img/logos/Oravio.svg',
-        },
-        {
-          link: 'https://eurostal-garage.it/',
-          imgUrl: '/img/logos/Eurostal.svg',
-        },
-        // {
-        //   imgUrl: '/img/logos/WallSociety.png',
-        // },
-        {
-          link: 'https://www.przemijanie.pl/',
-          imgUrl: '/img/logos/Przemijanie.png',
-        },
-        {
-          link: 'https://www.caffewasyl.pl/',
-          imgUrl: '/img/logos/CaffeWasyl.svg',
-        },
-        {
-          link: 'https://www.forol.pl/',
-          imgUrl: '/img/logos/Forol.png',
-        },
-        {
-          link: 'https://www.deltahr.pl/',
-          imgUrl: '/img/logos/DeltaHR.png',
-        },
-        {
-          link: 'https://www.ultramaszyna.pl/',
-          imgUrl: '/img/logos/UltraMaszyna.svg',
-        },
-      ]" />
-    </PageSection>
   </div>
 </template>
   
 <script async setup>
 const route = useRoute()
-const { data: pageData } = await useAsyncData('page-data-' + route.fullPath.split('#')[0].split('?')[0], () => queryContent(route.path).findOne(), {
-  server: true,
+const { data: pageData } = await useAsyncData('page-data-' + route.fullPath.split('#')[0].split('?')[0], () => queryContent(route.path).findOne())
+
+const pageHasForm = computed(() => {
+  if (!pageData.value) return false
+
+
 })
 const hrefLangs = computed(() => getPageLangs(pageData.value.hreflangs));
 const hrefLangsState = useState("hrefLangs" + route.fullPath.split('#')[0], () => hrefLangs.value);
