@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col tablet:flex-row">
-    <div class="relative max-w-[820px] basis-2/3 desktop-wide:basis-auto desktop-wide:shrink-0"
+    <div class="relative max-w-[820px] basis-2/3 desktop-wide:shrink-0"
       :class="[darkContainer ? 'text-white p-5 tablet:p-10 desktop:p-[60px] bg-gray-darkest' : 'text-gray-darker']">
       <div v-if="$slots.header" class="mb-5 tablet:mb-7">
         <ContentSlot :use="$slots.header" />
