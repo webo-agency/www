@@ -7,9 +7,10 @@
       </div>
       <div v-if="$slots.title" class="title text-2xl tablet:text-3xl desktop:text-4xl font-semibold" :class="[
         { ' mx-auto text-center': center },
-        { 'mb-7 desktop:mb-12 ': $slots.description },
+        { 'mb-7 desktop:mb-12 ': $slots.description && !titleUnderline },
       ]" :style="[{ 'max-width': maxWidth + 'px' }]">
         <ContentSlot :use="$slots.title" />
+        <div v-if="titleUnderline" class="mt-7 mb-10 w-[200px] h-1 bg-green-main rounded-full"></div>
       </div>
       <div v-if="$slots.description" class="text-base desktop:text-lg font-medium"
         :class="{ ' mx-auto text-center': center }"
@@ -33,7 +34,11 @@ export default {
       default: false
     },
     textWhite: Boolean,
-    center: Boolean
+    center: Boolean,
+    titleUnderline: {
+      type: Boolean,
+      default: false
+    },
   },
 };
 </script>

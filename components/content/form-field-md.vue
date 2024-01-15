@@ -1,53 +1,34 @@
 <template>
   <div v-if="type == 'text'" class="formText">
-    <input
-      class="textInput"
-      type="text"
-      :name="name ? name : 'text_field'"
-      placeholder=" "
-    />
+    <input class="textInput" type="text" :name="name ? name : 'text_field'" placeholder=" " :required="required" />
     <span v-if="$slots.placeholder">
       <ContentSlot :use="$slots.placeholder" unwrap="p" />
+      {{ required ? '*' : null }}
     </span>
   </div>
 
-  <div
-    v-else-if="type == 'email'"
-    class="formText"
-    :class="{ invalid: emailInput && !isEmailValid }"
-  >
-    <input
-      class="textInput"
-      type="email"
-      name="mail"
-      v-model="emailInput"
-      placeholder=" "
-    />
+  <div v-else-if="type == 'email'" class="formText" :class="{ invalid: emailInput && !isEmailValid }">
+    <input class="textInput" type="email" name="mail" v-model="emailInput" placeholder=" " :required="required" />
     <span v-if="$slots.placeholder">
       <ContentSlot :use="$slots.placeholder" unwrap="p" />
+      {{ required ? '*' : null }}
     </span>
   </div>
 
   <div v-else-if="type == 'textarea'" class="formText">
-    <textarea
-      class="textInput min-h-[60px] max-h-[500px]"
-      :name="name ? name : 'description'"
-      placeholder=" "
-    ></textarea>
+    <textarea class="textInput min-h-[200px] max-h-[500px]" :name="name ? name : 'description'" placeholder=" "
+      :required="required"></textarea>
     <span v-if="$slots.placeholder">
       <ContentSlot :use="$slots.placeholder" unwrap="p" />
+      {{ required ? '*' : null }}
     </span>
   </div>
 
   <div v-else class="formText">
-    <input
-      class="textInput"
-      :type="type"
-      :name="name ? name : 'unknown'"
-      placeholder=" "
-    />
+    <input class="textInput" :type="type" :name="name ? name : 'unknown'" placeholder=" " :required="required" />
     <span v-if="$slots.placeholder">
       <ContentSlot :use="$slots.placeholder" unwrap="p" />
+      {{ required ? '*' : null }}
     </span>
   </div>
 </template>
@@ -62,6 +43,7 @@ export default {
   props: {
     type: String,
     name: String,
+    required: Boolean
   },
   computed: {
     isEmailValid() {
@@ -77,31 +59,31 @@ export default {
 };
 </script>
 
-<style  lang="postcss" scoped>
-
+<style scoped>
 .formText {
-  @apply relative pt-5 max-w-[700px];
+  @apply relative pt-2 max-w-[700px];
 }
 
 .formText .textInput {
-  @apply w-full border border-solid border-gray-default rounded-[5px] px-5 py-[15px] text-base desktop:text-lg transition duration-200  focus-visible:border-green-main focus-visible:outline-none;
+  @apply w-full border border-solid border-gray-darker px-5 py-[15px] text-base desktop:text-lg transition duration-200 focus-visible:border-green-main focus-visible:outline-none;
 }
 
 .formText span {
-  @apply absolute left-5 top-[6px] leading-3 text-[10px] text-gray-dark/50 italic pointer-events-none transition-all duration-200;
+  @apply absolute left-5 top-2.5 leading-3 text-[10px] text-current pointer-events-none transition-all duration-200;
 }
 
-.formText .textInput:placeholder-shown ~ span {
-  @apply top-[35px] text-sm desktop:text-base;
+.formText .textInput:placeholder-shown~span {
+  @apply top-[27px] desktop:top-[25px] text-sm desktop:text-base;
 }
 
-.formText .textInput:focus ~ span {
-  @apply top-[6px] text-[10px] leading-3 text-green-main font-semibold;
+.formText .textInput:focus~span {
+  @apply top-2.5 text-[10px] leading-3 text-green-main font-semibold;
 }
 
 .formText.invalid span {
   @apply text-red-500 font-semibold;
 }
+
 .formText.invalid input {
   @apply border-red-500;
 }
