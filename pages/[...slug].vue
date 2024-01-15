@@ -14,11 +14,6 @@
 const route = useRoute()
 const { data: pageData } = await useAsyncData('page-data-' + route.fullPath.split('#')[0].split('?')[0], () => queryContent(route.path).findOne())
 
-const pageHasForm = computed(() => {
-  if (!pageData.value) return false
-
-
-})
 const hrefLangs = computed(() => getPageLangs(pageData.value.hreflangs));
 const hrefLangsState = useState("hrefLangs" + route.fullPath.split('#')[0], () => hrefLangs.value);
 

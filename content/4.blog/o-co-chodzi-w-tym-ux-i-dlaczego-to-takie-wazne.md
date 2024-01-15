@@ -147,12 +147,3 @@ logos:
 ---
 :::
 ::
-::page-section-md
----
-class: mb-20 tablet:mb-[130px]
----
-:::effect-appear-md
-::::block-form-before-footer-md
-::::
-:::
-::
