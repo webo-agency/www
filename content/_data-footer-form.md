@@ -106,7 +106,7 @@ Na Twoją wiadomość odpowiemy w ciągu 24h
 #side
 ::::svg-decor-big-md
 ---
-class: max-w-full mt-10 tablet:mt-0 tablet:pl-10 desktop:pl-20
+class: hidden tablet:block max-w-full mt-10 tablet:mt-0 tablet:pl-10 desktop:pl-20
 ---
 ::::
 
