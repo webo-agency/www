@@ -5,22 +5,41 @@ showInNav: true
 draft: false
 public: true
 ---
-::block-banner-md
+
+::page-section-md
 ---
-bgUrl: './img/services-websites.png'
-headerWidth: 700
-descriptionWidth: 700
+class: mb-[80px] bg-[#ECF6F4]
+---
+
+:::block-columns-1-1-md
+
+#left
+::::block-banner-md
+---
+bgImg: false
+headerWidth: 460
+descriptionWidth: 460
+class: mb-[80px]
 ---
 
 #subtitle
-*-/* Strony internetowe 
+*-/* Solidne Strony internetowe 
 
 #title
-## Szybkie, nowoczesne <br> i funkcjonalne *strony www*
+## Strony internetowe
 
 #description
-Tworzymy świetnie wyglądające strony, gwarantując wysoką wydajność, jakość i bezpieczeństwo.
+Tworzymy szyte na miarę strony internetowe, projektując dla Ciebie indywidualny wygląd i kodując od podstaw.
+::::
 
+#right
+::::block-banner-decoration-md
+---
+svgUrl1: '/img/svg-arc.svg'
+svgUrl2: '/img/svg-square.svg'
+---
+::::
+:::
 ::
 
 ::page-section-md
