@@ -10,7 +10,7 @@
       <nuxt-picture :src="svgUrl1"> </nuxt-picture>
     </div>
     <div
-      class="absolute right-[20%] top-[30%]"
+      class="absolute right-[20%] top-[25%]"
       :style="{ transform: `rotate(${rotate2 ?? 0}deg)` }"
     >
       <nuxt-picture :src="svgUrl2"> </nuxt-picture>

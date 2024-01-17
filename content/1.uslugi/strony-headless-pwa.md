@@ -4,11 +4,15 @@ description: Nowa technologia -  maksimum wydajności i bezpieczeństwa.
 showInNav: true
 draft: false
 public: true
+hreflangs:
+    EN: '/services/headless-and-pwa-websites'
+    PL: '/uslugi/strony-headless-pwa'
 ---
 ::block-banner-md
 ---
-bgUrl: './img/services-headless.png'
-headerWidth: 740
+bgImg: false
+headerWidth: 660
+descriptionWidth: 660
 ---
 
 #subtitle
@@ -20,6 +24,15 @@ headerWidth: 740
 #description
 Dzięki której zabezpieczysz zasoby, zmaksymalizujesz wydajność i zredukujesz koszta utrzymania strony internetowej.
 
+#right
+:::block-banner-decoration-md
+---
+rotate1: 90
+rotate2: 90
+svgUrl1: '/img/svg-square.svg'
+svgUrl2: '/img/svg-arc.svg'
+---
+:::
 ::
 
 ::page-section-md
@@ -373,29 +386,6 @@ moreBtn.linktitle: Zobacz wszystkie projekty
 :::
 ::
 
-
-::page-section-md
----
-class: mb-[50px] tablet:mb-[100px]
----
-:::effect-appear-md
-::::block-cta-md
----
-maxWidth: 650
-button.link: https://www.webo.agency/kontakt
-button.title: 'Umów się na konsultację'
-button.isWide: true
----
-
-#title
-#### Potrzebujesz więcej informacji?
-
-#description
-Umów się na bezpłatną konsultację i poznaj przewagę Headless
-
-::::
-:::
-::
 
 ::page-section-md
 ---
