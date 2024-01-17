@@ -1,6 +1,6 @@
 <template>
   <div
-    class="p-2 transition duration-500 group cursor-pointer"
+    class="transition duration-500 group cursor-pointer rounded-full inline-block overflow-hidden"
     role="button"
     @click="scrollDown()"
     :class="{ 'translate-y-10 opacity-20': !isMounted }"
@@ -11,6 +11,8 @@
       viewBox="0 0 23 35"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      class="mb-5"
+      v-if="!isSecondSvg"
     >
       <rect
         class="path1b"
@@ -34,6 +36,30 @@
       />
       <path class="path2" d="M11 14V27" stroke="#07E7C4" stroke-width="2" />
     </svg>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="80"
+      height="80"
+      viewBox="0 0 80 80"
+      fill="none"
+      class="group cursor-pointer hover:bg-[#07C7A9] transition duration-200"
+      v-if="isSecondSvg"
+    >
+      <rect
+        x="79.5"
+        y="0.5"
+        width="79"
+        height="79"
+        rx="39.5"
+        transform="rotate(90 79.5 0.5)"
+        stroke="#202020"
+        class="group-hover:stroke-[#07C7A9] transition duration-200"
+      />
+      <path
+        d="M47.8887 43.6L46.5629 42.2742L40.938 47.899L40.938 28.5137L39.063 28.5137L39.063 47.8988L33.4383 42.2742L32.1125 43.6L40.0006 51.4882L47.8887 43.6Z"
+        fill="#202020"
+      />
+    </svg>
   </div>
 </template>
 
@@ -48,6 +74,10 @@ export default {
     getContainerRef: {
       type: Function,
       default: () => ({}),
+    },
+    isSecondSvg: {
+      type: Boolean,
+      default: false,
     },
   },
   mounted() {

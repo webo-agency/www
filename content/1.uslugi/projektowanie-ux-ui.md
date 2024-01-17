@@ -6,26 +6,34 @@ draft: false
 public: true
 ---
 
+
+
 ::block-banner-md
 ---
-bgUrl: './img/services-uxui.png'
-headerWidth: 700
-descriptionWidth: 650
-class: block !mb-0
+bgImg: false
+headerWidth: 600
+descriptionWidth: 600
 ---
 
 #subtitle
 *-/* User Experience Design
 
 #title
-## Projektowanie UX/UI stron www, sklepów i aplikacji
+## Projektowanie UX/UI
 
 #description
-Dzięki której zwiększysz zaangażowanie klientów, wyróżnisz się na rynku i uprościsz korzystanie ze swojej strony / sklepu internetowego.
+Projektujemy strony i sklepy internetowe 
 
+#right
+:::block-banner-decoration-md
+---
+rotate1: 90
+rotate2: 90
+svgUrl1: '/img/svg-square.svg'
+svgUrl2: '/img/svg-arc.svg'
+---
+:::
 ::
-
-
 
 ::page-section-md
 ---

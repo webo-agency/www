@@ -5,22 +5,34 @@ showInNav: true
 draft: false
 public: true
 ---
+
+
+
 ::block-banner-md
 ---
-bgUrl: './img/services-support.png'
-headerWidth: 700
-descriptionWidth: 650
+bgImg: false
+headerWidth: 600
+descriptionWidth: 600
 ---
 
 #subtitle
-*-/* Gwarantowana dostępność specjalistów IT
+*-/* Wsparcie techniczne strony internetowej
 
 #title
-## Wsparcie techniczne i rozwój stron / sklepów www
+## Wsparcie i rozwój stron i sklepów www
 
 #description
-Dzięki któremu zabezpieczysz zasoby, zmaksymalizujesz wydajność i zredukujesz koszta utrzymania strony internetowej.
+Jeśli potrzebujesz stałego nadzoru nad swoją stroną lub sklepem, a na dodatek planujesz rozbudowę lub prace optymalizacyjne, ta oferta jest dla Ciebie.
 
+#right
+:::block-banner-decoration-md
+---
+rotate1: 90
+rotate2: 90
+svgUrl1: '/img/svg-square.svg'
+svgUrl2: '/img/svg-arc.svg'
+---
+:::
 ::
 
 ::page-section-md
