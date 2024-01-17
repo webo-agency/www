@@ -4,13 +4,17 @@ description: Łatwe w obsłudze sklepy internetowe z płynnym procesem sprzedaż
 showInNav: true
 draft: false
 public: true
+hreflangs:
+    EN: '/services/e-commerce'
+    PL: '/uslugi/sklepy-internetowe'
 ---
 
 
 ::block-banner-md
 ---
-bgUrl: './img/services_shops_bg.png'
-headerWidth: 830
+bgImg: false
+headerWidth: 660
+descriptionWidth: 660
 ---
 
 #subtitle
@@ -22,8 +26,16 @@ headerWidth: 830
 #description
 Dostarczamy narzędzia, których potrzebujesz, aby <u> sprzedawać online </u>
 
+#right
+:::block-banner-decoration-md
+---
+rotate1: 90
+rotate2: 90
+svgUrl1: '/img/svg-square.svg'
+svgUrl2: '/img/svg-arc.svg'
+---
+:::
 ::
-
 ::page-section-md
 :::effect-appear-md
 ::::block-header-md
@@ -52,9 +64,9 @@ classes: mb-[100px] tablet:mb-[200px] overflow-hidden
 ::::block-tabs-md
 ---
 tabNames: 
-    - {name: Prestashop, iconUrl: img/logos/presta.png}
+    - {name: Prestashop, iconUrl: /img/logos/presta.svg}
     - {name: DrupalCommerce, iconUrl: img/logos/drupal.png}
-    - {name: MVP sklepów www, iconUrl: img/icons/plant.png}
+    - {name: MVP sklepów www, iconUrl: /img/icons/plant.svg}
 ---
 
 #Prestashop
@@ -181,10 +193,10 @@ button.title: 'Skontaktuj się'
 ---
 
 #title
-Nie wiesz jaką ofertę wybrać?
+#### Nie wiesz jakąofertę wybrać?
 
 #description
-#### Dowiedz się które rozwiązanie będzie optymalne dla Twojego biznesu
+Dowiedz się które rozwiązanie będzie optymalne dla Twojego biznesu
 
 ::::
 :::
@@ -241,7 +253,7 @@ Projektujemy skoncentrowany na użytkowniku interfejs graficzny, zgodny z najnow
 ::::::effect-appear-md
 :::::::icon-tile-static-md
 ---
-iconUrl: '/img/icons/translation.png'
+iconUrl: '/img/icons/translation.svg'
 ---
 
 #title
@@ -257,7 +269,7 @@ Dostarczamy sklepy internetowe umożliwiające rozwój o nowe rynki sprzedaży, 
 ::::::effect-appear-md
 :::::::icon-tile-static-md
 ---
-iconUrl: '/img/icons/overlay.png'
+iconUrl: '/img/icons/overlay.svg'
 ---
 
 #title
@@ -276,7 +288,7 @@ Dzięki specjalnym modułom integrujemy sklepy m.in. z bramkami płatności, opc
 ::::::effect-appear-md
 :::::::icon-tile-static-md
 ---
-iconUrl: '/img/icons/functionality.png'
+iconUrl: '/img/icons/functionality.svg'
 ---
 
 #title
@@ -292,7 +304,7 @@ Nowe funkcje zwiększające sprzedaż lub automatyzujące procesy. Dostarczamy n
 ::::::effect-appear-md
 :::::::icon-tile-static-md
 ---
-iconUrl: '/img/icons/block-gears.png'
+iconUrl: '/img/icons/block-gears.svg'
 ---
 
 #title
@@ -311,7 +323,7 @@ Panel administratora to często centrum Twojego biznesu, dzięki odpowiednio dob
 ::::::effect-appear-md
 :::::::icon-tile-static-md
 ---
-iconUrl: '/img/icons/arrows.png'
+iconUrl: '/img/icons/arrows.svg'
 ---
 
 #title
@@ -328,7 +340,7 @@ Patrzymy w przyszłość. Wykorzystujemy rozwiązania i technologie, zapewniają
 ::::::effect-appear-md
 :::::::icon-tile-static-md
 ---
-iconUrl: '/img/icons/uxui.png'
+iconUrl: '/img/icons/uxui.svg'
 ---
 
 #title
@@ -372,7 +384,7 @@ Używamy rozwiązań Open Source, dzięki czemu po zakończonym projekcie, oprog
 :::::block-logos-circular-swiper-md
 ::::::icon-logo-circular-md
 ---
-iconUrl: '/img/logos/presta.png'
+iconUrl: '/img/logos/presta.svg'
 title: Prestashop
 ---
 
@@ -387,7 +399,7 @@ title: Drupal CMS
 
 ::::::icon-logo-circular-md
 ---
-iconUrl: '/img/logos/vue.png'
+iconUrl: '/img/logos/vue.svg'
 title: Vue
 ---
 
@@ -395,7 +407,7 @@ title: Vue
 
 ::::::icon-logo-circular-md
 ---
-iconUrl: '/img/logos/tailwind.png'
+iconUrl: '/img/logos/tailwind.svg'
 title: TailwindCSS
 ---
 
@@ -410,14 +422,14 @@ title: Symfony
 ::::::
 ::::::icon-logo-circular-md
 ---
-iconUrl: '/img/logos/js.png'
+iconUrl: '/img/logos/js.svg'
 title: JavaScript
 ---
 
 ::::::
 ::::::icon-logo-circular-md
 ---
-iconUrl: '/img/logos/cloudflare.png'
+iconUrl: '/img/logos/cloudflare.svg'
 title: Cloudflare
 ---
 
@@ -548,7 +560,7 @@ class: mb-[50px] tablet:mb-[100px]
 ---
 ::::icon-tile-md
 ---
-iconUrl: '/img/icons/icn_chart.png'
+iconUrl: '/img/icons/icn_chart.svg'
 delay: 0
 ---
 
@@ -561,7 +573,7 @@ Jako partner technologiczny przed rozpoczęciem projektu analizujemy Twoje zało
 ::::
 ::::icon-tile-md
 ---
-iconUrl: '/img/icons/uxui.png'
+iconUrl: '/img/icons/uxui.svg'
 delay: 1
 ---
 
@@ -574,7 +586,7 @@ Każdy projekt opieramy o potrzeby użytkowników. Dzięki temu dostarczamy intu
 ::::
 ::::icon-tile-md
 ---
-iconUrl: '/img/icons/arrows.png'
+iconUrl: '/img/icons/arrows.svg'
 delay: 2
 ---
 
@@ -587,7 +599,7 @@ Celem prowadzenia biznesu jest jego rozwój. Tworzymy skalowalne rozwiązania, z
 ::::
 ::::icon-tile-md
 ---
-iconUrl: '/img/icons/gears.png'
+iconUrl: '/img/icons/gears.svg'
 delay: 3
 ---
 
@@ -600,7 +612,7 @@ Rozwijamy strony o automatyzacje, dzięki temu oszczędzamy Twój czas, a przy t
 ::::
 ::::icon-tile-md
 ---
-iconUrl: '/img/icons/AZ.png'
+iconUrl: '/img/icons/AZ.svg'
 delay: 4
 ---
 
@@ -613,7 +625,7 @@ Od wstępnych rozmów, przez projekt strony i wdrożenie, po rozwój i wsparcie.
 ::::
 ::::icon-tile-md
 ---
-iconUrl: '/img/icons/partnership.png'
+iconUrl: '/img/icons/partnership.svg'
 delay: 5
 ---
 
@@ -657,27 +669,6 @@ moreBtn.linktitle: Zobacz wszystkie projekty
 :::
 ::
 
-
-::page-section-md
----
-class: mb-[50px] tablet:mb-[100px]
----
-:::effect-appear-md
-::::block-cta-md
----
-button.link: https://www.webo.agency/kontakt
-button.title: 'Skontaktuj się'
----
-
-#title
-#### Zainteresowała Cię nasza oferta?
-
-#description
-Skontaktuj się z nami i rozpocznij współpracę
-
-::::
-:::
-::
 
 ::page-section-md
 ---
