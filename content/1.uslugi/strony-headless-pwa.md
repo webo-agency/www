@@ -13,6 +13,7 @@ hreflangs:
 bgImg: false
 headerWidth: 660
 descriptionWidth: 660
+isSecondSvg: true
 ---
 
 #subtitle

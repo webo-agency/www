@@ -1,5 +1,9 @@
 <template>
-  <div ref="container" class="relative w-full h-[550px] mb-[80px]">
+  <div
+    ref="container"
+    class="relative w-full h-[550px] desktop:h-[550px] flex flex-col justify-start desktop:justify-start mb-[80px]"
+    :class="{ 'bg-[#ECF6F4]': !bgImg }"
+  >
     <div v-if="bgImg" class="absolute w-full h-full">
       <nuxt-picture
         class="w-full h-full object-cover ultraHd:object-contain"
@@ -12,7 +16,13 @@
       >
       </nuxt-picture>
     </div>
-    <PageSectionMd class="" :class="{ 'bg-[#ECF6F4]': !bgImg }">
+    <PageSectionMd
+      class=""
+      :class="[
+        { 'pt-20 desktop:pt-24': bgImg },
+        { 'pt-14 desktop:pt-0': !bgImg },
+      ]"
+    >
       <BlockColumns11Md>
         <template #left>
           <div class="h-full flex flex-col justify-center">
@@ -40,10 +50,11 @@
             >
               <ContentSlot :use="$slots.description" />
             </div>
-            <div v-if="!bgImg" class="py-4 desktop:pt-0 desktop:pb-2">
+            <div class="py-4 desktop:pt-0 desktop:pb-2">
               <button-scroll-down
+                v-if="!bgImg"
                 :getContainerRef="() => $refs.container"
-                :isSecondSvg="true"
+                :isSecondSvg="isSecondSvg"
                 class="mt-6"
               />
             </div>
@@ -71,6 +82,10 @@ export default {
     descriptionWidth: {
       type: Number,
       default: 520,
+    },
+    isSecondSvg: {
+      type: Boolean,
+      default: false,
     },
   },
   components: {

@@ -12,6 +12,7 @@ public: true
 bgImg: false
 headerWidth: 460
 descriptionWidth: 460
+isSecondSvg: true
 ---
 
 #subtitle
