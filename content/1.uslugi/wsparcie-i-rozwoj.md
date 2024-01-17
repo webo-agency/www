@@ -8,41 +8,30 @@ public: true
 
 
 
-::page-section-md
----
-class: mb-[80px] bg-[#ECF6F4]
----
-
-:::block-columns-1-1-md
-
-#left
-::::block-banner-md
+::block-banner-md
 ---
 bgImg: false
-headerWidth: 550
-descriptionWidth: 550
-class: mb-[80px]
+headerWidth: 600
+descriptionWidth: 600
 ---
 
 #subtitle
 *-/* Wsparcie techniczne strony internetowej
 
 #title
-## Wsparcie i rozwój <br> stron i sklepów www
+## Wsparcie i rozwój stron i sklepów www
 
 #description
 Jeśli potrzebujesz stałego nadzoru nad swoją stroną lub sklepem, a na dodatek planujesz rozbudowę lub prace optymalizacyjne, ta oferta jest dla Ciebie.
-::::
 
 #right
-::::block-banner-decoration-md
+:::block-banner-decoration-md
 ---
 rotate1: 90
 rotate2: 90
 svgUrl1: '/img/svg-square.svg'
 svgUrl2: '/img/svg-arc.svg'
 ---
-::::
 :::
 ::
 

@@ -4,21 +4,21 @@
     class="relative w-full h-[550px] tablet-wide:h-[600px] -mt-[100px] desktop:h-[620px] hidden tablet:block"
   >
     <div
-      class="absolute left-0 bottom-[10%]"
-      :class="[rotate1 ? 'rotate-' + rotate1 : '']"
+      class="absolute left-[10%] bottom-[10%]"
+      :style="{ transform: `rotate(${rotate1 ?? 0}deg)` }"
     >
       <nuxt-picture :src="svgUrl1"> </nuxt-picture>
     </div>
     <div
-      class="absolute right-[30%] top-[30%]"
-      :class="[rotate2 ? 'rotate-' + rotate2 : '']"
+      class="absolute right-[20%] top-[30%]"
+      :style="{ transform: `rotate(${rotate2 ?? 0}deg)` }"
     >
       <nuxt-picture :src="svgUrl2"> </nuxt-picture>
     </div>
     <div
       v-if="svgUrl3"
       class="absolute left-[50%] top-[50%]"
-      :class="[rotate3 ? 'rotate-' + rotate3 : '']"
+      :style="{ transform: `rotate(${rotate3 ?? 0}deg)` }"
     >
       <nuxt-picture :src="svgUrl3"> </nuxt-picture>
     </div>

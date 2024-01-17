@@ -6,20 +6,12 @@ draft: false
 public: true
 ---
 
-::page-section-md
----
-class: mb-[80px] bg-[#ECF6F4]
----
 
-:::block-columns-1-1-md
-
-#left
-::::block-banner-md
+::block-banner-md
 ---
 bgImg: false
 headerWidth: 460
 descriptionWidth: 460
-class: mb-[80px]
 ---
 
 #subtitle
@@ -30,15 +22,13 @@ class: mb-[80px]
 
 #description
 Tworzymy szyte na miarę strony internetowe, projektując dla Ciebie indywidualny wygląd i kodując od podstaw.
-::::
 
 #right
-::::block-banner-decoration-md
+:::block-banner-decoration-md
 ---
 svgUrl1: '/img/svg-arc.svg'
 svgUrl2: '/img/svg-square.svg'
 ---
-::::
 :::
 ::
 

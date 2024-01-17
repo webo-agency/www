@@ -8,15 +8,7 @@ public: true
 
 
 
-::page-section-md
----
-class: mb-[80px] bg-[#ECF6F4]
----
-
-:::block-columns-1-1-md
-
-#left
-::::block-banner-md
+::block-banner-md
 ---
 bgImg: false
 headerWidth: 600
@@ -31,21 +23,17 @@ descriptionWidth: 600
 
 #description
 Projektujemy strony i sklepy internetowe 
-::::
 
 #right
-::::block-banner-decoration-md
+:::block-banner-decoration-md
 ---
 rotate1: 90
 rotate2: 90
 svgUrl1: '/img/svg-square.svg'
 svgUrl2: '/img/svg-arc.svg'
 ---
-::::
 :::
 ::
-
-
 
 ::page-section-md
 ---
