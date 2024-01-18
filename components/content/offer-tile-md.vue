@@ -7,7 +7,7 @@
         : 'basis-full tablet-small:basis-1/2'
     "
   >
-    <EffectAppearMdc class="desktop-delay h-full" :delay="delay * 100">
+    <EffectAppearMdc class="desktop-delay h-[460px]" :delay="delay * 100">
       <div
         class="h-full tablet-small:pr-2.5 desktop:px-5"
         :class="[
@@ -15,7 +15,7 @@
         ]"
       >
         <div
-          class="group h-full _bg_custom_color bg-[#F3FEFC] transition duration-200 relative before:contet-[''] before:w-full before:h-full before:absolute before:top-0 before:left-0 before:bg-black before:opacity-[0.02] before:z-[0]"
+          class="group h-full bg-[#F3FEFC] transition duration-200 relative before:contet-[''] before:w-full before:h-full before:absolute before:top-0 before:left-0 before:bg-black before:opacity-[0.02] before:z-[0]"
           :class="{ 'hover:border-green-main': link }"
         >
           <CustomLink
@@ -24,7 +24,7 @@
             class="flex h-full text-gray-darker z-[1] relative"
             :class="[
               $slots.description
-                ? 'flex-col p-5 desktop:p-10 desktop:px-10 pt-6 desktop:pt-[70px] desktop:pb-5'
+                ? 'flex-col p-5 desktop:p-10 desktop:px-10 pt-6 desktop:pt-[50px] desktop:pb-5'
                 : '',
               stylesCustom ? 'flex-col items-center text-center' : '',
               stylesMinimal
@@ -73,7 +73,7 @@
               </div>
               <nuxt-picture
                 v-if="technologies"
-                class="min-w-[230px] h-[50px] mb-20"
+                class="min-w-[230px] h-[50px] mb-2"
                 :src="
                   technologies
                     ? technologies
@@ -137,15 +137,4 @@ export default {
 };
 </script>
 
-<style>
-:root {
-  --Base-Green-200: #f3fefc;
-}
-.bg_custom_color {
-  background: var(
-    --Base-Green-200,
-    linear-gradient(0deg, rgba(0, 0, 0, 0.03) 0%, rgba(0, 0, 0, 0.03) 100%),
-    #f3fefc
-  );
-}
-</style>
+<style></style>

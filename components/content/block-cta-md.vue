@@ -13,7 +13,7 @@
         </div>
       </template>
       <template v-if="$slots.title" #title>
-        <div class="font-semibold text-center">
+        <div class="font-semibold text-center text-3xl">
           <slot name="title" />
         </div>
       </template>
