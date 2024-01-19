@@ -4,15 +4,20 @@
     :class="
       $slots.description || stylesMinimal
         ? 'basis-full tablet-small:basis-1/2 desktop-wide:basis-1/3'
-        : 'basis-full tablet-small:basis-1/2'
+        : 'basis-full tablet-wide:basis-1/3'
     "
   >
-    <EffectAppearMdc class="desktop-delay h-[460px]" :delay="delay * 100">
+    <EffectAppearMdc
+      class="desktop-delay h-[460px]"
+      :class="{ '!h-[160px] desktop:!h-[270px]': isSmallTile }"
+      :delay="delay * 100"
+    >
       <div
-        class="h-full tablet-small:pr-2.5 desktop:px-5"
+        class="h-full tablet-small:pr-2.5 desktop:px-2.5"
         :class="[
           stylesMinimal ? 'pb-2.5 desktop:pb-5' : 'pb-[15px] desktop:pb-[30px]',
         ]"
+        mb
       >
         <div
           class="group h-full bg-[#F3FEFC] transition duration-200 relative before:contet-[''] before:w-full before:h-full before:absolute before:top-0 before:left-0 before:bg-black before:opacity-[0.02] before:z-[0]"
@@ -21,25 +26,29 @@
           <CustomLink
             :url="link"
             :activeClass="'none'"
-            class="flex h-full text-gray-darker z-[1] relative"
+            class="flex h-full text-gray-darker z-[1] relative test desktop:!flex-col desktop:!items-start"
             :class="[
               $slots.description
-                ? 'flex-col p-5 desktop:p-10 desktop:px-10 pt-6 desktop:pt-[50px] desktop:pb-5'
+                ? 'flex-col p-5 py-10 desktop:p-10 desktop:px-10 desktop:pt-[50px] desktop:pb-5'
                 : '',
               stylesCustom ? 'flex-col items-center text-center' : '',
               stylesMinimal
-                ? 'flex-col p-[30px] pt-7 desktop:pt-12'
+                ? 'flex-row desktop:flex-col justify-center desktop:justify-start p-[30px] pt-7 desktop:pt-12'
                 : 'p-5 desktop:px-10',
+              noDescription
+                ? 'desktop:justify-center !flex-row items-center gap-x-5'
+                : '!flex-col items-start',
             ]"
           >
             <nuxt-picture
               v-if="icon"
-              class="shrink-0 w-20 mb-5"
+              class="shrink-0 w-20 desktop:mb-5"
               :class="
                 ({ 'mb-5': $slots.description || stylesMinimal },
                 stylesCustom || iconBg
                   ? 'p-2.5 rounded-md bg-green-light'
-                  : 'mr-10')
+                  : 'mr-10',
+                noDescription ? 'mb-0' : 'mb-5')
               "
               :imgAttrs="{
                 class:
@@ -50,9 +59,9 @@
             ></nuxt-picture>
             <div
               v-if="$slots.title"
-              class="max-w-fit mb-5 text-lg desktop:text-[25px] font-semibold border-b-[1px] border-b-[#F3FEFC] transition duration-200"
+              class="max-w-fit desktop:mb-5 text-lg desktop:text-[25px] font-semibold border-b-[1px] border-b-[#F3FEFC] transition duration-200"
               :class="[
-                { 'mb-5': $slots.description },
+                { 'desktop:mb-5': $slots.description },
                 { 'group-hover:underline': stylesMinimal },
                 {
                   'group-hover:border-b-[1px] group-hover:border-b-[#202020]':
@@ -66,9 +75,7 @@
               v-if="$slots.description"
               class="flex flex-col justify-between h-full"
             >
-              <div
-                class="mb-5 text-sm desktop:text-sm font-normal leading-[21px]"
-              >
+              <div class="text-sm desktop:text-sm font-normal leading-[21px]">
                 <ContentSlot :use="$slots.description" />
               </div>
               <nuxt-picture
@@ -129,6 +136,14 @@ export default {
     },
     stylesCustom: Boolean,
     stylesMinimal: {
+      type: Boolean,
+      default: false,
+    },
+    isSmallTile: {
+      type: Boolean,
+      default: false,
+    },
+    noDescription: {
       type: Boolean,
       default: false,
     },

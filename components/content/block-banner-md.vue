@@ -1,7 +1,7 @@
 <template>
   <div
     ref="container"
-    class="relative w-full h-[550px] desktop:h-[550px] flex flex-col justify-start desktop:justify-start mb-32"
+    class="relative w-full h-[550px] desktop:h-[550px] flex flex-col justify-start desktop:justify-start mb-24"
     :class="{ 'bg-[#ECF6F4]': !bgImg }"
   >
     <div v-if="bgImg" class="absolute w-full h-full">

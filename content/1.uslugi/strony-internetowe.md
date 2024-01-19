@@ -36,7 +36,7 @@ svgUrl2: '/img/svg-square.svg'
 
 ::page-section-md
 ---
-classes: mb-5 tablet:mb-32
+classes: mb-5 tablet:mb-32 static-content
 ---
 
 :::block-columns-1-1-md
@@ -51,7 +51,9 @@ class: mb-20
 ---
 
 #subtitle
+::::::prose-p-3
 *1/* Tworzymy wydajne strony www
+::::::
 
 #title
 ### Jesteśmy doświadczonym zespołem *do zadań specjalnych*
@@ -59,14 +61,14 @@ class: mb-20
 
 :::::prose-p-3
 ---
-class: mb-10 static-content
+class: max-w-[650px] [&_p]:desktop:!mb-5 [&_p]:!leading-8
 --- 
 Nie korzystamy z szablonów czy gotowców. Strony internetowe wdrażamy od podstaw, korzystając tylko ze sprawdzonych i nowoczesnych technologii oraz jasnych procesów technologicznych. Dzięki temu zapewniamy najwyższą jakość, wydajność i bezpieczeństwo.
 :::::
 
 :::::prose-p-4
 ---
-class: static-content
+class: static-content max-w-[650px]
 --- 
 Od projektu UX/UI strony, przez programowanie backend/frontent, po wsparcie powdrożeniowe, świadczymy usługi na każdym etapie życia produktu.
 :::::
@@ -81,14 +83,12 @@ class: h-full relative
 ---
 imgUrl: '/img/content-images/strony-internetowe/section1-right-img.png'
 decoration: false
-class: tablet:w-auto !w-full desktop:scale-[1.1] desktop-wide:scale-[1.2] fullHd:scale-[1.4] tablet:!pl-14 desktop-wide:!pl-24 fullHd:!pl-28   drop-shadow-2xl shadow-black
+class: tablet:w-auto !w-full desktop:scale-[1.1] desktop-wide:scale-[1.2] fullHd:scale-[1.3] tablet:!pl-14 desktop-wide:!pl-20
 ---
 :::::
 ::::
 :::
 ::
-
-<!--  -->
 
 ::page-section-md
 ---
@@ -100,7 +100,7 @@ classes: mb-5 tablet:mb-[100px]
 :::svg-bg-dots
 ---
 decoration: true
-class: tablet:top-0 right-0
+class: tablet:-top-64 right-0
 ---
 :::
 
@@ -126,15 +126,11 @@ class: mb-20
 icon: '/img/icons/wordpress.svg'
 link: ''
 stylesCustom: false
+isSmallTile: true
+noDescription: true
 ---
 #title
 ##### Wordpress
-
-#description
-*
-
-#readMoreText
-Dowiedz się więcej
 
 ::::
 
@@ -144,15 +140,13 @@ icon: '/img/icons/drupal.svg'
 link: ''
 stylesCustom: false
 delay: 1
+isSmallTile: true
+noDescription: true
 ---
 #title
 ##### Drupal
 
-#description
-*
 
-#readMoreText
-Dowiedz się więcej
 ::::
 
 ::::offer-tile-md
@@ -161,15 +155,13 @@ icon: '/img/icons/wordpress-headles.svg'
 link: ''
 stylesCustom: false
 delay: 2
+isSmallTile: true
+noDescription: true
 ---
 #title
 ##### Wordpress + Headless
 
-#description
-*
 
-#readMoreText
-Dowiedz się więcej
 ::::
 :::
 ::
@@ -183,7 +175,7 @@ class: mb-[100px] tablet:mb-[100px]
 :::svg-decorated
 ---
 decoration: true
-class: transition durationa-200 top-20 right-[15%] scale-x-[-1.6] scale-y-[1.6]
+class: top-20 right-[15%] fullHd:right-[20%] scale-x-[-1.6] scale-y-[1.6]
 ---
 :::
 
