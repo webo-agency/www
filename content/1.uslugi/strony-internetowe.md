@@ -341,122 +341,87 @@ Celem prowadzenia biznesu jest jego rozwój. Stawiamy na długofalowe korzyści 
 :::::
 ::::
 :::
-
-:::block-header-md
----
-class: mb-20 [&_h4]:!text-xl tablet:[&_h4]:!text-2xl
----
-
-#title
-#### O czym bezwzględnie pamiętamy?
-
-:::
-
-:::block-icons-md
----
-class: mb-10
----
-::::icon-tile-md
----
-iconUrl: '/img/icons/mobile.png'
-iconInline: true
-line: false
-delay: 0
----
-
-#title
-##### Dopracowanie strony na urządzeniach mobilnych
-
-#description
-Responsywność to musthave, a my traktujemy ją priorytetowo - podejście Mobile first pozwala nam zagwarantować najlepsze działanie na smartfonach i nie tylko.
-
-::::
-::::icon-tile-md
----
-iconUrl: '/img/icons/search.png'
-iconInline: true
-line: false
-delay: 1
----
-
-#title
-##### Optymalizacja <br> i przyjazność SEO
-
-#description
-Dostosowanie strony pod kątem wyszukiwarek to konieczność, każdą naszą stronę uzbrajamy w potrzebne funkcje oraz optymalizacje kodu i wydajności zgodne z wymogami SEO.
-::::
-::::icon-tile-md
----
-iconUrl: '/img/icons/design.png'
-iconInline: true
-line: false
-delay: 2
----
-
-#title
-##### Zgodność z identyfikacją wizualną firmy
-
-#description
-Prócz zadbania o kwestie techniczne i UX, strona musi współgrać ze wszystkimi elementami graficznymi Twojej firmy. Tylko w taki sposób wykona swoją pracę w 100%.
-::::
-:::
 ::
 
 
 ::page-section-md
 ---
-classes: mb-[100px] tablet:mb-[200px]
+classes: bg-gray-darkest pt-10 tablet:pt-[100px] mb-[100px] tablet:mb-[200px]
 ---
 
-::::block-background-md
----
-class: overflow-hidden tablet:overflow-visible
----
 
-:::::block-columns-1-1-md
----
-class: mx-default
----
-
-#left
-::::::effect-appear-md
+:::effect-appear-md
 ---
 class: relative z-20
 ---
-:::::::block-header-md
+
+::::block-header-md
 ---
 maxWidth: 690
-class: mb-10
+class: mb-10 tablet:mb-20
+textWhite: true
+center: true
 ---
 
 #subtitle
-*4/* Strony www Drupal i Wordpress
+*4/* -
 
 #title
-### Korzystamy z najlepszych *technologii*
+### Dlaczego wysoka jakość strony internetowej *się opłaca?*
 
-#description
-Strony internetowe realizujemy korzystając tylko ze sprawdzonych rozwiązań takich jak **CMS Drupal i Wordpress**, łącząc je z nowoczesnymi technologiami i narzędziami zapewniając **niezawodne działania na lata**.
-
-:::::::
-
-::::::
-
-#right
-::::::effect-appear-md
----
-class: h-full relative z-10
----
-:::::::img-decorated-md
----
-imgUrl: '/img/content-images/websites-tech.png'
-decoration: false
-class: phone-wide:!w-3/4 tablet:!w-full tablet:!pl-10 desktop:!pl-20 !w-full tablet:h-full tablet:flex items-center
----
-:::::::
-::::::
-:::::
 ::::
+:::::block-list-ul-md
+---
+class: mb-10 tablet:mb-20 flex flex-wrap justify-center gap-5 tablet:[&>li]:w-[calc(50%_-_10px)] desktop:[&>li]:w-[calc(33.3333%_-_14px)]
+---
+
+::::::tile-dark-icon-md
+---
+iconUrl: '/img/icons/rocket.svg'
+center: true
+iconDecorated: true
+---
+
+#title
+#### 30% szybsze ładowanie strony
+
+::::::
+::::::tile-dark-icon-md
+---
+iconUrl: '/img/icons/upscaling.svg'
+center: true
+iconDecorated: true
+---
+
+#title
+#### 50% niższy koszt rozbudowy
+
+::::::
+::::::tile-dark-icon-md
+---
+iconUrl: '/img/icons/stability.svg'
+center: true
+iconDecorated: true
+---
+
+#title
+#### Stabilne działanie nawet przez wiele lat
+
+::::::
+
+:::::
+:::
+
+#full
+:::effect-appear-md
+::::prose-figure
+---
+src: '/img/content-images/approach-img-wide.png'
+rounded: false
+---
+::::
+:::
+
 ::
 
 
