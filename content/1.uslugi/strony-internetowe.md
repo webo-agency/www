@@ -115,7 +115,7 @@ class: mb-20
 *2/* Dedykowane rozwiązania dla stron www
 
 #title
-### Tworzymy strony www *na platformach*
+### Strony www realizujemy *na platformach*
 ::::
 :::
 
