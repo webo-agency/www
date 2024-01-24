@@ -11,7 +11,7 @@
       class="desktop-delay h-[460px]"
       :class="[
         { '!h-[160px] desktop:!h-[270px]': isSmallTile },
-        { 'h-fit': !noDescription },
+        { '_h-fit': !noDescription },
       ]"
       :delay="delay * 100"
     >
