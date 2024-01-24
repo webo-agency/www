@@ -9,11 +9,11 @@
   >
     <EffectAppearMdc
       class="desktop-delay h-[460px]"
-      :class="{ '!h-[160px] desktop:!h-[270px]': isSmallTile }"
+      :class="[{ '!h-[160px] desktop:!h-[270px]': isSmallTile }]"
       :delay="delay * 100"
     >
       <div
-        class="h-full tablet-small:pr-2.5 desktop:px-2.5"
+        class="h-full tablet-small:pr-2.5 desktop:px-2.5 pb-4"
         :class="[
           stylesMinimal ? 'pb-2.5 desktop:pb-5' : 'pb-[15px] desktop:pb-[30px]',
         ]"

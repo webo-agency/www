@@ -107,15 +107,15 @@ class: tablet:-top-64 right-0
 ::::block-header-md
 ---
 center: true
-maxWidth: 845
+maxWidth: 440
 class: mb-20
 ---
 
 #subtitle
-*2/* Technologie
+*2/* Dedykowane rozwiązania dla stron www
 
 #title
-### Specjalizujemy się w *stronach*
+### Tworzymy strony www *na platformach*
 ::::
 :::
 
@@ -124,44 +124,50 @@ class: mb-20
 ::::offer-tile-md
 --- 
 icon: '/img/icons/wordpress.svg'
-link: ''
-stylesCustom: false
-isSmallTile: true
-noDescription: true
+link: 'https://www.webo.agency/kontakt'
 ---
 #title
 ##### Wordpress
 
+#description
+Najpopularniejszy i najłatwiejszy w obsłudze system zarządzania treścią, który idealnie sprawdzi się w przypadku stron firmowych, małych portali i landing page.
+
+#readMoreText
+Dowiedz się więcej
 ::::
+
+
 
 ::::offer-tile-md
 --- 
 icon: '/img/icons/drupal.svg'
-link: ''
-stylesCustom: false
+link: 'https://www.webo.agency/kontakt'
 delay: 1
-isSmallTile: true
-noDescription: true
 ---
 #title
 ##### Drupal
 
+#description
+Elastyczny i niesamowicie skalowalny system zarządzania treścią, na którym z powodzeniem zrealizujemy rozbudowane strony korporacyjne, zaawansowane serwisy i strony instytucji.
 
+#readMoreText
+Dowiedz się więcej
 ::::
 
 ::::offer-tile-md
 --- 
 icon: '/img/icons/wordpress-headles.svg'
-link: ''
-stylesCustom: false
+link: 'https://www.webo.agency/kontakt'
 delay: 2
-isSmallTile: true
-noDescription: true
 ---
 #title
 ##### Wordpress + Headless
 
+#description
+Tradycyjny Wordpress w połączeniu z nową technologią = ultraszybkie ładowanie strony, najwyższe bezpieczeństwo, wielokanałowość i nielimitowane skalowanie.
 
+#readMoreText
+Dowiedz się więcej
 ::::
 :::
 ::
