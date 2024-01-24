@@ -221,7 +221,7 @@ class: -z-10
 ::::block-header-md
 ---
 center: true
-maxWidth: 845
+maxWidth: 540
 class: mb-20
 ---
 
@@ -248,7 +248,7 @@ decoration: false
 ---
 ::::::list-item-ul-active-md
 ---
-iconUrl: '/img/icons/sync_bg.png'
+iconUrl: '/img/icons/doc_bg.svg'
 iconBig: true
 animated: false
 ---
@@ -262,7 +262,7 @@ Zawsze opieramy się o dokumentację techniczną, zarówno platform jak i rozwi�
 ::::::
 ::::::list-item-ul-active-md
 ---
-iconUrl: '/img/icons/uxui_bg.png'
+iconUrl: '/img/icons/uxui_bg.svg'
 iconBig: true
 animated: false
 ---
@@ -277,7 +277,7 @@ W projektowaniu interfejsu kluczowe są dla nas Twoje wymagania oraz potrzeby i 
 ::::::
 ::::::list-item-ul-active-md
 ---
-iconUrl: '/img/icons/scaling_bg.png'
+iconUrl: '/img/icons/scaling_bg.svg'
 iconBig: true
 animated: false
 ---
@@ -299,7 +299,7 @@ Celem prowadzenia biznesu jest jego rozwój. Stawiamy na długofalowe korzyści 
 :::::block-list-ul-md
 ::::::list-item-ul-active-md
 ---
-iconUrl: '/img/icons/code_bg.png'
+iconUrl: '/img/icons/code_bg.svg'
 iconBig: true
 animated: false
 ---
@@ -313,7 +313,7 @@ Webo to zespół programistów z krwi i kości, nie korzystamy ze słabych jako�
 ::::::
 ::::::list-item-ul-active-md
 ---
-iconUrl: '/img/icons/secure_bg.png'
+iconUrl: '/img/icons/weight_bg.svg'
 iconBig: true
 animated: false
 ---
@@ -327,7 +327,7 @@ Naszym zadaniem jest dostarczenie i zachowanie stabilnie działającej strony in
 ::::::
 ::::::list-item-ul-active-md
 ---
-iconUrl: '/img/icons/scaling_bg.png'
+iconUrl: '/img/icons/tests_bg.svg'
 iconBig: true
 animated: false
 ---
