@@ -257,7 +257,7 @@ animated: false
 #### Zgodność z dokumentacją techniczną
 
 #description
-Zawsze opieramy się o dokumentację techniczną, zarówno platform jak i rozwiązań technologicznych z jakich korzystamy. Dzięki temu zapewniamy stailne działanie stron przez lata.
+Zawsze opieramy się o dokumentację techniczną rozwiązań z jakich korzystamy. Dzięki temu zapewniamy poprawność działania wdrożonych funkcji i szybkość działania strony, bez zbędnego kodu.
 
 ::::::
 ::::::list-item-ul-active-md
@@ -272,7 +272,7 @@ animated: false
 
 
 #description
-W projektowaniu interfejsu kluczowe są dla nas Twoje wymagania oraz potrzeby i przyzwyczajenia przyszłych użytkowników. Projektujemy m.in. architekturę informacji, prototyp strony i design dopasowany do Twojej marki, zapewniając łatwą w obsłudzę i miłą dla oka stronę.
+W projektowaniu interfejsu kluczowe są dla nas Twoje wymagania oraz potrzeby użytkowników. Projektujemy m.in. architekturę informacji, prototyp strony i design dopasowany do Twojej marki, zapewniając łatwą w obsłudze i miłą dla oka stronę.
 
 ::::::
 ::::::list-item-ul-active-md
@@ -286,10 +286,8 @@ animated: false
 #### Skalowalność czyli przygotowanie do rozwoju
 
 #description
-Celem prowadzenia biznesu jest jego rozwój. Stawiamy na długofalowe korzyści wdrażając m.in. nowoczesną architekturę i system przystosowany do dalszej rozbudowy.
-
+Celem prowadzenia biznesu jest jego rozwój. Stawiamy na długofalowe rozwiązania wdrażając m.in. nowoczesną architekturę i system przystosowany do dalszej rozbudowy.
 ::::::
-
 :::::
 ::::
 
@@ -308,7 +306,7 @@ animated: false
 #### Programowanie stron od podstaw
 
 #description
-Webo to zespół programistów z krwi i kości, nie korzystamy ze słabych jakościowo gotowców. Strony internetowe programujemy od podstaw zapewniając wysoką jakość kodu, szybkość działania i wydajność.
+Webo to zespół programistów z krwi i kości, nie korzystamy ze słabych jakościowo gotowców. Strony internetowe programujemy od podstaw zapewniając wysoką jakość, szybkość działania i wydajność.
 
 ::::::
 ::::::list-item-ul-active-md
@@ -319,10 +317,10 @@ animated: false
 ---
 
 #title
-#### Stabilność działania i bezpieczeństwo danych
+#### Stabilne działanie strony przez lata
 
 #description
-Naszym zadaniem jest dostarczenie i zachowanie stabilnie działającej strony internetowej, odpornej na niepowołane czynniki zewnętrzne i wektory ataku. Bezpieczeństwo danych to podstawa.
+Naszym zadaniem jest dostarczenie stabilnie działającej strony internetowej. To inwestycja która ma zapewnić Tobie realizacje celów biznesowych bez obaw o wydajność czy dostępność strony dla potencjalnych klientów.
 
 ::::::
 ::::::list-item-ul-active-md
@@ -336,10 +334,8 @@ animated: false
 #### Szczegółowe testy przed publikacją
 
 #description
-Celem prowadzenia biznesu jest jego rozwój. Stawiamy na długofalowe korzyści wdrażając m.in. nowoczesną architekturę i system przystosowany do dalszej rozbudowy.
-
+Przeprowadzamy szczegółową kontrolę jakości i funkcjonowania strony. Testy wykonujemy na różnych urządzeniach i rozdzielczościach ekranu aby przed publikacją upewnić się że wszystko działa poprawnie.
 ::::::
-
 :::::
 ::::
 :::
