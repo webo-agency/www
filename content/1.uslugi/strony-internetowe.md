@@ -107,15 +107,15 @@ class: tablet:-top-64 right-0
 ::::block-header-md
 ---
 center: true
-maxWidth: 845
+maxWidth: 440
 class: mb-20
 ---
 
 #subtitle
-*2/* Technologie
+*2/* Dedykowane rozwiązania dla stron www
 
 #title
-### Specjalizujemy się w *stronach*
+### Tworzymy strony www *na platformach*
 ::::
 :::
 
@@ -125,26 +125,25 @@ class: mb-20
 --- 
 icon: '/img/icons/wordpress.svg'
 link: ''
-stylesCustom: false
-isSmallTile: true
-noDescription: true
 ---
 #title
 ##### Wordpress
 
+#description
+Najpopularniejszy i najłatwiejszy w obsłudze system zarządzania treścią, który idealnie sprawdzi się w przypadku stron firmowych, małych portali i landing page.
 ::::
 
 ::::offer-tile-md
 --- 
 icon: '/img/icons/drupal.svg'
 link: ''
-stylesCustom: false
 delay: 1
-isSmallTile: true
-noDescription: true
 ---
 #title
 ##### Drupal
+
+#description
+Elastyczny i niesamowicie skalowalny system zarządzania treścią, na którym z powodzeniem zrealizujemy rozbudowane strony korporacyjne, zaawansowane serwisy i strony instytucji.
 
 
 ::::
@@ -153,13 +152,13 @@ noDescription: true
 --- 
 icon: '/img/icons/wordpress-headles.svg'
 link: ''
-stylesCustom: false
 delay: 2
-isSmallTile: true
-noDescription: true
 ---
 #title
 ##### Wordpress + Headless
+
+#description
+Tradycyjny Wordpress w połączeniu z nową technologią = ultraszybkie ładowanie strony, najwyższe bezpieczeństwo, wielokanałowość i nielimitowane skalowanie.
 
 
 ::::
