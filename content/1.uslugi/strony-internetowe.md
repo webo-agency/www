@@ -107,7 +107,7 @@ class: tablet:-top-64 right-0
 ::::block-header-md
 ---
 center: true
-maxWidth: 440
+maxWidth: 480
 class: mb-20
 ---
 
