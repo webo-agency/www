@@ -9,10 +9,7 @@
   >
     <EffectAppearMdc
       class="desktop-delay h-[460px]"
-      :class="[
-        { '!h-[160px] desktop:!h-[270px]': isSmallTile },
-        { '!h-[370px]': !technologies },
-      ]"
+      :class="[{ '!h-[160px] desktop:!h-[270px]': isSmallTile }]"
       :delay="delay * 100"
     >
       <div

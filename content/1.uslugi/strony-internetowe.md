@@ -124,19 +124,24 @@ class: mb-20
 ::::offer-tile-md
 --- 
 icon: '/img/icons/wordpress.svg'
-link: ''
+link: 'https://www.webo.agency/kontakt'
 ---
 #title
 ##### Wordpress
 
 #description
 Najpopularniejszy i najłatwiejszy w obsłudze system zarządzania treścią, który idealnie sprawdzi się w przypadku stron firmowych, małych portali i landing page.
+
+#readMoreText
+Dowiedz się więcej
 ::::
+
+
 
 ::::offer-tile-md
 --- 
 icon: '/img/icons/drupal.svg'
-link: ''
+link: 'https://www.webo.agency/kontakt'
 delay: 1
 ---
 #title
@@ -145,13 +150,14 @@ delay: 1
 #description
 Elastyczny i niesamowicie skalowalny system zarządzania treścią, na którym z powodzeniem zrealizujemy rozbudowane strony korporacyjne, zaawansowane serwisy i strony instytucji.
 
-
+#readMoreText
+Dowiedz się więcej
 ::::
 
 ::::offer-tile-md
 --- 
 icon: '/img/icons/wordpress-headles.svg'
-link: ''
+link: 'https://www.webo.agency/kontakt'
 delay: 2
 ---
 #title
@@ -160,7 +166,8 @@ delay: 2
 #description
 Tradycyjny Wordpress w połączeniu z nową technologią = ultraszybkie ładowanie strony, najwyższe bezpieczeństwo, wielokanałowość i nielimitowane skalowanie.
 
-
+#readMoreText
+Dowiedz się więcej
 ::::
 :::
 ::
