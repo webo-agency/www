@@ -227,23 +227,20 @@ class: -z-10
 ::::block-header-md
 ---
 center: true
-maxWidth: 845
+maxWidth: 540
 class: mb-20
 ---
 
 #subtitle
-*3/* Zapewniamy najwyższe standardy
+*3/* Najwyższe standardy stron internetowych?
 
 #title
-### Jakość kodu, automatyzacje, <br> bezpieczeństwo i świetny UX
-
-#description
-Nie korzystamy z szablonów czy gotowców. Strony internetowe wdrażamy od podstaw, korzystając tylko ze sprawdzonych i nowoczesnych technologii oraz jasnych procesów technologicznych. Dzięki temu zapewniamy najwyższą jakość, wydajność i bezpieczeństwo. Od projektu UX/UI strony, przez programowanie backend/frontent, po wsparcie powdrożeniowe, stworzysz z nami:
+### W realizacjach stron internetowych stawiamy na
 
 ::::
 :::
 
-:::block-columns-5-7-md
+:::block-columns-1-1-md
 ---
 class: mb-10 tablet:mb-20 pb-20 tablet:pb-[100px] border-b-2 border-gray-light
 ---
@@ -251,89 +248,42 @@ class: mb-10 tablet:mb-20 pb-20 tablet:pb-[100px] border-b-2 border-gray-light
 #left
 
 ::::effect-appear-md
+:::::block-list-ul-md
 ---
-class: relative z-10 overflow-hidden tablet:overflow-visible -mx-5 tablet:mx-0
----
-:::::img-decorated-md
----
-imgUrl: '/img/content-images/websites-mockups.png'
-decoration: false
-class: tablet:!pr-0 -ml-2.5 phone:!mb-0 phone-wide:mx-auto phone:w-full tablet:!w-[98%]
----
-
-:::::
-::::
-
-#right
-
-::::block-list-ul-md
----
-class: tablet:!mt-12
 decoration: false
 ---
-:::::list-item-ul-active-md
+::::::list-item-ul-active-md
 ---
-iconUrl: '/img/icons/secure_bg.png'
+iconUrl: '/img/icons/doc_bg.svg'
 iconBig: true
 animated: false
 ---
 
 #title
-#### Stabilność działania i bezpieczeństwo danych
+#### Zgodność z dokumentacją techniczną
 
 #description
-Naszym zadaniem jest dostarczenie i zachowanie stabilnie działającej strony internetowej, odpornej na niepowołane czynniki zewnętrzne i wektory ataku. Bezpieczeństwo danych to podstawa.
+Zawsze opieramy się o dokumentację techniczną rozwiązań z jakich korzystamy. Dzięki temu zapewniamy poprawność działania wdrożonych funkcji i szybkość działania strony, bez zbędnego kodu.
 
-:::::
-:::::list-item-ul-active-md
+::::::
+::::::list-item-ul-active-md
 ---
-iconUrl: '/img/icons/code_bg.png'
+iconUrl: '/img/icons/uxui_bg.svg'
 iconBig: true
 animated: false
 ---
 
 #title
-#### Wysoka jakość kodu i optymalizacja strony
-
-#description
-Korzystamy tylko z potrzebnych funkcji i modułów, dbamy o najwyższa jakość kodu i wykorzystujemy nowe rozwiązania technologiczne, dzięki czemu maksymalizujemy szybkość działania i wydajność serwisu.
-
-
-:::::
-:::::list-item-ul-active-md
----
-iconUrl: '/img/icons/uxui_bg.png'
-iconBig: true
-animated: false
----
-
-#title
-#### Dobrze zaprojektowany interfejs
+#### Projekt strony szyty na miarę
 
 
 #description
-Każdy projekt opieramy o wymogi klientów i potrzeby użytkowników. Projektujemy makiety UX oraz unikalny design, zapewniając łatwą w obsłudze i miłą dla oka stronę.
+W projektowaniu interfejsu kluczowe są dla nas Twoje wymagania oraz potrzeby użytkowników. Projektujemy m.in. architekturę informacji, prototyp strony i design dopasowany do Twojej marki, zapewniając łatwą w obsłudze i miłą dla oka stronę.
 
-
-
-:::::
-:::::list-item-ul-active-md
+::::::
+::::::list-item-ul-active-md
 ---
-iconUrl: '/img/icons/sync_bg.png'
-iconBig: true
-animated: false
----
-
-#title
-#### Automatyzacja procesów CI/CD
-
-#description
-Wdrażamy rozwiązania CD w oparciu o platformę GitHub i automatyzację CI, co przynosi długotrwałe korzyści m.in. optymalizację procesów, większą przejrzystość i zmniejszenie kosztów obsługi stron internetowych.
-
-:::::
-:::::list-item-ul-active-md
----
-iconUrl: '/img/icons/scaling_bg.png'
+iconUrl: '/img/icons/scaling_bg.svg'
 iconBig: true
 animated: false
 ---
@@ -342,12 +292,63 @@ animated: false
 #### Skalowalność czyli przygotowanie do rozwoju
 
 #description
-Celem prowadzenia biznesu jest jego rozwój. Stawiamy na długofalowe korzyści wdrażając m.in. nowoczesną architekturę i system przystosowany do dalszej rozbudowy.
+Celem prowadzenia biznesu jest jego rozwój. Stawiamy na długofalowe rozwiązania wdrażając m.in. nowoczesną architekturę i system przystosowany do dalszej rozbudowy.
+::::::
+:::::
+::::
 
+
+#right
+::::effect-appear-md
+:::::block-list-ul-md
+::::::list-item-ul-active-md
+---
+iconUrl: '/img/icons/code_bg.svg'
+iconBig: true
+animated: false
+---
+
+#title
+#### Programowanie stron od podstaw
+
+#description
+Webo to zespół programistów z krwi i kości, nie korzystamy ze słabych jakościowo gotowców. Strony internetowe programujemy od podstaw zapewniając wysoką jakość, szybkość działania i wydajność.
+
+::::::
+::::::list-item-ul-active-md
+---
+iconUrl: '/img/icons/weight_bg.svg'
+iconBig: true
+animated: false
+---
+
+#title
+#### Stabilne działanie strony przez lata
+
+#description
+Naszym zadaniem jest dostarczenie stabilnie działającej strony internetowej. To inwestycja która ma zapewnić Tobie realizacje celów biznesowych bez obaw o wydajność czy dostępność strony dla potencjalnych klientów.
+
+::::::
+::::::list-item-ul-active-md
+---
+iconUrl: '/img/icons/tests_bg.svg'
+iconBig: true
+animated: false
+---
+
+#title
+#### Szczegółowe testy przed publikacją
+
+#description
+Przeprowadzamy szczegółową kontrolę jakości i funkcjonowania strony. Testy wykonujemy na różnych urządzeniach i rozdzielczościach ekranu aby przed publikacją upewnić się że wszystko działa poprawnie.
+::::::
 :::::
 ::::
 :::
 ::
+
+
+
 
 
 ::page-section-md

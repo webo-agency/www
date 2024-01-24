@@ -59,124 +59,56 @@ class: mb-10 tablet:mb-20
 
 ::page-section-md
 ---
-classes: mb-[100px] tablet:mb-[200px] overflow-hidden 
+classes: mb-[100px] tablet:mb-[100px] overflow-hidden 
 ---
 :::effect-appear-md
-::::block-tabs-md
----
-tabNames: 
-    - {name: Prestashop, iconUrl: /img/logos/presta.svg}
-    - {name: DrupalCommerce, iconUrl: img/logos/drupal.png}
-    - {name: MVP sklepów www, iconUrl: /img/icons/plant.svg}
----
 
-#Prestashop
-:::::block-columns-1-1-md
+::::block-offer-tiles-md
 
-#left
-::::::block-tab-content-underlined
+:::::offer-tile-md
+--- 
+icon: '/img/icons/presta.svg'
+link: ''
+stylesCustom: false
+isSmallTile: true
+noDescription: true
 ---
-maxWidth: 410
----
-
 #title
-#### **Sklepy internetowe na platformie Prestashop**.
-
-
-#content
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-
-**Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.**
-::::::
-
-#right
-::::::block-tab-list
-
-#title
-##### Korzyści z zastosowania Prestashop:
-
-#content
-- test1
-- test2
-- test3
-
-::::::
+##### Prestashop
 
 :::::
 
-#DrupalCommerce
-:::::block-columns-1-1-md
-
-#left
-::::::block-tab-content-underlined
+:::::offer-tile-md
+--- 
+icon: '/img/icons/drupal.svg'
+link: ''
+stylesCustom: false
+delay: 1
+isSmallTile: true
+noDescription: true
 ---
-maxWidth: 410
----
-
 #title
-#### **Sklepy internetowe na platformie DupalCommerce**.
+##### Drupal
 
-
-#content
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-
-**Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.**
-::::::
-
-#right
-::::::block-tab-list
-
-#title
-##### Korzyści z zastosowania DupalCommerce:
-
-#content
-- test1
-- test2
-- test3
-- test4
-- test5
-
-::::::
 
 :::::
 
-#MVP sklepów www
-:::::block-columns-1-1-md
-
-#left
-::::::block-tab-content-underlined
+:::::offer-tile-md
+--- 
+icon: '/img/icons/woo.svg'
+link: ''
+stylesCustom: false
+delay: 2
+isSmallTile: true
+noDescription: true
 ---
-maxWidth: 410
----
-
 #title
-#### **Sklepy internetowe na platformie MVP**.
+##### Woocommerce
 
 
-#content
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-
-**Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.**
-::::::
-
-#right
-::::::block-tab-list
-
-#title
-##### Korzyści z sklepu MVP:
-
-#content
-- test1
-- test2
-- test3
-- test4
-
-::::::
 :::::
 ::::
+
 :::
 ::
 
@@ -194,7 +126,7 @@ button.title: 'Skontaktuj się'
 ---
 
 #title
-#### Nie wiesz jakąofertę wybrać?
+#### Nie wiesz jaką ofertę wybrać?
 
 #description
 Dowiedz się które rozwiązanie będzie optymalne dla Twojego biznesu
