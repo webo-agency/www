@@ -437,17 +437,18 @@ rounded: false
 classes: mb-10 tablet:mb-20
 ---
 :::effect-appear-md
-::::block-header-md
+
+::::block-header-two-cols-md
 ---
-maxWidth: 845
-class: mb-20
+class: mb-10
+maxWidth: 640
 ---
 
 #subtitle
 *5/* Etapy realizacji strony internetowej
 
 #title
-### Do realizacji stron www <br> *podchodzimy etapowo*
+## Do realizacji stron www <br> *podchodzimy etapowo*
 
 #description
 Do stworzenia nowoczesnej strony internetowej potrzeba szerokiej wiedzy z zakresu technologii i projektowania nastawionego na użytkownika oraz wypracowanego procesu, który zapewnia realizację założeń bez obsuw czasowych i w ustalonym budżecie.
@@ -468,20 +469,24 @@ tabNames:
 ---
 ::::block-swiper-tabs-slide-md
 ---
-number: '01.'
-class:
+icon: '/img/icons/magnifier.svg'
 ---
-#left
+#slideContent
 :::::block-header-md
 ---
 maxWidth: 900
+class: test [&_div_div]:!font-normal
 ---
-
-#description
-##### Analiza założeń
+#title
+##### 01. Analiza założeń
+::::::prose-p-3
+---
+class: font-normal
+---
 Jest to pierwszy krok jaki musimy
 wykonać w celu realizacji strony internetowej.
 Podczas pierwszej rozmowy dokładnie poznajemy Twoje potrzeby oraz założenia projektu.
+::::::
 
 **Podczas tego etapu:**
 - Przeprowadzamy videowarsztaty
@@ -492,45 +497,26 @@ Podczas pierwszej rozmowy dokładnie poznajemy Twoje potrzeby oraz założenia p
 **Po akceptacji kosztorysu, proponowanych rozwiązań i terminów, podpisujemy umowę o współpracy i przechodzimy do realizacji.**
 
 :::::
-
-
-#right
-:::::img-decorated-md
----
-imgUrl: '/img/content-images/strony-internetowe/slide01.png'
-class: shadow-2xl shadow-black/10
-decoration: false
----
-:::::
-
-
-#right_parallax
-:::::img-decorated-md
----
-imgUrl: '/img/content-images/strony-internetowe/slide01_bg.png'
-class: -mt-10
-decoration: false
----
-
-
-:::::
 ::::
 
 
 ::::block-swiper-tabs-slide-md
 ---
-number: '02.'
-class:
+icon: '/img/icons/magnifier.svg'
 ---
-#left
+#slideContent
 :::::block-header-md
 ---
 maxWidth: 900
+class: test [&_div_div]:!font-normal
 ---
 
-
-#description
-##### Projektowanie interfejsu UX/UI
+#title
+##### 02. Projektowanie interfejsu UX/UI
+::::::prose-p-3
+---
+class: font-normal
+---
 Podczas tego etapu pracujemy nad wyglądem strony www. Prace zaczynamy od przeanalizowania przyzwyczajeń grupy docelowej (Twoich klientów) oraz otoczenia rynkowego - wszystko po to aby użytkownicy z łatwością odnaleźli się na nowej stronie. Następnie  opracowujemy moodboardy (tablice inspiracji), wytyczamy ścieżki użytkownika (user flow), projektujemy makiety UX, kończąc na finalnym wyglądzie Twojej strony.
 
 **Podczas tego etapu:**
@@ -540,42 +526,25 @@ Podczas tego etapu pracujemy nad wyglądem strony www. Prace zaczynamy od przean
 **Po akceptacji finalnego wyglądu, projekt jest gotowy do etapu programowania**
 
 :::::
-
-
-#right
-:::::img-decorated-md
----
-imgUrl: '/img/content-images/strony-internetowe/slide02.png'
-decoration: false
----
-:::::
-
-
-#right_parallax
-:::::img-decorated-md
----
-imgUrl: '/img/content-images/strony-internetowe/slide02_bg.png'
-decoration: false
----
-
-
-:::::
 ::::
 
 ::::block-swiper-tabs-slide-md
 ---
-number: '03.'
-class:
+icon: '/img/icons/magnifier.svg'
 ---
-#left
+#slideContent
 :::::block-header-md
 ---
 maxWidth: 900
+class: test [&_div_div]:!font-normal
 ---
 
-
-#description
-##### Prace programistyczne
+#title
+##### 03. Prace programistyczne
+::::::prose-p-3
+---
+class: font-normal
+---
 Po zaakceptowaniu projektu interfejsu, rozpoczynamy prace nad kompleksowym wdrożeniem strony internetowej w wybranej technologii. Działamy od konfiguracji infrastruktury technicznej, przez instalacje wymaganych narzędzi po zaprogramowanie strony.
 
 **Podczas tego etapu:**
@@ -586,44 +555,25 @@ Po zaakceptowaniu projektu interfejsu, rozpoczynamy prace nad kompleksowym wdro�
 **Po zakończeniu etapu programowania, przekazujemy stronę www do testów.**
 
 :::::
-
-
-#right
-:::::img-decorated-md
----
-imgUrl: '/img/content-images/strony-internetowe/slide03.png'
-decoration: false
----
-:::::
-
-
-#right_parallax
-:::::img-decorated-md
----
-imgUrl: '/img/content-images/strony-internetowe/slide03_bg.png'
-decoration: false
----
-
-
-:::::
 ::::
-
-
 
 ::::block-swiper-tabs-slide-md
 ---
-number: '04.'
-class:
+icon: '/img/icons/magnifier.svg'
 ---
-#left
+#slideContent
 :::::block-header-md
 ---
 maxWidth: 900
+class: test [&_div_div]:!font-normal
 ---
 
-
-#description
-##### Testy i publikacja
+#title
+##### 04. Testy i publikacja
+::::::prose-p-3
+---
+class: font-normal
+---
 W tym etapie gruntownie sprawdzamy działanie strony internetowej. Testy wykonujemy na wielu urządzeniach i rozdzielczościach ekranu (od najmniejszych smartfonów po wyświetlacze FHD), wszystko po to aby mieć pewność że wszystko działa jak należy. Po przejściu wewnętrznych testów, przekazujemy stronę do weryfikacji klientowi - to moment na dopracowanie projektu i zgłaszanie wszelkich uwag przed publikacją.
 
 **Podczas tego etapu:**
@@ -633,43 +583,26 @@ W tym etapie gruntownie sprawdzamy działanie strony internetowej. Testy wykonuj
 **Po otrzymaniu od klienta zielonego światła na publikację, startujemy!**
 
 :::::
-
-
-#right
-:::::img-decorated-md
----
-imgUrl: '/img/content-images/strony-internetowe/slide04.png'
-decoration: false
----
-:::::
-
-
-#right_parallax
-:::::img-decorated-md
----
-imgUrl: '/img/content-images/strony-internetowe/slide04_bg.png'
-decoration: false
----
-
-
-:::::
 ::::
-
 
 ::::block-swiper-tabs-slide-md
 ---
-number: '05.'
-class:
+icon: '/img/icons/magnifier.svg'
 ---
-#left
+#slideContent
 :::::block-header-md
 ---
 maxWidth: 900
+class: test [&_div_div]:!font-normal
 ---
 
+#title
+##### 05. Wsparcie i rozwój
+::::::prose-p-3
+---
+class: font-normal
+---
 
-#description
-##### Wsparcie i rozwój
 Często publikacja strony to dopiero początek, a podczas użytkowania strony pojawiają sie pomysły na nowe funkcjonalności, zakładki czy ulepszenia - w tym miejscu nie możemy także zapomnieć o koniecznych aktualizacjach czy monitorowaniu wydajności, bezpieczeństwa czy stabilności działania.
 
 **W ramach usługi wsparcia zajmujemy się następującymi pracami:**
@@ -682,35 +615,44 @@ Często publikacja strony to dopiero początek, a podczas użytkowania strony po
 **Po akceptacji kosztorysu, proponowanych rozwiązań i terminów, podpisujemy umowę o współpracy i przechodzimy do realizacji.**
 
 :::::
+::::
 
 
-#right
-:::::img-decorated-md
+::::block-swiper-tabs-slide-md
 ---
-imgUrl: '/img/content-images/strony-internetowe/slide05.png'
-class: shadow-2xl shadow-black/10
-decoration: false
+icon: '/img/icons/magnifier.svg'
+class: empty_slide !opacity-0
 ---
-:::::
-
-
-#right_parallax
-:::::img-decorated-md
+#slideContent
+:::::block-header-md
 ---
-imgUrl: '/img/content-images/strony-internetowe/slide05_bg.png'
-class: -mt-10
-decoration: false
+maxWidth: 900
+class: test [&_div_div]:!font-normal
 ---
 
+#title
+##### 05. Wsparcie i rozwój
+::::::prose-p-3
+---
+class: font-normal
+---
+
+Często publikacja strony to dopiero początek, a podczas użytkowania strony pojawiają sie pomysły na nowe funkcjonalności, zakładki czy ulepszenia - w tym miejscu nie możemy także zapomnieć o koniecznych aktualizacjach czy monitorowaniu wydajności, bezpieczeństwa czy stabilności działania.
+
+**W ramach usługi wsparcia zajmujemy się następującymi pracami:**
+- Aktualizacja środowiska (systemu) w ramach konserwacji
+- Monitorowanie bezpieczeństwa i szybkości strony
+- Projektowanie i rozbudowa strony
+- Projektowanie i wdrażanie nowych funkcjonalności i dedykowanych modułów
+- Reagowanie na ewentualne awarie<br>
+
+**Po akceptacji kosztorysu, proponowanych rozwiązań i terminów, podpisujemy umowę o współpracy i przechodzimy do realizacji.**
 
 :::::
 ::::
 
-
 :::
 ::
-
-
 
 
 
