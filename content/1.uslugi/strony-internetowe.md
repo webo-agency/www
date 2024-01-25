@@ -236,7 +236,7 @@ class: mb-20
 
 :::block-columns-1-1-md
 ---
-class: mb-10 tablet:mb-20 pb-20 tablet:pb-[100px] border-b-2 border-gray-light
+class: mb-10 tablet:mb-20 pb-20 tablet:pb-[100px]
 ---
 
 #left
