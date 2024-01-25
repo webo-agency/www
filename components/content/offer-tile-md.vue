@@ -8,7 +8,7 @@
     "
   >
     <EffectAppearMdc
-      class="desktop-delay h-[460px]"
+      class="desktop-delay h-[420px] desktop:h-[460px]"
       :class="[{ '!h-[160px] desktop:!h-[270px]': isSmallTile }]"
       :delay="delay * 100"
     >
@@ -29,7 +29,7 @@
             class="flex h-full text-gray-darker z-[1] relative test desktop:!flex-col desktop:!items-start"
             :class="[
               $slots.description
-                ? 'flex-col p-5 py-10 desktop:p-10 desktop:px-10 desktop:pt-[50px] desktop:pb-5'
+                ? 'flex-col p-5 pt-[40px] pb-[20px] desktop:p-[20px] desktop:px-10 desktop:pt-[50px] desktop:pb-[20px]'
                 : '',
               stylesCustom ? 'flex-col items-center text-center' : '',
               stylesMinimal
@@ -59,7 +59,7 @@
             ></nuxt-picture>
             <div
               v-if="$slots.title"
-              class="max-w-fit desktop:mb-5 text-lg desktop:text-[25px] font-semibold border-b-[1px] border-b-[#F3FEFC] transition duration-200"
+              class="max-w-fit mb-6 desktop:mb-5 text-lg desktop:text-[25px] font-semibold border-b-[1px] border-b-[#F3FEFC] transition duration-200"
               :class="[
                 { 'desktop:mb-5': $slots.description },
                 { 'group-hover:underline': stylesMinimal },
@@ -89,7 +89,7 @@
               ></nuxt-picture>
               <div
                 v-if="$slots.readMoreText"
-                class="border-t-[1px] border-[#e4efeddd] pt-[30px] text-base text-gray-darker font-semibold flex justify-between transition duration-200"
+                class="border-t-[1px] border-[#e4efeddd] pt-[20px] text-base text-gray-darker font-semibold flex justify-between transition duration-200"
                 :class="{ 'group-hover:text-[#08DBBA]': link }"
               >
                 <ContentSlot :use="$slots.readMoreText" />
