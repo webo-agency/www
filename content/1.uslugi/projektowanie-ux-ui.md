@@ -14,6 +14,7 @@ bgImg: false
 headerWidth: 600
 descriptionWidth: 600
 isSecondSvg: true
+class: phone:!mb-0
 ---
 
 #subtitle
@@ -38,7 +39,7 @@ svgUrl2: '/img/svg-arc.svg'
 
 ::page-section-md
 ---
-classes: pt-[50px] tablet:pt-[100px] desktop:pt-[150px] mb-[50px] tablet:mb-[100px] overflow-hidden
+classes: pt-20 mb-5 tablet:mb-20 overflow-hidden
 ---
 :::block-columns-1-1-md
 ---
@@ -77,9 +78,9 @@ class: relative z-10
 ---
 :::::img-decorated-md
 ---
-imgUrl: '/img/content-images/uxui-mockup.png'
+imgUrl: '/img/content-images/projektowanie-uxui/section1-right-img.png'
 decoration: false
-class: tablet:!pl-0 !-mx-10 tablet:!ml-0 desktop:!-ml-10 tablet:!-mr-40 tablet:-my-40 !w-auto
+class: tablet:!pl-0 !mb-0 !-mx-10 tablet:!ml-0 desktop:!-ml-10 tablet:!-mr-40 desktop:!-mr-56 tablet:!-mt-40 !w-auto
 ---
 :::::
 ::::
@@ -93,96 +94,67 @@ classes: mb-10 tablet:mb-20
 ---
 
 :::effect-appear-md
-::::block-header-md
+::::block-header-two-cols-md
 ---
-maxWidth: 940
-class: mb-20
+class: mb-10 tablet:mb-20 [&_.description]:!text-base
+maxWidth: 640
 ---
 
 #subtitle
-*2/* Dlaczego UX jest ważny?
+*2/* Projektowanie stron i sklepów internetowych
 
 #title
-### Jakie są korzyści z  *projektowania UX/UI?*
+## Co możemy dla Ciebie *zaprojektować?*
 
 #description
-Wygląd i działanie Twojej strony internetowej ma ogromne znaczenie - już w pierwszej sekundzie przebywania na stronie, użytkownicy decydują czy na niej zostaną. Dzięki UX/UI wpłyniesz na
+Uwielbiamy wyzwania i rozwiązywanie problemów,specjalizujemy się w projektowaniu interfejsów na cele internetu skupiając się nie tylko na wyglądzie ale także praktycznym wykorzystaniu i funkcjonalności. Z chęcią zaprojektujemy:
 
 ::::
 :::
 
-:::::block-columns-1-1-md
-
-#left
-::::::effect-appear-md
-:::::::icon-tile-static-md
+:::block-offer-tiles-md
+::::offer-tile-md
+--- 
+icon: '/img/icons/wordpress.svg'
+link: 'https://www.webo.agency/kontakt'
 ---
-iconUrl: '/img/icons/person-outline.png'
-iconInline: true
----
-
 #title
-#### Wzrost zaangażowania klientów
+##### Strony internetowe i landing page
 
 #description
-m.in. dzięki dopracowanej architekturze informacji i warstwie wizualnej użytkownicy z chęcią będą wracać do Twojej strony i zostawać na niej dłużej
+Najpopularniejszy i najłatwiejszy w obsłudze system zarządzania treścią, który idealnie sprawdzi się w przypadku stron firmowych, małych portali i landing page.
 
-:::::::
-::::::
+::::
 
-#right
-::::::effect-appear-md
-:::::::icon-tile-static-md
+::::offer-tile-md
+--- 
+icon: '/img/icons/drupal.svg'
+link: 'https://www.webo.agency/kontakt'
+delay: 1
 ---
-iconUrl: '/img/icons/stack.png'
-iconInline: true
----
-
 #title
-#### Wzmocnienie wizerunku marki i wyróżnienie się na tle konkurencji
+##### Sklepy e-commerce i portale internetowe
 
 #description
-budowa atrakcyjnego wyglądu na bazie istniejącej identyfikacji wizualnej sprawi, że Twoja strona internetowa zostanie zapamiętana na dłużej i kojarzona tylko z Twoją firmą
+Elastyczny i niesamowicie skalowalny system zarządzania treścią, na którym z powodzeniem zrealizujemy rozbudowane strony korporacyjne, zaawansowane serwisy i strony instytucji.
 
-:::::::
-::::::
-:::::
+::::
 
-:::::block-columns-1-1-md
-
-#left
-::::::effect-appear-md
-:::::::icon-tile-static-md
+::::offer-tile-md
+--- 
+icon: '/img/icons/wordpress-headles.svg'
+link: 'https://www.webo.agency/kontakt'
+delay: 2
 ---
-iconUrl: '/img/icons/coin.png'
-iconInline: true
----
-
 #title
-#### Wzrost ROI
+##### Aplikacje webowe i konfiguratory 
 
 #description
-dzięki intuicyjnej obsłudze i odpowiednim ścieżkom poruszania, użytkownik łatwiej dociera do potrzebnych informacji, a Ty zwiększasz szanse na sprzedaż swojego produktu lub usługi
-:::::::
-::::::
+Tradycyjny Wordpress w połączeniu z nową technologią = ultraszybkie ładowanie strony, najwyższe bezpieczeństwo, wielokanałowość i nielimitowane skalowanie.
 
-#right
-::::::effect-appear-md
-:::::::icon-tile-static-md
----
-iconUrl: '/img/icons/piggy-bank.png'
-iconInline: true
----
+::::
+:::
 
-#title
-#### Ograniczenie kosztów prac deweloperskich
-
-#description
-szeroka wiedza z zakresu technologii pozwala projektować interfejs uwzględniając jej ograniczenia, zachowując jednocześnie funkcjonalność i łatwość obsługi strony
-
-:::::::
-::::::
-:::::
 :::block-bg-map-md
 ---
 class: -z-10

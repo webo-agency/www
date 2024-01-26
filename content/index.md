@@ -45,7 +45,7 @@ class: tablet:top-56 right-0
 
 ::::block-header-two-cols-md
 ---
-class: mb-10
+class: mb-10 tablet:mb-[60px]
 maxWidth: 640
 ---
 
