@@ -76,7 +76,6 @@ decoration: true
 --- 
 icon: '/img/icons/sync.png'
 link: ''
-stylesMinimal: true
 ---
 #title
 ##### Aktualizujemy system w ramach konserwacji
@@ -87,7 +86,6 @@ stylesMinimal: true
 --- 
 icon: '/img/icons/monitor.png'
 link: ''
-stylesMinimal: true
 delay: 1
 ---
 #title
@@ -99,7 +97,6 @@ delay: 1
 --- 
 icon: '/img/icons/alert.png'
 link: ''
-stylesMinimal: true
 delay: 2
 ---
 #title
@@ -111,7 +108,6 @@ delay: 2
 --- 
 icon: '/img/icons/performance.png'
 link: ''
-stylesMinimal: true
 delay: 3
 ---
 #title
@@ -122,7 +118,6 @@ delay: 3
 --- 
 icon: '/img/icons/optimalisation.png'
 link: ''
-stylesMinimal: true
 delay: 4
 ---
 #title
@@ -134,7 +129,6 @@ delay: 4
 --- 
 icon: '/img/icons/scaling.png'
 link: ''
-stylesMinimal: true
 delay: 5
 ---
 #title
@@ -146,7 +140,6 @@ delay: 5
 --- 
 icon: '/img/icons/gear_code.png'
 link: ''
-stylesMinimal: true
 delay: 6
 ---
 #title
@@ -158,7 +151,6 @@ delay: 6
 --- 
 icon: '/img/icons/overlay.png'
 link: ''
-stylesMinimal: true
 delay: 7
 ---
 #title

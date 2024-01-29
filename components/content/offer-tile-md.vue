@@ -1,116 +1,33 @@
 <template>
-  <div
-    class="offer-tile"
-    :class="
-      $slots.description || stylesMinimal
-        ? 'basis-full tablet-small:basis-1/2 desktop-wide:basis-1/3'
-        : 'basis-full tablet-wide:basis-1/3'
-    "
-  >
-    <EffectAppearMdc
-      class="desktop-delay h-[420px] desktop:h-[460px]"
-      :class="[{ '!h-[160px] desktop:!h-[270px]': isSmallTile }]"
-      :delay="delay * 100"
-    >
-      <div
-        class="h-full tablet-small:pr-2.5 desktop:px-2.5 pb-4"
-        :class="[
-          stylesMinimal ? 'pb-2.5 desktop:pb-5' : 'pb-[15px] desktop:pb-[30px]',
-        ]"
-        mb
-      >
-        <div
-          class="group h-full bg-[#F3FEFC] transition duration-200 relative before:contet-[''] before:w-full before:h-full before:absolute before:top-0 before:left-0 before:bg-black before:opacity-[0.02] before:z-[0]"
-          :class="{ 'hover:border-green-main': link }"
-        >
-          <CustomLink
-            :url="link"
-            :activeClass="'none'"
-            class="flex h-full text-gray-darker z-[1] relative test desktop:!flex-col desktop:!items-start"
-            :class="[
-              $slots.description
-                ? 'flex-col p-5 pt-[40px] pb-[20px] desktop:p-[20px] desktop:px-10 desktop:pt-[50px] desktop:pb-[20px]'
-                : '',
-              stylesCustom ? 'flex-col items-center text-center' : '',
-              stylesMinimal
-                ? 'flex-row desktop:flex-col justify-center desktop:justify-start p-[30px] pt-7 desktop:pt-12'
-                : 'p-5 desktop:px-10',
-              noDescription
-                ? 'desktop:justify-center !flex-row items-center gap-x-5'
-                : '!flex-col items-start',
-            ]"
-          >
-            <nuxt-picture
-              v-if="icon"
-              class="shrink-0 w-20 desktop:mb-5"
-              :class="
-                ({ 'mb-5': $slots.description || stylesMinimal },
-                stylesCustom || iconBg
-                  ? 'p-2.5 rounded-md bg-green-light'
-                  : 'mr-10',
-                noDescription ? 'mb-0' : 'mb-5')
-              "
-              :imgAttrs="{
-                class:
-                  'w-20 h-[60px] object-contain' +
-                  (stylesCustom || iconBg ? ' md:w-14 md:h-14' : ''),
-              }"
-              :src="icon ? icon : './icons/site.png'"
-            ></nuxt-picture>
-            <div
-              v-if="$slots.title"
-              class="max-w-fit mb-6 desktop:mb-5 text-lg desktop:text-[25px] font-semibold border-b-[1px] border-b-[#F3FEFC] transition duration-200"
-              :class="[
-                { 'desktop:mb-5': $slots.description },
-                { 'group-hover:underline': stylesMinimal },
-                {
-                  'group-hover:border-b-[1px] group-hover:border-b-[#202020]':
-                    link,
-                },
-              ]"
-            >
-              <ContentSlot :use="$slots.title" />
-            </div>
-            <div
-              v-if="$slots.description"
-              class="flex flex-col justify-between h-full"
-            >
-              <div class="text-sm desktop:text-sm font-normal leading-[21px]">
-                <ContentSlot :use="$slots.description" />
-              </div>
-              <nuxt-picture
-                v-if="technologies"
-                class="min-w-[230px] h-[50px] mb-2"
-                :src="
-                  technologies
-                    ? technologies
-                    : './icons/websites-technologies.png'
-                "
-              ></nuxt-picture>
-              <div
-                v-if="$slots.readMoreText"
-                class="border-t-[1px] border-[#e4efeddd] pt-[20px] text-base text-gray-darker font-semibold flex justify-between transition duration-200"
-                :class="{ 'group-hover:text-[#08DBBA]': link }"
-              >
-                <ContentSlot :use="$slots.readMoreText" />
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="23"
-                  height="30"
-                  viewBox="0 0 23 30"
-                  fill="none"
-                >
-                  <path
-                    d="M15.0863 7.11133L13.7605 8.43713L19.3853 14.062H0V15.937H19.3852L13.7605 21.5617L15.0863 22.8875L22.9745 14.9994L15.0863 7.11133Z"
-                    fill="#202020"
-                    :class="{ 'group-hover:fill-[#08DBBA]': link }"
-                  />
-                </svg>
-              </div>
-            </div>
-          </CustomLink>
+  <div class="basis-full self-stretch tablet:basis-1/2 desktop:basis-1/3 tablet:pr-5 mb-5">
+    <EffectAppearMdc class="desktop-delay h-full" :delay="delay * 100">
+      <CustomLink :url="link" :activeClass="'none'"
+        class="group h-full p-5 pt-10 tablet:px-10 tablet:pt-[60px] flex flex-col text-gray-darker bg-[#F3FEFC] transition duration-200 ">
+        <nuxt-picture v-if="icon" class="shrink-0 w-20 h-[60px] mb-5 tablet:mb-9" :src="icon"></nuxt-picture>
+        <div v-if="$slots.title"
+          class="title max-w-fit mb-5 text-xl desktop:text-2xl font-semibold border-b-[1px] border-b-[#F3FEFC] transition duration-200"
+          :class="[{ 'group-hover:underline': link, },
+          ]">
+          <ContentSlot :use="$slots.title" />
         </div>
-      </div>
+        <div class=" mb-10 tablet:mb-[60px]">
+          <div v-if="$slots.description" class="text-sm desktop:text-sm font-normal leading-normal">
+            <ContentSlot :use="$slots.description" />
+          </div>
+          <nuxt-picture v-if="technologies" class="block min-w-[230px] h-[50px] mb-2 mt-5"
+            :src="technologies"></nuxt-picture>
+        </div>
+        <div v-if="$slots.readMoreText"
+          class="mt-auto border-t border-[#e4efeddd] pt-[20px] text-base text-gray-darker font-semibold flex justify-between transition duration-200"
+          :class="{ 'group-hover:text-[#08DBBA]': link }">
+          <ContentSlot :use="$slots.readMoreText" />
+          <svg xmlns="http://www.w3.org/2000/svg" width="23" height="30" viewBox="0 0 23 30" fill="none">
+            <path
+              d="M15.0863 7.11133L13.7605 8.43713L19.3853 14.062H0V15.937H19.3852L13.7605 21.5617L15.0863 22.8875L22.9745 14.9994L15.0863 7.11133Z"
+              fill="#202020" class="transition duration-200" :class="{ 'group-hover:fill-[#08DBBA]': link }" />
+          </svg>
+        </div>
+      </CustomLink>
     </EffectAppearMdc>
   </div>
 </template>
@@ -124,29 +41,11 @@ export default {
     link: String,
     icon: String,
     technologies: String,
-    // readMoreText: String,
-    iconBg: {
-      type: Boolean,
-      default: false,
-    },
-    bgIcon: String,
     delay: {
       type: Number,
       default: 0,
     },
-    stylesCustom: Boolean,
-    stylesMinimal: {
-      type: Boolean,
-      default: false,
-    },
-    isSmallTile: {
-      type: Boolean,
-      default: false,
-    },
-    noDescription: {
-      type: Boolean,
-      default: false,
-    },
+
   },
   components: { EffectAppearMdc, CustomLink },
 };

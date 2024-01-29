@@ -121,9 +121,6 @@ link: 'https://www.webo.agency/kontakt'
 #title
 ##### Strony internetowe i landing page
 
-#description
-Najpopularniejszy i najłatwiejszy w obsłudze system zarządzania treścią, który idealnie sprawdzi się w przypadku stron firmowych, małych portali i landing page.
-
 ::::
 
 ::::offer-tile-md
@@ -135,9 +132,6 @@ delay: 1
 #title
 ##### Sklepy e-commerce i portale internetowe
 
-#description
-Elastyczny i niesamowicie skalowalny system zarządzania treścią, na którym z powodzeniem zrealizujemy rozbudowane strony korporacyjne, zaawansowane serwisy i strony instytucji.
-
 ::::
 
 ::::offer-tile-md
@@ -148,10 +142,7 @@ delay: 2
 ---
 #title
 ##### Aplikacje webowe i konfiguratory 
-
-#description
-Tradycyjny Wordpress w połączeniu z nową technologią = ultraszybkie ładowanie strony, najwyższe bezpieczeństwo, wielokanałowość i nielimitowane skalowanie.
-
+ 
 ::::
 :::
 
@@ -159,6 +150,45 @@ Tradycyjny Wordpress w połączeniu z nową technologią = ultraszybkie ładowan
 ---
 class: -z-10
 ---
+:::
+::
+
+::page-section-md
+---
+class: mb-[100px] tablet:mb-[100px]
+---
+:::effect-appear-md
+
+:::svg-decorated
+---
+decoration: true
+class: top-20 right-[15%] fullHd:right-[20%] scale-x-[-1.6] scale-y-[1.6]
+---
+:::
+
+::::svg-bg-dots
+---
+decoration: true
+class: block desktop:hidden top-0 right-0
+---
+::::
+
+::::block-cta-md
+---
+maxWidth: 745
+button.link: https://www.webo.agency/kontakt
+button.title: 'Skontaktuj się z nami'
+button.isWide: true
+class: tablet:mb-36
+---
+
+#title
+#### Szukasz doświadczonego zespołu *projektowego UX/UI?*
+
+#description
+Skontaktuj się z nami i skorzystaj z bezpłatnej konsultacji podczas której omówimy Twój projekt.
+
+::::
 :::
 ::
 
@@ -196,9 +226,7 @@ class: desktop:[&_.offer-tile]:!basis-1/3
 ::::offer-tile-md
 ---
 icon: '/img/icons/site.png'
-iconBg: true
 link: ''
-stylesMinimal: true
 delay: 0
 ---
 #title
@@ -212,8 +240,6 @@ Nowoczesne witryny internetowe, stworzone by realizować określone założenia 
 ---
 icon: '/img/icons/store.png'
 link: ''
-iconBg: true
-stylesMinimal: true
 delay: 1
 ---
 #title
@@ -226,9 +252,7 @@ Sklepy internetowe z płynnym procesem sprzedaży oraz przejrzyste serwisy www, 
 ::::offer-tile-md
 ---
 icon: '/img/icons/apps.png'
-iconBg: true
 link: ''
-stylesMinimal: true
 delay: 2
 ---
 #title
@@ -421,9 +445,7 @@ class: desktop:[&_.offer-tile]:!basis-1/3
 ::::offer-tile-md
 ---
 icon: '/img/icons/destination.svg'
-iconBg: true
 link: ''
-stylesMinimal: true
 delay: 0
 ---
 #title
@@ -437,8 +459,6 @@ Określa emocje towarzyszące użytkownikom podczas korzystania z interfejsu. Dz
 ---
 icon: '/img/icons/structure.svg'
 link: ''
-iconBg: true
-stylesMinimal: true
 delay: 1
 ---
 #title
@@ -451,9 +471,7 @@ Architektura informacji odpowiada za organizację i podział treści na stronie 
 ::::offer-tile-md
 ---
 icon: '/img/icons/strategy.svg'
-iconBg: true
 link: ''
-stylesMinimal: true
 delay: 2
 ---
 #title
@@ -466,9 +484,7 @@ To schemat określający ścieżkę jaką musi pokonać użytkownik na stronie i
 ::::offer-tile-md
 ---
 icon: '/img/icons/design-proto.svg'
-iconBg: true
 link: ''
-stylesMinimal: true
 delay: 3
 ---
 #title
@@ -481,9 +497,7 @@ To graficzna prezentacja układu elementów na stronie, pozwalająca na określe
 ::::offer-tile-md
 ---
 icon: '/img/icons/puzzle.svg'
-iconBg: true
 link: ''
-stylesMinimal: true
 delay: 4
 ---
 #title
@@ -496,9 +510,7 @@ Jest to zbiór wytycznych i elementów standardowych (np. różnych wersji przyc
 ::::offer-tile-md
 ---
 icon: '/img/icons/pen-curve.svg'
-iconBg: true
 link: ''
-stylesMinimal: true
 delay: 5
 ---
 #title
