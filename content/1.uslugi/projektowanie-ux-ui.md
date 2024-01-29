@@ -179,7 +179,7 @@ maxWidth: 745
 button.link: https://www.webo.agency/kontakt
 button.title: 'Skontaktuj się z nami'
 button.isWide: true
-class: tablet:mb-36
+class: tablet:mb-36 [&_.description]:desktop:!text-lg
 ---
 
 #title
