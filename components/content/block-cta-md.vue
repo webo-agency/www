@@ -2,19 +2,17 @@
   <div
     class="relative flex flex-col justify-between items-center px-5 desktop-wide:px-[120px] py-[40px] desktop:py-0 [&>div>div>div]:mb-2"
     :class="{ 'tablet-wide:!flex-col [&_*]:text-center': vertical }">
-    <BlockHeaderMdc class="no-padding text-center tablet:text-left z-20" :maxWidth="maxWidth">
+    <BlockHeaderMdc class="no-padding text-center tablet:text-left z-20" :maxWidth="maxWidth" center>
       <template v-if="$slots.subtitle" #subtitle>
-        <div class="text-center">
-          <slot name="subtitle" />
-        </div>
+        <slot name="subtitle" />
       </template>
       <template v-if="$slots.title" #title>
-        <div class="title font-semibold text-center text-3xl mb-3">
+        <div class="font-semibold text-center text-3xl mb-3">
           <slot name="title" />
         </div>
       </template>
       <template v-if="$slots.description" #description>
-        <div class="description mb-4 text-base desktop:text-xl font-normal text-center">
+        <div class="mb-4 text-base desktop:text-xl font-normal text-center">
           <slot name="description" />
         </div>
       </template>
