@@ -28,157 +28,68 @@ Jeśli potrzebujesz stałego nadzoru nad swoją stroną lub sklepem, a na dodate
 #right
 :::block-banner-decoration-md
 ---
-rotate1: 90
-rotate2: 90
-svgUrl1: '/img/svg-square.svg'
-svgUrl2: '/img/svg-arc.svg'
+svgUrl_tl: '/img/svg-arc.svg'
+svgUrl_br: '/img/svg-square.svg'
 ---
 :::
 ::
 
 ::page-section-md
 ---
-classes: mb-[100px] tablet:mb-[190px]
+classes: pt-20 mb-5 tablet:mb-20 overflow-hidden static-content
 ---
-:::effect-appear-md
-::::block-header-md
+:::block-columns-1-1-md
 ---
-center: true
+class: items-center
+---
+
+#left
+::::effect-appear-md
+---
+class: relative z-20
+---
+:::::block-header-md
+---
 maxWidth: 690
-class: mb-20 relative
 ---
 
 #subtitle
-*1/* Bezpieczeństwo, wydajność i stabilność
+::::::prose-p-3
+*1/* Gwarantowana dostępność specjalistów
+::::::
 
 #title
-### Wspieramy, monitorujemy <br> i rozwijamy aby Twoja strona działała *bezpiecznie, wydajnie i stabilnie*
+### Skup się na biznesie, stronę www *zostaw specjalistom*
 
 #description
-Jest to usługa kierowana do firm i instytucji, które już posiadają swoje strony internetowe ale potrzebują rozbudowy o nowe funkcje, modyfikacji, nadzoru lub supportu nad codziennym funkcjonowaniem strony.
-
-::::
-:::
-
-:::block-bg-map-md
+:::::prose-p-3
 ---
-class: -z-10 bottom-0
----
-:::
-
-
-:::block-offer-tiles-md
----
-class: mb-10 tablet:mb-20
-decoration: true
----
-::::offer-tile-md
+class: mb-5 [&_p]:!leading-loose [&_p]:!mb-0
 --- 
-icon: '/img/icons/sync.png'
-link: ''
----
-#title
-##### Aktualizujemy system w ramach konserwacji
+Administracja stroną to czasochłonne zajęcie - m.in aktualizacje, reagowanie na awarie czy dłubanie przy rozbudowie. A co gdybyś miał od tego doświadczony zespół, który przejmie Twoje obowiązki, na dodatek doradzi w kwestii UX oraz IT i szybciej zrealizuje pracę? 
+:::::
 
+:::::prose-p-4
+---
+class: mb-0 [&_p]:!leading-loose [&_p]:!mb-0
+---
+Wsparcie techniczne to przede wszystkim oszczędność czasu jaki poświęcasz na prowadzenie strony internetowej ale także bezpieczeństwo i swoboda w planowaniu rozwoju. W momencie awarii nie musisz tracić cennego czasu szukając pomocy, a jeśli tylko pojawi się potrzeba rozwoju masz pod ręką doświadczony zespół projektantów i programistów którzy chętnie zrealizują Twoje plany.
+:::::
 ::::
 
-::::offer-tile-md
---- 
-icon: '/img/icons/monitor.png'
-link: ''
-delay: 1
+#right
+::::effect-appear-md
 ---
-#title
-##### Podnosimy bezpieczeństwo  przeciwdziałamy zagrożeniom
-
+class: relative z-10
+---
+:::::img-decorated-md
+---
+imgUrl: '/img/content-images/wsparcie-i-rozwoj/section1-right-img.png'
+decoration: false
+class: tablet:!pl-0 !mb-0 
+---
+:::::
 ::::
-
-::::offer-tile-md
---- 
-icon: '/img/icons/alert.png'
-link: ''
-delay: 2
----
-#title
-##### Monitorujemy bezpieczeństwo i działanie strony
-
-::::
-
-::::offer-tile-md
---- 
-icon: '/img/icons/performance.png'
-link: ''
-delay: 3
----
-#title
-##### Optymalizujemy szybkość i wydajność strony
-
-::::
-::::offer-tile-md
---- 
-icon: '/img/icons/optimalisation.png'
-link: ''
-delay: 4
----
-#title
-##### Testujemy <br> i optymalizujemy procesy technologiczne
-
-::::
-
-::::offer-tile-md
---- 
-icon: '/img/icons/scaling.png'
-link: ''
-delay: 5
----
-#title
-##### Projektujemy i programujemy nowe podstrony
-
-::::
-
-::::offer-tile-md
---- 
-icon: '/img/icons/gear_code.png'
-link: ''
-delay: 6
----
-#title
-##### Dostarczamy dedykowane moduły i funkcjonalności
-
-::::
-
-::::offer-tile-md
---- 
-icon: '/img/icons/overlay.png'
-link: ''
-delay: 7
----
-#title
-##### Integrujemy z zewnętrznymi systemami
-
-::::
-:::
-
-:::effect-appear-md
-::::block-header-md
----
-center: true
-maxWidth: 690
-class: mb-5
----
-
-#title
-##### Potrzebujesz szerszego wsparcia?
-
-::::
-
-::::button-main-md
----
-link: 'https://www.webo.agency/kontakt'
-title: 'Skontaktuj się z nami'
-class: 'mx-auto'
----
-
 :::
 ::
 
@@ -189,203 +100,269 @@ classes: mb-10 tablet:mb-20
 ---
 
 :::effect-appear-md
-::::block-header-md
+::::block-header-two-cols-md
 ---
-center: true
-maxWidth: 650
-class: mb-20
+class: mb-10 tablet:mb-20 
+maxWidth: 510
 ---
 
 #subtitle
-*2/* Support stron i sklepów www
+*2/* Kompleksowe wsparcie techniczne strony i sklepu
 
 #title
-### Co zyskujesz powierzając nam *opiekę nad stroną www?*
+### Co robimy w ramach *usługi wsparcia?*
 
 ::::
 :::
 
-
-
-
-
-:::::block-columns-1-1-md
-
-#left
-::::::effect-appear-md
-:::::::icon-tile-static-md
+:::block-offer-tiles-md
 ---
-iconUrl: '/img/icons/analytics.png'
-iconInline: true
+tilesTight: true
+---
+::::offer-tile-md
+--- 
+icon: '/img/icons/services-site.svg'
+---
+#title
+##### Dbamy o aktualizacje systemu i modułów
+
+::::
+
+::::offer-tile-md
+--- 
+icon: '/img/icons/services-store.svg'
+delay: 1
+---
+#title
+##### Optymalizujemy szybkość i wydajność strony
+
+::::
+
+::::offer-tile-md
+--- 
+icon: '/img/icons/services-apps.svg'
+delay: 2
+---
+#title
+##### Projektujemy i wdrażamy nowe podstrony i funkcjonalności
+ 
+::::
+
+::::offer-tile-md
+--- 
+icon: '/img/icons/services-apps.svg'
+delay: 3
+---
+#title
+##### Optymalizujemy procesy IT i wdrażamy automatyzacje
+ 
+::::
+
+::::offer-tile-md
+--- 
+icon: '/img/icons/services-apps.svg'
+delay: 4
+---
+#title
+##### Programujemy dedykowane moduły
+ 
+::::
+
+::::offer-tile-md
+--- 
+icon: '/img/icons/services-apps.svg'
+delay: 5
+---
+#title
+##### Integrujemy stronę z zewnętrznymi systemami
+ 
+::::
+
+::::offer-tile-md
+--- 
+icon: '/img/icons/services-apps.svg'
+delay: 6
+---
+#title
+##### Monitorujemy działanie i reagujemy na awarie
+ 
+::::
+
+::::offer-tile-md
+--- 
+icon: '/img/icons/services-apps.svg'
+delay: 7
+---
+#title
+##### Podnosimy bezpieczeństwo
+ 
+::::
+:::
+
+:::block-bg-map-md
+---
+class: -z-10
+---
+:::
+::
+
+::page-section-md
+---
+class: mb-[100px] tablet:mb-[100px]
+---
+:::effect-appear-md
+
+:::svg-decorated
+---
+decoration: true
+class: top-20 right-[15%] fullHd:right-[20%] scale-x-[-1.6] scale-y-[1.6]
+---
+:::
+
+::::svg-bg-dots
+---
+decoration: true
+class: block desktop:hidden top-0 right-0
+---
+::::
+
+::::block-cta-md
+---
+maxWidth: 730
+button.link: https://www.webo.agency/kontakt
+button.title: 'Skontaktuj się z nami'
+button.isWide: true
+class: tablet:mb-36 [&_.description]:desktop:!text-lg
 ---
 
 #title
-#### Masz stały dostęp do specjalistów
+#### Szukasz doświadczonego zespołu *projektowego UX/UI?*
 
 #description
-Nie musisz za każdym razem szukać pomocy zespołu IT ryzykując przy tym jakością wykonania, masz sprawdzony i doświadczony zespół zawsze pod ręką.
+Skontaktuj się z nami i skorzystaj z bezpłatnej konsultacji podczas której omówimy Twój projekt.
 
-:::::::
-::::::
-
-#right
-::::::effect-appear-md
-:::::::icon-tile-static-md
----
-iconUrl: '/img/icons/dev.png'
-iconInline: true
----
-
-#title
-#### Pracujemy w środowisku testowym
-
-#description
-Przed publikacją zmian, wszystkie prace przygotowujemy w specjalnym środowisku developerskim - dzięki temu zabezpieczamy ciągłość działania strony produkcyjnej (opublikowanej w internecie).
-
-:::::::
-::::::
-:::::
-
-:::::block-columns-1-1-md
-
-#left
-::::::effect-appear-md
-:::::::icon-tile-static-md
----
-iconUrl: '/img/icons/helpdesk.png'
-iconInline: true
----
-
-#title
-#### Udostępniamy indywidualny system HelpDesk
-
-#description
-Dzięki któremu masz możliwość dodawania zadań, ustalania priorytetu,  podgląd stanu prac i komunikacji z zespołem IT - wszystko pod ręką w jednym miejscu.
-:::::::
-::::::
-
-#right
-::::::effect-appear-md
-:::::::icon-tile-static-md
----
-iconUrl: '/img/icons/info.png'
-iconInline: true
----
-
-#title
-#### Doradzamy w każdej kwestii IT i UX
-
-#description
-Jeśli potrzebujesz porady, możesz do nas uderzać. Odpowiemy na każde pytanie i doradzimy w kwestiach związanych z Twoją stroną www i nie tylko - służymy wiedzą.
-
-:::::::
-::::::
-:::::
-
-:::::block-columns-1-1-md
-
-#left
-::::::effect-appear-md
-:::::::icon-tile-static-md
----
-iconUrl: '/img/icons/files.png'
-iconInline: true
----
-
-#title
-#### Co miesiąc raportujemy z przepracowanych godzin
-
-#description
-Po zakończeniu każdego miesiąca, przesyłamy raport z podsumowaniem prac zawierający listę wykonywanych zadań w trakcie miesiąca, poziom realizacji oraz podsumowanie przepracowanych godzin/zadanie.
-:::::::
-::::::
-
-
-#right
-::::::effect-appear-md
-:::::::icon-tile-static-md
----
-iconUrl: '/img/icons/chatting.png'
-iconInline: true
----
-
-#title
-#### Proponujemy zmiany i tłumaczymy dlaczego są potrzebne
-
-#description
-Nie musisz poświęcać czasu na sprawdzanie czy ze stroną wszystko jest ok i czy nie trzeba podjąć jakiegoś działania. Monitorujemy stan witryny i w razie potrzeby informujemy o konieczności wykonania pracy.
-
-:::::::
-::::::
-:::::
+::::
+:::
 ::
 
 
 ::page-section-md
 ---
-classes: mb-[100px] tablet:mb-[200px]
+classes: bg-gray-darkest pt-10 tablet:pt-[100px] mb-[100px] tablet:mb-[200px]
 ---
 
-::::block-background-md
----
-class: overflow-hidden tablet:overflow-visible
----
 
-:::::block-columns-1-1-md
----
-class: mx-default
----
-
-#left
-::::::effect-appear-md
+:::effect-appear-md
 ---
 class: relative z-20
 ---
-:::::::block-header-md
+
+::::block-header-md
 ---
-maxWidth: 690
-class: mb-10
+maxWidth: 940
+class: mb-10 tablet:mb-20 [&_.title]:!max-w-[500px]
+textWhite: true
+center: true
 ---
 
 #subtitle
-*3/* Wsparcie Drupal, Wordpress, Prestashop
+*3/* Dlaczego UX jest ważny?
 
 #title
-### Supportujemy strony i sklepy wykonane na *popularnych platformach*
+### Jakie są korzyści z *projektowania UX/UI?*
 
 #description
-Specjalizujemy się w obsłudze i programowaniu serwisów, stron i sklepów zbudowanych na platformach Open Source: CMS Drupal, Wordpress CMS, Prestashop.
+Wygląd i działanie Twojej strony internetowej ma ogromne znaczenie - już w pierwszej sekundzie przebywania na stronie, użytkownicy decydują czy na niej zostaną. Dzięki UX/UI wpłyniesz na
 
-:::::::
+::::
+:::::block-list-ul-md
+---
+class: mb-10 tablet:mb-20 flex flex-wrap justify-center gap-5 tablet:[&>li]:w-[calc(50%_-_10px)] desktop:[&>li]:w-[calc(33.3333%_-_14px)]
+---
 
-:::::::img-decorated-md
+::::::tile-dark-icon-md
 ---
-imgUrl: '/img/content-images/support-tech.png'
-decoration: false
-class: phone:!mb-8 tablet:!mb-0
+iconUrl: '/img/icons/user.svg'
+center: true
+iconDecorated: true
 ---
-:::::::
+
+#title
+#### Wzrost zaangażowania klientów
+
+#description
+m.in. dzięki dopracowanej architekturze informacji i warstwie wizualnej użytkownicy z chęcią będą wracać do Twojej strony i zostawać na niej dłużej
 
 ::::::
+::::::tile-dark-icon-md
+---
+iconUrl: '/img/icons/target.svg'
+center: true
+iconDecorated: true
+---
 
-#right
-::::::effect-appear-md
+#title
+#### Realizacja celów biznesowych
+
+#description
+niezależnie od tego czy sprzedajesz produkty czy prowadzisz serwis internetowy, odpowiednio zaprojektowany interfejs pomoże w realizacji celów jakie stawiasz przed stroną. 
+
+::::::
+::::::tile-dark-icon-md
 ---
-class: h-full relative z-10
+iconUrl: '/img/icons/coin.svg'
+center: true
+iconDecorated: true
 ---
-:::::::img-decorated-md
+
+#title
+#### Wzrost ROI
+
+#description
+dzięki intuicyjnej obsłudze i odpowiednim ścieżkom poruszania, użytkownik łatwiej dociera do potrzebnych informacji, a Ty zwiększasz szanse na sprzedaż swojego produktu lub usługi
+
+::::::
+::::::tile-dark-icon-md
 ---
-imgUrl: '/img/content-images/support-mockups.png'
-decoration: false
-class: phone-wide:!w-3/4 tablet:!w-full tablet:!pl-10 desktop:!pl-20 !w-full tablet:h-full tablet:flex items-center drop-shadow-2xl shadow-black
+iconUrl: '/img/icons/piggy-bank.svg'
+center: true
+iconDecorated: true
 ---
-:::::::
+
+#title
+#### Zmniejszenie kosztów prac deweloperskich
+
+#description
+szeroka wiedza z zakresu technologii pozwala projektować interfejs uwzględniając jej ograniczenia, zachowując jednocześnie funkcjonalność i łatwość obsługi strony
+
+::::::
+::::::tile-dark-icon-md
+---
+iconUrl: '/img/icons/layout.svg'
+center: true
+iconDecorated: true
+---
+
+#title
+#### Wzmocnienie wizerunku marki
+
+#description
+budowa atrakcyjnego wyglądu na bazie istniejącej identyfikacji wizualnej sprawi, że Twoja strona internetowa zostanie zapamiętana na dłużej i kojarzona tylko z Twoją firmą
+
 ::::::
 :::::
+:::
+
+#full
+:::effect-appear-md
+::::prose-figure
+---
+src: '/img/content-images/projektowanie-uxui/section3.png'
+rounded: false
+---
 ::::
+:::
 ::
-
-
 
 
 

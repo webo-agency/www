@@ -1,8 +1,8 @@
 <template>
-  <div class="basis-full self-stretch tablet:basis-1/2 desktop:basis-1/3 tablet:pr-5 mb-5">
+  <div class="self-stretch mb-5">
     <EffectAppearMdc class="desktop-delay h-full" :delay="delay * 100">
-      <CustomLink :url="link" :activeClass="'none'"
-        class="group h-full p-5 pt-10 tablet:px-10 tablet:pt-[60px] flex flex-col text-gray-darker bg-[#F3FEFC] transition duration-200 ">
+      <CustomLink :url="link ?? ''" :activeClass="'none'"
+        class="group h-full p-5 pt-10 desktop-wide:px-10 tablet:pt-[60px] flex flex-col text-gray-darker bg-[#F3FEFC] transition duration-200 ">
         <nuxt-picture v-if="icon" class="shrink-0 w-20 h-[60px] mb-5 tablet:mb-9" :src="icon"></nuxt-picture>
         <div v-if="$slots.title"
           class="title max-w-fit mb-5 text-xl desktop:text-2xl font-semibold border-b-[1px] border-b-[#F3FEFC] transition duration-200"
@@ -10,7 +10,7 @@
           ]">
           <ContentSlot :use="$slots.title" />
         </div>
-        <div class=" mb-10 tablet:mb-[60px]">
+        <div class="description mb-10 tablet:mb-[60px]">
           <div v-if="$slots.description" class="text-sm desktop:text-sm font-normal leading-normal">
             <ContentSlot :use="$slots.description" />
           </div>

@@ -317,7 +317,7 @@ class: mb-10 tablet:mb-20
 #description
 ::::::prose-p-3
 ---
-class: px-5 tablet:px-10
+class: px-5 tablet:px-10 font-medium
 ---
 Nasz zespół to solidne umysły ścisłe. Znamy się na technologii jak na niczym innym, pracujemy na twardych danych a nie domysłach.
 ::::::

@@ -29,10 +29,10 @@ Projektujemy strony i sklepy internetowe
 #right
 :::block-banner-decoration-md
 ---
-rotate1: 90
-rotate2: 90
-svgUrl1: '/img/svg-square.svg'
-svgUrl2: '/img/svg-arc.svg'
+rotate_bl: 90
+rotate_tr: 90
+svgUrl_bl: '/img/svg-square.svg'
+svgUrl_tr: '/img/svg-arc.svg'
 ---
 :::
 ::
@@ -104,7 +104,7 @@ maxWidth: 640
 *2/* Projektowanie stron i sklepów internetowych
 
 #title
-## Co możemy dla Ciebie *zaprojektować?*
+### Co możemy dla <br> Ciebie *zaprojektować?*
 
 #description
 Uwielbiamy wyzwania i rozwiązywanie problemów,specjalizujemy się w projektowaniu interfejsów na cele internetu skupiając się nie tylko na wyglądzie ale także praktycznym wykorzystaniu i funkcjonalności. Z chęcią zaprojektujemy:

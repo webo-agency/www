@@ -27,8 +27,8 @@ Tworzymy szyte na miarę strony internetowe, projektując dla Ciebie indywidualn
 #right
 :::block-banner-decoration-md
 ---
-svgUrl1: '/img/svg-arc.svg'
-svgUrl2: '/img/svg-square.svg'
+svgUrl_bl: '/img/svg-arc.svg'
+svgUrl_tr: '/img/svg-square.svg'
 ---
 :::
 ::

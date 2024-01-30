@@ -12,7 +12,7 @@
         <ContentSlot :use="$slots.title" />
         <div v-if="titleUnderline" class="mt-7 mb-10 w-[200px] h-1 bg-green-main rounded-full"></div>
       </div>
-      <div v-if="$slots.description" class="text-base desktop:text-lg font-medium"
+      <div v-if="$slots.description" class="text-base desktop:text-lg font-normal"
         :class="{ ' mx-auto text-center': center }"
         :style="[{ 'max-width': (!descriptionFullWidth ? (maxWidth + 'px') : 'none') }]">
         <ContentSlot :use="$slots.description" />
