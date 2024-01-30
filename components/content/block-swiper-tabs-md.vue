@@ -41,13 +41,16 @@
         </div>
       </div>
       <div
-        class="relative desktop-wide:w-screen pr-5 tablet:pr-10 desktop:pr-20 -mr-5 tablet:-mr-10 desktop:-mr-20 desktop-wide:mr-0 h-full _overflow-hidden !overflow-visible"
+        class="relative desktop-wide:w-screen pr-5 tablet:pr-10 desktop:pr-20 -mr-5 tablet:-mr-10 desktop:-mr-20 desktop-wide:mr-0 h-full !overflow-visible"
       >
         <div
           class="desktop:max-w-screen-desktop desktop-wide:max-w-screen-desktop-wide"
         >
-          <div ref="swiperThumbs" class="swiper mb-10 tablet:mb-20">
-            <ul class="swiper-wrapper w-fit">
+          <div
+            ref="swiperThumbs"
+            class="swiper hidden desktop:block mb-10 tablet:mb-20"
+          >
+            <ul class="swiper-wrapper w-full">
               <li
                 v-for="(item, index) in tabNames"
                 :key="index"
@@ -63,7 +66,7 @@
             </ul>
           </div>
           <div ref="swiper" class="swiper w-full h-full !overflow-visible">
-            <div class="swiper-wrapper flex h-full overflow-visible">
+            <div class="swiper-wrapper flex h-full !overflow-visible">
               <slot></slot>
             </div>
           </div>
@@ -87,7 +90,7 @@ export default {
     return {
       swiperThumbs: null,
       swiperThumbsOptionsObject: {
-        slidesPerView: 1,
+        slidesPerView: "auto",
         modules: [Thumbs, Controller],
         direction: "horizontal",
         speed: 600,
@@ -108,9 +111,8 @@ export default {
     this.swiper = new Swiper(this.$refs.swiper, {
       modules: [Navigation, Thumbs, Controller, Parallax],
       slidesPerView: 1.1,
-      slidesPerGroupAuto: 1,
-      direction: "horizontal",
       spaceBetween: 20,
+      direction: "horizontal",
       speed: 1000,
       watchSlidesProgress: true,
       thumbs: {
@@ -123,7 +125,7 @@ export default {
       },
       breakpoints: {
         768: {
-          slidesPerView: 1.5,
+          slidesPerView: 1.2,
         },
         1248: {
           slidesPerView: 1.99,

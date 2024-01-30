@@ -1,13 +1,14 @@
 <template>
   <div
-    class="swiper-slide tabs-slide bg-[#ECF6F4] flex flex-col justify-between min-h-[460px] shrink-0 tablet:pr-10 p-[30px_20px] desktop:p-10 desktop:pb-[20px] !transition !duration-200"
+    class="swiper-slide tabs-slide w bg-[#ECF6F4] tablet:pr-10 p-[30px_20px] desktop:p-10 desktop:pb-[20px] !transition !duration-200"
   >
-    <div class="text-gray-darker">
-      <div
-        class="relative z-20 shrink-0 grow basis-full tablet-wide:basis-[55%] flex flex-col"
-      >
+    <div class="flex flex-wrap text-gray-darker">
+      <div class="relative flex flex-col">
         <nuxt-picture v-if="icon" :src="icon" class="mb-5" />
-        <slot name="slideContent"> </slot>
+        <slot name="left"></slot>
+      </div>
+      <div class="relative">
+        <slot name="right"></slot>
       </div>
     </div>
   </div>
@@ -31,10 +32,13 @@ export default {
 }
 
 .tabs-slide:deep(li) {
-  @apply flex items-center;
+  @apply flex items-center font-normal;
 }
 .tabs-slide:deep(h5) {
   @apply font-semibold text-xl tablet:text-2xl mb-4;
+}
+.tabs-slide:deep(p) {
+  @apply font-normal;
 }
 .swiper-slide.swiper-slide-prev,
 .swiper-slide {
