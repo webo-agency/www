@@ -1,0 +1,36 @@
+<svg width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="coin 1" clip-path="url(#clip0_4795_7036)">
+<g id="g324">
+<g id="g326">
+<g id="Clip path group">
+<mask id="mask0_4795_7036" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="55" height="55">
+<g id="clipPath332">
+<path id="path330" d="M0 7.62939e-06H55V55H0V7.62939e-06Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_4795_7036)">
+<g id="g328">
+<g id="g334">
+<path id="path336" d="M53.3887 27.5C53.3887 41.7981 41.798 53.3887 27.5 53.3887C13.202 53.3887 1.61133 41.7981 1.61133 27.5C1.61133 13.2019 13.202 1.61134 27.5 1.61134C41.798 1.61134 53.3887 13.2019 53.3887 27.5Z" stroke="#06CEAF" stroke-width="1.8" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="g338">
+<path id="path340" d="M27.5 17.1445V11.9668" stroke="#06CEAF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="g342">
+<path id="path344" d="M27.5 37.8554V43.0332" stroke="#06CEAF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="g346">
+<path id="path348" d="M32.6771 17.1445H25.7734C22.9139 17.1445 20.5957 19.4626 20.5957 22.3223C20.5957 25.1817 22.9139 27.4999 25.7734 27.4999H29.2253C32.0847 27.4999 34.403 29.8182 34.403 32.6777C34.403 35.5373 32.0847 37.8555 29.2253 37.8555H22.3218" stroke="#06CEAF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_4795_7036">
+<rect width="55" height="55" fill="white"/>
+</clipPath>
+</defs>
+</svg>

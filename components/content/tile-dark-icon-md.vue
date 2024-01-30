@@ -18,7 +18,7 @@
                         :imgAttrs="{ class: 'w-full h-full object-contain' }" />
                 </div>
 
-                <div v-if="$slots.title" class="max-w-[350px] font-semibold text-white mb-5 tablet:mb-7"
+                <div v-if="$slots.title" class="max-w-[358px] font-semibold text-white mb-5 tablet:mb-7"
                     :class="[iconDecorated ? 'text-xl desktop:text-3xl' : 'text-lg desktop:text-xl']">
                     <ContentSlot :use="$slots.title" />
                 </div>

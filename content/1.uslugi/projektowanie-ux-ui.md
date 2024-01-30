@@ -115,7 +115,7 @@ Uwielbiamy wyzwania i rozwiązywanie problemów,specjalizujemy się w projektowa
 :::block-offer-tiles-md
 ::::offer-tile-md
 --- 
-icon: '/img/icons/wordpress.svg'
+icon: '/img/icons/services-site.svg'
 link: 'https://www.webo.agency/kontakt'
 ---
 #title
@@ -125,7 +125,7 @@ link: 'https://www.webo.agency/kontakt'
 
 ::::offer-tile-md
 --- 
-icon: '/img/icons/drupal.svg'
+icon: '/img/icons/services-store.svg'
 link: 'https://www.webo.agency/kontakt'
 delay: 1
 ---
@@ -136,7 +136,7 @@ delay: 1
 
 ::::offer-tile-md
 --- 
-icon: '/img/icons/wordpress-headles.svg'
+icon: '/img/icons/services-apps.svg'
 link: 'https://www.webo.agency/kontakt'
 delay: 2
 ---
@@ -195,91 +195,122 @@ Skontaktuj się z nami i skorzystaj z bezpłatnej konsultacji podczas której om
 
 ::page-section-md
 ---
-innerContainerClasses: bg-gray-light p-5 tablet:px-10 tablet:pt-10 desktop:px-[120px] desktop:pt-[100px] desktop:pb-[55px]
+classes: bg-gray-darkest pt-10 tablet:pt-[100px] mb-[100px] tablet:mb-[200px]
 ---
+
+
 :::effect-appear-md
+---
+class: relative z-20
+---
+
 ::::block-header-md
 ---
-maxWidth: 810
-class: mb-10
+maxWidth: 690
+class: mb-10 tablet:mb-20
+textWhite: true
+center: true
 ---
 
 #subtitle
-*3/* Projektowanie stron i sklepów internetowych
+*3/* Dlaczego UX jest ważny?
 
 #title
-### Co możemy dla <br> Ciebie *zaprojektować?*
+### Jakie są korzyści z *projektowania UX/UI?*
+
+#descirption
+Wygląd i działanie Twojej strony internetowej ma ogromne znaczenie - już w pierwszej sekundzie przebywania na stronie, użytkownicy decydują czy na niej zostaną. Dzięki UX/UI wpłyniesz na
+
+::::
+:::::block-list-ul-md
+---
+class: mb-10 tablet:mb-20 flex flex-wrap justify-center gap-5 tablet:[&>li]:w-[calc(50%_-_10px)] desktop:[&>li]:w-[calc(33.3333%_-_14px)]
+---
+
+::::::tile-dark-icon-md
+---
+iconUrl: '/img/icons/user.svg'
+center: true
+iconDecorated: true
+---
+
+#title
+#### Wzrost zaangażowania klientów
 
 #description
-:::::prose-p3
+m.in. dzięki dopracowanej architekturze informacji i warstwie wizualnej użytkownicy z chęcią będą wracać do Twojej strony i zostawać na niej dłużej
+
+::::::
+::::::tile-dark-icon-md
 ---
-class: px-1 tablet:px-5 desktop:px-10
+iconUrl: '/img/icons/target.svg'
+center: true
+iconDecorated: true
 ---
-Uwielbiamy wyzwania i rozwiązywanie problemów,specjalizujemy się w projektowaniu interfejsów na cele internetu skupiając się nie tylko na wyglądzie ale także praktycznym wykorzystaniu i funkcjonalności. Z chęcią zaprojektujemy:
+
+#title
+#### Realizacja celów biznesowych
+
+#description
+niezależnie od tego czy sprzedajesz produkty czy prowadzisz serwis internetowy, odpowiednio zaprojektowany interfejs pomoże w realizacji celów jakie stawiasz przed stroną. 
+
+::::::
+::::::tile-dark-icon-md
+---
+iconUrl: '/img/icons/coin.svg'
+center: true
+iconDecorated: true
+---
+
+#title
+#### Wzrost ROI
+
+#description
+dzięki intuicyjnej obsłudze i odpowiednim ścieżkom poruszania, użytkownik łatwiej dociera do potrzebnych informacji, a Ty zwiększasz szanse na sprzedaż swojego produktu lub usługi
+
+::::::
+::::::tile-dark-icon-md
+---
+iconUrl: '/img/icons/piggy-bank.svg'
+center: true
+iconDecorated: true
+---
+
+#title
+#### Zmniejszenie kosztów prac deweloperskich
+
+#description
+szeroka wiedza z zakresu technologii pozwala projektować interfejs uwzględniając jej ograniczenia, zachowując jednocześnie funkcjonalność i łatwość obsługi strony
+
+::::::
+::::::tile-dark-icon-md
+---
+iconUrl: '/img/icons/layout.svg'
+center: true
+iconDecorated: true
+---
+
+#title
+#### Wzmocnienie wizerunku marki
+
+#description
+budowa atrakcyjnego wyglądu na bazie istniejącej identyfikacji wizualnej sprawi, że Twoja strona internetowa zostanie zapamiętana na dłużej i kojarzona tylko z Twoją firmą
+
+::::::
 :::::
-::::
 :::
-:::block-offer-tiles-md
----
-class: desktop:[&_.offer-tile]:!basis-1/3
----
-::::offer-tile-md
----
-icon: '/img/icons/site.png'
-link: ''
-delay: 0
----
-#title
-##### Strony internetowe <br> i landing page
 
-#description
-Nowoczesne witryny internetowe, stworzone by realizować określone założenia firm i instytucji. Projektowane z myślą o użytkownikach i osiąganiu celów biznesowych.
-::::
-
-::::offer-tile-md
----
-icon: '/img/icons/store.png'
-link: ''
-delay: 1
----
-#title
-##### Sklepy e-commerce <br> i portale internetowe
-
-#description
-Sklepy internetowe z płynnym procesem sprzedaży oraz przejrzyste serwisy www, koncentrujące uwagę użytkowników.
-::::
-
-::::offer-tile-md
----
-icon: '/img/icons/apps.png'
-link: ''
-delay: 2
----
-#title
-##### Aplikacje webowe <br> i konfiguratory 
-
-#description
-Dedykowane do specjalnych zastosowań w firmach, proste w zarządzaniu i usprawniające konkretne procesy biznesowe.
-
-::::
-:::
-::
-
-
-::page-section-md
----
-classes: mb-10 tablet:mb-20
-innerContainerClasses: bg-gray-light rounded-b-[5px] overflow-hidden
----
+#full
 :::effect-appear-md
 ::::prose-figure
 ---
-src: /img/content-images/uxui-consultation.png
+src: '/img/content-images/projektowanie-uxui/section3.png'
 rounded: false
 ---
 ::::
 :::
 ::
+
 
 ::page-section-md
 ---
