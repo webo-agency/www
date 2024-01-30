@@ -206,8 +206,8 @@ class: relative z-20
 
 ::::block-header-md
 ---
-maxWidth: 690
-class: mb-10 tablet:mb-20
+maxWidth: 940
+class: mb-10 tablet:mb-20 [&_.title]:!max-w-[500px]
 textWhite: true
 center: true
 ---
@@ -218,7 +218,7 @@ center: true
 #title
 ### Jakie są korzyści z *projektowania UX/UI?*
 
-#descirption
+#description
 Wygląd i działanie Twojej strony internetowej ma ogromne znaczenie - już w pierwszej sekundzie przebywania na stronie, użytkownicy decydują czy na niej zostaną. Dzięki UX/UI wpłyniesz na
 
 ::::
