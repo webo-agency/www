@@ -5,7 +5,7 @@
     >
       <div class="w-full inset-0 absolute pointer-events-none z-30">
         <div
-          class="pointer-events-auto mr-24 cursor-pointer desktop:flex items-center justify-center w-[120px] h-[120px] rounded-full bg-green-main hover:bg-green-mainHover absolute top-[calc(50%_+_25px)] -left-16 transition duration-200 z-[10]"
+          class="pointer-events-auto mr-24 cursor-pointer hidden desktop:flex items-center justify-center w-[120px] h-[120px] rounded-full bg-green-main hover:bg-green-mainHover absolute top-[calc(50%_+_25px)] -left-16 transition duration-200 z-[10]"
           data-swiper-prev
         >
           <svg
@@ -23,7 +23,7 @@
           </svg>
         </div>
         <div
-          class="pointer-events-auto mr-24 cursor-pointer desktop:flex items-center justify-center w-[120px] h-[120px] rounded-full bg-green-main hover:bg-green-mainHover absolute top-[calc(50%+25px)] right-7 transition duration-200 z-[10]"
+          class="pointer-events-auto mr-24 cursor-pointer hidden desktop:flex items-center justify-center w-[120px] h-[120px] rounded-full bg-green-main hover:bg-green-mainHover absolute top-[calc(50%+25px)] right-7 transition duration-200 z-[10]"
           data-swiper-next
         >
           <svg
@@ -47,7 +47,7 @@
           class="desktop:max-w-screen-desktop desktop-wide:max-w-screen-desktop-wide"
         >
           <div ref="swiperThumbs" class="swiper mb-10 tablet:mb-20">
-            <ul class="swiper-wrapper w-full">
+            <ul class="swiper-wrapper w-fit">
               <li
                 v-for="(item, index) in tabNames"
                 :key="index"
@@ -107,7 +107,7 @@ export default {
     );
     this.swiper = new Swiper(this.$refs.swiper, {
       modules: [Navigation, Thumbs, Controller, Parallax],
-      slidesPerView: 1,
+      slidesPerView: 1.1,
       slidesPerGroupAuto: 1,
       direction: "horizontal",
       spaceBetween: 20,

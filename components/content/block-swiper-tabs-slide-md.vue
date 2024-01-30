@@ -4,7 +4,7 @@
   >
     <div class="text-gray-darker">
       <div
-        class="relative z-20 shrink-0 grow basis-full tablet-wide:basis-[55%] flex flex-col tablet-wide:pr-10 desktop-wide:pr-20"
+        class="relative z-20 shrink-0 grow basis-full tablet-wide:basis-[55%] flex flex-col"
       >
         <nuxt-picture v-if="icon" :src="icon" class="mb-5" />
         <slot name="slideContent"> </slot>

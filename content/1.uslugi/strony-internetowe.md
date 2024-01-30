@@ -478,15 +478,17 @@ maxWidth: 900
 class: test [&_div_div]:!font-normal
 ---
 #title
-##### 01. Analiza założeń
 ::::::prose-p-3
 ---
-class: font-normal
+class: -mb-6
 ---
+##### 01. Analiza założeń
+::::::
+
 Jest to pierwszy krok jaki musimy
 wykonać w celu realizacji strony internetowej.
 Podczas pierwszej rozmowy dokładnie poznajemy Twoje potrzeby oraz założenia projektu.
-::::::
+
 
 **Podczas tego etapu:**
 - Przeprowadzamy videowarsztaty
@@ -502,7 +504,7 @@ Podczas pierwszej rozmowy dokładnie poznajemy Twoje potrzeby oraz założenia p
 
 ::::block-swiper-tabs-slide-md
 ---
-icon: '/img/icons/magnifier.svg'
+icon: '/img/icons/www-uxui.svg'
 ---
 #slideContent
 :::::block-header-md
@@ -512,11 +514,13 @@ class: test [&_div_div]:!font-normal
 ---
 
 #title
-##### 02. Projektowanie interfejsu UX/UI
 ::::::prose-p-3
 ---
-class: font-normal
+class: -mb-6
 ---
+##### 02. Projektowanie interfejsu UX/UI
+::::::
+
 Podczas tego etapu pracujemy nad wyglądem strony www. Prace zaczynamy od przeanalizowania przyzwyczajeń grupy docelowej (Twoich klientów) oraz otoczenia rynkowego - wszystko po to aby użytkownicy z łatwością odnaleźli się na nowej stronie. Następnie  opracowujemy moodboardy (tablice inspiracji), wytyczamy ścieżki użytkownika (user flow), projektujemy makiety UX, kończąc na finalnym wyglądzie Twojej strony.
 
 **Podczas tego etapu:**
@@ -530,7 +534,7 @@ Podczas tego etapu pracujemy nad wyglądem strony www. Prace zaczynamy od przean
 
 ::::block-swiper-tabs-slide-md
 ---
-icon: '/img/icons/magnifier.svg'
+icon: '/img/icons/www-code.svg'
 ---
 #slideContent
 :::::block-header-md
@@ -540,11 +544,13 @@ class: test [&_div_div]:!font-normal
 ---
 
 #title
-##### 03. Prace programistyczne
 ::::::prose-p-3
 ---
-class: font-normal
+class: -mb-6
 ---
+##### 03. Prace programistyczne
+::::::
+
 Po zaakceptowaniu projektu interfejsu, rozpoczynamy prace nad kompleksowym wdrożeniem strony internetowej w wybranej technologii. Działamy od konfiguracji infrastruktury technicznej, przez instalacje wymaganych narzędzi po zaprogramowanie strony.
 
 **Podczas tego etapu:**
@@ -559,7 +565,7 @@ Po zaakceptowaniu projektu interfejsu, rozpoczynamy prace nad kompleksowym wdro�
 
 ::::block-swiper-tabs-slide-md
 ---
-icon: '/img/icons/magnifier.svg'
+icon: '/img/icons/www-tests.svg'
 ---
 #slideContent
 :::::block-header-md
@@ -569,11 +575,13 @@ class: test [&_div_div]:!font-normal
 ---
 
 #title
-##### 04. Testy i publikacja
 ::::::prose-p-3
 ---
-class: font-normal
+class: -mb-6
 ---
+##### 04. Testy i publikacja
+::::::
+
 W tym etapie gruntownie sprawdzamy działanie strony internetowej. Testy wykonujemy na wielu urządzeniach i rozdzielczościach ekranu (od najmniejszych smartfonów po wyświetlacze FHD), wszystko po to aby mieć pewność że wszystko działa jak należy. Po przejściu wewnętrznych testów, przekazujemy stronę do weryfikacji klientowi - to moment na dopracowanie projektu i zgłaszanie wszelkich uwag przed publikacją.
 
 **Podczas tego etapu:**
@@ -587,7 +595,7 @@ W tym etapie gruntownie sprawdzamy działanie strony internetowej. Testy wykonuj
 
 ::::block-swiper-tabs-slide-md
 ---
-icon: '/img/icons/magnifier.svg'
+icon: '/img/icons/www-support.svg'
 ---
 #slideContent
 :::::block-header-md
@@ -597,11 +605,13 @@ class: test [&_div_div]:!font-normal
 ---
 
 #title
-##### 05. Wsparcie i rozwój
 ::::::prose-p-3
 ---
-class: font-normal
+class: -mb-6
 ---
+##### 05. Wsparcie i rozwój
+::::::
+
 
 Często publikacja strony to dopiero początek, a podczas użytkowania strony pojawiają sie pomysły na nowe funkcjonalności, zakładki czy ulepszenia - w tym miejscu nie możemy także zapomnieć o koniecznych aktualizacjach czy monitorowaniu wydajności, bezpieczeństwa czy stabilności działania.
 
@@ -612,44 +622,11 @@ Często publikacja strony to dopiero początek, a podczas użytkowania strony po
 - Projektowanie i wdrażanie nowych funkcjonalności i dedykowanych modułów
 - Reagowanie na ewentualne awarie<br>
 
-**Po akceptacji kosztorysu, proponowanych rozwiązań i terminów, podpisujemy umowę o współpracy i przechodzimy do realizacji.**
-
 :::::
 ::::
 
 
-::::block-swiper-tabs-slide-md
----
-icon: '/img/icons/magnifier.svg'
-class: empty_slide !opacity-0
----
-#slideContent
-:::::block-header-md
----
-maxWidth: 900
-class: test [&_div_div]:!font-normal
----
 
-#title
-##### 05. Wsparcie i rozwój
-::::::prose-p-3
----
-class: font-normal
----
-
-Często publikacja strony to dopiero początek, a podczas użytkowania strony pojawiają sie pomysły na nowe funkcjonalności, zakładki czy ulepszenia - w tym miejscu nie możemy także zapomnieć o koniecznych aktualizacjach czy monitorowaniu wydajności, bezpieczeństwa czy stabilności działania.
-
-**W ramach usługi wsparcia zajmujemy się następującymi pracami:**
-- Aktualizacja środowiska (systemu) w ramach konserwacji
-- Monitorowanie bezpieczeństwa i szybkości strony
-- Projektowanie i rozbudowa strony
-- Projektowanie i wdrażanie nowych funkcjonalności i dedykowanych modułów
-- Reagowanie na ewentualne awarie<br>
-
-**Po akceptacji kosztorysu, proponowanych rozwiązań i terminów, podpisujemy umowę o współpracy i przechodzimy do realizacji.**
-
-:::::
-::::
 
 :::
 ::
