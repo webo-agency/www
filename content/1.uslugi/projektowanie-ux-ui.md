@@ -175,7 +175,7 @@ class: block desktop:hidden top-0 right-0
 
 ::::block-cta-md
 ---
-maxWidth: 745
+maxWidth: 730
 button.link: https://www.webo.agency/kontakt
 button.title: 'Skontaktuj się z nami'
 button.isWide: true
@@ -420,136 +420,133 @@ Po przejściu procesu projektowego nadszedł czas na wdrożenie i rozwój produk
 :::
 ::
 
-::page-section-md
----
-class: mb-[100px] tablet:mb-[150px]
----
-:::effect-appear-md
-::::block-cta-md
----
-vertical: true
-maxWidth: 700
-button.link: https://www.webo.agency/kontakt
-button.title: 'Skontaktuj się z nami'
-button.isWide: true
-class: desktop:[&_h4]:text-[30px] [&_.title]:!mb-5
----
-
-
-#title
-#### Szukasz doświadczonego zespołu <br> projektowego UX/UI?
-
-#description
-:::::prose-p2
----
-class: text-lg desktop:text-xl
----
-Skontaktuj się z nami i skorzystaj z bezpłatnej konsultacji podczas której omówimy Twój projekt.
-:::::
-::::
-:::
-::
-
 
 ::page-section-md
 ---
-class: mb-[50px] tablet:mb-[100px]
+classes: mb-10 tablet:mb-20
 ---
 :::effect-appear-md
 ::::block-header-md
 ---
-class: mb-10 tablet:mb-[60]px
+center: true
+maxWidth: 540
+class: mb-20
 ---
 
 #subtitle
 *5/* Kompleksowy projekt UX/UI
 
 #title
-### Co dostarczamy w ramach <br> *projektu UX/UI?*
+### Co dostarczamy w ramach *projektu UX/UI?*
 
 ::::
 :::
-:::block-offer-tiles-md
+
+:::block-columns-1-1-md
 ---
-class: desktop:[&_.offer-tile]:!basis-1/3
+class: mb-10 tablet:mb-20
 ---
-::::offer-tile-md
+
+#left
+
+::::effect-appear-md
+:::::block-list-ul-md
 ---
-icon: '/img/icons/destination.svg'
-link: ''
-delay: 0
+decoration: false
 ---
+::::::list-item-ul-active-md
+---
+iconUrl: '/img/icons/journey_bg.svg'
+iconBig: true
+animated: false
+---
+
 #title
-##### Customer Journey
+#### Customer Journey
 
 #description
 Określa emocje towarzyszące użytkownikom podczas korzystania z interfejsu. Dzięki odpowiedniemu wykorzystaniu, możemy zidentyfikować obszary wymagające poprawy na naszej stronie, sklepie czy aplikacji.
-::::
 
-::::offer-tile-md
+::::::
+::::::list-item-ul-active-md
 ---
-icon: '/img/icons/structure.svg'
-link: ''
-delay: 1
+iconUrl: '/img/icons/path_bg.svg'
+iconBig: true
+animated: false
 ---
+
 #title
-##### Architektura informacji
+#### Mapa ścieżki użytkowników
 
-#description
-Architektura informacji odpowiada za organizację i podział treści na stronie w celu ułatwienia wyszukiwania potrzebnych materiałów przez użytkownika.
-::::
-
-::::offer-tile-md
----
-icon: '/img/icons/strategy.svg'
-link: ''
-delay: 2
----
-#title
-##### Mapa ścieżki użytkowników
 
 #description
 To schemat określający ścieżkę jaką musi pokonać użytkownik na stronie internetowej w celu wykonania zadania np. zakup produktu w sklepie www
 
-::::
-::::offer-tile-md
+::::::
+::::::list-item-ul-active-md
 ---
-icon: '/img/icons/design-proto.svg'
-link: ''
-delay: 3
+iconUrl: '/img/icons/design-system_bg.svg'
+iconBig: true
+animated: false
 ---
-#title
-##### Prototyp funkcjonalny UX
 
-#description
-To graficzna prezentacja układu elementów na stronie, pozwalająca na określenie funkcji, typu treści (m.in. grafiki, nagłówka, akapitu czy przycisku) i sposobie interakcji użytkownika ze stroną.
-
-::::
-::::offer-tile-md
----
-icon: '/img/icons/puzzle.svg'
-link: ''
-delay: 4
----
 #title
-##### Design system
+#### Design system
 
 #description
 Jest to zbiór wytycznych i elementów standardowych (np. różnych wersji przycisków, okien i komponentów), które będzie można wykorzystać przy ,,doprojektowaniu" nowych podstron w przyszłości.
 
+::::::
+:::::
 ::::
-::::offer-tile-md
+
+
+#right
+::::effect-appear-md
+:::::block-list-ul-md
+::::::list-item-ul-active-md
 ---
-icon: '/img/icons/pen-curve.svg'
-link: ''
-delay: 5
+iconUrl: '/img/icons/architecture_bg.svg'
+iconBig: true
+animated: false
 ---
+
 #title
-##### Projekt interfejsu UI
+#### Architektura informacji
+
+#description
+Architektura informacji odpowiada za organizację i podział treści na stronie w celu ułatwienia wyszukiwania potrzebnych materiałów przez użytkownika.
+
+::::::
+::::::list-item-ul-active-md
+---
+iconUrl: '/img/icons/ui-design_bg.svg'
+iconBig: true
+animated: false
+---
+
+#title
+#### Prototyp funkcjonalny UX
+
+#description
+To graficzna prezentacja układu elementów na stronie, pozwalająca na określenie funkcji, typu treści (m.in. grafiki, nagłówka, akapitu czy przycisku) i sposobie interakcji użytkownika ze stroną.
+
+::::::
+::::::list-item-ul-active-md
+---
+iconUrl: '/img/icons/project_bg.svg'
+iconBig: true
+animated: false
+---
+
+#title
+#### Projekt interfejsu UI
 
 #description
 Jest to wizualna prezentacja docelowego wyglądu strony, projektowana z naciskiem na spójność z identyfikacją wizualną firmy, estetykę i charakter działalności.
 
+::::::
+:::::
 ::::
 :::
 ::
@@ -579,10 +576,10 @@ class: mb-10 tablet:mb-20
 ---
 
 #subtitle
-*6/* Wykonane projekty UX/UI
+*6/* Nasze ostatnie realizacje
 
 #title
-### Poznaj strony które <br> *zaprojektowaliśmy*
+### Jesteśmy dumni <br> z *wykonanych projektów*
 
 ::::
 :::
@@ -602,29 +599,6 @@ moreBtn.linktitle: Zobacz wszystkie projekty
 :::
 ::
 
-
-::page-section-md
----
-class: mb-[50px] tablet:mb-[100px]
----
-:::effect-appear-md
-::::block-cta-md
----
-maxWidth: 650
-button.link: https://www.webo.agency/kontakt
-button.title: 'Umów się na konsultację'
-button.isWide: true
----
-
-#title
-#### Potrzebujesz więcej informacji?
-
-#description
-Umów się na bezpłatną konsultację i poznaj nasza ofertę
-
-::::
-:::
-::
 
 ::page-section-md
 ---
