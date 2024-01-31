@@ -1,6 +1,6 @@
 <template>
   <div
-    class="swiper-slide bg-[#ECF6F4] flex flex-col justify-between min-h-[460px] shrink-0 tablet:pr-10 p-[30px_20px] desktop:p-[60px_40px] !transition !duration-200">
+    class="swiper-slide bg-green-gray flex flex-col justify-between min-h-[460px] shrink-0 tablet:pr-10 p-[30px_20px] desktop:p-[60px_40px] !transition !duration-200">
     <div v-if="$slots.message" class="prose leading-7 text-sm tablet:text-base">
       <ContentSlot :use="$slots.message" />
       <svg xmlns="http://www.w3.org/2000/svg" width="70" height="50" viewBox="0 0 70 50" fill="none" class="mt-5">

@@ -39,6 +39,7 @@ module.exports = {
           main: "#06CEAF",
           mainHover: "#07C7A9",
           light: "#F3FEFC",
+          gray: "#ECF6F4",
         },
         gray: {
           darkest: "#010302",
