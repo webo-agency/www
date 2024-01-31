@@ -605,25 +605,6 @@ Często publikacja strony to dopiero początek, a podczas użytkowania strony po
 icon: '/img/icons/www-support.svg'
 class: hidden desktop:block desktop:!opacity-0
 ---
-#left
-:::::block-header-md
----
-maxWidth: 700
----
-
-
-#description
-##### 05. Wsparcie i rozwój
-Często publikacja strony to dopiero początek, a podczas użytkowania strony pojawiają sie pomysły na nowe funkcjonalności, zakładki czy ulepszenia - w tym miejscu nie możemy także zapomnieć o koniecznych aktualizacjach czy monitorowaniu wydajności, bezpieczeństwa czy stabilności działania.
-
-**W ramach usługi wsparcia zajmujemy się następującymi pracami:**
-- Aktualizacja środowiska (systemu) w ramach konserwacji
-- Monitorowanie bezpieczeństwa i szybkości strony
-- Projektowanie i rozbudowa strony
-- Projektowanie i wdrażanie nowych funkcjonalności i dedykowanych modułów
-- Reagowanie na ewentualne awarie<br>
-
-**Po akceptacji kosztorysu, proponowanych rozwiązań i terminów, podpisujemy umowę o współpracy i przechodzimy do realizacji.**
 
 :::::
 ::::

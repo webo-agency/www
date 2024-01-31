@@ -1,6 +1,6 @@
 <template>
   <div
-    class="swiper-slide tabs-slide w bg-[#ECF6F4] tablet:pr-10 p-[30px_20px] desktop:p-10 desktop:pb-[20px] !transition !duration-200"
+    class="swiper-slide tabs-slide h-auto tablet-wide:!h-[660px] bg-[#ECF6F4] tablet:pr-10 p-[30px_20px] desktop:p-10 desktop:pb-[20px] !transition !duration-200"
   >
     <div class="flex flex-wrap text-gray-darker">
       <div class="relative flex flex-col">
