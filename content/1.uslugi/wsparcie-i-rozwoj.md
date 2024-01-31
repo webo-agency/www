@@ -362,14 +362,223 @@ rounded: false
 ::
 
 
+::page-section-md
+---
+classes: mb-10 tablet:mb-20
+---
+:::effect-appear-md
+::::block-header-md
+---
+center: true
+maxWidth: 650
+class: mb-20
+---
+
+#subtitle
+*4/* Solidny support strony i sklepu internetowego
+
+#title
+### Zapewniamy najwyższe standardy *pomocy technicznej*
+
+::::
+:::
+
+:::block-columns-1-1-md
+---
+class: mb-10 tablet:mb-20
+---
+
+#left
+
+::::effect-appear-md
+:::::block-list-ul-md
+---
+decoration: false
+---
+::::::list-item-ul-active-md
+---
+iconUrl: '/img/icons/ide_bg.svg'
+iconBig: true
+animated: false
+---
+
+#title
+#### Pracujemy w środowisku testowym
+
+#description
+Przed publikacją zmian, wszystkie prace przygotowujemy w specjalnym środowisku developerskim - dzięki temu zabezpieczamy ciągłość działania strony produkcyjnej (opublikowanej w internecie).
+
+::::::
+::::::list-item-ul-active-md
+---
+class: tablet:mb-8 desktop:mb-6
+iconUrl: '/img/icons/phone_bg.svg'
+iconBig: true
+animated: false
+---
+
+#title
+#### Masz bezpośredni kontakt z opiekunem
+
+#description
+Przypisujemy indywidualnego opiekuna Twojej strony, do którego możesz zadzwonić lub napisać. [do redakcji]
+
+::::::
+::::::list-item-ul-active-md
+---
+iconUrl: '/img/icons/timer_bg.svg'
+iconBig: true
+animated: false
+---
+
+#title
+#### Estymujemy czas potrzebny na realizację zadań
+
+#description
+Dajemy Ci pełną kontrolę - zaczynamy realizację gdy dasz nam zielone światło. [do redakcji]
+
+::::::
+:::::
+::::
+
+
+#right
+::::effect-appear-md
+:::::block-list-ul-md
+::::::list-item-ul-active-md
+---
+iconUrl: '/img/icons/headset_bg.svg'
+iconBig: true
+animated: false
+---
+
+#title
+#### Udostępniamy indywidualny system HelpDesk
+
+#description
+Dzięki któremu masz możliwość dodawania zadań, ustalania priorytetu, podgląd stanu prac i komunikacji z zespołem IT - wszystko pod ręką w jednym miejscu.
+
+::::::
+::::::list-item-ul-active-md
+---
+iconUrl: '/img/icons/support_bg.svg'
+iconBig: true
+animated: false
+---
+
+#title
+#### Stale monitorujemy działanie strony
+
+#description
+Po zakończeniu każdego miesiąca, przesyłamy raport z podsumowaniem prac zawierający listę wykonywanych zadań w trakcie miesiąca, poziom realizacji oraz podsumowanie przepracowanych godzin/zadanie.
+
+::::::
+::::::list-item-ul-active-md
+---
+iconUrl: '/img/icons/file_bg.svg'
+iconBig: true
+animated: false
+---
+
+#title
+#### Co miesiąc raportujemy z przepracowanych godzin
+
+#description
+Po zakończeniu każdego miesiąca, przesyłamy raport z podsumowaniem prac zawierający listę wykonywanych zadań w trakcie miesiąca, poziom realizacji oraz podsumowanie przepracowanych godzin/zadanie.
+
+::::::
+:::::
+::::
+:::
+::
 
 
 ::page-section-md
 ---
-classes: mb-20 tablet:mb-[100px]
+classes: mb-20 tablet:mb-[100px] static-content
+---
+:::effect-appear-md
+::::block-header-md
+---
+center: true
+maxWidth: 550
+class: mb-20
+---
+
+#subtitle
+:::::prose-p3
+*5/* Dopasowane rozwiązanie
+:::::
+
+#title
+### Proponujemy wygodne *metody współpracy*
+
+::::
+:::
+
+:::block-columns-1-1-md
+
+#left
+::::card-icon-md
+---
+class: tablet:pr-2.5
+icon: '/img/icons/services-calendar.svg'
+---
+#title
+#### Model abonamentowy
+
+#content
+:::::prose-p3
+---
+class: mb-5
+--- 
+W modelu abonamentowym ustalamy pakiet godzin, który masz do wykorzystania każdego miesiąca na pracę specjalistów (projektantów i programistów). Ilość godzin w pakiecie dobierana jest indywidualnie na podstawie zgłoszonego przez Ciebie zapotrzebowania i planów rozwoju strony.
+:::::
+:::::prose-p4
+---
+class: mb-0
+--- 
+Nie musisz się martwić o naszą dostępność, możesz swobodnie planować prace na stronie. Niezależnie od naszego obłożenia pracą, pakiet godzin jest gwarantowany każdego miesiąca.
+:::::
+::::
+
+#right
+::::card-icon-md
+---
+class:  tablet:mt-[50px] tablet:pl-2.5
+icon: '/img/icons/services-worktime.svg'
+---
+#title
+#### Model elastyczny
+
+#content
+:::::prose-p3
+---
+class: mb-5
+--- 
+Jeśli masz mniejsze potrzeby i nie planujesz stałych comiesięcznych prac nad stroną, rozumiemy to. W modelu elastycznym prace realizujemy zleceniowo, każdorazowo ustalając termin wykonania.
+:::::
+:::::prose-p4
+---
+class: tablet:mb-16 desktop:mb-20
+---
+Płacisz tylko i wyłącznie gdy potrzebujesz naszego wsparcia, możesz liczyć na nasze doradztwo i wsparcie w przypadku awarii, jednocześnie unikasz stałych kosztów.
+:::::
+::::
+
+:::
+::
+
+
+::page-section-md
+---
+classes: mb-20 tablet:mb-[100px] static-content
 ---
 
 :::block-columns-1-1-md
+---
+class: items-center
+---
 
 #left
 
@@ -378,7 +587,7 @@ classes: mb-20 tablet:mb-[100px]
 ---
 imgUrl: '/img/content-images/support-altassian.png'
 decoration: false
-class: tablet:!pr-0 mb-5 phone-wide:mx-auto phone:w-full phone-wide:!w-[80%] tablet:!w-full
+class: tablet:!pr-5 mb-5 phone-wide:mx-auto phone:w-full phone-wide:!w-[80%] tablet:!w-full
 ---
 
 :::::
@@ -393,199 +602,31 @@ class: mb-10 tablet:mb-16
 ---
 
 #subtitle
-*4/* Jasne zasady współpracy
+::::::prose-p-3
+*6/* Help desk
+::::::
 
 #title
-### Skup się na biznesie, stronę www zostaw *specjalistom*
-
-:::::
-::::
-
-::::block-columns-1-1-md
-
-#left
-:::::process-tile-md
----
-number: 1
-isWideType: true
-iconInline: false
-hoverEffect: false
----
-#title
-##### Ilość godzin w pakiecie ustalamy indywidualnie
+### HelpDesk czyli <br> *Twój system dowodzenia*
 
 #description
-Na podstawie przesłanej listy zadań i szacowanego zapotrzebowania.
-
-:::::
-
-#right
-:::::process-tile-md
+::::::prose-p-3
 ---
-number: 2
-isWideType: true
-iconInline: false
-hoverEffect: false
+class: mb-5 [&_p]:!leading-loose [&_p]:!mb-0
+--- 
+Niezależnie od tego jaki model współpracy wybierzesz, otrzymasz dostęp do naszego systemu zgłoszeń do którego wykorystujemy narzędzie JIRA. 
+::::::
+::::::prose-p-4
 ---
-#title
-##### Umowa i Audyt na start
-
-#description
-Współpracę rozpoczynamy od umowy określającej naszą odpowiedzialność i audytu technicznego strony.
-
-:::::
-::::
-
-::::block-columns-1-1-md
-
-#left
-:::::process-tile-md
+class: mb-0 [&_p]:!leading-loose [&_p]:!mb-0
 ---
-number: 3
-isWideType: true
-iconInline: false
-hoverEffect: false
----
-#title
-##### Wspólnie ustalamy zakres prac
-
-#description
-Z początkiem każdego miesiąca określamy listę zadań do wykonania - liczą się Twoje priorytety.
-
-:::::
-
-#right
-:::::process-tile-md
----
-number: 4
-isWideType: true
-iconInline: false
-hoverEffect: false
----
-#title
-##### Indywidualny opiekun strony
-
-#description
-Przypisujemy indywidualnego opiekuna Twojej strony, do którego możesz zadzwonić lub napisać.
-
-:::::
-::::
-
-::::block-columns-1-1-md
-
-#left
-:::::process-tile-md
----
-number: 5
-isWideType: true
-iconInline: false
-hoverEffect: false
----
-#title
-##### Niewykorzystane godziny przechodzą na kolejny miesiąc
-
-#description
-Zapewniamy że opłacane godziny zostaną w pełni przepracowane.
-
-:::::
-
-#right
-:::::process-tile-md
----
-number: 6
-isWideType: true
-iconInline: false
-hoverEffect: false
----
-#title
-##### Estymujemy czas potrzebny na realizację zadań
-
-#description
-Dajemy Ci pełną kontrolę - zaczynamy realizację gdy dasz nam zielone światło.
-
+Dzięki HelpDesk masz możliwość dodawania zadań, ustalania priorytetów,  podgląd stanu prac i komunikacji z zespołem IT - wszystko pod ręką w jednym miejscu. Z końcem miesiąca przygotowujemy raport z wykonanych prac który uwzględnia czas i estymację każdego zadania.
+::::::
 :::::
 ::::
 :::
 ::
 
-
-::page-section-md
----
-id: realizacje
-class: mb-20 tablet:mb-[130px]
----
-:::effect-appear-md
-::::block-header-md
----
-class: mb-10 tablet:mb-20
----
-
-#subtitle
-*5/* FAQ
-
-#title
-### Najczęściej zadawane *pytania*
-
-::::
-:::
-
-:::effect-appear-md
-::::block-expand-item-md
----
-number: 1
----
-
-#title
-##### Co daje mi ustalony pakiet godzin?
-
-#description
-Pakiet godzin, ustalony w ramach stałej obsługi, jest gwarancją dostępności czasu potrzebnego na działania. Niezależnie od naszego obłożenia pracą, co miesiąc ustalamy listę zadań jaką wykonamy, a gdy masz pilne zgłoszenie nie musisz czekać w kolejce - realizację traktujemy priorytetowo
-
-::::
-:::
-:::effect-appear-md
-::::block-expand-item-md
----
-number: 2
----
-
-#title
-##### Co gdy nie wykorzystam wszystkich godzin w miesiącu?
-
-#description
-W przypadku niewykorzystania pełnego pakietu, nieprzepracowane godziny przechodzą na kolejny okres rozliczeniowy, z 3 miesięcznym terminem ważności - Zapewniamy że opłacane godziny zostaną w pełni przepracowane.
-
-::::
-:::
-:::effect-appear-md
-::::block-expand-item-md
----
-number: 3
----
-
-#title
-##### Co gdy pakiet godzin okaże się zbyt duży?
-
-#description
-W przypadku niewykorzystania pełnego pakietu godzin przez okres 3 miesięcy, masz możliwość zmniejszenia ilości godzin w pakiecie.
-
-::::
-:::
-:::effect-appear-md
-::::block-expand-item-md
----
-number: 4
----
-
-#title
-##### Czy ustalone godziny mogę wykorzystać na stworzenie kolejnych stron?
-
-#description
-Istnieje możliwość wykorzystania godzin z pakietu na cele kolejnych stron / serwisów www, świadczących usługi w ramach prowadzonej działalności.
-
-::::
-:::
-::
 
 
 
@@ -601,7 +642,7 @@ class: mb-10 tablet:mb-20
 ---
 
 #subtitle
-*6/* Nasze realizacje stron www
+*7/* Nasze ostatnie realizacje
 
 #title
 ### Jesteśmy dumni <br>z *wykonanych projektów*
