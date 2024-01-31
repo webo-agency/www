@@ -228,7 +228,7 @@ class: block desktop:hidden top-0 right-0
 
 ::::block-cta-md
 ---
-maxWidth: 730
+maxWidth: 650
 button.link: https://www.webo.agency/kontakt
 button.title: 'Skontaktuj się z nami'
 button.isWide: true
@@ -236,7 +236,7 @@ class: tablet:mb-36 [&_.description]:desktop:!text-lg
 ---
 
 #title
-#### Szukasz doświadczonego zespołu *projektowego UX/UI?*
+#### Potrzebujesz *szerszego wsparcia?*
 
 #description
 Skontaktuj się z nami i skorzystaj z bezpłatnej konsultacji podczas której omówimy Twój projekt.
@@ -259,20 +259,17 @@ class: relative z-20
 
 ::::block-header-md
 ---
-maxWidth: 940
+maxWidth: 600
 class: mb-10 tablet:mb-20 [&_.title]:!max-w-[500px]
 textWhite: true
 center: true
 ---
 
 #subtitle
-*3/* Dlaczego UX jest ważny?
+*3/* Korzyści stałego wsparcia stron www
 
 #title
-### Jakie są korzyści z *projektowania UX/UI?*
-
-#description
-Wygląd i działanie Twojej strony internetowej ma ogromne znaczenie - już w pierwszej sekundzie przebywania na stronie, użytkownicy decydują czy na niej zostaną. Dzięki UX/UI wpłyniesz na
+### Co zyskujesz powierzając nam *opiekę nad stroną www?*
 
 ::::
 :::::block-list-ul-md
@@ -282,72 +279,72 @@ class: mb-10 tablet:mb-20 flex flex-wrap justify-center gap-5 tablet:[&>li]:w-[c
 
 ::::::tile-dark-icon-md
 ---
-iconUrl: '/img/icons/user.svg'
+iconUrl: '/img/icons/coder.svg'
 center: true
 iconDecorated: true
 ---
 
 #title
-#### Wzrost zaangażowania klientów
+#### Stały dostęp do specjalistów
 
 #description
-m.in. dzięki dopracowanej architekturze informacji i warstwie wizualnej użytkownicy z chęcią będą wracać do Twojej strony i zostawać na niej dłużej
+Nie musisz za każdym razem szukać pomocy zespołu IT ryzykując przy tym jakością wykonania, masz sprawdzony i doświadczony zespół zawsze pod ręką.
 
 ::::::
 ::::::tile-dark-icon-md
 ---
-iconUrl: '/img/icons/target.svg'
+iconUrl: '/img/icons/siren.svg'
 center: true
 iconDecorated: true
 ---
 
 #title
-#### Realizacja celów biznesowych
+#### Błyskawiczne reakcje na awarie
 
 #description
-niezależnie od tego czy sprzedajesz produkty czy prowadzisz serwis internetowy, odpowiednio zaprojektowany interfejs pomoże w realizacji celów jakie stawiasz przed stroną. 
+W przypadku awarii (szczególnie w sklepie internetowym) liczy się czas. Posiadając stałego opiekuna, reakcja jest niemal natychmiastowa - czasem nawet nie zauważysz awarii.
 
 ::::::
 ::::::tile-dark-icon-md
 ---
-iconUrl: '/img/icons/coin.svg'
+iconUrl: '/img/icons/calendar.svg'
 center: true
 iconDecorated: true
 ---
 
 #title
-#### Wzrost ROI
+#### Planowanie i kontrola nad rozwojem
 
 #description
-dzięki intuicyjnej obsłudze i odpowiednim ścieżkom poruszania, użytkownik łatwiej dociera do potrzebnych informacji, a Ty zwiększasz szanse na sprzedaż swojego produktu lub usługi
+Dzięki stałemu wsparciu możesz planować pracę z wyprzedzeniam. Potrzebujesz Landing page pod kampanię? A może rozważasz nową funkcjonalność? Masz zespół który zrealizuje pracę w Twoim harmonogramie.
 
 ::::::
 ::::::tile-dark-icon-md
 ---
-iconUrl: '/img/icons/piggy-bank.svg'
+iconUrl: '/img/icons/shield.svg'
 center: true
 iconDecorated: true
 ---
 
 #title
-#### Zmniejszenie kosztów prac deweloperskich
+#### Bezpieczeństwo technologiczne
 
 #description
-szeroka wiedza z zakresu technologii pozwala projektować interfejs uwzględniając jej ograniczenia, zachowując jednocześnie funkcjonalność i łatwość obsługi strony
+Stałe wsparcie = stały rozwój. Prowadzimy m.in. monitoring zdarzeń, aktualizacje środowiska oraz systemów zabezpieczeń, optymalizację kodu i wiele innych działań które wpływają na bezpieczeństwo oraz wydajność witryny.
 
 ::::::
 ::::::tile-dark-icon-md
 ---
-iconUrl: '/img/icons/layout.svg'
+iconUrl: '/img/icons/chat.svg'
 center: true
 iconDecorated: true
 ---
 
 #title
-#### Wzmocnienie wizerunku marki
+#### Doradztwo w kwestiach UX i IT
 
 #description
-budowa atrakcyjnego wyglądu na bazie istniejącej identyfikacji wizualnej sprawi, że Twoja strona internetowa zostanie zapamiętana na dłużej i kojarzona tylko z Twoją firmą
+Jeśli potrzebujesz porady, możesz do nas uderzać. Odpowiemy na każde pytanie i doradzimy w kwestiach związanych z Twoją stroną www i nie tylko - służymy wiedzą.
 
 ::::::
 :::::
@@ -357,7 +354,7 @@ budowa atrakcyjnego wyglądu na bazie istniejącej identyfikacji wizualnej spraw
 :::effect-appear-md
 ::::prose-figure
 ---
-src: '/img/content-images/projektowanie-uxui/section3.png'
+src: '/img/content-images/wsparcie-i-rozwoj/section3.png'
 rounded: false
 ---
 ::::

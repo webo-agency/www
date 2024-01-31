@@ -7,12 +7,12 @@
         <slot name="subtitle" />
       </template>
       <template v-if="$slots.title" #title>
-        <div class="font-semibold text-center text-3xl mb-3">
+        <div class="title font-semibold text-center text-3xl mb-3">
           <slot name="title" />
         </div>
       </template>
       <template v-if="$slots.description" #description>
-        <div class="mb-4 text-base desktop:text-xl font-normal text-center">
+        <div class="description mb-4 text-base desktop:text-xl font-normal text-center">
           <slot name="description" />
         </div>
       </template>
