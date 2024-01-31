@@ -121,7 +121,7 @@ tilesTight: true
 ---
 ::::offer-tile-md
 --- 
-icon: '/img/icons/services-site.svg'
+icon: '/img/icons/services-update.svg'
 ---
 #title
 ##### Dbamy o aktualizacje systemu i modułów
@@ -130,7 +130,7 @@ icon: '/img/icons/services-site.svg'
 
 ::::offer-tile-md
 --- 
-icon: '/img/icons/services-store.svg'
+icon: '/img/icons/services-fast.svg'
 delay: 1
 ---
 #title
@@ -140,7 +140,7 @@ delay: 1
 
 ::::offer-tile-md
 --- 
-icon: '/img/icons/services-apps.svg'
+icon: '/img/icons/services-scale.svg'
 delay: 2
 ---
 #title
@@ -150,7 +150,7 @@ delay: 2
 
 ::::offer-tile-md
 --- 
-icon: '/img/icons/services-apps.svg'
+icon: '/img/icons/services-process.svg'
 delay: 3
 ---
 #title
@@ -160,7 +160,7 @@ delay: 3
 
 ::::offer-tile-md
 --- 
-icon: '/img/icons/services-apps.svg'
+icon: '/img/icons/services-code.svg'
 delay: 4
 ---
 #title
@@ -170,7 +170,7 @@ delay: 4
 
 ::::offer-tile-md
 --- 
-icon: '/img/icons/services-apps.svg'
+icon: '/img/icons/services-integration.svg'
 delay: 5
 ---
 #title
@@ -180,7 +180,7 @@ delay: 5
 
 ::::offer-tile-md
 --- 
-icon: '/img/icons/services-apps.svg'
+icon: '/img/icons/services-alert.svg'
 delay: 6
 ---
 #title
@@ -190,7 +190,7 @@ delay: 6
 
 ::::offer-tile-md
 --- 
-icon: '/img/icons/services-apps.svg'
+icon: '/img/icons/services-secure.svg'
 delay: 7
 ---
 #title
