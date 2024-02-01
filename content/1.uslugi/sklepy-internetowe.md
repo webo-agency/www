@@ -19,87 +19,160 @@ isSecondSvg: true
 ---
 
 #subtitle
-*-/* Sklepy internetowe 
+*-/* E-commerce B2B i B2C
 
 #title
-## Wydajne, intuicyjne i przygotowane do rozwoju *sklepy www*
+## Sklepy internetowe
 
 #description
-Dostarczamy narzędzia, których potrzebujesz, aby <u> sprzedawać online </u>
+Projektujemy i wdrażamy świetnie wyglądające i wydajne sklepy internetowe z płynnym procesem zakupowym.
 
 #right
 :::block-banner-decoration-md
 ---
-rotate_bl: 90
-rotate: 90
-svgUrl_bl: '/img/svg-square.svg'
-svgUrl_tr: '/img/svg-arc.svg'
+svgUrl_bl: '/img/svg-arc.svg'
+svgUrl_tr: '/img/svg-square.svg'
 ---
 :::
 ::
+
 ::page-section-md
-:::effect-appear-md
-::::block-header-md
 ---
-class: mb-10 tablet:mb-20
+classes: pt-20 mb-5 tablet:mb-[150px] overflow-hidden static-content
+---
+:::block-columns-1-1-md
+---
+class: items-center
+---
+
+#left
+::::effect-appear-md
+---
+class: relative z-20
+---
+:::::block-header-md
+---
+maxWidth: 690
 ---
 
 #subtitle
-*1/* Jesteśmy wszechstronni
+::::::prose-p-3
+*1/* Stawiamy na funkcjonalność i wydajność
+::::::
 
 #title
-### Jakie sklepy *tworzymy?*
+### Dostarczamy stabilnie działające sklepy *przygotowane do rozwoju*
 
 #description
-Łączymy wydajność sklepu z intuicyjnym procesem zakupowym. Tworzymy sklepy internetowe na popularnych platformach, przygotowane do dalszego rozwoju i ekspansji.
+:::::prose-p-3
+---
+class: mb-5 [&_p]:!leading-loose [&_p]:!mb-0
+--- 
+Sklep internetowy to często serce biznesu, wyobraź sobie że Twoja działalność się rozwija, na sklep internetowy wchodzi coraz więcej klientów a Ty potrzebujesz nowych funkcji.  O takich sytuacjach myślimy już na samym początku, od wybóru platformy, przez przygotowanie infrastruktury po **projektowanie i programowanie sklepu** umożliwiające rozwój.
+:::::
 
+:::::prose-p-4
+---
+class: mb-0 [&_p]:!leading-loose [&_p]:!mb-0
+---
+Szczególną uwagę zwracamy także na stabilność działania systemu. Korzystamy z nowoczesnych narzędzi aby zapewnić ciągłość sprzedaży - nieprzerwane działanie to podstawa która bezpośrednio wpływa na rentowność.
+:::::
+::::
+
+#right
+::::effect-appear-md
+---
+class: relative z-10
+---
+:::::img-decorated-md
+---
+imgUrl: '/img/content-images/sklepy-internetowe/section1-right-img.png'
+decoration: false
+class: tablet:!pl-0 !mb-0 
+---
+:::::
 ::::
 :::
 ::
 
 ::page-section-md
 ---
-classes: mb-[100px] tablet:mb-[100px] overflow-hidden 
+classes: mb-5 tablet:mb-20
 ---
 :::effect-appear-md
 
-::::block-offer-tiles-md
+:::svg-bg-dots
+---
+decoration: true
+class: tablet:-top-20 right-0
+---
+:::
 
-:::::offer-tile-md
+::::block-header-md
+---
+center: true
+maxWidth: 560
+class: mb-10 tablet:mb-[60px]
+---
+
+#subtitle
+*2/* Dopasowane rozwiązania dla sklepów www
+
+#title
+### Na jakich platformach *tworzymy sklepy internetowe?*
+::::
+:::
+
+:::block-offer-tiles-md
+
+::::offer-tile-md
 --- 
-icon: '/img/icons/presta.svg'
-link: ''
+icon: '/img/icons/wordpress.svg'
+link: 'https://www.webo.agency/kontakt'
 ---
 #title
 ##### Prestashop
 
-:::::
+#description
+Jedna z najpopularniejszych platform e-commerce zawierająca ponad 300 wbudowanych funkcji i obszerną bibliotekę gotowych modułów. Świetne rozwiązanie dla średnich sklepów internetowych.
 
-:::::offer-tile-md
+#readMoreText
+Dowiedz się więcej
+::::
+
+
+
+::::offer-tile-md
 --- 
 icon: '/img/icons/drupal.svg'
-link: ''
+link: 'https://www.webo.agency/kontakt'
 delay: 1
 ---
 #title
-##### Drupal
+##### DrupalCommerce
 
+#description
+Nowoczesne sklepy internetowe tworzone w jednym z najbezpieczniejszych systemów zarządzania treścią. Wydajne systemy z nieograniczoną możliwością rozwoju i licznymi integracjami.
 
-:::::
+#readMoreText
+Dowiedz się więcej
+::::
 
-:::::offer-tile-md
+::::offer-tile-md
 --- 
-icon: '/img/icons/woo.svg'
-link: ''
+icon: '/img/icons/wordpress-headles.svg'
+link: 'https://www.webo.agency/kontakt'
 delay: 2
 ---
 #title
-##### Woocommerce
+##### WooCommerce
 
+#description
+Najpopularniejsze rozwiązanie e-commerce na świecie. Idealne rozwiązanie dla małych i średniej wielkości sklepów internetowych ze standardowymi funkcjami sprzedażowymi. 
 
-:::::
+#readMoreText
+Dowiedz się więcej
 ::::
-
 :::
 ::
 
@@ -108,6 +181,12 @@ delay: 2
 ---
 class: mb-[100px] tablet:mb-[150px]
 ---
+::::svg-decorated
+---
+decoration: true
+class: top-20 right-[15%] fullHd:right-[20%] scale-x-[-1.6] scale-y-[1.6]
+---
+::::
 :::effect-appear-md
 ::::block-cta-md
 ---
@@ -117,10 +196,10 @@ button.title: 'Skontaktuj się'
 ---
 
 #title
-#### Nie wiesz jaką ofertę wybrać?
+#### Nie wiesz jakiego rozwiązania potrzebujesz?
 
 #description
-Dowiedz się które rozwiązanie będzie optymalne dla Twojego biznesu
+Umów się na bezpłatną konsultację!
 
 ::::
 :::
@@ -129,154 +208,131 @@ Dowiedz się które rozwiązanie będzie optymalne dla Twojego biznesu
 
 ::page-section-md
 ---
-classes: mb-20 tablet:mb-[100px]
+classes: mb-7
 ---
-
-
-::::block-columns-5-7-md
-
-#left
 
 :::effect-appear-md
-:::::img-decorated-md
+::::block-header-md
 ---
-imgUrl: '/img/content-images/services-stats.png'
----
-
-:::::
-:::
-
-#right
-
-:::effect-appear-md
-:::::block-header-md
----
-maxWidth: 450
-descriptionFullWidth: true
-class: mb-10
+center: true
+maxWidth: 800
+class: mb-20
 ---
 
 #subtitle
-*2/* Nasze standardy
+*3/* Wdrożenia sklepów internetowych
 
 #title
-### Projektowane dla Ciebie i *Twoich klientów*
+### Co możemy dla Ciebie zrobić?
 
 #description
-Projektujemy skoncentrowany na użytkowniku interfejs graficzny, zgodny z najnowszymi standardami. Kładziemy szczególny nacisk na płynny i intuicyjny proces zakupowy, łatwość zarządzania sklepem i spełnienie Twoich potrzeb biznesowych.
+W zależności od wymagań Twojego projektu możemy dostarczyć
 
-:::::
+::::
 :::
 
-
-
-
-:::::block-columns-1-1-md
+:::block-columns-1-1-md
 
 #left
-::::::effect-appear-md
-:::::::icon-tile-static-md
+
+::::effect-appear-md
+:::::block-list-ul-md
 ---
-iconUrl: '/img/icons/translation.svg'
+decoration: false
+---
+::::::list-item-ul-active-md
+---
+iconUrl: '/img/icons/translation_bg.svg'
+iconBig: true
+animated: false
 ---
 
 #title
-#### Sklepy wielojęzyczne
+#### Sklepy wielojęzyczne i wielowalutowe
 
 #description
-Dostarczamy sklepy internetowe umożliwiające rozwój o nowe rynki sprzedaży, różniące się walutą, opcjami płatności czy wysyłki.
+Dostarczamy sklepy internetowe umoliwiające sprzedaż produktów na zagranicznych rynkach. W zależności od potrzeb sklepy mogą różnić się językiem, metodami płatności i dostawy czy ofertą produktową.
 
-:::::::
 ::::::
-
-#right
-::::::effect-appear-md
-:::::::icon-tile-static-md
+::::::list-item-ul-active-md
 ---
-iconUrl: '/img/icons/overlay.svg'
+iconUrl: '/img/icons/uxui_bg.svg'
+iconBig: true
+animated: false
 ---
 
 #title
-#### Integracje z systemami
+#### Projekt UX/UI sklepu szyty na miarę
+
 
 #description
-Dzięki specjalnym modułom integrujemy sklepy m.in. z bramkami płatności, opcjami wysyłki czy systemami zarządzania sprzedażą i analityką.
+Projektując sklep internetowy skupiamy się na komforcie zakupów. Twój klient bez problemu znajdzie interesujący go produkt, przejdzie przez czytelną kartę produktu i intuicyjny proces zakupowy - im łatwiej tym lepiej, dla użytkownika i Twojego biznesu.
 
-:::::::
 ::::::
-:::::
-
-:::::block-columns-1-1-md
-
-#left
-::::::effect-appear-md
-:::::::icon-tile-static-md
+::::::list-item-ul-active-md
 ---
-iconUrl: '/img/icons/functionality.svg'
+iconUrl: '/img/icons/gear_code_bg.svg'
+iconBig: true
+animated: false
 ---
 
 #title
-#### Zaawansowane funkcjonalności
+#### Zaawansowane funkcjonalności i moduły
 
 #description
-Nowe funkcje zwiększające sprzedaż lub automatyzujące procesy. Dostarczamy nawet zaawansowane rozwiązania wspierające Twój biznes.
-
-:::::::
-::::::
-
-#right
-::::::effect-appear-md
-:::::::icon-tile-static-md
----
-iconUrl: '/img/icons/block-gears.svg'
----
-
-#title
-#### Łatwe zarządzane sklepem
-
-#description
-Panel administratora to często centrum Twojego biznesu, dzięki odpowiednio dobranym integracjom i konfiguracji będzie to proste i intuicyjne.
-
-:::::::
-::::::
-:::::
-
-:::::block-columns-1-1-md
-
-#left
-::::::effect-appear-md
-:::::::icon-tile-static-md
----
-iconUrl: '/img/icons/arrows.svg'
----
-
-#title
-#### Skalowalne rozwiązania
-
-#description
-Patrzymy w przyszłość. Wykorzystujemy rozwiązania i technologie, zapewniające szerokie możliwości rozwoju Twojego biznesu w sieci.
-
-:::::::
-::::::
-
-
-#right
-::::::effect-appear-md
-:::::::icon-tile-static-md
----
-iconUrl: '/img/icons/uxui.svg'
----
-
-#title
-#### Intuicyjny interfejs
-
-#description
-Dzięki projektowaniu skoncentrowanym na potrzebach użytkowników, tworzymy intuicyjne sklepy internetowe z płynnym procesem sprzedaży.
-
-:::::::
+Jeśłi Twój sklep potrzebuje nietypowych funkcji, dzięki którym wyprzedzisz konkurencję także możesz na nas liczyć. Jesteśmy zespołem do zadań specjalnych i nie boimy się wyzwań. Z chęcią zaprojektujemy i wdrożymy dla Ciebie dedykowane rozwiązania.
 ::::::
 :::::
 ::::
+
+
+#right
+::::effect-appear-md
+:::::block-list-ul-md
+::::::list-item-ul-active-md
+---
+iconUrl: '/img/icons/integration_bg.svg'
+iconBig: true
+animated: false
+---
+
+#title
+#### Integracje z zewnętrznymi systemami
+
+#description
+Wdrażamy m.in. systemy umożliwiające zarządzanie magazynami, bramki płatności i dostawy, automatyzacje marketingu i obsługi klienta, systemy księgowe i ERP oraz wiele innych.
+
+::::::
+::::::list-item-ul-active-md
+---
+iconUrl: '/img/icons/configurator_bg.svg'
+iconBig: true
+animated: false
+---
+
+#title
+#### Konfiguratory produktów
+
+#description
+Jeśli Twój biznes oferuje wytwarzanie produktów na zamówienie, możemy stworzyć narzędzie, dzięki któremu klienci sami go spersonalizują. Na bazie wybranych cech otrzymają zaktualizowaną cenę oraz wizualizację produktu w 3D lub 2D.
+
+::::::
+::::::list-item-ul-active-md
+---
+iconUrl: '/img/icons/process_bg.svg'
+iconBig: true
+animated: false
+---
+
+#title
+#### Automatyzacje procesów technologicznych
+
+#description
+Automatyczne generowanie raportu sprzedażowego czy weryfikacja VAT przy zakładaniu konta przez użytkowników, to tylko niektóre automatyzacje które możemy Ci zaoferować aby zaoszczędzić czas potrzebny na administrowanie sklepem.
+::::::
+:::::
+::::
+:::
 ::
 
 ::page-section-md
