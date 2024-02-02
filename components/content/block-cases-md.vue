@@ -60,8 +60,16 @@ const { data: cases } = await useAsyncData('cases', () =>
     .find()
 )
 
-const casesFiltered = computed(() =>
-  cases.value.filter(case_page => checkCaseVisibility(case_page)).slice(0, 4)
+const casesFiltered = computed(() => {
+  const casesArray = cases.value.filter(case_page => checkCaseVisibility(case_page)).slice(0, 4)
+  if (props.selectedSlugs.length > 0) {
+    const selectedPaths = props.selectedSlugs.map(slug => `/${props.contentFolder}/${slug}`)
+    casesArray.sort((a, b) =>
+      selectedPaths.indexOf(a._path) - selectedPaths.indexOf(b._path)
+    )
+  }
+  return casesArray
+}
 )
 
 const moreBtnVisible = computed(() => {
