@@ -337,84 +337,115 @@ Automatyczne generowanie raportu sprzedażowego czy weryfikacja VAT przy zakład
 
 ::page-section-md
 ---
-classes: mb-[100px] tablet:mb-[200px]
+classes: bg-gray-darkest pt-10 tablet:pt-[100px] mb-[100px] tablet:mb-[200px]
 ---
+
+
 :::effect-appear-md
-::::block-background-md
-:::::block-header-md
 ---
-center: true
+class: relative z-20
+---
+
+::::block-header-md
+---
 maxWidth: 690
-class: mb-10
+class: mb-10 tablet:mb-20
+textWhite: true
+center: true
 ---
 
 #subtitle
-*3/* Technologie
 
 #title
-### Korzystamy z <br> najlepszych *rozwiązań*
+### Dlaczego wysoka jakość sklepu internetowego *się opłaca?*
+
+::::
+:::::block-list-ul-md
+---
+class: mb-10 flex flex-wrap justify-center gap-5 tablet:[&>li]:w-[calc(50%_-_10px)] desktop:[&>li]:w-[calc(33.3333%_-_14px)]
+---
+
+::::::tile-dark-icon-md
+---
+iconUrl: '/img/icons/rocket.svg'
+center: true
+iconDecorated: true
+---
+
+#title
+#### 30% szybsze ładowanie strony
 
 #description
-Używamy rozwiązań Open Source, dzięki czemu po zakończonym projekcie, oprogramowanie zostaje w całości przekazane klientowi.
+Które bezpośrednio wpływa na pozycjonowanie, a przede wszystkim konwersję. Z raportów Google wynika że użytkownicy porzucają sklep gdy ten ładuje się powyżej 4s → porzucają = nie kupią.
+
+::::::
+::::::tile-dark-icon-md
+---
+iconUrl: '/img/icons/promotion.svg'
+center: true
+iconDecorated: true
+---
+
+#title
+#### Mniejszy koszt marketingu
+
+#description
+Algorytm Google promuje szybkie i wysokiej jakości sklepy internetowe. Im wyższa ocena sklepu tym tańszy koszt kliknięcia w reklamę i wyższa pozycja w wynikach wyszukiwania.
+
+::::::
+::::::tile-dark-icon-md
+---
+iconUrl: '/img/icons/stability.svg'
+center: true
+iconDecorated: true
+---
+
+#title
+#### Stabilne działanie nawet przez wiele lat
+
+#description
+Jakościowe wdrożenie to pewność działania m.in. bez wtop wydajnościowych czy błędów blokujących otwarcie sklepu, co jest szczególnie ważne w trakcie kampanii marketingowych.
+
+::::::
+::::::tile-dark-icon-md
+---
+iconUrl: '/img/icons/support.svg'
+center: true
+iconDecorated: true
+---
+
+#title
+#### Mniejszy koszt utrzymania sklepu
+
+#description
+Koszt supportu = ilość stałych zadań utrzymaniowych w ciągu miesiąca. Im lepiej sklep jest wykonany tym mniej nieoczekiwanych zdarzeń do których potrzebny jest zespół IT. Możesz skupić się na promowaniu i rozwoju.
+
+::::::
+::::::tile-dark-icon-md
+---
+iconUrl: '/img/icons/secure.svg'
+center: true
+iconDecorated: true
+---
+
+#title
+#### Najwyższe bezpieczeństwo
+
+#description
+Sklep internetowy przechowuje wiele różnych danych np. dane osobowe klientów czy dane dotyczące płatności. Dzięki nowoczesnym narzędziom minimalizujemy ryzyko ataków, a Twoi klienci mogą bezpiecznie dokonywać zakupów.
+
+::::::
 
 :::::
+:::
 
-
-
-:::::block-logos-circular-swiper-md
-::::::icon-logo-circular-md
+#full
+:::effect-appear-md
+::::prose-figure
 ---
-iconUrl: '/img/logos/presta.svg'
-title: Prestashop
+src: '/img/content-images/sklepy-internetowe/section4.png'
+rounded: false
 ---
-
-::::::
-::::::icon-logo-circular-md
----
-iconUrl: '/img/logos/drupal.png'
-title: Drupal CMS
----
-
-::::::
-
-::::::icon-logo-circular-md
----
-iconUrl: '/img/logos/vue.svg'
-title: Vue
----
-
-::::::
-
-::::::icon-logo-circular-md
----
-iconUrl: '/img/logos/tailwind.svg'
-title: TailwindCSS
----
-
-::::::
-
-::::::icon-logo-circular-md
----
-iconUrl: '/img/logos/symfony.png'
-title: Symfony
----
-
-::::::
-::::::icon-logo-circular-md
----
-iconUrl: '/img/logos/js.svg'
-title: JavaScript
----
-
-::::::
-::::::icon-logo-circular-md
----
-iconUrl: '/img/logos/cloudflare.svg'
-title: Cloudflare
----
-
-::::::
-:::::
 ::::
 :::
 ::
