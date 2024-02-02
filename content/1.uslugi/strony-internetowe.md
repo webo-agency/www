@@ -468,17 +468,17 @@ tabNames:
 ---
 ::::block-swiper-tabs-slide-md
 ---
-number: '01.'
+icon: '/img/icons/magnifier.svg'
 class:
 ---
 #left
 :::::block-header-md
 ---
-maxWidth: 900
+maxWidth: 700
 ---
 
 #description
-##### Analiza założeń
+##### 01. Analiza założeń
 Jest to pierwszy krok jaki musimy
 wykonać w celu realizacji strony internetowej.
 Podczas pierwszej rozmowy dokładnie poznajemy Twoje potrzeby oraz założenia projektu.
@@ -492,45 +492,23 @@ Podczas pierwszej rozmowy dokładnie poznajemy Twoje potrzeby oraz założenia p
 **Po akceptacji kosztorysu, proponowanych rozwiązań i terminów, podpisujemy umowę o współpracy i przechodzimy do realizacji.**
 
 :::::
-
-
-#right
-:::::img-decorated-md
----
-imgUrl: '/img/content-images/strony-internetowe/slide01.png'
-class: shadow-2xl shadow-black/10
-decoration: false
----
-:::::
-
-
-#right_parallax
-:::::img-decorated-md
----
-imgUrl: '/img/content-images/strony-internetowe/slide01_bg.png'
-class: -mt-10
-decoration: false
----
-
-
-:::::
 ::::
 
 
 ::::block-swiper-tabs-slide-md
 ---
-number: '02.'
+icon: '/img/icons/www-uxui.svg'
 class:
 ---
 #left
 :::::block-header-md
 ---
-maxWidth: 900
+maxWidth: 700
 ---
 
 
 #description
-##### Projektowanie interfejsu UX/UI
+##### 02. Projektowanie interfejsu UX/UI
 Podczas tego etapu pracujemy nad wyglądem strony www. Prace zaczynamy od przeanalizowania przyzwyczajeń grupy docelowej (Twoich klientów) oraz otoczenia rynkowego - wszystko po to aby użytkownicy z łatwością odnaleźli się na nowej stronie. Następnie  opracowujemy moodboardy (tablice inspiracji), wytyczamy ścieżki użytkownika (user flow), projektujemy makiety UX, kończąc na finalnym wyglądzie Twojej strony.
 
 **Podczas tego etapu:**
@@ -540,42 +518,22 @@ Podczas tego etapu pracujemy nad wyglądem strony www. Prace zaczynamy od przean
 **Po akceptacji finalnego wyglądu, projekt jest gotowy do etapu programowania**
 
 :::::
-
-
-#right
-:::::img-decorated-md
----
-imgUrl: '/img/content-images/strony-internetowe/slide02.png'
-decoration: false
----
-:::::
-
-
-#right_parallax
-:::::img-decorated-md
----
-imgUrl: '/img/content-images/strony-internetowe/slide02_bg.png'
-decoration: false
----
-
-
-:::::
 ::::
 
 ::::block-swiper-tabs-slide-md
 ---
-number: '03.'
+icon: '/img/icons/www-code.svg'
 class:
 ---
 #left
 :::::block-header-md
 ---
-maxWidth: 900
+maxWidth: 700
 ---
 
 
 #description
-##### Prace programistyczne
+##### 03. Prace programistyczne
 Po zaakceptowaniu projektu interfejsu, rozpoczynamy prace nad kompleksowym wdrożeniem strony internetowej w wybranej technologii. Działamy od konfiguracji infrastruktury technicznej, przez instalacje wymaganych narzędzi po zaprogramowanie strony.
 
 **Podczas tego etapu:**
@@ -586,44 +544,24 @@ Po zaakceptowaniu projektu interfejsu, rozpoczynamy prace nad kompleksowym wdro�
 **Po zakończeniu etapu programowania, przekazujemy stronę www do testów.**
 
 :::::
-
-
-#right
-:::::img-decorated-md
----
-imgUrl: '/img/content-images/strony-internetowe/slide03.png'
-decoration: false
----
-:::::
-
-
-#right_parallax
-:::::img-decorated-md
----
-imgUrl: '/img/content-images/strony-internetowe/slide03_bg.png'
-decoration: false
----
-
-
-:::::
 ::::
 
 
 
 ::::block-swiper-tabs-slide-md
 ---
-number: '04.'
+icon: '/img/icons/www-tests.svg'
 class:
 ---
 #left
 :::::block-header-md
 ---
-maxWidth: 900
+maxWidth: 700
 ---
 
 
 #description
-##### Testy i publikacja
+##### 04. Testy i publikacja
 W tym etapie gruntownie sprawdzamy działanie strony internetowej. Testy wykonujemy na wielu urządzeniach i rozdzielczościach ekranu (od najmniejszych smartfonów po wyświetlacze FHD), wszystko po to aby mieć pewność że wszystko działa jak należy. Po przejściu wewnętrznych testów, przekazujemy stronę do weryfikacji klientowi - to moment na dopracowanie projektu i zgłaszanie wszelkich uwag przed publikacją.
 
 **Podczas tego etapu:**
@@ -633,43 +571,23 @@ W tym etapie gruntownie sprawdzamy działanie strony internetowej. Testy wykonuj
 **Po otrzymaniu od klienta zielonego światła na publikację, startujemy!**
 
 :::::
-
-
-#right
-:::::img-decorated-md
----
-imgUrl: '/img/content-images/strony-internetowe/slide04.png'
-decoration: false
----
-:::::
-
-
-#right_parallax
-:::::img-decorated-md
----
-imgUrl: '/img/content-images/strony-internetowe/slide04_bg.png'
-decoration: false
----
-
-
-:::::
 ::::
 
 
 ::::block-swiper-tabs-slide-md
 ---
-number: '05.'
+icon: '/img/icons/www-support.svg'
 class:
 ---
 #left
 :::::block-header-md
 ---
-maxWidth: 900
+maxWidth: 700
 ---
 
 
 #description
-##### Wsparcie i rozwój
+##### 05. Wsparcie i rozwój
 Często publikacja strony to dopiero początek, a podczas użytkowania strony pojawiają sie pomysły na nowe funkcjonalności, zakładki czy ulepszenia - w tym miejscu nie możemy także zapomnieć o koniecznych aktualizacjach czy monitorowaniu wydajności, bezpieczeństwa czy stabilności działania.
 
 **W ramach usługi wsparcia zajmujemy się następującymi pracami:**
@@ -679,34 +597,17 @@ Często publikacja strony to dopiero początek, a podczas użytkowania strony po
 - Projektowanie i wdrażanie nowych funkcjonalności i dedykowanych modułów
 - Reagowanie na ewentualne awarie<br>
 
-**Po akceptacji kosztorysu, proponowanych rozwiązań i terminów, podpisujemy umowę o współpracy i przechodzimy do realizacji.**
-
-:::::
-
-
-#right
-:::::img-decorated-md
----
-imgUrl: '/img/content-images/strony-internetowe/slide05.png'
-class: shadow-2xl shadow-black/10
-decoration: false
----
-:::::
-
-
-#right_parallax
-:::::img-decorated-md
----
-imgUrl: '/img/content-images/strony-internetowe/slide05_bg.png'
-class: -mt-10
-decoration: false
----
-
-
 :::::
 ::::
 
+::::block-swiper-tabs-slide-md
+---
+icon: '/img/icons/www-support.svg'
+class: hidden desktop:block desktop:!opacity-0
+---
 
+:::::
+::::
 :::
 ::
 
