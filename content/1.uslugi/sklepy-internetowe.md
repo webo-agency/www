@@ -208,7 +208,7 @@ Umów się na bezpłatną konsultację!
 
 ::page-section-md
 ---
-classes: mb-7
+classes: mb-10 tablet:mb-14
 ---
 
 :::effect-appear-md
