@@ -115,4 +115,9 @@ function checkHomepageVisibility(isHomepageHidden) {
 .cases-container>*:nth-child(4n - 2) {
   @apply tablet:w-4/5 tablet:self-start tablet:justify-self-end
 }
+
+.cases-container>*:nth-child(4n + 3),
+.cases-container>*:nth-child(4n + 4) {
+  @apply tablet:mb-10
+}
 </style>
