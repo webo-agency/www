@@ -453,202 +453,236 @@ rounded: false
 
 ::page-section-md
 ---
-classes: mb-20 tablet:mb-[150px]
+classes: mb-10 tablet:mb-20
 ---
-::::block-columns-1-1-md
+:::block-columns-5-7-md
 ---
-reverseMobile: true
+class: mb-10
 ---
-
 
 #left
-:::::block-list-ol-md
-::::::list-item-ol-active-md
-
-#title
-#### Zebranie wymagań
-
-#description
-Jest to pierwszy krok jaki musimy wykonać w celu stworzenia strony www.Poznajemy wszystkie założenia oraz Twoją firme, jej klientów, branżę i konkurencję.
-
-::::::
-::::::list-item-ol-active-md
-
-#title
-#### Analiza otrzymanych informacji
-
-#description
-Podczas tego etapu porządkujęmy wszystkie otrzymane dane, analizujemy przekazane potrzeby i założenia oraz rozpoczynam pracę koncepcyjne.
-
-::::::
-::::::list-item-ol-active-md
-
-#title
-#### Projektujemy interfejs
-
-#description
-Wytyczamy ścieżki użytkownika, projektujemy architekturę informacji oraz prototyp, kończąc na gotowym wyglądzie strony. Jesteśmy z Tobą w stałym kontakcie.
-
-::::::
-::::::list-item-ol-active-md
-
-#title
-#### Wdrażamy stronę
-
-#description
-Instalujemy zaprojektowane rozwiązanie w wybranej technologii. Na każdym etapie informujemy o swoich postępach. Efektem jest gotowa do publikacji strona.
-
-::::::
-::::::list-item-ol-active-md
-
-#title
-#### Testujemy i publikujemy
-
-#description
-Zanim strona ujrzy światło dzienne zostaje gruntownie przetestowana. Ostatecznie Ty akceptujesz czy Twoja nowa strona ma rozpocząć przygodę w sieci.
-::::::
-::::::list-item-ol-active-md
-
-#title
-#### Wspieramy i rozwijamy
-
-#description
-Po zakończeniu pracy nad wdrożeniem, nie pozostawiamy Twojej strony bez opieki. Kontynuujemy pracę nad rozwojem i ulepszaniem, reagujac także na awarie.
-::::::
-:::::
-
-
-#right
-::::::block-header-md
+::::effect-appear-md
+:::::block-header-md
 ---
-class: sticky top-1/3 mb-20 tablet:mb-0
+maxWidth: 480
 ---
-
 
 #subtitle
-*4/* Dopracowany proces
+*5/* Etapy realizacji sklepu internetowego
 
 #title
-## Do pracy podchodzimy *etapowo*
+### Zobacz jak tworzymy *sklepy internetowe*
+
+:::::
+::::
+
+#right
+::::effect-appear-md
+Ilość czynników jakie trzeba wziąć pod uwagę podczas tworzenia sklepów internetowych jest bardzo duża. Wszystko po to aby każdy element był przemyślany i dopracowany. Potrzeba do tego analizy założeń oraz wiedzy z zakresu projektowania i programowania, a wszystko powinno być spięte w dopracowanym procesie który gwarantuje wysoką jakość wykonania.
+::::
+:::
+
+#full
+
+:::block-swiper-tabs-md
+---
+tabNames:
+    - Analiza założeń
+    - Projektowanie
+    - Programowanie
+    - Testy i publikacja
+    - Wsparcie i rozwój
+---
+::::block-swiper-tabs-slide-md
+---
+icon: '/img/icons/magnifier.svg'
+---
+:::::block-header-md
+---
+maxWidth: 700
+---
+
+#title
+#### 01. Analiza założeń
 
 #description
-Strony internetowe wykonujemy zgodnie z wypracowanym procesem, w ścisłej współpracy z klientem - to w końcu Twoja strona!
+Jest to pierwszy krok jaki musimy wykonać w celu realizacji strony internetowej. Podczas pierwszej rozmowy dokładnie poznajemy Twoje potrzeby oraz założenia projektu.
 
-::::::
+**Podczas tego etapu:**
+- Przeprowadzamy videowarsztaty
+- Dobieramy najlepszą technologię i rozwiązania, optymalne dla Twojego projektu
+- Przygotowujemy kosztorys, który zawiera szczegółowy sposób realizacji oraz stack technologiczny
+- Określamy czas trwania projektu i terminy odbioru<br>
+
+**Po akceptacji kosztorysu, proponowanych rozwiązań i terminów, podpisujemy umowę o współpracy i przechodzimy do realizacji.**
+
+:::::
 ::::
+
+
+::::block-swiper-tabs-slide-md
+---
+icon: '/img/icons/www-uxui.svg'
+---
+:::::block-header-md
+---
+maxWidth: 700
+---
+
+#title
+#### 02. Projektowanie interfejsu UX/UI
+
+#description
+Podczas tego etapu pracujemy nad wyglądem strony www. Prace zaczynamy od przeanalizowania przyzwyczajeń grupy docelowej (Twoich klientów) oraz otoczenia rynkowego - wszystko po to aby użytkownicy z łatwością odnaleźli się na nowej stronie. Następnie  opracowujemy moodboardy (tablice inspiracji), wytyczamy ścieżki użytkownika (user flow), projektujemy makiety UX, kończąc na finalnym wyglądzie Twojej strony.
+
+**Podczas tego etapu:**
+- Będziesz mieć wgląd w każdy etap pracy projektowej i bezpośredni kontakt z doświadczonym projektantem UX/UI.
+- Będziesz akceptować poszczególne etapy realizacji projektu Twojej strony www - od moodboardów po finalny wygląd.<br>
+
+**Po akceptacji finalnego wyglądu, projekt jest gotowy do etapu programowania**
+
+:::::
+::::
+
+::::block-swiper-tabs-slide-md
+---
+icon: '/img/icons/www-code.svg'
+---
+:::::block-header-md
+---
+maxWidth: 700
+---
+
+#title
+#### 03. Prace programistyczne
+
+#description
+Po zaakceptowaniu projektu interfejsu, rozpoczynamy prace nad kompleksowym wdrożeniem strony internetowej w wybranej technologii. Działamy od konfiguracji infrastruktury technicznej, przez instalacje wymaganych narzędzi po zaprogramowanie strony.
+
+**Podczas tego etapu:**
+- Będziesz mieć stały podgląd strony w środowisku developerskim, który zapewni pełną kontrolę nad projektem
+- Skonfigurujemy infrastrukturę techniczną potrzebną do wydajnego działania strony internetowej
+- Zaprogramujemy stronę www wraz ze wszystkimi wymaganymi funkcjami i integracjami np. GA4.<br>
+
+**Po zakończeniu etapu programowania, przekazujemy stronę www do testów.**
+
+:::::
+::::
+
+
+
+::::block-swiper-tabs-slide-md
+---
+icon: '/img/icons/www-tests.svg'
+---
+:::::block-header-md
+---
+maxWidth: 700
+---
+
+#title
+#### 04. Testy i publikacja
+
+#description
+W tym etapie gruntownie sprawdzamy działanie strony internetowej. Testy wykonujemy na wielu urządzeniach i rozdzielczościach ekranu (od najmniejszych smartfonów po wyświetlacze FHD), wszystko po to aby mieć pewność że wszystko działa jak należy. Po przejściu wewnętrznych testów, przekazujemy stronę do weryfikacji klientowi - to moment na dopracowanie projektu i zgłaszanie wszelkich uwag przed publikacją.
+
+**Podczas tego etapu:**
+- Sprawdzamy działanie każdej funkcji, wydajność strony, konfiguracje infrastruktury oraz wyświetlanie strony na wielu urządzeniach.
+- Przekazujemy stronę do weryfikacji klientowi, wykonujemy wszelkie poprawki aby przygotować stronę do publikacji.<br>
+
+**Po otrzymaniu od klienta zielonego światła na publikację, startujemy!**
+
+:::::
+::::
+
+
+::::block-swiper-tabs-slide-md
+---
+icon: '/img/icons/www-support.svg'
+---
+:::::block-header-md
+---
+maxWidth: 700
+---
+
+#title
+#### 05. Wsparcie i rozwój
+
+#description
+Często publikacja strony to dopiero początek, a podczas użytkowania strony pojawiają sie pomysły na nowe funkcjonalności, zakładki czy ulepszenia - w tym miejscu nie możemy także zapomnieć o koniecznych aktualizacjach czy monitorowaniu wydajności, bezpieczeństwa czy stabilności działania.
+
+**W ramach usługi wsparcia zajmujemy się następującymi pracami:**
+- Aktualizacja środowiska (systemu) w ramach konserwacji
+- Monitorowanie bezpieczeństwa i szybkości strony
+- Projektowanie i rozbudowa strony
+- Projektowanie i wdrażanie nowych funkcjonalności i dedykowanych modułów
+- Reagowanie na ewentualne awarie<br>
+
+:::::
+::::
+
+:::
 ::
+
 
 ::page-section-md
 ---
-id: o-nas
-class: mb-[100px] tablet:mb-[200px]
+classes: mb-20 tablet:mb-[100px] static-content
 ---
-:::block-bg-map-md
-:::
 
-:::effect-appear-md
-::::block-header-md
+:::block-columns-1-1-md
 ---
-class: relative z-10 mb-10 tablet:mb-20
-maxWidth: 570
+class: items-center
+---
+
+#left
+
+::::effect-appear-md
+:::::img-decorated-md
+---
+imgUrl: '/img/content-images/sklepy-internetowe/section6.png'
+decoration: false
+class: tablet:!pr-5 mb-5 phone-wide:mx-auto phone:w-full phone-wide:!w-[80%] tablet:!w-full
+---
+
+:::::
+::::
+
+#right
+::::effect-appear-md
+:::::block-header-md
+---
+maxWidth: 700
+class: mb-10 tablet:mb-16 tablet:mt-10
 ---
 
 #subtitle
-*5/* Korzyści dla biznesu
+::::::prose-p-3
+*6/* Wsparcie techniczne i rozwój
+::::::
 
 #title
-### Dlaczego warto z nami *współpracować?*
+### O czym jeszcze <br> musisz wiedzieć?
 
 #description
-Zajmujemy się kompleksowym wdrażaniem rozwiązań cyfrowych dla biznesu. Jeśli chcesz prowadzić i rozwijać swój biznes w sieci, my wiemy jak to zrobić!
-
-::::
-:::
-
-:::block-icons-md
+::::::prose-p-3
 ---
-class: mb-[50px] tablet:mb-[100px]
+class: mb-5 [&_p]:!leading-loose [&_p]:!mb-0
+--- 
+Stworzenie sklepu internetowego to dopiero początek, zaczynamy przygodę która jest pełna wyzwań. Kampanie marketingowe, optymalizacja sprzedaży, rozwój o nowe pomysły, wyścig z konkurencją. Z przyjemnością będziemy Cię w tym wspierać.
+::::::
+::::::prose-p-4
 ---
-::::icon-tile-md
+class: mb-0 [&_p]:!leading-loose [&_p]:!mb-0
 ---
-iconUrl: '/img/icons/icn_chart.svg'
-delay: 0
----
-
-#title
-##### Realizujemy cele biznesowe
-
-#description
-Jako partner technologiczny przed rozpoczęciem projektu analizujemy Twoje założenia biznesowe- to one są najważniejsze.
-
-::::
-::::icon-tile-md
----
-iconUrl: '/img/icons/uxui.svg'
-delay: 1
----
-
-#title
-##### Dbamy o potrzeby użytkownika
-
-#description
-Każdy projekt opieramy o potrzeby użytkowników. Dzięki temu dostarczamy intuicyjne strony www, połączone z unikalnym designem.
-
-::::
-::::icon-tile-md
----
-iconUrl: '/img/icons/arrows.svg'
-delay: 2
----
-
-#title
-##### Stawiamy na Twój rozwój
-
-#description
-Celem prowadzenia biznesu jest jego rozwój. Tworzymy skalowalne rozwiązania, zapewniając że strona www jest gotowa na Twój sukces.
-
-::::
-::::icon-tile-md
----
-iconUrl: '/img/icons/gears.svg'
-delay: 3
----
-
-#title
-##### Automatyzujemy procesy
-
-#description
-Rozwijamy strony o automatyzacje, dzięki temu oszczędzamy Twój czas, a przy tym pieniądze potrzebne na zarządzanie stroną.
-
-::::
-::::icon-tile-md
----
-iconUrl: '/img/icons/AZ.svg'
-delay: 4
----
-
-#title
-##### Działamy kompleksowo
-
-#description
-Od wstępnych rozmów, przez projekt strony i wdrożenie, po rozwój i wsparcie. Świadczymy usługi na każdym etapie życia produktu.
-
-::::
-::::icon-tile-md
----
-iconUrl: '/img/icons/partnership.svg'
-delay: 5
----
-
-#title
-##### Budujemy partnerskie relacje
-
-#description
-Zależy nam na Twoim biznesie. We współpracy stawiamy na transparentność i zaufanie aby każdy był zadowolony z podejmowanych działań.
-
+Do w/w zadań warto jest mieć zaufany i doświadczony zespół projektantów oraz programistów którzy gotowych do działania gdy tylko zajdzie taka potrzeba.
+::::::
+:::::
 ::::
 :::
 ::
+
+
 
 ::page-section-md
 ---
@@ -662,7 +696,7 @@ class: mb-10 tablet:mb-20
 ---
 
 #subtitle
-*6/* Case study
+*7/* Nasze ostatnie realizacje
 
 #title
 ### Jasteśmy dumni <br> z *wykonanych projektów*
@@ -696,7 +730,7 @@ class: mb-[50px] tablet:mb-[100px]
 ---
 
 #subtitle
-*7/* Nasi klienci
+*8/* Nasi klienci
 
 #title
 ### Poznaj firmy które *nam zaufały*
