@@ -1,17 +1,17 @@
 ---
-introduction.title: 'Sklep internetowy polskiego producenta dekoracji w oparciu o Prestashop i Tailwind CSS'
-introduction.description: 'Feeby to polski producent dekoracji działający na rynku od ponad 25 lat. Nasza współpraca polega na wdrożeniu, utrzymaniu sklepu, a także na rozwoju o nowe funkcjonalności.
-'
+introduction.title: 'Feeby - Sklep internetowy polskiego producenta dekoracji premium w oparciu o Prestashop'
+introduction.description: 'Sklep Feeby umożliwia zakup dekoracji ściennych z szerokiej gamy ponad 11tyś produktów, przy użyciu m.in. konfiguratora tapet. Po wdrożeniu nasza współpraca polega na utrzymaniu sklepu, a także rozwoju o nowe funkcjonalności i optymalizacji.'
 type:
-    - UX/UI
     - E-commerce
+    - UX/UI
     - Wsparcie
 technologies:
     - TailwindCSS
     - Vue.js
     - PrestaShop
-image.url: '/img/case-studies/Feeby.jpg'
-tile_hidden: true
+image.url: '/img/case-studies/Feeby.png'
+tile_hidden: false
+tile_order: 7
 public: false
 draft: true
 fallback: 'https://www.behance.net/gallery/149635813/Feeby-Home-decor-E-commerce?tracking_source=search_projects_recommended%7Cwebo.agency'
