@@ -43,8 +43,8 @@
       </div>
     </div>
     <div class="cases-container overflow-hidden">
-      <CaseTileMd v-for="case_page in visibleCases" :key="case_page._path" :data="case_page" :showTech="true"
-        :mousePos="mousePos" class="animation-appear" />
+      <CaseTileMd v-for="case_page, index in filteredCases" :key="case_page._path" :data="case_page" :showTech="true"
+        :mousePos="mousePos" class="animation-appear" :class="{ '!hidden': index + 1 > shownCasesCount }" />
     </div>
     <div v-if="$slots.loadMore" class="w-full flex justify-center items-center mt-10 tablet:mt-20">
       <div v-show="filteredCases.length > shownCasesCount"
@@ -112,10 +112,6 @@ const filteredCases = computed(() => {
 
       return techMatch && typeMatch;
     })
-})
-
-const visibleCases = computed(() => {
-  return filteredCases.value.slice(0, shownCasesCount.value)
 })
 
 function toggleExpand() {
