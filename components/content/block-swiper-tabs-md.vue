@@ -120,9 +120,6 @@ export default {
 .slides-narrow:deep(.swiper-slide.swiper-slide-next){
   @apply tablet:!opacity-100
 }
-.slides-narrow:deep(.swiper-slide.swiper-slide-next .title){
-  @apply tablet:underline
-}
 
 .slides-narrow:deep(.swiper-slide:last-child){
   @apply tablet:!w-full tablet:[&>div]:w-5/12
