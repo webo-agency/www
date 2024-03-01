@@ -1,7 +1,7 @@
 <template>
   <div class="px-5 tablet:px-10 desktop:px-20 overflow-hidden">
     <div
-      class="swiper-tabs relative w-full mx-auto max-w-screen-desktop desktop-wide:max-w-screen-desktop-wide rounded-[5px]">
+      class="swiper-tabs-container relative w-full mx-auto max-w-screen-desktop desktop-wide:max-w-screen-desktop-wide rounded-[5px]">
       <div class="w-full inset-0 absolute pointer-events-none z-30">
         <div
           class="pointer-events-auto mr-24 cursor-pointer hidden desktop:flex items-center justify-center w-[120px] h-[120px] rounded-full bg-green-main hover:bg-green-mainHover absolute top-[calc(50%_+_25px)] -left-16 transition duration-200 z-[10]"
@@ -24,7 +24,7 @@
         </div>
       </div>
       <div
-        class="relative desktop-wide:w-screen pr-5 tablet:pr-10 desktop:pr-20 -mr-5 tablet:-mr-10 desktop:-mr-20 desktop-wide:mr-0 h-full !overflow-visible">
+        class="relative desktop-wide:w-full pr-5 tablet:pr-10 desktop:pr-20 -mr-5 tablet:-mr-10 desktop:-mr-20 desktop-wide:mr-0 h-full !overflow-visible">
         <div class="desktop:max-w-screen-desktop desktop-wide:max-w-screen-desktop-wide">
           <div ref="swiperThumbs" class="swiper hidden desktop:block mb-10">
             <ul class="swiper-wrapper w-full">
@@ -36,8 +36,8 @@
               </li>
             </ul>
           </div>
-          <div ref="swiper" class="swiper w-full h-full !overflow-visible">
-            <div class="swiper-wrapper flex h-full !overflow-visible">
+          <div ref="swiper" class="swiper-tabs swiper w-full h-full !overflow-visible">
+            <div class="swiper-wrapper flex h-full !overflow-visible" :class="[slidesNarrow? 'slides-narrow':'slides-default']">
               <slot></slot>
             </div>
           </div>
@@ -56,6 +56,10 @@ export default {
     tabNames: {
       type: Array,
     },
+    slidesNarrow: {
+      type:Boolean,
+      default:false
+    }
   },
   data() {
     return {
@@ -81,11 +85,12 @@ export default {
     );
     this.swiper = new Swiper(this.$refs.swiper, {
       modules: [Navigation, Thumbs, Controller],
-      slidesPerView: 1.1,
+      slidesPerView: 'auto',
+      slidesPerGroupAuto: true,
+      watchSlidesProgress: true,
       spaceBetween: 20,
       direction: "horizontal",
       speed: 1000,
-      watchSlidesProgress: true,
       thumbs: {
         swiper: this.swiperThumbs,
       },
@@ -93,14 +98,7 @@ export default {
         nextEl: "[data-swiper-next]",
         prevEl: "[data-swiper-prev]",
       },
-      breakpoints: {
-        768: {
-          slidesPerView: 1.2,
-        },
-        1248: {
-          slidesPerView: 'auto',
-        },
-      },
+
     });
     this.swiper.thumbs.init();
   },
@@ -112,12 +110,36 @@ export default {
 </script>
 
 <style scoped>
-.swiper-tabs:deep(.swiper-slide-thumb-active > div) {
+.swiper-tabs-container:deep(.swiper-slide-thumb-active > div) {
   @apply !border-b-green-main !opacity-100;
 }
 
-.swiper-tabs:deep([data-swiper-next].swiper-button-disabled),
-.swiper-tabs:deep([data-swiper-prev].swiper-button-disabled) {
+.slides-narrow:deep(.swiper-slide){
+  @apply w-11/12 tablet:w-5/12
+}
+
+.slides-narrow:deep(.swiper-slide.swiper-slide-next){
+  @apply tablet:!opacity-100
+}
+.slides-narrow:deep(.swiper-slide.swiper-slide-next .title){
+  @apply tablet:underline
+}
+
+.slides-narrow:deep(.swiper-slide:last-child){
+  @apply tablet:!w-full tablet:[&>div]:w-5/12
+}
+
+
+.slides-default:deep(.swiper-slide){
+  @apply w-11/12 tablet:w-10/12 desktop:w-1/2
+}
+
+.slides-default:deep(.swiper-slide:last-child){
+  @apply desktop:!w-full desktop:[&>div]:w-1/2
+}
+
+.swiper-tabs-container:deep([data-swiper-next].swiper-button-disabled),
+.swiper-tabs-container:deep([data-swiper-prev].swiper-button-disabled) {
   @apply opacity-0;
 }
 </style>

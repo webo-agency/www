@@ -1,6 +1,6 @@
 <template>
   <div
-    class="swiper-slide !h-auto desktop:!w-1/2 last:desktop:!w-full desktop:[&>div]:last:w-1/2 !transition !duration-200">
+    class="swiper-slide !h-auto !transition !duration-200">
       <div class="relative h-full flex flex-col text-gray-darker bg-[#ECF6F4] tablet:pr-10 py-[30px] px-5 desktop:p-10 desktop:pb-[20px]">
         <nuxt-picture v-if="icon" :src="icon" class="mb-5" />
         <slot></slot>
