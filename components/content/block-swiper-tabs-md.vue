@@ -86,7 +86,6 @@ export default {
     this.swiper = new Swiper(this.$refs.swiper, {
       modules: [Navigation, Thumbs, Controller],
       slidesPerView: 'auto',
-      slidesPerGroupAuto: true,
       watchSlidesProgress: true,
       spaceBetween: 20,
       direction: "horizontal",
