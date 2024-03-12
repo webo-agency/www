@@ -261,12 +261,6 @@ rounded: false
 classes: mb-10 tablet:mb-20
 ---
 
-:::block-bg-map-md
----
-class: -z-10
----
-:::
-
 :::effect-appear-md
 ::::block-header-md
 ---
@@ -291,6 +285,9 @@ class: mb-20
 number: 1
 isWideType: true
 hoverEffect: false
+iconInline: false
+iconGradient: true
+class: h-auto !pr-0
 ---
 #title
 ##### Redukcja kosztów utrzymania infrastruktury IT
@@ -298,12 +295,42 @@ hoverEffect: false
 W headless wydajność opiera się na warstwie frontend, strona nie wymaga utrzymywania rozbudowanej infrastruktury serwerowej co znacznie obniża koszty.
 :::::
 
+:::::process-tile-md
+---
+number: 3
+isWideType: true
+hoverEffect: false
+iconInline: false
+iconGradient: true
+class: h-auto !pr-0
+---
+#title
+##### Elastyczność technologiczna
+#description
+W Headless masz pełną elastyczność w wyborze technologii używanej do prezentacji treści (frontend), nie jesteś ograniczony wymogami systemu CMS. 
+:::::
+
+:::::process-tile-md
+---
+number: 5
+isWideType: true
+hoverEffect: false
+iconInline: false
+iconGradient: true
+class: h-auto !pr-0
+---
+#title
+##### Wyższa wydajność pracy marketingu
+#description
+Zarządzanie treścią prowadzone jest z jednego panelu, który automatycznie przesyła ją do wielu kanałów, dzięki czemu oszczędzasz czas uzupełniania treści w osobnych systemach.
+:::::
+
 #center-col
 :::::img-decorated-md
 ---
 imgUrl: '/img/content-images/strony-headless-pwa/mobile_isw.png'
 decoration: false
-class: scale-[2]
+class: hidden tablet:block scale-[3] mt-[170px] z-[-1]
 ---
 
 :::::
@@ -314,6 +341,9 @@ class: scale-[2]
 number: 2
 isWideType: true
 hoverEffect: false
+iconInline: false
+iconGradient: true
+class: h-auto !pr-0
 ---
 #title
 ##### Wzrost satysfakcji użytkowników
@@ -321,9 +351,192 @@ hoverEffect: false
 Natychmiastowa interakcja z użytkownikami, możliwość nieograniczonego dostosowania interfejsu oraz błyskawiczne przełączanie między stronami zwiększa zadowolenie podczas korzystania ze strony.
 :::::
 
+:::::process-tile-md
+---
+number: 4
+isWideType: true
+hoverEffect: false
+iconInline: false
+iconGradient: true
+class: h-auto !pr-0
+---
+#title
+##### Nieograniszkone kalowanie strony
+#description
+Ponieważ w Headless CMS frontend i backend są oddzielone, możesz bez ograniczeń rozbudowywać swoją stronę bez obaw o utratę wydajności lub ograniczenia backendu.
+:::::
+
+:::::process-tile-md
+---
+number: 6
+isWideType: true
+hoverEffect: false
+iconInline: false
+iconGradient: true
+class: h-auto !pr-0
+---
+#title
+##### Niezależność pracy zespołów
+#description
+Architektura headless umożliwia niezależną pracę programistów frontend, bez ingerencji w warstwę backendową. Dzieki temu rozbudowa stron jest szybsza i wygodniejsza, a zespoły mają pełną swobodę w doborze rozwiązań..
+:::::
 ::::
 :::
 ::
+
+
+::page-section-md
+---
+classes: mb-10 tablet:mb-20
+---
+
+:::effect-appear-md
+::::block-header-md
+---
+center: true
+maxWidth: 540
+class: mb-20
+---
+
+#subtitle
+*4/* Przejdź na wyższy poziom
+
+#title
+### Headless Wordpress vs Standardowa strona
+
+::::
+
+::::block-columns-1-1-md
+
+#left
+::::card-icon-md
+---
+class: tablet:pr-2.5 [&_div_div]:bg-black [&_div_div]:!text-white
+icon: '/img/icons/nuxt-dark.svg'
+---
+#title
+#### Headless Wordpress
+
+#content
+:::::block-list-ul-md
+---
+decoration: false
+---
+::::::list-item-ul-active-md
+---
+iconUrl: '/img/icons/multichannels.svg'
+iconBig: false
+animated: false
+class: leading-[10px]
+---
+
+#description
+**<u>Wielokanałowość</u>** - możliwość zarządzania treścią z jednego miejsca dla wielu platform, dzięki czemu zaoszczędzisz środki przeznaczone na utrzymanie rozbudowanej infrastruktury.
+
+::::::
+::::::list-item-ul-active-md
+---
+iconUrl: '/img/icons/1s.svg'
+iconBig: false
+animated: false
+class: leading-[10px]
+---
+
+#description
+**<u>Ultraszybkie ładowanie strony</u>** - Średni czas ładowania spadnie nawet poniżej 1s, zwiększając dzięki temu komfort i zaangażowanie użytkowników.
+
+::::::
+::::::list-item-ul-active-md
+---
+iconUrl: '/img/icons/scalling.svg'
+iconBig: false
+animated: false
+class: leading-[10px]
+---
+
+#description
+**<u>Nielimitowane skalowanie strony</u>** - Specyfika konstrukcji stron headlessowych sprawia że rozbudowa strony i jej zasięgu działaniałnie wpływa na wydajność serwisu.
+
+::::::
+::::::list-item-ul-active-md
+---
+iconUrl: '/img/icons/shield2.svg'
+iconBig: false
+animated: false
+---
+
+#description
+**<u>Najwyższe bezpieczeństwo</u>** - Odseparowanie warstw sprawia że użytkownik ma minimalny kontakt z systemem wewnętrznym, dzięki czemu Headless zapewnia wyższe bezpieczeństwo od standardowych stron www w przypadku ataków hakerskich.
+
+::::::
+::::
+
+#right
+::::card-icon-md
+---
+class:  tablet:mt-[50px] tablet:pl-2.5
+icon: '/img/icons/wordpress.svg'
+---
+#title
+#### Standardowa strona
+
+#content
+:::::block-list-ul-md
+---
+decoration: false
+---
+::::::list-item-ul-active-md
+---
+iconUrl: '/img/icons/singlechannel.svg'
+iconBig: false
+animated: false
+class: leading-[10px]
+---
+
+#description
+**<u>Brak wielokanałowości</u>** - Tradycyjne rozwiązania umożliwiają tworzenie nowych strony tylko w obrębie wybranej technologii. Każdy kanał wymaga osobnego zaplecza i systemu zarządzania treścią.
+
+::::::
+::::::list-item-ul-active-md
+---
+iconUrl: '/img/icons/2s.svg'
+iconBig: false
+animated: false
+class: leading-[10px]
+---
+
+#description
+**<u>Szybkie ładowanie strony</u>** - Przy odpowiednim wykonaniu, średnia prędkość wczytywania strony może wynieść ok. 2s co jest wystarczającym wynikiem dla większości stron
+
+::::::
+::::::list-item-ul-active-md
+---
+iconUrl: '/img/icons/scalling2.svg'
+iconBig: false
+animated: false
+class: leading-[10px]
+---
+
+#description
+**<u>Ograniczone skalowanie strony</u>** - Możliwości rozbudowy standardowej strony internetowej zależą od wybranego systemu i jego ograniczeń.
+
+::::::
+::::::list-item-ul-active-md
+---
+iconUrl: '/img/icons/shield2.svg'
+iconBig: false
+animated: false
+---
+
+#description
+**<u>Wysokie bezpieczeństwo</u>** - Bezpieczeństwo strony opiera się o szyfrowanie danych jakie wyświetlane są na stronie, co ogranicza możliwość dostępu do kont, haseł czy bazy danych.
+
+::::::
+::::
+::::
+:::
+::
+
 
 
 
@@ -339,10 +552,10 @@ class: mb-10 tablet:mb-20
 ---
 
 #subtitle
-*5/* Wykonaliśmy strony w nowej technologii
+*6/* Nasze ostatnie realizacje
 
 #title
-### Nasze realizacje <br> *Headless i PWA*
+### Jesteśmy dumni <br> z *wykonanych projektów*
 
 ::::
 :::

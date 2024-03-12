@@ -1,6 +1,8 @@
 <template>
-  <div class="flex tablet:flex-row" 
-    :class="[reverseMobile ? 'flex-col-reverse' : 'flex-col']">
+  <div
+    class="flex tablet:flex-row"
+    :class="[reverseMobile ? 'flex-col-reverse' : 'flex-col']"
+  >
     <div class="w-full basis-full tablet:basis-1/2 left">
       <slot name="left"></slot>
     </div>
@@ -15,9 +17,8 @@ export default {
   props: {
     reverseMobile: {
       type: Boolean,
-      default: false
-    }
+      default: false,
+    },
   },
-}
+};
 </script>
-
