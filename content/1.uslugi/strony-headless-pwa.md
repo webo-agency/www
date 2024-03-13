@@ -287,7 +287,7 @@ isWideType: true
 hoverEffect: false
 iconInline: false
 iconGradient: true
-class: h-auto !pr-0
+class: item !h-auto !pr-0
 ---
 #title
 ##### Redukcja kosztów utrzymania infrastruktury IT
@@ -302,7 +302,7 @@ isWideType: true
 hoverEffect: false
 iconInline: false
 iconGradient: true
-class: h-auto !pr-0
+class: item !h-auto !pr-0
 ---
 #title
 ##### Elastyczność technologiczna
@@ -317,7 +317,7 @@ isWideType: true
 hoverEffect: false
 iconInline: false
 iconGradient: true
-class: h-auto !pr-0
+class: item !h-auto !pr-0
 ---
 #title
 ##### Wyższa wydajność pracy marketingu
@@ -343,7 +343,7 @@ isWideType: true
 hoverEffect: false
 iconInline: false
 iconGradient: true
-class: h-auto !pr-0
+class: item !h-auto !pr-0
 ---
 #title
 ##### Wzrost satysfakcji użytkowników
@@ -358,7 +358,7 @@ isWideType: true
 hoverEffect: false
 iconInline: false
 iconGradient: true
-class: h-auto !pr-0
+class: item !h-auto !pr-0
 ---
 #title
 ##### Nieograniszkone kalowanie strony
@@ -373,7 +373,7 @@ isWideType: true
 hoverEffect: false
 iconInline: false
 iconGradient: true
-class: h-auto !pr-0
+class: item !h-auto !pr-0
 ---
 #title
 ##### Niezależność pracy zespołów
@@ -427,7 +427,7 @@ decoration: false
 iconUrl: '/img/icons/multichannels.svg'
 iconBig: false
 animated: false
-class: leading-[10px]
+class: icon [&_div_div_picture]:pt-2.5
 ---
 
 #description
@@ -439,7 +439,7 @@ class: leading-[10px]
 iconUrl: '/img/icons/1s.svg'
 iconBig: false
 animated: false
-class: leading-[10px]
+class: icon [&_div_div_picture]:pt-2.5
 ---
 
 #description
@@ -451,7 +451,7 @@ class: leading-[10px]
 iconUrl: '/img/icons/scalling.svg'
 iconBig: false
 animated: false
-class: leading-[10px]
+class: icon [&_div_div_picture]:pt-2.5
 ---
 
 #description
@@ -490,7 +490,7 @@ decoration: false
 iconUrl: '/img/icons/singlechannel.svg'
 iconBig: false
 animated: false
-class: leading-[10px]
+class: icon [&_div_div_picture]:pt-2.5
 ---
 
 #description
@@ -502,7 +502,7 @@ class: leading-[10px]
 iconUrl: '/img/icons/2s.svg'
 iconBig: false
 animated: false
-class: leading-[10px]
+class: icon [&_div_div_picture]:pt-2.5
 ---
 
 #description
@@ -514,7 +514,7 @@ class: leading-[10px]
 iconUrl: '/img/icons/scalling2.svg'
 iconBig: false
 animated: false
-class: leading-[10px]
+class: icon [&_div_div_picture]:pt-2.5
 ---
 
 #description
@@ -534,6 +534,181 @@ animated: false
 ::::::
 ::::
 ::::
+:::
+::
+
+
+
+::page-section-md
+---
+classes: mb-10 tablet:mb-20
+---
+:::block-columns-5-7-md
+---
+class: mb-10
+---
+
+#left
+::::effect-appear-md
+:::::block-header-md
+---
+maxWidth: 480
+---
+
+#subtitle
+*5/* Etapy realizacji sklepu internetowego
+
+#title
+### Zobacz jak tworzymy *sklepy internetowe*
+
+:::::
+::::
+
+#right
+::::effect-appear-md
+Ilość czynników jakie trzeba wziąć pod uwagę podczas tworzenia sklepów internetowych jest bardzo duża. Wszystko po to aby każdy element był przemyślany i dopracowany. Potrzeba do tego analizy założeń oraz wiedzy z zakresu projektowania i programowania, a wszystko powinno być spięte w dopracowanym procesie który gwarantuje wysoką jakość wykonania.
+::::
+:::
+
+#full
+
+:::block-swiper-tabs-md
+---
+tabNames:
+    - Analiza założeń
+    - Projektowanie
+    - Programowanie
+    - Testy i publikacja
+    - Wsparcie i rozwój
+---
+::::block-swiper-tabs-slide-md
+---
+icon: '/img/icons/magnifier.svg'
+---
+:::::block-header-md
+---
+maxWidth: 700
+---
+
+#title
+#### 01. Analiza założeń
+
+#description
+Jest to pierwszy krok jaki musimy wykonać w celu realizacji strony internetowej. Podczas pierwszej rozmowy dokładnie poznajemy Twoje potrzeby oraz założenia projektu.
+
+**Podczas tego etapu:**
+- Przeprowadzamy videowarsztaty
+- Dobieramy najlepszą technologię i rozwiązania, optymalne dla Twojego projektu
+- Przygotowujemy kosztorys, który zawiera szczegółowy sposób realizacji oraz stack technologiczny
+- Określamy czas trwania projektu i terminy odbioru<br>
+
+**Po akceptacji kosztorysu, proponowanych rozwiązań i terminów, podpisujemy umowę o współpracy i przechodzimy do realizacji.**
+
+:::::
+::::
+
+
+::::block-swiper-tabs-slide-md
+---
+icon: '/img/icons/www-uxui.svg'
+---
+:::::block-header-md
+---
+maxWidth: 700
+---
+
+#title
+#### 02. Projektowanie interfejsu UX/UI
+
+#description
+Podczas tego etapu pracujemy nad wyglądem strony www. Prace zaczynamy od przeanalizowania przyzwyczajeń grupy docelowej (Twoich klientów) oraz otoczenia rynkowego - wszystko po to aby użytkownicy z łatwością odnaleźli się na nowej stronie. Następnie  opracowujemy moodboardy (tablice inspiracji), wytyczamy ścieżki użytkownika (user flow), projektujemy makiety UX, kończąc na finalnym wyglądzie Twojej strony.
+
+**Podczas tego etapu:**
+- Będziesz mieć wgląd w każdy etap pracy projektowej i bezpośredni kontakt z doświadczonym projektantem UX/UI.
+- Będziesz akceptować poszczególne etapy realizacji projektu Twojej strony www - od moodboardów po finalny wygląd.<br>
+
+**Po akceptacji finalnego wyglądu, projekt jest gotowy do etapu programowania**
+
+:::::
+::::
+
+::::block-swiper-tabs-slide-md
+---
+icon: '/img/icons/www-code.svg'
+---
+:::::block-header-md
+---
+maxWidth: 700
+---
+
+#title
+#### 03. Prace programistyczne
+
+#description
+Po zaakceptowaniu projektu interfejsu, rozpoczynamy prace nad kompleksowym wdrożeniem strony internetowej w wybranej technologii. Działamy od konfiguracji infrastruktury technicznej, przez instalacje wymaganych narzędzi po zaprogramowanie strony.
+
+**Podczas tego etapu:**
+- Będziesz mieć stały podgląd strony w środowisku developerskim, który zapewni pełną kontrolę nad projektem
+- Skonfigurujemy infrastrukturę techniczną potrzebną do wydajnego działania strony internetowej
+- Zaprogramujemy stronę www wraz ze wszystkimi wymaganymi funkcjami i integracjami np. GA4.<br>
+
+**Po zakończeniu etapu programowania, przekazujemy stronę www do testów.**
+
+:::::
+::::
+
+
+
+::::block-swiper-tabs-slide-md
+---
+icon: '/img/icons/www-tests.svg'
+---
+:::::block-header-md
+---
+maxWidth: 700
+---
+
+#title
+#### 04. Testy i publikacja
+
+#description
+W tym etapie gruntownie sprawdzamy działanie strony internetowej. Testy wykonujemy na wielu urządzeniach i rozdzielczościach ekranu (od najmniejszych smartfonów po wyświetlacze FHD), wszystko po to aby mieć pewność że wszystko działa jak należy. Po przejściu wewnętrznych testów, przekazujemy stronę do weryfikacji klientowi - to moment na dopracowanie projektu i zgłaszanie wszelkich uwag przed publikacją.
+
+**Podczas tego etapu:**
+- Sprawdzamy działanie każdej funkcji, wydajność strony, konfiguracje infrastruktury oraz wyświetlanie strony na wielu urządzeniach.
+- Przekazujemy stronę do weryfikacji klientowi, wykonujemy wszelkie poprawki aby przygotować stronę do publikacji.<br>
+
+**Po otrzymaniu od klienta zielonego światła na publikację, startujemy!**
+
+:::::
+::::
+
+
+::::block-swiper-tabs-slide-md
+---
+icon: '/img/icons/www-support.svg'
+---
+:::::block-header-md
+---
+maxWidth: 700
+---
+
+#title
+#### 05. Wsparcie i rozwój
+
+#description
+Często publikacja strony to dopiero początek, a podczas użytkowania strony pojawiają sie pomysły na nowe funkcjonalności, zakładki czy ulepszenia - w tym miejscu nie możemy także zapomnieć o koniecznych aktualizacjach czy monitorowaniu wydajności, bezpieczeństwa czy stabilności działania.
+
+**W ramach usługi wsparcia zajmujemy się następującymi pracami:**
+- Aktualizacja środowiska (systemu) w ramach konserwacji
+- Monitorowanie bezpieczeństwa i szybkości strony
+- Projektowanie i rozbudowa strony
+- Projektowanie i wdrażanie nowych funkcjonalności i dedykowanych modułów
+- Reagowanie na ewentualne awarie<br>
+
+:::::
+::::
+
 :::
 ::
 
