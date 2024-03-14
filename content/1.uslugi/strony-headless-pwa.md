@@ -455,7 +455,7 @@ class: icon [&_div_div_picture]:pt-2.5
 ---
 
 #description
-**<u>Nielimitowane skalowanie strony</u>** - Specyfika konstrukcji stron headlessowych sprawia że rozbudowa strony i jej zasięgu działaniałnie wpływa na wydajność serwisu.
+**<u>Nielimitowane skalowanie strony</u>** - Specyfika konstrukcji stron headlessowych sprawia że rozbudowa strony i jej zasięgu działaniałnie nie wpływa na wydajność serwisu.
 
 ::::::
 ::::::list-item-ul-active-md
