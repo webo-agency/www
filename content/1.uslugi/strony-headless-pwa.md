@@ -361,7 +361,7 @@ iconGradient: true
 class: item !h-auto !pr-0
 ---
 #title
-##### Nieograniszkone kalowanie strony
+##### Nieograniszkone skalowanie strony
 #description
 Ponieważ w Headless CMS frontend i backend są oddzielone, możesz bez ograniczeń rozbudowywać swoją stronę bez obaw o utratę wydajności lub ograniczenia backendu.
 :::::
