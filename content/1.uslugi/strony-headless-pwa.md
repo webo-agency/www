@@ -378,7 +378,7 @@ class: item !h-auto !pr-0
 #title
 ##### Niezależność pracy zespołów
 #description
-Architektura headless umożliwia niezależną pracę programistów frontend, bez ingerencji w warstwę backendową. Dzieki temu rozbudowa stron jest szybsza i wygodniejsza, a zespoły mają pełną swobodę w doborze rozwiązań..
+Architektura headless umożliwia niezależną pracę programistów frontend, bez ingerencji w warstwę backendową. Dzieki temu rozbudowa stron jest szybsza i wygodniejsza, a zespoły mają pełną swobodę w doborze rozwiązań.
 :::::
 ::::
 :::
