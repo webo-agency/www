@@ -1,6 +1,9 @@
 ---
 name: Projektowanie UX/UI
 description: Projektowanie stron i sklepów skoncentrowane na użytkowniku.
+meta:
+  title: Projektowanie UX/UI stron i sklepów internetowych
+  description: Projektujemy aby korzystanie ze stron było proste, szybkie i intuicyjne. Tworzymy nieszablonowy design, pasujący do wizerunku firmy, w oparciu o najlepsze praktyki UX/UI.
 showInNav: true
 draft: false
 public: true

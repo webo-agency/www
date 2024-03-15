@@ -1,6 +1,9 @@
 ---
 name: Strony www
 description: Strony na których Twój klient szybko znajdzie to czego szuka..
+meta:
+  title: Solidne strony internetowe
+  description: Dostarczamy szyte na miarę i wydajne strony internetowe, projektując dla Ciebie indywidualny wygląd i programując od podstaw, tak aby działała stabilnie przez lata.
 showInNav: true
 draft: false
 public: true

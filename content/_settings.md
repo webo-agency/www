@@ -46,6 +46,6 @@ general:
         - type: behance
           link: https://www.behance.net/webo_agency
 head:
-    title: Webo - Cyfrowy partner
-    description: Rozwiązania cyfrowe takie jak strony web czy projektowanie budowane w myśl procesu agile
+    title: Specjaliści od solidnych stron internetowych i e-commerce
+    description: Specjalizujemy się w projektowaniu i kodowaniu wysokiej jakości, nowoczesnych stron i sklepów www. Bez szablonów czy gotowców - od podstaw zgodnie z dokumentacją, jak należy. 
 ---

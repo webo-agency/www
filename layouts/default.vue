@@ -9,7 +9,7 @@
       class="relative flex flex-col justify-between h-full mt-[60px] desktop:mt-[94px]"
     >
       <main>
-        <NuxtPage />
+        <NuxtPage :globalSettings="settings" />
       </main>
       <button-scroll-up class="shrink-0" />
       <FbChat
@@ -48,16 +48,9 @@ const { data: navItemsRaw } = await useAsyncData(() =>
 
 const footerData = settings.value.footer;
 const generalData = settings.value.general;
-const headData = settings.value.head;
 
 const navItems = formatNavItems(navItemsRaw.value, 0);
 const currLang = useState("lang", () => generalData.lang ?? "EN");
-
-useServerSeoMeta({
-  title: headData.title,
-  description: headData.description,
-  ogDescription: headData.description,
-});
 
 useHead({
   meta: [

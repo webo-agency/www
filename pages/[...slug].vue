@@ -11,6 +11,9 @@
 </template>
   
 <script async setup>
+const props = defineProps({
+  globalSettings: Object
+})
 const route = useRoute()
 const { data: pageData } = await useAsyncData('page-data-' + route.fullPath.split('#')[0].split('?')[0], () => queryContent(route.path).findOne())
 
@@ -26,20 +29,23 @@ const alternateLinks = computed(() => {
     }
   })
 })
+
 const img = useImage()
 const headData = computed(() => {
   if (!pageData.value) return
-
+  
   let data = {}
+  
+  const headGlobalData = props.globalSettings.head;
+  const introduction = pageData.value.introduction;
+  const meta = pageData.value.meta;
 
-  if (pageData.value.introduction?.title) {
-    data.title = pageData.value.introduction.title
-    data.ogTitle = pageData.value.introduction.title
-  }
-  if (pageData.value.introduction?.description) {
-    data.description = pageData.value.introduction.description
-    data.ogDescription = pageData.value.introduction.description
-  }
+  data.title = introduction?.title || meta?.title || headGlobalData.title;
+  data.ogTitle = data.title;
+
+  data.description = introduction?.description || meta?.description || headGlobalData.description;
+  data.ogDescription = data.description;
+
   if (pageData.value.image?.url) data.ogImage = img(pageData.value.image.url)
 
   return data
