@@ -559,14 +559,14 @@ maxWidth: 480
 *5/* Etapy realizacji sklepu internetowego
 
 #title
-### Zobacz jak tworzymy *sklepy internetowe*
+### Jak przebiega proces realizacji strony internetowej?
 
 :::::
 ::::
 
 #right
 ::::effect-appear-md
-Ilość czynników jakie trzeba wziąć pod uwagę podczas tworzenia sklepów internetowych jest bardzo duża. Wszystko po to aby każdy element był przemyślany i dopracowany. Potrzeba do tego analizy założeń oraz wiedzy z zakresu projektowania i programowania, a wszystko powinno być spięte w dopracowanym procesie który gwarantuje wysoką jakość wykonania.
+Do stworzenia nowoczesnej strony internetowej potrzeba szerokiej wiedzy z zakresu technologii i projektowania nastawionego na użytkownika oraz wypracowanego procesu, który zapewnia realizację założeń bez obsuw czasowych i w ustalonym budżecie.
 ::::
 :::
 
