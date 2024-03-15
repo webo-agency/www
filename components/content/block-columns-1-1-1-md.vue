@@ -3,10 +3,13 @@
     class="flex tablet:flex-row"
     :class="[reverseMobile ? 'flex-col-reverse' : 'flex-col']"
   >
-    <div class="w-full basis-full tablet:basis-1/2 left">
+    <div class="w-full basis-full tablet:basis-1/3 left">
       <slot name="left"></slot>
     </div>
-    <div class="w-full basis-full tablet:basis-1/2 right">
+    <div class="w-full basis-full tablet:basis-1/3 center-col">
+      <slot name="center-col"></slot>
+    </div>
+    <div class="w-full basis-full tablet:basis-1/3 right">
       <slot name="right"></slot>
     </div>
   </div>
