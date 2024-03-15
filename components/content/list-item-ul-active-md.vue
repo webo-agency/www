@@ -1,7 +1,7 @@
 <template>
   <li>
     <effect-appear :toggleOpacity="false">
-      <div class="flex flex-col tablet:flex-row" :class="[animated ? 'li-faded pb-10 tablet:pb-16' : 'pb-5 tablet:pb-7']">
+      <div class="flex flex-col tablet:flex-row" :class="[animated ? 'li-faded pb-10 tablet:pb-16' : 'pb-5']">
         <nuxt-picture v-if="iconUrl" :src="iconUrl" class="shrink-0" :class="[iconBig ? 'w-12 tablet:w-[70px]' : 'w-10']"
           :imgAttrs="{ class: 'w-full object-contain' }" />
         <div class="tablet:ml-5 desktop:ml-[30px] tablet:pr-5">

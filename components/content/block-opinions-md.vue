@@ -53,7 +53,7 @@
             <div class="swiper-wrapper flex h-full">
               <slot> </slot>
             </div>
-            <div class="swiper-pagination !relative mt-20"></div>
+            <div class="swiper-pagination !relative mt-[60px]"></div>
           </div>
         </div>
       </div>

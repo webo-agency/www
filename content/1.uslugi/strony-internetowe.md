@@ -36,7 +36,7 @@ svgUrl_tr: '/img/svg-square.svg'
 
 ::page-section-md
 ---
-classes: mb-5 tablet:mb-32 static-content
+classes: mb-5 tablet:mb-28 static-content
 ---
 
 :::block-columns-1-1-md
@@ -47,7 +47,7 @@ classes: mb-5 tablet:mb-32 static-content
 ---
 center: false
 maxWidth: 700
-class: mb-20
+class: mb-10 tablet:mb-20
 ---
 
 #subtitle
@@ -92,7 +92,7 @@ class: tablet:w-auto !w-full desktop:scale-[1.1] desktop-wide:scale-[1.2] fullHd
 
 ::page-section-md
 ---
-classes: mb-5 tablet:mb-[100px]
+classes: mb-5 tablet:mb-[60px]
 ---
 
 :::effect-appear-md
@@ -108,7 +108,7 @@ class: tablet:-top-64 right-0
 ---
 center: true
 maxWidth: 480
-class: mb-20
+class: mb-10 tablet:mb-20
 ---
 
 #subtitle
@@ -214,7 +214,7 @@ Umów się na bezpłatną konsultację!
 
 ::page-section-md
 ---
-classes: mb-10 tablet:mb-20
+classes: mb-10 tablet:mb-[30px]
 ---
 
 :::block-bg-map-md
@@ -228,7 +228,7 @@ class: -z-10
 ---
 center: true
 maxWidth: 540
-class: mb-20
+class: mb-10 tablet:mb-20
 ---
 
 #subtitle
@@ -241,9 +241,6 @@ class: mb-20
 :::
 
 :::block-columns-1-1-md
----
-class: mb-10 tablet:mb-20 pb-20 tablet:pb-[100px] border-b-2 border-gray-light
----
 
 #left
 
@@ -353,7 +350,7 @@ Przeprowadzamy szczegółową kontrolę jakości i funkcjonowania strony. Testy 
 
 ::page-section-md
 ---
-classes: bg-gray-darkest pt-10 tablet:pt-[100px] mb-[100px] tablet:mb-[200px]
+classes: bg-gray-darkest pt-10 tablet:pt-[100px] mb-[50px] tablet:mb-[100px]
 ---
 
 
@@ -370,16 +367,13 @@ textWhite: true
 center: true
 ---
 
-#subtitle
-*4/* -
-
 #title
 ### Dlaczego wysoka jakość strony internetowej *się opłaca?*
 
 ::::
 :::::block-list-ul-md
 ---
-class: mb-10 tablet:mb-20 flex flex-wrap justify-center gap-5 tablet:[&>li]:w-[calc(50%_-_10px)] desktop:[&>li]:w-[calc(33.3333%_-_14px)]
+class: mb-5 flex flex-wrap justify-center gap-5 tablet:[&>li]:w-[calc(50%_-_10px)] desktop:[&>li]:w-[calc(33.3333%_-_14px)]
 ---
 
 ::::::tile-dark-icon-md
@@ -392,6 +386,9 @@ iconDecorated: true
 #title
 #### 30% szybsze ładowanie strony
 
+#description
+Które bezpośrednio wpływa na pozycjonowanie w wynikach Googla, a także na wrażenia użytkowników - współczynnik odrzuceń wzrasta o 90% gdy strona łąduje się powyżej 3s
+
 ::::::
 ::::::tile-dark-icon-md
 ---
@@ -403,6 +400,9 @@ iconDecorated: true
 #title
 #### 50% niższy koszt rozbudowy
 
+#description
+Dobry jakościowo kod i zgodność z dokumentacją sprawiają że dalsza rozbudowa nie będzie niosła za sobą komplikacji i skróci czas jaki developer potrzebuje na wdrożenie nowych podstron czy funkcji.
+
 ::::::
 ::::::tile-dark-icon-md
 ---
@@ -413,6 +413,9 @@ iconDecorated: true
 
 #title
 #### Stabilne działanie nawet przez wiele lat
+
+#description
+Jakościowe wdrożenie to pewność działania strony m.in. bez wtop wydajnościowych czy błędów blokujących otwarcie oraz maksymalizacja bezpieczeństwa danych.
 
 ::::::
 
@@ -434,25 +437,36 @@ rounded: false
 
 ::page-section-md
 ---
-classes: mb-10 tablet:mb-20
+classes: mb-[50px] tablet:mb-[100px]
 ---
-:::effect-appear-md
-::::block-header-md
+
+:::block-columns-1-1-md
 ---
-maxWidth: 845
-class: mb-20
+class: mb-10 tablet:mb-0
+---
+
+#left
+::::effect-appear-md
+:::::block-header-md
+---
+maxWidth: 620
+class: tablet:pr-5 mb-10 tablet:mb-[60px]
 ---
 
 #subtitle
 *5/* Etapy realizacji strony internetowej
 
 #title
-### Do realizacji stron www <br> *podchodzimy etapowo*
+### Jak przebiega proces realizacji strony internetowej?
 
-#description
-Do stworzenia nowoczesnej strony internetowej potrzeba szerokiej wiedzy z zakresu technologii i projektowania nastawionego na użytkownika oraz wypracowanego procesu, który zapewnia realizację założeń bez obsuw czasowych i w ustalonym budżecie.
-
+:::::
 ::::
+
+#right
+::::effect-appear-md
+Do stworzenia nowoczesnej strony internetowej potrzeba szerokiej wiedzy z zakresu technologii i projektowania nastawionego na użytkownika oraz wypracowanego procesu, który zapewnia realizację założeń bez obsuw czasowych i w ustalonym budżecie.
+::::
+
 :::
 
 #full
