@@ -136,8 +136,6 @@ Najpopularniejszy i najłatwiejszy w obsłudze system zarządzania treścią, kt
 Dowiedz się więcej
 ::::
 
-
-
 ::::offer-tile-md
 --- 
 icon: '/img/icons/drupal.svg'
@@ -273,7 +271,6 @@ animated: false
 #title
 #### Projekt strony szyty na miarę
 
-
 #description
 W projektowaniu interfejsu kluczowe są dla nas Twoje wymagania oraz potrzeby użytkowników. Projektujemy m.in. architekturę informacji, prototyp strony i design dopasowany do Twojej marki, zapewniając łatwą w obsłudze i miłą dla oka stronę.
 
@@ -293,7 +290,6 @@ Celem prowadzenia biznesu jest jego rozwój. Stawiamy na długofalowe rozwiązan
 ::::::
 :::::
 ::::
-
 
 #right
 ::::effect-appear-md
@@ -344,15 +340,10 @@ Przeprowadzamy szczegółową kontrolę jakości i funkcjonowania strony. Testy 
 :::
 ::
 
-
-
-
-
 ::page-section-md
 ---
 classes: bg-gray-darkest pt-10 tablet:pt-[100px] mb-[50px] tablet:mb-[100px]
 ---
-
 
 :::effect-appear-md
 ---
@@ -373,7 +364,7 @@ center: true
 ::::
 :::::block-list-ul-md
 ---
-class: mb-5 flex flex-wrap justify-center gap-5 tablet:[&>li]:w-[calc(50%_-_10px)] desktop:[&>li]:w-[calc(33.3333%_-_14px)]
+class: mb-7 flex flex-wrap justify-center gap-5 tablet:[&>li]:w-[calc(50%_-_10px)] desktop:[&>li]:w-[calc(33.3333%_-_14px)]
 ---
 
 ::::::tile-dark-icon-md
@@ -418,7 +409,6 @@ iconDecorated: true
 Jakościowe wdrożenie to pewność działania strony m.in. bez wtop wydajnościowych czy błędów blokujących otwarcie oraz maksymalizacja bezpieczeństwa danych.
 
 ::::::
-
 :::::
 :::
 
@@ -431,9 +421,7 @@ rounded: false
 ---
 ::::
 :::
-
 ::
-
 
 ::page-section-md
 ---
@@ -466,7 +454,6 @@ class: tablet:pr-5 mb-10 tablet:mb-[60px]
 ::::effect-appear-md
 Do stworzenia nowoczesnej strony internetowej potrzeba szerokiej wiedzy z zakresu technologii i projektowania nastawionego na użytkownika oraz wypracowanego procesu, który zapewnia realizację założeń bez obsuw czasowych i w ustalonym budżecie.
 ::::
-
 :::
 
 #full
@@ -507,7 +494,6 @@ Podczas pierwszej rozmowy dokładnie poznajemy Twoje potrzeby oraz założenia p
 
 :::::
 ::::
-
 
 ::::block-swiper-tabs-slide-md
 ---
@@ -558,8 +544,6 @@ Po zaakceptowaniu projektu interfejsu, rozpoczynamy prace nad kompleksowym wdro�
 :::::
 ::::
 
-
-
 ::::block-swiper-tabs-slide-md
 ---
 icon: '/img/icons/www-tests.svg'
@@ -583,7 +567,6 @@ W tym etapie gruntownie sprawdzamy działanie strony internetowej. Testy wykonuj
 
 :::::
 ::::
-
 
 ::::block-swiper-tabs-slide-md
 ---
@@ -609,23 +592,18 @@ Często publikacja strony to dopiero początek, a podczas użytkowania strony po
 
 :::::
 ::::
-
 :::
 ::
-
-
-
-
 
 ::page-section-md
 ---
 id: realizacje
-class: mb-[80px] tablet:mb-[130px]
+class: mb-[80px] tablet:mb-[100px]
 ---
 :::effect-appear-md
 ::::block-header-md
 ---
-class: mb-10 tablet:mb-20
+class: mb-10 tablet:mb-[100px]
 ---
 
 #subtitle
@@ -647,33 +625,9 @@ moreBtn.linktitle: Zobacz wszystkie projekty
 :::
 ::
 
-
 ::page-section-md
 ---
-class: mb-[50px] tablet:mb-[100px]
----
-:::effect-appear-md
-::::block-cta-md
----
-maxWidth: 650
-button.link: https://www.webo.agency/kontakt
-button.title: 'Umów się na konsultację'
-button.isWide: true
----
-
-#title
-#### Potrzebujesz więcej informacji?
-
-#description
-Umów się na rozmowę i poznaj jak tworzymy wydajne strony www
-
-::::
-:::
-::
-
-::page-section-md
----
-class: mb-20 tablet:mb-[130px]
+class: mb-20 tablet:mb-[100px]
 ---
 :::effect-appear-md
 ::::block-header-md
@@ -683,19 +637,21 @@ class: mb-[50px] tablet:mb-[100px]
 ---
 
 #subtitle
-*6/* Nasi klienci
+*7/* Nasi klienci
 
 #title
 ### Poznaj firmy które *nam zaufały*
 
 ::::
 :::
+
 :::block-brands-before-footer-md
 :::
 ::
+
 ::page-section-md
 ---
-class: mb-20 tablet:mb-[130px]
+class: mb-20 tablet:mb-[100px]
 ---
 :::effect-appear-md
 ::::block-form-before-footer-md
