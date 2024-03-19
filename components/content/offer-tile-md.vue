@@ -1,5 +1,5 @@
 <template>
-  <div class="self-stretch">
+  <div class="self-stretch mb-5">
     <EffectAppearMdc class="desktop-delay h-full" :delay="delay * 100">
       <CustomLink
         :url="link ?? ''"

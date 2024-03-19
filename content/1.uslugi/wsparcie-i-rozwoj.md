@@ -6,14 +6,13 @@ draft: false
 public: true
 ---
 
-
-
 ::block-banner-md
 ---
 bgImg: false
 headerWidth: 600
 descriptionWidth: 600
 isSecondSvg: true
+class: phone:!mb-0
 ---
 
 #subtitle
@@ -36,7 +35,7 @@ svgUrl_br: '/img/svg-square.svg'
 
 ::page-section-md
 ---
-classes: pt-20 mb-5 tablet:mb-20 overflow-hidden static-content
+classes: pt-6 mb-5 tablet:mb-[200px] overflow-hidden static-content
 ---
 :::block-columns-1-1-md
 ---
@@ -46,7 +45,7 @@ class: items-center
 #left
 ::::effect-appear-md
 ---
-class: relative z-20
+class: relative z-20 mt-10
 ---
 :::::block-header-md
 ---
@@ -93,7 +92,6 @@ class: tablet:!pl-0 !mb-0
 :::
 ::
 
-
 ::page-section-md
 ---
 classes: mb-10 tablet:mb-20
@@ -111,7 +109,6 @@ maxWidth: 510
 
 #title
 ### Co robimy w ramach *usługi wsparcia?*
-
 ::::
 :::
 
@@ -125,7 +122,6 @@ icon: '/img/icons/services-update.svg'
 ---
 #title
 ##### Dbamy o aktualizacje systemu i modułów
-
 ::::
 
 ::::offer-tile-md
@@ -135,7 +131,6 @@ delay: 1
 ---
 #title
 ##### Optymalizujemy szybkość i wydajność strony
-
 ::::
 
 ::::offer-tile-md
@@ -145,7 +140,6 @@ delay: 2
 ---
 #title
 ##### Projektujemy i wdrażamy nowe podstrony i funkcjonalności
- 
 ::::
 
 ::::offer-tile-md
@@ -155,7 +149,6 @@ delay: 3
 ---
 #title
 ##### Optymalizujemy procesy IT i wdrażamy automatyzacje
- 
 ::::
 
 ::::offer-tile-md
@@ -165,7 +158,6 @@ delay: 4
 ---
 #title
 ##### Programujemy dedykowane moduły
- 
 ::::
 
 ::::offer-tile-md
@@ -175,7 +167,6 @@ delay: 5
 ---
 #title
 ##### Integrujemy stronę z zewnętrznymi systemami
- 
 ::::
 
 ::::offer-tile-md
@@ -185,7 +176,6 @@ delay: 6
 ---
 #title
 ##### Monitorujemy działanie i reagujemy na awarie
- 
 ::::
 
 ::::offer-tile-md
@@ -195,7 +185,6 @@ delay: 7
 ---
 #title
 ##### Podnosimy bezpieczeństwo
- 
 ::::
 :::
 
@@ -240,17 +229,14 @@ class: tablet:mb-36 [&_.description]:desktop:!text-lg
 
 #description
 Skontaktuj się z nami i skorzystaj z bezpłatnej konsultacji podczas której omówimy Twój projekt.
-
 ::::
 :::
 ::
 
-
 ::page-section-md
 ---
-classes: bg-gray-darkest pt-10 tablet:pt-[100px] mb-[100px] tablet:mb-[200px]
+classes: bg-gray-darkest pt-10 tablet:pt-[100px] mb-[100px] tablet:mb-[150px]
 ---
-
 
 :::effect-appear-md
 ---
@@ -270,11 +256,11 @@ center: true
 
 #title
 ### Co zyskujesz powierzając nam *opiekę nad stroną www?*
-
 ::::
+
 :::::block-list-ul-md
 ---
-class: mb-10 tablet:mb-20 flex flex-wrap justify-center gap-5 tablet:[&>li]:w-[calc(50%_-_10px)] desktop:[&>li]:w-[calc(33.3333%_-_14px)]
+class: mb-10 tablet:mb-7 flex flex-wrap justify-center gap-5 tablet:[&>li]:w-[calc(50%_-_10px)] desktop:[&>li]:w-[calc(33.3333%_-_14px)]
 ---
 
 ::::::tile-dark-icon-md
@@ -289,8 +275,8 @@ iconDecorated: true
 
 #description
 Nie musisz za każdym razem szukać pomocy zespołu IT ryzykując przy tym jakością wykonania, masz sprawdzony i doświadczony zespół zawsze pod ręką.
-
 ::::::
+
 ::::::tile-dark-icon-md
 ---
 iconUrl: '/img/icons/siren.svg'
@@ -303,7 +289,6 @@ iconDecorated: true
 
 #description
 W przypadku awarii (szczególnie w sklepie internetowym) liczy się czas. Posiadając stałego opiekuna, reakcja jest niemal natychmiastowa - czasem nawet nie zauważysz awarii.
-
 ::::::
 ::::::tile-dark-icon-md
 ---
@@ -317,8 +302,8 @@ iconDecorated: true
 
 #description
 Dzięki stałemu wsparciu możesz planować pracę z wyprzedzeniam. Potrzebujesz Landing page pod kampanię? A może rozważasz nową funkcjonalność? Masz zespół który zrealizuje pracę w Twoim harmonogramie.
-
 ::::::
+
 ::::::tile-dark-icon-md
 ---
 iconUrl: '/img/icons/shield.svg'
@@ -331,8 +316,8 @@ iconDecorated: true
 
 #description
 Stałe wsparcie = stały rozwój. Prowadzimy m.in. monitoring zdarzeń, aktualizacje środowiska oraz systemów zabezpieczeń, optymalizację kodu i wiele innych działań które wpływają na bezpieczeństwo oraz wydajność witryny.
-
 ::::::
+
 ::::::tile-dark-icon-md
 ---
 iconUrl: '/img/icons/chat.svg'
@@ -345,7 +330,6 @@ iconDecorated: true
 
 #description
 Jeśli potrzebujesz porady, możesz do nas uderzać. Odpowiemy na każde pytanie i doradzimy w kwestiach związanych z Twoją stroną www i nie tylko - służymy wiedzą.
-
 ::::::
 :::::
 :::
@@ -360,7 +344,6 @@ rounded: false
 ::::
 :::
 ::
-
 
 ::page-section-md
 ---
@@ -379,7 +362,6 @@ class: mb-20
 
 #title
 ### Zapewniamy najwyższe standardy *pomocy technicznej*
-
 ::::
 :::
 
@@ -407,8 +389,8 @@ animated: false
 
 #description
 Przed publikacją zmian, wszystkie prace przygotowujemy w specjalnym środowisku developerskim - dzięki temu zabezpieczamy ciągłość działania strony produkcyjnej (opublikowanej w internecie).
-
 ::::::
+
 ::::::list-item-ul-active-md
 ---
 class: tablet:mb-8 desktop:mb-6
@@ -422,8 +404,8 @@ animated: false
 
 #description
 Przypisujemy indywidualnego opiekuna Twojej strony, do którego możesz zadzwonić lub napisać. [do redakcji]
-
 ::::::
+
 ::::::list-item-ul-active-md
 ---
 iconUrl: '/img/icons/timer_bg.svg'
@@ -436,11 +418,9 @@ animated: false
 
 #description
 Dajemy Ci pełną kontrolę - zaczynamy realizację gdy dasz nam zielone światło. [do redakcji]
-
 ::::::
 :::::
 ::::
-
 
 #right
 ::::effect-appear-md
@@ -457,8 +437,8 @@ animated: false
 
 #description
 Dzięki któremu masz możliwość dodawania zadań, ustalania priorytetu, podgląd stanu prac i komunikacji z zespołem IT - wszystko pod ręką w jednym miejscu.
-
 ::::::
+
 ::::::list-item-ul-active-md
 ---
 iconUrl: '/img/icons/support_bg.svg'
@@ -471,8 +451,8 @@ animated: false
 
 #description
 Po zakończeniu każdego miesiąca, przesyłamy raport z podsumowaniem prac zawierający listę wykonywanych zadań w trakcie miesiąca, poziom realizacji oraz podsumowanie przepracowanych godzin/zadanie.
-
 ::::::
+
 ::::::list-item-ul-active-md
 ---
 iconUrl: '/img/icons/file_bg.svg'
@@ -485,13 +465,11 @@ animated: false
 
 #description
 Po zakończeniu każdego miesiąca, przesyłamy raport z podsumowaniem prac zawierający listę wykonywanych zadań w trakcie miesiąca, poziom realizacji oraz podsumowanie przepracowanych godzin/zadanie.
-
 ::::::
 :::::
 ::::
 :::
 ::
-
 
 ::page-section-md
 ---
@@ -512,7 +490,6 @@ class: mb-20
 
 #title
 ### Proponujemy wygodne *metody współpracy*
-
 ::::
 :::
 
@@ -534,6 +511,7 @@ class: mb-5
 --- 
 W modelu abonamentowym ustalamy pakiet godzin, który masz do wykorzystania każdego miesiąca na pracę specjalistów (projektantów i programistów). Ilość godzin w pakiecie dobierana jest indywidualnie na podstawie zgłoszonego przez Ciebie zapotrzebowania i planów rozwoju strony.
 :::::
+
 :::::prose-p4
 ---
 class: mb-0
@@ -558,6 +536,7 @@ class: mb-5
 --- 
 Jeśli masz mniejsze potrzeby i nie planujesz stałych comiesięcznych prac nad stroną, rozumiemy to. W modelu elastycznym prace realizujemy zleceniowo, każdorazowo ustalając termin wykonania.
 :::::
+
 :::::prose-p4
 ---
 class: tablet:mb-16 desktop:mb-20
@@ -565,10 +544,8 @@ class: tablet:mb-16 desktop:mb-20
 Płacisz tylko i wyłącznie gdy potrzebujesz naszego wsparcia, możesz liczyć na nasze doradztwo i wsparcie w przypadku awarii, jednocześnie unikasz stałych kosztów.
 :::::
 ::::
-
 :::
 ::
-
 
 ::page-section-md
 ---
@@ -589,7 +566,6 @@ imgUrl: '/img/content-images/support-altassian.png'
 decoration: false
 class: tablet:!pr-5 mb-5 phone-wide:mx-auto phone:w-full phone-wide:!w-[80%] tablet:!w-full
 ---
-
 :::::
 ::::
 
@@ -616,6 +592,7 @@ class: mb-5 [&_p]:!leading-loose [&_p]:!mb-0
 --- 
 Niezależnie od tego jaki model współpracy wybierzesz, otrzymasz dostęp do naszego systemu zgłoszeń do którego wykorystujemy narzędzie JIRA. 
 ::::::
+
 ::::::prose-p-4
 ---
 class: mb-0 [&_p]:!leading-loose [&_p]:!mb-0
@@ -628,17 +605,15 @@ Dzięki HelpDesk masz możliwość dodawania zadań, ustalania priorytetów,  po
 ::
 
 
-
-
 ::page-section-md
 ---
 id: realizacje
-class: mb-[80px] tablet:mb-[130px]
+class: mb-[80px] tablet:mb-[100px]
 ---
 :::effect-appear-md
 ::::block-header-md
 ---
-class: mb-10 tablet:mb-20
+class: mb-10 tablet:mb-[100px]
 ---
 
 #subtitle
@@ -646,7 +621,6 @@ class: mb-10 tablet:mb-20
 
 #title
 ### Jesteśmy dumni <br>z *wykonanych projektów*
-
 ::::
 :::
 
@@ -656,37 +630,12 @@ contentFolder: realizacje
 moreBtn.url: 'https://www.webo.agency/realizacje'
 moreBtn.linktitle: Zobacz wszystkie projekty
 ---
-
-:::
-::
-
-
-::page-section-md
----
-class: mb-[50px] tablet:mb-[100px]
----
-:::effect-appear-md
-::::block-cta-md
----
-maxWidth: 650
-button.link: https://www.webo.agency/kontakt
-button.title: 'Umów się na konsultację'
-button.isWide: true
----
-
-#title
-Potrzebujesz więcej informacji?
-
-#description
-#### Umów się na bezpłatną konsultację i poznaj nasza ofertę wsparcia
-
-::::
 :::
 ::
 
 ::page-section-md
 ---
-class: mb-20 tablet:mb-[130px]
+class: mb-20 tablet:mb-[150px]
 ---
 :::effect-appear-md
 ::::block-header-md
@@ -696,19 +645,20 @@ class: mb-[50px] tablet:mb-[100px]
 ---
 
 #subtitle
-*7/* Nasi klienci
+*8/* Nasi klienci
 
 #title
 ### Poznaj firmy które *nam zaufały*
-
 ::::
 :::
 :::block-brands-before-footer-md
 :::
 ::
+
+
 ::page-section-md
 ---
-class: mb-20 tablet:mb-[130px]
+class: mb-20 tablet:mb-[100px]
 ---
 :::effect-appear-md
 ::::block-form-before-footer-md
