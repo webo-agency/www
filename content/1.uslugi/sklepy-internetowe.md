@@ -16,6 +16,7 @@ bgImg: false
 headerWidth: 660
 descriptionWidth: 660
 isSecondSvg: true
+class: phone:!mb-0
 ---
 
 #subtitle
@@ -38,7 +39,7 @@ svgUrl_tr: '/img/svg-square.svg'
 
 ::page-section-md
 ---
-classes: pt-20 mb-5 tablet:mb-[150px] overflow-hidden static-content
+classes: pt-8 mb-5 tablet:mb-[130px] overflow-hidden static-content
 ---
 :::block-columns-1-1-md
 ---
@@ -112,7 +113,7 @@ class: tablet:-top-20 right-0
 ---
 center: true
 maxWidth: 560
-class: mb-10 tablet:mb-[60px]
+class: mb-10 tablet:mb-[80px]
 ---
 
 #subtitle
@@ -216,7 +217,7 @@ classes: mb-10 tablet:mb-14
 ---
 center: true
 maxWidth: 800
-class: mb-20
+class: mb-10
 ---
 
 #subtitle
@@ -337,9 +338,8 @@ Automatyczne generowanie raportu sprzedażowego czy weryfikacja VAT przy zakład
 
 ::page-section-md
 ---
-classes: bg-gray-darkest pt-10 tablet:pt-[100px] mb-[100px] tablet:mb-[200px]
+classes: bg-gray-darkest pt-10 tablet:pt-[100px] mb-[100px]
 ---
-
 
 :::effect-appear-md
 ---
@@ -362,7 +362,7 @@ center: true
 ::::
 :::::block-list-ul-md
 ---
-class: mb-10 flex flex-wrap justify-center gap-5 tablet:[&>li]:w-[calc(50%_-_10px)] desktop:[&>li]:w-[calc(33.3333%_-_14px)]
+class: mb-5 flex flex-wrap justify-center gap-5 tablet:[&>li]:w-[calc(50%_-_10px)] desktop:[&>li]:w-[calc(33.3333%_-_14px)]
 ---
 
 ::::::tile-dark-icon-md
