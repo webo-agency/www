@@ -2,7 +2,7 @@
   <li>
     <effect-appear :toggleOpacity="false">
       <div
-        class="flex flex-col tablet:flex-row"
+        class="flex flex-col _tablet:flex-row"
         :class="[animated ? 'li-faded pb-10 tablet:pb-16' : 'pb-5 tablet:pb-7']"
       >
         <nuxt-picture
@@ -12,15 +12,15 @@
           :class="[iconBig ? 'w-12 tablet:w-[70px]' : 'w-10']"
           :imgAttrs="{ class: 'w-full object-contain' }"
         />
-        <div class="tablet:ml-5 desktop:ml-[30px] tablet:pr-5">
+        <div class="min-h-[240px] tablet:pr-5">
           <div
             v-if="$slots.title"
-            class="mb-5 text-xl font-semibold"
+            class="mb-5 text-2xl font-semibold"
             :class="[iconBig ? 'mt-2 tablet:mt-5' : 'mt-2']"
           >
             <ContentSlot :use="$slots.title" />
           </div>
-          <div v-if="$slots.description" class="mb-5">
+          <div v-if="$slots.description" class="mb-5 leading-7">
             <ContentSlot :use="$slots.description" />
           </div>
           <div
