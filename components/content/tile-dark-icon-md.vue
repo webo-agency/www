@@ -1,5 +1,5 @@
 <template>
-  <li class="w-full desktop:mb-10 relative">
+  <li class="w-full _desktop:mb-10 desktop:min-h-[320px] relative">
     <EffectAppearMdc :delay="delay ? delay * 100 : 0">
       <div
         class="group p-5 bg-gradient-to-b from-gray-darker/50 before:content-[''] before:w-full before:h-full before:bg-black before:absolute before:top-0 before:left-0 before:z-[-1]"
