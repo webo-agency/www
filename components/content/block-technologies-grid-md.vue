@@ -1,9 +1,6 @@
 <template>
   <div>
-    <div
-      v-if="$slots.title"
-      class="title max-w-fit mb-5 text-xl desktop:text-2xl font-semibold"
-    >
+    <div class="title max-w-fit mb-5 text-xl desktop:text-2xl font-semibold">
       <ContentSlot :use="$slots.title" />
     </div>
 
@@ -14,7 +11,7 @@
           : 'grid grid-cols-2 grid-rows-2 gap-5',
       ]"
     >
-      <slot> </slot>
+      <slot name="content"> </slot>
     </div>
   </div>
 </template>
