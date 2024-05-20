@@ -8,7 +8,7 @@
         :class="
           invertColors
             ? 'border-gray-dark border-2 text-gray-dark'
-            : ` text-white bg-gradient-to-b from-gray-darker/50 before:content-[''] before:w-full before:h-full before:bg-black before:absolute before:top-0 before:left-0 before:z-[-1]`
+            : 'bg-gray-dark text-white'
         "
       >
         <svg
