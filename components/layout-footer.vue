@@ -158,6 +158,7 @@
               />
               <a
                 href="https://clutch.co/profile/webo?utm_source=widget&utm_medium=2&utm_campaign=widget&utm_content=logo&utm_term=localhost#highlights"
+                target="_blank"
               >
                 <span class="mb-1 font-light">REVIEWED ON</span>
                 <svg
