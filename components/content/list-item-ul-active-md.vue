@@ -2,8 +2,8 @@
   <li>
     <effect-appear :toggleOpacity="false">
       <div
-        class="flex flex-col _tablet:flex-row"
-        :class="[animated ? 'li-faded pb-10 tablet:pb-16' : 'pb-5 tablet:pb-7']"
+        class="flex flex-col tablet:flex-row tablet:gap-7"
+        :class="[animated ? 'li-faded pb-10 tablet:pb-16' : 'pb-5']"
       >
         <nuxt-picture
           v-if="iconUrl"

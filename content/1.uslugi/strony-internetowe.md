@@ -1,15 +1,16 @@
 ---
 name: Strony www
-description: Strony na których Twój klient szybko znajdzie to czego szuka..
+description: Szybkie, wydajne i funkcjonalne strony internetowe.
 meta:
-  title: Solidne strony internetowe
-  description: Dostarczamy szyte na miarę i wydajne strony internetowe, projektując dla Ciebie indywidualny wygląd i programując od podstaw, tak aby działała stabilnie przez lata.
+    title: Solidne strony internetowe
+    description: Dostarczamy szyte na miarę i wydajne strony internetowe, projektując dla Ciebie indywidualny wygląd i programując od podstaw, tak aby działała stabilnie przez lata.
 showInNav: true
 draft: false
 public: true
+hreflangs:
+    EN: '/services/websites'
+    PL: '/uslugi/strony-internetowe'
 ---
-
-
 ::block-banner-md
 ---
 bgImg: false
@@ -36,7 +37,6 @@ svgUrl_tr: '/img/svg-square.svg'
 :::
 ::
 
-
 ::page-section-md
 ---
 classes: mb-5 tablet:mb-32 static-content
@@ -55,25 +55,25 @@ class: mb-20
 
 #subtitle
 ::::::prose-p-3
-*1/* Tworzymy wydajne strony www
+*1/* Dla nas liczy się jakość
 ::::::
 
 #title
-### Jesteśmy doświadczonym zespołem *do zadań specjalnych*
+### Dostarczamy strony internetowe <br> *na najwyższym poziomie*
 :::::
 
 :::::prose-p-3
 ---
 class: max-w-[650px] [&_p]:desktop:!mb-5 [&_p]:!leading-8
 --- 
-Nie korzystamy z szablonów czy gotowców. Strony internetowe wdrażamy od podstaw, korzystając tylko ze sprawdzonych i nowoczesnych technologii oraz jasnych procesów technologicznych. Dzięki temu zapewniamy najwyższą jakość, wydajność i bezpieczeństwo.
+Nie korzystamy z szablonów czy gotowców. **Strony internetowe programujemy od podstaw**, korzystając tylko ze sprawdzonych  i nowoczesnych technologii oraz jasnych procesów technologicznych. Dzięki temu zapewniamy najwyższą jakość, wydajność  i bezpieczeństwo.
 :::::
 
 :::::prose-p-4
 ---
 class: static-content max-w-[650px]
 --- 
-Od projektu UX/UI strony, przez programowanie backend/frontent, po wsparcie powdrożeniowe, świadczymy usługi na każdym etapie życia produktu.
+Od warsztatów projektowych, przez **projekt interfejsu strony**, programowanie backend/frontent, po **wsparcie powdrożeniowe** - z nami kompleksowo zrealizujesz stronę www swojej firmy.
 :::::
 ::::
 
@@ -139,8 +139,6 @@ Najpopularniejszy i najłatwiejszy w obsłudze system zarządzania treścią, kt
 Dowiedz się więcej
 ::::
 
-
-
 ::::offer-tile-md
 --- 
 icon: '/img/icons/drupal.svg'
@@ -174,6 +172,7 @@ Dowiedz się więcej
 ::::
 :::
 ::
+
 
 ::page-section-md
 ---
@@ -231,7 +230,7 @@ class: -z-10
 ---
 center: true
 maxWidth: 540
-class: mb-20
+class: mb-10
 ---
 
 #subtitle
@@ -244,9 +243,6 @@ class: mb-20
 :::
 
 :::block-columns-1-1-md
----
-class: mb-10 tablet:mb-20 pb-20 tablet:pb-[100px] border-b-2 border-gray-light
----
 
 #left
 
@@ -351,14 +347,10 @@ Przeprowadzamy szczegółową kontrolę jakości i funkcjonowania strony. Testy 
 ::
 
 
-
-
-
 ::page-section-md
 ---
 classes: bg-gray-darkest pt-10 tablet:pt-[100px] mb-[100px] tablet:mb-[200px]
 ---
-
 
 :::effect-appear-md
 ---
@@ -372,9 +364,6 @@ class: mb-10 tablet:mb-20
 textWhite: true
 center: true
 ---
-
-#subtitle
-*4/* -
 
 #title
 ### Dlaczego wysoka jakość strony internetowej *się opłaca?*
@@ -395,6 +384,9 @@ iconDecorated: true
 #title
 #### 30% szybsze ładowanie strony
 
+#description
+Które bezpośrednio wpływa na pozycjonowanie w wynikach Googla, a także na wrażenia użytkowników - współczynnik odrzuceń wzrasta o 90% gdy strona łąduje się powyżej 3s
+
 ::::::
 ::::::tile-dark-icon-md
 ---
@@ -405,6 +397,9 @@ iconDecorated: true
 
 #title
 #### 50% niższy koszt rozbudowy
+
+#description
+Dobry jakościowo kod i zgodność z dokumentacją sprawiają że dalsza rozbudowa nie będzie niosła za sobą komplikacji i skróci czas jaki developer potrzebuje na wdrożenie nowych podstron czy funkcji.
 
 ::::::
 ::::::tile-dark-icon-md
@@ -417,8 +412,10 @@ iconDecorated: true
 #title
 #### Stabilne działanie nawet przez wiele lat
 
-::::::
+#description
+Jakościowe wdrożenie to pewność działania strony m.in. bez wtop wydajnościowych czy błędów blokujących otwarcie oraz maksymalizacja bezpieczeństwa danych.
 
+::::::
 :::::
 :::
 
@@ -426,12 +423,12 @@ iconDecorated: true
 :::effect-appear-md
 ::::prose-figure
 ---
-src: '/img/content-images/approach-img-wide.png'
+src: '/img/content-images/strony-internetowe/section4.png'
 rounded: false
 ---
+
 ::::
 :::
-
 ::
 
 
@@ -639,29 +636,6 @@ moreBtn.linktitle: Zobacz wszystkie projekty
 
 ::page-section-md
 ---
-class: mb-[50px] tablet:mb-[100px]
----
-:::effect-appear-md
-::::block-cta-md
----
-maxWidth: 650
-button.link: https://www.webo.agency/kontakt
-button.title: 'Umów się na konsultację'
-button.isWide: true
----
-
-#title
-#### Potrzebujesz więcej informacji?
-
-#description
-Umów się na rozmowę i poznaj jak tworzymy wydajne strony www
-
-::::
-:::
-::
-
-::page-section-md
----
 class: mb-20 tablet:mb-[130px]
 ---
 :::effect-appear-md
@@ -672,7 +646,7 @@ class: mb-[50px] tablet:mb-[100px]
 ---
 
 #subtitle
-*6/* Nasi klienci
+*7/* Nasi klienci
 
 #title
 ### Poznaj firmy które *nam zaufały*
