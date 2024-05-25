@@ -127,7 +127,7 @@ class: mb-20
 ::::offer-tile-md
 --- 
 icon: '/img/icons/wordpress.svg'
-link: 'https://www.webo.agency/kontakt'
+link: 'https://www.webo.agency/uslugi/strony-wordpress'
 ---
 #title
 ##### Wordpress
