@@ -269,7 +269,7 @@ textWhite: true
 ---
 imgUrl: '/img/icons/dark-laptop.svg'
 decoration: false
-class: ml-0 !mb-5 !w-[200px]
+class: ml-0 !mb-5 !w-20 tablet:!w-[160px] desktop:!w-[200px]
 ---
 
 :::::::
@@ -380,7 +380,7 @@ textWhite: true
 ---
 imgUrl: '/img/icons/dark-weight.svg'
 decoration: false
-class: ml-0 !mb-5 !w-[200px]
+class: ml-0 !mb-5 !w-20 tablet:!w-[160px] desktop:!w-[200px]
 ---
 
 :::::::
@@ -425,7 +425,7 @@ Bezwzględnie stawiamy na:
 ::::
 ::::block-list-ul-md
 ---
-class: mb-10 gap-5 columns-1 flex _tablet:columns-3 [&_li]:inline-block _space-y-5 tablet:w-full
+class: mb-10 gap-5 columns-1 flex flex-col tablet:flex-row _tablet:columns-3 [&_li]:inline-block _space-y-5 tablet:w-full
 ---
 
 :::::tile-dark-icon-md
@@ -665,7 +665,7 @@ class: relative z-10 overflow-hidden tablet:overflow-visible -mx-5 tablet:mx-0
 ---
 imgUrl: '/img/content-images/strony-wordpress/wordpress-laptop.png'
 decoration: false
-class: 
+class: tablet:mb-20 !mb-0
 ---
 
 :::::
