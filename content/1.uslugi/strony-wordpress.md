@@ -216,7 +216,7 @@ class: tablet:mb-36 [&_.description]:desktop:!text-lg
 #### Szukasz solidnego *zespołu od Wordpress?*
 
 #description
-Umów się na bezpłatną konsultację i opowiedz nam  więcej o swoim projekcie
+Umów się na bezpłatną konsultację i opowiedz nam więcej o swoim projekcie
 
 ::::
 :::
