@@ -1,6 +1,9 @@
 ---
 name: Strony Wordpress
 description: Strony Wordpress
+meta:
+  title: Stworzymy stronę internetową Wordpress dla Twojej firmy
+  description: Szukasz doświadczonego zespołu od Wordpressa, który zaprojektuje i zakoduje Twoją stronę od podstaw? Dobrze trafiłeś!
 showInNav: false
 draft: false
 public: true
