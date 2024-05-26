@@ -425,7 +425,7 @@ Bezwzględnie stawiamy na:
 ::::
 ::::block-list-ul-md
 ---
-class: mb-10 gap-5 columns-1 flex flex-col tablet:flex-row _tablet:columns-3 [&_li]:inline-block _space-y-5 tablet:w-full
+class: mb-10 gap-5 columns-1 flex flex-col tablet:flex-row _tablet:columns-3 [&_li]:inline-block tablet:w-full
 ---
 
 :::::tile-dark-icon-md
