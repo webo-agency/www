@@ -62,7 +62,7 @@ class: mb-10
 Wordpress CMS jest najpopularniejszym systemem zarządzania treścią stron internetowych na świecie. Bardzo dobrze znamy ten system a na dodatek łączymy go z nowoczesnymi rozwiązaniami i technologiami.
 ::::::
 ::::::prose-p-4
-Zaprojektujemy dla Ciebie indywidualny wygląd strony, pasujący do Twojej marki i odpowiadający wymaganiom oraz zakodujemy od podstaw - zgodnie z dokumentacją techniczą, bez słabych wydajnościowo szablonów czy gotowców.
+Zaprojektujemy dla Ciebie indywidualny wygląd strony, pasujący do Twojej marki i odpowiadający wymaganiom oraz zakodujemy od podstaw - zgodnie z dokumentacją techniczną, bez słabych wydajnościowo szablonów czy gotowców.
 ::::::
 
 :::::
