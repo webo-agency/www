@@ -696,7 +696,7 @@ class: mb-10
 Jest to system zarządzania treścią który oferuje ogromne możliwości. Dzięki jego elastyczności możemy stworzyć zarówno firmową stronę internetową, sklep e-commerce czy rozbudowany serwis informacyjny. Zaletą Wordpressa jest także jego skalowalność, bez problemu można wybrać ten system z założeniem dalszej (nawet znacznej) rozbudowy strony w przyszłości - konieczne jest jednak odpowiednie podejście i jakość wykonania.
 ::::::
 ::::::prose-p-4
-Wordpress to na pewno systemem przyjazny dla SEO, dzięki liczym wbudowanym rozwiązaniom oraz rozszerzeniom, Twoja strona będzie osiągać lepsze wyniki w wyszukiwarce Google. Korzystanie z tego systemu CMS jest naprawde proste, a w razie trudności i problemów można liczyć na wsparcie licznej społeczności.
+Wordpress to na pewno systemem przyjazny dla SEO, dzięki licznym wbudowanym rozwiązaniom oraz rozszerzeniom, Twoja strona będzie osiągać lepsze wyniki w wyszukiwarce Google. Korzystanie z tego systemu CMS jest naprawde proste, a w razie trudności i problemów można liczyć na wsparcie licznej społeczności.
 ::::::
 :::::
 ::::
