@@ -115,7 +115,7 @@ center: true
 icon: '/img/icons/wordpress-icon1.svg'
 ---
 #title
-##### Stworzenie nowej strony Wordpress
+#### Stworzenie nowej strony Wordpress
 
 #description
 
@@ -127,7 +127,7 @@ icon: '/img/icons/wordpress-icon2.svg'
 delay: 1
 ---
 #title
-##### Rozbudowa strony internetowej Wordpress
+#### Rozbudowa strony internetowej Wordpress
 
 #description
 
@@ -139,7 +139,7 @@ icon: '/img/icons/wordpress-icon3.svg'
 delay: 2
 ---
 #title
-##### Programowanie wtyczek i pluginów Wordpress
+#### Programowanie wtyczek i pluginów Wordpress
 
 #description
 
@@ -151,7 +151,7 @@ icon: '/img/icons/wordpress-icon4.svg'
 delay: 3
 ---
 #title
-##### Konfiguratory Wordpress i dedykowane rozwiązania
+#### Konfiguratory Wordpress i dedykowane rozwiązania
 
 #description
 
@@ -163,7 +163,7 @@ icon: '/img/icons/wordpress-icon5.svg'
 delay: 4
 ---
 #title
-##### Optymalizacja wydajności i naprawa błędów
+#### Optymalizacja wydajności i naprawa błędów
 
 #description
 
@@ -175,7 +175,7 @@ icon: '/img/icons/wordpress-icon6.svg'
 delay: 5
 ---
 #title
-##### Wsparcie techniczne Wordpress
+#### Wsparcie techniczne Wordpress
 
 #description
 
