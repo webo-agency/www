@@ -20,7 +20,7 @@ isSecondSvg: true
 *-/* Nowa technologia stron www
 
 #title
-## Strony internetowe Wordpress + Headless
+# Strony internetowe Wordpress + Headless
 
 #description
 Czyli połączenie funkcjonalności i łatwości edycji Wordpress CMS z nowoczesną architekturą, dzięki której Twoja strona zyska silniki rakietowe.
@@ -50,10 +50,10 @@ class: items-center
 :::::block-header-md
 
 #subtitle
-*1/* Wykorzystanie WordPress jako backendu
+### *1/* Wykorzystanie WordPress jako backendu
 
 #title
-### Czym jest Headless CMS
+## Czym jest Headless CMS
 
 #description
 ::::::prose-p-4
@@ -115,10 +115,10 @@ class: mb-10
 ---
 
 #subtitle
-*2/* Wordpress Headless
+### *2/* Wordpress Headless
 
 #title
-### Tworzymy strony Headless <br> *w oparciu o Wordpress CMS*
+## Tworzymy strony Headless <br> *w oparciu o Wordpress CMS*
 
 #description
 ::::::prose-p-4
@@ -193,7 +193,7 @@ center: true
 ---
 
 #title
-### Korzyści stron headless dla Twojej firmy
+## Korzyści stron headless dla Twojej firmy
 
 ::::
 :::::block-list-ul-md
@@ -270,10 +270,10 @@ class: mb-20
 ---
 
 #subtitle
-*3/* Headles CMS dlaczego warto?
+### *3/* Headles CMS dlaczego warto?
 
 #title
-### Co jeszcze zyskasz dzięki architekturze Headless?
+## Co jeszcze zyskasz dzięki architekturze Headless?
 
 ::::
 
@@ -399,10 +399,10 @@ class: mb-20
 ---
 
 #subtitle
-*4/* Przejdź na wyższy poziom
+### *4/* Przejdź na wyższy poziom
 
 #title
-### Headless Wordpress vs Standardowa strona
+## Headless Wordpress vs Standardowa strona
 
 ::::
 
@@ -431,6 +431,7 @@ class: icon [&_div_div_picture]:pt-2.5
 ---
 
 #description
+
 **<u>Wielokanałowość</u>** - możliwość zarządzania treścią z jednego miejsca dla wielu platform, dzięki czemu zaoszczędzisz środki przeznaczone na utrzymanie rozbudowanej infrastruktury.
 
 ::::::
@@ -556,10 +557,10 @@ maxWidth: 480
 ---
 
 #subtitle
-*5/* Etapy realizacji sklepu internetowego
+### *5/* Etapy realizacji sklepu internetowego
 
 #title
-### Jak przebiega proces realizacji strony internetowej?
+## Jak przebiega proces realizacji strony internetowej?
 
 :::::
 ::::
@@ -727,10 +728,10 @@ class: mb-10 tablet:mb-20
 ---
 
 #subtitle
-*6/* Nasze ostatnie realizacje
+### *6/* Nasze ostatnie realizacje
 
 #title
-### Jesteśmy dumni <br> z *wykonanych projektów*
+## Jesteśmy dumni <br> z *wykonanych projektów*
 
 ::::
 :::
@@ -761,10 +762,10 @@ class: mb-[50px] tablet:mb-[100px]
 ---
 
 #subtitle
-*6/* Nasi klienci
+### *7/* Nasi klienci
 
 #title
-### Poznaj firmy które *nam zaufały*
+## Poznaj firmy które *nam zaufały*
 
 ::::
 :::
