@@ -22,7 +22,7 @@ isSecondSvg: true
 #subtitle
 
 #title
-## Stworzymy stronę internetową Wordpress dla Twojej firmy
+# Stworzymy stronę internetową Wordpress dla Twojej firmy
 
 #description
 Szukasz doświadczonego zespołu od Wordpressa, który zaprojektuje i zakoduje Twoją stronę od podstaw? Dobrze trafiłeś!
@@ -52,10 +52,10 @@ class: items-center
 :::::block-header-md
 
 #subtitle
-*1/*  Projektowanie i programowanie w Wordpress
+### *1/*  Projektowanie i programowanie w Wordpress
 
 #title
-### Tworzymy solidne strony oparte na Wordpressie
+## Tworzymy solidne strony oparte na Wordpressie
 
 #description
 ::::::prose-p-4
@@ -65,6 +65,9 @@ class: mb-10
 Wordpress CMS jest najpopularniejszym systemem zarządzania treścią stron internetowych na świecie. Bardzo dobrze znamy ten system a na dodatek łączymy go z nowoczesnymi rozwiązaniami i technologiami.
 ::::::
 ::::::prose-p-4
+---
+class: text-base
+---
 Zaprojektujemy dla Ciebie indywidualny wygląd strony, pasujący do Twojej marki i odpowiadający wymaganiom oraz zakodujemy od podstaw - zgodnie z dokumentacją techniczną, bez słabych wydajnościowo szablonów czy gotowców.
 ::::::
 
@@ -73,7 +76,7 @@ Zaprojektujemy dla Ciebie indywidualny wygląd strony, pasujący do Twojej marki
 #right
 :::::img-decorated-md
 ---
-class: hidden desktop:block [&_.block]:scale-[1.6] [&_.block]:ml-[-20px] [&_.block_picture]:absolute desktop-wide:[&_.block_picture]:bottom-[-220px] desktop:[&_.block_picture]:bottom-[-100px] fullHd:[&_.block_picture]:bottom-[-240px] 
+class: block _hidden desktop:block [&_.block]:scale-[1.6] [&_.block]:ml-[-20px] desktop:[&_.block_picture]:absolute desktop-wide:[&_.block_picture]:bottom-[-220px] desktop:[&_.block_picture]:bottom-[-100px] fullHd:[&_.block_picture]:bottom-[-240px] 
 decoration: false
 imgUrl: '/img/content-images/strony-wordpress/laptop_mockup.png'
 ---
@@ -96,10 +99,10 @@ center: true
 ---
 
 #subtitle
-*2/* Kompleksowa realizacja Wordpress
+### *2/* Kompleksowa realizacja Wordpress
 
 #title
-### Co możesz nam zlecić?
+## Co możesz nam zlecić?
 
 #description
 
@@ -245,10 +248,10 @@ center: true
 ---
 
 #subtitle
-*3/* Dlaczego warto nam zaufać?
+### *3/* Dlaczego warto nam zaufać?
 
 #title
-### Jakie są nasze *strony Wordpress?*
+## Jakie są nasze *strony Wordpress?*
 
 ::::
 
@@ -278,7 +281,7 @@ class: ml-0 !mb-5 !w-20 tablet:!w-[160px] desktop:!w-[200px]
 :::::::
 
 #title
-##### Programowane od podstaw - bez użycia słabych wydajnościowo szablonów
+#### Programowane od podstaw - bez użycia słabych wydajnościowo szablonów
 
 #description
 :::::::prose-p-3
@@ -311,6 +314,7 @@ class: w-full
 
 ::::block-columns-1-1-md
 ---
+reverseMobile: true
 class: mb-16
 ---
 
@@ -347,7 +351,7 @@ class: ml-0 !pl-0 !mb-5 !w-20
 :::::::
 
 #title
-##### Zaprojektowany indywidualnie dla Twojej firmy i jej potrzeb
+#### Zaprojektowany indywidualnie dla Twojej firmy i jej potrzeb
 
 #description
 :::::::prose-p-3
@@ -389,7 +393,7 @@ class: ml-0 !mb-5 !w-20 tablet:!w-[160px] desktop:!w-[200px]
 :::::::
 
 #title
-##### Stabilnie działające przez lata i przygotowanie do rozwoju
+#### Stabilnie działające przez lata i przygotowanie do rozwoju
 
 #description
 :::::::prose-p-3
@@ -481,7 +485,7 @@ class:  desktop:min-h-[270px] w-1/3
 ---
 classes: mb-10 tablet:mb-20
 ---
-:::block-columns-5-7-md
+:::block-columns-1-1-md
 ---
 class: mb-10
 ---
@@ -490,14 +494,15 @@ class: mb-10
 ::::effect-appear-md
 :::::block-header-md
 ---
-maxWidth: 480
+maxWidth: 580
+class: mb-7
 ---
 
 #subtitle
-*4/* Etapy realizacji strony Wordpress
+### *4/* Etapy realizacji strony Wordpress
 
 #title
-### Jak krok po kroku przebiega realizacja strony Wordpress?
+## Jak krok po kroku przebiega realizacja strony Wordpress?
 
 :::::
 ::::
@@ -686,10 +691,10 @@ class: mb-10
 ---
 
 #subtitle
-*5/* Zalety Wordpress CMS
+### *5/* Zalety Wordpress CMS
 
 #title
-### Dlaczego warto wybrać Wordpress?
+## Dlaczego warto wybrać Wordpress?
 
 #description
 ::::::prose-p-4
@@ -757,10 +762,10 @@ class: mb-10 tablet:mb-20
 ---
 
 #subtitle
-*6/* Nasze ostatnie realizacje
+### *6/* Nasze ostatnie realizacje
 
 #title
-### Jesteśmy dumni <br> z *wykonanych projektów*
+## Jesteśmy dumni <br> z *wykonanych projektów*
 
 ::::
 :::
@@ -791,10 +796,10 @@ class: mb-[50px] tablet:mb-[100px]
 ---
 
 #subtitle
-*6/* Nasi klienci
+### *7/* Nasi klienci
 
 #title
-### Poznaj firmy które *nam zaufały*
+## Poznaj firmy które *nam zaufały*
 
 ::::
 :::
