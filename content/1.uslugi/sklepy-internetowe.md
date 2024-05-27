@@ -25,7 +25,7 @@ isSecondSvg: true
 *-/* E-commerce B2B i B2C
 
 #title
-## Sklepy internetowe
+# Sklepy internetowe
 
 #description
 Projektujemy i wdrażamy świetnie wyglądające i wydajne sklepy internetowe z płynnym procesem zakupowym.
@@ -41,7 +41,7 @@ svgUrl_tr: '/img/svg-square.svg'
 
 ::page-section-md
 ---
-classes: pt-20 mb-5 tablet:mb-[150px] overflow-hidden static-content
+classes: pt-20 mb-5 tablet:mb-[150px] overflow-hidden
 ---
 :::block-columns-1-1-md
 ---
@@ -59,12 +59,10 @@ maxWidth: 690
 ---
 
 #subtitle
-::::::prose-p-3
-*1/* Stawiamy na funkcjonalność i wydajność
-::::::
+### *1/* Stawiamy na funkcjonalność i wydajność
 
 #title
-### Dostarczamy stabilnie działające sklepy *przygotowane do rozwoju*
+## Dostarczamy stabilnie działające sklepy *przygotowane do rozwoju*
 
 #description
 :::::prose-p-3
@@ -119,10 +117,10 @@ class: mb-10 tablet:mb-[60px]
 ---
 
 #subtitle
-*2/* Dopasowane rozwiązania dla sklepów www
+### *2/* Dopasowane rozwiązania dla sklepów www
 
 #title
-### Na jakich platformach *tworzymy sklepy internetowe?*
+## Na jakich platformach *tworzymy sklepy internetowe?*
 ::::
 :::
 
@@ -134,7 +132,7 @@ icon: '/img/icons/wordpress.svg'
 link: 'https://www.webo.agency/kontakt'
 ---
 #title
-##### Prestashop
+#### Prestashop
 
 #description
 Jedna z najpopularniejszych platform e-commerce zawierająca ponad 300 wbudowanych funkcji i obszerną bibliotekę gotowych modułów. Świetne rozwiązanie dla średnich sklepów internetowych.
@@ -152,7 +150,7 @@ link: 'https://www.webo.agency/kontakt'
 delay: 1
 ---
 #title
-##### DrupalCommerce
+#### DrupalCommerce
 
 #description
 Nowoczesne sklepy internetowe tworzone w jednym z najbezpieczniejszych systemów zarządzania treścią. Wydajne systemy z nieograniczoną możliwością rozwoju i licznymi integracjami.
@@ -168,7 +166,7 @@ link: 'https://www.webo.agency/kontakt'
 delay: 2
 ---
 #title
-##### WooCommerce
+#### WooCommerce
 
 #description
 Najpopularniejsze rozwiązanie e-commerce na świecie. Idealne rozwiązanie dla małych i średniej wielkości sklepów internetowych ze standardowymi funkcjami sprzedażowymi. 
@@ -223,10 +221,10 @@ class: mb-20
 ---
 
 #subtitle
-*3/* Wdrożenia sklepów internetowych
+### *3/* Wdrożenia sklepów internetowych
 
 #title
-### Co możemy dla Ciebie zrobić?
+## Co możemy dla Ciebie zrobić?
 
 #description
 W zależności od wymagań Twojego projektu możemy dostarczyć
@@ -360,7 +358,7 @@ center: true
 #subtitle
 
 #title
-### Dlaczego wysoka jakość sklepu internetowego *się opłaca?*
+## Dlaczego wysoka jakość sklepu internetowego *się opłaca?*
 
 ::::
 :::::block-list-ul-md
@@ -471,10 +469,10 @@ maxWidth: 480
 ---
 
 #subtitle
-*5/* Etapy realizacji sklepu internetowego
+### *5/* Etapy realizacji sklepu internetowego
 
 #title
-### Zobacz jak tworzymy *sklepy internetowe*
+## Zobacz jak tworzymy *sklepy internetowe*
 
 :::::
 ::::
@@ -630,7 +628,7 @@ Często publikacja strony to dopiero początek, a podczas użytkowania strony po
 
 ::page-section-md
 ---
-classes: mb-20 tablet:mb-[100px] static-content
+classes: mb-20 tablet:mb-[100px]
 ---
 
 :::block-columns-1-1-md
@@ -661,11 +659,11 @@ class: mb-10 tablet:mb-16 tablet:mt-10
 
 #subtitle
 ::::::prose-p-3
-*6/* Wsparcie techniczne i rozwój
+### *6/* Wsparcie techniczne i rozwój
 ::::::
 
 #title
-### O czym jeszcze <br> musisz wiedzieć?
+## O czym jeszcze <br> musisz wiedzieć?
 
 #description
 ::::::prose-p-3
@@ -699,10 +697,10 @@ class: mb-10 tablet:mb-20
 ---
 
 #subtitle
-*7/* Nasze ostatnie realizacje
+### *7/* Nasze ostatnie realizacje
 
 #title
-### Jasteśmy dumni <br> z *wykonanych projektów*
+## Jasteśmy dumni <br> z *wykonanych projektów*
 
 ::::
 :::
@@ -733,10 +731,10 @@ class: mb-[50px] tablet:mb-[100px]
 ---
 
 #subtitle
-*8/* Nasi klienci
+### *8/* Nasi klienci
 
 #title
-### Poznaj firmy które *nam zaufały*
+## Poznaj firmy które *nam zaufały*
 
 ::::
 :::
