@@ -23,7 +23,7 @@ isSecondSvg: true
 *-/* Wsparcie techniczne strony internetowej
 
 #title
-## Wsparcie i rozwój stron i sklepów www
+# Wsparcie i rozwój stron i sklepów www
 
 #description
 Jeśli potrzebujesz stałego nadzoru nad swoją stroną lub sklepem, a na dodatek planujesz rozbudowę lub prace optymalizacyjne, ta oferta jest dla Ciebie.
@@ -39,7 +39,7 @@ svgUrl_br: '/img/svg-square.svg'
 
 ::page-section-md
 ---
-classes: pt-20 mb-5 tablet:mb-20 overflow-hidden static-content
+classes: pt-20 mb-5 tablet:mb-20 overflow-hidden
 ---
 :::block-columns-1-1-md
 ---
@@ -57,12 +57,10 @@ maxWidth: 690
 ---
 
 #subtitle
-::::::prose-p-3
-*1/* Gwarantowana dostępność specjalistów
-::::::
+### *1/* Gwarantowana dostępność specjalistów
 
 #title
-### Skup się na biznesie, stronę www *zostaw specjalistom*
+## Skup się na biznesie, stronę www *zostaw specjalistom*
 
 #description
 :::::prose-p-3
@@ -110,10 +108,10 @@ maxWidth: 510
 ---
 
 #subtitle
-*2/* Kompleksowe wsparcie techniczne strony i sklepu
+### *2/* Kompleksowe wsparcie techniczne strony i sklepu
 
 #title
-### Co robimy w ramach *usługi wsparcia?*
+## Co robimy w ramach *usługi wsparcia?*
 
 ::::
 :::
@@ -127,7 +125,7 @@ tilesTight: true
 icon: '/img/icons/services-update.svg'
 ---
 #title
-##### Dbamy o aktualizacje systemu i modułów
+#### Dbamy o aktualizacje systemu i modułów
 
 ::::
 
@@ -137,7 +135,7 @@ icon: '/img/icons/services-fast.svg'
 delay: 1
 ---
 #title
-##### Optymalizujemy szybkość i wydajność strony
+#### Optymalizujemy szybkość i wydajność strony
 
 ::::
 
@@ -147,7 +145,7 @@ icon: '/img/icons/services-scale.svg'
 delay: 2
 ---
 #title
-##### Projektujemy i wdrażamy nowe podstrony i funkcjonalności
+#### Projektujemy i wdrażamy nowe podstrony i funkcjonalności
  
 ::::
 
@@ -157,7 +155,7 @@ icon: '/img/icons/services-process.svg'
 delay: 3
 ---
 #title
-##### Optymalizujemy procesy IT i wdrażamy automatyzacje
+#### Optymalizujemy procesy IT i wdrażamy automatyzacje
  
 ::::
 
@@ -167,7 +165,7 @@ icon: '/img/icons/services-code.svg'
 delay: 4
 ---
 #title
-##### Programujemy dedykowane moduły
+#### Programujemy dedykowane moduły
  
 ::::
 
@@ -177,7 +175,7 @@ icon: '/img/icons/services-integration.svg'
 delay: 5
 ---
 #title
-##### Integrujemy stronę z zewnętrznymi systemami
+#### Integrujemy stronę z zewnętrznymi systemami
  
 ::::
 
@@ -187,7 +185,7 @@ icon: '/img/icons/services-alert.svg'
 delay: 6
 ---
 #title
-##### Monitorujemy działanie i reagujemy na awarie
+#### Monitorujemy działanie i reagujemy na awarie
  
 ::::
 
@@ -197,7 +195,7 @@ icon: '/img/icons/services-secure.svg'
 delay: 7
 ---
 #title
-##### Podnosimy bezpieczeństwo
+#### Podnosimy bezpieczeństwo
  
 ::::
 :::
@@ -269,10 +267,10 @@ center: true
 ---
 
 #subtitle
-*3/* Korzyści stałego wsparcia stron www
+### *3/* Korzyści stałego wsparcia stron www
 
 #title
-### Co zyskujesz powierzając nam *opiekę nad stroną www?*
+## Co zyskujesz powierzając nam *opiekę nad stroną www?*
 
 ::::
 :::::block-list-ul-md
@@ -378,10 +376,10 @@ class: mb-20
 ---
 
 #subtitle
-*4/* Solidny support strony i sklepu internetowego
+### *4/* Solidny support strony i sklepu internetowego
 
 #title
-### Zapewniamy najwyższe standardy *pomocy technicznej*
+## Zapewniamy najwyższe standardy *pomocy technicznej*
 
 ::::
 :::
@@ -498,7 +496,7 @@ Po zakończeniu każdego miesiąca, przesyłamy raport z podsumowaniem prac zawi
 
 ::page-section-md
 ---
-classes: mb-20 tablet:mb-[100px] static-content
+classes: mb-20 tablet:mb-[100px]
 ---
 :::effect-appear-md
 ::::block-header-md
@@ -509,12 +507,10 @@ class: mb-20
 ---
 
 #subtitle
-:::::prose-p3
-*5/* Dopasowane rozwiązanie
-:::::
+### *5/* Dopasowane rozwiązanie
 
 #title
-### Proponujemy wygodne *metody współpracy*
+## Proponujemy wygodne *metody współpracy*
 
 ::::
 :::
@@ -575,7 +571,7 @@ Płacisz tylko i wyłącznie gdy potrzebujesz naszego wsparcia, możesz liczyć 
 
 ::page-section-md
 ---
-classes: mb-20 tablet:mb-[100px] static-content
+classes: mb-20 tablet:mb-[100px]
 ---
 
 :::block-columns-1-1-md
@@ -605,12 +601,10 @@ class: mb-10 tablet:mb-16
 ---
 
 #subtitle
-::::::prose-p-3
-*6/* Help desk
-::::::
+### *6/* Help desk
 
 #title
-### HelpDesk czyli <br> *Twój system dowodzenia*
+## HelpDesk czyli <br> *Twój system dowodzenia*
 
 #description
 ::::::prose-p-3
@@ -645,10 +639,10 @@ class: mb-10 tablet:mb-20
 ---
 
 #subtitle
-*7/* Nasze ostatnie realizacje
+### *7/* Nasze ostatnie realizacje
 
 #title
-### Jesteśmy dumni <br>z *wykonanych projektów*
+## Jesteśmy dumni <br>z *wykonanych projektów*
 
 ::::
 :::
@@ -699,10 +693,10 @@ class: mb-[50px] tablet:mb-[100px]
 ---
 
 #subtitle
-*7/* Nasi klienci
+### *8/* Nasi klienci
 
 #title
-### Poznaj firmy które *nam zaufały*
+## Poznaj firmy które *nam zaufały*
 
 ::::
 :::
