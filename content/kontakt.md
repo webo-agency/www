@@ -12,10 +12,10 @@ bgUrl: './img/contact_bg.png'
 ---
 
 #subtitle
-*-/* Kontakt
+## *-/* Kontakt
 
 #title
-## Skontaktuj się z nami i *zrealizuj swój projekt*
+# Skontaktuj się z nami i *zrealizuj swój projekt*
 
 #description
 Wypełnij poniższy formularz. Z chęcią odpowiemy na wszystkie Twoje pytania!
@@ -34,10 +34,10 @@ maxWidth: 280
 ---
 
 #subtitle
-*1/* Do dzieła
+### *1/* Do dzieła
 
 #title
-### Co możemy dla Ciebie *zrobić?*
+## Co możemy dla Ciebie *zrobić?*
 
 :::
 :::block-form-md
@@ -234,10 +234,10 @@ class: mb-[50px] tablet:mb-[100px]
 ---
 
 #subtitle
-*-/* Nasi klienci
+### *-/* Nasi klienci
 
 #title
-### Poznaj firmy które *nam zaufały*
+## Poznaj firmy które *nam zaufały*
 
 ::::
 :::
