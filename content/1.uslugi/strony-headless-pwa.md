@@ -431,7 +431,6 @@ class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit
 ---
 
 #description
-
 **<u>Wielokanałowość</u>** - możliwość zarządzania treścią z jednego miejsca dla wielu platform, dzięki czemu zaoszczędzisz środki przeznaczone na utrzymanie rozbudowanej infrastruktury.
 
 ::::::

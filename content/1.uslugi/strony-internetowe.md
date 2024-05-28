@@ -1,15 +1,16 @@
 ---
 name: Strony www
-description: Strony na których Twój klient szybko znajdzie to czego szuka..
+description: Szybkie, wydajne i funkcjonalne strony internetowe.
 meta:
-  title: Solidne strony internetowe
-  description: Dostarczamy szyte na miarę i wydajne strony internetowe, projektując dla Ciebie indywidualny wygląd i programując od podstaw, tak aby działała stabilnie przez lata.
+    title: Solidne strony internetowe
+    description: Dostarczamy szyte na miarę i wydajne strony internetowe, projektując dla Ciebie indywidualny wygląd i programując od podstaw, tak aby działała stabilnie przez lata.
 showInNav: true
 draft: false
 public: true
+hreflangs:
+    EN: '/services/websites'
+    PL: '/uslugi/strony-internetowe'
 ---
-
-
 ::block-banner-md
 ---
 bgImg: false
@@ -243,7 +244,7 @@ class: mb-20
 
 :::block-columns-1-1-md
 ---
-class: mb-10 tablet:mb-20 pb-20 tablet:pb-[100px] border-b-2 border-gray-light
+class: mb-10 tablet:mb-20 pb-20 tablet:pb-[100px]
 ---
 
 #left
@@ -371,8 +372,6 @@ textWhite: true
 center: true
 ---
 
-#subtitle
-
 #title
 ## Dlaczego wysoka jakość strony internetowej *się opłaca?*
 
@@ -392,6 +391,9 @@ iconDecorated: true
 #title
 #### 30% szybsze ładowanie strony
 
+#description
+Które bezpośrednio wpływa na pozycjonowanie w wynikach Googla, a także na wrażenia użytkowników - współczynnik odrzuceń wzrasta o 90% gdy strona łąduje się powyżej 3s
+
 ::::::
 ::::::tile-dark-icon-md
 ---
@@ -402,6 +404,9 @@ iconDecorated: true
 
 #title
 #### 50% niższy koszt rozbudowy
+
+#description
+Dobry jakościowo kod i zgodność z dokumentacją sprawiają że dalsza rozbudowa nie będzie niosła za sobą komplikacji i skróci czas jaki developer potrzebuje na wdrożenie nowych podstron czy funkcji.
 
 ::::::
 ::::::tile-dark-icon-md
@@ -414,6 +419,9 @@ iconDecorated: true
 #title
 #### Stabilne działanie nawet przez wiele lat
 
+#description
+Jakościowe wdrożenie to pewność działania strony m.in. bez wtop wydajnościowych czy błędów blokujących otwarcie oraz maksymalizacja bezpieczeństwa danych.
+
 ::::::
 
 :::::
@@ -423,12 +431,11 @@ iconDecorated: true
 :::effect-appear-md
 ::::prose-figure
 ---
-src: '/img/content-images/approach-img-wide.png'
+src: '/img/content-images/strony-internetowe/section4.png'
 rounded: false
 ---
 ::::
 :::
-
 ::
 
 
@@ -630,30 +637,6 @@ moreBtn.url: 'https://www.webo.agency/realizacje'
 moreBtn.linktitle: Zobacz wszystkie projekty
 ---
 
-:::
-::
-
-
-::page-section-md
----
-class: mb-[50px] tablet:mb-[100px]
----
-:::effect-appear-md
-::::block-cta-md
----
-maxWidth: 650
-button.link: https://www.webo.agency/kontakt
-button.title: 'Umów się na konsultację'
-button.isWide: true
----
-
-#title
-#### Potrzebujesz więcej informacji?
-
-#description
-Umów się na rozmowę i poznaj jak tworzymy wydajne strony www
-
-::::
 :::
 ::
 

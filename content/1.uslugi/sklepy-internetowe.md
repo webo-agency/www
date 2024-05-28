@@ -16,8 +16,8 @@ hreflangs:
 ::block-banner-md
 ---
 bgImg: false
-headerWidth: 660
-descriptionWidth: 660
+headerWidth: 550
+descriptionWidth: 440
 isSecondSvg: true
 ---
 
@@ -281,7 +281,7 @@ animated: false
 #### Zaawansowane funkcjonalności i moduły
 
 #description
-Jeśłi Twój sklep potrzebuje nietypowych funkcji, dzięki którym wyprzedzisz konkurencję także możesz na nas liczyć. Jesteśmy zespołem do zadań specjalnych i nie boimy się wyzwań. Z chęcią zaprojektujemy i wdrożymy dla Ciebie dedykowane rozwiązania.
+Jeśli Twój sklep potrzebuje nietypowych funkcji, dzięki którym wyprzedzisz konkurencję także możesz na nas liczyć. Jesteśmy zespołem do zadań specjalnych i nie boimy się wyzwań. Z chęcią zaprojektujemy i wdrożymy dla Ciebie dedykowane rozwiązania.
 ::::::
 :::::
 ::::
@@ -507,7 +507,7 @@ maxWidth: 700
 #### 01. Analiza założeń
 
 #description
-Jest to pierwszy krok jaki musimy wykonać w celu realizacji strony internetowej. Podczas pierwszej rozmowy dokładnie poznajemy Twoje potrzeby oraz założenia projektu.
+Jest to pierwszy krok jaki musimy wykonać w celu realizacji sklepu internetowego. Podczas pierwszej rozmowy dokładnie poznajemy Twoje potrzeby oraz założenia projektu.
 
 **Podczas tego etapu:**
 - Przeprowadzamy videowarsztaty
@@ -534,11 +534,11 @@ maxWidth: 700
 #### 02. Projektowanie interfejsu UX/UI
 
 #description
-Podczas tego etapu pracujemy nad wyglądem strony www. Prace zaczynamy od przeanalizowania przyzwyczajeń grupy docelowej (Twoich klientów) oraz otoczenia rynkowego - wszystko po to aby użytkownicy z łatwością odnaleźli się na nowej stronie. Następnie  opracowujemy moodboardy (tablice inspiracji), wytyczamy ścieżki użytkownika (user flow), projektujemy makiety UX, kończąc na finalnym wyglądzie Twojej strony.
+Podczas tego etapu pracujemy nad szatą graficzną. Prace zaczynamy od przeanalizowania przyzwyczajeń grupy docelowej (Twoich klientów) oraz konkurencji - wszystko po to aby stworzyć dla Twoich klientów idealne warunki do zakupów. Następnie  opracowujemy moodboardy (tablice inspiracji), wytyczamy ścieżki użytkownika (user flow), projektujemy makiety UX, kończąc na finalnym wyglądzie Twojej strony.
 
 **Podczas tego etapu:**
 - Będziesz mieć wgląd w każdy etap pracy projektowej i bezpośredni kontakt z doświadczonym projektantem UX/UI.
-- Będziesz akceptować poszczególne etapy realizacji projektu Twojej strony www - od moodboardów po finalny wygląd.<br>
+- Będziesz akceptować poszczególne etapy realizacji projektu Twojego sklepu - od moodboardów po finalny wygląd.<br>
 
 **Po akceptacji finalnego wyglądu, projekt jest gotowy do etapu programowania**
 
@@ -558,14 +558,14 @@ maxWidth: 700
 #### 03. Prace programistyczne
 
 #description
-Po zaakceptowaniu projektu interfejsu, rozpoczynamy prace nad kompleksowym wdrożeniem strony internetowej w wybranej technologii. Działamy od konfiguracji infrastruktury technicznej, przez instalacje wymaganych narzędzi po zaprogramowanie strony.
+Po zaakceptowaniu projektu interfejsu, rozpoczynamy prace nad kompleksowym wdrożeniem sklepu internetowego w wybranej technologii. Działamy od konfiguracji infrastruktury technicznej, przez instalacje wymaganych narzędzi po pełne zaprogramowanie strony.
 
 **Podczas tego etapu:**
 - Będziesz mieć stały podgląd strony w środowisku developerskim, który zapewni pełną kontrolę nad projektem
 - Skonfigurujemy infrastrukturę techniczną potrzebną do wydajnego działania strony internetowej
 - Zaprogramujemy stronę www wraz ze wszystkimi wymaganymi funkcjami i integracjami np. GA4.<br>
 
-**Po zakończeniu etapu programowania, przekazujemy stronę www do testów.**
+**Po zakończeniu etapu programowania, przekazujemy sklep www do testów.**
 
 :::::
 ::::
@@ -585,11 +585,11 @@ maxWidth: 700
 #### 04. Testy i publikacja
 
 #description
-W tym etapie gruntownie sprawdzamy działanie strony internetowej. Testy wykonujemy na wielu urządzeniach i rozdzielczościach ekranu (od najmniejszych smartfonów po wyświetlacze FHD), wszystko po to aby mieć pewność że wszystko działa jak należy. Po przejściu wewnętrznych testów, przekazujemy stronę do weryfikacji klientowi - to moment na dopracowanie projektu i zgłaszanie wszelkich uwag przed publikacją.
+W tym etapie gruntownie sprawdzamy działanie sklepu internetowej. Testy wykonujemy na wielu urządzeniach i rozdzielczościach ekranu (od najmniejszych smartfonów po wyświetlacze FHD), wszystko po to aby mieć pewność że wszystkie funkcje działają jak należy. Po przejściu wewnętrznych testów, przekazujemy stronę do Twojej weryfikacji - to moment na dopracowanie projektu i zgłaszanie wszelkich uwag przed publikacją.
 
 **Podczas tego etapu:**
-- Sprawdzamy działanie każdej funkcji, wydajność strony, konfiguracje infrastruktury oraz wyświetlanie strony na wielu urządzeniach.
-- Przekazujemy stronę do weryfikacji klientowi, wykonujemy wszelkie poprawki aby przygotować stronę do publikacji.<br>
+- Sprawdzamy działanie każdej funkcji, wydajność strony, konfiguracje infrastruktury oraz wyświetlanie sklepu na wielu urządzeniach.
+- Przekazujemy stronę do Twojej weryfikacji, wykonujemy wszelkie poprawki aby przygotować stronę do uruchomienia.<br>
 
 **Po otrzymaniu od klienta zielonego światła na publikację, startujemy!**
 
@@ -610,7 +610,7 @@ maxWidth: 700
 #### 05. Wsparcie i rozwój
 
 #description
-Często publikacja strony to dopiero początek, a podczas użytkowania strony pojawiają sie pomysły na nowe funkcjonalności, zakładki czy ulepszenia - w tym miejscu nie możemy także zapomnieć o koniecznych aktualizacjach czy monitorowaniu wydajności, bezpieczeństwa czy stabilności działania.
+Publikacja sklepu to dopiero początek, podczas użytkowania sklepu pojawiają sie pomysły na nowe funkcjonalności, zakładki czy ulepszenia - w tym miejscu nie możemy także zapomnieć o koniecznych aktualizacjach czy monitorowaniu wydajności, bezpieczeństwa czy stabilności działania.
 
 **W ramach usługi wsparcia zajmujemy się następującymi pracami:**
 - Aktualizacja środowiska (systemu) w ramach konserwacji
