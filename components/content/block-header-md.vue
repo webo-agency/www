@@ -70,7 +70,7 @@ export default {
   @apply text-base tablet:text-lg pb-5;
 }
 .title :deep(h4) {
-  @apply text-xl tablet:text-2xl desktop:text-3xl;
+  @apply text-lg tablet:text-xl desktop:text-2xl;
 }
 
 .title :deep(h5) {
