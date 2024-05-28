@@ -5,6 +5,9 @@ meta:
   title: Projektowanie UX/UI stron i sklepów internetowych
   description: Projektujemy aby korzystanie ze stron było proste, szybkie i intuicyjne. Tworzymy nieszablonowy design, pasujący do wizerunku firmy, w oparciu o najlepsze praktyki UX/UI.
 showInNav: true
+hreflangs:
+    EN: '/services/ux-ui-design'
+    PL: '/uslugi/projektowanie-ux-ui'
 draft: false
 public: true
 ---
@@ -17,7 +20,6 @@ bgImg: false
 headerWidth: 600
 descriptionWidth: 600
 isSecondSvg: true
-class: phone:!mb-0
 ---
 
 #subtitle
@@ -119,7 +121,7 @@ Uwielbiamy wyzwania i rozwiązywanie problemów,specjalizujemy się w projektowa
 ::::offer-tile-md
 --- 
 icon: '/img/icons/services-site.svg'
-link: 'https://www.webo.agency/kontakt'
+link: 'https://www.webo.agency/uslugi/strony-internetowe'
 ---
 #title
 #### Strony internetowe i landing page
@@ -129,7 +131,7 @@ link: 'https://www.webo.agency/kontakt'
 ::::offer-tile-md
 --- 
 icon: '/img/icons/services-store.svg'
-link: 'https://www.webo.agency/kontakt'
+link: 'https://www.webo.agency/uslugi/sklepy-internetowe'
 delay: 1
 ---
 #title
@@ -140,7 +142,7 @@ delay: 1
 ::::offer-tile-md
 --- 
 icon: '/img/icons/services-apps.svg'
-link: 'https://www.webo.agency/kontakt'
+link: ''
 delay: 2
 ---
 #title
@@ -362,7 +364,7 @@ icon: '/img/icons/uxui-teamwork.svg'
 #### 01. Warsztaty
 
 #description
-Faza Discovery czyli zebranie wymagań - w pierwszym kroku zapraszamy Cię na rozmowę podczas której poznajemy wszystkie założenia projektu, Twoją firmę i użytkowników przyszłej strony, sklepu czy aplikacji
+Faza Discovery czyli zebranie wymagań - w pierwszym kroku zapraszamy Cię na rozmowę podczas której poznajemy wszystkie założenia projektu, Twoją firmę i użytkowników przyszłej strony, sklepu czy aplikacji.
 
 :::::
 ::::
@@ -610,7 +612,7 @@ class: mb-10 tablet:mb-20
 ---
 contentFolder: realizacje
 selectedSlugs:
-    - isw
+    - feeby
     - 5gmadetogether
     - oravio
     - proton
