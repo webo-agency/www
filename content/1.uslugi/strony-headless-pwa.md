@@ -427,7 +427,7 @@ decoration: false
 iconUrl: '/img/icons/multichannels.svg'
 iconBig: false
 animated: false
-class: icon [&_div_div_picture]:pt-2.5
+class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit
 ---
 
 #description
@@ -440,7 +440,7 @@ class: icon [&_div_div_picture]:pt-2.5
 iconUrl: '/img/icons/1s.svg'
 iconBig: false
 animated: false
-class: icon [&_div_div_picture]:pt-2.5
+class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit
 ---
 
 #description
@@ -452,7 +452,7 @@ class: icon [&_div_div_picture]:pt-2.5
 iconUrl: '/img/icons/scalling.svg'
 iconBig: false
 animated: false
-class: icon [&_div_div_picture]:pt-2.5
+class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit
 ---
 
 #description
@@ -491,7 +491,7 @@ decoration: false
 iconUrl: '/img/icons/singlechannel.svg'
 iconBig: false
 animated: false
-class: icon [&_div_div_picture]:pt-2.5
+class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit
 ---
 
 #description
@@ -503,7 +503,7 @@ class: icon [&_div_div_picture]:pt-2.5
 iconUrl: '/img/icons/2s.svg'
 iconBig: false
 animated: false
-class: icon [&_div_div_picture]:pt-2.5
+class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit
 ---
 
 #description
@@ -515,7 +515,7 @@ class: icon [&_div_div_picture]:pt-2.5
 iconUrl: '/img/icons/scalling2.svg'
 iconBig: false
 animated: false
-class: icon [&_div_div_picture]:pt-2.5
+class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit
 ---
 
 #description
