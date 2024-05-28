@@ -233,10 +233,10 @@ class: mb-20
 ---
 
 #subtitle
-*3/* Najwyższe standardy stron internetowych?
+### *3/* Najwyższe standardy stron internetowych?
 
 #title
-### W realizacjach stron internetowych stawiamy na
+## W realizacjach stron internetowych stawiamy na
 
 ::::
 :::
