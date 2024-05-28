@@ -16,7 +16,7 @@ textWhite: true
 titleUnderline: true
 ---
 #title
-### Porozmawiajmy o *Twojej stronie*
+## Porozmawiajmy o *Twojej stronie*
 
 #description
 **Napisz do nas i umów się na <u>bezpłatną konsultację</u>.** Wspólnie omówimy wymagania Twojego projektu i zaplanujemy realizację.
