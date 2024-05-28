@@ -8,7 +8,7 @@ sitemap:
 ::block-hero-md
 ---
 button.title: Dowiedz się więcej
-button.link: https://www.webo.agency/kontakt
+button.link: https://www.webo.agency/uslugi/strony-internetowe
 ---
 
 #subtitle
@@ -45,7 +45,7 @@ class: tablet:top-56 right-0
 
 ::::block-header-two-cols-md
 ---
-class: mb-10 tablet:mb-[60px]
+class: mb-10
 maxWidth: 640
 ---
 
@@ -167,7 +167,7 @@ class: block desktop:hidden top-0 right-0
 button.link: https://www.webo.agency/kontakt
 button.title: 'Skontaktuj się z nami'
 button.isWide: true
-class: tablet:mb-18 
+class: tablet:mb-[150px] 
 ---
 
 #title
@@ -214,43 +214,43 @@ title: Drupal
 :::::
 :::::icon-logo-md
 ---
-imgUrl: /img/logos/vue.png
+imgUrl: /img/logos/vue.svg
 title: Vue
 ---
 :::::
 :::::icon-logo-md
 ---
-imgUrl: /img/logos/nuxt.png
+imgUrl: /img/logos/nuxt.svg
 title: Nuxt
 ---
 :::::
 :::::icon-logo-md
 ---
-imgUrl: /img/logos/tailwind.png
+imgUrl: /img/logos/tailwind.svg
 title: TailwindCSS
 ---
 :::::
 :::::icon-logo-md
 ---
-imgUrl: /img/logos/node.png
+imgUrl: /img/logos/node.svg
 title: NodeJS
 ---
 :::::
 :::::icon-logo-md
 ---
-imgUrl: /img/logos/js.png
+imgUrl: /img/logos/js.svg
 title: JavaScript
 ---
 :::::
 :::::icon-logo-md
 ---
-imgUrl: /img/logos/presta.png
+imgUrl: /img/logos/presta.svg
 title: PrestaShop
 ---
 :::::
 :::::icon-logo-md
 ---
-imgUrl: /img/logos/cloudflare.png
+imgUrl: /img/logos/cloudflare.svg
 title: Cloudflare
 ---
 :::::
@@ -309,15 +309,15 @@ class: mb-10 tablet:mb-20
 ---
 
 #subtitle
-### *4/* Nasze podejście
+*4/* Nasze podejście
 
 #title
-## Dlaczego warto <br> nam *zaufać?*
+### Dlaczego warto <br> nam *zaufać?*
 
 #description
 ::::::prose-p-3
 ---
-class: px-5 tablet:px-10 font-medium
+class: px-5 tablet:px-10
 ---
 Nasz zespół to solidne umysły ścisłe. Znamy się na technologii jak na niczym innym, pracujemy na twardych danych a nie domysłach.
 ::::::
@@ -331,7 +331,7 @@ class: mb-10 gap-5 columns-1 tablet:columns-2 [&_li]:inline-block space-y-5
 
 :::::tile-dark-icon-md
 ---
-iconUrl: '/img/icons/icn_chart.png'
+iconUrl: '/img/icons/coding.svg'
 delay: 0
 ---
 
@@ -344,7 +344,7 @@ Dzięki czemu nasze strony są wydajne i bezpieczne, a kod strony odpowiednio zo
 :::::
 :::::tile-dark-icon-md
 ---
-iconUrl: '/img/icons/arrows.png'
+iconUrl: '/img/icons/military-rank.svg'
 delay: 2
 class: mt-0 tablet:mt-5
 ---
@@ -359,7 +359,7 @@ i problemów których nie da się rozwiązać - udowadnialiśmy to wielokrotnie
 :::::
 :::::tile-dark-icon-md
 ---
-iconUrl: '/img/icons/uxui.png'
+iconUrl: '/img/icons/stability.svg'
 delay: 1
 ---
 
@@ -372,7 +372,7 @@ Dbamy o szczegóły i jakość naszej pracy, stawiamy na ręcznie programowane s
 :::::
 :::::tile-dark-icon-md
 ---
-iconUrl: '/img/icons/arrows.png'
+iconUrl: '/img/icons/gears.svg'
 delay: 3
 ---
 
@@ -433,7 +433,7 @@ class: mb-[50px] tablet:mb-[100px]
 
 :::block-columns-1-1-md
 ---
-class: mb-10 tablet:mb-24 [&_.right]:flex [&_.right]:items-center tablet:[&_.right]:justify-end [&_.right]:gap-[15px]
+class: mb-10 tablet:mb-24 [&_.right]:flex [&_.right]:items-center [&_.right]:justify-end [&_.right]:gap-[20px]
 ---
 
 #right
@@ -557,7 +557,7 @@ Dzięki pracy Webo mój klient osiągnął wyższe pozycje w wyszukiwarkach, **p
 
 ::page-section-md
 ---
-class: mb-20 tablet:mb-[130px]
+class: mb-[50px] tablet:mb-[100px]
 ---
 :::effect-appear-md
 ::::block-header-md
