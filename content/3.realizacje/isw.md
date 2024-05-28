@@ -436,10 +436,10 @@ class: mb-[50px] tablet:mb-[100px]
 ---
 
 #subtitle
-*-/* Nasi klienci
+### *-/* Nasi klienci
 
 #title
-### Poznaj firmy które *nam zaufały*
+## Poznaj firmy które *nam zaufały*
 
 ::::
 :::
