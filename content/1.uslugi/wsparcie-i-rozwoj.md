@@ -2,15 +2,15 @@
 name: Wsparcie i rozwój
 description: Wsparcie techniczne i rozwój Twojej strony / sklepu internetowego.
 meta:
-  title: Wsparcie techniczne i rozwój stron i sklepów www
-  description: Kompleksowo obsługujemy strony i sklepy internetowe. Od aktualizacji, przez rozbudowę i programowanie dedykowanych modułów i podstron, po monitoring bezpieczeństwa i szybkości oraz reagowanie w przypadku awarii.
+    title: Wsparcie techniczne i rozwój stron i sklepów www
+    description: Kompleksowo obsługujemy strony i sklepy internetowe. Od aktualizacji, przez rozbudowę i programowanie dedykowanych modułów i podstron, po monitoring bezpieczeństwa i szybkości oraz reagowanie w przypadku awarii.
 showInNav: true
 draft: false
 public: true
+hreflangs:
+    EN: '/services/support-and-development'
+    PL: '/uslugi/wsparcie-i-rozwoj'
 ---
-
-
-
 ::block-banner-md
 ---
 bgImg: false
@@ -249,7 +249,7 @@ Skontaktuj się z nami i skorzystaj z bezpłatnej konsultacji podczas której om
 
 ::page-section-md
 ---
-classes: bg-gray-darkest pt-10 tablet:pt-[100px] mb-[100px] tablet:mb-[200px]
+classes: bg-gray-darkest pt-10 tablet:pt-[100px] mb-20 tablet:mb-[130px]
 ---
 
 
@@ -422,7 +422,7 @@ animated: false
 #### Masz bezpośredni kontakt z opiekunem
 
 #description
-Przypisujemy indywidualnego opiekuna Twojej strony, do którego możesz zadzwonić lub napisać. [do redakcji]
+Przypisujemy indywidualnego opiekuna Twojej strony, do którego możesz zadzwonić lub napisać. 
 
 ::::::
 ::::::list-item-ul-active-md
@@ -436,7 +436,7 @@ animated: false
 #### Estymujemy czas potrzebny na realizację zadań
 
 #description
-Dajemy Ci pełną kontrolę - zaczynamy realizację gdy dasz nam zielone światło. [do redakcji]
+Dajemy Ci pełną kontrolę - zaczynamy realizację gdy dasz nam zielone światło. 
 
 ::::::
 :::::
@@ -654,30 +654,6 @@ moreBtn.url: 'https://www.webo.agency/realizacje'
 moreBtn.linktitle: Zobacz wszystkie projekty
 ---
 
-:::
-::
-
-
-::page-section-md
----
-class: mb-[50px] tablet:mb-[100px]
----
-:::effect-appear-md
-::::block-cta-md
----
-maxWidth: 650
-button.link: https://www.webo.agency/kontakt
-button.title: 'Umów się na konsultację'
-button.isWide: true
----
-
-#title
-Potrzebujesz więcej informacji?
-
-#description
-#### Umów się na bezpłatną konsultację i poznaj nasza ofertę wsparcia
-
-::::
 :::
 ::
 
