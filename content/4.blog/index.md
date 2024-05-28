@@ -19,10 +19,10 @@ class: my-16 tablet:my-[100px]
 :::::block-header-md
 
 #subtitle
-*-/* Blog
+## *-/* Blog
 
 #title
-## Wiedza ze świata IT <br> *w zasięgu ręki*
+# Wiedza ze świata IT <br> *w zasięgu ręki*
 
 :::::
 ::::
@@ -101,10 +101,10 @@ class: mb-[50px] tablet:mb-[100px]
 ---
 
 #subtitle
-*-/* Nasi klienci
+### *-/* Nasi klienci
 
 #title
-### Poznaj firmy które *nam zaufały*
+## Poznaj firmy które *nam zaufały*
 
 ::::
 :::
