@@ -309,10 +309,10 @@ class: mb-10 tablet:mb-20
 ---
 
 #subtitle
-*4/* Nasze podejście
+### *4/* Nasze podejście
 
 #title
-### Dlaczego warto <br> nam *zaufać?*
+## Dlaczego warto <br> nam *zaufać?*
 
 #description
 ::::::prose-p-3
