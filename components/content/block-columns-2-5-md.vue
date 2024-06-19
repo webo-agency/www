@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex tablet:flex-row gap-x-12"
+    class="flex tablet:flex-row gap-y-10 gap-x-12"
     :class="[reverseMobile ? 'flex-col-reverse' : 'flex-col']"
   >
     <div class="w-full basis-full tablet:basis-2/6 left">

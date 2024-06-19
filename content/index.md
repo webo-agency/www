@@ -478,46 +478,14 @@ text: See all our reviews
 rating: 5
 ---
 
-#message
-W firmie Webo zamówiłem **stronę www**. Już na etapie **badania potrzeb dało się czuć profesjonalizm**. Jestem **zadowolonym klientem** i używam swojej strony www w kontkatach z moimi klientami :)
-
 #author
-Bartłomiej Świstak Piotrowski
+Radosław Cyganek
 
 #title
-Konsultant strategii w biznesie - **Krakowski świstak**
-
-
-
-:::::
-:::::opinion-md
----
-rating: 5
----
-
-#author
-Natalia Ryfa
-
-#title
-Business manager - **Oravio**
+Executive - **Proton Multimedia**
 
 #message
-Pomogli nam w przelaniu naszych wizji sklepu internetowego na realny, **dobrze odbierany przez klientów** i przede wszystkim sprawnie działający sklep! Dziękujemy i **polecamy Webo!** : )
-
-:::::
-:::::opinion-md
----
-rating: 5
----
-
-#author
-Adam Wasilewski
-
-#title
-Właściciel - **Caffe wasyl**
-
-#message
-**Dzięki Webo uratowałem swój biznes**, uruchomili mój sklep internetowy w **ciągu miesiąca**. Oby jak najwięcej takich ludzi!
+Dzięki pracy Webo mój klient osiągnął wyższe pozycje w wyszukiwarkach, **poprawił satysfakcję użytkowników i zwiększył ich zaangażowanie**. Firma proaktywnie **zarządzała ryzykiem** i zapewniała alternatywne rozwiązanie, aby osiągnąć cele klienta. Ich **szybkość reakcji i kreatywność** były godne pochwały.
 
 :::::
 :::::opinion-md
@@ -541,13 +509,45 @@ rating: 5
 ---
 
 #author
-Radosław Cyganek
+Natalia Ryfa
 
 #title
-Executive - **Proton Multimedia**
+Business manager - **Oravio**
 
 #message
-Dzięki pracy Webo mój klient osiągnął wyższe pozycje w wyszukiwarkach, **poprawił satysfakcję użytkowników i zwiększył ich zaangażowanie**. Firma proaktywnie **zarządzała ryzykiem** i zapewniała alternatywne rozwiązanie, aby osiągnąć cele klienta. Ich **szybkość reakcji i kreatywność** były godne pochwały.
+Pomogli nam w przelaniu naszych wizji sklepu internetowego na realny, **dobrze odbierany przez klientów** i przede wszystkim sprawnie działający sklep! Dziękujemy i **polecamy Webo!** : )
+
+:::::
+:::::opinion-md
+---
+rating: 5
+---
+
+#message
+W firmie Webo zamówiłem **stronę www**. Już na etapie **badania potrzeb dało się czuć profesjonalizm**. Jestem **zadowolonym klientem** i używam swojej strony www w kontkatach z moimi klientami :)
+
+#author
+Bartłomiej Świstak Piotrowski
+
+#title
+Konsultant strategii w biznesie - **Krakowski świstak**
+
+
+
+:::::
+:::::opinion-md
+---
+rating: 5
+---
+
+#author
+Adam Wasilewski
+
+#title
+Właściciel - **Caffe wasyl**
+
+#message
+**Dzięki Webo uratowałem swój biznes**, uruchomili mój sklep internetowy w **ciągu miesiąca**. Oby jak najwięcej takich ludzi!
 
 :::::
 ::::
