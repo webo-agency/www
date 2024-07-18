@@ -8,7 +8,7 @@ sitemap:
 ::block-hero-md
 ---
 button.title: Dowiedz się więcej
-button.link: https://www.webo.agency/kontakt
+button.link: https://www.webo.agency/uslugi/strony-internetowe
 ---
 
 #subtitle
@@ -26,7 +26,7 @@ Tworzonych bez szablonów czy gotowców - <u>od podstaw zgodnie z dokumentacją,
 ::page-section-md
 ---
 id: uslugi
-classes: mb-[50px] tablet:mb-[80px] pt-[80px] desktop:pt-[100px] 
+classes: mb-[50px] tablet:mb-[80px] pt-[80px] desktop:pt-[120px] 
 ---
 
 :::effect-appear-md
@@ -45,12 +45,12 @@ class: tablet:top-56 right-0
 
 ::::block-header-two-cols-md
 ---
-class: mb-10 tablet:mb-[60px]
+class: mb-10
 maxWidth: 640
 ---
 
 #subtitle
-*1/* Usługi
+### *1/* Usługi
 
 #title
 ## Dostarczamy rozwiązania *internetowe dla firm*
@@ -70,7 +70,7 @@ link: 'https://www.webo.agency/uslugi/strony-internetowe'
 delay: 1
 ---
 #title
-##### Strony internetowe
+#### Strony internetowe
 
 #description
 Kreujemy szybkie nowoczesne i funkcjonalne strony internetowe, na których Twój klient szybko znajdzie to czego szuka.
@@ -86,7 +86,7 @@ technologies: '/img/icons/stores-technologies.svg'
 link: 'https://www.webo.agency/uslugi/sklepy-internetowe'
 ---
 #title
-##### Sklepy internetowe
+#### Sklepy internetowe
 
 #description
 E-commerce z płynnym procesem zakupowym, dostosowany do potrzeb Twojej firmy. Tworzymy sklepy przygotowane do dalszego rozwoju i ekspansji.
@@ -103,7 +103,7 @@ link: ''
 delay: 2
 ---
 #title
-##### Aplikacje internetowe
+#### Aplikacje internetowe
 
 #description
 Dedykowane do specjalnych zastosowań w Twojej firmie. Przyjazne dla użytkowników i proste w zarządzaniu.
@@ -120,7 +120,7 @@ link: 'https://www.webo.agency/uslugi/wsparcie-i-rozwoj'
 delay: 4
 ---
 #title
-##### Wsparcie i rozwój
+#### Wsparcie i rozwój
 
 #description
 Dzięki któremu zabezpieczysz zasoby, zmaksymalizujesz wydajność i zredukujesz koszta utrzymania strony internetowej.
@@ -137,7 +137,7 @@ link: 'https://www.webo.agency/uslugi/projektowanie-ux-ui'
 delay: 5
 ---
 #title
-##### Projektowanie UX/UI
+#### Projektowanie UX/UI
 
 #description
 Dzięki której zwiększysz zaangażowanie klientów, wyróżnisz się na rynku i uprościsz korzystanie ze swojej strony / sklepu internetowego.
@@ -167,7 +167,7 @@ class: block desktop:hidden top-0 right-0
 button.link: https://www.webo.agency/kontakt
 button.title: 'Skontaktuj się z nami'
 button.isWide: true
-class: tablet:mb-18 
+class: tablet:mb-[150px] 
 ---
 
 #title
@@ -183,7 +183,7 @@ Umów się na bezpłatną konsultację, porozmawiajmy!
 
 ::page-section-md
 ---
-class: w-full mb-[100px] tablet:mb-[150px] bg-gray-light
+class: w-full mb-[100px] tablet:mb-[200px] bg-gray-light
 ---
 :::block-columns-img-md
 ---
@@ -191,10 +191,10 @@ image.url: '/img/content-images/1solutions.png'
 imageMobile.url: '/img/content-images/1solutions_mobile.png'
 ---
 #subtitle
-*2/* Skalowalne rozwiązania
+### *2/* Skalowalne rozwiązania
 
 #title
-### Wybierzemy najlepsze rozwiązanie dla *Twojego biznesu*
+## Wybierzemy najlepsze rozwiązanie dla *Twojego biznesu*
 
 #description
 Do każdego projektu podchodzimy indywidualnie, analizując jego potrzeby. Korzystamy z najnowszych technologii, wspierając także popularne rozwiązania. Sprawdź sam!
@@ -214,43 +214,43 @@ title: Drupal
 :::::
 :::::icon-logo-md
 ---
-imgUrl: /img/logos/vue.png
+imgUrl: /img/logos/vue.svg
 title: Vue
 ---
 :::::
 :::::icon-logo-md
 ---
-imgUrl: /img/logos/nuxt.png
+imgUrl: /img/logos/nuxt.svg
 title: Nuxt
 ---
 :::::
 :::::icon-logo-md
 ---
-imgUrl: /img/logos/tailwind.png
+imgUrl: /img/logos/tailwind.svg
 title: TailwindCSS
 ---
 :::::
 :::::icon-logo-md
 ---
-imgUrl: /img/logos/node.png
+imgUrl: /img/logos/node.svg
 title: NodeJS
 ---
 :::::
 :::::icon-logo-md
 ---
-imgUrl: /img/logos/js.png
+imgUrl: /img/logos/js.svg
 title: JavaScript
 ---
 :::::
 :::::icon-logo-md
 ---
-imgUrl: /img/logos/presta.png
+imgUrl: /img/logos/presta.svg
 title: PrestaShop
 ---
 :::::
 :::::icon-logo-md
 ---
-imgUrl: /img/logos/cloudflare.png
+imgUrl: /img/logos/cloudflare.svg
 title: Cloudflare
 ---
 :::::
@@ -266,7 +266,7 @@ Używane technologie
 ::page-section-md
 ---
 id: realizacje
-class: mb-[80px] tablet:mb-[100px]
+class: mb-[80px] tablet:mb-[130px]
 ---
 :::effect-appear-md
 ::::block-header-md
@@ -275,10 +275,10 @@ class: mb-10 tablet:mb-20
 ---
 
 #subtitle
-*3/* Case study
+### *3/* Case study
 
 #title
-### Jesteśmy dumni <br> z *wykonanych projektów*
+## Jasteśmy dumni <br> z *wykonanych projektów*
 
 ::::
 :::
@@ -295,7 +295,7 @@ moreBtn.linktitle: Zobacz wszystkie projekty
 
 ::page-section-md
 ---
-class: bg-gray-darkest relative z-10 overflow-hidden mb-[100px] tablet:mb-[100px] pt-10 tablet:pt-[100px] [&_.right]:relative [&_.right]:flex [&_.right]:items-end
+class: bg-gray-darkest relative z-10 overflow-hidden mb-[100px] tablet:mb-[200px] pt-10 tablet:pt-[100px] [&_.right]:relative [&_.right]:flex [&_.right]:items-end
 ---
 
 :::block-columns-1-1-md
@@ -309,15 +309,15 @@ class: mb-10 tablet:mb-20
 ---
 
 #subtitle
-*4/* Nasze podejście
+### *4/* Nasze podejście
 
 #title
-### Dlaczego warto <br> nam *zaufać?*
+## Dlaczego warto <br> nam *zaufać?*
 
 #description
 ::::::prose-p-3
 ---
-class: px-5 tablet:px-10 font-medium
+class: px-5 tablet:px-10
 ---
 Nasz zespół to solidne umysły ścisłe. Znamy się na technologii jak na niczym innym, pracujemy na twardych danych a nie domysłach.
 ::::::
@@ -331,7 +331,7 @@ class: mb-10 gap-5 columns-1 tablet:columns-2 [&_li]:inline-block space-y-5
 
 :::::tile-dark-icon-md
 ---
-iconUrl: '/img/icons/icn_chart.png'
+iconUrl: '/img/icons/coding.svg'
 delay: 0
 ---
 
@@ -344,7 +344,7 @@ Dzięki czemu nasze strony są wydajne i bezpieczne, a kod strony odpowiednio zo
 :::::
 :::::tile-dark-icon-md
 ---
-iconUrl: '/img/icons/arrows.png'
+iconUrl: '/img/icons/military-rank.svg'
 delay: 2
 class: mt-0 tablet:mt-5
 ---
@@ -359,7 +359,7 @@ i problemów których nie da się rozwiązać - udowadnialiśmy to wielokrotnie
 :::::
 :::::tile-dark-icon-md
 ---
-iconUrl: '/img/icons/uxui.png'
+iconUrl: '/img/icons/stability.svg'
 delay: 1
 ---
 
@@ -372,7 +372,7 @@ Dbamy o szczegóły i jakość naszej pracy, stawiamy na ręcznie programowane s
 :::::
 :::::tile-dark-icon-md
 ---
-iconUrl: '/img/icons/arrows.png'
+iconUrl: '/img/icons/gears.svg'
 delay: 3
 ---
 
@@ -433,7 +433,7 @@ class: mb-[50px] tablet:mb-[100px]
 
 :::block-columns-1-1-md
 ---
-class: mb-10 tablet:mb-24 [&_.right]:flex [&_.right]:items-center tablet:[&_.right]:justify-end [&_.right]:gap-[15px]
+class: mb-10 tablet:mb-24 [&_.right]:flex [&_.right]:items-center [&_.right]:justify-end [&_.right]:gap-[20px]
 ---
 
 #right
@@ -460,10 +460,10 @@ text: See all our reviews
 :::::block-header-md
 
 #subtitle
-*5/*  Opinie
+### *5/*  Opinie
 
 #title
-### Jesteśmy rekomendowani przez *małe i średnie przedsiębiorstwa*
+## Jesteśmy rekomendowani przez *małe i średnie przedsiębiorstwa*
 :::::
 ::::
 :::
@@ -478,46 +478,14 @@ text: See all our reviews
 rating: 5
 ---
 
-#message
-W firmie Webo zamówiłem **stronę www**. Już na etapie **badania potrzeb dało się czuć profesjonalizm**. Jestem **zadowolonym klientem** i używam swojej strony www w kontkatach z moimi klientami :)
-
 #author
-Bartłomiej Świstak Piotrowski
+Radosław Cyganek
 
 #title
-Konsultant strategii w biznesie - **Krakowski świstak**
-
-
-
-:::::
-:::::opinion-md
----
-rating: 5
----
-
-#author
-Natalia Ryfa
-
-#title
-Business manager - **Oravio**
+Executive - **Proton Multimedia**
 
 #message
-Pomogli nam w przelaniu naszych wizji sklepu internetowego na realny, **dobrze odbierany przez klientów** i przede wszystkim sprawnie działający sklep! Dziękujemy i **polecamy Webo!** : )
-
-:::::
-:::::opinion-md
----
-rating: 5
----
-
-#author
-Adam Wasilewski
-
-#title
-Właściciel - **Caffe wasyl**
-
-#message
-**Dzięki Webo uratowałem swój biznes**, uruchomili mój sklep internetowy w **ciągu miesiąca**. Oby jak najwięcej takich ludzi!
+Dzięki pracy Webo mój klient osiągnął wyższe pozycje w wyszukiwarkach, **poprawił satysfakcję użytkowników i zwiększył ich zaangażowanie**. Firma proaktywnie **zarządzała ryzykiem** i zapewniała alternatywne rozwiązanie, aby osiągnąć cele klienta. Ich **szybkość reakcji i kreatywność** były godne pochwały.
 
 :::::
 :::::opinion-md
@@ -541,13 +509,45 @@ rating: 5
 ---
 
 #author
-Radosław Cyganek
+Natalia Ryfa
 
 #title
-Executive - **Proton Multimedia**
+Business manager - **Oravio**
 
 #message
-Dzięki pracy Webo mój klient osiągnął wyższe pozycje w wyszukiwarkach, **poprawił satysfakcję użytkowników i zwiększył ich zaangażowanie**. Firma proaktywnie **zarządzała ryzykiem** i zapewniała alternatywne rozwiązanie, aby osiągnąć cele klienta. Ich **szybkość reakcji i kreatywność** były godne pochwały.
+Pomogli nam w przelaniu naszych wizji sklepu internetowego na realny, **dobrze odbierany przez klientów** i przede wszystkim sprawnie działający sklep! Dziękujemy i **polecamy Webo!** : )
+
+:::::
+:::::opinion-md
+---
+rating: 5
+---
+
+#message
+W firmie Webo zamówiłem **stronę www**. Już na etapie **badania potrzeb dało się czuć profesjonalizm**. Jestem **zadowolonym klientem** i używam swojej strony www w kontkatach z moimi klientami :)
+
+#author
+Bartłomiej Świstak Piotrowski
+
+#title
+Konsultant strategii w biznesie - **Krakowski świstak**
+
+
+
+:::::
+:::::opinion-md
+---
+rating: 5
+---
+
+#author
+Adam Wasilewski
+
+#title
+Właściciel - **Caffe wasyl**
+
+#message
+**Dzięki Webo uratowałem swój biznes**, uruchomili mój sklep internetowy w **ciągu miesiąca**. Oby jak najwięcej takich ludzi!
 
 :::::
 ::::
@@ -557,7 +557,7 @@ Dzięki pracy Webo mój klient osiągnął wyższe pozycje w wyszukiwarkach, **p
 
 ::page-section-md
 ---
-class: mb-20 tablet:mb-[100px]
+class: mb-[50px] tablet:mb-[100px]
 ---
 :::effect-appear-md
 ::::block-header-md
@@ -567,10 +567,10 @@ class: mb-[50px] tablet:mb-[100px]
 ---
 
 #subtitle
-*6/* Nasi klienci
+### *6/* Nasi klienci
 
 #title
-### Poznaj firmy które *nam zaufały*
+## Poznaj firmy które *nam zaufały*
 
 ::::
 :::
@@ -580,7 +580,7 @@ class: mb-[50px] tablet:mb-[100px]
 
 ::page-section-md
 ---
-class: mb-20 tablet:mb-[100px]
+class: mb-20 tablet:mb-[130px]
 ---
 :::effect-appear-md
 ::::block-form-before-footer-md
