@@ -26,7 +26,7 @@ Tworzonych bez szablonów czy gotowców - <u>od podstaw zgodnie z dokumentacją,
 ::page-section-md
 ---
 id: uslugi
-classes: mb-[50px] tablet:mb-[80px] pt-[80px] desktop:pt-[120px] 
+classes: mb-[50px] tablet:mb-[80px] pt-[80px] desktop:pt-[100px] 
 ---
 
 :::effect-appear-md
@@ -183,7 +183,7 @@ Umów się na bezpłatną konsultację, porozmawiajmy!
 
 ::page-section-md
 ---
-class: w-full mb-[100px] tablet:mb-[200px] bg-gray-light
+class: w-full mb-[100px] tablet:mb-[150px] bg-gray-light
 ---
 :::block-columns-img-md
 ---
@@ -266,7 +266,7 @@ Używane technologie
 ::page-section-md
 ---
 id: realizacje
-class: mb-[80px] tablet:mb-[130px]
+class: mb-[80px] tablet:mb-[100px]
 ---
 :::effect-appear-md
 ::::block-header-md
@@ -278,7 +278,7 @@ class: mb-10 tablet:mb-20
 *3/* Case study
 
 #title
-### Jasteśmy dumni <br> z *wykonanych projektów*
+### Jesteśmy dumni <br> z *wykonanych projektów*
 
 ::::
 :::
@@ -295,7 +295,7 @@ moreBtn.linktitle: Zobacz wszystkie projekty
 
 ::page-section-md
 ---
-class: bg-gray-darkest relative z-10 overflow-hidden mb-[100px] tablet:mb-[200px] pt-10 tablet:pt-[100px] [&_.right]:relative [&_.right]:flex [&_.right]:items-end
+class: bg-gray-darkest relative z-10 overflow-hidden mb-[100px] tablet:mb-[100px] pt-10 tablet:pt-[100px] [&_.right]:relative [&_.right]:flex [&_.right]:items-end
 ---
 
 :::block-columns-1-1-md
@@ -460,7 +460,7 @@ text: See all our reviews
 :::::block-header-md
 
 #subtitle
-*4/*  Opinie
+*5/*  Opinie
 
 #title
 ### Jesteśmy rekomendowani przez *małe i średnie przedsiębiorstwa*
@@ -557,7 +557,7 @@ Dzięki pracy Webo mój klient osiągnął wyższe pozycje w wyszukiwarkach, **p
 
 ::page-section-md
 ---
-class: mb-20 tablet:mb-[130px]
+class: mb-20 tablet:mb-[100px]
 ---
 :::effect-appear-md
 ::::block-header-md
@@ -567,7 +567,7 @@ class: mb-[50px] tablet:mb-[100px]
 ---
 
 #subtitle
-*5/* Nasi klienci
+*6/* Nasi klienci
 
 #title
 ### Poznaj firmy które *nam zaufały*
@@ -580,7 +580,7 @@ class: mb-[50px] tablet:mb-[100px]
 
 ::page-section-md
 ---
-class: mb-20 tablet:mb-[130px]
+class: mb-20 tablet:mb-[100px]
 ---
 :::effect-appear-md
 ::::block-form-before-footer-md
