@@ -30,8 +30,8 @@ export default {
   },
   components: true,
   css: [
-    join(currentDir, './assets/style.css'),
-    join(currentDir, './assets/main.css')
+    join(currentDir, './assets/css/style.css'),
+    join(currentDir, './assets/css/main.css')
   ],
   plugins: [join(currentDir, './plugins/textformatter.js')],
   modules: ["@nuxt/content", "@nuxt/image", "@nuxtjs/tailwindcss",'@stefanobartoletti/nuxt-social-share','nuxt-simple-sitemap'],
@@ -44,9 +44,12 @@ export default {
   //   shortcuts: [],
   //   rules: [],
   // },
-  // content: {
-  //   documentDriven: true
-  // },
+  content: {
+    documentDriven: true,
+    experimental: {
+      clientDb: false
+    }
+  },
   site:{
     url: 'https://www.webo.agency',
   },
