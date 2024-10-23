@@ -9,7 +9,6 @@
         :class="[darkContainer ? 'text-white [&_.textInput]:bg-gray-darker' : 'text-gray-darker']">
         <form name="contactForm" method="post" enctype="multipart/form-data" class="flex flex-col"
           @submit.prevent="sendForm()">
-          <form name="contactForm" class="flex flex-col" :data-static-form-name="contact">
           <ul v-if="$slots.radio" class="flex flex-wrap mb-8 desktop:mb-16">
             <slot name="radio"></slot>
           </ul>
