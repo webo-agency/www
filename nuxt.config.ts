@@ -82,9 +82,6 @@ export default {
   target: "static",
   nitro: {
     prerender: {
-      failOnError: false,
-      concurrency: 10,
-      interval: 100,
       crawlLinks: true,
     },
   },
