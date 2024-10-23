@@ -29,10 +29,10 @@ export default {
   },
   components: true,
   css: [
-    "~assets/css/style.css",
-    "~assets/css/main.css",
+    "~/assets/css/style.css",
+    "~/assets/css/main.css",
   ],
-  plugins: ["~plugins/textformatter.js"],
+  plugins: ["~/plugins/textformatter.js"],
   modules: ["@nuxt/content", "@nuxt/image", "@nuxtjs/tailwindcss",'@stefanobartoletti/nuxt-social-share','nuxt-simple-sitemap'],
   // unocss: {
   //   autoImport: true,
