@@ -87,6 +87,7 @@ export default {
   nitro: {
     prerender: {
       crawlLinks: true,
+      failOnError: false,
     },
   },
   build: {
