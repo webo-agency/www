@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@cloudflare/pages-plugin-static-forms':
+        specifier: ^1.0.3
+        version: 1.0.3
       '@nuxt/content':
         specifier: ^2.9.0
         version: 2.13.4(ioredis@5.4.1)(magicast@0.3.5)(nuxt@3.13.2(@parcel/watcher@2.4.1)(@types/node@22.7.9)(ioredis@5.4.1)(magicast@0.3.5)(rollup@4.24.0)(terser@5.36.0)(vite@5.4.10(@types/node@22.7.9)(terser@5.36.0))(webpack-sources@3.2.3))(rollup@4.24.0)(vue@3.5.12)(webpack-sources@3.2.3)
@@ -240,6 +243,9 @@ packages:
   '@cloudflare/kv-asset-handler@0.3.4':
     resolution: {integrity: sha512-YLPHc8yASwjNkmcDMQMY35yiWjoKAKnhUbPRszBRS0YgH+IXtsMp61j+yTcnCE3oO2DgP0U3iejLC8FTtKDC8Q==}
     engines: {node: '>=16.13'}
+
+  '@cloudflare/pages-plugin-static-forms@1.0.3':
+    resolution: {integrity: sha512-plt4ZalqAyG01B4PeznTOgrUTKeDmEzq7Tub2Hj7r2ynaAhZhkKUTQS9Ye+hIe7mv+jSIvaabAH7HkTqS/n0PA==}
 
   '@cloudflare/workerd-darwin-64@1.20241018.1':
     resolution: {integrity: sha512-CRySEzjNRoR8frP5AbtJXd1tgVJa5v7bZon9Dh6nljYlhG+piDv8jvOVEUqF3cXXS+M5aXwr4NlozdMvl5g5mg==}
@@ -5235,6 +5241,8 @@ snapshots:
   '@cloudflare/kv-asset-handler@0.3.4':
     dependencies:
       mime: 3.0.0
+
+  '@cloudflare/pages-plugin-static-forms@1.0.3': {}
 
   '@cloudflare/workerd-darwin-64@1.20241018.1':
     optional: true
