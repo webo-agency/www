@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-[820px] text-gray-darker">
-    <form name="contactForm" class="flex flex-col">
+    <form name="contactForm" class="flex flex-col" data-static-form-name="contact">
       <ul class="flex flex-wrap mb-8 desktop:mb-16">
         <li
           v-for="(item, index) in select"
@@ -176,8 +176,8 @@ export default {
       this.isOverDropZone = value;
     },
     async formRequest(data) {
-     return await $fetch( '/api/contact', 
-      { 
+     return await $fetch( '/api/contact',
+      {
         headers: {
             "Content-Type": "multipart/form-data",
         },
