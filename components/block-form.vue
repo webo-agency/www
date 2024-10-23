@@ -98,6 +98,7 @@
           ></div>
         </div>
       </div -->
+      <input type="hidden" name="static-form-name" value="contact" />
     </form>
     <div class="flex flex-col mt-5 desktop:mb-10">
       <ButtonMain
