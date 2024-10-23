@@ -9,6 +9,7 @@
         :class="[darkContainer ? 'text-white [&_.textInput]:bg-gray-darker' : 'text-gray-darker']">
         <form name="contactForm" method="post" enctype="multipart/form-data" class="flex flex-col"
           @submit.prevent="sendForm()">
+          <form name="contactForm" class="flex flex-col" :data-static-form-name="contact">
           <ul v-if="$slots.radio" class="flex flex-wrap mb-8 desktop:mb-16">
             <slot name="radio"></slot>
           </ul>
@@ -26,6 +27,7 @@
               <ContentSlot :use="$slots.buttontext" />
             </ButtonMain>
           </div>
+          <input type="hidden" name="static-form-name" value="contact" />
         </form>
         <Transition name="confirmShow" @after-enter="onConfirmTransitionAfter()">
           <div v-show="mailSent" class="absolute inset-0 flex flex-col justify-center items-center"
