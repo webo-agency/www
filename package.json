@@ -1,6 +1,6 @@
 {
   "name": "@webo-agency/theme",
-  "version": "3.7.36",
+  "version": "3.7.37",
   "main": "./nuxt.config.ts",
   "type": "module",
   "exports": "./nuxt.config.ts",
@@ -11,6 +11,7 @@
     "composables",
     "layouts",
     "types",
+    "plugins",
     "app.config.ts",
     "app.vue",
     "nuxt.config.ts",
