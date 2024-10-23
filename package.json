@@ -1,6 +1,6 @@
 {
   "name": "@webo-agency/theme",
-  "version": "3.7.37",
+  "version": "3.7.38",
   "main": "./nuxt.config.ts",
   "type": "module",
   "exports": "./nuxt.config.ts",
@@ -16,7 +16,8 @@
     "app.vue",
     "nuxt.config.ts",
     "nuxt.schema.ts",
-    "tokens.config.ts"
+    "tokens.config.ts",
+    "talwind.config.ts"
   ],
   "scripts": {
     "build": "nuxt build",
