@@ -183,7 +183,7 @@ Umów się na bezpłatną konsultację, porozmawiajmy!
 
 ::page-section-md
 ---
-class: w-full mb-[100px] bg-gray-light
+class: w-full mb-[150px] bg-gray-light
 ---
 :::block-columns-img-md
 ---
@@ -271,14 +271,14 @@ class: mb-[80px] tablet:mb-[100px]
 :::effect-appear-md
 ::::block-header-md
 ---
-class: mb-10 tablet:mb-20
+class: mb-[100px] tablet:mb-20
 ---
 
 #subtitle
 ### *3/* Case study
 
 #title
-## Jasteśmy dumni <br> z *wykonanych projektów*
+## Jesteśmy dumni <br> z *wykonanych projektów*
 
 ::::
 :::
