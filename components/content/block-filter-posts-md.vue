@@ -11,10 +11,12 @@
       ref="postsContainer"
       class="relative grid grid-cols-1 tablet:grid-cols-2 tablet-wide:grid-cols-3 gap-5 overflow-hidden"
     >
-      <block-filter-tile-posts-md v-for="post_page in list" :key="post_page._path" :data="post_page" :activeFilters="activeFilters" />    
+      <ContentList :path="`/${contentFolder}/`" :query="{ path: `/${contentFolder}/`}" v-slot="{list}">
+          <block-filter-tile-posts-md v-for="post_page in list" :key="post_page._path" :data="post_page" :activeFilters="activeFilters" />
+      </ContentList> 
     </div>
-    <div v-show="$slots.loadMore"  class="w-full flex justify-center items-center mt-10 tablet:mt-20">
-      <div ref="increaseBtn" class="flex items-center text-base text-green-main hover:text-green-mainHover font-semibold transition duration-200 cursor-pointer "
+    <div v-if="$slots.loadMore"  class="w-full flex justify-center items-center mt-10 tablet:mt-20">
+      <div ref="increase_btn" class="flex items-center text-base text-green-main hover:text-green-mainHover font-semibold transition duration-200 cursor-pointer "
       @click="increaseVisible()"
       >
         <ContentSlot :use="$slots.loadMore" />
@@ -34,69 +36,72 @@
   </div>
 </template>
 
-<script setup>
-
-const props = defineProps({
-  allText: {
-    type: String,
-    default: 'Wszystkie',
+<script>
+export default {
+  props: {
+    allText:  {
+      type: String,
+      default: 'Wszystkie'
+    },
+    contentFolder: {
+      type: String,
+      required: true
+    },
+    filters: Array,
   },
-  contentFolder: {
-    type: String,
-    required: true,
+  data() {
+    return {
+      activeFilters: this.$route.query.cat ? [this.$route.query.cat] : [],
+      shownCases:9
+    };
   },
-  filters: Array,
-});
+  watch:{
+    shownCases(){
+      this.updateVisible()
+    },
+    activeFilters(){
+      this.updateVisible()
+    },
+  },
+  mounted(){
+    this.updateVisible()
+  },
+  methods: {
 
-const { data: list } = await useAsyncData('blog-posts',() => queryContent(`/${props.contentFolder}/`).find())
+    increaseVisible(){
+      this.shownCases += 6;
+    },
 
-const router = useRouter();
-const route = useRoute();
+    updateVisible(){
+      this.$router.push({query: {cat: this.activeFilters}})
+      this.$nextTick(()=>{
+        const tilesContainer = this.$refs.postsContainer
+        tilesContainer.querySelectorAll('.case-tile').forEach((item) => {
+          item.classList.remove('hidden');
+        });
 
-const postsContainer = ref(null);
-const increaseBtn = ref(null);
-
-const activeFilters = ref(route.query.cat ? [route.query.cat] : []);
-const shownCases = ref(9);
-
-
-const updateVisible = () => {
-  router.push({ query: { cat: activeFilters.value } });
-
-  nextTick(() => {
-    const tilesContainer = postsContainer.value;
-    
-    tilesContainer.querySelectorAll('.case-tile').forEach((item) => {
-      item.classList.remove('hidden');
-    });
-
-    const cases = tilesContainer.querySelectorAll('.case-tile:not(.case-tile-hidden)');
-    if (cases) {
-      for (let i = 0; i < cases.length; i++) {
-        if (i + 1 > shownCases.value) {
-          cases[i].classList.add('hidden');
-        } else {
-          cases[i].classList.remove('hidden');
+        const cases = tilesContainer.querySelectorAll('.case-tile:not(.case-tile-hidden)')
+        if (cases) {
+          for (let i = 0; i < cases.length; i++) {
+            if (i + 1 > this.shownCases) {
+              cases[i].classList.add('hidden')
+            }else{
+              cases[i].classList.remove('hidden')
+            }
+          }
+          
+          const increaseBtn = this.$refs.increase_btn
+          if ((cases.length) <= this.shownCases) {
+            increaseBtn.classList.add('hidden')
+          }else{
+            increaseBtn.classList.remove('hidden')
+          }
         }
-      }
-
-      if (cases.length <= shownCases.value) {
-        increaseBtn.value.classList.add('hidden');
-      } else {
-        increaseBtn.value.classList.remove('hidden');
-      }
+        
+      })
     }
-  });
+  },
 };
-
-const increaseVisible = () => {
-  shownCases.value += 6;
-};
-
-watch([shownCases,activeFilters], updateVisible);
-
-onMounted(updateVisible);
-
 </script>
 
 <style>
