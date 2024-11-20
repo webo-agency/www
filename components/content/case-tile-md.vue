@@ -17,6 +17,7 @@
           </span>
         </div>
         <nuxt-picture v-if="data.image && data.image.url" class="relative z-0 h-full w-full "
+          loading="lazy"
           :imgAttrs="{ class: 'w-full h-full object-cover object-left-top', wdith: 665, height: 738 }"
           :src="data.image.url" :title="data.image.title ? data.image.title : ''"
           :alt="data.image.alt ? data.image.alt : 'Case study image'" />

@@ -2,7 +2,7 @@
   <div
     @mousemove="mouseMove"
     ref="container"
-    class="relative h-[90vh] min-h-[650px] desktop:h-[860px] px-5 tablet:px-10 desktop:px-20 bg-center bg-cover bg-no-repeat ultraHd:bg-contain bg-gray-darker -mt-[100px]"
+    class="relative h-[90vh] max-h-[860px] min-h-[650px] desktop:h-[860px] px-5 tablet:px-10 desktop:px-20 bg-center bg-cover bg-no-repeat ultraHd:bg-contain bg-gray-darker -mt-[100px]"
   >
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -57,13 +57,18 @@
       </svg>
     </div>
 
-    <nuxt-picture
-      src="/img/banner_bg.png"
-      class="absolute inset-0 z-0 w-full h-full object-cover max-h-[900px]"
-      format="webp"
-      loading="eager"
-      :imgAttrs="{ class: 'w-full h-full object-cover' }"
-    />
+    <picture class="absolute inset-0 z-0 w-full h-full object-cover">
+      <source type="image/webp" media="(min-width:460px)" :srcset="imgDesktop.srcset" :sizes="imgDesktop.sizes">
+      <nuxt-img
+        src="/img/banner_bg.png"
+        class="w-full h-full object-cover"
+        format="webp"
+        loading="eager"
+        width="440"
+        height="850"
+        preload
+      />
+    </picture>
 
     <div
       class="desktop:flex items-center h-full mx-auto max-w-screen-desktop-wide relative z-10"
@@ -148,90 +153,90 @@
   </div>
 </template>
 
-<script>
-import ButtonMain from "../button-main.vue";
+<script setup>
 import EffectAppearMdc from "./effect-appear-md.vue";
 
-export default {
-  components: { ButtonMain, EffectAppearMdc },
-  props: {
-    subtitle: { type: String, required: false },
-    title: { type: String, required: false, default: "Title" },
-    description: { type: String, required: false },
-    button: {
-      type: Object,
-      required: false,
-      default: { link: "/", title: "Click here" },
-    },
-    googleRating: Number,
-    googleRatingLink: String,
-    googleRatingText: String,
+const props = defineProps({
+  subtitle: { type: String, required: false },
+  title: { type: String, required: false, default: "Title" },
+  description: { type: String, required: false },
+  button: {
+    type: Object,
+    required: false,
+    default: () => ({ link: "/", title: "Click here" }),
   },
+  googleRating: Number,
+  googleRatingLink: String,
+  googleRatingText: String,
+});
 
-  computed: {
-    titleChange: function () {
-      const textContainer = this.title.match(/\*(.*)\*/);
-      if (textContainer.length) {
-        this.animateTitle = textContainer.pop();
-        return this.title.replace(this.animateTitle, "...");
-      }
-      return this.title;
-    },
-  },
-  data() {
-    return {
-      visible: false,
-      animateTitle: "",
-      staticTitle: "",
-    };
-  },
-  methods: {
-    typeEffect() {
-      if (this.$refs.titleContainer) {
-        const textContainer = this.$refs.titleContainer.querySelector("em");
+const visible = ref(false);
+const animateTitle = ref('');
+const staticTitle = ref('');
 
-        if (textContainer !== undefined) {
-          console.log(textContainer);
-          this.$refs.titleContainer
-            .querySelector("h1")
-            .insertAdjacentHTML(
-              "afterend",
-              '<span class="font-normal text-green-main animate-pulse !animate-[pulse_0.8s_cubic-bezier(0.4,_0,_0.6,_1)_infinite]">|</span>'
-            );
-          const textStore = textContainer.innerText;
-          textContainer.innerText = "";
-          setTimeout(() => {
-            this.insertLetters(textContainer, this.animateTitle, 0);
-          }, 400);
-        }
-      }
-    },
-    insertLetters(element, text, index) {
-      let typeSpeed = Math.random() * 200;
+const titleContainer = ref(null)
+const shapeParallax = ref(null)
+
+const imgDesktop = computed(()=> useImage().getSizes('/img/banner_bg.png',{
+        sizes: 'xs:320px sm:640px md:768px lg:1024px xl:1280px xxl: 1536px 2xl:1536px'
+      },{
+        quality: "95",
+        format: "webp",
+      },'xs:320px sm:640px md:768px lg:1024px xl:1280px xxl: 1536px 2xl:1536px'))
+
+const titleChange = computed(() => {
+  const textContainer = props.title.match(/\*(.*)\*/);
+  if (textContainer && textContainer.length) {
+    animateTitle.value = textContainer.pop();
+    return props.title.replace(animateTitle.value, "...");
+  }
+  return props.title;
+});
+
+const typeEffect = () => {
+  if (typeof window !== 'undefined' && titleContainer.value) {
+    const textContainer = titleContainer.value.querySelector("em");
+
+    if (textContainer !== undefined) {
+      titleContainer.value
+        .querySelector("h1")
+        .insertAdjacentHTML(
+          "afterend",
+          '<span class="font-normal text-green-main animate-pulse !animate-[pulse_0.8s_cubic-bezier(0.4,_0,_0.6,_1)_infinite]">|</span>'
+        );
+      const textStore = textContainer.innerText;
+      textContainer.innerText = "";
       setTimeout(() => {
-        if (index < text.length) {
-          element.insertAdjacentHTML("beforeend", text[index]);
-          this.insertLetters(element, text, index + 1);
-        }
-      }, typeSpeed);
-    },
-    mouseMove(event) {
-      let shapeParallax = this.$refs.shapeParallax;
-      let desktop;
-
-      if (!shapeParallax) return;
-
-      window.innerWidth > 1600 ? (desktop = false) : (desktop = true);
-      shapeParallax.style.top = 250 + event.clientY / 50 + "px";
-      shapeParallax.style.right =
-        (desktop ? 40 : 250) + event.clientX / 50 + "px";
-    },
-  },
-  mounted() {
-    this.visible = true;
-    // this.typeEffect();
-  },
+        insertLetters(textContainer, animateTitle.value, 0);
+      }, 400);
+    }
+  }
 };
+
+const insertLetters = (element, text, index) => {
+  let typeSpeed = Math.random() * 200;
+  setTimeout(() => {
+    if (index < text.length) {
+      element.insertAdjacentHTML("beforeend", text[index]);
+      insertLetters(element, text, index + 1);
+    }
+  }, typeSpeed);
+};
+
+const mouseMove = (event) => {
+  if (!shapeParallax.value) return;
+
+  let desktop;
+
+  window.innerWidth > 1600 ? (desktop = false) : (desktop = true);
+  shapeParallax.value.style.top = 250 + event.clientY / 50 + "px";
+  shapeParallax.value.style.right = (desktop ? 40 : 250) + event.clientX / 50 + "px";
+};
+
+onMounted(() => {
+  visible.value = true;
+  // typeEffect(); 
+});
 </script>
 
 <style></style>

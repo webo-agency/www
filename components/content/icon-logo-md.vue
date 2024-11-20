@@ -10,6 +10,7 @@
           :title="imgTitle ? imgTitle : ''"
           :alt="imgAlt ? imgAlt : 'Logo'"
           :imgAttrs="{class: 'h-[40px] tablet:h-[50px] object-contain'}"
+          loading="lazy"
         ></nuxt-picture>
         <p class="text-gray-dark text-xs tablet:text-sm mt-1.5 group-hover:text-green-main transition duration-200">{{ title }}</p>
     </div>

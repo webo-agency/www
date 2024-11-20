@@ -34,7 +34,7 @@ export default {
     join(currentDir, './assets/css/main.css')
   ],
   plugins: [join(currentDir, './plugins/textformatter.js')],
-  modules: ["@nuxt/content", "@nuxt/image", "@nuxtjs/tailwindcss",'@stefanobartoletti/nuxt-social-share','nuxt-simple-sitemap'],
+  modules: ["@nuxt/content", "@nuxt/image", "@nuxtjs/tailwindcss",'@stefanobartoletti/nuxt-social-share','nuxt-simple-sitemap','nuxt-booster'],
   // unocss: {
   //   autoImport: true,
   //   uno: true, // enabled `@unocss/preset-uno`
@@ -78,6 +78,35 @@ export default {
   vueuse: {
     ssrHandlers: true,
   },
+  booster: {
+
+    detection: {
+      performance: true,
+      browserSupport: true
+    },
+
+    performanceMetrics: {
+      device: {
+        hardwareConcurrency: { min: 2, max: 48 },
+        deviceMemory: { min: 2 }
+      },
+      timing: {
+        fcp: 800,
+        dcl: 1200
+      }
+    },
+
+    targetFormats: ['webp', 'avif', 'jpg|jpeg|png|gif'],
+
+    componentAutoImport: false,
+    componentPrefix: undefined,
+
+    lazyOffset: {
+      component: '0%',
+      asset: '0%'
+    }
+    
+  },
   // pwa: {
   //   manifest: {
   //     lang: "en",
@@ -89,6 +118,16 @@ export default {
       crawlLinks: true,
       failOnError: false,
     },
+  },
+  experimental:{
+    defaults:{
+      nuxtLink:{
+        prefetchOn:{
+          visibility: false,
+          interaction: true
+        }
+      }
+    }
   },
   build: {
     transpile: ["swiper"],
