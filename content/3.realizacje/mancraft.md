@@ -296,14 +296,17 @@ class: mx-default
 ::::block-opinion-md
 ---
 rating: 5
+hiddenStarQty: false
 center: true
 ---
 
 #title
 ### **Opinia klienta**
 
-#content
+#left
 
+
+#content
 :::::prose-p3
 Dzięki pracy Webo mój klient osiągnął wyższe pozycje w wyszukiwarkach, **poprawił satysfakcję użytkowników i zwiększył ich zaangażowanie**. Firma proaktywnie **zarządzała ryzykiem**.  i zapewniała alternatywne rozwiązanie, aby osiągnąć cele klienta. Ich **szybkość reakcji i kreatywność** były godne pochwały.
 :::::
@@ -328,14 +331,14 @@ class: mb-[50px] tablet:mb-[100px]
 ::::block-cta-md
 ---
 button.link: https://www.webo.agency/kontakt
-button.title: 'Skontaktuj się'
+button.title: 'Skontaktuj się z nami'
 ---
 
 #title
-#### Zainteresowała Cię nasza oferta?
+#### Potrzebujesz ekspertów do realizacji <br> *sklepu internetowego?*
 
 #description
-Skontaktuj się z nami i rozpocznij współpracę
+Umów się na bezpłatną konsultację, porozmawiajmy!
 
 ::::
 :::
