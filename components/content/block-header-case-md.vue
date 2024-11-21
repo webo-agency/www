@@ -4,7 +4,10 @@
     :style="[{ 'max-width': maxWidth + 'px' }]"
   >
     <div v-if="logoUrl" class="mb-5 md:mb-7">
-      <nuxt-picture class="max-w-[150px] h-[50px] object-contain" :src="logoUrl" />
+      <nuxt-picture
+        class="max-w-[150px] h-[50px] object-contain"
+        :src="logoUrl"
+      />
     </div>
     <div
       v-if="$slots.title"
@@ -18,7 +21,7 @@
     >
       <ContentSlot :use="$slots.tags" unwrap="ul" />
     </ul>
-    <div v-if="$slots.description" class="text-xl desktop:text-2xl">
+    <div v-if="$slots.description" class="text-xl">
       <ContentSlot :use="$slots.description" />
     </div>
 
@@ -61,9 +64,9 @@ export default {
 };
 </script>
 
-<style  lang="postcss" scoped>
+<style lang="postcss" scoped>
 :deep(.tags-list li) {
-  @apply bg-gray-light text-black/25 rounded-[5px] py-[7px] px-[15px]
-    text-lg desktop:text-xl font-semibold leading-none desktop:leading-none;
+  @apply bg-green-gray text-gray-darker uppercase rounded-full py-[10px] px-[20px]
+    text-sm font-medium leading-none desktop:leading-none;
 }
 </style>
