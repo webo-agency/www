@@ -187,7 +187,28 @@ Po wykonaniu migracji skupiliśmy się na **rozwoju sklepu o nowe funkcjonalnoś
 - **Integracja sklepu z platformą do wysyłki e-maili transakcyjnych**
 - **Automatyzacja CI/CD** - Proces wgrywania zmian ze środowiska testowego, zwiększający stabilną pracę systemu
 :::::
+::::
+:::
 
+:::effect-appear-md
+---
+class: mx-default
+---
+
+#### **Optymalizacja procesu zakupowego**
+
+::::prose-p3
+W celu optymalizacji procesu zakupowego **zaprojektowaliśmy i wdrożyliśmy nową kartę produktu**, wraz z wygodną galerią prezentującą zdjęcia wysokiej rozdzielczości oraz szybką płatnością **PayPal Checkout**. Wprowadziliśmy także zmiany na stronie głównej, a standardowy checkout Prestashop  zastąpiliśmy rozwiązaniem **One Page Checkout**, znacznie skracając ścieżkę użytkownika od umieszczenia produktu w koszyku do finalizacji zamówienia.
+::::
+:::
+::
+
+::page-section-md
+---
+class: mb-[50px] tablet:mb-[100px]
+---
+:::effect-appear-md
+::::prose-figure{src="/img/content-images/case-mancraft-img3.png"}
 ::::
 :::
 ::
