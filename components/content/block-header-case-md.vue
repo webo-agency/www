@@ -21,7 +21,7 @@
     >
       <ContentSlot :use="$slots.tags" unwrap="ul" />
     </ul>
-    <div v-if="$slots.description" class="text-xl">
+    <div v-if="$slots.description" class="text-xl desktop:leading-[35px]">
       <ContentSlot :use="$slots.description" />
     </div>
 

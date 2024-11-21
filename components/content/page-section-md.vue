@@ -120,7 +120,7 @@ export default {
   @apply text-lg desktop:text-xl;
 }
 .static-content :deep(.p3 p) {
-  @apply text-base desktop:text-lg;
+  @apply text-base desktop:text-lg desktop:leading-[32px];
 }
 .static-content :deep(.p4 p) {
   @apply text-sm desktop:text-base;

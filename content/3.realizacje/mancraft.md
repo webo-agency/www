@@ -71,7 +71,6 @@ class: mx-default flex flex-col md:flex-row gap-10 lg:gap-20 fullHd:gap-[140px]
 ---
 
 ::::prose-p3
-
 **Mancraft Airsoft** to polska marka, która od 10 lat jest liderem w projektowaniu i produkcji najwyższej jakości sprzętu Airsoftowego. W swojej ofercie posiada rozwiązania do replik wielu wiodących na świecie producentów, prowadząc sprzedaż na każdym kontynencie zarówno za pomocą sklepu internetowego jak i sieci współpracujących dystrybutorów.
 
 Posiadając zaawansowany park maszyn CNC, know-how i wieloletnie doświadczenie branżowe, produkty Mancraft spełniają najwyższe wymagania społeczności Airsoft, a marka zyskała uznanie na całym świecie. 
