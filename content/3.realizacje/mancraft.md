@@ -212,3 +212,49 @@ class: mb-[50px] tablet:mb-[100px]
 ::::
 :::
 ::
+
+::page-section-md
+---
+class: static-content mb-[50px] tablet:mb-[120px]
+---
+:::effect-appear-md
+---
+class: mx-default
+---
+#### **Wykorzystane technologie**
+
+::::prose-figure{src="/img/content-images/case-mancraft-tech.png"}
+---
+class: hidden tablet:block mb-[60px]
+---
+::::
+::::prose-figure{src="/img/content-images/case-5g-tech-mobile.png"}
+---
+class: tablet:hidden
+---
+::::
+:::
+
+:::effect-appear-md
+---
+class: mx-default 
+---
+#### **Integracje**
+:::
+
+:::effect-appear-md
+---
+class: mx-default
+---
+::::prose-figure{src="/img/content-images/case-mancraft-tech2.png"}
+---
+class: hidden tablet:block
+---
+::::
+::::prose-figure{src="/img/content-images/case-5g-tech-mobile.png"}
+---
+class: tablet:hidden
+---
+::::
+:::
+::
