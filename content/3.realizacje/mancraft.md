@@ -228,9 +228,9 @@ class: mx-default
 class: hidden tablet:block mb-[60px]
 ---
 ::::
-::::prose-figure{src="/img/content-images/case-5g-tech-mobile.png"}
+::::prose-figure{src="/img/content-images/case-mancraft-tech.png"}
 ---
-class: tablet:hidden
+class: tablet:hidden mb-[60px]
 ---
 ::::
 :::
@@ -251,10 +251,117 @@ class: mx-default
 class: hidden tablet:block
 ---
 ::::
-::::prose-figure{src="/img/content-images/case-5g-tech-mobile.png"}
+::::prose-figure{src="/img/content-images/case-mancraft-tech2.png"}
 ---
 class: tablet:hidden
 ---
 ::::
 :::
 ::
+
+::page-section-md
+---
+class: static-content mb-[50px] tablet:mb-[100px]
+---
+:::effect-appear-md
+---
+class: mx-default
+---
+
+### **Rezultat pracy**
+
+::::prose-p3
+Prócz wyżej wymienionego silnika Prestashop 1.7 do realizacji sklepu wykorzystaliśmy wiele sprawdzonych rozwiązań. Zagraniczna sprzedaż obsługiwana jest za pomocą **bramek Stripe i PayPal**, a wysyłka organizowana przez jednego z dostępnych operatorów **DHL, Poczta Polska i UPS**. Na Polski rynek wdrożyliśmy **bramkę płatniczą PayU** oraz wysyłkę do **Paczkomatów InPost**. Stany magazynowe oraz transakcje zintegrowane są z **systemem Baselinker**, a maile transakcyjne obsługiwane za pomocą **platformy EmailLabs** która gwarantuje najwyższy poziom dostarczania wiadomości. W celu zwiększenia bezpieczeństwa, zastosowaliśmy rozwiązanie **Cloudflare** eliminując niebezpieczny ruch oraz nieautoryzowany dostęp do wewnętrznych zasobów sieciowych.
+::::
+:::
+::
+
+::page-section-md
+---
+class: mb-[50px] tablet:mb-[100px]
+---
+:::effect-appear-md
+::::prose-figure{src="/img/content-images/case-mancraft-img3.png"}
+::::
+:::
+::
+
+::page-section-md
+---
+class: static-content mb-[50px] tablet:mb-[100px]
+---
+:::effect-appear-md
+---
+class: mx-default
+---
+::::block-opinion-md
+---
+rating: 5
+center: true
+---
+
+#title
+### **Opinia klienta**
+
+#content
+
+:::::prose-p3
+Dzięki pracy Webo mój klient osiągnął wyższe pozycje w wyszukiwarkach, **poprawił satysfakcję użytkowników i zwiększył ich zaangażowanie**. Firma proaktywnie **zarządzała ryzykiem**.  i zapewniała alternatywne rozwiązanie, aby osiągnąć cele klienta. Ich **szybkość reakcji i kreatywność** były godne pochwały.
+:::::
+
+#author
+
+#### **Radosław Cyganek**
+
+#authorTitle
+:::::prose-p6
+Executive - **Proton Multimedia**
+:::::
+::::
+:::
+::
+
+::page-section-md
+---
+class: mb-[50px] tablet:mb-[100px]
+---
+:::effect-appear-md
+::::block-cta-md
+---
+button.link: https://www.webo.agency/kontakt
+button.title: 'Skontaktuj się'
+---
+
+#title
+#### Zainteresowała Cię nasza oferta?
+
+#description
+Skontaktuj się z nami i rozpocznij współpracę
+
+::::
+:::
+::
+
+::page-section-md
+---
+class: mb-20 tablet:mb-[130px]
+---
+:::effect-appear-md
+::::block-header-md
+---
+center: true
+class: mb-[50px] tablet:mb-[100px]
+---
+
+#subtitle
+### Nasi klienci
+
+#title
+## Poznaj firmy które *nam zaufały*
+
+::::
+:::
+:::block-brands-before-footer-md
+:::
+::
+
