@@ -1,4 +1,11 @@
 {
   // https://v3.nuxtjs.org/concepts/typescript
-  "extends": "./.nuxt/tsconfig.json"
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "types": [
+      "vite/client",
+      "vite-plugin-pages/client",
+      "vite-plugin-vue-layouts/client"
+    ],
+  }
 }

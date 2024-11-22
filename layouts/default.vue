@@ -1,4 +1,5 @@
 <template>
+  <NuxtPwaManifest />
   <div class="h-full font-body">
     <LayoutNavbar
       :menu="navItems"

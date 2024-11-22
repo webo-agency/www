@@ -34,7 +34,14 @@ export default {
     join(currentDir, './assets/css/main.css')
   ],
   plugins: [join(currentDir, './plugins/textformatter.js')],
-  modules: ["@nuxt/content", "@nuxt/image", "@nuxtjs/tailwindcss",'@stefanobartoletti/nuxt-social-share','nuxt-simple-sitemap','nuxt-booster'],
+  modules: [
+    "@nuxt/content",
+    "@nuxt/image",
+    "@nuxtjs/tailwindcss",
+    '@stefanobartoletti/nuxt-social-share',
+    'nuxt-simple-sitemap',
+    "@vite-pwa/nuxt",
+  ],
   // unocss: {
   //   autoImport: true,
   //   uno: true, // enabled `@unocss/preset-uno`
@@ -107,11 +114,23 @@ export default {
     }
     
   },
-  // pwa: {
-  //   manifest: {
-  //     lang: "en",
-  //   },
-  // },
+  pwa: {
+    registerType: "autoUpdate",
+    manifest: {
+      lang: "en",
+      theme_color: "#06ceaf",
+      id: "/?standalone=true",
+      start_url: "/",
+      orientation: "any",
+    },
+    strategies: "generateSW",
+    workbox: {
+      globPatterns: ["**/*.{js,css,html,png,svg,ico}"],
+      maximumFileSizeToCacheInBytes: 4000000,
+      navigateFallback: null,
+    },
+  },
+
   target: "static",
   nitro: {
     prerender: {

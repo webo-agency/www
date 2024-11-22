@@ -4,6 +4,7 @@
       class="w-full h-full"
       :src="'/img/bg-dots.png'"
       :imgAttrs="{ class: 'w-full h-full object-cover ultraHd:object-contain' }"
+      loading="lazy"
       width=""
       height=""
     >

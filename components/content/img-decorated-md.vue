@@ -3,7 +3,8 @@
     <div class="relative block z-20 w-full">
       <nuxt-picture class="rounded-[5px] w-full" v-if="imgUrl" :src="imgUrl" :title="title ? title : 'Webo image'"
         :alt="alt ? alt : 'Webo image'" :class="{ 'shadow-2xl shadow-black/10': shadow }"
-        :imgAttrs="{ class: 'w-full h-full object-cover' }" />
+        :imgAttrs="{ class: 'w-full h-full object-cover' }" 
+        loading="lazy"/>
       <div v-if="gradient"
         class="block bottom-0 inset-x-0 top-1/3 z-30 bg-gradient-to-t bg-gradient-from from-gray-darkest absolute">
       </div>

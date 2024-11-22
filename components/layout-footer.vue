@@ -208,6 +208,7 @@
                   height="64"
                   fit="inside"
                   class="object-contain object-left-top"
+                  loading="lazy"
                 />
               </div>
             </div>

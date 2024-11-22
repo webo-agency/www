@@ -23,14 +23,14 @@
       <EffectAppearMdc>
         <nuxt-picture v-if="image && image.url"
           class="px-5 desktop-wide:px-[60px] tablet-wide:min-h-[300px] object-contain" :class="image.url && imageMobile.url ? 'hidden tablet-wide:block' : 'block'
-            " :src="image.url" :title="image.title ? image.title : ''" :alt="image.alt ? image.alt : 'WEBO image'">
+            " :src="image.url" :title="image.title ? image.title : ''" :alt="image.alt ? image.alt : 'WEBO image'" loading="lazy">
         </nuxt-picture>
         <nuxt-picture v-if="imageMobile && imageMobile.url"
           class="pt-4 max-w-[500px] w-full mx-auto object-contain object-bottom" :class="image.url && imageMobile.url
               ? 'block tablet-wide:hidden'
               : 'block tablet-wide:pt-0'
             " :imgAttrs="{ class: 'w-full' }" :src="imageMobile.url" :title="imageMobile.title ? imageMobile.title : ''"
-          :alt="imageMobile.alt ? imageMobile.alt : 'WEBO image'">
+          :alt="imageMobile.alt ? imageMobile.alt : 'WEBO image'" loading="lazy">
         </nuxt-picture>
       </EffectAppearMdc>
     </div>

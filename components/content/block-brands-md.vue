@@ -6,7 +6,7 @@
       <nuxt-picture v-if="logo.imgUrl"
         class="h-full flex justify-center opacity-30 filter blur-0 brightness-100 contrast-100 grayscale-0 hue-rotate-0 invert-0 sepia-0 saturate-0 drop-shadow-none object-contain "
         :src="logo.imgUrl" :title="logo.title ? logo.title : ''" :alt="logo.alt ? logo.alt : 'Brand logo'"
-        :imgAttrs="{ class: 'w-full h-full object-contain custom-filter duration-300' }" />
+        :imgAttrs="{ class: 'w-full h-full object-contain custom-filter duration-300' }" loading="lazy"/>
     </CustomLink>
   </div>
 </template>
