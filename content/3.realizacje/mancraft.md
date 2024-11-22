@@ -277,16 +277,6 @@ Prócz wyżej wymienionego silnika Prestashop 1.7 do realizacji sklepu wykorzyst
 
 ::page-section-md
 ---
-class: mb-[50px] tablet:mb-[100px]
----
-:::effect-appear-md
-::::prose-figure{src="/img/content-images/case-mancraft-img3.png"}
-::::
-:::
-::
-
-::page-section-md
----
 class: static-content mb-[50px] tablet:mb-[100px]
 ---
 :::effect-appear-md
