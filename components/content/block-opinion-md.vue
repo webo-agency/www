@@ -1,34 +1,61 @@
 <template>
-    <div class="relative flex flex-col"
-    :class="{'max-w-[695px] items-center text-center mx-auto':center}">
-        <div class="relative mb-5"><slot name="title" />
-            <span
-        class="absolute -top-5 text-[100px] text-gray-light font-semibold pointer-events-none"
-        :class="[center ? '-right-10 tablet:right-[-70px] desktop:-right-32' : 'left-3/4 tablet:left-2/3']"
-        >“</span>
-        </div>
-        <rating-stars v-if="rating" :rating="rating" />
-        <div><slot name="content" /></div>
-        <div class="author">
-            <slot name="author" /></div>
-        <div class="authorTitle"><slot name="authorTitle" /></div>
+  <div class="w-full title text-center">
+    <slot name="title" />
+  </div>
+  <div class="flex flex-col desktop:flex-row justify-between">
+    <div class="basis-[40%]">
+      <slot name="left">
+        <nuxt-picture
+          src="/img/content-images/case-mancraft-clutch.png"
+          fit="inside"
+          class="block max-w-[220px]"
+        />
+      </slot>
     </div>
-  </template>
-  
+    <div class="basis-[60%]">
+      <div
+        class="relative bg-green-gray py-[60px] px-10 flex flex-col"
+        :class="{ 'max-w-[695px] items-left mx-auto': center }"
+      >
+        <div><slot name="content" /></div>
+        <div class="flex gap-5">
+          <div class="avatarImg">
+            <nuxt-picture
+              src="/img/content-images/avatar-img.png"
+              fit="inside"
+              class="block max-w-[220px]"
+            />
+          </div>
+          <div class="author-wrapper">
+            <div class="author">
+              <slot name="author" />
+            </div>
+            <div class="authorTitle"><slot name="authorTitle" /></div>
+            <rating-stars v-if="rating" :rating="rating" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
 <script>
 export default {
-    props:{
-        rating: Number,
-        center: Boolean
-    }
+  props: {
+    rating: Number,
+    center: Boolean,
+  },
 };
 </script>
-  
+
 <style lang="postcss" scoped>
 :deep(.author *) {
-    @apply !mb-1
+  @apply !mb-1;
 }
 :deep(.authorTitle *) {
-    @apply !uppercase
+  @apply !uppercase;
 }
-</style>  
+:deep(.authorTitle .p6 p) {
+  @apply !mb-4;
+}
+</style>

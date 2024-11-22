@@ -1,7 +1,15 @@
 <template>
-  <component class="relative w-full" :is="wrapper" :id="id" :class="'relative w-full ' + classes">
+  <component
+    class="relative w-full"
+    :is="wrapper"
+    :id="id"
+    :class="'relative w-full ' + classes"
+  >
     <div class="px-5 tablet:px-10 desktop:px-20">
-      <div class="mx-auto max-w-screen-desktop-wide" :class="innerContainerClasses">
+      <div
+        class="mx-auto max-w-screen-desktop-wide"
+        :class="innerContainerClasses"
+      >
         <slot> </slot>
       </div>
     </div>
@@ -22,10 +30,10 @@ export default {
       type: String,
       default: "",
     },
-    innerContainerClasses:{
+    innerContainerClasses: {
       type: String,
       default: "",
-    }, 
+    },
     id: {
       type: String,
     },
@@ -34,27 +42,24 @@ export default {
 </script>
 
 <style lang="postcss" scoped>
-
 :deep(.mx-default) {
-  @apply mx-5 tablet:mx-20 desktop:mx-[120px]
+  @apply mx-5 tablet:mx-20 desktop:mx-[120px];
 }
 
 :deep(.mx-blog) {
-  @apply mx-5 tablet:mx-10 desktop:mx-auto desktop:max-w-[934px]
+  @apply mx-5 tablet:mx-10 desktop:mx-auto desktop:max-w-[934px];
 }
 
-:deep(.mx-none *){
-  @apply mx-0
+:deep(.mx-none *) {
+  @apply mx-0;
 }
 .static-content :deep() {
   @apply text-gray-darker;
 }
 
-
-:deep(.fullwidth figure img){
-  @apply min-h-[300px] phone-wide:min-h-[400px] tablet:min-h-0 object-cover
+:deep(.fullwidth figure img) {
+  @apply min-h-[300px] phone-wide:min-h-[400px] tablet:min-h-0 object-cover;
 }
-
 
 .static-content :deep(.block-quote),
 .static-content :deep(.block-bg),
@@ -73,7 +78,6 @@ export default {
 .static-content :deep(.right .block-border) {
   @apply mx-0 tablet:mx-0 desktop:mx-0 mt-10 tablet:mt-20 tablet:ml-20 desktop:ml-40;
 }
-
 
 .static-content :deep(h1) {
   @apply mb-10 desktop:mb-20 text-6xl desktop:text-[70px];
@@ -103,7 +107,7 @@ export default {
 .static-content :deep(.p4),
 .static-content :deep(.p5),
 .static-content :deep(.p6) {
-  padding:0
+  padding: 0;
 }
 
 .static-content :deep(p) {
@@ -116,7 +120,7 @@ export default {
   @apply text-lg desktop:text-xl;
 }
 .static-content :deep(.p3 p) {
-  @apply text-base desktop:text-lg;
+  @apply text-base desktop:text-lg desktop:leading-[32px];
 }
 .static-content :deep(.p4 p) {
   @apply text-sm desktop:text-base;
@@ -132,7 +136,7 @@ export default {
   @apply font-semibold;
 }
 .static-content :deep(ul) {
-  @apply mb-10 desktop:mb-20 max-w-[800px];
+  @apply mb-10 desktop:mb-20 max-w-full;
 }
 .static-content :deep(ul li) {
   @apply relative mb-3 desktop:mb-4 ml-4 text-base desktop:text-lg before:inline-block before:content-[""] before:w-[6px] before:h-[6px] before:rounded-full before:bg-green-main before:absolute before:-left-4 before:top-2.5;
@@ -152,7 +156,7 @@ export default {
   @apply mb-0;
 }
 
-.static-content :deep(.block-quote)::before{
+.static-content :deep(.block-quote)::before {
   content: "\201C";
 }
 .static-content :deep(.block-quote) {
@@ -161,10 +165,9 @@ export default {
   @apply mb-20 desktop:mb-[150px] py-10 desktop:py-24 px-7 desktop:px-[60px] text-white relative z-10 rounded-[5px] bg-gray-dark bg-center bg-no-repeat before:absolute before:scale-y-90 before:font-medium before:top-20 before:left-2 before:text-gray-darker before:text-[140px] before:leading-8 after:absolute after:[transform:translateZ(-10px)] after:-left-[5px] after:tablet:-left-5 after:-bottom-5 after:desktop:-left-[50px] after:desktop:-bottom-[50px] after:h-3/4 after:min-h-[100px] after:w-[100px] after:tablet:h-[220px] after:tablet:w-[220px] after:bg-gray-light after:rounded-[5px];
 }
 
-.static-content :deep(.block-quote div:last-child p ) {
+.static-content :deep(.block-quote div:last-child p) {
   @apply mb-0;
 }
-
 
 .static-content :deep(.block-quote > *) {
   @apply relative z-20 mx-0;
@@ -179,11 +182,11 @@ export default {
 }
 
 .static-content :deep(.block-bg) {
-  @apply mb-7 desktop:mb-[60px] py-10 desktop:py-20 px-7 desktop:px-[60px]  rounded-[5px] bg-gray-light;
+  @apply mb-7 desktop:mb-[60px] py-10 desktop:py-20 px-7 desktop:px-[60px]  bg-green-gray;
 }
 
-.static-content :deep(.block-bg div:last-child p ),
-.static-content :deep(.block-bg >:last-child ),
+.static-content :deep(.block-bg div:last-child p),
+.static-content :deep(.block-bg > :last-child),
 .static-content :deep(.block-bg div:last-child ul) {
   @apply !mb-0;
 }
