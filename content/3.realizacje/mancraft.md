@@ -260,7 +260,7 @@ class: tablet:hidden
 
 ::page-section-md
 ---
-class: static-content mb-[50px] tablet:mb-[100px]
+class: static-content mb-[50px] tablet:mb-[100px] hidden
 ---
 :::effect-appear-md
 ---
@@ -271,6 +271,16 @@ class: mx-default
 
 ::::prose-p3
 Prócz wyżej wymienionego silnika Prestashop 1.7 do realizacji sklepu wykorzystaliśmy wiele sprawdzonych rozwiązań. Zagraniczna sprzedaż obsługiwana jest za pomocą **bramek Stripe i PayPal**, a wysyłka organizowana przez jednego z dostępnych operatorów **DHL, Poczta Polska i UPS**. Na Polski rynek wdrożyliśmy **bramkę płatniczą PayU** oraz wysyłkę do **Paczkomatów InPost**. Stany magazynowe oraz transakcje zintegrowane są z **systemem Baselinker**, a maile transakcyjne obsługiwane za pomocą **platformy EmailLabs** która gwarantuje najwyższy poziom dostarczania wiadomości. W celu zwiększenia bezpieczeństwa, zastosowaliśmy rozwiązanie **Cloudflare** eliminując niebezpieczny ruch oraz nieautoryzowany dostęp do wewnętrznych zasobów sieciowych.
+::::
+:::
+::
+
+::page-section-md
+---
+class: mb-[50px] tablet:mb-[100px] hidden
+---
+:::effect-appear-md
+::::prose-figure{src="/img/content-images/case-mancraft-img3.png"}
 ::::
 :::
 ::
