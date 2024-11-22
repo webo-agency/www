@@ -44,7 +44,8 @@ export const onRequest = (context) => {
           company: (formData.get("company") || "").toString(),
           phone: (formData.get("phone") || "").toString(),
           message: (formData.get("description") || "").toString(),
-          acceptance: (formData.get("service") || 0).toString(),
+          acceptance: (formData.get("acceptance") || 0).toString(),
+          service: (formData.get("service") || 0).toString(),
           email: (formData.get("mail") || "").toString(),
           subject: `Thank you for contact ${formData.get("name") || ""}`
         };
@@ -75,7 +76,7 @@ export const onRequest = (context) => {
             "&to" + new URLSearchParams("["+to+"][vars][message]="+decodeURIComponent(vars.message)).toString() +
             "&to" + new URLSearchParams("["+to+"][vars][email]="+decodeURIComponent(vars.email)).toString() +
             "&to" + new URLSearchParams("["+to+"][vars][subject]="+decodeURIComponent(vars.subject)).toString() +
-            "&to" + new URLSearchParams("["+to+"][vars][acceptance]="+decodeURIComponent(vars.acceptance)).toString() +
+            "&to" + new URLSearchParams("["+to+"][vars][service]="+decodeURIComponent(vars.service)).toString() +
             "&to" + new URLSearchParams("["+context.env.EMAIL_REPLY_TO+"]").toString()+
             "&to" + new URLSearchParams("["+context.env.EMAIL_REPLY_TO+"][vars][name]="+decodeURIComponent(vars.name)).toString() +
             "&to" + new URLSearchParams("["+context.env.EMAIL_REPLY_TO+"][vars][company]="+decodeURIComponent(vars.company)).toString() +
@@ -83,6 +84,7 @@ export const onRequest = (context) => {
             "&to" + new URLSearchParams("["+context.env.EMAIL_REPLY_TO+"][vars][message]="+decodeURIComponent(vars.message)).toString() +
             "&to" + new URLSearchParams("["+context.env.EMAIL_REPLY_TO+"][vars][email]="+decodeURIComponent(vars.email)).toString() +
             "&to" + new URLSearchParams("["+context.env.EMAIL_REPLY_TO+"][vars][subject]="+decodeURIComponent("WWW | Contact from : " + vars.name)).toString() +
+            "&to" + new URLSearchParams("["+context.env.EMAIL_REPLY_TO+"][vars][service]="+decodeURIComponent(vars.service)).toString() +
             "&to" + new URLSearchParams("["+context.env.EMAIL_REPLY_TO+"][vars][acceptance]="+decodeURIComponent(vars.acceptance)).toString() +
             "&to" + new URLSearchParams("["+context.env.EMAIL_COPY+"]").toString()+
             "&to" + new URLSearchParams("["+context.env.EMAIL_COPY+"][vars][name]="+decodeURIComponent(vars.name)).toString() +
@@ -91,6 +93,7 @@ export const onRequest = (context) => {
             "&to" + new URLSearchParams("["+context.env.EMAIL_COPY+"][vars][message]="+decodeURIComponent(vars.message)).toString() +
             "&to" + new URLSearchParams("["+context.env.EMAIL_COPY+"][vars][email]="+decodeURIComponent(vars.email)).toString() +
             "&to" + new URLSearchParams("["+context.env.EMAIL_COPY+"][vars][subject]="+decodeURIComponent("WWW | Contact from : " + vars.name)).toString() +
+            "&to" + new URLSearchParams("["+context.env.EMAIL_COPY+"][vars][service]="+decodeURIComponent(vars.acceptance)).toString() +
             "&to" + new URLSearchParams("["+context.env.EMAIL_COPY+"][vars][acceptance]="+decodeURIComponent(vars.acceptance)).toString()
         }).then(result => new Response(
          'Message has been sent',{
