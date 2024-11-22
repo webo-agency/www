@@ -122,6 +122,14 @@ export default {
       id: "/?standalone=true",
       start_url: "/",
       orientation: "any",
+      icons: [
+        {
+          src: "symbol.png",
+          sizes: "512x512",
+          type: "image/png",
+          purpose: "any maskable",
+        },
+      ],
     },
     strategies: "generateSW",
     workbox: {
