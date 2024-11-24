@@ -13,7 +13,7 @@
       </template>
       <template v-if="$slots.title" #title>
         <div
-          class="title font-semibold text-center _text-3xl desktop:[&_h4]:!text-[30px] desktop:[&_h4]:!leading-[36px] mb-3"
+          class="title font-semibold text-center desktop:[&_h4]:!text-[30px] desktop:[&_h4]:!leading-[36px] mb-3"
         >
           <slot name="title" />
         </div>

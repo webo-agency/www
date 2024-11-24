@@ -2,13 +2,13 @@
   <div class="w-full title text-center">
     <slot name="title" />
   </div>
-  <div class="flex flex-col desktop:flex-row justify-between">
+  <div class="flex flex-col desktop:flex-row gap-10 justify-between">
     <div class="basis-[40%]">
       <slot name="left">
         <nuxt-picture
           src="/img/content-images/case-mancraft-clutch.png"
           fit="inside"
-          class="block max-w-[220px]"
+          class="block [&>img]:mx-auto [&>img]:desktop:ml-0 [&>img]:w-1/2 [&>img]:desktop:w-[220px]"
         />
       </slot>
     </div>

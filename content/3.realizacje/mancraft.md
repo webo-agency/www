@@ -21,7 +21,7 @@ class: mb-10 tablet:mb-20 mt-[100px] tablet:mt-[200px]
 :::effect-appear-md
 ::::block-header-case-md
 ---
-class: mx-default
+class: mx-default [&_h2]:text-[26px] [&_h2]:tablet:text-4xl [&_h2]:desktop:text-5xl
 logoUrl: '/img/logos/mancraft2.png'
 link: 'https://shop-mancraft.com/pl/'
 maxWidth: 100%
@@ -83,52 +83,52 @@ class: min-w-[330px] md:self-baseline !p-[30px] !mx-0 font-semibold
 
 ::::prose-p6
 ---
-class: uppercase [&_p]:!mb-2
+class: uppercase [&_p]:!mb-0 tablet:[&_p]:!mb-2
 ---
 _Kraj_
 ::::
 ::::prose-p4
 ---
-class: mx-0 [&_p]:!mb-[20px]
+class: mx-0 [&_p]:!mb-[15px] tablet:[&_p]:!mb-[20px]
 ---
 **Polska**
 ::::
 
 ::::prose-p6
 ---
-class: uppercase [&_p]:!mb-2
+class: uppercase [&_p]:!mb-0 tablet:[&_p]:!mb-2
 ---
 _Data Realizacji_
 ::::
 ::::prose-p4
 ---
-class: mx-0 [&_p]:!mb-[20px]
+class: mx-0 [&_p]:!mb-[15px] tablet:[&_p]:!mb-[20px]
 ---
 **2021 - Obecnie**
 ::::
 
 ::::prose-p6
 ---
-class: uppercase [&_p]:!mb-2
+class: uppercase [&_p]:!mb-0 tablet:[&_p]:!mb-2
 ---
 _Branża_
 ::::
 ::::prose-p4
 ---
-class: mx-0 [&_p]:!mb-[20px]
+class: mx-0 [&_p]:!mb-[15px] tablet:[&_p]:!mb-[20px]
 ---
 **Projektowanie i produkcja sprzętu ASG**
 ::::
 
 ::::prose-p6
 ---
-class: uppercase [&_p]:!mb-2
+class: uppercase [&_p]:!mb-0 tablet:[&_p]:!mb-2
 ---
 _Zakres prac_
 ::::
 ::::prose-p4
 ---
-class: mx-0 [&_p]:!mb-[20px]
+class: mx-0 [&_p]:!mb-[15px] tablet:[&_p]:!mb-[20px]
 ---
 **Programowanie, wsparcie i rozwój, Projektowanie UX/UI**
 ::::
@@ -227,7 +227,7 @@ class: mx-default
 class: hidden tablet:block mb-[60px]
 ---
 ::::
-::::prose-figure{src="/img/content-images/case-mancraft-tech.png"}
+::::prose-figure{src="/img/content-images/case-mancraft-tech-mobile.png"}
 ---
 class: tablet:hidden mb-[60px]
 ---
@@ -250,7 +250,7 @@ class: mx-default
 class: hidden tablet:block
 ---
 ::::
-::::prose-figure{src="/img/content-images/case-mancraft-tech2.png"}
+::::prose-figure{src="/img/content-images/case-mancraft-tech2-mobile.png"}
 ---
 class: tablet:hidden
 ---
