@@ -3,7 +3,7 @@
     <ContentRenderer v-if="pageData" :value="pageData" />
     <PageSection v-else>
       <div class="my-[150px]">
-        <h1 class="text-2xl mb-5">Document is empty</h1>
+        <h1 class="text-2xl mb-5">Page not found</h1>
         <ButtonMain class="text-white" :link="'/'" :title="'Back to home'"></ButtonMain>
       </div>
     </PageSection>
@@ -17,7 +17,7 @@ const props = defineProps({
 const route = useRoute()
 const { data: pageData } = await useAsyncData('page-data-' + route.fullPath.split('#')[0].split('?')[0], () => queryContent(route.path).findOne())
 
-const hrefLangs = computed(() => getPageLangs(pageData.value.hreflangs));
+const hrefLangs = computed(() => getPageLangs(pageData?.value?.hreflangs));
 const hrefLangsState = useState("hrefLangs" + route.fullPath.split('#')[0], () => hrefLangs.value);
 
 const alternateLinks = computed(() => {
@@ -32,7 +32,7 @@ const alternateLinks = computed(() => {
 
 const img = useImage()
 const headData = computed(() => {
-  if (!pageData.value) return
+  if (!pageData.value) return {}
   
   let data = {}
   

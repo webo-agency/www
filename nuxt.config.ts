@@ -41,6 +41,7 @@ export default {
     '@stefanobartoletti/nuxt-social-share',
     'nuxt-simple-sitemap',
     "@vite-pwa/nuxt",
+    "nuxt-vitalizer",
   ],
   // unocss: {
   //   autoImport: true,
@@ -114,6 +115,11 @@ export default {
     }
     
   },
+  vitalizer: {
+    disablePrefetchLinks: true,
+    disablePreloadLinks: true,
+    disableStylesheets: 'entry',
+  },
   pwa: {
     registerType: "autoUpdate",
     manifest: {
@@ -167,4 +173,49 @@ export default {
       },
     },
   },
+
+  hooks: {
+    // prevent some prefetch behaviour
+    "build:manifest": (manifest) => {
+      for (const key in manifest) {
+        manifest[key].dynamicImports = []
+        manifest[key].prefetch = false;
+        manifest[key].preload = false;
+        
+        const file = manifest[key];
+        if (file.assets) {
+          file.assets = file.assets.filter(
+            (assetName) => !/.+\.(gif|jpe?g|png|svg)$/.test(assetName)
+          );
+        }
+      }
+    }
+  },
+  vite: {
+    build: {
+      rollupOptions: {
+        output: {
+          experimentalMinChunkSize: 250 * 1024,
+          manualChunks: (id, _) => {
+            if (
+              !id.includes("node_modules") &&
+              !id.startsWith("virtual:") &&
+              !id.includes("src") &&
+              !id.includes("assets")
+            ) {
+              if (id.includes("pages")) {
+                const parts = id.split("/");
+                const folderIndex = parts.indexOf("pages");
+                if (folderIndex + 2 < parts.length) {
+                  const pageGroup = parts[folderIndex + 1];
+                  return `chunk-pg-${pageGroup}`;
+                }
+                return "chunk-pg-misc";
+              }
+            }
+          },
+        },
+      },
+    },
+  }
 };
