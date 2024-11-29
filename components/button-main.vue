@@ -1,8 +1,7 @@
 <template>
   <button
     v-if="tagButton"
-    class="flex justify-between items-center w-max max-w-full py-[13px] rounded-full bg-[#08DBBA] hover:bg-green-mainHover shadow-xl shadow-[#079F88]/25 text-base font-semibold uppercase transition-all duration-300 group"
-    :class="[isWide ? 'tablet:w-[285px] px-[25px]' : 'tablet:w-[248px] px-8']"
+    class="flex justify-between items-center w-max max-w-full py-[20px] px-[35px] rounded-full bg-[#08DBBA] hover:bg-green-mainHover shadow-xl shadow-[#079F88]/25 text-[15px] !text-[#333] font-semibold uppercase transition-all duration-300 group"
   >
     <span v-if="title" v-html="title"></span>
     <slot></slot>
@@ -14,8 +13,7 @@
     v-else
     :url="link"
     :activeClass="'none'"
-    class="flex justify-between items-center w-max max-w-full py-[13px] rounded-full bg-[#08DBBA] hover:bg-green-mainHover shadow-xl shadow-[#079F88]/25 text-base font-semibold uppercase transition-all duration-300 group"
-    :class="[isWide ? 'tablet:w-fit px-[25px]' : 'tablet:w-[248px] px-8']"
+    class="flex justify-between items-center w-max max-w-full py-[20px] px-[35px] rounded-full bg-[#08DBBA] hover:bg-green-mainHover shadow-xl shadow-[#079F88]/25 text-[15px] !text-[#333] font-semibold uppercase transition-all duration-300 group"
   >
     <span v-if="title" v-html="title"></span>
     <slot></slot>
