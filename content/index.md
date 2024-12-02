@@ -53,10 +53,10 @@ maxWidth: 640
 ### *1/* Usługi
 
 #title
-## Dostarczamy rozwiązania *internetowe dla firm*
+## Co możemy <br> *dla Ciebie zrobić?*
 
 #description
-Dostarczamy optymalne produkty cyfrowe. Jesteśmy ciekawi Twoich potrzeb - to one są podstawą oferowanych przez nas rozwiązań
+Znamy się na dwóch rzeczach: **technologii i projektowaniu**. Dzięki temu realizujemy **szyte na miarę strony www**, dbając o **najwyższą jakość wykonania**. Z nami zrealizujesz:
 
 ::::
 :::
@@ -73,7 +73,7 @@ delay: 1
 #### Strony internetowe
 
 #description
-Kreujemy szybkie nowoczesne i funkcjonalne strony internetowe, na których Twój klient szybko znajdzie to czego szuka.
+Solidnie kodowane strony www, projektowane z myślą o potrzebach Twojego biznesu i osiąganiu konkretnych celów.
 
 #readMoreText
 Dowiedz się więcej
@@ -89,7 +89,7 @@ link: 'https://www.webo.agency/uslugi/sklepy-internetowe'
 #### Sklepy internetowe
 
 #description
-E-commerce z płynnym procesem zakupowym, dostosowany do potrzeb Twojej firmy. Tworzymy sklepy przygotowane do dalszego rozwoju i ekspansji.
+E-commerce z płynnym procesem zakupowym, dostosowany do indywidualnych potrzeb Twojej firmy. Dostarczamy sklepy przygotowane do dalszego rozwoju i ekspansji.
 
 #readMoreText
 Dowiedz się więcej
@@ -180,89 +180,6 @@ Umów się na bezpłatną konsultację, porozmawiajmy!
 :::
 ::
 
-
-::page-section-md
----
-class: w-full mb-[150px] bg-gray-light
----
-:::block-columns-img-md
----
-image.url: '/img/content-images/1solutions.png'
-imageMobile.url: '/img/content-images/1solutions_mobile.png'
----
-#subtitle
-### *2/* Skalowalne rozwiązania
-
-#title
-## Wybierzemy najlepsze rozwiązanie dla *Twojego biznesu*
-
-#description
-Do każdego projektu podchodzimy indywidualnie, analizując jego potrzeby. Korzystamy z najnowszych technologii, wspierając także popularne rozwiązania. Sprawdź sam!
-:::
-
-:::effect-appear-md
-::::block-logos-slider-md
----
-class: pb-10 desktop:pb-[70px]
----
-
-:::::icon-logo-md
----
-imgUrl: /img/logos/drupal.png
-title: Drupal
----
-:::::
-:::::icon-logo-md
----
-imgUrl: /img/logos/vue.svg
-title: Vue
----
-:::::
-:::::icon-logo-md
----
-imgUrl: /img/logos/nuxt.svg
-title: Nuxt
----
-:::::
-:::::icon-logo-md
----
-imgUrl: /img/logos/tailwind.svg
-title: TailwindCSS
----
-:::::
-:::::icon-logo-md
----
-imgUrl: /img/logos/node.svg
-title: NodeJS
----
-:::::
-:::::icon-logo-md
----
-imgUrl: /img/logos/js.svg
-title: JavaScript
----
-:::::
-:::::icon-logo-md
----
-imgUrl: /img/logos/presta.svg
-title: PrestaShop
----
-:::::
-:::::icon-logo-md
----
-imgUrl: /img/logos/cloudflare.svg
-title: Cloudflare
----
-:::::
-
-
-#title
-Używane technologie
-
-::::
-:::
-::
-
 ::page-section-md
 ---
 id: realizacje
@@ -295,7 +212,7 @@ moreBtn.linktitle: Zobacz wszystkie projekty
 
 ::page-section-md
 ---
-class: bg-gray-darkest relative z-10 overflow-hidden mb-[100px] pt-10 tablet:pt-[100px] [&_.right]:relative [&_.right]:flex [&_.right]:items-end
+class: bg-gray-darkest relative z-10 overflow-hidden pt-10 tablet:pt-[100px] [&_.right]:relative [&_.right]:flex [&_.right]:items-end
 ---
 
 :::block-columns-1-1-md
@@ -309,7 +226,7 @@ class: mb-10 tablet:mb-20
 ---
 
 #subtitle
-### *4/* Nasze podejście
+### *3/* Nasze podejście
 
 #title
 ## Dlaczego warto <br> nam *zaufać?*
@@ -320,6 +237,13 @@ class: mb-10 tablet:mb-20
 class: px-5 tablet:px-10
 ---
 Nasz zespół to solidne umysły ścisłe. Znamy się na technologii jak na niczym innym, pracujemy na twardych danych a nie domysłach.
+:::::::button-secondary-md
+---
+link: 'https://www.webo.agency/o-nas'
+title: 'Dowiedz się więcej'
+---
+ 
+:::::::
 ::::::
 :::::
 ::::
@@ -419,11 +343,219 @@ class: mt-0 !pl-0 !mb-0 !w-[70%] !ml-0
 ---
 ::::::
 :::::
+
 ::::
-
-
 :::
 ::
+
+
+
+
+
+
+::page-section-md
+---
+classes: py-[100px] mb-10 tablet:mb-20 bg-green-gray
+---
+:::block-header-two-cols-md
+---
+class: mb-14
+maxWidth: 652
+decoration: false
+---
+
+#subtitle
+### *4/* Wykorzystywane technologie
+
+#title
+## Wybierzemy najlepsze rozwiązanie *dla Twojego projektu*
+
+#description
+Do każdego projektu podchodzimy **indywidualnie**, analizując jego potrzeby i&nbsp;**dobierając optymalne rozwiązania**. Korzystamy tylko ze sprawdzonych systemów takich jak Wordpres / Drupal / Prestashop, **łącząc je z najnowszymi technologiami**.
+:::
+
+:::block-columns-2-5-md
+
+#left
+::::effect-appear-md
+:::::block-technologies-grid-md
+---
+tilesTight: false
+---
+#title
+Platformy
+
+#content
+::::::technology-tile-md
+--- 
+icon: '/img/icons/drupal-black.svg'
+---
+#title
+##### Drupal
+::::::
+
+::::::technology-tile-md
+--- 
+icon: '/img/icons/presta-black.svg'
+---
+#title
+##### Prestashop
+::::::
+
+::::::technology-tile-md
+--- 
+icon: '/img/icons/wordpress-black.svg'
+---
+#title
+##### Wordpress
+::::::
+
+::::::technology-tile-md
+--- 
+icon: '/img/icons/woo-black.svg'
+---
+#title
+##### WooCommerce
+::::::
+:::::
+::::
+
+#right
+::::effect-appear-md
+:::::block-technologies-grid-md
+---
+tilesTight: true
+---
+#title
+Technologie
+
+#content
+
+::::::technology-tile-md
+--- 
+icon: '/img/icons/js-black.svg'
+link: ''
+tilesSmall: true
+---
+#title
+##### JavaScript
+::::::
+
+::::::technology-tile-md
+--- 
+icon: '/img/icons/tailwind-black.svg'
+link: ''
+tilesSmall: true
+---
+#title
+##### Tailwind
+::::::
+
+::::::technology-tile-md
+--- 
+icon: '/img/icons/php-black.svg'
+link: ''
+tilesSmall: true
+---
+#title
+##### PHP
+::::::
+
+::::::technology-tile-md
+--- 
+icon: '/img/icons/nuxt-black.svg'
+link: ''
+tilesSmall: true
+---
+#title
+##### NUXT
+::::::
+
+::::::technology-tile-md
+--- 
+icon: '/img/icons/nodejs-black.svg'
+link: ''
+tilesSmall: true
+---
+#title
+##### NodeJS
+::::::
+
+::::::technology-tile-md
+--- 
+icon: '/img/icons/restapi-black.svg'
+link: ''
+tilesSmall: true
+---
+#title
+##### RestApi
+::::::
+
+::::::technology-tile-md
+--- 
+icon: '/img/icons/typescript-black.svg'
+link: ''
+tilesSmall: true
+---
+#title
+##### TypeScript
+::::::
+
+::::::technology-tile-md
+--- 
+icon: '/img/icons/threejs-black.svg'
+link: ''
+tilesSmall: true
+---
+#title
+##### ThreeJS
+::::::
+
+::::::technology-tile-md
+--- 
+icon: '/img/icons/symfony-black.svg'
+link: ''
+tilesSmall: true
+---
+#title
+##### Symfony
+::::::
+
+::::::technology-tile-md
+--- 
+icon: '/img/icons/vue-black.svg'
+link: ''
+tilesSmall: true
+---
+#title
+##### Vue.js
+::::::
+
+::::::technology-tile-md
+--- 
+icon: '/img/icons/git-black.svg'
+link: ''
+tilesSmall: true
+---
+#title
+##### Git
+::::::
+
+::::::technology-tile-md
+--- 
+icon: '/img/icons/cloudflare-black.svg'
+link: ''
+tilesSmall: true
+---
+#title
+##### Cloudflare
+::::::
+:::::
+::::
+:::
+::
+
+
 
 ::page-section-md
 ---
@@ -473,6 +605,36 @@ text: See all our reviews
 #full
 :::effect-appear-md
 ::::block-opinions-md
+:::::opinion-md
+---
+rating: 5
+---
+
+#author
+Wojciech Szamocki
+
+#title
+Marketing Department - **Thoro / SOLLUX**
+
+#message
+Polecam współpracę z firmą Webo. **Rzetelnie wykonują założone taski** i **szukają najlepszych rozwiązań**.
+
+:::::
+:::::opinion-md
+---
+rating: 5
+---
+
+#author
+Łukasz Jarota
+
+#title
+Marketing Department - **CEO Agencja Grow**
+
+#message
+Współpraca z ekipą jest niesamowita. **Gwarancja jakości**, **responsywności i kreatywności**. Polecam baaaardzo!
+
+:::::
 :::::opinion-md
 ---
 rating: 5

@@ -22,6 +22,7 @@
           class="description self-end tablet:basis-1/2 text-base desktop:text-lg font-normal relative pb-5"
         >
           <svg
+            v-if="decoration"
             xmlns="http://www.w3.org/2000/svg"
             width="20"
             height="20"
@@ -39,6 +40,7 @@
             ></path>
           </svg>
           <svg
+            v-if="decoration"
             xmlns="http://www.w3.org/2000/svg"
             width="20"
             height="20"
@@ -76,6 +78,10 @@ export default {
     },
     textWhite: Boolean,
     center: Boolean,
+    decoration: {
+      type: Boolean,
+      default: true,
+    },
   },
 };
 </script>
