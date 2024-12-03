@@ -611,36 +611,6 @@ rating: 5
 ---
 
 #author
-Wojciech Szamocki
-
-#title
-Marketing Department - **Thoro / SOLLUX**
-
-#message
-Polecam współpracę z firmą Webo. **Rzetelnie wykonują założone taski** i **szukają najlepszych rozwiązań**.
-
-:::::
-:::::opinion-md
----
-rating: 5
----
-
-#author
-Łukasz Jarota
-
-#title
-Marketing Department - **CEO Agencja Grow**
-
-#message
-Współpraca z ekipą jest niesamowita. **Gwarancja jakości**, **responsywności i kreatywności**. Polecam baaaardzo!
-
-:::::
-:::::opinion-md
----
-rating: 5
----
-
-#author
 Radosław Cyganek
 
 #title
@@ -671,13 +641,28 @@ rating: 5
 ---
 
 #author
-Natalia Ryfa
+Łukasz Jarota
 
 #title
-Business manager - **Oravio**
+CEO & CO-OWNER - **Agencja Grow**
 
 #message
-Pomogli nam w przelaniu naszych wizji sklepu internetowego na realny, **dobrze odbierany przez klientów** i przede wszystkim sprawnie działający sklep! Dziękujemy i **polecamy Webo!** : )
+Współpraca z ekipą jest niesamowita. **Gwarancja jakości**, **responsywności i kreatywności**. Polecam baaaardzo!
+
+:::::
+:::::opinion-md
+---
+rating: 5
+---
+
+#author
+Wojciech Szamocki
+
+#title
+Marketing Department - **Thoro / SOLLUX**
+
+#message
+Polecam współpracę z firmą Webo. **Rzetelnie wykonują założone taski** i **szukają najlepszych rozwiązań**.
 
 :::::
 :::::opinion-md
@@ -695,6 +680,21 @@ Bartłomiej Świstak Piotrowski
 Konsultant strategii w biznesie - **Krakowski świstak**
 
 
+
+:::::
+:::::opinion-md
+---
+rating: 5
+---
+
+#author
+Natalia Ryfa
+
+#title
+Business manager - **Oravio**
+
+#message
+Pomogli nam w przelaniu naszych wizji sklepu internetowego na realny, **dobrze odbierany przez klientów** i przede wszystkim sprawnie działający sklep! Dziękujemy i **polecamy Webo!** : )
 
 :::::
 :::::opinion-md

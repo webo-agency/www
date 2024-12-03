@@ -77,7 +77,7 @@ export default {
         slidesPerGroupAuto: false,
         spaceBetween: 20,
         direction: "horizontal",
-        loop: false,
+        loop: true,
         grabCursor: true,
         pagination: {
           dynamicBullets: true,
