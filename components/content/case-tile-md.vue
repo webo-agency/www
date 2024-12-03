@@ -1,11 +1,11 @@
 <template>
   <div class="flex flex-col shrink-0">
-    <CustomLink class="group hover:text-green-main flex flex-col w-full" :disabled="data.draft && !data.fallback"
+    <CustomLink class="group hover:text-green-main flex flex-col w-full overflow-hidden" :disabled="data.draft && !data.fallback"
       :activeClass="'none'" :url="data.fallback ?? (data.url ?? ('https://www.webo.agency' + data._path))">
       <div ref="imgContainer"
         class="[&:hover_.arrow]:scale-100 relative flex aspect-square tablet:aspect-[0.9] w-full mb-5 desktop:mb-10 overflow-hidden">
         <div v-if="!data.draft || data.fallback"
-          class=" absolute block z-10 -top-14 -left-14 tablet:-top-20 tablet:-left-20 transition-transform duration-[100] ease-out pointer-events-none"
+          class=" absolute block z-20 -top-14 -left-14 tablet:-top-20 tablet:-left-20 transition-transform duration-[100] ease-out pointer-events-none"
           :style="hoverArrowPosition">
           <span
             class="arrow flex items-center justify-center aspect-square h-20 tablet:h-[120px] scale-0 z-10 transform transition-transform duration-300 rounded-full bg-green-main">
@@ -16,7 +16,12 @@
             </svg>
           </span>
         </div>
-        <nuxt-picture v-if="data.image && data.image.url" class="relative z-0 h-full w-full "
+        <nuxt-picture v-if="data.logo && data.logo.url" class="absolute z-10 top-6 left-6 md:top-12 md:left-12 grayscale brightness-0 "
+          loading="lazy"
+          :imgAttrs="{ class: 'w-auto max-h-12 max-w-[150px] md:max-w-[210px] object-cover object-left-top', wdith: 2100, height: 48 }"
+          :src="data.logo.url" :title="data.logo.title ? data.logo.title : ''"
+          :alt="data.logo.alt ? data.logo.alt : 'Case study logo'" />
+        <nuxt-picture v-if="data.image && data.image.url" class="relative z-0 h-full w-full group-hover:scale-105 will-change-transform transition duration-300 "
           loading="lazy"
           :imgAttrs="{ class: 'w-full h-full object-cover object-left-top', wdith: 665, height: 738 }"
           :src="data.image.url" :title="data.image.title ? data.image.title : ''"

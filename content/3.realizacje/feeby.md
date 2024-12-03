@@ -9,7 +9,8 @@ technologies:
     - TailwindCSS
     - Vue.js
     - PrestaShop
-image.url: '/img/case-studies/Feeby.png'
+image.url: '/img/case-studies/Feeby-bg.png'
+logo.url: '/img/logos/Feeby.png'
 tile_hidden: false
 tile_order: 7
 public: false

@@ -8,7 +8,8 @@ type:
 technologies:
     - PrestaShop
     - TailwindCSS
-image.url: '/img/case-studies/Mancraft.png'
+image.url: '/img/case-studies/Mancraft-bg.png'
+logo.url: '/img/logos/Mancraft.png'
 tile_hidden: false
 tile_order: 8
 public: true

@@ -95,7 +95,7 @@ const { data: cases } = await useAsyncData('cases-filter-page', () =>
           { $eq: false }
       }
     ])
-    .sort({ tile_order: 1 })
+    .sort({ tile_order: 1, $numeric: true })
     .find())
 
 const activeType = ref([]);

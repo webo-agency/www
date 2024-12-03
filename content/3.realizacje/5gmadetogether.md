@@ -8,7 +8,8 @@ technologies:
     - Wordpress CMS
     - TailwindCSS
     - Nuxt
-image.url: '/img/case-studies/5gmadetogether.png'
+image.url: '/img/case-studies/5gmadetogether-bg.png'
+logo.url: '/img/logos/5gmadetogether.png'
 tile_hidden: false
 tile_order: 1
 public: true

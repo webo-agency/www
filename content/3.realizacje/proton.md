@@ -9,7 +9,8 @@ technologies:
     - Vue.js
     - JavaScript
     - Wordpress CMS
-image.url: '/img/case-studies/Proton.png'
+image.url: '/img/case-studies/Proton-bg.png'
+logo.url: '/img/logos/Proton.png'
 tile_hidden: false
 tile_order: 5
 public: false
