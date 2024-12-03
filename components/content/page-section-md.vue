@@ -194,4 +194,30 @@ export default {
 .static-content :deep(.block-bg > *) {
   @apply relative z-20 mx-0;
 }
+
+.static-content-basic :deep(h1){
+  @apply font-semibold text-4xl md:text-5xl mb-8 md:mb-12
+}
+
+.static-content-basic :deep(h2){
+  @apply font-semibold text-xl md:text-2xl mb-5
+}
+
+.static-content-basic :deep(ol){
+  @apply list-decimal pl-5 mb-10 md:mb-14
+}
+
+.static-content-basic :deep(ol ol){
+  list-style: lower-latin;
+  @apply pl-5 mb-0 mt-1
+}
+
+.static-content-basic :deep(ol ol li){
+  @apply pl-1 mb-1
+}
+
+.static-content-basic :deep(li){
+  @apply text-base md:text-lg mb-5
+}
+
 </style>

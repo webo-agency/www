@@ -95,7 +95,7 @@ Treść wiadomości
 Wyślij wiadomość
 
 #policytext
-Twoje dane przetważamy zgodnie z naszą <u>**polityką prywatności.**</u>
+Wyrażam zgodę na otrzymywanie informacji handlowej, dostarczonej drogą elektroniczną przez firmę Webo oraz na przetwarzanie moich danych osobowych zgodnie z **[polityką prywatności](https://www.webo.agency/polityka-prywatnosci)**
 
 #thanksMessage
 ### Dziękujemy za wysłanie wiadomości

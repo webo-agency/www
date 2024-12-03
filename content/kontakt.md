@@ -153,7 +153,7 @@ Opisz projekt
 Wyślij wiadomość
 
 #policytext
-Twoje dane przetważamy zgodnie z naszą **polityką prywatności.**
+Wyrażam zgodę na otrzymywanie informacji handlowej, dostarczonej drogą elektroniczną przez firmę Webo oraz na przetwarzanie moich danych osobowych zgodnie z **[polityką prywatności](https://www.webo.agency/polityka-prywatnosci)**
 
 #thanksMessage
 ### Dziękujemy za wysłanie wiadomości
