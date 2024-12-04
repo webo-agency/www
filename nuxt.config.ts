@@ -123,6 +123,7 @@ export default {
   pwa: {
     registerType: "autoUpdate",
     manifest: {
+      name: "Webo.agency",
       lang: "en",
       theme_color: "#06ceaf",
       id: "/?standalone=true",
