@@ -17,7 +17,7 @@
           </legend>
           <slot name="fields"></slot>
           <div class="flex flex-col mt-5 desktop:mt-10 transition" :class="{ 'opacity-0': mailSent }">
-            <div class="prose font-normal text-xs desktop:text-sm max-w-[530px] mb-6 desktop:mb-10"
+            <div class="prose font-normal text-xs desktop:text-sm mb-6 desktop:mb-10"
               :class="[darkContainer ? 'text-white' : 'text-gray-dark/50']">
               <label class="flex gap-2.5 items-start">
                 <input type="checkbox" name="acceptance" required>
