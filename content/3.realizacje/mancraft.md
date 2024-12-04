@@ -79,7 +79,7 @@ Posiadając zaawansowany park maszyn CNC, know-how i wieloletnie doświadczenie 
 
 ::::prose-bg
 ---
-class: min-w-[330px] md:self-baseline !p-[30px] !mx-0 font-semibold
+class: md:min-w-[330px] md:self-baseline !p-[30px] !mx-0 font-semibold
 --- 
 
 ::::prose-p6
