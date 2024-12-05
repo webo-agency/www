@@ -15,7 +15,33 @@ const props = defineProps({
   globalSettings: Object
 })
 const route = useRoute()
-const { data: pageData } = await useAsyncData('page-data-' + route.fullPath.split('#')[0].split('?')[0], () => queryContent(route.path).findOne())
+const routeClean = route.fullPath.split('#')[0].split('?')[0]
+const { data: pageData } = await useAsyncData('page-data-' + routeClean, () => queryContent(route.path).findOne())
+
+const { data: siteHreflangs } = await useAsyncData('hreflangs-site', () => queryContent().only('hreflangs').find())
+
+onMounted(()=>{
+  if (!pageData.value) {
+    const domains = {
+      PL: "https://webo.pl",
+      EN: "https://webo.agency",
+    };
+
+    const foundRedirect = siteHreflangs.value.find(
+      (page) => page.hreflangs && Object.values(page.hreflangs).includes(routeClean)
+    );
+
+    if (foundRedirect){
+      const langKey = Object.keys(foundRedirect.hreflangs).find(
+        (key) => foundRedirect.hreflangs[key] === routeClean
+      );
+    
+      if (langKey) {
+        window.location.href = domains[langKey] + routeClean;
+      }
+    }
+  }
+})
 
 const hrefLangs = computed(() => getPageLangs(pageData?.value?.hreflangs));
 const hrefLangsState = useState("hrefLangs" + route.fullPath.split('#')[0], () => hrefLangs.value);

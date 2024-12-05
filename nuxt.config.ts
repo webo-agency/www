@@ -13,7 +13,7 @@ const API_AFFIX = process.env.API_AFFIX;
 export default {
   name: "webo-theme",
   compatibilityDate: "2024-10-23",
-  devtools: { enabled: false },
+  devtools: { enabled: true },
   env: {
     CONTEXT: process.env.CONTEXT,
     API_URL: API_URL,
@@ -154,6 +154,8 @@ export default {
     },
   },
   experimental:{
+    sharedPrerenderData: true,
+    payloadExtraction: true,
     defaults:{
       nuxtLink:{
         prefetchOn:{
