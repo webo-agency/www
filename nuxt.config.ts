@@ -18,7 +18,6 @@ export default {
     CONTEXT: process.env.CONTEXT,
     API_URL: API_URL,
     API_AFFIX: API_AFFIX,
-    GOOGLE_FONTS: "Montserrat:400,500,600,700,800:latin,latin-ext&display=swap",
   },
   globalName: process.env.NAME,
   app: {
@@ -42,16 +41,24 @@ export default {
     'nuxt-simple-sitemap',
     "@vite-pwa/nuxt",
     "nuxt-vitalizer",
+    "@nuxtjs/google-fonts"
   ],
-  // unocss: {
-  //   autoImport: true,
-  //   uno: true, // enabled `@unocss/preset-uno`
-  //   icons: true, // enabled `@unocss/preset-icons`
-  //   attributify: true, // enabled `@unocss/preset-attributify`,
-  //   preflight: true,
-  //   shortcuts: [],
-  //   rules: [],
-  // },
+  googleFonts: {
+    download: true,
+    inject: true,
+    families: {
+      Montserrat: {
+        wght: [400,500,600, 700]
+      },
+    },
+    display: 'swap', // 'auto' | 'block' | 'swap' | 'fallback' | 'optional'
+    subsets: 'latin-ext',
+    prefetch: true,
+    preconnect: true,
+    preload: true,
+    useStylesheet: true
+  },
+
   content: {
     documentDriven: true,
     experimental: {
@@ -115,11 +122,6 @@ export default {
     }
     
   },
-  vitalizer: {
-    disablePrefetchLinks: true,
-    disablePreloadLinks: true,
-    disableStylesheets: 'entry',
-  },
   pwa: {
     registerType: "autoUpdate",
     manifest: {
@@ -176,49 +178,37 @@ export default {
       },
     },
   },
-
-  hooks: {
-    // prevent some prefetch behaviour
-    "build:manifest": (manifest) => {
-      for (const key in manifest) {
-        manifest[key].dynamicImports = []
-        manifest[key].prefetch = false;
-        manifest[key].preload = false;
-        
-        const file = manifest[key];
-        if (file.assets) {
-          file.assets = file.assets.filter(
-            (assetName) => !/.+\.(gif|jpe?g|png|svg)$/.test(assetName)
-          );
-        }
-      }
-    }
+  vitalizer: {
+    disablePrefetchLinks: true,
+    disablePreloadLinks: true,
+    disableStylesheets: 'entry',
   },
   vite: {
     build: {
-      rollupOptions: {
-        output: {
-          experimentalMinChunkSize: 250 * 1024,
-          manualChunks: (id, _) => {
-            if (
-              !id.includes("node_modules") &&
-              !id.startsWith("virtual:") &&
-              !id.includes("src") &&
-              !id.includes("assets")
-            ) {
-              if (id.includes("pages")) {
-                const parts = id.split("/");
-                const folderIndex = parts.indexOf("pages");
-                if (folderIndex + 2 < parts.length) {
-                  const pageGroup = parts[folderIndex + 1];
-                  return `chunk-pg-${pageGroup}`;
-                }
-                return "chunk-pg-misc";
-              }
-            }
-          },
-        },
-      },
+      modulePreload: false,
+      // rollupOptions: {
+      //   output: {
+      //     experimentalMinChunkSize: 250 * 1024,
+      //     manualChunks: (id, _) => {
+      //       if (
+      //         !id.includes("node_modules") &&
+      //         !id.startsWith("virtual:") &&
+      //         !id.includes("src") &&
+      //         !id.includes("assets")
+      //       ) {
+      //         if (id.includes("pages")) {
+      //           const parts = id.split("/");
+      //           const folderIndex = parts.indexOf("pages");
+      //           if (folderIndex + 2 < parts.length) {
+      //             const pageGroup = parts[folderIndex + 1];
+      //             return `chunk-pg-${pageGroup}`;
+      //           }
+      //           return "chunk-pg-misc";
+      //         }
+      //       }
+      //     },
+      //   },
+      // },
     },
   }
 };

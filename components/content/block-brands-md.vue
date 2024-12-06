@@ -14,6 +14,7 @@
         :src="logo.imgUrl"
         :title="logo.title ? logo.title : ''"
         :alt="logo.alt ? logo.alt : 'Brand logo'"
+        loading="lazy"
         :imgAttrs="{
           class: 'w-full h-full object-contain custom-filter duration-300',
         }"

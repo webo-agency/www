@@ -67,6 +67,7 @@
         width="440"
         height="850"
         preload
+        fetchpriority="high"
       />
     </picture>
 

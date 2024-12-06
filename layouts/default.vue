@@ -40,17 +40,21 @@
 </template>
 
 <script setup>
-const { data: settings } = await useAsyncData(() =>
+const { data: settings } = await useAsyncData('settings',() =>
   queryContent().where({ _file: "_settings.md" }).findOne()
 );
-const { data: navItemsRaw } = await useAsyncData(() =>
-  queryContent().where({ showInNav: true }).find()
+const { data: navItems } = await useAsyncData('navData',() =>
+  queryContent().where({ showInNav: true }).find(),
+  {
+    transform(data){
+      return formatNavItems(data,0)
+    }
+  }
 );
 
 const footerData = settings.value.footer;
 const generalData = settings.value.general;
 
-const navItems = formatNavItems(navItemsRaw.value, 0);
 const currLang = useState("lang", () => generalData.lang ?? "EN");
 
 useHead({
@@ -90,19 +94,6 @@ useHead({
       rel: "mask-icon",
       href: "/favicon/safari-pinned-tab.svg",
       color: "#07e7c4",
-    },
-    {
-      rel: "preconnect",
-      href: "https://fonts.gstatic.com",
-      crossorigin: true,
-    },
-    {
-      rel: "preconnect",
-      href: "https://fonts.googleapis.com",
-    },
-    {
-      rel: "stylesheet",
-      href: "https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&subset=latin,latin-ext&display=swap",
     },
   ],
 });

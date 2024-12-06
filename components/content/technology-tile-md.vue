@@ -13,6 +13,7 @@
           class="shrink-0 w-20 mb-2"
           :class="[tilesSmall ? 'w-[60px] tablet:w-[80px]' : 'w-[100px]']"
           :src="icon"
+          loading="lazy"
         ></nuxt-picture>
         <div v-if="$slots.title" class="title max-w-fit font-semibold">
           <ContentSlot :use="$slots.title" />
