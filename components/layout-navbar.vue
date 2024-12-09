@@ -35,7 +35,7 @@
         :class="isTransparent && !mobileExpanded ? 'text-white' : 'text-gray-darker'
           ">
         <div class="flex items-center justify-between py-3 tablet:py-2 desktop:py-0">
-          <CustomLink :url="'https://www.webo.agency/'" :activeClass="'none'" @click="
+          <CustomLink :url="'https://www.webo.agency/'" :activeClass="'none'" aria-label="Homepage" @click="
             [
               !isLargeScreen && mobileExpanded ? toggleMobile() : '',
               scrollToTop(),

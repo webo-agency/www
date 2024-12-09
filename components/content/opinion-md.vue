@@ -25,7 +25,8 @@
       <div class="w-[50px] h-[50px] desktop:w-[70px] desktop:h-[70px] rounded-full overflow-hidden">
         <nuxt-picture :src="'/img/icons/person.png'"
           class="block w-full h-full object-contain p-0.5 desktop:p-1 overflow-hidden rounded-[5px] bg-gray-light"
-          :imgAttrs="{ class: 'h-full w-full object-contain ' }" 
+          :imgAttrs="{ class: 'h-full w-full object-contain ' }"
+          alt="person icon"
           loading="lazy" />
       </div>
       <div class="relative flex flex-col min-h-[82px]">

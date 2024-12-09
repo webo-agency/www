@@ -2,6 +2,7 @@
   <div
     class="transition duration-500 group cursor-pointer rounded-full inline-block overflow-hidden"
     role="button"
+    aria-label="Scroll down"
     @click="scrollDown()"
     :class="{ 'translate-y-10 opacity-20': !isMounted }"
   >

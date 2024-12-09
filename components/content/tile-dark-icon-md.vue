@@ -34,6 +34,7 @@
                 : 'w-10',
             ]"
             :imgAttrs="{ class: 'w-full h-full object-contain' }"
+            alt="Webo icon"
             loading="lazy"
           />
         </div>

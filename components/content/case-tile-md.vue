@@ -32,11 +32,11 @@
           class="rounded-full text-gray-darker bg-gray-light px-5 py-2 text-xs desktop:text-sm font-medium uppercase">
           {{ tag }}</li>
       </ul>
-      <h4 v-if="data.introduction?.title"
+      <h3 v-if="data.introduction?.title"
         class="mr-2.5 tablet:mr-5 mb-5 desktop:mb-8 text-gray-darker text-xl desktop:text-2xl font-semibold transition duration-300"
         :class="{ 'group-hover:underline': !data.draft || data.fallback }">
         {{ data.introduction.title }}
-      </h4>
+      </h3>
     </CustomLink>
     <p v-if="data.introduction?.description"
       class="mb-5 tablet:mb-8 mr-2.5 tablet:mr-5 text-sm leading-7 desktop:text-base">

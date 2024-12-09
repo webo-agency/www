@@ -50,7 +50,7 @@ maxWidth: 640
 ---
 
 #subtitle
-### *1/* Usługi
+*1/* Usługi
 
 #title
 ## Co możemy <br> *dla Ciebie zrobić?*
@@ -70,7 +70,7 @@ link: 'https://www.webo.agency/uslugi/strony-internetowe'
 delay: 1
 ---
 #title
-#### Strony internetowe
+### Strony internetowe
 
 #description
 Solidnie kodowane strony www, projektowane z myślą o potrzebach Twojego biznesu i osiąganiu konkretnych celów.
@@ -86,7 +86,7 @@ technologies: '/img/icons/stores-technologies.svg'
 link: 'https://www.webo.agency/uslugi/sklepy-internetowe'
 ---
 #title
-#### Sklepy internetowe
+### Sklepy internetowe
 
 #description
 E-commerce z płynnym procesem zakupowym, dostosowany do indywidualnych potrzeb Twojej firmy. Dostarczamy sklepy przygotowane do dalszego rozwoju i ekspansji.
@@ -103,7 +103,7 @@ link: ''
 delay: 2
 ---
 #title
-#### Aplikacje internetowe
+### Aplikacje internetowe
 
 #description
 Dedykowane do specjalnych zastosowań w Twojej firmie. Przyjazne dla użytkowników i proste w zarządzaniu.
@@ -120,7 +120,7 @@ link: 'https://www.webo.agency/uslugi/wsparcie-i-rozwoj'
 delay: 4
 ---
 #title
-#### Wsparcie i rozwój
+### Wsparcie i rozwój
 
 #description
 Dzięki któremu zabezpieczysz zasoby, zmaksymalizujesz wydajność i zredukujesz koszta utrzymania strony internetowej.
@@ -137,7 +137,7 @@ link: 'https://www.webo.agency/uslugi/projektowanie-ux-ui'
 delay: 5
 ---
 #title
-#### Projektowanie UX/UI
+### Projektowanie UX/UI
 
 #description
 Dzięki której zwiększysz zaangażowanie klientów, wyróżnisz się na rynku i uprościsz korzystanie ze swojej strony / sklepu internetowego.
@@ -260,7 +260,7 @@ delay: 0
 ---
 
 #title
-#### Zawsze opieramy się o dokumentację techniczną
+### Zawsze opieramy się o dokumentację techniczną
 
 #description
 Dzięki czemu nasze strony są wydajne i bezpieczne, a kod strony odpowiednio zoptymalizowany.
@@ -274,7 +274,7 @@ class: mt-0 tablet:mt-5
 ---
 
 #title
-#### Jesteśmy zespołem od zadań specjalnych
+### Jesteśmy zespołem od zadań specjalnych
 
 #description
 Nie ma rzeczy niemożliwych 
@@ -288,7 +288,7 @@ delay: 1
 ---
 
 #title
-#### Tworzymy strony stabilnie działające przez lata
+### Tworzymy strony stabilnie działające przez lata
 
 #description
 Dbamy o szczegóły i jakość naszej pracy, stawiamy na ręcznie programowane strony, bez śmieciowego kodu
@@ -301,7 +301,7 @@ delay: 3
 ---
 
 #title
-#### Wielokrotnie testujemy przed publikacją
+### Wielokrotnie testujemy przed publikacją
 
 #description
 Przed publikacją gruntownie sprawdzamy działanie  strony, zarówno manualnie jak i wykorzystując testy automatyczne.
@@ -389,33 +389,37 @@ Platformy
 ::::::technology-tile-md
 --- 
 icon: '/img/icons/drupal-black.svg'
+alt: icon drupal
 ---
 #title
-##### Drupal
+Drupal
 ::::::
 
 ::::::technology-tile-md
 --- 
 icon: '/img/icons/presta-black.svg'
+alt: icon presta
 ---
 #title
-##### Prestashop
+Prestashop
 ::::::
 
 ::::::technology-tile-md
 --- 
 icon: '/img/icons/wordpress-black.svg'
+alt: icon wordpress
 ---
 #title
-##### Wordpress
+Wordpress
 ::::::
 
 ::::::technology-tile-md
 --- 
 icon: '/img/icons/woo-black.svg'
+alt: icon woo
 ---
 #title
-##### WooCommerce
+WooCommerce
 ::::::
 :::::
 ::::
@@ -434,121 +438,133 @@ Technologie
 ::::::technology-tile-md
 --- 
 icon: '/img/icons/js-black.svg'
+alt: icon js
 link: ''
 tilesSmall: true
 ---
 #title
-##### JavaScript
+JavaScript
 ::::::
 
 ::::::technology-tile-md
 --- 
 icon: '/img/icons/tailwind-black.svg'
+alt: icon tailwind
 link: ''
 tilesSmall: true
 ---
 #title
-##### Tailwind
+Tailwind
 ::::::
 
 ::::::technology-tile-md
 --- 
 icon: '/img/icons/php-black.svg'
+alt: icon php
 link: ''
 tilesSmall: true
 ---
 #title
-##### PHP
+PHP
 ::::::
 
 ::::::technology-tile-md
 --- 
 icon: '/img/icons/nuxt-black.svg'
+alt: icon nuxt
 link: ''
 tilesSmall: true
 ---
 #title
-##### NUXT
+NUXT
 ::::::
 
 ::::::technology-tile-md
 --- 
 icon: '/img/icons/nodejs-black.svg'
+alt: icon nodejs
 link: ''
 tilesSmall: true
 ---
 #title
-##### NodeJS
+NodeJS
 ::::::
 
 ::::::technology-tile-md
 --- 
 icon: '/img/icons/restapi-black.svg'
+alt: icon restapi
 link: ''
 tilesSmall: true
 ---
 #title
-##### RestApi
+RestApi
 ::::::
 
 ::::::technology-tile-md
 --- 
 icon: '/img/icons/typescript-black.svg'
+alt: icon typescript
 link: ''
 tilesSmall: true
 ---
 #title
-##### TypeScript
+TypeScript
 ::::::
 
 ::::::technology-tile-md
 --- 
 icon: '/img/icons/threejs-black.svg'
+alt: icon threejs
 link: ''
 tilesSmall: true
 ---
 #title
-##### ThreeJS
+ThreeJS
 ::::::
 
 ::::::technology-tile-md
 --- 
 icon: '/img/icons/symfony-black.svg'
+alt: icon symfony
 link: ''
 tilesSmall: true
 ---
 #title
-##### Symfony
+Symfony
 ::::::
 
 ::::::technology-tile-md
 --- 
 icon: '/img/icons/vue-black.svg'
+alt: icon vue
 link: ''
 tilesSmall: true
 ---
 #title
-##### Vue.js
+Vue.js
 ::::::
 
 ::::::technology-tile-md
 --- 
 icon: '/img/icons/git-black.svg'
+alt: icon git
 link: ''
 tilesSmall: true
 ---
 #title
-##### Git
+Git
 ::::::
 
 ::::::technology-tile-md
 --- 
 icon: '/img/icons/cloudflare-black.svg'
+alt: icon cloudflare
 link: ''
 tilesSmall: true
 ---
 #title
-##### Cloudflare
+Cloudflare
 ::::::
 :::::
 ::::

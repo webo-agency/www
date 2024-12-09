@@ -13,6 +13,7 @@
           class="shrink-0 w-20 mb-2"
           :class="[tilesSmall ? 'w-[60px] tablet:w-[80px]' : 'w-[100px]']"
           :src="icon"
+          :alt="alt"
           loading="lazy"
         ></nuxt-picture>
         <div v-if="$slots.title" class="title max-w-fit font-semibold">
@@ -31,6 +32,7 @@ export default {
   props: {
     link: String,
     icon: String,
+    alt: String,
     technologies: String,
     delay: {
       type: Number,

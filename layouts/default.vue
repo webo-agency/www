@@ -58,6 +58,9 @@ const generalData = settings.value.general;
 const currLang = useState("lang", () => generalData.lang ?? "EN");
 
 useHead({
+  htmlAttrs: {
+    lang: currLang.value.toLowerCase(),
+  },
   meta: [
     { name: "msapplication-TileColor", content: "#da532c" },
     { name: "msapplication-TileImage", content: "/mstile-150x150.png" },

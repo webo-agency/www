@@ -4,6 +4,7 @@
       <CustomLink
         v-if="item.link && item.type"
         :url="item.link"
+        :aria-label="item.type"
         class="flex justify-center items-center w-10 h-10 py-2 px-1 rounded-[5px]"
         :class="
           invertColors

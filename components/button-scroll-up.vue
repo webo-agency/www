@@ -7,6 +7,7 @@
       :class="{ 'translate-y-[100px] opacity-0': isHidden }"
     >
       <button
+        aria-label="Scroll up"
         class="appearance-none flex items-center justify-center bg-green-main rounded-full w-[60px] h-[60px] hover:bg-green-mainHover bottom-0 mb-[90px] shadow-green-mainHover/40 shadow-lg transition duration-300 pointer-events-auto"
         @click="scrollToTop()"
       >

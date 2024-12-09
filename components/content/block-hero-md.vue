@@ -68,6 +68,7 @@
         height="850"
         preload
         fetchpriority="high"
+        alt="Webo background"
       />
     </picture>
 

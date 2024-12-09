@@ -209,6 +209,7 @@
                   fit="inside"
                   class="object-contain object-left-top"
                   loading="lazy"
+                  alt="contributions"
                 />
               </div>
             </div>
