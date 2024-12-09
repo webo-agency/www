@@ -1,14 +1,15 @@
 <template>
     <CustomLink class="group flex flex-col w-full" :disabled="data.draft && !data.fallback" :activeClass="'none'"
         :url="data.fallback ? data.fallback : (data.url ? data.url : 'https://www.webo.agency' + data._path)">
-        <div class="flex items-end aspect-video w-full rounded-[5px] overflow-hidden mb-4 tablet:mb-6">
+        <div itemscope itemtype="https://schema.org/NewsArticle" class="flex items-end aspect-video w-full rounded-[5px] overflow-hidden mb-4 tablet:mb-6">
             <nuxt-picture class="h-full w-full object-cover group-hover:scale-[103%] transition-all duration-500"
                 v-if="data.image && data.image.url" :src="data.image.url" :title="data.image.title ? data.image.title : ''"
                 :alt="data.image.alt ? data.image.alt : 'Post thumbnail image'"
-                :imgAttrs="{ class: 'h-full w-full object-cover' }"></nuxt-picture>
+                :imgAttrs="{ class: 'h-full w-full object-cover',itemprop: 'image'}"></nuxt-picture>
         </div>
         <div class="px-2.5 tablet:px-5 pb-1 ">
             <h4 v-if="data.introduction?.titleFormatted"
+                itemprop="headline"
                 class="mb-4 tablet:mb-6 text-lg desktop:text-xl font-semibold group-hover:underline decoration-inherit transition duration-300 [&_em]:text-green-main [&_em]:group-hover:underline [&_em]:decoration-green-main [&_em]:not-italic"
                 v-html="$formatText(data.introduction.titleFormatted)">
             </h4>

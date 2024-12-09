@@ -57,9 +57,12 @@
             @click="toggleMobile()" />
         </div>
         <div
+          itemscope
+          itemtype="https://schema.org/SiteNavigationElement"
           class="flex flex-col justify-between desktop:justify-center h-full scrollbar-none overflow-y-auto desktop:overflow-visible">
           <ul class="shrink-0 flex flex-col desktop:flex-row desktop:items-center desktop:gap-[26px] my-10 desktop:my-0">
             <li v-for="(item, index) in menu" :key="index"
+              itemprop="name"
               class="w-full desktop:w-auto mb-2 desktop:mb-0 rounded-[5px] font-semibold overflow-hidden transition-[transform,opacity] duration-300"
               :class="[
                 {
@@ -96,19 +99,23 @@
       : ((popUpActive = false), (popUpHover = false))
     ">
               <CustomLink :url="item.link ? item.link : 'https://www.webo.agency/'" :activeClass="'none-temp'"
+                itemprop="url"
                 class="flex items-center justify-between p-3 mr-12 desktop:mr-0 hover:text-green-main transition duration-300 group"
                 :class="[
                   item.button
                     ? 'button relative border-green-main border-solid border-2 text-green-main hover:text-white hover:bg-green-mainHover hover:border-green-mainHover transition duration-300 px-5 py-2.5 rounded-full overflow-hidden'
                     : 'p-2 pl-0 desktop:p-3',
                 ]" @click="!isLargeScreen ? toggleMobile() : hardClosePopup()">
-                <div class="prose uppercase" v-html="item.name" :class="[
+                <div class="prose uppercase" v-html="item.name" 
+                  itemprop="name" 
+                  :class="[
                   item.button
                     ? 'z-10 text-base leading-5'
                     : ' text-lg desktop:text-base',
                   { 'desktop:pr-8': item.menu },
                 ]"></div>
                 <span v-if="item.button"
+                  itemprop="name"
                   class="h-0.5 w-[14px] ml-3 mt-0.5 bg-current z-10 group-hover:translate-x-1 transition-transform duration-200"></span>
               </CustomLink>
 
@@ -126,11 +133,13 @@
                 <div ref="collapse-container" class="overflow-hidden h-0 transition-all duration-300">
                   <ul v-if="item.menu.links" class="desktop:hidden">
                     <li v-for="(item, index) in item.menu.links" :key="index"
+                      itemprop="name"
                       class="py-2 pl-5 last:pb-3 last:border-b-2 last:border-gray-light last:border-solid">
-                      <CustomLink :url="item.link" :activeClass="item.link === 'https://www.webo.agency/' ? 'none' : ''
-                        " class="flex flex-col py-2 text-gray-darker hover:text-green-main transition duration-300"
+                      <CustomLink :url="item.link" :activeClass="item.link === 'https://www.webo.agency/' ? 'none' : ''" 
+                        itemprop="url"
+                        class="flex flex-col py-2 text-gray-darker hover:text-green-main transition duration-300"
                         @click="!isLargeScreen ? toggleMobile() : ''">
-                        <div v-if="item.name" class="prose" :class="{ 'mb-2': item.description }"
+                        <div v-if="item.name" itemprop="name" class="prose" :class="{ 'mb-2': item.description }"
                           v-html="$formatText(item.name)"></div>
                         <div v-if="item.name" class="prose max-w-[75%] font-normal text-sm"
                           v-html="$formatText(item.description)"></div>

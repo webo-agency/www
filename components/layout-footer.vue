@@ -5,6 +5,7 @@
     >
       <div class="mx-auto max-w-screen-desktop-wide font-body text-white">
         <div
+          itemscope itemtype="https://schema.org/Organization"
           class="flex flex-col pb-20 bg-contain tablet:bg-auto bg-no-repeat bg-right-bottom"
           style="background-image: url(./img/bg_logo_slice_2.png)"
         >
@@ -55,6 +56,7 @@
                     >M/</span
                   >
                   <CustomLink
+                    itemprop="email"
                     class="inline-block underline font-normal"
                     :url="'mailto:' + mail"
                     :title="mail"
@@ -70,6 +72,7 @@
                     >T/</span
                   >
                   <CustomLink
+                    itemprop="telephone"
                     class="inline-block underline font-normal"
                     :url="'tel:' + tel"
                     :title="$addTelSpaces(tel)"
@@ -135,6 +138,7 @@
             <div class="flex flex-col basis-1/3 min-w-max shrink-0 pr-5">
               <div
                 v-if="brandName"
+                itemprop="name"
                 class="prose text-base font-semibold mb-1"
                 v-html="brandName"
               ></div>
