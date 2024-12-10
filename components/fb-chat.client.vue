@@ -43,7 +43,8 @@ function initFacebookChat() {
   addFacebookSDK();
 }
 
-onMounted(() => {
+onMounted(async() => {
+  await nextTick()
   initFacebookChat();
 });
 </script>
