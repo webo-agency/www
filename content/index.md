@@ -360,7 +360,7 @@ classes: py-[100px] mb-10 tablet:mb-20 bg-green-gray
 :::block-header-two-cols-md
 ---
 class: mb-14
-maxWidth: 652
+maxWidth: 682
 decoration: false
 ---
 
@@ -606,6 +606,9 @@ text: See all our reviews
 #left
 ::::effect-appear-md
 :::::block-header-md
+---
+maxWidth: 715
+---
 
 #subtitle
 ### *5/*  Opinie

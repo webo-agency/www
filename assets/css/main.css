@@ -6,6 +6,15 @@
     b, strong{
         @apply font-semibold
     }
+
+    .font-body{
+        @apply tracking-widest
+    }
+
+    .font-body p,
+    .font-body .subtitle{
+        @apply tracking-wide
+    }
 }
 
 @layer utilities{

@@ -65,13 +65,13 @@
                 @click="emitLinkClick()"
               >
                 <div
-                  class="text-lg font-semibold mb-1.5"
+                  class="text-lg font-semibold mb-1.5 tracking-normal"
                   v-html="$formatText(item.name)"
                 ></div>
-                <div
+                <p
                   class="pr-6 mb-4 text-xs leading-relaxed font-normal"
                   v-html="$formatText(item.description)"
-                ></div>
+                ></p>
                 <div
                   class="line relative w-[135px] h-0.5 rounded-full bg-gray-light overflow-hidden after:content-[''] after:absolute after:-top-0.5 after:right-full after:w-full after:h-2 after:bg-green-main group-hover:after:translate-x-full after:transition after:duration-300"
                 ></div>

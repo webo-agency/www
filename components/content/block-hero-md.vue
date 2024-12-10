@@ -77,7 +77,7 @@
     >
       <EffectAppearMdc>
         <div
-          class="pt-32 desktop:pt-0 mt-0 desktop:mt-[60px] max-w-[940px] transition duration-300"
+          class="pt-32 desktop:pt-0 mt-0 desktop:mt-[60px] max-w-[970px] transition duration-300"
         >
           <p class="text-[14px] desktop:text-lg text-white">
             <em class="font-semibold text-green-main not-italic mr-1">-/</em>
@@ -95,7 +95,7 @@
             class="separator h-[3px] desktop:h-[4px] mb-10 desktop:mb-16 w-[200px] border-b-[#07E7C4] border-b-[4px]"
           ></div>
           <div
-            class="max-w-[420px] mb-8 desktop:mb-14 text-[18px] desktop:text-2xl font-normal text-white"
+            class="max-w-[440px] mb-8 desktop:mb-14 text-[18px] desktop:text-2xl font-normal text-white"
           >
             <ContentSlot :use="$slots.description" />
           </div>
