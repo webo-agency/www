@@ -164,7 +164,7 @@ Klient zgłosił się do nas z działającym sklepem internetowym wykonanym w sy
 
 :::effect-appear-md
 ---
-class: mx-default
+class: mx-default tablet:[&_h4]:!mb-6 tablet:[&_.p3_p:not(:last-child)]:!mb-5
 ---
 
 #### **Migracja sklepu Prestashop, odświeżenie interfejsu, rozwój**
@@ -178,7 +178,7 @@ Po wykonaniu migracji skupiliśmy się na **rozwoju sklepu o nowe funkcjonalnoś
 
 :::effect-appear-md
 ---
-class: mx-default
+class: mx-default tablet:[&_h4]:!mb-6 tablet:[&_.p3_p:not(:last-child)]:!mb-5
 ---
 
 #### **Optymalizacja procesu zakupowego**
@@ -201,7 +201,7 @@ class: mb-[50px] desktop:mb-[100px]
 
 :::effect-appear-md
 ---
-class: mx-default
+class: mx-default tablet:[&_h4]:!mb-6 tablet:[&_.p3_p:not(:last-child)]:!mb-5
 ---
 
 #### **Automatyzacje Prestashop 1.7**
@@ -216,7 +216,7 @@ W celu zwiększenia bezpieczeństwa należało wprowadzić szereg dodatkowych za
 
 :::effect-appear-md
 ---
-class: mx-default
+class: mx-default tablet:[&_h4]:!mb-6 tablet:[&_.p3_p:not(:last-child)]:!mb-5
 ---
 
 #### **Wdrożenie programu lojalnościowego dla Prestashop**
@@ -234,6 +234,9 @@ W dalszych krokach wdrożyliśmy **program lojalnościowy**, dzięki któremu kl
 :::::
 
 :::::prose-p2
+---
+class: mt-0 [&_li]:!mb-0
+---
 - **System weryfikacji VAT VIAS** - automatyczna weryfikacja działalności klientów B2B podczas zakładania konta
 - **Strefa zamówień B2B** - umożliwiająca w łatwy sposób dokonywanie zamówień hurtowych
 - **Program lojalnościowy** - zbieranie punktów za zakupy z możliwością wymiany na nagrody i gadżety Mancraft
@@ -314,7 +317,7 @@ class: static-content mb-[50px] tablet:mb-[100px]
 ---
 :::effect-appear-md
 ---
-class: mx-default
+class: mx-default tablet:[&_.p3_p:not(:last-child)]:!mb-5
 ---
 
 ### **Rezultat pracy i dalsze wsparcie**
