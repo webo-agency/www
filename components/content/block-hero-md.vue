@@ -2,7 +2,7 @@
   <div
     @mousemove="mouseMove"
     ref="container"
-    class="relative h-[90vh] max-h-[860px] min-h-[650px] desktop:h-[860px] px-5 tablet:px-10 desktop:px-20 bg-center bg-cover bg-no-repeat ultraHd:bg-contain bg-gray-darker -mt-[100px]"
+    class="relative h-[90vh] max-h-[860px] min-h-[650px] desktop:h-[860px] px-5 tablet:px-10 desktop:px-20 bg-center bg-cover bg-no-repeat ultraHd:bg-contain bg-gray-darkest -mt-[100px]"
   >
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -10,7 +10,8 @@
       height="20"
       viewBox="0 0 20 20"
       fill="none"
-      class="hidden desktop:block absolute top-[22%] left-[42%] z-[2]"
+      :style="{transform: `translate(${-mouseX/12}px,${-mouseY/30}px)`}"
+      class="hidden desktop:block absolute top-[22%] right-[5%] z-[2]"
     >
       <path
         fill-rule="evenodd"
@@ -26,7 +27,8 @@
       height="20"
       viewBox="0 0 20 20"
       fill="none"
-      class="hidden desktop:block absolute bottom-[21%] right-[45%] z-[2]"
+      :style="{transform: `translate(${mouseX/10}px,${mouseY/20}px)`}"
+      class="hidden desktop:block absolute bottom-[21%] right-[45%] z-[8]"
     >
       <path
         fill-rule="evenodd"
@@ -70,21 +72,21 @@
             :isWide="true"
           />
         </div>
+        <div
+        class="flex gap-[20px]">
+          <WidgetRatingClutch />
+          <WidgetRatingGoogle
+            :rating="5"
+            :link="'https://www.google.com/search?q=webo+gliwice&sca_esv=581867933&ei=avdRZdPPHbCVxc8PqvGHwAM&ved=0ahUKEwjTrJKs38CCAxWwSvEDHar4ATgQ4dUDCBA&uact=5&oq=webo+gliwice&gs_lp=Egxnd3Mtd2l6LXNlcnAiDHdlYm8gZ2xpd2ljZTICECZIsdsJUPXHCVj1xwlwAngAkAEAmAFXoAFXqgEBMbgBA8gBAPgBAeIDBBgBIEGIBgE&sclient=gws-wiz-serp#lrd=0x471131b61b903edb:0xe16af5e90276dac,1,,,,'"
+            :text="'See all our reviews'"
+          />
+        </div>
+
       </EffectAppearMdc>
-      <div
-        class="z-[2] flex gap-[20px] desktop:absolute desktop:bottom-[14%] desktop:right-[6%]"
-      >
-        <WidgetRatingClutch />
-        <WidgetRatingGoogle
-          :rating="5"
-          :link="'https://www.google.com/search?q=webo+gliwice&sca_esv=581867933&ei=avdRZdPPHbCVxc8PqvGHwAM&ved=0ahUKEwjTrJKs38CCAxWwSvEDHar4ATgQ4dUDCBA&uact=5&oq=webo+gliwice&gs_lp=Egxnd3Mtd2l6LXNlcnAiDHdlYm8gZ2xpd2ljZTICECZIsdsJUPXHCVj1xwlwAngAkAEAmAFXoAFXqgEBMbgBA8gBAPgBAeIDBBgBIEGIBgE&sclient=gws-wiz-serp#lrd=0x471131b61b903edb:0xe16af5e90276dac,1,,,,'"
-          :text="'See all our reviews'"
-        />
-      </div>
 
     </div>
 
-    <div id="phone-model" class="absolute bottom-0 right-0 w-1/2 min-w-[300px] h-4/5 md:h-full">
+    <div id="phone-model" class="absolute bottom-0 right-0 z-[5] w-1/3 min-w-[300px] h-4/5 md:h-full">
 
     </div>
 
@@ -98,9 +100,11 @@
 
 <script setup>
 import EffectAppearMdc from "./effect-appear-md.vue";
-import { WebGLRenderer, PCFSoftShadowMap, PerspectiveCamera,Scene, PlaneGeometry, TextureLoader, Mesh, Shape,MeshBasicMaterial, ExtrudeGeometry, MeshStandardMaterial, PMREMGenerator } from "three";
-import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
+import { useMouse } from '@vueuse/core'
+import { WebGLRenderer, PCFSoftShadowMap,OrthographicCamera ,Clock, PerspectiveCamera,Scene, PlaneGeometry, TextureLoader, Mesh, Shape,MeshBasicMaterial, ExtrudeGeometry, MeshStandardMaterial, PMREMGenerator } from "three";
+import CameraControls from 'camera-controls';
 import { RGBELoader } from 'three/addons/loaders/RGBELoader.js';
+import * as THREE from 'three';
 
 
 const props = defineProps({
@@ -132,31 +136,38 @@ function createRenderer(container) {
 }
 
 function createCamera(container, renderer) {
-  const camera = new PerspectiveCamera(75, container.clientWidth / container.clientHeight, 0.01, 40);
-  camera.position.set(-9, 4, 15);
+  const width = 5;
+  const height = 5;
+  const near = 0;
+  const far = 40;
+  const aspect = container.clientWidth / container.clientHeight
+  const camera = new OrthographicCamera(width * aspect / - 2, width * aspect / 2, height / 2, height / - 2, near, far)
+  // const camera = new PerspectiveCamera(20, container.clientWidth / container.clientHeight, 0.01, 40);
+  camera.zoom = 0.3
+  camera.position.set(-10, 8, 5);
+  camera.updateProjectionMatrix();
 
-  const controls = new OrbitControls(camera, renderer.domElement);
-  controls.target.set(0, 5, 0);
-  controls.enablePan = false;
-  controls.enableDamping = true;
-  controls.dampingFactor = 0.2;
-  controls.minDistance = 10;
-  controls.maxDistance = 15;
-  controls.minPolarAngle = Math.PI / 8;
-  controls.maxPolarAngle = Math.PI / 2;
-  controls.zoomSpeed = 0.8;
-  controls.update();
+  const controls = new CameraControls(camera, renderer.domElement);
+  controls.setTarget(0, 5, 0);
+  // controls.enabled = true; // Ensures controls are enabled
+  controls.azimuthRotateSpeed = 2;
+  controls.polarRotateSpeed = 2;
+  // controls.dollyToCursor = false; // Disable zooming
+  // controls.draggingDampingFactor = 0; // Disable damping if not needed
+  controls.mouseButtons.wheel = CameraControls.ACTION.NONE; // Disable zoom with the mouse wheel
+  controls.mouseButtons.left = CameraControls.ACTION.NONE; // Disable panning
+  controls.mouseButtons.right = CameraControls.ACTION.NONE; // Disable rotation
+
 
   return { camera, controls };
 }
 
 function createScene() {
   const scene = new Scene();
-    // Define iPhone 14 dimensions (adjust as needed)
   const width = 7.15; // width in arbitrary units
   const height = 14.7; // height in arbitrary units
   const depth = 0.78; // thickness in arbitrary units
-  const cornerRadius = 1.5; // corner radius
+  const cornerRadius = 1.4; // corner radius
 
   // Create a rounded rectangle shape
   const shape = new Shape();
@@ -171,18 +182,19 @@ function createScene() {
   shape.quadraticCurveTo(-width / 2, -height / 2, -width / 2 + cornerRadius, -height / 2);
 
   // Extrude the shape to create 3D geometry
+  const bevelThickness = .15
   const extrudeSettings = {
-    depth: depth -0.15,
+    depth: depth - 2*bevelThickness,
     curveSegments: 128,
-    bevelThickness: .15,
+    bevelThickness: bevelThickness,
     bevelSegments: 32,
   };
   const geometry = new ExtrudeGeometry(shape, extrudeSettings);
 
   // Create a material
   const material = new MeshStandardMaterial({
-    color: 0xcccccc,
-    roughness: 0,
+    color: 0x9a9a9a,
+    roughness: 0.03,
     metalness: 1
   });
 
@@ -190,9 +202,9 @@ function createScene() {
   const iphone = new Mesh(geometry, material);
 
   // Rotate the phone to stand vertically
-  iphone.rotation.x = 0; // Default upright orientation
-  // iphone.rotation.z = Math.PI / 2; // Rotate to stand
-  // iphone.position.z = depth / 2; // Adjust position so it stands on the base
+  // iphone.rotation.x = -0.05; // Default upright orientation
+  iphone.rotation.y = - Math.PI / 2 // Rotate to stand
+  iphone.position.z = - depth + bevelThickness; // Adjust position so it stands on the base
 
   // Add the iPhone shape to the scene
   scene.add(iphone);
@@ -207,12 +219,12 @@ function createScene() {
   const screen = new Mesh(screenGeometry, screenMaterial);
 
   // Position the screen to the front face of the iPhone
-  screen.position.set(0, 0, depth + 0.01); // Offset slightly in front of the body
+  screen.position.set(0, 0, depth - bevelThickness/2 + 0.01); // Offset slightly in front of the body
 
   // Add the screen to the scene
-  scene.add(screen);
+  iphone.add(screen);
 
-  return scene;
+  return {scene, iphone};
 }
 
 function addEnvironment(scene,renderer){
@@ -230,6 +242,8 @@ function addEnvironment(scene,renderer){
   });
 }
 
+const { x: mouseX, y: mouseY } = useMouse({ touch: false });
+
 onMounted(() => {
   visible.value = true;
 
@@ -237,16 +251,58 @@ onMounted(() => {
 
   if(!modelContainer) return
 
+  CameraControls.install( { THREE: THREE } );
   const renderer = createRenderer(modelContainer)
   const {camera,controls} = createCamera(modelContainer,renderer)
-  const scene = createScene()
+  const {scene,iphone} = createScene()
   addEnvironment(scene,renderer)
+  const clock = new Clock()
   scene.add(camera)
+  
 
-  renderer.setAnimationLoop(function () {
-    controls.update();
-    renderer.render(scene, camera);
+  // Base camera position
+  const baseAzimuthAngle = controls.azimuthAngle;
+  const basePolarAngle = controls.polarAngle;
+
+  watchEffect(() => {
+    // Normalize mouse positions to [-1, 1]
+    const normalizedX = (mouseX.value / window.innerWidth) * 2 - 1;
+    const normalizedY = (mouseY.value / window.innerHeight) * 2 - 1;
+
+    // Calculate new camera position (adjust factors for sensitivity)
+    const offsetX = normalizedX * .2; // Horizontal parallax
+    const offsetY = normalizedY * .1; // Vertical parallax
+
+    controls.rotateTo(baseAzimuthAngle - offsetX,basePolarAngle - offsetY,true)
   });
+
+  // Parameters for sine wave movement
+  const oscillationSpeed = 0.75; // Adjust for speed of movement
+  const oscillationAmplitude = 0.5; // Adjust for magnitude of movement
+  const basePositionY = iphone.position.y;
+  const baseRotationY = iphone.rotation.y;
+
+  ( function anim () {
+
+    const delta = clock.getDelta();
+    const elapsedTime = clock.getElapsedTime()
+
+    const oscillationHeight = Math.sin(elapsedTime * oscillationSpeed) * oscillationAmplitude;
+    const oscillationRotation = Math.sin(elapsedTime * oscillationSpeed/3) * oscillationAmplitude/2;
+    iphone.position.set(
+      0,  
+      basePositionY + oscillationHeight,
+      0,
+    );
+
+    iphone.rotation.y = baseRotationY + oscillationRotation
+
+    const hasControlsUpdated = controls.update( delta );
+
+    requestAnimationFrame( anim );
+    renderer.render( scene, camera );
+
+  } )();
 
 
 
