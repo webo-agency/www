@@ -148,7 +148,7 @@ class: mb-[50px] tablet:mb-[100px]
 
 ::page-section-md
 ---
-class: static-content mb-[50px] desktop:mb-[100px]
+class: static-content
 ---
 :::effect-appear-md
 ---
@@ -160,6 +160,12 @@ class: mx-default
 ::::prose-p3
 Klient zgłosił się do nas z działającym sklepem internetowym wykonanym w systemie Prestashop 1.6. Strona przez wiele lat nie była aktualizowana i dostosowywana do obecnych standardów e-commerce. Jednym z głównych problemów był brak odpowiedniego wyświetlania sklepu na urządzeniach mobilnych oraz skomplikowany proces zakupowy. Dodatkowo przez przestarzałą wersję Prestashop, strona miała znacznie ograniczone możliwości rozwoju, wykazując także braki w obszarze wydajności i bezpieczeństwa.
 ::::
+:::
+
+:::effect-appear-md
+---
+class: mx-default
+---
 
 #### **Migracja sklepu Prestashop, odświeżenie interfejsu, rozwój**
 
@@ -169,6 +175,57 @@ Pierwszym krokiem koniecznym do zrealizowania założeń klienta była migracja 
 Po wykonaniu migracji skupiliśmy się na **rozwoju sklepu o nowe funkcjonalności** oraz **optymalizacji procesu zakupowego.**
 ::::
 :::
+
+:::effect-appear-md
+---
+class: mx-default
+---
+
+#### **Optymalizacja procesu zakupowego**
+
+::::prose-p3
+W celu optymalizacji procesu zakupowego **zaprojektowaliśmy i wdrożyliśmy nową kartę produktu**, wraz z wygodną galerią prezentującą zdjęcia wysokiej rozdzielczości oraz szybką płatnością **PayPal Checkout**. Wprowadziliśmy także zmiany na stronie głównej, a standardowy checkout Prestashop  zastąpiliśmy rozwiązaniem **One Page Checkout**, znacznie skracając ścieżkę użytkownika od umieszczenia produktu w koszyku do finalizacji zamówienia.
+
+Poprawie uległa także forma składania zamówień przez klientów hurtowych. Chcąc zoptymalizować ten proces wdrożyliśmy **strefę zamówień B2B**, umożliwiającą przeglądanie całej oferty sklepu w formie listy produktów umieszczonej na jednej podstronie. Dzięki tej funkcjonalności, klienci biznesowi mogą dokonać obszernego zamówienia za pomocą jednego kliknięcia ,,Dodaj do koszyka”, bez potrzeby długotrwałego przeglądania stron produktów lub bezpośredniego kontaktu z handlowcem.
+::::
+:::
+
+:::effect-appear-md
+---
+class: mb-[50px] desktop:mb-[100px]
+---
+::::prose-figure{src="/img/content-images/case-mancraft-img3.png"}
+::::
+:::
+
+
+:::effect-appear-md
+---
+class: mx-default
+---
+
+#### **Automatyzacje Prestashop 1.7**
+
+::::prose-p3
+Specyfika działalności Mancraft wymagała wdrożenia automatyzacji. Tworzenie kont klientów biznesowych zostało **zintegrowane z systemem VAT VIES**, który **automatycznie weryfikuje poprawność numeru NIP i statusu przedsiębiorstwa**. Stany magazynowe oraz transakcje wraz z danymi dotyczącymi płatności i dostaw **zintegrowane zostały z systemem Baselinker**. Wdrożyliśmy także **automatyzacje generowania i wysyłki miesięcznego raportu sprzedaży** który przyśpiesza prowadzenie ksiąg rachunkowych. 
+
+W celu zwiększenia bezpieczeństwa należało wprowadzić szereg dodatkowych zabezpieczeń w tym **automatyzację certyfikatów na poziomie serwera i szyfrowanie całego ruchu**, a także wdrożenie dodatkowych reguł i blokad. Założenie dalszych prac rozwojowych wymagało wdrożenia **automatyzacji CI/CD oraz repozytorium Github**, dzięki czemu istnieje pełna kontrola i standaryzacja wprowadzania zmian w kodzie.
+::::
+:::
+
+
+:::effect-appear-md
+---
+class: mx-default
+---
+
+#### **Wdrożenie programu lojalnościowego dla Prestashop**
+
+::::prose-p3
+W dalszych krokach wdrożyliśmy **program lojalnościowy**, dzięki któremu klienci Mancraft mogą dokonywać zamówień zbierając punkty za każdą wydaną kwotę. **Wartość transakcji przeliczana jest zgodnie z założoną regułą**, a punkty mogą być wymieniane na atrakcyjne gadżety Mancraft w tym czapki, chusty, kubki i smycze. Działanie programu lojalnościowego zostało dostosowane do działania dla **wielu grup klientów, posiadających różne progi rabatów oraz walut sklepu**. 
+::::
+:::
+
 
 :::effect-appear-md
 ::::prose-bg{class='font-normal'}
@@ -189,34 +246,26 @@ Po wykonaniu migracji skupiliśmy się na **rozwoju sklepu o nowe funkcjonalnoś
 :::::
 ::::
 :::
-
-:::effect-appear-md
----
-class: mx-default
----
-
-#### **Optymalizacja procesu zakupowego**
-
-::::prose-p3
-W celu optymalizacji procesu zakupowego **zaprojektowaliśmy i wdrożyliśmy nową kartę produktu**, wraz z wygodną galerią prezentującą zdjęcia wysokiej rozdzielczości oraz szybką płatnością **PayPal Checkout**. Wprowadziliśmy także zmiany na stronie głównej, a standardowy checkout Prestashop  zastąpiliśmy rozwiązaniem **One Page Checkout**, znacznie skracając ścieżkę użytkownika od umieszczenia produktu w koszyku do finalizacji zamówienia.
-::::
-:::
-::
-
-::page-section-md
----
-class: mb-[50px] tablet:mb-[100px]
----
-:::effect-appear-md
-::::prose-figure{src="/img/content-images/case-mancraft-img3.png"}
-::::
-:::
 ::
 
 ::page-section-md
 ---
 class: static-content mb-[50px] tablet:mb-[120px]
 ---
+
+:::effect-appear-md
+---
+class: mx-default
+---
+
+### **Zastosowane technologie**
+
+::::prose-p3
+Prócz silnika Prestashop 1.7 do realizacji sklepu dostosowaliśmy wiele sprawdzonych rozwiązań. Zagraniczna sprzedaż obsługiwana jest za pomocą **bramek Stripe i PayPal**, a wysyłka organizowana przez jednego z dostępnych operatorów **DHL, Poczta Polska i UPS**. Na Polski rynek wdrożyliśmy **bramkę płatniczą PayU** oraz wysyłkę do **Paczkomatów InPost**. Stany magazynowe oraz transakcje zintegrowane są z **systemem Baselinker**, a maile transakcyjne obsługiwane za pomocą **platformy EmailLabs** która gwarantuje najwyższy poziom dostarczania wiadomości. W celu zwiększenia bezpieczeństwa, zastosowaliśmy rozwiązanie **Cloudflare** eliminując niebezpieczny ruch oraz nieautoryzowany dostęp do wewnętrznych zasobów sieciowych.
+::::
+:::
+
+
 :::effect-appear-md
 ---
 class: mx-default
@@ -261,30 +310,31 @@ class: tablet:hidden
 
 ::page-section-md
 ---
-class: static-content mb-[50px] tablet:mb-[100px] hidden
+class: static-content mb-[50px] tablet:mb-[100px]
 ---
 :::effect-appear-md
 ---
 class: mx-default
 ---
 
-### **Rezultat pracy**
+### **Rezultat pracy i dalsze wsparcie**
 
 ::::prose-p3
-Prócz wyżej wymienionego silnika Prestashop 1.7 do realizacji sklepu wykorzystaliśmy wiele sprawdzonych rozwiązań. Zagraniczna sprzedaż obsługiwana jest za pomocą **bramek Stripe i PayPal**, a wysyłka organizowana przez jednego z dostępnych operatorów **DHL, Poczta Polska i UPS**. Na Polski rynek wdrożyliśmy **bramkę płatniczą PayU** oraz wysyłkę do **Paczkomatów InPost**. Stany magazynowe oraz transakcje zintegrowane są z **systemem Baselinker**, a maile transakcyjne obsługiwane za pomocą **platformy EmailLabs** która gwarantuje najwyższy poziom dostarczania wiadomości. W celu zwiększenia bezpieczeństwa, zastosowaliśmy rozwiązanie **Cloudflare** eliminując niebezpieczny ruch oraz nieautoryzowany dostęp do wewnętrznych zasobów sieciowych.
+Wynikiem naszej pracy jest **wielowalutowy sklep internetowy Prestashop**, obsługujący płatność w walutach CAD, EURO, GBP, PLN, USD oraz dostawy niemal na całym świecie. Klienci sklepu Mancraft **mogą cieszyć się nowym i funkcjonalnym sklepem oraz licznymi funkcjonalnościami** ułatwiającymi składanie zamówień.
+
+W ramach dalszej współpracy, sprawujemy **opiekę nad bieżącym działaniem sklepu** m.in. reagując na awarie oraz wprowadzając wymagane aktualizacje systemu.  Nasze wsparcie obejmuje także **prace optymalizacyjne** (w tym optymalizacja doświadczeń użytkownika oraz wydajności), a także **dalszy rozwój sklepu** o nowe funkcjonalności i podstrony.
+::::
+:::
+
+:::effect-appear-md
+::::prose-figure{src="/img/content-images/case-mancraft-img4.png"}
+---
+class: mb-[50px] tablet:mb-[100px] -mr-5 tablet:-mr-10
+---
 ::::
 :::
 ::
 
-::page-section-md
----
-class: mb-[50px] tablet:mb-[100px] hidden
----
-:::effect-appear-md
-::::prose-figure{src="/img/content-images/case-mancraft-img3.png"}
-::::
-:::
-::
 
 ::page-section-md
 ---
