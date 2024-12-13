@@ -52,7 +52,8 @@
     "nuxt-simple-sitemap": "^4.4.1",
     "nuxt-vitalizer": "0.10.0",
     "sitemap": "^7.1.1",
-    "swiper": "^8.4.7"
+    "swiper": "^8.4.7",
+    "three": "^0.171.0"
   },
   "devDependencies": {
     "workbox-build": "^7.3.0",

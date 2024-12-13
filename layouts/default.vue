@@ -13,10 +13,10 @@
         <NuxtPage :globalSettings="settings" />
       </main>
       <button-scroll-up class="shrink-0" />
-      <FbChat
+      <!-- <FbChat
         :id="238379120057786"
         :locale="generalData.lang == 'PL' ? 'pl_PL' : 'en_US'"
-      />
+      /> -->
       <LayoutFooter
         :mail="generalData.mail"
         :tel="generalData.tel"
