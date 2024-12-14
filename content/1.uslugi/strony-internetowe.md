@@ -20,7 +20,7 @@ isSecondSvg: true
 ---
 
 #subtitle
-*-/* Solidne Strony internetowe 
+*-/* Projektowanie i programowanie stron www
 
 #title
 # Strony internetowe
@@ -40,7 +40,7 @@ svgUrl_tr: '/img/svg-square.svg'
 
 ::page-section-md
 ---
-classes: mb-5 tablet:mb-32
+classes: mb-5 tablet:mb-[400px]
 ---
 
 :::block-columns-1-1-md
@@ -51,28 +51,28 @@ classes: mb-5 tablet:mb-32
 ---
 center: false
 maxWidth: 700
-class: mb-20
+class: mb-[60px]
 ---
 
 #subtitle
-### *1/* Tworzymy wydajne strony www
+### *1/* Dla nas liczy się jakość
 
 #title
-## Jesteśmy doświadczonym zespołem *do zadań specjalnych*
+## Dostarczamy solidne strony <br> www *dla ambitnych firm*
 :::::
 
 :::::prose-p-3
 ---
 class: max-w-[650px] [&_p]:desktop:!mb-5 [&_p]:!leading-8
 --- 
-Nie korzystamy z szablonów czy gotowców. Strony internetowe wdrażamy od podstaw, korzystając tylko ze sprawdzonych i nowoczesnych technologii oraz jasnych procesów technologicznych. Dzięki temu zapewniamy najwyższą jakość, wydajność i bezpieczeństwo.
+Nie korzystamy z szablonów czy gotowców. **Strony internetowe programujemy od podstaw**, korzystając tylko ze **sprawdzonych i nowoczesnych technologii** oraz jasnych procesów i standaryzacji. Dzięki temu zapewniamy najwyższą jakość, wydajność oraz bezpieczeństwo, **gwarantując stabilne działanie strony**, na lata.
 :::::
 
 :::::prose-p-4
 ---
 class: static-content max-w-[650px]
 --- 
-Od projektu UX/UI strony, przez programowanie backend/frontent, po wsparcie powdrożeniowe, świadczymy usługi na każdym etapie życia produktu.
+Od warsztatów projektowych w trakcie których wybierzemy optymalną technologię, przez **strategię UX i projekt interfejsu strony**, wdrożenie programistyczne, po **rozwój i wsparcie techniczne** - z nami kompleksowo zrealizujesz stronę www, która będzie solidnym narzędziem w Twojej firmie.
 :::::
 ::::
 
@@ -85,8 +85,65 @@ class: h-full relative
 ---
 imgUrl: '/img/content-images/strony-internetowe/section1-right-img.png'
 decoration: false
-class: tablet:w-auto !w-full desktop:scale-[1.1] desktop-wide:scale-[1.2] fullHd:scale-[1.3] tablet:!pl-14 desktop-wide:!pl-20
+class: tablet:w-auto !w-full mt-[-160px] desktop:mt-[-230px] scale-[1.1] tablet:!pl-20 desktop-wide:!pl-20
 ---
+:::::
+::::
+:::
+::
+
+::page-section-md
+---
+classes: mb-5 tablet:mb-32
+---
+
+:::block-columns-1-1-md
+---
+class: test [&_div.left]:!basis-[45%] [&_div.right]:!basis-[55%]
+---
+
+#left
+::::effect-appear-md
+---
+class: h-full relative
+---
+:::::img-decorated-md
+---
+imgUrl: '/img/content-images/strony-internetowe/section2-left-img.png'
+decoration: false
+class: tablet:w-auto !w-full mt-[-160px] desktop:mt-[-230px] scale-[1.1] tablet:!pl-20 desktop-wide:!pl-20
+---
+:::::
+::::
+
+#right
+::::effect-appear-md
+:::::block-header-md
+---
+center: false
+maxWidth: 700
+class: mb-[60px]
+---
+
+#subtitle
+### *2/* Jakie strony dostarczamy?
+
+#title
+## Strony internetowe, platformy i dedykowane rozwiązania webowe
+:::::
+
+:::::prose-p-3
+---
+class: max-w-full [&_p]:desktop:!mb-5 [&_p]:!leading-8
+--- 
+Niezależnie od tego czy potrzebujesz **landing page sprzedażowy**, dedykowane rozwiązanie webowe, czy **rozbudowany serwis internetowy** dla swojej firmy - nasz zespół to programiści z krwi i kości mający doświadczenie w **najbardziej skomplikowanych projektach**. Z przyjemnością  zrealizujemy dla Ciebie:
+:::::
+
+:::::prose-p-3
+---
+class: max-w-full bg-green-gray p-10 [&_p]:desktop:!mb-0 [&_p]:!leading-8 desktop:text-[20px] !font-semibold [&_p]:!leading-[40px]
+--- 
+*/* Landing page&nbsp;&nbsp;&nbsp; */* Strony dla firm i instytucji&nbsp;&nbsp;&nbsp;  */*&nbsp;Platformy edukacyjne */*&nbsp;Serwisy&nbsp;internetowe&nbsp;&nbsp;&nbsp; */*&nbsp;Platforme&nbsp;informacyjne&nbsp;&nbsp;&nbsp; */*&nbsp;Strony&nbsp;z&nbsp;WCAG&nbsp;2.1 */*&nbsp;Dedykowane rozwiązania
 :::::
 ::::
 :::
@@ -114,7 +171,7 @@ class: mb-20
 ---
 
 #subtitle
-### *2/* Dedykowane rozwiązania dla stron www
+### *3/* Dedykowane rozwiązania dla stron www
 
 #title
 ## Strony www realizujemy *na platformach*
@@ -234,7 +291,7 @@ class: mb-20
 ---
 
 #subtitle
-### *3/* Najwyższe standardy stron internetowych?
+### *4/* Najwyższe standardy stron internetowych?
 
 #title
 ## W realizacjach stron internetowych stawiamy na
@@ -256,7 +313,7 @@ decoration: false
 ---
 ::::::list-item-ul-active-md
 ---
-iconUrl: '/img/icons/doc_bg.svg'
+iconUrl: '/img/icons/doc_bg_gray.svg'
 iconBig: true
 animated: false
 ---
@@ -265,12 +322,12 @@ animated: false
 #### Zgodność z dokumentacją techniczną
 
 #description
-Zawsze opieramy się o dokumentację techniczną rozwiązań z jakich korzystamy. Dzięki temu zapewniamy poprawność działania wdrożonych funkcji i szybkość działania strony, bez zbędnego kodu.
+Zawsze **opieramy się o dokumentację techniczną** rozwiązań z jakich korzystamy. Dzięki temu zapewniamy poprawność działania wdrożonych funkcji i **szybkość działania strony, bez zbędnego kodu**.
 
 ::::::
 ::::::list-item-ul-active-md
 ---
-iconUrl: '/img/icons/uxui_bg.svg'
+iconUrl: '/img/icons/uxui_bg_gray.svg'
 iconBig: true
 animated: false
 ---
@@ -280,12 +337,12 @@ animated: false
 
 
 #description
-W projektowaniu interfejsu kluczowe są dla nas Twoje wymagania oraz potrzeby użytkowników. Projektujemy m.in. architekturę informacji, prototyp strony i design dopasowany do Twojej marki, zapewniając łatwą w obsłudze i miłą dla oka stronę.
+W projektowaniu interfejsu kluczowe są dla nas Twoje wymagania oraz **potrzeby użytkowników**. Projektujemy m.in. architekturę informacji, prototyp strony i **design dopasowany do Twojej marki**, zapewniając **łatwą w obsłudze stronę**.
 
 ::::::
 ::::::list-item-ul-active-md
 ---
-iconUrl: '/img/icons/scaling_bg.svg'
+iconUrl: '/img/icons/scaling_bg_gray.svg'
 iconBig: true
 animated: false
 ---
@@ -294,7 +351,7 @@ animated: false
 #### Skalowalność czyli przygotowanie do rozwoju
 
 #description
-Celem prowadzenia biznesu jest jego rozwój. Stawiamy na długofalowe rozwiązania wdrażając m.in. nowoczesną architekturę i system przystosowany do dalszej rozbudowy.
+Celem prowadzenia biznesu jest jego rozwój. Stawiamy na długofalowe rozwiązania wdrażając m.in. **nowoczesną architekturę i system przystosowany do dalszej rozbudowy** aby strona mogła wzrastać razem z rozwojem Twojej firmy.
 ::::::
 :::::
 ::::
@@ -305,7 +362,7 @@ Celem prowadzenia biznesu jest jego rozwój. Stawiamy na długofalowe rozwiązan
 :::::block-list-ul-md
 ::::::list-item-ul-active-md
 ---
-iconUrl: '/img/icons/code_bg.svg'
+iconUrl: '/img/icons/code_bg_gray.svg'
 iconBig: true
 animated: false
 ---
@@ -314,12 +371,12 @@ animated: false
 #### Programowanie stron od podstaw
 
 #description
-Webo to zespół programistów z krwi i kości, nie korzystamy ze słabych jakościowo gotowców. Strony internetowe programujemy od podstaw zapewniając wysoką jakość, szybkość działania i wydajność.
+Webo to **zespół programistów** z krwi i kości, nie korzystamy ze słabych jakościowo gotowców. Strony internetowe programujemy od podstaw zapewniając **wysoką jakość, szybkość działania i wydajność**.
 
 ::::::
 ::::::list-item-ul-active-md
 ---
-iconUrl: '/img/icons/weight_bg.svg'
+iconUrl: '/img/icons/weight_bg_gray.svg'
 iconBig: true
 animated: false
 ---
@@ -328,12 +385,12 @@ animated: false
 #### Stabilne działanie strony przez lata
 
 #description
-Naszym zadaniem jest dostarczenie stabilnie działającej strony internetowej. To inwestycja która ma zapewnić Tobie realizacje celów biznesowych bez obaw o wydajność czy dostępność strony dla potencjalnych klientów.
+Naszym zadaniem jest dostarczenie **stabilnie działającej strony** internetowej. To inwestycja która ma zapewnić Tobie **realizacje celów biznesowych** bez obaw o wydajność czy dostępność strony dla potencjalnych klientów.
 
 ::::::
 ::::::list-item-ul-active-md
 ---
-iconUrl: '/img/icons/tests_bg.svg'
+iconUrl: '/img/icons/tests_bg_gray.svg'
 iconBig: true
 animated: false
 ---
@@ -342,7 +399,7 @@ animated: false
 #### Szczegółowe testy przed publikacją
 
 #description
-Przeprowadzamy szczegółową kontrolę jakości i funkcjonowania strony. Testy wykonujemy na różnych urządzeniach i rozdzielczościach ekranu aby przed publikacją upewnić się że wszystko działa poprawnie.
+Przeprowadzamy szczegółową **kontrolę jakości i funkcjonowania strony**. Testy wykonujemy na różnych urządzeniach i rozdzielczościach ekranu aby przed publikacją upewnić się że wszystko działa poprawnie.
 ::::::
 :::::
 ::::
