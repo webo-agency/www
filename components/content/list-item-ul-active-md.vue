@@ -2,21 +2,21 @@
   <li>
     <effect-appear :toggleOpacity="false">
       <div
-        class="flex flex-col _tablet:flex-row"
-        :class="[animated ? 'li-faded pb-10 tablet:pb-16' : 'pb-5 tablet:pb-7']"
+        class="flex flex-col"
+        :class="[animated ? 'li-faded pb-10 tablet:pb-16' : 'pb-5 tablet:pb-7',{'tablet:flex-row':iconLeft}]"
       >
         <nuxt-picture
           v-if="iconUrl"
           :src="iconUrl"
           class="shrink-0"
-          :class="[iconBig ? 'w-12 tablet:w-[70px]' : 'w-10']"
+          :class="[iconBig ? 'w-12 tablet:w-[70px]' : 'w-10',{'tablet:mr-[30px]':iconLeft}]"
           :imgAttrs="{ class: 'w-full object-contain' }"
         />
-        <div class="min-h-[240px] tablet:pr-5">
+        <div class="tablet:pr-5" :class="{'min-h-[240px]':!iconLeft}">
           <div
             v-if="$slots.title"
-            class="mb-5 text-2xl font-semibold"
-            :class="[iconBig ? 'mt-2 tablet:mt-5' : 'mt-2']"
+            class="mb-5 text-2xl mt-2 font-semibold"
+            :class="{'tablet:mt-5':iconBig && !iconLeft}"
           >
             <ContentSlot :use="$slots.title" />
           </div>
@@ -38,6 +38,10 @@ export default {
   props: {
     iconUrl: String,
     iconBig: {
+      type: Boolean,
+      default: false,
+    },
+    iconLeft: {
       type: Boolean,
       default: false,
     },
