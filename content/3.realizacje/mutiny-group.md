@@ -224,40 +224,15 @@ class: mb-[50px] desktop:mb-[100px]
 ::::
 :::
 
-
 :::effect-appear-md
 ---
-class: mx-default tablet:[&_h4]:!mb-6 tablet:[&_.p3_p:not(:last-child)]:!mb-5
+class: mx-default
 ---
 
-#### **Wdrożenie programu lojalnościowego dla Prestashop**
+### **Wdrożenie programistyczne**
 
 ::::prose-p3
-W dalszych krokach wdrożyliśmy **program lojalnościowy**, dzięki któremu klienci Mancraft mogą dokonywać zamówień zbierając punkty za każdą wydaną kwotę. **Wartość transakcji przeliczana jest zgodnie z założoną regułą**, a punkty mogą być wymieniane na atrakcyjne gadżety Mancraft w tym czapki, chusty, kubki i smycze. Działanie programu lojalnościowego zostało dostosowane do działania dla **wielu grup klientów, posiadających różne progi rabatów oraz walut sklepu**. 
-::::
-:::
-
-
-:::effect-appear-md
-::::prose-bg{class='font-normal'}
-:::::prose-p1
-**Lista kluczowych funkcjonalności i automatyzacji**
-:::::
-
-:::::prose-p2
----
-class: mt-0 [&_li]:!mb-0
----
-- **System weryfikacji VAT VIAS** - automatyczna weryfikacja działalności klientów B2B podczas zakładania konta
-- **Strefa zamówień B2B** - umożliwiająca w łatwy sposób dokonywanie zamówień hurtowych
-- **Program lojalnościowy** - zbieranie punktów za zakupy z możliwością wymiany na nagrody i gadżety Mancraft
-- **Automatyzacja generowania i wysyłki miesięcznego raportu sprzedaży**
-- **Dostosowanie sklepu do wymagań dyrektywy Omnibus**
-- **Konfiguracja opcji dostaw w zależności od grup klientów, adresu oraz języka sklepu**
-- **Wdrożenie bramek płatności wyświetlanych zależnych od waluty sklepu**
-- **Integracja sklepu z platformą do wysyłki e-maili transakcyjnych**
-- **Automatyzacja CI/CD** - Proces wgrywania zmian ze środowiska testowego, zwiększający stabilną pracę systemu
-:::::
+Lorem ipsum dolor sit amet consectetur. Placerat quam faucibus posuere eget sagittis. Orci amet tincidunt ut mauris morbi sapien ultrices volutpat. Nulla adipiscing vel arcu aliquam amet. Mauris porttitor turpis semper at ultrices tristique nulla. Quis lectus risus egestas vel lectus ultrices. Tincidunt augue amet commodo consectetur pretium lacus aliquet scelerisque. Euismod facilisis lobortis enim ipsum.
 ::::
 :::
 ::
@@ -266,19 +241,6 @@ class: mt-0 [&_li]:!mb-0
 ---
 class: static-content mb-[50px] tablet:mb-[120px]
 ---
-
-:::effect-appear-md
----
-class: mx-default
----
-
-### **Zastosowane technologie**
-
-::::prose-p3
-Prócz silnika Prestashop 1.7 do realizacji sklepu dostosowaliśmy wiele sprawdzonych rozwiązań. Zagraniczna sprzedaż obsługiwana jest za pomocą **bramek Stripe i PayPal**, a wysyłka organizowana przez jednego z dostępnych operatorów **DHL, Poczta Polska i UPS**. Na Polski rynek wdrożyliśmy **bramkę płatniczą PayU** oraz wysyłkę do **Paczkomatów InPost**. Stany magazynowe oraz transakcje zintegrowane są z **systemem Baselinker**, a maile transakcyjne obsługiwane za pomocą **platformy EmailLabs** która gwarantuje najwyższy poziom dostarczania wiadomości. W celu zwiększenia bezpieczeństwa, zastosowaliśmy rozwiązanie **Cloudflare** eliminując niebezpieczny ruch oraz nieautoryzowany dostęp do wewnętrznych zasobów sieciowych.
-::::
-:::
-
 
 :::effect-appear-md
 ---
