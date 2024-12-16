@@ -35,7 +35,7 @@ maxWidth: 100%
 Mutiny Group to trzyjęzykowa, **kompleksowo zrealizowana strona www** -> od pełnego procesu projektowania UX/UI po **wdrożenie programistyczne**. Strona internetowa została zrealizowana w oparciu o system CMS Wordpress z wykorzystaniem **Wordpress Full Site Editing**, usprawniający proces wprowadzania zmian na stronie. . 
 
 #buttontext
-Zobacz online
+
 
 #tags
 - Sklep internetowy
