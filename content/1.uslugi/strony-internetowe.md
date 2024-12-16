@@ -15,24 +15,24 @@ hreflangs:
 ---
 bgImg: false
 headerWidth: 460
-descriptionWidth: 460
+descriptionWidth: 475
 isSecondSvg: true
 ---
 
 #subtitle
-*-/* Solidne Strony internetowe 
+*-/* Projektowanie i programowanie stron www
 
 #title
 # Strony internetowe
 
 #description
-Tworzymy szyte na miarę strony internetowe, projektując dla Ciebie indywidualny wygląd i kodując od podstaw.
+Tworzymy szyte na miarę strony internetowe, projektując dla Ciebie indywidualny wygląd i&nbsp;kodując od podstaw.
 
 #right
 :::block-banner-decoration-md
 ---
-svgUrl_bl: '/img/svg-arc.svg'
-svgUrl_tr: '/img/svg-square.svg'
+svgUrl_tl: '/img/svg-arc.svg'
+svgUrl_br: '/img/svg-square.svg'
 ---
 :::
 ::
@@ -40,7 +40,7 @@ svgUrl_tr: '/img/svg-square.svg'
 
 ::page-section-md
 ---
-classes: mb-5 tablet:mb-32
+classes: mb-10 desktop:mb-[200px]
 ---
 
 :::block-columns-1-1-md
@@ -51,28 +51,28 @@ classes: mb-5 tablet:mb-32
 ---
 center: false
 maxWidth: 700
-class: mb-20
+class: mb-[60px]
 ---
 
 #subtitle
-### *1/* Tworzymy wydajne strony www
+### *1/* Dla nas liczy się jakość
 
 #title
-## Jesteśmy doświadczonym zespołem *do zadań specjalnych*
+## Tworzymy solidne strony <br> www *dla ambitnych firm*
 :::::
 
 :::::prose-p-3
 ---
-class: max-w-[650px] [&_p]:desktop:!mb-5 [&_p]:!leading-8
+class: max-w-[650px] mb-5 [&_p]:!leading-8
 --- 
-Nie korzystamy z szablonów czy gotowców. Strony internetowe wdrażamy od podstaw, korzystając tylko ze sprawdzonych i nowoczesnych technologii oraz jasnych procesów technologicznych. Dzięki temu zapewniamy najwyższą jakość, wydajność i bezpieczeństwo.
+Nie korzystamy z szablonów czy gotowców. **Strony internetowe programujemy od podstaw**, korzystając tylko ze **sprawdzonych i nowoczesnych technologii** oraz jasnych procesów i standaryzacji. Dzięki temu zapewniamy najwyższą jakość, wydajność oraz bezpieczeństwo, **gwarantując stabilne działanie strony**, na lata.
 :::::
 
 :::::prose-p-4
 ---
-class: static-content max-w-[650px]
+class: static-content max-w-[650px] mb-5 [&_p]:!leading-[28px]
 --- 
-Od projektu UX/UI strony, przez programowanie backend/frontent, po wsparcie powdrożeniowe, świadczymy usługi na każdym etapie życia produktu.
+Od warsztatów projektowych w trakcie których wybierzemy optymalną technologię, przez **strategię UX i projekt interfejsu strony**, wdrożenie programistyczne, po **rozwój i wsparcie techniczne** - z nami kompleksowo zrealizujesz stronę www, która będzie solidnym narzędziem w Twojej firmie.
 :::::
 ::::
 
@@ -81,14 +81,97 @@ Od projektu UX/UI strony, przez programowanie backend/frontent, po wsparcie powd
 ---
 class: h-full relative
 ---
-:::::img-decorated-md
+
+:::::effect-parallax-md
+---
+parallaxScale: 0.1
+startBottom: true
+class: overflow-hidden desktop:overflow-visible
+---
+
+::::::img-decorated-md
 ---
 imgUrl: '/img/content-images/strony-internetowe/section1-right-img.png'
 decoration: false
-class: tablet:w-auto !w-full desktop:scale-[1.1] desktop-wide:scale-[1.2] fullHd:scale-[1.3] tablet:!pl-14 desktop-wide:!pl-20
+class: tablet:w-auto !w-full desktop:mt-[-230px] desktop:-mr-10 tablet:!pl-20 desktop-wide:!pl-20
 ---
+::::::
 :::::
 ::::
+:::
+::
+
+::page-section-md
+---
+classes: mb-5 tablet:mb-32
+---
+
+:::block-columns-1-1-md
+---
+class: w-auto [&_div.left]:!basis-[40%] [&_div.right]:!basis-[60%]
+reverseMobile: true
+---
+
+
+#left
+::::effect-appear-md
+---
+class: h-full relative
+---
+
+:::::effect-parallax-md
+---
+parallaxScale: 0.09
+startBottom: true
+class: overflow-hidden desktop:overflow-visible
+---
+::::::img-decorated-md
+---
+imgUrl: '/img/content-images/strony-internetowe/section2-left-img.png'
+decoration: false
+class: desktop:!pr-16 !w-full
+---
+::::::
+:::::
+::::
+
+#right
+::::effect-appear-md
+:::::block-header-md
+---
+center: false
+maxWidth: 700
+class: mb-[60px] desktop:mt-[100px]
+---
+
+#subtitle
+### *2/* Jakie strony dostarczamy?
+
+#title
+## Strony internetowe, platformy i dedykowane rozwiązania webowe
+:::::
+
+:::::prose-p-3
+---
+class: max-w-full mb-10 [&_p]:!leading-8 desktop:[&_p]:text-lg
+--- 
+Niezależnie od tego czy potrzebujesz **landing page sprzedażowy**, dedykowane rozwiązanie webowe, czy **rozbudowany serwis internetowy** dla swojej firmy - nasz zespół to programiści z krwi i kości mający doświadczenie w **najbardziej skomplikowanych projektach**. Z przyjemnością  zrealizujemy dla Ciebie:
+:::::
+
+:::::prose-p-3
+---
+class: max-w-full bg-green-gray p-5 tablet:p-10 mb-10 [&_p]:!leading-8 desktop:text-[20px] !font-semibold [&_p]:!leading-[40px]
+--- 
+*/*&nbsp;Landing page&nbsp;&nbsp;&nbsp; */*&nbsp;Strony dla firm i&nbsp;instytucji&nbsp;&nbsp;&nbsp;  */*&nbsp;Platformy edukacyjne&nbsp;&nbsp;&nbsp; */*&nbsp;Serwisy internetowe&nbsp;&nbsp;&nbsp; */*&nbsp;Platforme informacyjne&nbsp;&nbsp;&nbsp; */*&nbsp;Strony z&nbsp;WCAG&nbsp;2.1&nbsp;&nbsp;&nbsp; */*&nbsp;Dedykowane rozwiązania
+:::::
+::::
+:::
+
+:::svg-bg-dots
+---
+decoration: true
+class: tablet:top-0 right-0
+---
 :::
 ::
 
@@ -98,14 +181,6 @@ classes: mb-5 tablet:mb-[100px]
 ---
 
 :::effect-appear-md
-
-:::svg-bg-dots
----
-decoration: true
-class: tablet:-top-64 right-0
----
-:::
-
 ::::block-header-md
 ---
 center: true
@@ -114,7 +189,7 @@ class: mb-20
 ---
 
 #subtitle
-### *2/* Dedykowane rozwiązania dla stron www
+### *3/* Dedykowane rozwiązania dla stron www
 
 #title
 ## Strony www realizujemy *na platformach*
@@ -187,13 +262,6 @@ class: top-20 right-[15%] fullHd:right-[20%] scale-x-[-1.6] scale-y-[1.6]
 ---
 :::
 
-::::svg-bg-dots
----
-decoration: true
-class: block desktop:hidden top-0 right-0
----
-::::
-
 ::::block-cta-md
 ---
 maxWidth: 800
@@ -219,12 +287,6 @@ Umów się na bezpłatną konsultację!
 classes: mb-10 tablet:mb-20
 ---
 
-:::block-bg-map-md
----
-class: -z-10
----
-:::
-
 :::effect-appear-md
 ::::block-header-md
 ---
@@ -234,7 +296,7 @@ class: mb-20
 ---
 
 #subtitle
-### *3/* Najwyższe standardy stron internetowych?
+### *4/* Najwyższe standardy stron internetowych?
 
 #title
 ## W realizacjach stron internetowych stawiamy na
@@ -244,7 +306,7 @@ class: mb-20
 
 :::block-columns-1-1-md
 ---
-class: mb-10 tablet:mb-20 pb-20 tablet:pb-[100px]
+class: mb-10 tablet:mb-20
 ---
 
 #left
@@ -256,8 +318,9 @@ decoration: false
 ---
 ::::::list-item-ul-active-md
 ---
-iconUrl: '/img/icons/doc_bg.svg'
+iconUrl: '/img/icons/doc_bg_gray.svg'
 iconBig: true
+iconLeft: true
 animated: false
 ---
 
@@ -265,13 +328,14 @@ animated: false
 #### Zgodność z dokumentacją techniczną
 
 #description
-Zawsze opieramy się o dokumentację techniczną rozwiązań z jakich korzystamy. Dzięki temu zapewniamy poprawność działania wdrożonych funkcji i szybkość działania strony, bez zbędnego kodu.
+Zawsze **opieramy się o dokumentację techniczną** rozwiązań z jakich korzystamy. Dzięki temu zapewniamy poprawność działania wdrożonych funkcji i **szybkość działania strony, bez zbędnego kodu**.
 
 ::::::
 ::::::list-item-ul-active-md
 ---
-iconUrl: '/img/icons/uxui_bg.svg'
+iconUrl: '/img/icons/uxui_bg_gray.svg'
 iconBig: true
+iconLeft: true
 animated: false
 ---
 
@@ -280,13 +344,14 @@ animated: false
 
 
 #description
-W projektowaniu interfejsu kluczowe są dla nas Twoje wymagania oraz potrzeby użytkowników. Projektujemy m.in. architekturę informacji, prototyp strony i design dopasowany do Twojej marki, zapewniając łatwą w obsłudze i miłą dla oka stronę.
+W projektowaniu interfejsu kluczowe są dla nas Twoje wymagania oraz **potrzeby użytkowników**. Projektujemy m.in. architekturę informacji, prototyp strony i **design dopasowany do Twojej marki**, zapewniając **łatwą w obsłudze stronę**.
 
 ::::::
 ::::::list-item-ul-active-md
 ---
-iconUrl: '/img/icons/scaling_bg.svg'
+iconUrl: '/img/icons/scaling_bg_gray.svg'
 iconBig: true
+iconLeft: true
 animated: false
 ---
 
@@ -294,7 +359,7 @@ animated: false
 #### Skalowalność czyli przygotowanie do rozwoju
 
 #description
-Celem prowadzenia biznesu jest jego rozwój. Stawiamy na długofalowe rozwiązania wdrażając m.in. nowoczesną architekturę i system przystosowany do dalszej rozbudowy.
+Celem prowadzenia biznesu jest jego rozwój. Stawiamy na długofalowe rozwiązania wdrażając m.in. **nowoczesną architekturę i system przystosowany do dalszej rozbudowy** aby strona mogła wzrastać razem z rozwojem Twojej firmy.
 ::::::
 :::::
 ::::
@@ -305,8 +370,9 @@ Celem prowadzenia biznesu jest jego rozwój. Stawiamy na długofalowe rozwiązan
 :::::block-list-ul-md
 ::::::list-item-ul-active-md
 ---
-iconUrl: '/img/icons/code_bg.svg'
+iconUrl: '/img/icons/code_bg_gray.svg'
 iconBig: true
+iconLeft: true
 animated: false
 ---
 
@@ -314,13 +380,14 @@ animated: false
 #### Programowanie stron od podstaw
 
 #description
-Webo to zespół programistów z krwi i kości, nie korzystamy ze słabych jakościowo gotowców. Strony internetowe programujemy od podstaw zapewniając wysoką jakość, szybkość działania i wydajność.
+Webo to **zespół programistów** z krwi i kości, nie korzystamy ze słabych jakościowo gotowców. Strony internetowe programujemy od podstaw zapewniając **wysoką jakość, szybkość działania i wydajność**.
 
 ::::::
 ::::::list-item-ul-active-md
 ---
-iconUrl: '/img/icons/weight_bg.svg'
+iconUrl: '/img/icons/weight_bg_gray.svg'
 iconBig: true
+iconLeft: true
 animated: false
 ---
 
@@ -328,13 +395,14 @@ animated: false
 #### Stabilne działanie strony przez lata
 
 #description
-Naszym zadaniem jest dostarczenie stabilnie działającej strony internetowej. To inwestycja która ma zapewnić Tobie realizacje celów biznesowych bez obaw o wydajność czy dostępność strony dla potencjalnych klientów.
+Naszym zadaniem jest dostarczenie **stabilnie działającej strony** internetowej. To inwestycja która ma zapewnić Tobie **realizacje celów biznesowych** bez obaw o wydajność czy dostępność strony dla potencjalnych klientów.
 
 ::::::
 ::::::list-item-ul-active-md
 ---
-iconUrl: '/img/icons/tests_bg.svg'
+iconUrl: '/img/icons/tests_bg_gray.svg'
 iconBig: true
+iconLeft: true
 animated: false
 ---
 
@@ -342,13 +410,12 @@ animated: false
 #### Szczegółowe testy przed publikacją
 
 #description
-Przeprowadzamy szczegółową kontrolę jakości i funkcjonowania strony. Testy wykonujemy na różnych urządzeniach i rozdzielczościach ekranu aby przed publikacją upewnić się że wszystko działa poprawnie.
+Przeprowadzamy szczegółową **kontrolę jakości i funkcjonowania strony**. Testy wykonujemy na różnych urządzeniach i rozdzielczościach ekranu aby przed publikacją upewnić się że wszystko działa poprawnie.
 ::::::
 :::::
 ::::
 :::
 ::
-
 
 
 
@@ -429,14 +496,46 @@ Jakościowe wdrożenie to pewność działania strony m.in. bez wtop wydajności
 
 #full
 :::effect-appear-md
-::::prose-figure
+::::effect-parallax-md
+---
+parallaxScale: 0.08
+startBottom: true
+class: overflow-hidden
+---
+:::::prose-figure
 ---
 src: '/img/content-images/strony-internetowe/section4.png'
 rounded: false
 ---
+:::::
 ::::
+
+
+<!-- ::::effect-appear-md
+---
+class: w-full
+---
+:::::effect-parallax-md
+---
+parallaxScale: 0.15
+startBottom: true
+class: overflow-hidden tablet:overflow-visible
+---
+::::::img-decorated-md
+---
+imgUrl: '/img/content-images/strony-internetowe/section4.png'
+decoration: false
+gradient: true
+class: mt-0 !mb-0 !pl-0 tablet:!pl-8 tablet-wide:!pl-32 !w-full
+---
+::::::
+:::::
+:::: -->
+
 :::
 ::
+
+
 
 
 ::page-section-md
@@ -444,21 +543,20 @@ rounded: false
 classes: mb-10 tablet:mb-20
 ---
 :::effect-appear-md
-::::block-header-md
+::::block-header-two-cols-md
 ---
-maxWidth: 845
-class: mb-20
+class: mb-10 tablet:mb-20 [&_.description]:!text-base
+maxWidth: 640
 ---
 
 #subtitle
-### *5/* Etapy realizacji strony internetowej
+## *6/* Etapy realizacji strony internetowej
 
 #title
-## Do realizacji stron www <br> *podchodzimy etapowo*
+## Jak przebiega nasz proces realizacji strony internetowej?
 
 #description
 Do stworzenia nowoczesnej strony internetowej potrzeba szerokiej wiedzy z zakresu technologii i projektowania nastawionego na użytkownika oraz wypracowanego procesu, który zapewnia realizację założeń bez obsuw czasowych i w ustalonym budżecie.
-
 ::::
 :::
 
@@ -552,7 +650,6 @@ Po zaakceptowaniu projektu interfejsu, rozpoczynamy prace nad kompleksowym wdro�
 ::::
 
 
-
 ::::block-swiper-tabs-slide-md
 ---
 icon: '/img/icons/www-tests.svg'
@@ -606,7 +703,21 @@ Często publikacja strony to dopiero początek, a podczas użytkowania strony po
 :::
 ::
 
+::::block-cta-md
+---
+maxWidth: 640
+button.link: https://www.webo.agency/kontakt
+button.title: 'Skontaktuj się z nami'
+button.isWide: true
+class: tablet:mb-36
+---
 
+#title
+#### Potrzebujesz *solidnej strony internetowej,* która pomoże w rozwoju Twojej firmy?
+
+#description
+Umów się na bezpłatną konsultację i porozmawiaj z ekspertem.
+::::
 
 
 
@@ -618,14 +729,14 @@ class: mb-[80px] tablet:mb-[130px]
 :::effect-appear-md
 ::::block-header-md
 ---
-class: mb-10 tablet:mb-20
+class: mb-10 tablet:mb-20 max-w-[480px]
 ---
 
 #subtitle
-### *6/* Nasze realizacje stron www
+### *7/* Nasze ostatnie realizacje
 
 #title
-## Jesteśmy dumni <br>z *wykonanych projektów*
+## Zobacz nasze realizacje stron z *których jesteśmy dumni*
 
 ::::
 :::
@@ -652,7 +763,7 @@ class: mb-[50px] tablet:mb-[100px]
 ---
 
 #subtitle
-### *7/* Nasi klienci
+### *8/* Nasi klienci
 
 #title
 ## Poznaj firmy które *nam zaufały*
@@ -666,8 +777,6 @@ class: mb-[50px] tablet:mb-[100px]
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-form-before-footer-md
-::::
+:::block-form-before-footer-md
 :::
 ::
