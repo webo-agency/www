@@ -152,7 +152,7 @@ class: static-content
 ---
 :::effect-appear-md
 ---
-class: mx-default
+class: mx-default max-w-[934px]
 ---
 
 ### **Projekt**
@@ -183,7 +183,7 @@ class: mt-0 [&_li]:!mb-0
 
 :::effect-appear-md
 ---
-class: mx-default tablet:[&_h4]:!mb-6 tablet:[&_.p3_p:not(:last-child)]:!mb-5
+class: mx-default max-w-[934px] tablet:[&_h4]:!mb-6 tablet:[&_.p3_p:not(:last-child)]:!mb-5
 ---
 
 #### **Makiety funkcjonalne UX**
@@ -206,7 +206,7 @@ class: mb-[50px] desktop:mb-[100px]
 
 :::effect-appear-md
 ---
-class: mx-default tablet:[&_h4]:!mb-6 tablet:[&_.p3_p:not(:last-child)]:!mb-5
+class: mx-default max-w-[934px] tablet:[&_h4]:!mb-6 tablet:[&_.p3_p:not(:last-child)]:!mb-5
 ---
 
 #### **Projekt interfejsu użytkownika UI**
@@ -226,7 +226,7 @@ class: mb-[50px] desktop:mb-[100px]
 
 :::effect-appear-md
 ---
-class: mx-default
+class: mx-default max-w-[934px]
 ---
 
 ### **Wdrożenie programistyczne**
@@ -304,50 +304,28 @@ Lorem ipsum dolor sit amet consectetur. Eget et a turpis vitae cursus eu posuere
 :::effect-appear-md
 ::::prose-figure{src="/img/content-images/case-mutiny-img5.png"}
 ---
+class: mb-[5px] tablet:mb-[20px] -mr-5 tablet:-mr-10
+---
+::::
+:::
+
+:::effect-appear-md
+::::prose-figure{src="/img/content-images/case-mutiny-img6.png"}
+---
+class: mb-[5px] tablet:mb-[20px] -mr-5 tablet:-mr-10
+---
+::::
+:::
+
+:::effect-appear-md
+::::prose-figure{src="/img/content-images/case-mutiny-img7.png"}
+---
 class: mb-[50px] tablet:mb-[100px] -mr-5 tablet:-mr-10
 ---
 ::::
 :::
 ::
 
-
-::page-section-md
----
-class: static-content mb-[50px] tablet:mb-[100px]
----
-:::effect-appear-md
----
-class: mx-default
----
-::::block-opinion-md
----
-rating: 5
-hiddenStarQty: false
-center: true
----
-
-#title
-### **Opinia klienta**
-
-#left
-
-
-#content
-:::::prose-p3
-Dzięki pracy Webo mój klient osiągnął wyższe pozycje w wyszukiwarkach, **poprawił satysfakcję użytkowników i zwiększył ich zaangażowanie**. Firma proaktywnie **zarządzała ryzykiem**.  i zapewniała alternatywne rozwiązanie, aby osiągnąć cele klienta. Ich **szybkość reakcji i kreatywność** były godne pochwały.
-:::::
-
-#author
-
-#### **Radosław Cyganek**
-
-#authorTitle
-:::::prose-p6
-Executive - **Proton Multimedia**
-:::::
-::::
-:::
-::
 
 ::page-section-md
 ---
