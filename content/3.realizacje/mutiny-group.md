@@ -29,17 +29,17 @@ maxWidth: 100%
 ---
 
 #title
-## Mancraft - Sklep internetowy B2C/B2B Prestashop dla polskiego producenta ASG premium
+## Mutiny Group - Strona internetowa agencji marketingowej wykonana w Wordpress Full Site Editing
 
 #description
-**Shop Mancraft** to sklep internetowy, umożliwiający sprzedaż zarówno detaliczną jak i hurtową dla pasjonatów specjalistycznego sprzętu ASG klasy premium. Naszym głównym zadaniem była **migracja sklepu Prestashop 1.6 do Prestashop 1.7**, odświeżenie warstwy wizualnej oraz **wdrożenie nowych funkcjonalności i integracji.**
+Mutiny Group to trzyjęzykowa, **kompleksowo zrealizowana strona www** -> od pełnego procesu projektowania UX/UI po **wdrożenie programistyczne**. Strona internetowa została zrealizowana w oparciu o system CMS Wordpress z wykorzystaniem **Wordpress Full Site Editing**, usprawniający proces wprowadzania zmian na stronie. . 
 
 #buttontext
 Zobacz online
 
 #tags
 - Sklep internetowy
-- Wsparcie i rozwój
+- Projektowanie UX/UI
 
 ::::
 :::
@@ -50,7 +50,7 @@ Zobacz online
 class: mb-[50px] tablet:mb-[100px]
 ---
 :::effect-appear-md
-::::prose-figure{src="/img/content-images/case-mancraft-img1.png"}
+::::prose-figure{src="/img/content-images/case-mutiny-img1.png"}
 ::::
 :::
 ::
