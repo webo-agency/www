@@ -72,9 +72,9 @@ class: mx-default flex flex-col md:flex-row gap-10 lg:gap-20 fullHd:gap-[140px]
 ---
 
 ::::prose-p3
-**Mancraft Airsoft** to polska marka, która od 10 lat jest liderem w projektowaniu i produkcji najwyższej jakości sprzętu Airsoftowego. W swojej ofercie posiada rozwiązania do replik wielu wiodących na świecie producentów, prowadząc sprzedaż na każdym kontynencie zarówno za pomocą sklepu internetowego jak i sieci współpracujących dystrybutorów.
+**Mutiny Group** to agencja marketingowa z Trójmiasta składająca się ze zgranego zespołu ludzi, którzy od lat tworzą wyjątkowe wydarzenia i nie boją się przekraczać granic. Oferują działania z zakresu: Marketingu i PR, Eventów, Scenografii, Foto / Video, Grafika i 3D oraz IT.
 
-Posiadając zaawansowany park maszyn CNC, know-how i wieloletnie doświadczenie branżowe, produkty Mancraft spełniają najwyższe wymagania społeczności Airsoft, a marka zyskała uznanie na całym świecie. 
+Klient zgłosił się do nas z potrzebą **zaprojektowania i wdrożenia nowoczesnej strony internetowej**, która posłuży do budowy i dalszego umacniania pozycji firmy w internecie.
 ::::
 
 ::::prose-bg
@@ -105,7 +105,7 @@ _Data Realizacji_
 ---
 class: mx-0 [&_p]:!mb-[15px] tablet:[&_p]:!mb-[20px]
 ---
-**2021 - Obecnie**
+**2023**
 ::::
 
 ::::prose-p6
@@ -118,7 +118,7 @@ _Branża_
 ---
 class: mx-0 [&_p]:!mb-[15px] tablet:[&_p]:!mb-[20px]
 ---
-**Projektowanie i produkcja sprzętu ASG**
+**Marketing, PR, Eventy, Photo & Video**
 ::::
 
 ::::prose-p6
@@ -131,7 +131,7 @@ _Zakres prac_
 ---
 class: mx-0 [&_p]:!mb-[15px] tablet:[&_p]:!mb-[20px]
 ---
-**Programowanie, wsparcie i rozwój, Projektowanie UX/UI**
+**Projektowanie UX/UI, Programowanie**
 ::::
 :::
 ::
@@ -141,7 +141,7 @@ class: mx-0 [&_p]:!mb-[15px] tablet:[&_p]:!mb-[20px]
 class: mb-[50px] tablet:mb-[100px]
 ---
 :::effect-appear-md
-::::prose-figure{src="/img/content-images/case-mancraft-img2.png"}
+::::prose-figure{src="/img/content-images/case-mutiny-img2.png"}
 ::::
 :::
 ::
