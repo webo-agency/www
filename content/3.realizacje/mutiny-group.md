@@ -262,13 +262,6 @@ class: tablet:hidden mb-[60px]
 
 :::effect-appear-md
 ---
-class: mx-default 
----
-#### **Integracje**
-:::
-
-:::effect-appear-md
----
 class: mx-default
 ---
 ::::prose-figure{src="/img/content-images/case-mancraft-tech2.png"}
@@ -290,20 +283,26 @@ class: static-content mb-[50px] tablet:mb-[100px]
 ---
 :::effect-appear-md
 ---
-class: mx-default tablet:[&_.p3_p:not(:last-child)]:!mb-5
+class: mx-default tablet:[&_.p3_p:not(:last-child)]:!mb-5 mb-[100px]
 ---
 
-### **Rezultat pracy i dalsze wsparcie**
+::::prose-p-3
+---
+class: max-w-full bg-green-gray !p-5 tablet:!pt-20 tablet:!px-[60px] [&_p]:!mb-0 desktop:[&_p]:!text-[25px] [&_p]:!leading-[44px]
+--- 
+Lorem ipsum dolor sit amet consectetur. Eget et a turpis vitae cursus eu posuere dui. Cum bibendum quis ut ut nulla eu sed vitae sollicitudin. Consequat sociis pulvinar sed sed nisl vel. Diam in ac morbi dolor sed amet risus purus at.
+::::
 
-::::prose-p3
-Wynikiem naszej pracy jest **wielowalutowy sklep internetowy Prestashop**, obsługujący płatność w walutach CAD, EURO, GBP, PLN, USD oraz dostawy niemal na całym świecie. Klienci sklepu Mancraft **mogą cieszyć się nowym i funkcjonalnym sklepem oraz licznymi funkcjonalnościami** ułatwiającymi składanie zamówień.
-
-W ramach dalszej współpracy, sprawujemy **opiekę nad bieżącym działaniem sklepu** m.in. reagując na awarie oraz wprowadzając wymagane aktualizacje systemu.  Nasze wsparcie obejmuje także **prace optymalizacyjne** (w tym optymalizacja doświadczeń użytkownika oraz wydajności), a także **dalszy rozwój sklepu** o nowe funkcjonalności i podstrony.
+::::prose-p-3
+---
+class: max-w-full bg-green-gray !p-5 tablet:!pt-10 tablet:!px-[60px] desktop:[&_p]:!text-[20px] [&_p]:!leading-[35px]
+--- 
+Lorem ipsum dolor sit amet consectetur. Eget et a turpis vitae cursus eu posuere dui. Cum bibendum quis ut ut nulla eu sed vitae sollicitudin. Consequat sociis pulvinar sed sed nisl vel. Diam in ac morbi dolor sed amet risus purus at.
 ::::
 :::
 
 :::effect-appear-md
-::::prose-figure{src="/img/content-images/case-mancraft-img4.png"}
+::::prose-figure{src="/img/content-images/case-mutiny-img5.png"}
 ---
 class: mb-[50px] tablet:mb-[100px] -mr-5 tablet:-mr-10
 ---
