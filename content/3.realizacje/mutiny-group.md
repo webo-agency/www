@@ -155,10 +155,29 @@ class: static-content
 class: mx-default
 ---
 
-### **Wyzwanie i obszary działania**
+### **Projekt**
 
 ::::prose-p3
-Klient zgłosił się do nas z działającym sklepem internetowym wykonanym w systemie Prestashop 1.6. Strona przez wiele lat nie była aktualizowana i dostosowywana do obecnych standardów e-commerce. Jednym z głównych problemów był brak odpowiedniego wyświetlania sklepu na urządzeniach mobilnych oraz skomplikowany proces zakupowy. Dodatkowo przez przestarzałą wersję Prestashop, strona miała znacznie ograniczone możliwości rozwoju, wykazując także braki w obszarze wydajności i bezpieczeństwa.
+Projekt strony Mutiny Group miał być **niecodzienny i odważny**, taki jak marka naszego klienta. W tym celu postawiliśmy na **ciemny layout strony głównej**, połączony z charakterystycznymi kształtami i kontrastowymi przyciskami CTA (Call To Action). Podstrony zostały zaprojektowane w skali szarości co jeszcze bardziej podkreśliło nieszablonowe działania naszego klienta.
+::::
+:::
+
+:::effect-appear-md
+::::prose-bg{class='font-normal'}
+:::::prose-p1
+**Zakres projektu UX/UI**
+:::::
+
+:::::prose-p2
+---
+class: mt-0 [&_li]:!mb-0
+---
+- **Projekt mapy strony i architektury informacji**
+- **Mapa ścieżki użytkowników**
+- **Projekt prototypu funkcjonalnego UX**
+- **Opracowanie podstawowego design systemu dla strony www**
+- **Projekt interfejsu użytkownika UI**
+:::::
 ::::
 :::
 
@@ -167,26 +186,12 @@ Klient zgłosił się do nas z działającym sklepem internetowym wykonanym w sy
 class: mx-default tablet:[&_h4]:!mb-6 tablet:[&_.p3_p:not(:last-child)]:!mb-5
 ---
 
-#### **Migracja sklepu Prestashop, odświeżenie interfejsu, rozwój**
+#### **Makiety funkcjonalne UX**
 
 ::::prose-p3
-Pierwszym krokiem koniecznym do zrealizowania założeń klienta była migracja sklepu z systemu Prestashop 1.6 do Prestashop 1.7 co umożliwiło **zwiększenie wydajności i bezpieczeństwa systemu** oraz otwarcie sklepu na **nowe możliwości rozwoju.** W tym celu wykonaliśmy nowy sklep internetowy wdrażając dotychczas wykorzystywane funkcjonalności i integracje, następnie przenieśliśmy bazę danych, bazę klientów, produkty oraz zamówienia, kończąc na wdrożeniu nowego, responsywnego szablonu i odświeżeniu warstwy wizualnej.
+Opracowanie makiet funkcjonalnych UX rozpoczęliśmy od warsztatów, podczas których określiliśmy oczekiwania dotyczące interfejsu i zakres funkcjonalności, które powinny znaleźć się na stronie. W kolejnym kroku zaprojektowaliśmy prototyp strony głównej, a po akceptacji także wszystkich zaplanowanych podstron.
 
-Po wykonaniu migracji skupiliśmy się na **rozwoju sklepu o nowe funkcjonalności** oraz **optymalizacji procesu zakupowego.**
-::::
-:::
-
-:::effect-appear-md
----
-class: mx-default tablet:[&_h4]:!mb-6 tablet:[&_.p3_p:not(:last-child)]:!mb-5
----
-
-#### **Optymalizacja procesu zakupowego**
-
-::::prose-p3
-W celu optymalizacji procesu zakupowego **zaprojektowaliśmy i wdrożyliśmy nową kartę produktu**, wraz z wygodną galerią prezentującą zdjęcia wysokiej rozdzielczości oraz szybką płatnością **PayPal Checkout**. Wprowadziliśmy także zmiany na stronie głównej, a standardowy checkout Prestashop  zastąpiliśmy rozwiązaniem **One Page Checkout**, znacznie skracając ścieżkę użytkownika od umieszczenia produktu w koszyku do finalizacji zamówienia.
-
-Poprawie uległa także forma składania zamówień przez klientów hurtowych. Chcąc zoptymalizować ten proces wdrożyliśmy **strefę zamówień B2B**, umożliwiającą przeglądanie całej oferty sklepu w formie listy produktów umieszczonej na jednej podstronie. Dzięki tej funkcjonalności, klienci biznesowi mogą dokonać obszernego zamówienia za pomocą jednego kliknięcia ,,Dodaj do koszyka”, bez potrzeby długotrwałego przeglądania stron produktów lub bezpośredniego kontaktu z handlowcem.
+Makiety funkcjonalne UX umożliwiają **szczegółowe przetestowanie funkcjonalności** strony oraz sprawdzenie zgodności z oczekiwaniami juz **na wczesnym etapie realizacji**. Dzięki temu można dokonać odpowiednich korekt wizualnych, a także zmian w założeniach **bez kosztownych prac** podczas dalszych, bardziej zaawansowanych etapów.
 ::::
 :::
 
@@ -194,7 +199,7 @@ Poprawie uległa także forma składania zamówień przez klientów hurtowych. C
 ---
 class: mb-[50px] desktop:mb-[100px]
 ---
-::::prose-figure{src="/img/content-images/case-mancraft-img3.png"}
+::::prose-figure{src="/img/content-images/case-mutiny-img3.png"}
 ::::
 :::
 
@@ -204,12 +209,18 @@ class: mb-[50px] desktop:mb-[100px]
 class: mx-default tablet:[&_h4]:!mb-6 tablet:[&_.p3_p:not(:last-child)]:!mb-5
 ---
 
-#### **Automatyzacje Prestashop 1.7**
+#### **Projekt interfejsu użytkownika UI**
 
 ::::prose-p3
-Specyfika działalności Mancraft wymagała wdrożenia automatyzacji. Tworzenie kont klientów biznesowych zostało **zintegrowane z systemem VAT VIES**, który **automatycznie weryfikuje poprawność numeru NIP i statusu przedsiębiorstwa**. Stany magazynowe oraz transakcje wraz z danymi dotyczącymi płatności i dostaw **zintegrowane zostały z systemem Baselinker**. Wdrożyliśmy także **automatyzacje generowania i wysyłki miesięcznego raportu sprzedaży** który przyśpiesza prowadzenie ksiąg rachunkowych. 
+Lorem ipsum dolor sit amet consectetur. Purus facilisis vitae ornare luctus turpis turpis ut. Euismod rhoncus posuere lectus accumsan congue maecenas egestas. Mi varius parturient tempus convallis tristique adipiscing nunc. Consequat eu auctor rhoncus a.
+::::
+:::
 
-W celu zwiększenia bezpieczeństwa należało wprowadzić szereg dodatkowych zabezpieczeń w tym **automatyzację certyfikatów na poziomie serwera i szyfrowanie całego ruchu**, a także wdrożenie dodatkowych reguł i blokad. Założenie dalszych prac rozwojowych wymagało wdrożenia **automatyzacji CI/CD oraz repozytorium Github**, dzięki czemu istnieje pełna kontrola i standaryzacja wprowadzania zmian w kodzie.
+:::effect-appear-md
+---
+class: mb-[50px] desktop:mb-[100px]
+---
+::::prose-figure{src="/img/content-images/case-mutiny-img4.png"}
 ::::
 :::
 
