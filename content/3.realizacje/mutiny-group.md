@@ -259,22 +259,6 @@ class: tablet:hidden mb-[60px]
 ---
 ::::
 :::
-
-:::effect-appear-md
----
-class: mx-default
----
-::::prose-figure{src="/img/content-images/case-mancraft-tech2.png"}
----
-class: hidden tablet:block
----
-::::
-::::prose-figure{src="/img/content-images/case-mancraft-tech2-mobile.png"}
----
-class: tablet:hidden
----
-::::
-:::
 ::
 
 ::page-section-md
