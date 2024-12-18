@@ -282,6 +282,39 @@ Skontaktuj się z nami i rozpocznij współpracę
 :::
 ::
 
+::page-section-md
+---
+id: realizacje
+class: mb-[80px] tablet:mb-[130px]
+---
+:::effect-appear-md
+::::block-header-md
+---
+class: mb-10 tablet:mb-20
+---
+
+#subtitle
+### *-/* Nasze ostatnie realizacje
+
+#title
+## Zobacz nasze pozostałe *realizacje sklepów www*
+
+::::
+:::
+
+:::block-cases-md
+---
+contentFolder: realizacje
+moreBtn.url: 'https://www.webo.agency/realizacje'
+moreBtn.linktitle: Zobacz wszystkie projekty
+selectedSlugs:
+    - thoro
+    - mancraft
+---
+
+:::
+::
+
 
 ::page-section-md
 ---

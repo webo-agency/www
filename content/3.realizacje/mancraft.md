@@ -400,6 +400,39 @@ Umów się na bezpłatną konsultację, porozmawiajmy!
 
 ::page-section-md
 ---
+id: realizacje
+class: mb-[80px] tablet:mb-[130px]
+---
+:::effect-appear-md
+::::block-header-md
+---
+class: mb-10 tablet:mb-20
+---
+
+#subtitle
+### *-/* Nasze ostatnie realizacje
+
+#title
+## Zobacz nasze pozostałe *realizacje sklepów www*
+
+::::
+:::
+
+:::block-cases-md
+---
+contentFolder: realizacje
+moreBtn.url: 'https://www.webo.agency/realizacje'
+moreBtn.linktitle: Zobacz wszystkie projekty
+selectedSlugs:
+    - feeby
+    - thoro
+---
+
+:::
+::
+
+::page-section-md
+---
 class: mb-20 tablet:mb-[130px]
 ---
 :::effect-appear-md
