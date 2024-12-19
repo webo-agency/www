@@ -30,7 +30,7 @@
           loading="lazy" />
       </div>
       <div class="relative flex flex-col min-h-[82px]">
-        <div v-if="$slots.author" class="prose text-xl desktop:text-2xl font-semibold mb-[5px]">
+        <div v-if="$slots.author" class="prose text-xl font-semibold mb-[5px]">
           <ContentSlot :use="$slots.author" />
         </div>
         <div v-if="$slots.title" class="prose leading-5 text-xs uppercase">
