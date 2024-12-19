@@ -47,7 +47,9 @@ export default {
     download: true,
     inject: true,
     families: {
-      Montserrat: true
+      Montserrat: {
+        wght: [400,500,600]
+      }
     },
     display: 'swap', // 'auto' | 'block' | 'swap' | 'fallback' | 'optional'
   },

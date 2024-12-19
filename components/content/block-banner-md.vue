@@ -27,7 +27,7 @@
                 </div>
               </template>
             </BlockHeaderMdc>
-            <div v-if="$slots.description" class="pb-2 desktop:pb-4 font-medium text-white text-lg desktop:text-xl"
+            <div v-if="$slots.description" class="pb-2 desktop:pb-4 font-medium text-white text-lg desktop:text-xl leading-snug"
               :style="[{ 'max-width': descriptionWidth + 'px' }]" :class="{ '!text-black': !bgImg }">
               <ContentSlot :use="$slots.description" />
             </div>

@@ -59,20 +59,21 @@ class: mb-[60px]
 
 #title
 ## Tworzymy solidne strony <br> www *dla ambitnych firm*
-:::::
 
-:::::prose-p-3
+#description
+::::::prose-p-3
 ---
 class: max-w-[650px] mb-5 [&_p]:!leading-8
 --- 
 Nie korzystamy z szablonów czy gotowców. **Strony internetowe programujemy od podstaw**, korzystając tylko ze **sprawdzonych i nowoczesnych technologii** oraz jasnych procesów i standaryzacji. Dzięki temu zapewniamy najwyższą jakość, wydajność oraz bezpieczeństwo, **gwarantując stabilne działanie strony**, na lata.
-:::::
+::::::
 
-:::::prose-p-4
+::::::prose-p-4
 ---
-class: static-content max-w-[650px] mb-5 [&_p]:!leading-[28px]
+class: text-base max-w-[650px] mb-5 [&_p]:!leading-[28px]
 --- 
 Od warsztatów projektowych w trakcie których wybierzemy optymalną technologię, przez **strategię UX i projekt interfejsu strony**, wdrożenie programistyczne, po **rozwój i wsparcie techniczne** - z nami kompleksowo zrealizujesz stronę www, która będzie solidnym narzędziem w Twojej firmie.
+::::::
 :::::
 ::::
 

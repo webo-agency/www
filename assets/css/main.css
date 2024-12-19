@@ -8,7 +8,7 @@
     }
 
     .font-body{
-        @apply tracking-widest
+        @apply tracking-wide
     }
 
     .font-body p,

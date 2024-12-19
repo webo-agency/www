@@ -3,7 +3,7 @@
     <EffectAppearMdc class="desktop-delay h-full" :delay="delay * 100">
       <CustomLink :url="link ?? ''" :activeClass="'none'"
         class="group h-full p-5 pt-10 desktop-wide:px-10 tablet:pt-[60px] flex flex-col text-gray-darker bg-green-gray transition duration-200 ">
-        <nuxt-picture v-if="icon" class="shrink-0 w-20 h-[60px] mb-5 tablet:mb-9" :src="icon" loading="lazy" alt="Webo service icon"></nuxt-picture>
+        <nuxt-picture v-if="icon" class="shrink-0 w-20 h-[60px] mb-5" :src="icon" loading="lazy" alt="Webo service icon"></nuxt-picture>
         <div v-if="$slots.title" class="title max-w-fit mb-5 text-xl desktop:text-2xl font-semibold" :class="[{ 'group-hover:underline': link, },
         ]">
           <ContentSlot :use="$slots.title" />
