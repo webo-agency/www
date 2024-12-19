@@ -4,6 +4,7 @@
       v-if="iconUrl"
       :src="iconUrl"
       class="shrink-0 h-8 w-8 desktop:h-12 desktop:w-12 object-contain"
+      :imgAttrs="{ class: 'h-full w-full object-contain' }"
     />
     <div
       class="prose ml-2.5 desktop:ml-[30px] text-lg desktop:text-xl font-semibold text-gray-darker"

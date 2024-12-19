@@ -14,7 +14,7 @@ hreflangs:
 ::block-banner-md
 ---
 bgImg: false
-headerWidth: 600
+headerWidth: 520
 descriptionWidth: 600
 isSecondSvg: true
 ---
@@ -53,7 +53,7 @@ class: relative z-20
 ---
 :::::block-header-md
 ---
-maxWidth: 690
+maxWidth: 610
 ---
 
 #subtitle
@@ -65,14 +65,14 @@ maxWidth: 690
 #description
 :::::prose-p-3
 ---
-class: mb-5 [&_p]:!leading-loose [&_p]:!mb-0
+class: mb-5 [&_p]:!leading-8 [&_p]:!mb-0
 --- 
 Administracja stroną to czasochłonne zajęcie - m.in aktualizacje, reagowanie na awarie czy dłubanie przy rozbudowie. A co gdybyś miał od tego doświadczony zespół, który przejmie Twoje obowiązki, na dodatek doradzi w kwestii UX oraz IT i szybciej zrealizuje pracę? 
 :::::
 
 :::::prose-p-4
 ---
-class: mb-0 [&_p]:!leading-loose [&_p]:!mb-0
+class: mb-0 [&_p]:!leading-7 text-base [&_p]:!mb-0
 ---
 Wsparcie techniczne to przede wszystkim oszczędność czasu jaki poświęcasz na prowadzenie strony internetowej ale także bezpieczeństwo i swoboda w planowaniu rozwoju. W momencie awarii nie musisz tracić cennego czasu szukając pomocy, a jeśli tylko pojawi się potrzeba rozwoju masz pod ręką doświadczony zespół projektantów i programistów którzy chętnie zrealizują Twoje plany.
 :::::
@@ -104,7 +104,7 @@ classes: mb-10 tablet:mb-20
 ::::block-header-two-cols-md
 ---
 class: mb-10 tablet:mb-20 
-maxWidth: 510
+maxWidth: 480
 ---
 
 #subtitle
@@ -261,7 +261,7 @@ class: relative z-20
 ::::block-header-md
 ---
 maxWidth: 600
-class: mb-10 tablet:mb-20 [&_.title]:!max-w-[500px]
+class: mb-10 tablet:mb-20
 textWhite: true
 center: true
 ---
@@ -400,6 +400,7 @@ decoration: false
 ---
 iconUrl: '/img/icons/ide_bg.svg'
 iconBig: true
+iconLeft: true
 animated: false
 ---
 
@@ -415,6 +416,7 @@ Przed publikacją zmian, wszystkie prace przygotowujemy w specjalnym środowisku
 class: tablet:mb-8 desktop:mb-6
 iconUrl: '/img/icons/phone_bg.svg'
 iconBig: true
+iconLeft: true
 animated: false
 ---
 
@@ -429,6 +431,7 @@ Przypisujemy indywidualnego opiekuna Twojej strony, do którego możesz zadzwoni
 ---
 iconUrl: '/img/icons/timer_bg.svg'
 iconBig: true
+iconLeft: true
 animated: false
 ---
 
@@ -450,6 +453,7 @@ Dajemy Ci pełną kontrolę - zaczynamy realizację gdy dasz nam zielone świat�
 ---
 iconUrl: '/img/icons/headset_bg.svg'
 iconBig: true
+iconLeft: true
 animated: false
 ---
 
@@ -464,6 +468,7 @@ Dzięki któremu masz możliwość dodawania zadań, ustalania priorytetu, podgl
 ---
 iconUrl: '/img/icons/support_bg.svg'
 iconBig: true
+iconLeft: true
 animated: false
 ---
 
@@ -478,6 +483,7 @@ Po zakończeniu każdego miesiąca, przesyłamy raport z podsumowaniem prac zawi
 ---
 iconUrl: '/img/icons/file_bg.svg'
 iconBig: true
+iconLeft: true
 animated: false
 ---
 
@@ -529,13 +535,13 @@ icon: '/img/icons/services-calendar.svg'
 #content
 :::::prose-p3
 ---
-class: mb-5
+class: mb-5 leading-8 text-lg
 --- 
 W modelu abonamentowym ustalamy pakiet godzin, który masz do wykorzystania każdego miesiąca na pracę specjalistów (projektantów i programistów). Ilość godzin w pakiecie dobierana jest indywidualnie na podstawie zgłoszonego przez Ciebie zapotrzebowania i planów rozwoju strony.
 :::::
 :::::prose-p4
 ---
-class: mb-0
+class: mb-0 leading-7
 --- 
 Nie musisz się martwić o naszą dostępność, możesz swobodnie planować prace na stronie. Niezależnie od naszego obłożenia pracą, pakiet godzin jest gwarantowany każdego miesiąca.
 :::::
@@ -553,13 +559,13 @@ icon: '/img/icons/services-worktime.svg'
 #content
 :::::prose-p3
 ---
-class: mb-5
+class: mb-5 leading-8 text-lg
 --- 
 Jeśli masz mniejsze potrzeby i nie planujesz stałych comiesięcznych prac nad stroną, rozumiemy to. W modelu elastycznym prace realizujemy zleceniowo, każdorazowo ustalając termin wykonania.
 :::::
 :::::prose-p4
 ---
-class: tablet:mb-16 desktop:mb-20
+class: tablet:mb-16 desktop:mb-20 leading-7
 ---
 Płacisz tylko i wyłącznie gdy potrzebujesz naszego wsparcia, możesz liczyć na nasze doradztwo i wsparcie w przypadku awarii, jednocześnie unikasz stałych kosztów.
 :::::
@@ -609,13 +615,13 @@ class: mb-10 tablet:mb-16
 #description
 ::::::prose-p-3
 ---
-class: mb-5 [&_p]:!leading-loose [&_p]:!mb-0
+class: mb-5 [&_p]:!leading-8 [&_p]:!mb-0
 --- 
 Niezależnie od tego jaki model współpracy wybierzesz, otrzymasz dostęp do naszego systemu zgłoszeń do którego wykorystujemy narzędzie JIRA. 
 ::::::
 ::::::prose-p-4
 ---
-class: mb-0 [&_p]:!leading-loose [&_p]:!mb-0
+class: mb-0 [&_p]:!leading-7 text-base [&_p]:!mb-0
 ---
 Dzięki HelpDesk masz możliwość dodawania zadań, ustalania priorytetów,  podgląd stanu prac i komunikacji z zespołem IT - wszystko pod ręką w jednym miejscu. Z końcem miesiąca przygotowujemy raport z wykonanych prac który uwzględnia czas i estymację każdego zadania.
 ::::::
@@ -683,8 +689,6 @@ class: mb-[50px] tablet:mb-[100px]
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-form-before-footer-md
-::::
+:::block-form-before-footer-md
 :::
 ::

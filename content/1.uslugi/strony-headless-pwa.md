@@ -58,11 +58,14 @@ class: items-center
 #description
 ::::::prose-p-4
 ---
-class: mb-10
+class: mb-5 leading-8
 ---
 Strony internetowe wykonane w **architekturze Headless** polegają na oddzieleniu interfejsu użytkownika (frontendu) od funkcji administracyjnych i zasobów wewnętrznych (backend). Obie warstwy są wobec siebie niezależne, a komunikacja między nimi wykonywana jest za pomocą API.
 ::::::
 ::::::prose-p-4
+---
+class: leading-7 text-base
+---
 Takie rozwiązanie umożliwia Tobie m.in. **publikowanie treści w wielu kanałach** np. na stronie www oraz aplikacji mobilnej. Dodatkowo znacząco zwiększasz wydajność **i bezpieczeństwo strony internetowej**, ponieważ użytkownik ma dostęp tylko do warstwy frontendowej a cały system jest lżejszy i **znacznie szybszy.**
 ::::::
 
@@ -123,11 +126,14 @@ class: mb-10
 #description
 ::::::prose-p-4
 ---
-class: mb-10
+class: mb-5 leading-8
 ---
 Nasze rozwiązanie to połączenie **architektury headless** z popularnym rozwiązaniem **WordPress CMS.** Dzięki niemu możesz nadal używać WordPressa ze wszystkimi jego elementami i korzystać ze wszystkich zalet nowoczesnej architektury.
 ::::::
 ::::::prose-p-4
+---
+class: leading-7 text-base
+---
 Zyskujesz ultraszybkość, wydajność, bezpieczeństwo oraz wielokanałowość i możesz w dalszym ciągu korzystać z funkcjonalności i łatwości edycji WP.
 ::::::
 :::::
@@ -249,7 +255,7 @@ Headless CMS umożliwia dostarczanie treści nie tylko na tradycyjne strony inte
 :::effect-appear-md
 ::::prose-figure
 ---
-src: '/img/content-images/wsparcie-i-rozwoj/section3.png'
+src: '/img/content-images/strony-headless-pwa/fullwidth.png'
 rounded: false
 ---
 ::::
@@ -541,18 +547,14 @@ animated: false
 
 ::page-section-md
 ---
-classes: mb-10 tablet:mb-20
----
-:::block-columns-5-7-md
----
-class: mb-10
+classes: mb-10 tablet:mb-[150px]
 ---
 
-#left
 ::::effect-appear-md
-:::::block-header-md
+:::::block-header-two-cols-md
 ---
-maxWidth: 480
+class: mb-10 [&_.description]:!text-base
+maxWidth: 590
 ---
 
 #subtitle
@@ -561,14 +563,12 @@ maxWidth: 480
 #title
 ## Jak przebiega proces realizacji strony internetowej?
 
+#description
+Do stworzenia nowoczesnej strony internetowej potrzeba szerokiej wiedzy z zakresu technologii i projektowania nastawionego na użytkownika oraz wypracowanego procesu, który zapewnia realizację założeń bez obsuw czasowych i w ustalonym budżecie.
+
 :::::
 ::::
 
-#right
-::::effect-appear-md
-Do stworzenia nowoczesnej strony internetowej potrzeba szerokiej wiedzy z zakresu technologii i projektowania nastawionego na użytkownika oraz wypracowanego procesu, który zapewnia realizację założeń bez obsuw czasowych i w ustalonym budżecie.
-::::
-:::
 
 #full
 
@@ -775,8 +775,6 @@ class: mb-[50px] tablet:mb-[100px]
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-form-before-footer-md
-::::
+:::block-form-before-footer-md
 :::
 ::

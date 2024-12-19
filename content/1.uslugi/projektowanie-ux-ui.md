@@ -20,6 +20,7 @@ bgImg: false
 headerWidth: 600
 descriptionWidth: 600
 isSecondSvg: true
+class: phone:!mb-0
 ---
 
 #subtitle
@@ -58,7 +59,7 @@ class: relative z-20
 ---
 :::::block-header-md
 ---
-maxWidth: 690
+maxWidth: 580
 ---
 
 #subtitle
@@ -200,7 +201,7 @@ Skontaktuj się z nami i skorzystaj z bezpłatnej konsultacji podczas której om
 
 ::page-section-md
 ---
-classes: bg-gray-darkest pt-10 tablet:pt-[100px] mb-[100px] tablet:mb-[200px]
+classes: bg-gray-darkest pt-10 tablet:pt-[100px] mb-[100px] tablet:mb-[100px]
 ---
 
 
@@ -221,7 +222,7 @@ center: true
 ### *3/* Dlaczego UX jest ważny?
 
 #title
-## Jakie są korzyści z *projektowania UX/UI?*
+## Jakie są korzyści z&nbsp;*projektowania UX/UI?*
 
 #description
 Wygląd i działanie Twojej strony internetowej ma ogromne znaczenie - już w pierwszej sekundzie przebywania na stronie, użytkownicy decydują czy na niej zostaną. Dzięki UX/UI wpłyniesz na
@@ -319,10 +320,10 @@ rounded: false
 
 ::page-section-md
 ---
-class: mb-[50px] tablet:mb-[100px]
+class: mb-[50px] tablet:mb-[150px]
 ---
 :::effect-appear-md
-::::block-header-md
+::::block-header-two-cols-md
 ---
 maxWidth: 840
 class: mb-10 tablet:mb-[60px]
@@ -447,7 +448,7 @@ Po przejściu procesu projektowego nadszedł czas na wdrożenie i rozwój produk
 
 ::page-section-md
 ---
-classes: mb-10 tablet:mb-20
+classes: 
 ---
 :::effect-appear-md
 ::::block-header-md
@@ -468,7 +469,7 @@ class: mb-20
 
 :::block-columns-1-1-md
 ---
-class: mb-10 tablet:mb-20
+class: mb-10 tablet:mb-0
 ---
 
 #left
@@ -482,6 +483,7 @@ decoration: false
 ---
 iconUrl: '/img/icons/journey_bg.svg'
 iconBig: true
+iconLeft: true
 animated: false
 ---
 
@@ -496,6 +498,7 @@ Określa emocje towarzyszące użytkownikom podczas korzystania z interfejsu. Dz
 ---
 iconUrl: '/img/icons/path_bg.svg'
 iconBig: true
+iconLeft: true
 animated: false
 ---
 
@@ -511,6 +514,7 @@ To schemat określający ścieżkę jaką musi pokonać użytkownik na stronie i
 ---
 iconUrl: '/img/icons/design-system_bg.svg'
 iconBig: true
+iconLeft: true
 animated: false
 ---
 
@@ -532,6 +536,7 @@ Jest to zbiór wytycznych i elementów standardowych (np. różnych wersji przyc
 ---
 iconUrl: '/img/icons/architecture_bg.svg'
 iconBig: true
+iconLeft: true
 animated: false
 ---
 
@@ -546,6 +551,7 @@ Architektura informacji odpowiada za organizację i podział treści na stronie 
 ---
 iconUrl: '/img/icons/ui-design_bg.svg'
 iconBig: true
+iconLeft: true
 animated: false
 ---
 
@@ -560,6 +566,7 @@ To graficzna prezentacja układu elementów na stronie, pozwalająca na określe
 ---
 iconUrl: '/img/icons/project_bg.svg'
 iconBig: true
+iconLeft: true
 animated: false
 ---
 
@@ -650,8 +657,6 @@ class: mb-[50px] tablet:mb-[100px]
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-form-before-footer-md
-::::
+:::block-form-before-footer-md
 :::
 ::

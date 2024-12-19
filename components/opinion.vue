@@ -13,7 +13,7 @@
     <div class="relative flex flex-col min-h-[82px] pb-5">
       <div
         v-if="author"
-        class="prose text-xl desktop:text-2xl font-semibold mb-[5px]"
+        class="prose text-lg desktop:text-xl font-semibold mb-[5px]"
         v-html="$formatText(author)"
       ></div>
       <div

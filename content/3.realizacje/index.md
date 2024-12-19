@@ -1,6 +1,9 @@
 ---
 name: Realizacje
 showInNav: true
+hreflangs:
+    EN: '/case-studies'
+    PL: '/realizacje'
 ---
 ::page-section-md
 ---
@@ -14,11 +17,11 @@ center: true
 
 #subtitle
 :::::prose-p3 
-## *-/* Realizacje 
+*-/* Realizacje 
 :::::
 
 #title
-# Zobacz projekty z których *jesteśmy dumni*
+## Zobacz projekty z których *jesteśmy dumni*
 
 ::::
 :::
@@ -32,7 +35,7 @@ class: mb-[50px] tablet:mb-[150px]
 :::effect-appear-md
 ::::block-banner-cases-md
 ---
-logoUrl: '/img/logos/isw.png'
+logoUrl: '/img/logos/isw.svg'
 bgUrl: '/img/case-studies/IS-Wireless.jpg'
 link: 'https://www.is-wireless.com/'
 ---
@@ -42,6 +45,9 @@ link: 'https://www.is-wireless.com/'
 
 #description
 :::::prose-p3
+---
+class: leading-8
+---
 **is-wireless.com** to nowoczesna strona www działająca w oparciu o **CMS Wordpress**. Całość wykonana została w trybie **headless**, w celu maksymalnego przyśpieszenia.
 :::::
 
@@ -77,7 +83,6 @@ technologies:
     - Drupal CMS
     - JavaScript
     - Node.js
-allTechText: 'Wszystkie'
 ---
 
 #title
@@ -93,6 +98,8 @@ Wybierz technologie
 
 :::
 ::
+
+
 
 ::page-section-md
 ---
@@ -128,10 +135,10 @@ class: mb-[50px] tablet:mb-[100px]
 ---
 
 #subtitle
-### *-/* Nasi klienci
+*-/* Nasi klienci
 
 #title
-## Poznaj firmy które *nam zaufały*
+### Poznaj firmy które *nam zaufały*
 
 ::::
 :::

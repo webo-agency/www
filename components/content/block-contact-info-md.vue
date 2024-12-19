@@ -9,7 +9,7 @@
       <div
         class="border-b-2 border-solid border-gray-default mb-10 desktop:mb-20"
       >
-        <ul class="max-w-[350px] pb-10 desktop:pb-[100px]">
+        <ul class="max-w-[420px] pb-10 desktop:pb-[100px]">
           <slot name="icons"></slot>
         </ul>
       </div>

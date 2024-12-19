@@ -70,7 +70,7 @@ Nie korzystamy z szablonów czy gotowców. **Strony internetowe programujemy od 
 
 ::::::prose-p-4
 ---
-class: text-base max-w-[650px] mb-5 [&_p]:!leading-[28px]
+class: text-base max-w-[650px] mb-5 [&_p]:!leading-7
 --- 
 Od warsztatów projektowych w trakcie których wybierzemy optymalną technologię, przez **strategię UX i projekt interfejsu strony**, wdrożenie programistyczne, po **rozwój i wsparcie techniczne** - z nami kompleksowo zrealizujesz stronę www, która będzie solidnym narzędziem w Twojej firmie.
 ::::::
@@ -423,9 +423,8 @@ Przeprowadzamy szczegółową **kontrolę jakości i funkcjonowania strony**. Te
 
 ::page-section-md
 ---
-classes: bg-gray-darkest pt-10 tablet:pt-[100px] mb-[100px] tablet:mb-[200px]
+classes: bg-gray-darkest pt-10 tablet:pt-[100px] mb-[100px]
 ---
-
 
 :::effect-appear-md
 ---
@@ -510,29 +509,6 @@ rounded: false
 ---
 :::::
 ::::
-
-
-<!-- ::::effect-appear-md
----
-class: w-full
----
-:::::effect-parallax-md
----
-parallaxScale: 0.15
-startBottom: true
-class: overflow-hidden tablet:overflow-visible
----
-::::::img-decorated-md
----
-imgUrl: '/img/content-images/strony-internetowe/section4.png'
-decoration: false
-gradient: true
-class: mt-0 !mb-0 !pl-0 tablet:!pl-8 tablet-wide:!pl-32 !w-full
----
-::::::
-:::::
-:::: -->
-
 :::
 ::
 
@@ -546,8 +522,9 @@ classes: mb-10 tablet:mb-20
 :::effect-appear-md
 ::::block-header-two-cols-md
 ---
-class: mb-10 tablet:mb-20 [&_.description]:!text-base
+class: mb-10 [&_.description]:!text-base
 maxWidth: 640
+decoration: false
 ---
 
 #subtitle
@@ -706,7 +683,7 @@ Często publikacja strony to dopiero początek, a podczas użytkowania strony po
 
 ::::block-cta-md
 ---
-maxWidth: 640
+maxWidth: 700
 button.link: https://www.webo.agency/kontakt
 button.title: 'Skontaktuj się z nami'
 button.isWide: true
@@ -730,7 +707,8 @@ class: mb-[80px] tablet:mb-[130px]
 :::effect-appear-md
 ::::block-header-md
 ---
-class: mb-10 tablet:mb-20 max-w-[480px]
+class: mb-10 tablet:mb-20
+maxWidth: 550
 ---
 
 #subtitle
@@ -747,6 +725,9 @@ class: mb-10 tablet:mb-20 max-w-[480px]
 contentFolder: realizacje
 moreBtn.url: 'https://www.webo.agency/realizacje'
 moreBtn.linktitle: Zobacz wszystkie projekty
+selectedSlugs:
+    - 5gmadetogether
+    - isw
 ---
 
 :::

@@ -17,7 +17,7 @@ hreflangs:
 ---
 bgImg: false
 headerWidth: 550
-descriptionWidth: 440
+descriptionWidth: 455
 isSecondSvg: true
 ---
 
@@ -67,16 +67,16 @@ maxWidth: 690
 #description
 :::::prose-p-3
 ---
-class: mb-5 [&_p]:!leading-loose [&_p]:!mb-0
+class: mb-5 [&_p]:!leading-8 [&_p]:!mb-0
 --- 
 Sklep internetowy to często serce biznesu, wyobraź sobie że Twoja działalność się rozwija, na sklep internetowy wchodzi coraz więcej klientów a Ty potrzebujesz nowych funkcji.  O takich sytuacjach myślimy już na samym początku, od wybóru platformy, przez przygotowanie infrastruktury po **projektowanie i programowanie sklepu** umożliwiające rozwój.
 :::::
 
 :::::prose-p-4
 ---
-class: mb-0 [&_p]:!leading-loose [&_p]:!mb-0
+class: mb-0 [&_p]:!leading-7 [&_p]:!mb-0 text-base
 ---
-Szczególną uwagę zwracamy także na stabilność działania systemu. Korzystamy z nowoczesnych narzędzi aby zapewnić ciągłość sprzedaży - nieprzerwane działanie to podstawa która bezpośrednio wpływa na rentowność.
+Szczególną uwagę zwracamy także na **stabilność działania** systemu. Korzystamy z nowoczesnych narzędzi aby zapewnić ciągłość sprzedaży - nieprzerwane działanie to podstawa która bezpośrednio wpływa na rentowność.
 :::::
 ::::
 
@@ -112,7 +112,7 @@ class: tablet:-top-20 right-0
 ::::block-header-md
 ---
 center: true
-maxWidth: 560
+maxWidth: 570
 class: mb-10 tablet:mb-[60px]
 ---
 
@@ -245,6 +245,7 @@ decoration: false
 ---
 iconUrl: '/img/icons/translation_bg.svg'
 iconBig: true
+iconLeft: true
 animated: false
 ---
 
@@ -259,6 +260,7 @@ Dostarczamy sklepy internetowe umoliwiające sprzedaż produktów na zagraniczny
 ---
 iconUrl: '/img/icons/uxui_bg.svg'
 iconBig: true
+iconLeft: true
 animated: false
 ---
 
@@ -274,6 +276,7 @@ Projektując sklep internetowy skupiamy się na komforcie zakupów. Twój klient
 ---
 iconUrl: '/img/icons/gear_code_bg.svg'
 iconBig: true
+iconLeft: true
 animated: false
 ---
 
@@ -294,6 +297,7 @@ Jeśli Twój sklep potrzebuje nietypowych funkcji, dzięki którym wyprzedzisz k
 ---
 iconUrl: '/img/icons/integration_bg.svg'
 iconBig: true
+iconLeft: true
 animated: false
 ---
 
@@ -308,6 +312,7 @@ Wdrażamy m.in. systemy umożliwiające zarządzanie magazynami, bramki płatno�
 ---
 iconUrl: '/img/icons/configurator_bg.svg'
 iconBig: true
+iconLeft: true
 animated: false
 ---
 
@@ -322,6 +327,7 @@ Jeśli Twój biznes oferuje wytwarzanie produktów na zamówienie, możemy stwor
 ---
 iconUrl: '/img/icons/process_bg.svg'
 iconBig: true
+iconLeft: true
 animated: false
 ---
 
@@ -668,13 +674,13 @@ class: mb-10 tablet:mb-16 tablet:mt-10
 #description
 ::::::prose-p-3
 ---
-class: mb-5 [&_p]:!leading-loose [&_p]:!mb-0
+class: mb-5 [&_p]:!leading-8 [&_p]:!mb-0
 --- 
 Stworzenie sklepu internetowego to dopiero początek, zaczynamy przygodę która jest pełna wyzwań. Kampanie marketingowe, optymalizacja sprzedaży, rozwój o nowe pomysły, wyścig z konkurencją. Z przyjemnością będziemy Cię w tym wspierać.
 ::::::
 ::::::prose-p-4
 ---
-class: mb-0 [&_p]:!leading-loose [&_p]:!mb-0
+class: mb-0 text-base [&_p]:!leading-7 [&_p]:!mb-0
 ---
 Do w/w zadań warto jest mieć zaufany i doświadczony zespół projektantów oraz programistów którzy gotowych do działania gdy tylko zajdzie taka potrzeba.
 ::::::
@@ -745,8 +751,6 @@ class: mb-[50px] tablet:mb-[100px]
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-form-before-footer-md
-::::
+:::block-form-before-footer-md
 :::
 ::

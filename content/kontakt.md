@@ -9,6 +9,7 @@ hreflangs:
 ::block-banner-md
 ---
 bgUrl: './img/contact_bg.png'
+headerWidth: 525
 ---
 
 #subtitle
@@ -178,7 +179,7 @@ iconUrl: '/img/icons/24h.png'
 ---
 
 #text
-Skontaktujemy się z Tobą w ciągu 24 godzin
+Skontaktujemy się z Tobą w&nbsp;ciągu 24 godzin
 
 :::::
 :::::icon-contact-tile-md
@@ -217,7 +218,7 @@ class: mb-20 tablet:mb-[130px]
 
 - **NIP:** 631 261 36 26
 - **REGON:** 382 471 232
-- **Adres:** Lipowa 58C, <br> 44-100 Gliwice
+- **Adres:** Zwycięstwa 10, <br> 44-100 Gliwice
 
 :::
 ::
