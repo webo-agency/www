@@ -57,6 +57,7 @@
     "three": "^0.171.0"
   },
   "devDependencies": {
+    "@types/three": "^0.171.0",
     "workbox-build": "^7.3.0",
     "workbox-window": "^7.3.0",
     "wrangler": "^3.82.0"
