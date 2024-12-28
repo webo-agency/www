@@ -256,9 +256,17 @@ Makiety funkcjonalne UX umożliwiają **szczegółowe przetestowanie funkcjonaln
 
 :::effect-appear-md
 ---
-class: mb-[50px] desktop:mb-[100px]
+class: mb-[5px] desktop:mb-[20px]
 ---
 ::::prose-figure{src="/img/content-images/case-mutiny-img3.png"}
+::::
+:::
+
+:::effect-appear-md
+---
+class: mb-[50px] desktop:mb-[100px]
+---
+::::prose-figure{src="/img/content-images/case-mutiny-img33.png"}
 ::::
 :::
 
