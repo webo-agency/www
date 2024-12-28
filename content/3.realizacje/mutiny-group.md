@@ -179,7 +179,7 @@ class: mb-[60px] mx-default
 ::::offer-tile-md
 --- 
 icon: '/img/icons/icon-map.svg'
-class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 [&_a]:!h-[290px]
+class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 [&_a]:!h-[240px]  tablet:[&_a]:!h-[290px]
 ---
 #title
 #### Projekt mapy strony i architektury informacji
@@ -191,7 +191,7 @@ class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 
 --- 
 icon: '/img/icons/icon-path.svg'
 delay: 1
-class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 [&_a]:!h-[290px]
+class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 [&_a]:!h-[240px]  tablet:[&_a]:!h-[290px]
 ---
 #title
 #### Mapa&nbsp;ścieżki<br>użytkowników
@@ -204,7 +204,7 @@ class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 
 --- 
 icon: '/img/icons/icon-ux.svg'
 delay: 2
-class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 [&_a]:!h-[290px]
+class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 [&_a]:!h-[240px]  tablet:[&_a]:!h-[290px]
 ---
 #title
 #### Projekt prototypu funkcjonalnego UX
@@ -217,7 +217,7 @@ class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 
 --- 
 icon: '/img/icons/icon-design.svg'
 delay: 3
-class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 [&_a]:!h-[290px]
+class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 [&_a]:!h-[240px]  tablet:[&_a]:!h-[290px]
 ---
 #title
 #### Opracowanie podstawowego design systemu dla strony
@@ -230,7 +230,7 @@ class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 
 --- 
 icon: '/img/icons/icon-ui.svg'
 delay: 4
-class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 [&_a]:!h-[290px]
+class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 [&_a]:!h-[240px]  tablet:[&_a]:!h-[290px]
 ---
 #title
 #### Projekt interfejsu użytkownika UI
@@ -346,7 +346,7 @@ class: mb-[60px] mx-default
 ::::offer-tile-md
 --- 
 icon: '/img/icons/icon-code.svg'
-class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 [&_a]:!h-[290px]
+class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 [&_a]:!h-[240px]  tablet:[&_a]:!h-[290px]
 ---
 #title
 #### Wdrożenie projektu graficznego
@@ -358,7 +358,7 @@ class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 
 --- 
 icon: '/img/icons/icon-time.svg'
 delay: 1
-class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 [&_a]:!h-[290px]
+class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 [&_a]:!h-[240px]  tablet:[&_a]:!h-[290px]
 ---
 #title
 #### Optymalizacja wydajności strony
@@ -371,7 +371,7 @@ class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 
 --- 
 icon: '/img/icons/icon-check.svg'
 delay: 2
-class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 [&_a]:!h-[290px]
+class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 [&_a]:!h-[240px]  tablet:[&_a]:!h-[290px]
 ---
 #title
 #### Testowanie i dopracowanie funkcjonalności strony
@@ -384,7 +384,7 @@ class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 
 --- 
 icon: '/img/icons/icon-rwd.svg'
 delay: 3
-class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 [&_a]:!h-[290px]
+class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 [&_a]:!h-[240px]  tablet:[&_a]:!h-[290px]
 ---
 #title
 #### Dopracowanie wyświetlania na urządzeniach mobilnych
@@ -397,7 +397,7 @@ class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 
 --- 
 icon: '/img/icons/icon-language.svg'
 delay: 4
-class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 [&_a]:!h-[290px]
+class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 [&_a]:!h-[240px]  tablet:[&_a]:!h-[290px]
 ---
 #title
 #### Przygotowanie wyświetlania wersji językowych
