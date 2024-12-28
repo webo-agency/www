@@ -416,7 +416,7 @@ class: mb-[5px] tablet:mb-[20px] -mr-5 tablet:-mr-10
 :::
 
 :::effect-appear-md
-::::prose-figure{src="/img/content-images/case-mutiny-img6.png"}
+::::prose-figure{src="/img/content-images/case-mutiny-img6.jpg"}
 ---
 class: mb-[5px] tablet:mb-[20px] -mr-5 tablet:-mr-10
 ---
@@ -424,7 +424,15 @@ class: mb-[5px] tablet:mb-[20px] -mr-5 tablet:-mr-10
 :::
 
 :::effect-appear-md
-::::prose-figure{src="/img/content-images/case-mutiny-img7.png"}
+::::prose-figure{src="/img/content-images/case-mutiny-img7.jpg"}
+---
+class: mb-[5px] tablet:mb-[20px] -mr-5 tablet:-mr-10
+---
+::::
+:::
+
+:::effect-appear-md
+::::prose-figure{src="/img/content-images/case-mutiny-img8.png"}
 ---
 class: mb-[50px] tablet:mb-[100px] -mr-5 tablet:-mr-10
 ---
