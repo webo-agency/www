@@ -281,7 +281,7 @@ Rozpoczęliśmy od dobrania odpowiednich kolorów i czcionek, pasujących do ju�
 ---
 class: mb-[50px] desktop:mb-[100px]
 ---
-::::prose-figure{src="/img/content-images/case-mutiny-img4.png"}
+::::prose-figure{src="/img/content-images/case-mutiny-img44.jpg"}
 ::::
 :::
 
