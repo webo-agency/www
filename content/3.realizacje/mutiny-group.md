@@ -293,7 +293,9 @@ class: mx-default max-w-[934px]
 ### **Wdrożenie programistyczne**
 
 ::::prose-p3
-Lorem ipsum dolor sit amet consectetur. Placerat quam faucibus posuere eget sagittis. Orci amet tincidunt ut mauris morbi sapien ultrices volutpat. Nulla adipiscing vel arcu aliquam amet. Mauris porttitor turpis semper at ultrices tristique nulla. Quis lectus risus egestas vel lectus ultrices. Tincidunt augue amet commodo consectetur pretium lacus aliquet scelerisque. Euismod facilisis lobortis enim ipsum.
+Programowanie strony www to często najbardziej wymagający etap realizacji, który wymaga nie tylko dopracowania strony na poziomie wizualnym ale także zadbania o kwestie techniczne takie jak wydajność czy bezpieczeństwo.
+
+Strona internetowa Mutiny Group została wdrożona na platformie CMS Wordpress, z wykorzystaniem nowoczesnej funkcji Wordpress Full Site Editing. Prócz programowania wyglądu zgodnie z wypracowanym projektem graficznym, dostosowaliśmy stronę do wymogów RWD (wyświetlanie na urządzeniach mobilnych, w tym na tablecie i różnych rodzajach telefonów), rozszerzyliśmy o funkcję SEO (umożliwiając wprowadzenie treści i nagłówków przyjaznych wyszukiwarką), a także zadbaliśmy o wydajność strony dokonując m.in optymalizacji grafik i plików szablonu. Wersje językowe strony wprowadzone zostały z wykorzystaniem funkcji Multisite, tak aby nasz klient zachował pełną niezależność we wprowadzaniu zmian dla każdej z wersji. Po wdrożenia programistycznym, przekazaliśmy stronę w ręce klienta w celu redakcji treści.
 ::::
 :::
 ::
@@ -309,12 +311,12 @@ class: mx-default
 ---
 #### **Wykorzystane technologie**
 
-::::prose-figure{src="/img/content-images/case-mancraft-tech.png"}
+::::prose-figure{src="/img/content-images/case-mutiny-tech.png"}
 ---
 class: hidden tablet:block mb-[60px]
 ---
 ::::
-::::prose-figure{src="/img/content-images/case-mancraft-tech-mobile.png"}
+::::prose-figure{src="/img/content-images/case-mutiny-tech-mobile.png"}
 ---
 class: tablet:hidden mb-[60px]
 ---
@@ -326,23 +328,82 @@ class: tablet:hidden mb-[60px]
 ---
 class: static-content mb-[50px] tablet:mb-[100px]
 ---
+
 :::effect-appear-md
 ---
-class: mx-default tablet:[&_.p3_p:not(:last-child)]:!mb-5 mb-[100px]
+class: mx-default max-w-[934px] tablet:[&_h4]:!mb-6 tablet:[&_.p3_p:not(:last-child)]:!mb-5
 ---
 
-::::prose-p-3
+
+#### **Zakres prac programistycznych**
+:::
+
+:::block-offer-tiles-md
 ---
-class: max-w-full bg-green-gray !p-5 tablet:!pt-20 tablet:!px-[60px] [&_p]:!mb-0 desktop:[&_p]:!text-[25px] [&_p]:!leading-[44px]
+class: mb-[60px] mx-default
+---
+
+::::offer-tile-md
 --- 
-Lorem ipsum dolor sit amet consectetur. Eget et a turpis vitae cursus eu posuere dui. Cum bibendum quis ut ut nulla eu sed vitae sollicitudin. Consequat sociis pulvinar sed sed nisl vel. Diam in ac morbi dolor sed amet risus purus at.
+icon: '/img/icons/icon-map.svg'
+class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 [&_a]:!h-[290px]
+---
+#title
+#### Projekt mapy strony i architektury informacji
+
+#description
 ::::
 
-::::prose-p-3
----
-class: max-w-full bg-green-gray !p-5 tablet:!pt-10 tablet:!px-[60px] desktop:[&_p]:!text-[20px] [&_p]:!leading-[35px]
+::::offer-tile-md
 --- 
-Lorem ipsum dolor sit amet consectetur. Eget et a turpis vitae cursus eu posuere dui. Cum bibendum quis ut ut nulla eu sed vitae sollicitudin. Consequat sociis pulvinar sed sed nisl vel. Diam in ac morbi dolor sed amet risus purus at.
+icon: '/img/icons/icon-path.svg'
+delay: 1
+class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 [&_a]:!h-[290px]
+---
+#title
+#### Mapa&nbsp;ścieżki<br>użytkowników
+
+#description
+
+::::
+
+::::offer-tile-md
+--- 
+icon: '/img/icons/icon-ux.svg'
+delay: 2
+class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 [&_a]:!h-[290px]
+---
+#title
+#### Projekt prototypu funkcjonalnego UX
+
+#description
+
+::::
+
+::::offer-tile-md
+--- 
+icon: '/img/icons/icon-design.svg'
+delay: 3
+class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 [&_a]:!h-[290px]
+---
+#title
+#### Opracowanie podstawowego design systemu dla strony
+
+#description
+
+::::
+
+::::offer-tile-md
+--- 
+icon: '/img/icons/icon-ui.svg'
+delay: 4
+class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 [&_a]:!h-[290px]
+---
+#title
+#### Projekt interfejsu użytkownika UI
+
+#description
+
 ::::
 :::
 
