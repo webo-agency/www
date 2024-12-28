@@ -262,6 +262,14 @@ class: mb-[50px] desktop:mb-[100px]
 ::::
 :::
 
+:::effect-appear-md
+---
+class: mb-[50px] desktop:mb-[100px]
+---
+::::prose-figure{src="/img/content-images/case-mutiny-img33.png"}
+::::
+:::
+
 
 :::effect-appear-md
 ---
