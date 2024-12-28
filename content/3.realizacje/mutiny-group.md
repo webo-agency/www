@@ -345,23 +345,23 @@ class: mb-[60px] mx-default
 
 ::::offer-tile-md
 --- 
-icon: '/img/icons/icon-map.svg'
+icon: '/img/icons/icon-code.svg'
 class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 [&_a]:!h-[290px]
 ---
 #title
-#### Projekt mapy strony i architektury informacji
+#### Wdrożenie projektu graficznego
 
 #description
 ::::
 
 ::::offer-tile-md
 --- 
-icon: '/img/icons/icon-path.svg'
+icon: '/img/icons/icon-time.svg'
 delay: 1
 class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 [&_a]:!h-[290px]
 ---
 #title
-#### Mapa&nbsp;ścieżki<br>użytkowników
+#### Optymalizacja wydajności strony
 
 #description
 
@@ -369,12 +369,12 @@ class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 
 
 ::::offer-tile-md
 --- 
-icon: '/img/icons/icon-ux.svg'
+icon: '/img/icons/icon-check.svg'
 delay: 2
 class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 [&_a]:!h-[290px]
 ---
 #title
-#### Projekt prototypu funkcjonalnego UX
+#### Testowanie i dopracowanie funkcjonalności strony
 
 #description
 
@@ -382,12 +382,12 @@ class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 
 
 ::::offer-tile-md
 --- 
-icon: '/img/icons/icon-design.svg'
+icon: '/img/icons/icon-rwd.svg'
 delay: 3
 class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 [&_a]:!h-[290px]
 ---
 #title
-#### Opracowanie podstawowego design systemu dla strony
+#### Dopracowanie wyświetlania na urządzeniach mobilnych
 
 #description
 
@@ -395,12 +395,12 @@ class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 
 
 ::::offer-tile-md
 --- 
-icon: '/img/icons/icon-ui.svg'
+icon: '/img/icons/icon-language.svg'
 delay: 4
 class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 [&_a]:!h-[290px]
 ---
 #title
-#### Projekt interfejsu użytkownika UI
+#### Przygotowanie wyświetlania wersji językowych
 
 #description
 
