@@ -158,26 +158,85 @@ class: mx-default max-w-[934px]
 ### **Projekt**
 
 ::::prose-p3
-Projekt strony Mutiny Group miał być **niecodzienny i odważny**, taki jak marka naszego klienta. W tym celu postawiliśmy na **ciemny layout strony głównej**, połączony z charakterystycznymi kształtami i kontrastowymi przyciskami CTA (Call To Action). Podstrony zostały zaprojektowane w skali szarości co jeszcze bardziej podkreśliło nieszablonowe działania naszego klienta.
+Projekt strony Mutiny Group miał być **niecodzienny i odważny**, taki jak marka naszego klienta. Aby sprostać temu wyzwaniu przeszliśmy przez pełen proces projektowania UX/UI, który rozpoczęliśmy od określenia niezbędnych do przygotowania elementów, następnie przechodząc przez etap projektowania UX strony oraz opracowania interfejsu graficznego.
 ::::
 :::
 
 :::effect-appear-md
-::::prose-bg{class='font-normal'}
-:::::prose-p1
-**Zakres projektu UX/UI**
-:::::
+---
+class: mx-default max-w-[934px] tablet:[&_h4]:!mb-6 tablet:[&_.p3_p:not(:last-child)]:!mb-5
+---
 
-:::::prose-p2
+
+#### **Zakres projektu UX/UI**
+:::
+
+:::block-offer-tiles-md
 ---
-class: mt-0 [&_li]:!mb-0
+class: mb-[60px] mx-default
 ---
-- **Projekt mapy strony i architektury informacji**
-- **Mapa ścieżki użytkowników**
-- **Projekt prototypu funkcjonalnego UX**
-- **Opracowanie podstawowego design systemu dla strony www**
-- **Projekt interfejsu użytkownika UI**
-:::::
+
+::::offer-tile-md
+--- 
+icon: '/img/icons/icon-map.svg'
+class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 [&_a]:!h-[290px]
+---
+#title
+#### Projekt mapy strony i architektury informacji
+
+#description
+::::
+
+::::offer-tile-md
+--- 
+icon: '/img/icons/icon-path.svg'
+delay: 1
+class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 [&_a]:!h-[290px]
+---
+#title
+#### Mapa&nbsp;ścieżki<br>użytkowników
+
+#description
+
+::::
+
+::::offer-tile-md
+--- 
+icon: '/img/icons/icon-ux.svg'
+delay: 2
+class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 [&_a]:!h-[290px]
+---
+#title
+#### Projekt prototypu funkcjonalnego UX
+
+#description
+
+::::
+
+::::offer-tile-md
+--- 
+icon: '/img/icons/icon-design.svg'
+delay: 3
+class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 [&_a]:!h-[290px]
+---
+#title
+#### Opracowanie podstawowego design systemu dla strony
+
+#description
+
+::::
+
+::::offer-tile-md
+--- 
+icon: '/img/icons/icon-ui.svg'
+delay: 4
+class: h-auto [&_h4]:!text-[20px] [&_h4]:!leading-[26px] [&_.description]:!mb-0 [&_a]:!h-[290px]
+---
+#title
+#### Projekt interfejsu użytkownika UI
+
+#description
+
 ::::
 :::
 
@@ -189,9 +248,9 @@ class: mx-default max-w-[934px] tablet:[&_h4]:!mb-6 tablet:[&_.p3_p:not(:last-ch
 #### **Makiety funkcjonalne UX**
 
 ::::prose-p3
-Opracowanie makiet funkcjonalnych UX rozpoczęliśmy od warsztatów, podczas których określiliśmy oczekiwania dotyczące interfejsu i zakres funkcjonalności, które powinny znaleźć się na stronie. W kolejnym kroku zaprojektowaliśmy prototyp strony głównej, a po akceptacji także wszystkich zaplanowanych podstron.
+Prace nad etapem projektowania UX rozpoczęliśmy od warsztatów, podczas których określiliśmy oczekiwania dotyczące interfejsu i zakres wymaganych funkcjonalności. Pozwoliło to nam na wypracowanie optymalnej mapy strony wraz z architekturą informacji. W kolejnym kroku zaprojektowaliśmy prototyp strony głównej, prezentujący układ i sposób wyświetlania elementów dla każdej z zaplanowanych sekcji. Po uzyskaniu akceptacji makiety, stworzyliśmy prototypy dla pozostałych podstron.
 
-Makiety funkcjonalne UX umożliwiają **szczegółowe przetestowanie funkcjonalności** strony oraz sprawdzenie zgodności z oczekiwaniami juz **na wczesnym etapie realizacji**. Dzięki temu można dokonać odpowiednich korekt wizualnych, a także zmian w założeniach **bez kosztownych prac** podczas dalszych, bardziej zaawansowanych etapów.
+Makiety funkcjonalne UX umożliwiają **szczegółowe przetestowanie funkcjonalności** strony oraz sprawdzenie zgodności z wymaganiami juz **na wczesnym etapie realizacji**. Dzięki temu można dokonać odpowiednich korekt, a także zmian w założeniach **bez kosztownych prac** podczas dalszych, bardziej zaawansowanych etapów.
 ::::
 :::
 
@@ -212,7 +271,9 @@ class: mx-default max-w-[934px] tablet:[&_h4]:!mb-6 tablet:[&_.p3_p:not(:last-ch
 #### **Projekt interfejsu użytkownika UI**
 
 ::::prose-p3
-Lorem ipsum dolor sit amet consectetur. Purus facilisis vitae ornare luctus turpis turpis ut. Euismod rhoncus posuere lectus accumsan congue maecenas egestas. Mi varius parturient tempus convallis tristique adipiscing nunc. Consequat eu auctor rhoncus a.
+Po zrealizowaniu etapu projektowania UX strony oraz uzyskaniu akceptacji klienta, rozpoczęliśmy pracę nad przygotowaniem projektu graficznego.
+
+Rozpoczęliśmy od dobrania odpowiednich kolorów i czcionek, pasujących do już istniejącej identyfikacji wizualnej firmy Mutiny. Następnie, na bazie wcześniej przygotowanych makiet UX, zaprojektowaliśmy stronę główną, charekteryzującą się ciemnym motywem, kontrastowymi przyciskami oraz niestandardowymi kształtami. Podstrony zostały zaprojektowane w skali szarości co jeszcze bardziej podkreśliło nieszablonowe działania naszego klienta. W celu utrzymania spójności oraz przygotowania bazy pod dalszy rozwój strony, stworzyliśmy design system, który definiuje wygląd wszystkich elementów interaktywnych (np. różnych wersji przycisków, kafelek i galerii) oraz określa ramy wizualne.
 ::::
 :::
 
