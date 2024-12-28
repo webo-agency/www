@@ -11,8 +11,8 @@ image.url: '/img/case-studies/Mutiny-bg.png'
 logo.url: '/img/logos/Mutiny.png'
 tile_hidden: false
 tile_order: 6
-public: false
-draft: true
+public: true
+draft: false
 ---
 
 ::page-section-md
