@@ -103,6 +103,9 @@ Wyrażam zgodę na otrzymywanie informacji handlowej, dostarczonej drogą elektr
 #thanksDescription
 Na Twoją wiadomość odpowiemy w ciągu 24h
 
+#errorMessage
+Niestety mamy chwilowy problem z działaniem formularza. Wyślij wiadomość na adres <a href="mailo:info@webo.agency">info@webo.agency</a>
+
 #side
 ::::svg-decor-big-md
 ---
