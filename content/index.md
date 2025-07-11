@@ -710,7 +710,7 @@ Polecam współpracę z firmą Webo. **Rzetelnie wykonują założone taski** i 
 :::::opinion-md
 ---
 rating: 5
-avatar: '/img/logos/swistak.png'
+avatar: '/img/logos/Swistak.png'
 ---
 
 #message
@@ -728,7 +728,7 @@ Konsultant strategii w biznesie - **Krakowski świstak**
 :::::opinion-md
 ---
 rating: 5
-avatar: '/img/logos/oravio.png'
+avatar: '/img/logos/Oravio.png'
 ---
 
 #author
@@ -744,7 +744,7 @@ Pomogli nam w przelaniu naszych wizji sklepu internetowego na realny, **dobrze o
 :::::opinion-md
 ---
 rating: 5
-avatar: '/img/logos/caffewasyl.png'
+avatar: '/img/logos/Caffewasyl.png'
 ---
 
 #author
