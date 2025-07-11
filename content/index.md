@@ -624,9 +624,29 @@ maxWidth: 715
 #full
 :::effect-appear-md
 ::::block-opinions-md
+
 :::::opinion-md
 ---
 rating: 5
+avatar: '/img/logos/velair.png'
+---
+
+
+#author
+Mateusz Pienkowski
+
+#title
+Właściciel - **Velair**<br>
+
+#message
+Świetna współpraca – **bardzo sprawna komunikacja, trafne pomysły** i spostrzeżenia, szybko, sprawnie i w **bardzo przyjemnej atmosferze**. Strona **wygląda super, wszystko działa jak trzeba**. Polecam z czystym sumieniem!
+
+:::::
+
+:::::opinion-md
+---
+rating: 5
+avatar: '/img/logos/Proton.png'
 ---
 
 #author
@@ -642,6 +662,7 @@ Dzięki pracy Webo mój klient osiągnął wyższe pozycje w wyszukiwarkach, **p
 :::::opinion-md
 ---
 rating: 5
+avatar: '/img/logos/DeltaHR.png'
 ---
 
 #author
@@ -657,6 +678,7 @@ Bardzo profesjonalna firma, indywidualne podejście do klienta, **dobry i ciąg�
 :::::opinion-md
 ---
 rating: 5
+avatar: '/img/logos/grow.svg'
 ---
 
 #author
@@ -672,6 +694,7 @@ Współpraca z ekipą jest niesamowita. **Gwarancja jakości**, **responsywnośc
 :::::opinion-md
 ---
 rating: 5
+avatar: '/img/logos/thoro.svg'
 ---
 
 #author
@@ -687,13 +710,14 @@ Polecam współpracę z firmą Webo. **Rzetelnie wykonują założone taski** i 
 :::::opinion-md
 ---
 rating: 5
+avatar: '/img/logos/swistak.png'
 ---
 
 #message
 W firmie Webo zamówiłem **stronę www**. Już na etapie **badania potrzeb dało się czuć profesjonalizm**. Jestem **zadowolonym klientem** i używam swojej strony www w kontkatach z moimi klientami :)
 
 #author
-Bartłomiej Świstak Piotrowski
+Bartłomiej Piotrowski
 
 #title
 Konsultant strategii w biznesie - **Krakowski świstak**
@@ -704,6 +728,7 @@ Konsultant strategii w biznesie - **Krakowski świstak**
 :::::opinion-md
 ---
 rating: 5
+avatar: '/img/logos/oravio.png'
 ---
 
 #author
@@ -719,6 +744,7 @@ Pomogli nam w przelaniu naszych wizji sklepu internetowego na realny, **dobrze o
 :::::opinion-md
 ---
 rating: 5
+avatar: '/img/logos/caffewasyl.png'
 ---
 
 #author

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="swiper-slide bg-green-gray flex flex-col justify-between min-h-[460px] shrink-0 tablet:pr-10 p-[30px_20px] desktop:p-[60px_40px] !transition !duration-200">
+    class="swiper-slide bg-green-gray flex flex-col justify-between min-h-[560px] shrink-0 tablet:pr-10 p-[30px_20px] desktop:p-[60px_40px] !transition !duration-200">
     <div v-if="$slots.message" class="prose leading-7 text-sm tablet:text-base">
       <ContentSlot :use="$slots.message" />
       <svg xmlns="http://www.w3.org/2000/svg" width="70" height="50" viewBox="0 0 70 50" fill="none" class="mt-5">
@@ -22,10 +22,10 @@
     </div>
 
     <div class="relative flex flex-row gap-5 items-center">
-      <div class="w-[50px] h-[50px] desktop:w-[70px] desktop:h-[70px] rounded-full overflow-hidden">
-        <nuxt-picture :src="'/img/icons/person.png'"
-          class="block w-full h-full object-contain p-0.5 desktop:p-1 overflow-hidden rounded-[5px] bg-gray-light"
-          :imgAttrs="{ class: 'h-full w-full object-contain ' }"
+      <div class="w-[50px] h-[50px] bg-white p-1 desktop:min-w-[70px] desktop:h-[70px] rounded-full overflow-hidden">
+        <nuxt-picture v-if="avatar" :src="avatar"
+          class="block w-full h-full object-contain p-0.5 desktop:p-1 overflow-hidden rounded-[5px]"
+          :imgAttrs="{ class: 'h-full w-[50px] object-contain ' }"
           alt="person icon"
           loading="lazy" />
       </div>
@@ -63,6 +63,7 @@ export default {
   name: "Opinion",
   props: {
     rating: Number,
+    avatar: String,
   },
 };
 </script>

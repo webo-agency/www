@@ -89,11 +89,11 @@ export default {
           prevEl: "[data-swiper-prev-opinions]",
         },
         speed: 600,
-        autoplay: {
-          delay: 3000,
-          disableOnInteraction: false,
-          pauseOnMouseEnter: true,
-        },
+        // autoplay: {
+        //   delay: 3000,
+        //   disableOnInteraction: false,
+        //   pauseOnMouseEnter: true,
+        // },
         preloadImages: false,
         lazy: {
           loadPrevNext: true,
