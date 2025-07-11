@@ -629,6 +629,7 @@ maxWidth: 715
 ---
 rating: 5
 avatar: '/img/logos/velair.png'
+opinionSource: '/img/icons/google.svg'
 ---
 
 
@@ -647,6 +648,7 @@ Właściciel - **Velair**<br>
 ---
 rating: 5
 avatar: '/img/logos/Mancraft.png'
+opinionSource: '/img/icons/clutch.svg'
 ---
 
 #author
@@ -663,6 +665,7 @@ Dzięki pracy Webo mój klient osiągnął wyższe pozycje w wyszukiwarkach, **p
 ---
 rating: 5
 avatar: '/img/logos/DeltaHR.png'
+opinionSource: '/img/icons/google.svg'
 ---
 
 #author
@@ -679,6 +682,7 @@ Bardzo profesjonalna firma, indywidualne podejście do klienta, **dobry i ciąg�
 ---
 rating: 5
 avatar: '/img/logos/grow.svg'
+opinionSource: '/img/icons/google.svg'
 ---
 
 #author
@@ -695,6 +699,7 @@ Współpraca z ekipą jest niesamowita. **Gwarancja jakości**, **responsywnośc
 ---
 rating: 5
 avatar: '/img/logos/thoro.svg'
+opinionSource: '/img/icons/google.svg'
 ---
 
 #author
@@ -711,6 +716,7 @@ Polecam współpracę z firmą Webo. **Rzetelnie wykonują założone taski** i 
 ---
 rating: 5
 avatar: '/img/logos/Swistak.png'
+opinionSource: '/img/icons/google.svg'
 ---
 
 #message
@@ -729,6 +735,7 @@ Konsultant strategii w biznesie - **Krakowski świstak**
 ---
 rating: 5
 avatar: '/img/logos/Oravio.png'
+opinionSource: '/img/icons/google.svg'
 ---
 
 #author
@@ -745,6 +752,7 @@ Pomogli nam w przelaniu naszych wizji sklepu internetowego na realny, **dobrze o
 ---
 rating: 5
 avatar: '/img/logos/CaffeWasyl.png'
+opinionSource: '/img/icons/google.svg'
 ---
 
 #author
