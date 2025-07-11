@@ -744,7 +744,7 @@ Pomogli nam w przelaniu naszych wizji sklepu internetowego na realny, **dobrze o
 :::::opinion-md
 ---
 rating: 5
-avatar: '/img/logos/Caffewasyl.png'
+avatar: '/img/logos/CaffeWasyl.png'
 ---
 
 #author
