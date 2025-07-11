@@ -646,7 +646,7 @@ Właściciel - **Velair**<br>
 :::::opinion-md
 ---
 rating: 5
-avatar: '/img/logos/Proton.png'
+avatar: '/img/logos/Mancraft.png'
 ---
 
 #author
