@@ -628,6 +628,25 @@ maxWidth: 715
 :::::opinion-md
 ---
 rating: 5
+avatar: '/img/logos/isw.png'
+opinionSource: '/img/icons/clutch.svg'
+---
+
+
+#author
+Rafał Sanecki
+
+#title
+Head of Marketing - **IS-Wireless**<br>
+
+#message
+Webo dostarczyło **stabilną i skalowalną stronę internetową**, skutecznie wspierając nas w realizacji celów. Zespół regularnie dostarczał aktualizacje, **na bieżąco informował o postępach projektu i był transparentny**. Ostatecznie, **techniczne doświadczenie i skuteczna komunikacja** Webo były wizytówką ich pracy.
+
+:::::
+
+:::::opinion-md
+---
+rating: 5
 avatar: '/img/logos/velair.png'
 opinionSource: '/img/icons/google.svg'
 ---
