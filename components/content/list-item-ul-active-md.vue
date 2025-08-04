@@ -15,7 +15,7 @@
         <div class="tablet:pr-5" :class="{'min-h-[240px]':!iconLeft}">
           <div
             v-if="$slots.title"
-            class="mb-5 mt-2 font-semibold"
+            class="title mb-5 mt-2 font-semibold"
             :class="[{'tablet:mt-5':iconBig && !iconLeft},[iconLeft? 'text-xl' : 'text-2xl']]"
           >
             <ContentSlot :use="$slots.title" />
