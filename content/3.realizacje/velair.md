@@ -27,10 +27,10 @@ link: 'https://velair.pl/'
 ---
 
 #title
-## Velair - Sklep internetowy B2C/B2B Prestashop dla producenta osuszaczy powietrza i klimatyzatorów.
+## Velair - Projekt UX/UI i wdrożenie sklepu internetowego polskiego producenta AGD.
 
 #description
-**Shop Mancraft** to sklep internetowy, umożliwiający sprzedaż zarówno detaliczną jak i hurtową dla pasjonatów specjalistycznego sprzętu ASG klasy premium. Naszym głównym zadaniem była **migracja sklepu Prestashop 1.6 do Prestashop 1.7**, odświeżenie warstwy wizualnej oraz **wdrożenie nowych funkcjonalności i integracji**.
+**Sklep Velair** to polska marka zajmująca się sprzedażą przenośnych klimatyzatorów i osuszaczy powietrza. Naszym  zadaniem było zaprojektowanie i wdrożenie butikowego **sklepu internetowego Wordpress + WooCommerce**.
 
 #buttontext
 Zobacz online
@@ -45,7 +45,7 @@ Zobacz online
 
 ::page-section-md
 ---
-class: mb-[50px] tablet:mb-[150px]
+class: mb-[50px] tablet:mb-[100px]
 ---
 :::effect-appear-md
 ::::prose-figure{src="/img/content-images/case-velair-img1.png"}
@@ -72,8 +72,8 @@ class: items-center [&_div.right]:self-start
 #left
 ::::card-icon-md
 ---
-class: tablet:pr-2.5 [&_div_div.group]:p-10 [&_div_div]:bg-primary [&_div_div]:!text-gray-darker [&_h4]:!mb-4
-icon: '/img/icons/wordpress.svg'
+class: tablet:pr-2.5 [&_div_div.group]:p-10 [&_div_div]:bg-primary [&_div_div]:!text-gray-darker [&_h4]:!mb-4 [&_h4]:tablet:text-[35px]
+icon: '/img/icons/info.svg'
 ---
 #title
 #### Projekt w pigułce
@@ -88,14 +88,15 @@ decoration: false
 iconUrl: '/img/icons/list-1.svg'
 iconBig: false
 animated: false
-class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit [&_div_div.flex]:lg:flex-row [&_div_div.flex]:gap-7 [&_picture]:w-20 [&_div.title_p]:!text-lg
+class: icon [&_div_div_div]:!min-h-fit [&_div_div.flex]:lg:flex-row [&_div_div.flex]:gap-7 [&_div_div_picture]:!w-[60px] [&_div.title_p]:!text-xl [&_div.title]:!mb-2 [&_div_div_div_div_p]:!tracking-normal
+
 ---
 
 #title
-Migracja i rozwój sklepu
+Analiza konkurencji i warsztaty
 
 #description
-Przenieśliśmy sklep z Prestashop 1.6 do 1.7, co zwiększyło wydajność, bezpieczeństwo i umożliwiło dalszy rozwój serwisu.
+Przeprowadziliśmy analizę rynku i warsztaty projektowe, by lepiej zrozumieć cele klienta i zaproponować optymalne rozwiązania.
 
 ::::::
 ::::::list-item-ul-active-md
@@ -103,14 +104,14 @@ Przenieśliśmy sklep z Prestashop 1.6 do 1.7, co zwiększyło wydajność, bezp
 iconUrl: '/img/icons/list-2.svg'
 iconBig: false
 animated: false
-class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit [&_div_div.flex]:lg:flex-row [&_div_div.flex]:gap-7 [&_picture]:w-20 [&_div.title_p]:!text-lg
+class: icon [&_div_div_div]:!min-h-fit [&_div_div.flex]:lg:flex-row [&_div_div.flex]:gap-7 [&_div_div_picture]:!w-[60px] [&_div.title_p]:!text-xl [&_div.title]:!mb-2 [&_div_div_div_div_p]:!tracking-normal
 ---
 
 #title
-Optymalizacja procesu zakupowego
+Projekt UX/UI sklepu internetowego
 
 #description
-Przeprojektowaliśmy kartę produktu, wdrożyliśmy **One Page Checkout i B2B**, usprawniając zakupy detaliczne i hurtowe.
+Stworzyliśmy intuicyjny i nowoczesny interfejs głównej strony oraz kluczowych podstron, oparty na przemyślanej architekturze informacji.
 
 ::::::
 ::::::list-item-ul-active-md
@@ -118,29 +119,14 @@ Przeprojektowaliśmy kartę produktu, wdrożyliśmy **One Page Checkout i B2B**,
 iconUrl: '/img/icons/list-3.svg'
 iconBig: false
 animated: false
-class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit [&_div_div.flex]:lg:flex-row [&_div_div.flex]:gap-7 [&_picture]:w-20 [&_div.title_p]:!text-lg
+class: icon [&_div_div_div]:!min-h-fit [&_div_div.flex]:lg:flex-row [&_div_div.flex]:gap-7 [&_div_div_picture]:!w-[60px] [&_div.title_p]:!text-xl [&_div.title]:!mb-2 [&_div_div_div_div_p]:!tracking-normal
 ---
 
 #title
-Automatyzacje procesów
+Programowanie 
 
 #description
-Zintegrowaliśmy sklep z **VAT VIES i Baselinkerem**, wprowadziliśmy **CI/CD**, repozytorium **GitHub** i dodatkowe zabezpieczenia.
-
-::::::
-::::::list-item-ul-active-md
----
-iconUrl: '/img/icons/list-4.svg'
-iconBig: false
-animated: false
-class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit [&_div_div.flex]:lg:flex-row [&_div_div.flex]:gap-7 [&_picture]:w-20 [&_div.title_p]:!text-lg
----
-
-#title
-Program lojalnościowy
-
-#description
-Wdrożyliśmy system punktowy z nagrodami dla klientów, dopasowany do grup rabatowych i walut sklepu.
+Wdrożyliśmy sklep na WordPress + WooCommerce, programując wszystkie widoki, funkcje i interakcje zgodnie z potrzebami użytkowników.
 
 ::::::
 :::::
@@ -151,10 +137,10 @@ Wdrożyliśmy system punktowy z nagrodami dla klientów, dopasowany do grup raba
 ::::card-icon-md
 ---
 class: tablet:pl-2.5 [&_div_div]:bg-white
-icon: '/img/icons/wordpress.svg'
+icon: '/img/icons/double_check.svg'
 ---
 #title
-#### Rezultat pracy i dalsze wsparcie
+#### Rezultat pracy
 
 #content
 :::::block-list-ul-md
@@ -166,12 +152,12 @@ decoration: false
 
 iconBig: false
 animated: false
-class: icon [&_div_div_div]:!min-h-fit
+class: icon [&_div_div_div]:!min-h-fit 
 ---
 
 #description
-Wynikiem naszej pracy jest **wielowalutowy sklep internetowy Prestashop**, obsługujący płatność w walutach CAD, EURO, GBP, PLN, USD oraz dostawy niemal na całym świecie. Klienci sklepu Mancraft mogą cieszyć się nowym i funkcjonalnym sklepem oraz licznymi funkcjonalnościami ułatwiającymi składanie zamówień. <br><br>
-W ramach dalszej współpracy, sprawujemy opiekę nad bieżącym działaniem sklepu m.in. reagując na awarie oraz wprowadzając wymagane aktualizacje systemu.  Nasze wsparcie obejmuje także **prace optymalizacyjne** (w tym optymalizacja doświadczeń użytkownika oraz wydajności), a także dalszy rozwój sklepu o nowe funkcjonalności i podstrony.
+Efektem realizacji jest nowoczesny, funkcjonalny i w pełni zoptymalizowany sklep internetowy wykonany w podejściu **Custom WordPress Development**, który łączy atrakcyjny design z wydajnością i intuicyjną obsługą. <br><br>
+**Strona została zoptymalizowana** pod kątem SEO, przystosowana do wymogów RODO oraz przygotowana do wyświetlania na każdym urządzeniu, dzięki czemu użytkownicy mogą swobodnie dokonywać zamówień niezależnie od preferencji. Zastosowano liczne animacje, które wzbogacają doświadczenia użytkownika, a także zaawansowaną **optymalizację wydajności i prędkości ładowania**. Dodatkowo wdrożono integrację z systemem Baselinker oraz podłączono narzędzia analityczne, umożliwiające **skuteczne zarządzanie sprzedażą i marketingiem**.
 
 ::::::
 :::::
@@ -185,10 +171,80 @@ W ramach dalszej współpracy, sprawujemy opiekę nad bieżącym działaniem skl
 
 ::page-section-md
 ---
-class: mb-[50px] tablet:mb-[150px]
+class: mb-5
 ---
 :::effect-appear-md
 ::::prose-figure{src="/img/content-images/case-velair-img2.png"}
+::::
+:::
+::
+
+::page-section-md
+---
+class: mb-5
+---
+:::effect-appear-md
+::::prose-figure{src="/img/content-images/case-velair-img3.jpg"}
+::::
+:::
+::
+
+::page-section-md
+---
+class: mb-5
+---
+:::effect-appear-md
+::::prose-figure{src="/img/content-images/case-velair-img4.png"}
+::::
+:::
+::
+
+::page-section-md
+---
+class: mb-5
+---
+:::effect-appear-md
+::::prose-figure{src="/img/content-images/case-velair-img5.jpg"}
+::::
+:::
+::
+
+::page-section-md
+---
+class: mb-5
+---
+:::effect-appear-md
+::::prose-figure{src="/img/content-images/case-velair-img6.png"}
+::::
+:::
+::
+
+::page-section-md
+---
+class: mb-5
+---
+:::effect-appear-md
+::::prose-figure{src="/img/content-images/case-velair-img7.jpg"}
+::::
+:::
+::
+
+::page-section-md
+---
+class: mb-5
+---
+:::effect-appear-md
+::::prose-figure{src="/img/content-images/case-velair-img8.png"}
+::::
+:::
+::
+
+::page-section-md
+---
+class: mb-[50px] tablet:mb-[100px]
+---
+:::effect-appear-md
+::::prose-figure{src="/img/content-images/case-velair-img9.png"}
 ::::
 :::
 ::
@@ -206,18 +262,16 @@ class: static-content mb-[50px] tablet:mb-[100px]
 #content
 
 :::::prose-p3
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-**Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.**
+Świetna współpraca – **bardzo sprawna komunikacja, trafne pomysły** i spostrzeżenia, szybko, sprawnie i w **bardzo przyjemnej atmosferze**. Strona **wygląda super, wszystko działa jak trzeba**. Polecam z czystym sumieniem!
 :::::
 
 #author
 
-#### **Jan Kowalski**
+#### **Mateusz Pienkowski**
 
 #authorTitle
 :::::prose-p6
-JOB POSITION - **EUROSTALL**
+Właściciel - **Velair**
 :::::
 ::::
 :::
