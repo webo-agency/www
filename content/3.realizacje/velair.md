@@ -49,7 +49,7 @@ Zobacz online
 class: mb-[50px] tablet:mb-[100px]
 ---
 :::effect-appear-md
-::::prose-figure{src="/img/content-images/case-velair-img1.png"}
+::::prose-figure{src="/img/content-images/case-velair-img1.jpg"}
 ::::
 :::
 ::
@@ -89,7 +89,7 @@ decoration: false
 iconUrl: '/img/icons/list-1.svg'
 iconBig: false
 animated: false
-class: icon [&_div_div_div]:!min-h-fit [&_div_div.flex]:lg:flex-row [&_div_div.flex]:gap-7 [&_div_div_picture]:!w-[60px] [&_div.title_p]:!text-xl [&_div.title]:!mb-2 [&_div_div_div_div_p]:!tracking-normal
+class: icon [&_div_div]:!pb-1 [&_div_div_div]:!min-h-fit [&_div_div.flex]:lg:flex-row [&_div_div.flex]:gap-7 [&_div_div_picture]:!w-[60px] [&_div.title_p]:!text-xl [&_div.title]:!mb-2 [&_div_div_div_div_p]:!tracking-normal
 
 ---
 
@@ -105,7 +105,7 @@ Przeprowadziliśmy analizę rynku i warsztaty projektowe, by lepiej zrozumieć c
 iconUrl: '/img/icons/list-2.svg'
 iconBig: false
 animated: false
-class: icon [&_div_div_div]:!min-h-fit [&_div_div.flex]:lg:flex-row [&_div_div.flex]:gap-7 [&_div_div_picture]:!w-[60px] [&_div.title_p]:!text-xl [&_div.title]:!mb-2 [&_div_div_div_div_p]:!tracking-normal
+class: icon [&_div_div]:!pb-1 [&_div_div_div]:!min-h-fit [&_div_div.flex]:lg:flex-row [&_div_div.flex]:gap-7 [&_div_div_picture]:!w-[60px] [&_div.title_p]:!text-xl [&_div.title]:!mb-2 [&_div_div_div_div_p]:!tracking-normal
 ---
 
 #title
@@ -120,7 +120,7 @@ Stworzyliśmy intuicyjny i nowoczesny interfejs głównej strony oraz kluczowych
 iconUrl: '/img/icons/list-3.svg'
 iconBig: false
 animated: false
-class: icon [&_div_div_div]:!min-h-fit [&_div_div.flex]:lg:flex-row [&_div_div.flex]:gap-7 [&_div_div_picture]:!w-[60px] [&_div.title_p]:!text-xl [&_div.title]:!mb-2 [&_div_div_div_div_p]:!tracking-normal
+class: icon [&_div_div]:!pb-1 [&_div_div_div]:!min-h-fit [&_div_div.flex]:lg:flex-row [&_div_div.flex]:gap-7 [&_div_div_picture]:!w-[60px] [&_div.title_p]:!text-xl [&_div.title]:!mb-1 [&_div_div_div_div_p]:!tracking-normal
 ---
 
 #title
@@ -137,7 +137,7 @@ Wdrożyliśmy sklep na WordPress + WooCommerce, programując wszystkie widoki, f
 
 ::::card-icon-md
 ---
-class: tablet:pl-2.5 [&_div_div]:bg-white
+class: tablet:pr-2.5 [&_div_div.group]:p-10 [&_div_div]:bg-white [&_div_div]:!text-gray-darker [&_h4]:!mb-4 [&_h4]:tablet:text-[35px]
 icon: '/img/icons/double_check.svg'
 ---
 #title
@@ -256,6 +256,10 @@ class: static-content mb-[50px] tablet:mb-[100px]
 ---
 :::effect-appear-md
 ::::block-opinion-md
+---
+rating: 5
+link: 'https://www.google.com/search?sa=X&sca_esv=950f1dd50efd152d&tbm=lcl&q=Webo+Opinie&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxI2NDA0NbQ0NLUwM7O0ANJGJiYbGBlfMXKHpyblK_gXZOZlpi5iReYBAMr9MB02AAAA&rldimm=1015191586698915244&hl=pl-PL&ved=2ahUKEwjvh8C7pfaOAxWRHxAIHUsvAXsQ9fQKegQISBAF&biw=1920&bih=1031&dpr=1#lkt=LocalPoiReviews'
+---
 
 #title
 ### **Opinia klienta**
