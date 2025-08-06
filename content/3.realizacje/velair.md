@@ -1,8 +1,9 @@
 ---
-introduction.title: 'Velair'
-introduction.description: 'Velair'
+introduction.title: 'Velair - Projekt UX/UI i wdrożenie sklepu internetowego polskiego producenta AGD'
+introduction.description: 'Sklep Velair to polska marka zajmująca się sprzedażą przenośnych klimatyzatorów i osuszaczy powietrza. Naszym  zadaniem było zaprojektowanie i wdrożenie butikowego sklepu internetowego Wordpress + WooCommerce.'
 type:
-    - Aplikacja internetowa
+    - Sklepy internetowe
+    - Projekt UX/UI
 technologies:
     - Wordpress CMS
     - TailwindCSS
