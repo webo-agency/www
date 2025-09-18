@@ -71,8 +71,8 @@ export default {
       let formattedUrl = this.url
         .replace(this.$config.API_URL, "")
         .replace("https://webo.agency", "");
-        if (this.$route.path == '/kontakt' && formattedUrl == '/kontakt') {
-          formattedUrl = "/kontakt#formularz"
+        if (this.$route.path == '/kontakt/' && formattedUrl == '/kontakt/') {
+          formattedUrl = "/kontakt/#formularz"
         }
       return formattedUrl;
     },
