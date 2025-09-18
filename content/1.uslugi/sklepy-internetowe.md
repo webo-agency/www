@@ -129,7 +129,7 @@ class: mb-10 tablet:mb-[60px]
 ::::offer-tile-md
 --- 
 icon: '/img/icons/wordpress.svg'
-link: 'https://www.webo.agency/kontakt'
+link: 'https://webo.agency/kontakt'
 ---
 #title
 #### Prestashop
@@ -146,7 +146,7 @@ Dowiedz się więcej
 ::::offer-tile-md
 --- 
 icon: '/img/icons/drupal.svg'
-link: 'https://www.webo.agency/kontakt'
+link: 'https://webo.agency/kontakt'
 delay: 1
 ---
 #title
@@ -162,7 +162,7 @@ Dowiedz się więcej
 ::::offer-tile-md
 --- 
 icon: '/img/icons/wordpress-headles.svg'
-link: 'https://www.webo.agency/kontakt'
+link: 'https://webo.agency/kontakt'
 delay: 2
 ---
 #title
@@ -192,7 +192,7 @@ class: top-20 right-[15%] fullHd:right-[20%] scale-x-[-1.6] scale-y-[1.6]
 ::::block-cta-md
 ---
 maxWidth: 800
-button.link: https://www.webo.agency/kontakt
+button.link: https://webo.agency/kontakt
 button.title: 'Skontaktuj się'
 ---
 
@@ -714,7 +714,7 @@ class: mb-10 tablet:mb-20
 :::block-cases-md
 ---
 contentFolder: realizacje
-moreBtn.url: 'https://www.webo.agency/realizacje'
+moreBtn.url: 'https://webo.agency/realizacje'
 moreBtn.linktitle: Zobacz wszystkie projekty
 selectedSlugs:
     - feeby

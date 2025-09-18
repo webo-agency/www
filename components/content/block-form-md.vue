@@ -52,7 +52,7 @@
             </div>
             <div v-if="$slots.buttonBackText">
               <ButtonMain class="mb-2.5 desktop:mb-6 !w-auto" :class="[darkContainer ? 'text-gray-darker' : 'text-white']"
-                :link="'https://www.webo.agency/'">
+                :link="'https://webo.agency/'">
                 <ContentSlot :use="$slots.buttonBackText" />
               </ButtonMain>
             </div>

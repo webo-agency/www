@@ -72,7 +72,7 @@ class: mb-[50px] tablet:mb-[100px]
 :::effect-appear-md
 ::::block-cta-md
 ---
-button.link: https://www.webo.agency/kontakt
+button.link: https://webo.agency/kontakt
 button.title: 'Skontaktuj się z nami'
 button.isWide: true
 maxWidth: 560

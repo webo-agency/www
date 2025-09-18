@@ -163,7 +163,7 @@ class: block desktop:hidden top-0 right-0
 ::::block-cta-md
 ---
 maxWidth: 730
-button.link: https://www.webo.agency/kontakt
+button.link: https://webo.agency/kontakt
 button.title: 'Skontaktuj się z nami'
 button.isWide: true
 class: tablet:mb-36 [&_.description]:desktop:!text-lg
@@ -741,7 +741,7 @@ contentFolder: realizacje
 selectedSlugs:
     - isw
     - 5gmadetogether
-moreBtn.url: 'https://www.webo.agency/realizacje'
+moreBtn.url: 'https://webo.agency/realizacje'
 moreBtn.linktitle: Zobacz wszystkie projekty
 ---
 

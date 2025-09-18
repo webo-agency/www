@@ -8,7 +8,7 @@ sitemap:
 ::block-hero-md
 ---
 button.title: Dowiedz się więcej
-button.link: https://www.webo.agency/uslugi/strony-internetowe
+button.link: https://webo.agency/uslugi/strony-internetowe
 ---
 
 #subtitle
@@ -66,7 +66,7 @@ Znamy się na dwóch rzeczach: **technologii i projektowaniu**. Dzięki temu rea
 ---
 icon: '/img/icons/services-site.svg'
 technologies: '/img/icons/websites-technologies.svg'
-link: 'https://www.webo.agency/uslugi/strony-internetowe'
+link: 'https://webo.agency/uslugi/strony-internetowe'
 delay: 1
 ---
 #title
@@ -83,7 +83,7 @@ Dowiedz się więcej
 ---
 icon: '/img/icons/services-store.svg'
 technologies: '/img/icons/stores-technologies.svg'
-link: 'https://www.webo.agency/uslugi/sklepy-internetowe'
+link: 'https://webo.agency/uslugi/sklepy-internetowe'
 ---
 #title
 ### Sklepy internetowe
@@ -116,7 +116,7 @@ Dowiedz się więcej
 ---
 icon: '/img/icons/services-support.svg'
 technologies: '/img/icons/support-technologies.svg'
-link: 'https://www.webo.agency/uslugi/wsparcie-i-rozwoj'
+link: 'https://webo.agency/uslugi/wsparcie-i-rozwoj'
 delay: 4
 ---
 #title
@@ -133,7 +133,7 @@ Dowiedz się więcej
 ---
 icon: '/img/icons/services-uxui.svg'
 technologies: '/img/icons/uxui-technologies.svg'
-link: 'https://www.webo.agency/uslugi/projektowanie-ux-ui'
+link: 'https://webo.agency/uslugi/projektowanie-ux-ui'
 delay: 5
 ---
 #title
@@ -164,7 +164,7 @@ class: block desktop:hidden top-0 right-0
 
 ::::block-cta-md
 ---
-button.link: https://www.webo.agency/kontakt
+button.link: https://webo.agency/kontakt
 button.title: 'Skontaktuj się z nami'
 button.isWide: true
 class: tablet:mb-[150px] 
@@ -203,7 +203,7 @@ class: mb-[100px] tablet:mb-20
 :::block-cases-md
 ---
 contentFolder: realizacje
-moreBtn.url: 'https://www.webo.agency/realizacje'
+moreBtn.url: 'https://webo.agency/realizacje'
 moreBtn.linktitle: Zobacz wszystkie projekty
 ---
 
@@ -239,7 +239,7 @@ class: px-5 tablet:px-10
 Nasz zespół to solidne umysły ścisłe. Znamy się na technologii jak na niczym innym, pracujemy na twardych danych a nie domysłach.
 :::::::button-secondary-md
 ---
-link: 'https://www.webo.agency/o-nas'
+link: 'https://webo.agency/o-nas'
 title: 'Dowiedz się więcej'
 ---
  

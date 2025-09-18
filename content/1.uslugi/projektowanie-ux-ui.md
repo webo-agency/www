@@ -122,7 +122,7 @@ Uwielbiamy wyzwania i rozwiązywanie problemów,specjalizujemy się w projektowa
 ::::offer-tile-md
 --- 
 icon: '/img/icons/services-site.svg'
-link: 'https://www.webo.agency/uslugi/strony-internetowe'
+link: 'https://webo.agency/uslugi/strony-internetowe'
 ---
 #title
 #### Strony internetowe i landing page
@@ -132,7 +132,7 @@ link: 'https://www.webo.agency/uslugi/strony-internetowe'
 ::::offer-tile-md
 --- 
 icon: '/img/icons/services-store.svg'
-link: 'https://www.webo.agency/uslugi/sklepy-internetowe'
+link: 'https://webo.agency/uslugi/sklepy-internetowe'
 delay: 1
 ---
 #title
@@ -182,7 +182,7 @@ class: block desktop:hidden top-0 right-0
 ::::block-cta-md
 ---
 maxWidth: 730
-button.link: https://www.webo.agency/kontakt
+button.link: https://webo.agency/kontakt
 button.title: 'Skontaktuj się z nami'
 button.isWide: true
 class: tablet:mb-36 [&_.description]:desktop:!text-lg
@@ -623,7 +623,7 @@ selectedSlugs:
     - 5gmadetogether
     - oravio
     - proton
-moreBtn.url: 'https://www.webo.agency/realizacje'
+moreBtn.url: 'https://webo.agency/realizacje'
 moreBtn.linktitle: Zobacz wszystkie projekty
 ---
 

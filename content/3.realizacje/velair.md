@@ -290,7 +290,7 @@ class: mb-[50px] tablet:mb-[100px]
 :::effect-appear-md
 ::::block-cta-md
 ---
-button.link: https://www.webo.agency/kontakt
+button.link: https://webo.agency/kontakt
 button.title: 'Skontaktuj się'
 ---
 
@@ -327,7 +327,7 @@ class: mb-10 tablet:mb-20
 :::block-cases-md
 ---
 contentFolder: realizacje
-moreBtn.url: 'https://www.webo.agency/realizacje'
+moreBtn.url: 'https://webo.agency/realizacje'
 moreBtn.linktitle: Zobacz wszystkie projekty
 selectedSlugs:
     - isw

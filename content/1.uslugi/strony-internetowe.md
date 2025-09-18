@@ -202,7 +202,7 @@ class: mb-20
 ::::offer-tile-md
 --- 
 icon: '/img/icons/wordpress.svg'
-link: 'https://www.webo.agency/uslugi/strony-wordpress'
+link: 'https://webo.agency/uslugi/strony-wordpress'
 ---
 #title
 #### Wordpress
@@ -219,7 +219,7 @@ Dowiedz się więcej
 ::::offer-tile-md
 --- 
 icon: '/img/icons/drupal.svg'
-link: 'https://www.webo.agency/kontakt'
+link: 'https://webo.agency/kontakt'
 delay: 1
 ---
 #title
@@ -235,7 +235,7 @@ Dowiedz się więcej
 ::::offer-tile-md
 --- 
 icon: '/img/icons/wordpress-headles.svg'
-link: 'https://www.webo.agency/kontakt'
+link: 'https://webo.agency/kontakt'
 delay: 2
 ---
 #title
@@ -266,7 +266,7 @@ class: top-20 right-[15%] fullHd:right-[20%] scale-x-[-1.6] scale-y-[1.6]
 ::::block-cta-md
 ---
 maxWidth: 800
-button.link: https://www.webo.agency/kontakt
+button.link: https://webo.agency/kontakt
 button.title: 'Skontaktuj się z nami'
 button.isWide: true
 class: tablet:mb-36
@@ -684,7 +684,7 @@ Często publikacja strony to dopiero początek, a podczas użytkowania strony po
 ::::block-cta-md
 ---
 maxWidth: 700
-button.link: https://www.webo.agency/kontakt
+button.link: https://webo.agency/kontakt
 button.title: 'Skontaktuj się z nami'
 button.isWide: true
 class: tablet:mb-36
@@ -723,7 +723,7 @@ maxWidth: 550
 :::block-cases-md
 ---
 contentFolder: realizacje
-moreBtn.url: 'https://www.webo.agency/realizacje'
+moreBtn.url: 'https://webo.agency/realizacje'
 moreBtn.linktitle: Zobacz wszystkie projekty
 selectedSlugs:
     - 5gmadetogether

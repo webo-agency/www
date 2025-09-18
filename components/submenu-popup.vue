@@ -57,7 +57,7 @@
               <CustomLink
                 :url="item.link"
                 :activeClass="
-                  item.link === 'https://www.webo.agency/'
+                  item.link === 'https://webo.agency/'
                     ? 'none'
                     : 'link-active-line'
                 "

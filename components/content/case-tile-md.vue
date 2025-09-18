@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col shrink-0">
     <CustomLink class="group hover:text-green-main flex flex-col w-full overflow-hidden" :disabled="data.draft && !data.fallback"
-      :activeClass="'none'" :url="data.fallback ?? (data.url ?? ('https://www.webo.agency' + data._path))">
+      :activeClass="'none'" :url="data.fallback ?? (data.url ?? ('https://webo.agency' + data._path))">
       <div ref="imgContainer"
         class="[&:hover_.arrow]:scale-100 relative flex aspect-square tablet:aspect-[0.9] w-full mb-5 desktop:mb-10 overflow-hidden">
         <div v-if="!data.draft || data.fallback"

@@ -35,7 +35,7 @@
         :class="isTransparent && !mobileExpanded ? 'text-white' : 'text-gray-darker'
           ">
         <div class="flex items-center justify-between py-3 tablet:py-2 desktop:py-0">
-          <CustomLink :url="'https://www.webo.agency/'" :activeClass="'none'" aria-label="Homepage" @click="
+          <CustomLink :url="'https://webo.agency/'" :activeClass="'none'" aria-label="Homepage" @click="
             [
               !isLargeScreen && mobileExpanded ? toggleMobile() : '',
               scrollToTop(),
@@ -98,7 +98,7 @@
       ? (setPopup(false), (popUpHover = false))
       : ((popUpActive = false), (popUpHover = false))
     ">
-              <CustomLink :url="item.link ? item.link : 'https://www.webo.agency/'" :activeClass="'none-temp'"
+              <CustomLink :url="item.link ? item.link : 'https://webo.agency/'" :activeClass="'none-temp'"
                 itemprop="url"
                 class="flex items-center justify-between p-3 mr-12 desktop:mr-0 hover:text-green-main transition duration-300 group"
                 :class="[
@@ -135,7 +135,7 @@
                     <li v-for="(item, index) in item.menu.links" :key="index"
                       itemprop="name"
                       class="py-2 pl-5 last:pb-3 last:border-b-2 last:border-gray-light last:border-solid">
-                      <CustomLink :url="item.link" :activeClass="item.link === 'https://www.webo.agency/' ? 'none' : ''" 
+                      <CustomLink :url="item.link" :activeClass="item.link === 'https://webo.agency/' ? 'none' : ''" 
                         itemprop="url"
                         class="flex flex-col py-2 text-gray-darker hover:text-green-main transition duration-300"
                         @click="!isLargeScreen ? toggleMobile() : ''">

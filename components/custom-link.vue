@@ -70,7 +70,7 @@ export default {
     urlFormatted() {
       let formattedUrl = this.url
         .replace(this.$config.API_URL, "")
-        .replace("https://www.webo.agency", "");
+        .replace("https://webo.agency", "");
         if (this.$route.path == '/kontakt' && formattedUrl == '/kontakt') {
           formattedUrl = "/kontakt#formularz"
         }
@@ -78,12 +78,12 @@ export default {
     },
     isExternalCheck() {
       var r = new RegExp("^(?:[a-z+]+:)?//", "i");
-      if (!this.url.includes("https://www.webo.agency")) {
+      if (!this.url.includes("https://webo.agency")) {
         return true;
       }
       var urlCheck = this.url
         .replace(this.$config.API_URL, "")
-        .replace("https://www.webo.agency", "");
+        .replace("https://webo.agency", "");
       if (r.test(urlCheck)) {
         console.log(this.url);
         return true;

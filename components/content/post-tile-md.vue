@@ -1,6 +1,6 @@
 <template>
     <CustomLink class="group flex flex-col w-full" :disabled="data.draft && !data.fallback" :activeClass="'none'"
-        :url="data.fallback ? data.fallback : (data.url ? data.url : 'https://www.webo.agency' + data._path)">
+        :url="data.fallback ? data.fallback : (data.url ? data.url : 'https://webo.agency' + data._path)">
         <div itemscope itemtype="https://schema.org/NewsArticle" class="flex items-end aspect-video w-full rounded-[5px] overflow-hidden mb-4 tablet:mb-6">
             <nuxt-picture class="h-full w-full object-cover group-hover:scale-[103%] transition-all duration-500"
                 v-if="data.image && data.image.url" :src="data.image.url" :title="data.image.title ? data.image.title : ''"

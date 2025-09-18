@@ -20,7 +20,7 @@ export default function formatNavItems(items: any[], depth: number) {
 
     let itemFormatted: navItem = {
       name: item.name,
-      link: item.link ? item.link : ((item.public === false || item.draft === true ) ? "" : `https://www.webo.agency${item._path}`),
+      link: item.link ? item.link : ((item.public === false || item.draft === true ) ? "" : `https://webo.agency${item._path}`),
       description: item.description,
       button: item.navButton ?? false,
     };
