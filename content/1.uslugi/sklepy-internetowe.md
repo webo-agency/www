@@ -8,8 +8,8 @@ showInNav: true
 draft: false
 public: true
 hreflangs:
-    EN: '/services/e-commerce'
-    PL: '/uslugi/sklepy-internetowe'
+    EN: '/services/e-commerce/'
+    PL: '/uslugi/sklepy-internetowe/'
 ---
 
 

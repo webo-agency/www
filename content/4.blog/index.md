@@ -2,8 +2,8 @@
 name: Blog
 showInNav: true
 hreflangs:
-    EN: '/blog'
-    PL: '/blog'
+    EN: '/blog/'
+    PL: '/blog/'
 sitemap:
   changefreq: daily
 ---

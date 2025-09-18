@@ -6,8 +6,8 @@ meta:
   description: Projektujemy aby korzystanie ze stron było proste, szybkie i intuicyjne. Tworzymy nieszablonowy design, pasujący do wizerunku firmy, w oparciu o najlepsze praktyki UX/UI.
 showInNav: true
 hreflangs:
-    EN: '/services/ux-ui-design'
-    PL: '/uslugi/projektowanie-ux-ui'
+    EN: '/services/ux-ui-design/'
+    PL: '/uslugi/projektowanie-ux-ui/'
 draft: false
 public: true
 ---

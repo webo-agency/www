@@ -8,8 +8,8 @@ showInNav: true
 draft: false
 public: true
 hreflangs:
-    EN: '/services/support-and-development'
-    PL: '/uslugi/wsparcie-i-rozwoj'
+    EN: '/services/support-and-development/'
+    PL: '/uslugi/wsparcie-i-rozwoj/'
 ---
 ::block-banner-md
 ---

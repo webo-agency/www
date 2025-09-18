@@ -6,8 +6,8 @@ category:
     - Design
 image.url: '/img/blog-images/webo_blog_ux.jpg'
 hreflangs:
-    EN: '/blog'
-    PL: '/blog/o-co-chodzi-w-tym-ux-i-dlaczego-to-takie-wazne'
+    EN: '/blog/'
+    PL: '/blog/o-co-chodzi-w-tym-ux-i-dlaczego-to-takie-wazne/'
 public: true
 draft: false
 ---

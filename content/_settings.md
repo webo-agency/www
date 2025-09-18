@@ -5,27 +5,27 @@ footer:
     servicesTitle: Usługi
     servicesMenu: 
         - title: E-commerce
-          link: https://www.webo.agency/uslugi/sklepy-internetowe
+          link: https://www.webo.agency/uslugi/sklepy-internetowe/
         - title: Strony www
-          link: https://www.webo.agency/uslugi/strony-internetowe
+          link: https://www.webo.agency/uslugi/strony-internetowe/
         - title: Aplikacje webowe
           link: ''
         - title: MVP
           link: ''
         - title: Wsparcie i rozwój sklepów
-          link: 'https://www.webo.agency/uslugi/wsparcie-i-rozwoj'
+          link: 'https://www.webo.agency/uslugi/wsparcie-i-rozwoj/'
         - title: Projektowanie UX/UI
-          link: 'https://www.webo.agency/uslugi/projektowanie-ux-ui'
+          link: 'https://www.webo.agency/uslugi/projektowanie-ux-ui/'
     brandTitle: Firma
     brandMenu: 
         - title: O nas
-          link: https://www.webo.agency/o-nas
+          link: https://www.webo.agency/o-nas/
         - title: Realizacje
-          link: https://www.webo.agency/realizacje
+          link: https://www.webo.agency/realizacje/
         - title: Opinie
           link: https://www.webo.agency/#opinie
         - title: Kontakt
-          link: https://www.webo.agency/kontakt
+          link: https://www.webo.agency/kontakt/
 general:
     lang: PL
     brandName: Webo agency

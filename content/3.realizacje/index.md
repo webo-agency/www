@@ -2,8 +2,8 @@
 name: Realizacje
 showInNav: true
 hreflangs:
-    EN: '/case-studies'
-    PL: '/realizacje'
+    EN: '/case-studies/'
+    PL: '/realizacje/'
 ---
 ::page-section-md
 ---

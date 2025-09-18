@@ -58,10 +58,11 @@ export default {
     documentDriven: true,
     experimental: {
       clientDb: false
-    }
+    },
   },
   site:{
-    url: 'https://www.webo.agency',
+    url: 'https://webo.agency',
+    trailingSlash: true
   },
   sitemap:{
     discoverImages: true,
@@ -157,8 +158,9 @@ export default {
       nuxtLink:{
         prefetchOn:{
           visibility: false,
-          interaction: true
-        }
+          interaction: true,
+        },
+        trailingSlash: 'append'
       }
     }
   },

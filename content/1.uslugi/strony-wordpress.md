@@ -8,8 +8,8 @@ showInNav: false
 draft: false
 public: true
 hreflangs:
-    EN: '/services/wordpress-websites'
-    PL: '/uslugi/strony-wordpress'
+    EN: '/services/wordpress-websites/'
+    PL: '/uslugi/strony-wordpress/'
 ---
 ::block-banner-md
 ---

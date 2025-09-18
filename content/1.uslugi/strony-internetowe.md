@@ -8,8 +8,8 @@ showInNav: true
 draft: false
 public: true
 hreflangs:
-    EN: '/services/websites'
-    PL: '/uslugi/strony-internetowe'
+    EN: '/services/websites/'
+    PL: '/uslugi/strony-internetowe/'
 ---
 ::block-banner-md
 ---

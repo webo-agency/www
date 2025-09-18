@@ -6,8 +6,8 @@ category:
     - Design
 image.url: '/img/blog-images/webo_blog_design_system.jpg'
 hreflangs:
-    EN: '/blog'
-    PL: '/blog/czym-jest-design-system-i-dlaczego-warto-w-niego-zainwestowac'
+    EN: '/blog/'
+    PL: '/blog/czym-jest-design-system-i-dlaczego-warto-w-niego-zainwestowac/'
 public: true
 draft: false
 ---

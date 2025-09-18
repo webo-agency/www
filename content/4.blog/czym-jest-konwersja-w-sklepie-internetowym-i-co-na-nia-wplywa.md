@@ -6,8 +6,8 @@ category:
     - Technologia
 image.url: '/img/blog-images/webo_blog_conversion.jpg'
 hreflangs:
-    EN: '/blog'
-    PL: '/blog/czym-jest-konwersja-w-sklepie-internetowym-i-co-na-nia-wplywa'
+    EN: '/blog/'
+    PL: '/blog/czym-jest-konwersja-w-sklepie-internetowym-i-co-na-nia-wplywa/'
 public: true
 draft: false
 ---

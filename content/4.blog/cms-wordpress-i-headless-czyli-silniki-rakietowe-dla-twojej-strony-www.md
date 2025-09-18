@@ -6,8 +6,8 @@ category:
     - Technologia
 image.url: '/img/blog-images/webo_blog_headless_wp.jpg'
 hreflangs:
-    EN: '/blog'
-    PL: '/blog/cms-wordpress-i-headless-czyli-silniki-rakietowe-dla-twojej-strony-www'
+    EN: '/blog/'
+    PL: '/blog/cms-wordpress-i-headless-czyli-silniki-rakietowe-dla-twojej-strony-www/'
 public: true
 draft: false
 ---

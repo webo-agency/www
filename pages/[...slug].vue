@@ -43,17 +43,29 @@ onMounted(()=>{
   }
 })
 
+const siteConfig = useSiteConfig()
+
 const hrefLangs = computed(() => getPageLangs(pageData?.value?.hreflangs));
 const hrefLangsState = useState("hrefLangs" + route.fullPath.split('#')[0], () => hrefLangs.value);
+const canonical = computed(()=>
+  siteConfig.url + route.path
+)
 
-const alternateLinks = computed(() => {
-  return hrefLangs.value.map(lang => {
+const headLinks = computed(() => {
+  const canonicalLink = {
+    hid: 'canonical',
+    rel: 'canonical',
+    href: canonical.value
+  }
+  const hrefs =  hrefLangs.value.map(lang => {
     return {
       rel: 'alternate',
       href: lang.href,
       hreflang: lang.hreflang,
     }
   })
+
+  return [canonicalLink,...hrefs]
 })
 
 const img = useImage()
@@ -81,7 +93,7 @@ const headData = computed(() => {
 useSeoMeta(headData.value);
 
 useHead({
-  link: alternateLinks,
+  link: headLinks,
 })
 
 </script>
