@@ -69,18 +69,13 @@ export default {
     autoLastmod: true,
   },
   image: {
-    provider: "ipxStatic",
+    provider: "ipx",
     format: ["webp"],
     ipx: {
       modifiers: {
-        quality: "95",
+        quality: "90",
         format: ["webp"],
       },
-    },
-  },
-  imagemin:{
-    webp: {
-      quality: 95,
     },
   },
   bugsnag: {

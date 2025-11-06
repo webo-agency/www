@@ -7,7 +7,7 @@
         <div
           itemscope itemtype="https://schema.org/Organization"
           class="flex flex-col pb-20 bg-contain tablet:bg-auto bg-no-repeat bg-right-bottom"
-          style="background-image: url(./img/bg_logo_slice_2.png)"
+          style="background-image: url(/img/bg_logo_slice_2.png)"
         >
           <div class="flex flex-col tablet:flex-row mb-10">
             <div
