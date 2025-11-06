@@ -41,7 +41,7 @@ export default {
     'nuxt-simple-sitemap',
     "@vite-pwa/nuxt",
     "nuxt-vitalizer",
-    "@nuxtjs/google-fonts"
+    "@nuxtjs/google-fonts",
   ],
   googleFonts: {
     download: true,
@@ -69,12 +69,18 @@ export default {
     autoLastmod: true,
   },
   image: {
-    provider: "ipx",
+    provider: "ipxStatic",
+    format: ["webp"],
     ipx: {
       modifiers: {
         quality: "95",
-        format: "webp",
+        format: ["webp"],
       },
+    },
+  },
+  imagemin:{
+    webp: {
+      quality: 95,
     },
   },
   bugsnag: {

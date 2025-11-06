@@ -25,7 +25,7 @@ class: mb-10 tablet:mb-20 mt-[100px] tablet:mt-[200px]
 class: mx-default [&_h2]:text-[26px] [&_h2]:tablet:text-4xl [&_h2]:desktop:text-5xl
 logoUrl: '/img/logos/mancraft2.png'
 link: 'https://shop-mancraft.com/pl/'
-maxWidth: 100%
+maxWidth: 1200
 ---
 
 #title
