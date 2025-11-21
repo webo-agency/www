@@ -69,6 +69,16 @@ useHead({
   ],
   script: [
     // { src: `https://polyfill.io/v3/polyfill.min.js?features=${features}&flags=gated`, body: true, async: true, defer: true  },
+    {
+      innerHTML: 'window._nQc="89604923";', 
+      type: 'text/javascript',
+      body: true,
+    },
+    {
+      src: 'https://serve.albacross.com/track.js',
+      async: true, 
+      body: true,
+    },
   ],
   link: [
     {
