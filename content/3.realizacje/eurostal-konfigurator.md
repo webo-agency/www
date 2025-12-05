@@ -9,7 +9,7 @@ technologies:
 image.url: '/img/case-studies/Eurostal-bg.png'
 logo.url: '/img/logos/Eurostal.png'
 tile_hidden: false
-tile_order: 2
+tile_order: 3
 public: true
 ---
 

@@ -10,7 +10,7 @@ technologies:
 image.url: '/img/case-studies/velair-bg.png'
 logo.url: '/img/logos/velair.png'
 tile_hidden: false
-tile_order: 2
+tile_order: 5
 public: true
 ---
 

@@ -205,6 +205,11 @@ class: mb-[100px] tablet:mb-20
 contentFolder: realizacje
 moreBtn.url: 'https://webo.agency/realizacje'
 moreBtn.linktitle: Zobacz wszystkie projekty
+selectedSlugs:
+    - velair
+    - isw
+    - wallsociety
+    - thoro
 ---
 
 :::
