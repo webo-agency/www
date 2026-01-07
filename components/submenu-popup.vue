@@ -47,7 +47,7 @@
           </div>
           <ul
             v-if="data && data.links"
-            class="flex flex-wrap items-start desktop-wide:gap-8 fullHd:gap-12 w-2/3 desktop-wide:w-3/5"
+            class="flex flex-wrap items-start gap-1 fullHd:gap-6 w-2/3 desktop-wide:w-3/5"
           >
             <li
               v-for="item in data.links"
