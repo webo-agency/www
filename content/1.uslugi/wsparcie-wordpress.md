@@ -188,7 +188,7 @@ center: true
 
 ::::block-columns-1-1-md
 ---
-class: mb-16
+class: mb-16 [&_.left]:flex [&_.left]:items-center
 ---
 
 #left
@@ -226,11 +226,22 @@ Nasze doświadczenie techniczne wyróżnia nas na tle wielu firm, które oferuj�
 
 #right
 :::::effect-appear-md
+---
+class: relative
+---
+
+::::::img-decorated-md
+---
+imgUrl: '/img/content-images/wsparcie-wordpress/decor-square.svg'
+decoration: false
+class: mx-auto !mb-0 !p-0 !w-[100px] tablet:!w-[100px] h-[100px] !absolute !bottom-[-50px] tablet:!bottom-[20px] right-[-10px] tablet:!right-[-50px]
+---
+::::::
 ::::::img-decorated-md
 ---
 imgUrl: '/img/content-images/wsparcie-wordpress/support-wordpress-img3.webp'
 decoration: false
-class: w-full
+class: w-full z-0
 ---
 
 ::::::
@@ -240,17 +251,28 @@ class: w-full
 ::::block-columns-1-1-md
 ---
 reverseMobile: true
-class: mb-16
+class: mb-16 [&_.right]:flex [&_.right]:items-center
 ---
 
 #left
 
 :::::effect-appear-md
+---
+class: relative
+---
+
+::::::img-decorated-md
+---
+imgUrl: '/img/content-images/wsparcie-wordpress/decor-circle.svg'
+decoration: false
+class: mx-auto !mb-0 !p-0 hidden tablet:!block !w-[122px] tablet:!w-[122px] h-[122px] !absolute !top-[-50px] tablet:!top-[120px] left-[-10px] tablet:!left-[-70px] z-0
+---
+::::::
 ::::::img-decorated-md
 ---
 imgUrl: '/img/content-images/wsparcie-wordpress/support-wordpress-img4.webp'
 decoration: false
-class: w-full
+class: w-full z-10
 ---
 
 ::::::
@@ -290,6 +312,9 @@ W ramach wsparcia technicznego WordPress zapewniamy realną pomoc - nie odsyłam
 ::::
 
 ::::block-columns-1-1-md
+---
+class: mb-0 [&_.left]:flex [&_.left]:items-center
+---
 
 #left
 
@@ -339,12 +364,23 @@ class: w-full
 ::::block-columns-1-1-md
 ---
 reverseMobile: true
-class: mb-16
+class: mb-16 [&_.right]:flex [&_.right]:items-center
 ---
 
 #left
 
 :::::effect-appear-md
+---
+class: relative
+---
+
+::::::img-decorated-md
+---
+imgUrl: '/img/content-images/wsparcie-wordpress/decor-circle.svg'
+decoration: false
+class: mx-auto !mb-0 !p-0 hidden tablet:!block !w-[122px] tablet:!w-[122px] h-[122px] !absolute !top-[-50px] tablet:!top-[120px] left-[-10px] tablet:!left-[-70px] z-0
+---
+::::::
 ::::::img-decorated-md
 ---
 imgUrl: '/img/content-images/wsparcie-wordpress/support-wordpress-img6.webp'
@@ -436,13 +472,17 @@ maxWidth: 480
 
 #right
 ::::effect-appear-md
+---
+class: h-full flex items-center
+---
+
 **Administracja WordPress** to nie tylko aktualizacje i usuwanie błędów. To całościowa opieka nad stroną, która obejmuje:
 ::::
 :::
 
 :::block-columns-1-1-1-md
 ---
-class: mb-10 tablet:mb-20
+class: mb-10 tablet:mb-20 gap-[30px]
 ---
 
 #left
@@ -731,8 +771,8 @@ contentFolder: realizacje
 moreBtn.url: 'https://webo.agency/realizacje'
 moreBtn.linktitle: Zobacz wszystkie projekty
 selectedSlugs:
-    - velair
-    - feeby
+    - get-sales
+    - isw
 ---
 
 :::

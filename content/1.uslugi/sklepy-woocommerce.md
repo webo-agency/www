@@ -181,6 +181,9 @@ maxWidth: 480
 
 #right
 ::::effect-appear-md
+---
+class: h-full flex items-center
+---
 WooCommerce to elastyczne i ekonomiczne rozwiązanie e-commerce oparte na WordPressie. Oferuje:
 ::::
 :::
@@ -288,7 +291,7 @@ class: relative z-20
 ::::block-columns-1-1-md
 ---
 reverseMobile: true
-class: mb-16
+class: mb-16 [&_.right]:flex [&_.right]:items-center
 ---
 
 #left
@@ -480,6 +483,9 @@ maxWidth: 480
 
 #right
 ::::effect-appear-md
+---
+class: h-full flex items-center
+---
 Do stworzenia nowoczesnego sklepu internetowego potrzebne jest połączenie wiedzy technologicznej, projektowania nastawionego na użytkownika oraz sprawdzonego procesu, który gwarantuje terminową realizację i kontrolę budżetu.
 ::::
 :::
@@ -703,7 +709,7 @@ class: mb-20
 
 :::block-columns-1-1-1-md
 ---
-class: mb-10 tablet:mb-20
+class: mb-10 tablet:mb-20 gap-[30px]
 ---
 
 #left
@@ -960,8 +966,8 @@ contentFolder: realizacje
 moreBtn.url: 'https://webo.agency/realizacje'
 moreBtn.linktitle: Zobacz wszystkie projekty
 selectedSlugs:
+    - mutiny-group
     - velair
-    - feeby
 ---
 
 :::

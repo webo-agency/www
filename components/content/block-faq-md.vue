@@ -14,6 +14,22 @@
 
 <script>
 export default {
-  name: "BlockFaqMd"
+  name: "BlockFaqMd",
+  provide() {
+    return {
+      faqActiveItem: () => this.activeItem,
+      faqHandleClick: this.handleItemClicked
+    };
+  },
+  data() {
+    return {
+      activeItem: null
+    };
+  },
+  methods: {
+    handleItemClicked(itemId) {
+      this.activeItem = this.activeItem === itemId ? null : itemId;
+    }
+  }
 };
 </script>

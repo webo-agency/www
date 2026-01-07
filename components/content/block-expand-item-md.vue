@@ -50,13 +50,22 @@ export default {
         const { width: screenWidth } = useWindowSize()        
         return { screenWidth }
     },
+    inject: {
+        faqActiveItem: { default: () => () => null },
+        faqHandleClick: { default: () => () => {} }
+    },
     props:{
         number: Number
     },
     data(){
         return {
-            isExpanded: false,
-            containerHeight: 0
+            containerHeight: 0,
+            itemId: this.number || `item-${Math.random().toString(36).substr(2, 9)}`
+        }
+    },
+    computed: {
+        isExpanded() {
+            return this.faqActiveItem() === this.itemId
         }
     },
     watch:{
@@ -64,17 +73,20 @@ export default {
             if (this.isExpanded) {
                 this.setContainerHeight()
             }
+        },
+        isExpanded(newVal) {
+            if (newVal) {
+                this.$nextTick(() => {
+                    this.setContainerHeight()
+                })
+            } else {
+                this.containerHeight = 0
+            }
         }
     },
     methods:{
         toggleExpand(){
-            this.isExpanded = !this.isExpanded
-            
-            if (this.isExpanded) {
-                this.setContainerHeight()
-            }else{
-                this.containerHeight = 0
-            }
+            this.faqHandleClick(this.itemId)
         },
         setContainerHeight(){
             const container = this.$refs['descriptionContainer']
