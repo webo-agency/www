@@ -384,46 +384,46 @@ którą łatwo rozbudować, gdy potrzebujesz nowych funkcji, wersji językowych 
 
 :::::tile-dark-icon-md
 ---
-iconUrl: '/img/icons/architecture.svg'
+iconUrl: '/img/icons/secure4.svg'
 delay: 3
 class:  desktop:min-h-[270px] tablet:!w-[30%]
 ---
 
 #title
-#### Stabilną i elastyczną architekturę
+#### Bezpieczeństwo wynikające z własnego kodu i nowoczesnych technologii
 
 #description
-którą łatwo rozbudować, gdy potrzebujesz nowych funkcji, wersji językowych czy integracji.
+zamiast ryzyka związanego z masowymi motywami.
 
 :::::
 
 :::::tile-dark-icon-md
 ---
-iconUrl: '/img/icons/architecture.svg'
+iconUrl: '/img/icons/speed2.svg'
 delay: 4
 class:  desktop:min-h-[270px] tablet:!w-[30%]
 ---
 
 #title
-#### Stabilną i elastyczną architekturę
+#### Wyższą wydajność i krótszy czas ładowania
 
 #description
-którą łatwo rozbudować, gdy potrzebujesz nowych funkcji, wersji językowych czy integracji.
+które bezpośrednio zwiększają konwersję i komfort użytkownika.
 
 :::::
 
 :::::tile-dark-icon-md
 ---
-iconUrl: '/img/icons/architecture.svg'
+iconUrl: '/img/icons/adjustments.svg'
 delay: 5
 class:  desktop:min-h-[270px] tablet:!w-[30%]
 ---
 
 #title
-#### Stabilną i elastyczną architekturę
+#### Brak zależności od gotowych szablonów
 
 #description
-którą łatwo rozbudować, gdy potrzebujesz nowych funkcji, wersji językowych czy integracji.
+co eliminuje problemy z aktualizacjami, kompatybilnością i błędami.
 
 :::::
 ::::
