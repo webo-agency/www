@@ -1,9 +1,9 @@
 ---
 name: Sklepy WooCommerce
-description: Łatwe w obsłudze sklepy internetowe z płynnym procesem sprzedaży.
+description: Sklepy WooCommerce z pełną integracją i wsparciem.
 meta:
-  title: Wydajne sklepy internetowe B2B i B2C
-  description: Projektujemy i wdrażamy świetnie wyglądające i intuicyjne sklepy internetowe z płynnym procesem zakupowym oraz wieloma integracjami, przygotowane do dalszego rozwoju i ekspansji.
+  title: Tworzenie sklepów internetowych WooCommerce -  Webo.pl
+  description: Sklepy WooCommerce z pełną integracją i wsparciem. Uruchom sprzedaż online bez komplikacji - sprawdź ofertę!
 showInNav: true
 draft: false
 public: true

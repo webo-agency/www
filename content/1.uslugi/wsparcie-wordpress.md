@@ -1,9 +1,9 @@
 ---
 name: Wsparcie Wordpress
-description: Łatwe w obsłudze sklepy internetowe z płynnym procesem sprzedaży.
+description: Wsparcie techniczne WordPresss - pomoc i obsługa
 meta:
-  title: Wydajne sklepy internetowe B2B i B2C
-  description: Projektujemy i wdrażamy świetnie wyglądające i intuicyjne sklepy internetowe z płynnym procesem zakupowym oraz wieloma integracjami, przygotowane do dalszego rozwoju i ekspansji.
+  title: Wsparcie techniczne WordPresss - pomoc i obsługa -  Webo.pl
+  description: Pomagamy w aktualizacjach, kopiach zapasowych i błędach. Skorzystaj ze wsparcia WordPress - szybko i bezpiecznie!
 showInNav: true
 draft: false
 public: true

@@ -3,7 +3,7 @@
     class="relative w-full z-10 transition-all rounded-[5px] duration-300 overflow-hidden"
     :class="
       active
-        ? 'h-[370px] filter blur-0 brightness-100 contrast-100 grayscale-0 hue-rotate-0 saturate-100 invert-0 sepia-0 drop-shadow-[0_20px_25px_rgba(66,66,66,0.2)]'
+        ? 'h-[560px] filter blur-0 brightness-100 contrast-100 grayscale-0 hue-rotate-0 saturate-100 invert-0 sepia-0 drop-shadow-[0_20px_25px_rgba(66,66,66,0.2)]'
         : 'h-[0px] pointer-events-none'
     "
   >
@@ -47,7 +47,7 @@
           </div>
           <ul
             v-if="data && data.links"
-            class="flex flex-wrap items-start justify-between w-2/3 desktop-wide:w-3/5"
+            class="flex flex-wrap items-start desktop-wide:gap-8 fullHd:gap-12 w-2/3 desktop-wide:w-3/5"
           >
             <li
               v-for="item in data.links"
