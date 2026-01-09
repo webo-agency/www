@@ -90,7 +90,7 @@
                 :class="item.type === 'button'
                   ? 'relative w-full desktop:w-auto bg-green-main hover:bg-green-mainHover text-gray-darker transition duration-300 pl-9 pr-6 desktop:px-5 py-5 desktop:py-3 rounded-full'
                   : 'pl-0 p-[18px] desktop:p-3 hover:text-green-main border-b border-b-black/10 desktop:border-none'"
-                @click="handleMenuItemClick(item)"
+                @click="handleMenuClick()"
               >
                 <div
                   class="prose uppercase"
@@ -131,7 +131,7 @@
                       <CustomLink
                         :url="subItem.link"
                         class="flex items-center text-lg uppercase py-[18px] pr-10 text-gray-darker hover:text-green-main transition duration-300"
-                        @click="handleSubMenuClick"
+                        @click="handleMenuClick"
                       >
                         <span class="w-2.5 h-[5px] mx-2.5 rounded-full bg-green-main"></span>
                         <div itemprop="name">{{ subItem.title }}</div>
@@ -154,7 +154,7 @@
                               <CustomLink
                                 :url="subItemDeep.link"
                                 class="flex items-center text-base py-4 pl-8 text-gray-darker hover:text-green-main transition duration-300 "
-                                @click="handleSubMenuClick"
+                                @click="handleMenuClick"
                               >
                                 <div itemprop="name">{{ subItemDeep.title }}</div>
                               </CustomLink>
@@ -273,10 +273,7 @@ const handleMenuItemLeave = () => {
   }, 400);
 };
 
-const handleMenuItemClick = (item) => {
-  if (!isLargeScreen.value && !item.items) toggleMobile();
-};
-const handleSubMenuClick = () => { if (!isLargeScreen.value) toggleMobile(); };
+const handleMenuClick = () => { if (!isLargeScreen.value) toggleMobile(); };
 const popupReset = () => { 
   popUpData.value = null
   popUpActive.value = false;
