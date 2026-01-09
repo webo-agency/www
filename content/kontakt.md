@@ -1,7 +1,4 @@
 ---
-name: Napisz do nas
-showInNav: true
-navButton: true
 hreflangs:
     EN: '/contact/'
     PL: '/kontakt/'

@@ -1,4 +1,71 @@
 ---
+nav:
+  - title: Usługi
+    link: https://webo.agency/#uslugi
+    items:
+    - title: Strony www
+      link: https://webo.agency/uslugi/strony-internetowe/
+      items:
+        - title: Strony WordPress
+          link: ''       
+        - title: Programowanie WordPress
+          link: ''       
+        - title: Strony HeadplessPWA
+          link: ''       
+        - title: Tworzenie landing page
+          link: ''       
+        - title: Wsparcie WordPress
+          link: ''       
+    - title: Sklepy internetowe
+      link: https://webo.agency/uslugi/sklepy-internetowe/
+      items:
+        - title: Sklep WooCommerce
+          link: ''       
+        - title: Sklep Prestashop
+          link: ''       
+        - title: Konfiguratory produktów
+          link: ''       
+        - title: Wsparcie i rozwój sklepów
+          link: 'https://webo.agency/uslugi/wsparcie-i-rozwoj/'       
+    - title: Projektowanie UX/UI
+      link: 'https://webo.agency/uslugi/projektowanie-ux-ui/'
+    - title: Technologie
+      link: ''
+      type: 'section'
+      items:
+          - icon: '/img/icons/js-black.svg'
+            name: JavaScript
+          - icon: '/img/icons/typescript-black.svg'
+            name: TypeScript
+          - icon: '/img/icons/tailwind-black.svg'
+            name: Tailwind
+          - icon: '/img/icons/threejs-black.svg'
+            name: ThreeJS
+          - icon: '/img/icons/php-black.svg'
+            name: PHP
+          - icon: '/img/icons/symfony-black.svg'
+            name: Symfony
+          - icon: '/img/icons/nuxt-black.svg'
+            name: Nuxt
+          - icon: '/img/icons/vue-black.svg'
+            name: Vue.js
+          - icon: '/img/icons/nodejs-black.svg'
+            name: NodeJS
+          - icon: '/img/icons/git-black.svg'
+            name: Git
+          - icon: '/img/icons/restapi-black.svg'
+            name: RestApi
+          - icon: '/img/icons/cloudflare-black.svg'
+            name: Cloudflare
+  - title: O nas
+    link: https://webo.agency/o-nas
+  - title: Realizacje
+    link: https://webo.agency/realizacje
+  - title: Blog
+    link: https://webo.agency/blog
+  - title: Napisz do nas
+    link: https://webo.agency/kontakt
+    type: 'button'
 footer:
     privacyPolicyLink: https://webo.agency/polityka-prywatnosci
     privacyPolicyTitle: Polityka prywatności
@@ -39,8 +106,6 @@ general:
     socials:
         - type: facebook
           link: https://facebook.com/meet.webo/
-        - type: instagram
-          link: https://www.instagram.com/weboagency/
         - type: linkedin
           link: https://www.linkedin.com/company/webo-agency/
         - type: behance

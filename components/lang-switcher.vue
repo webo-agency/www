@@ -3,7 +3,7 @@
     @click="!isDesktop ? toggleExpand() : null" 
     @mouseenter="isDesktop ? toggleExpand(true) : null" 
     @mouseleave="isDesktop ? toggleExpand(false) : null">
-    <div class="flex gap-2.5 items-center py-3 desktop:p-3 cursor-pointer">
+    <div class="flex gap-2.5 items-center py-[30px] desktop:p-3 cursor-pointer">
       <span
         class="shrink-0 block text-inherit text-lg desktop:text-base font-semibold transition duration-300 group-hover:text-green-main"
         >{{ currLang }}</span
@@ -14,13 +14,13 @@
     </div>
     
     <div
-      class="desktop:absolute z-10 desktop:left-1/2 -translate-y-5 desktop:translate-y-0 desktop:-translate-x-1/2 desktop:top-0 desktop:pt-[96px] opacity-0 pointer-events-none transition duration-300"
+      class="absolute z-10 left-1/2 translate-y-0 -translate-x-1/2 top-0 pt-[70px] desktop:pt-[96px] opacity-0 pointer-events-none transition duration-300"
       :class="{'translate-y-0 pointer-events-auto opacity-100':isExpanded}"
     >
-    <div class="relative filter blur-0 brightness-100 contrast-100 grayscale-0 hue-rotate-0 saturate-100 invert-0 sepia-0 desktop:drop-shadow-[0_20px_25px_rgba(66,66,66,0.2)]">
-        <div class="hidden desktop:block absolute top-[-11px] left-1/2 -translate-x-1/2 w-6 h-6 bg-white rotate-45 rounded-[3px] transition-all duration-200 translate-y-4"
+    <div class="relative filter blur-0 brightness-100 contrast-100 grayscale-0 hue-rotate-0 saturate-100 invert-0 sepia-0 drop-shadow-[0_20px_25px_rgba(66,66,66,0.2)]">
+        <div class="block absolute top-[-11px] left-1/2 -translate-x-1/2 w-6 h-6 bg-white rotate-45 rounded-[3px] transition-all duration-200 translate-y-4"
         :class="{'!translate-y-0':isExpanded}"></div>
-        <ul class="desktop:bg-white overflow-hidden rounded-b-[5px] relative z-20">
+        <ul class="bg-white overflow-hidden rounded-b-[5px] relative z-20">
           <li v-for="lang in langList">
             <input
               v-model="currLang"
@@ -32,7 +32,7 @@
             />
             <label
               :for="`lang-${lang}`"
-              class="block font-semibold text-gray-darker px-5 py-3 hover:text-green-main desktop:hover:text-gray-darker desktop:hover:bg-gray-default transition duration-200 cursor-pointer"
+              class="block font-semibold text-gray-darker px-5 py-3 hover:text-gray-darker hover:bg-gray-default transition duration-200 cursor-pointer"
               >{{ lang }}</label
             >
           </li>

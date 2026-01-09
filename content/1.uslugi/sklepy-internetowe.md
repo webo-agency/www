@@ -1,10 +1,7 @@
 ---
-name: Sklepy internetowe
-description: Łatwe w obsłudze sklepy internetowe z płynnym procesem sprzedaży.
 meta:
   title: Wydajne sklepy internetowe B2B i B2C
   description: Projektujemy i wdrażamy świetnie wyglądające i intuicyjne sklepy internetowe z płynnym procesem zakupowym oraz wieloma integracjami, przygotowane do dalszego rozwoju i ekspansji.
-showInNav: true
 draft: false
 public: true
 hreflangs:

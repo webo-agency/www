@@ -1,10 +1,7 @@
 ---
-name: Wsparcie Wordpress
-description: Wsparcie techniczne WordPresss - pomoc i obsługa
 meta:
   title: Wsparcie techniczne WordPresss - pomoc i obsługa -  Webo.pl
   description: Pomagamy w aktualizacjach, kopiach zapasowych i błędach. Skorzystaj ze wsparcia WordPress - szybko i bezpiecznie!
-showInNav: true
 draft: false
 public: true
 hreflangs:

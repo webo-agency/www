@@ -1,6 +1,4 @@
 ---
-name: Blog
-showInNav: true
 hreflangs:
     EN: '/blog/'
     PL: '/blog/'

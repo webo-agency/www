@@ -1,6 +1,4 @@
 ---
-name: Realizacje
-showInNav: true
 hreflangs:
     EN: '/case-studies/'
     PL: '/realizacje/'

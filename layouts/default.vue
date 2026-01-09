@@ -2,7 +2,7 @@
   <NuxtPwaManifest />
   <div class="h-full font-body">
     <LayoutNavbar
-      :menu="navItems"
+      :menu="settings.nav"
       :socials="generalData.socials"
       :clutchLink="generalData.clutchLink"
     />
@@ -42,14 +42,6 @@
 <script setup>
 const { data: settings } = await useAsyncData('settings',() =>
   queryContent().where({ _file: "_settings.md" }).findOne()
-);
-const { data: navItems } = await useAsyncData('navData',() =>
-  queryContent().where({ showInNav: true }).find(),
-  {
-    transform(data){
-      return formatNavItems(data,0)
-    }
-  }
 );
 
 const footerData = settings.value.footer;

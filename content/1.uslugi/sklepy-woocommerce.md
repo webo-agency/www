@@ -1,10 +1,7 @@
 ---
-name: Sklepy WooCommerce
-description: Sklepy WooCommerce z pełną integracją i wsparciem.
 meta:
   title: Tworzenie sklepów internetowych WooCommerce -  Webo.pl
   description: Sklepy WooCommerce z pełną integracją i wsparciem. Uruchom sprzedaż online bez komplikacji - sprawdź ofertę!
-showInNav: true
 draft: false
 public: true
 hreflangs:

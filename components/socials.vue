@@ -8,7 +8,7 @@
         class="flex justify-center items-center w-10 h-10 py-2 px-1 rounded-[5px]"
         :class="
           invertColors
-            ? 'border-gray-dark border-2 text-gray-dark'
+            ? 'bg-black/5 text-gray-dark'
             : 'bg-gradient-to-b from-gray-darker/50 before:content-[``] before:w-full before:h-full before:bg-black before:absolute before:top-0 before:left-0 before:z-[-1] text-white'
         "
       >
