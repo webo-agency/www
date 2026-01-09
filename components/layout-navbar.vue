@@ -82,6 +82,7 @@
               @mouseover="handleMenuItemHover(item)"
               @mouseleave="handleMenuItemLeave(item)"
             >
+            <div class="border-b border-b-black/10 desktop:border-none">
               <CustomLink
                 :url="item.link"
                 :active-class="'none-temp'"
@@ -89,7 +90,7 @@
                 class="flex items-center justify-between desktop:mr-0 transition duration-300 group"
                 :class="item.type === 'button'
                   ? 'relative w-full desktop:w-auto bg-green-main hover:bg-green-mainHover text-gray-darker transition duration-300 pl-9 pr-6 desktop:px-5 py-5 desktop:py-3 rounded-full'
-                  : 'pl-0 p-[18px] desktop:p-3 hover:text-green-main border-b border-b-black/10 desktop:border-none'"
+                  : 'pl-0 p-[18px] desktop:p-3 w-fit hover:text-green-main'"
                 @click="handleMenuClick()"
               >
                 <div
@@ -108,6 +109,7 @@
                   class="h-0.5 w-[14px] ml-3 mt-0.5 bg-current z-10 group-hover:translate-x-1 transition-transform duration-200"
                 />
               </CustomLink>
+            </div>
 
               <div
                 v-if="item.items"
@@ -115,7 +117,7 @@
                 class="relative transition duration-300"
               >
                 <div
-                  class="absolute right-0 desktop:right-2 z-20 top-[-50px] desktop:top-[-46px] w-10 h-10 flex justify-center items-center text-gray-darker desktop:text-current"
+                  class="absolute right-0 desktop:right-2 z-20 top-[-60px] desktop:top-[-46px] w-14 h-14 desktop:w-10 desktop:h-10 flex justify-center items-center text-gray-darker desktop:text-current"
                   @click.stop="toggleAccordion"
                 >
                   <svg class="desktop:hidden" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -138,7 +140,7 @@
                       </CustomLink>
                       <div v-if="subItem.items || subItem.type == 'section'" data-collapsed="true" class="relative transition duration-300">
                         <div
-                          class="absolute right-0 desktop:right-2 z-20 top-[-50px] desktop:top-[-46px] w-10 h-10 flex justify-center items-center desktop:pointer-events-none text-gray-darker desktop:text-inherit"
+                          class="absolute right-0 desktop:right-2 z-20 top-[-60px] desktop:top-[-46px] w-14 h-14 desktop:w-10 desktop:h-10 flex justify-center items-center desktop:pointer-events-none text-gray-darker desktop:text-inherit"
                           @click.stop="toggleAccordion"
                         >
                           <svg class="desktop:hidden" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -204,7 +206,6 @@ const props = defineProps({
 });
 
 const route = useRoute();
-const isTransparent = ref(true);
 const isLargeScreen = ref(true);
 const mobileExpanded = ref(false);
 const mobileExpandedVisible = ref(false);
@@ -296,9 +297,10 @@ const getLangSwitcherStyle = computed(() => ({
 const onWidthChange = () => { isLargeScreen.value = window.innerWidth >= 1248; };
 
 watch(isLargeScreen, (val) => { if (val) mobileExpanded.value = false; });
-watch([scrollY, isHomePage], () => {
-  isTransparent.value = scrollY.value < 170 && isHomePage.value;
-}, { immediate: true });
+
+const isTransparent = computed(()=>{
+  return !popUpActive.value && scrollY.value < 170 && isHomePage.value
+})
 
 onMounted(() => {
   onWidthChange();
