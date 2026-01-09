@@ -181,8 +181,8 @@
       </div>
 
       <div class="hidden desktop:block absolute top-full inset-x-0 w-full z-0 bg-green-gray"
-        @mouseover="popUpHover = true" @mouseleave="handlePopupLeave">
-        <SubmenuPopup :active="popUpActive" :name="hoverItem" :data="popUpData" @link-clicked="hardClosePopup" />
+        @mouseover="popUpHover = true" @mouseleave="popupReset">
+        <SubmenuPopup :active="popUpActive" :name="hoverItem" :data="popUpData" @link-clicked="popupReset" />
       </div>
     </div>
   </nav>
@@ -268,10 +268,7 @@ const handleMenuItemLeave = () => {
   popUpHover.value = false;
   setTimeout(() => {
     if (!popUpHover.value) {
-      popUpData.value = null
-      popUpActive.value = false;
-      popUpHover.value = false;
-      hoverItem.value = '';
+      popupReset()
     }
   }, 400);
 };
@@ -280,8 +277,12 @@ const handleMenuItemClick = (item) => {
   if (!isLargeScreen.value && !item.items) toggleMobile();
 };
 const handleSubMenuClick = () => { if (!isLargeScreen.value) toggleMobile(); };
-const handlePopupLeave = () => { popUpHover.value = false; popUpActive.value = false; };
-const hardClosePopup = () => { popUpActive.value = false; };
+const popupReset = () => { 
+  popUpData.value = null
+  popUpActive.value = false;
+  popUpHover.value = false;
+  hoverItem.value = '';
+};
 
 const handleTransitionStart = () => { if (mobileExpanded.value) mobileExpandedVisible.value = true; };
 const handleTransitionEnd = () => { if (!mobileExpanded.value) mobileExpandedVisible.value = false; };
