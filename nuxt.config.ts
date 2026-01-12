@@ -138,7 +138,13 @@ export default {
     },
     strategies: "generateSW",
     workbox: {
-      globPatterns: ["**/*.{js,css,html,png,svg,ico}"],
+      globPatterns: [
+        "**/*.{js,css,html,png,svg,ico,json}",
+        "**/_payload.json"
+      ],
+      skipWaiting: true,
+      cleanupOutdatedCaches: true,
+      ignoreURLParametersMatching: [/^.*/],
       maximumFileSizeToCacheInBytes: 4000000,
       navigateFallback: null,
     },

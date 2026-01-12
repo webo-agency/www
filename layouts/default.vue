@@ -1,6 +1,6 @@
 <template>
   <NuxtPwaManifest />
-  <div class="h-full font-body">
+  <div v-if="settings" class="h-full font-body">
     <LayoutNavbar
       :menu="settings.nav"
       :socials="generalData.socials"
@@ -44,10 +44,10 @@ const { data: settings } = await useAsyncData('settings',() =>
   queryContent().where({ _file: "_settings.md" }).findOne()
 );
 
-const footerData = settings.value.footer;
-const generalData = settings.value.general;
+const footerData = settings.value?.footer;
+const generalData = settings.value?.general;
 
-const currLang = useState("lang", () => generalData.lang ?? "EN");
+const currLang = useState("lang", () => generalData?.lang ?? "EN");
 
 useHead({
   htmlAttrs: {
