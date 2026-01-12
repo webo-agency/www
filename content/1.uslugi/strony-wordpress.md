@@ -1,7 +1,7 @@
 ---
 meta:
-  title: Stworzymy stronę internetową Wordpress dla Twojej firmy
-  description: Szukasz doświadczonego zespołu od Wordpressa, który zaprojektuje i zakoduje Twoją stronę od podstaw? Dobrze trafiłeś!
+  title: Tworzenie stron WordPresss - strony WWW dla firm -  Webo.pl
+  description: Projektujemy i wdrażamy strony WordPress dopasowane do Twoich potrzeb. Zacznij budować swoją markę online!
 draft: false
 public: true
 hreflangs:
@@ -11,7 +11,7 @@ hreflangs:
 ::block-banner-md
 ---
 bgImg: false
-headerWidth: 550
+headerWidth: 560
 descriptionWidth: 550
 isSecondSvg: true
 ---
@@ -19,7 +19,7 @@ isSecondSvg: true
 #subtitle
 
 #title
-# Stworzymy stronę internetową Wordpress dla Twojej firmy
+# Stworzymy *solidną stronę www* Wordpress dla Twojej firmy
 
 #description
 Szukasz doświadczonego zespołu od Wordpressa, który zaprojektuje i zakoduje Twoją stronę od podstaw? Dobrze trafiłeś!
@@ -52,7 +52,7 @@ class: items-center
 ### *1/*  Projektowanie i programowanie w Wordpress
 
 #title
-## Tworzymy solidne strony oparte na Wordpressie
+## W dostarczaniu stron *stawiamy&nbsp;na&nbsp;jakość*
 
 #description
 ::::::prose-p-4
@@ -73,9 +73,9 @@ Zaprojektujemy dla Ciebie indywidualny wygląd strony, pasujący do Twojej marki
 #right
 :::::img-decorated-md
 ---
-class: block _hidden desktop:block [&_.block]:scale-[1.6] [&_.block]:ml-[-20px] desktop:[&_.block_picture]:absolute desktop-wide:[&_.block_picture]:bottom-[-220px] desktop:[&_.block_picture]:bottom-[-100px] fullHd:[&_.block_picture]:bottom-[-240px] 
+class: block _hidden desktop:block [&_.block]:scale-[1.2] [&_.block]:ml-[-20px] desktop:[&_.block_picture]:absolute desktop-wide:[&_.block_picture]:bottom-[-220px] desktop:[&_.block_picture]:bottom-[-100px] fullHd:[&_.block_picture]:bottom-[-240px] 
 decoration: false
-imgUrl: '/img/content-images/strony-wordpress/laptop_mockup.png'
+imgUrl: '/img/content-images/strony-wordpress/laptop_mockup_3.webp'
 ---
 :::::
 ::::
@@ -112,7 +112,7 @@ center: true
 icon: '/img/icons/wordpress-icon1.svg'
 ---
 #title
-#### Stworzenie nowej strony Wordpress
+#### Stworzenie nowej strony&nbsp;Wordpress
 
 #description
 
@@ -136,7 +136,7 @@ icon: '/img/icons/wordpress-icon3.svg'
 delay: 2
 ---
 #title
-#### Programowanie wtyczek i pluginów Wordpress
+#### Programowanie wtyczek i&nbsp;pluginów Wordpress
 
 #description
 
@@ -148,7 +148,7 @@ icon: '/img/icons/wordpress-icon4.svg'
 delay: 3
 ---
 #title
-#### Konfiguratory Wordpress i dedykowane rozwiązania
+#### Konfiguratory Wordpress i&nbsp;dedykowane rozwiązania
 
 #description
 
@@ -160,7 +160,7 @@ icon: '/img/icons/wordpress-icon5.svg'
 delay: 4
 ---
 #title
-#### Optymalizacja wydajności i naprawa błędów
+#### Optymalizacja wydajności i&nbsp;naprawa błędów
 
 #description
 
@@ -209,7 +209,7 @@ class: block desktop:hidden top-0 right-0
 ::::block-cta-md
 ---
 maxWidth: 730
-button.link: https://webo.agency/kontakt
+button.link: https://webo.agency/kontakt/
 button.title: 'Skontaktuj się z nami'
 button.isWide: true
 class: tablet:mb-36 [&_.description]:desktop:!text-lg
@@ -248,7 +248,7 @@ center: true
 ### *3/* Dlaczego warto nam zaufać?
 
 #title
-## Jakie są nasze *strony Wordpress?*
+## Nam zależy na jakości *a Tobie?*
 
 ::::
 
@@ -278,7 +278,7 @@ class: ml-0 !mb-5 !w-20 tablet:!w-[160px] desktop:!w-[200px]
 :::::::
 
 #title
-#### Programowane od podstaw - bez użycia słabych wydajnościowo szablonów
+#### Programujemy od podstaw - bez użycia słabych&nbsp;wydajnościowo szablonów
 
 #description
 :::::::prose-p-3
@@ -298,11 +298,22 @@ Dodatkowo dzięki naszemu podejściu ograniczasz koszty utrzymania strony, zwię
 
 #right
 :::::effect-appear-md
+---
+class: relative
+---
+
+::::::img-decorated-md
+---
+imgUrl: '/img/content-images/wsparcie-wordpress/decor-square.svg'
+decoration: false
+class: mx-auto !mb-0 !p-0 !w-[100px] tablet:!w-[100px] h-[100px] !absolute !bottom-[-50px] tablet:!bottom-[20px] right-[-10px] tablet:!right-[-50px]
+---
+::::::
 ::::::img-decorated-md
 ---
 imgUrl: '/img/content-images/strony-wordpress/dark-laptop.png'
 decoration: false
-class: w-full
+class: w-full z-0
 ---
 
 ::::::
@@ -318,11 +329,22 @@ class: mb-16
 #left
 
 :::::effect-appear-md
+---
+class: relative
+---
+
+::::::img-decorated-md
+---
+imgUrl: '/img/content-images/wsparcie-wordpress/decor-circle.svg'
+decoration: false
+class: mx-auto !mb-0 !p-0 hidden tablet:!block !w-[122px] tablet:!w-[122px] h-[122px] !absolute !top-[-50px] tablet:!top-[120px] left-[-10px] tablet:!left-[-70px] z-0
+---
+::::::
 ::::::img-decorated-md
 ---
 imgUrl: '/img/content-images/strony-wordpress/dark-laptop2.png'
 decoration: false
-class: w-full
+class: w-full z-0
 ---
 
 ::::::
@@ -348,7 +370,7 @@ class: ml-0 !pl-0 !mb-5 !w-20
 :::::::
 
 #title
-#### Zaprojektowany indywidualnie dla Twojej firmy i jej potrzeb
+#### Projektujemy indywidualnie dla&nbsp;Twojej&nbsp;firmy&nbsp;i&nbsp;jej&nbsp;potrzeb
 
 #description
 :::::::prose-p-3
@@ -390,7 +412,7 @@ class: ml-0 !mb-5 !w-20 tablet:!w-[160px] desktop:!w-[200px]
 :::::::
 
 #title
-#### Stabilnie działające przez lata i przygotowanie do rozwoju
+#### Tworzymy strony stabilnie działające przez lata&nbsp;i&nbsp;przygotowanie do rozwoju
 
 #description
 :::::::prose-p-3
@@ -410,11 +432,22 @@ Wysokiej jakości kod w połączeniu z nowoczesnymi narzędziami i technologią 
 
 #right
 :::::effect-appear-md
+---
+class: relative
+---
+
+::::::img-decorated-md
+---
+imgUrl: '/img/content-images/wsparcie-wordpress/decor-square.svg'
+decoration: false
+class: mx-auto !mb-0 !p-0 !w-[100px] tablet:!w-[100px] h-[100px] !absolute !bottom-[-50px] tablet:!bottom-[20px] left-[-10px] tablet:!left-[70px]
+---
+::::::
 ::::::img-decorated-md
 ---
 imgUrl: '/img/content-images/strony-wordpress/dark-laptop3.png'
 decoration: false
-class: w-full
+class: w-full z-0
 ---
 ::::::
 :::::
@@ -454,7 +487,7 @@ class: desktop:min-h-[270px] w-1/3
 ---
 
 #title
-#### Wielokrotne testy przed publikacją
+#### Wielokrotne testy przed&nbsp;publikacją
 
 #description
 
@@ -468,7 +501,7 @@ class:  desktop:min-h-[270px] w-1/3
 ---
 
 #title
-#### Łatwość obsługi i zarządzania treścią
+#### Łatwość obsługi i&nbsp;zarządzania&nbsp;treścią
 
 #description
 
@@ -499,7 +532,7 @@ class: mb-7
 ### *4/* Etapy realizacji strony Wordpress
 
 #title
-## Jak krok po kroku przebiega realizacja strony Wordpress?
+## Jak krok po kroku przebiega *realizacja strony internetowej?*
 
 :::::
 ::::
@@ -648,7 +681,6 @@ Często publikacja strony to dopiero początek, a podczas użytkowania strony po
 
 :::::
 ::::
-
 :::
 ::
 
@@ -664,13 +696,28 @@ classes: mb-20 tablet:mb-[100px]
 
 ::::effect-appear-md
 ---
-class: relative z-10 overflow-hidden tablet:overflow-visible -mx-5 tablet:mx-0
+class: relative overflow-hidden tablet:overflow-visible -mx-5 tablet:mx-0
 ---
+
 :::::img-decorated-md
 ---
-imgUrl: '/img/content-images/strony-wordpress/wordpress-laptop.png'
+imgUrl: '/img/content-images/strony-wordpress/decor_code.svg'
 decoration: false
-class: tablet:mb-20 !mb-0
+class: hidden desktop:block mx-auto !mb-0 !p-0 !w-[100px] tablet:!w-[230px] !absolute top-1/3 right-0
+---
+:::::
+:::::img-decorated-md
+---
+imgUrl: '/img/content-images/strony-wordpress/decor_quarter_circle.svg'
+decoration: false
+class: hidden desktop:block mx-auto !mb-0 !p-0 !w-[122px] !absolute bottom-[100px] left-[-61px]
+---
+:::::
+:::::img-decorated-md
+---
+imgUrl: '/img/content-images/strony-wordpress/laptop_mockup_4_4.webp'
+decoration: false
+class: tablet:mb-20 !mb-10 z-0
 ---
 
 :::::
@@ -684,6 +731,7 @@ class: relative z-20
 ---
 :::::block-header-md
 ---
+maxWidth: 700
 class: mb-10
 ---
 
@@ -691,22 +739,310 @@ class: mb-10
 ### *5/* Zalety Wordpress CMS
 
 #title
-## Dlaczego warto wybrać Wordpress?
+## Profesjonalna budowa stron na WordPress - *solidna baza dla Twojego biznesu*
 
 #description
 ::::::prose-p-4
 ---
 class: mb-10
 ---
-Jest to system zarządzania treścią który oferuje ogromne możliwości. Dzięki jego elastyczności możemy stworzyć zarówno firmową stronę internetową, sklep e-commerce czy rozbudowany serwis informacyjny. Zaletą Wordpressa jest także jego skalowalność, bez problemu można wybrać ten system z założeniem dalszej (nawet znacznej) rozbudowy strony w przyszłości - konieczne jest jednak odpowiednie podejście i jakość wykonania.
+Coraz więcej firm decyduje się na **tworzenie strony internetowej w WordPress**, ponieważ system ten łączy prostotę obsługi z ogromnymi możliwościami technicznymi. Kluczowe jest jednak to, kto i jak realizuje taki projekt. W Webo nie korzystamy z gotowych szablonów - każda strona na **WordPress powstaje od zera**, dokładnie pod wymagania danego biznesu.
 ::::::
 ::::::prose-p-4
-Wordpress to na pewno system przyjazny dla SEO, dzięki licznym wbudowanym rozwiązaniom oraz rozszerzeniom, Twoja strona będzie osiągać lepsze wyniki w wyszukiwarce Google. Korzystanie z tego systemu CMS jest naprawde proste, a w razie trudności i problemów można liczyć na wsparcie licznej społeczności.
+---
+class: mb-10
+---
+Zamiast iść na skróty, oferujemy w pełni **dedykowane tworzenie stron WordPress**, co oznacza indywidualny projekt graficzny, czysty i zoptymalizowany kod oraz pełną kontrolę nad funkcjonalnością i wydajnością witryny. Dzięki temu masz pewność, że Twoja strona nie tylko świetnie wygląda, ale też działa szybko, jest bezpieczna i gotowa na dalszy rozwój.
+::::::
+::::::prose-p-4
+Jako **firma tworząca strony WordPress od podstaw**, doskonale rozumiemy potrzeby nowoczesnych biznesów – od prostych serwisów firmowych, przez rozbudowane platformy informacyjne, aż po integracje z systemami zewnętrznymi i dedykowane moduły. Łączymy **projektowanie UX/UI**, programowanie front-end i back-end oraz optymalizację SEO, tworząc kompletne rozwiązania online.
 ::::::
 :::::
 ::::
 ::
 
+::page-section-md
+---
+classes: mb-10 tablet:mb-20
+---
+
+:::block-columns-1-1-md
+---
+class: mb-20
+---
+
+#left
+::::effect-appear-md
+:::::block-header-md
+---
+maxWidth: 520
+---
+
+#subtitle
+### *6/* Co możemy dla Ciebie zrobić
+
+#title
+## Tworzenie stron WordPress - *więcej niż CMS*
+
+:::::
+::::
+
+#right
+::::effect-appear-md
+---
+class: h-full flex items-center
+---
+
+Dla wielu klientów WordPress kojarzy się z prostym edytorem treści. Tymczasem w rękach doświadczonych developerów to bardzo elastyczny system, który przy odpowiednim podejściu, umożliwia budowę skalowalnych, bezpiecznych i efektywnych stron. Nasze projekty spełniają te założenia dzięki m.in.:
+::::
+:::
+
+:::block-columns-1-1-1-md
+---
+class: mb-10 tablet:mb-20 gap-[30px]
+---
+
+#left
+::::effect-appear-md
+:::::block-list-ul-md
+---
+decoration: false
+---
+::::::list-item-ul-active-md
+---
+iconUrl: '/img/icons/uxui_bg_gray.svg'
+iconBig: true
+iconLeft: false
+animated: false
+class: test !max-h-[200px]
+---
+
+#title
+#### indywidualnie projektowanym interfejsom graficznym
+
+#description
+
+::::::
+
+::::::list-item-ul-active-md
+---
+iconUrl: '/img/icons/icon-4.svg'
+iconBig: true
+iconLeft: false
+animated: false
+class: test !max-h-[200px]
+---
+
+#title
+#### programowaniu dedykowanych motywów i funkcji
+
+#description
+
+::::::
+:::::
+::::
+
+
+#center-col
+::::effect-appear-md
+:::::block-list-ul-md
+::::::list-item-ul-active-md
+---
+iconUrl: '/img/icons/icon-tree.svg'
+iconBig: true
+iconLeft: false
+animated: false
+class: test !max-h-[200px]
+---
+
+#title
+#### przemyślanej i dopasowanej architekturze systemu
+
+
+#description
+
+::::::
+::::::list-item-ul-active-md
+---
+iconUrl: '/img/icons/icon-integration.svg'
+iconBig: true
+iconLeft: false
+animated: false
+class: test !max-h-[200px]
+---
+
+#title
+#### integracjom z systemami zewnętrznymi (CRM, ERP, API)
+
+#description
+
+::::::
+:::::
+::::
+
+#right
+::::effect-appear-md
+:::::block-list-ul-md
+---
+decoration: false
+---
+
+::::::list-item-ul-active-md
+---
+iconUrl: '/img/icons/icon-cube.svg'
+iconBig: true
+iconLeft: false
+animated: false
+class: test !max-h-[200px]
+---
+
+#title
+#### nowoczesnym rozwiązaniom technologicznym
+#description
+
+::::::
+::::::list-item-ul-active-md
+---
+iconUrl: '/img/icons/icon-docs.svg'
+iconBig: true
+iconLeft: false
+animated: false
+class: test !max-h-[200px]
+---
+
+#title
+#### pełnej zgodności z WCAG, RODO i dokumentacją techniczną WordPress
+
+#description
+
+::::::
+:::::
+::::
+:::
+::
+
+
+::page-section-md
+---
+class: mb-[100px] tablet:mb-[100px]
+---
+:::effect-appear-md
+
+::::svg-bg-dots
+---
+decoration: true
+class: block desktop:hidden top-0 right-0
+---
+::::
+
+::::block-cta-md
+---
+maxWidth: 1300
+class: tablet:mb-36 [&_.description]:desktop:!text-lg !p-[40px] border border-[#DEE7E5] [&_a]:hidden
+---
+
+#title
+#### Zdajemy sobie sprawę, że tworzenie strony internetowej na WordPress to nie tylko „zbudowanie strony” – to proces, który zaczyna się *od poznania Twoich celów i kończy na gotowym narzędziu wspierającym Twój biznes online.*
+
+#description
+
+::::
+:::
+::
+
+::page-section-md
+---
+class: mb-20 tablet:mb-[100px]
+---
+
+:::effect-appear-md
+---
+class: bg-green-gray relative
+---
+
+::::img-decorated-md
+---
+imgUrl: '/img/svg-arc.svg'
+decoration: false
+class: tablet:!pl-0 !mb-0 !w-[80px] tablet:!w-[122px] !absolute top-[20px] tablet:!top-[50px] left-[20px] tablet:!left-[50px] z-0
+---
+::::
+
+::::img-decorated-md
+---
+imgUrl: '/img/svg-square.svg'
+decoration: false
+class: tablet:!pl-0 !mb-0 !w-[60px] tablet:!w-[100px] !absolute bottom-[20px] tablet:!bottom-[50px] right-[20px] tablet:!right-[50px] z-0
+---
+::::
+
+::::block-faq-md
+
+#header
+:::::block-header-md
+---
+maxWidth: 900
+class: mb-[50px] text-center relative
+---
+
+#subtitle
+### *8/* Wszystko, co warto wiedzieć przed startem i rozwojem strony Wordpress
+
+#title
+## Najczęściej zadawane pytania (FAQ)
+
+:::::
+
+:::::block-expand-item-md
+
+#title
+##### Ile kosztuje stworzenie strony na WordPress?
+
+#description
+Koszt stworzenia strony internetowej w WordPress zależy od stopnia złożoności projektu. Prosty serwis firmowy zaczyna się od kilku tysięcy złotych. W przypadku dedykowanej strony WordPress z indywidualnym projektem, dodatkowymi funkcjonalnościami i optymalizacją SEO, koszt ustalany jest indywidualnie na podstawie konsultacji.
+
+:::::
+
+:::::block-expand-item-md
+
+#title
+##### Czy tworzycie strony WordPress od zera?
+
+#description
+Tak, **tworzenie strony internetowej** w naszym wykonaniu oznacza szyty na miarę projekt graficzny oraz programowanie od podstaw, bez użycia gotowych szablonów. Dzięki temu masz pełną kontrolę nad wyglądem i funkcjonalnością, a Twoja strona jest szybka, bezpieczna i dopasowana do biznesu.
+:::::
+
+:::::block-expand-item-md
+
+#title
+##### Czy mogę samodzielnie edytować treści na stronie?
+
+#description
+Tak, to jedna z głównych zalet systemu WordPress. Po wdrożeniu strony otrzymasz dostęp do prostego panelu administracyjnego, dzięki któremu bez problemu zaktualizujesz treści, dodasz nowe podstrony, wpisy blogowe czy zdjęcia.
+
+:::::
+
+:::::block-expand-item-md
+
+#title
+##### Czy oferujecie również wsparcie po wdrożeniu?
+
+#description
+Tak. Jako **firma tworząca strony WordPress**, zapewniamy nie tylko realizację projektu, ale także wsparcie techniczne, aktualizacje, monitoring oraz możliwość dalszej rozbudowy strony – zgodnie z Twoimi potrzebami.
+:::::
+
+:::::block-expand-item-md
+
+#title
+##### Jak długo trwa realizacja strony WordPress?
+
+#description
+Średni czas realizacji to od 3 do 6 tygodni – w zależności od zakresu projektu. Bardziej rozbudowane **dedykowane strony WordPress** mogą wymagać więcej czasu ze względu na projektowanie interfejsu, programowanie funkcji i testy.
+
+:::::
+::::
+:::
+::
 
 ::page-section-md
 ---
@@ -731,14 +1067,14 @@ class: block desktop:hidden top-0 right-0
 ::::block-cta-md
 ---
 maxWidth: 730
-button.link: https://webo.agency/kontakt
+button.link: https://webo.agency/kontakt/
 button.title: 'Skontaktuj się z nami'
 button.isWide: true
 class: tablet:mb-36 [&_.description]:desktop:!text-lg
 ---
 
 #title
-#### Potrzebujesz ekspertów od Wordpress którzy *zakodują Twoją stronę?*
+#### Potrzebujesz ekspertów od Wordpress którzy&nbsp;*zakodują&nbsp;Twoją stronę?*
 
 #description
 Jeśli posiadasz już projekt strony www ale szukasz specjalistów którzy ją zakodują (bez półśrodków) umów się na bezpłatną konsultację!
@@ -759,7 +1095,7 @@ class: mb-10 tablet:mb-20
 ---
 
 #subtitle
-### *6/* Nasze ostatnie realizacje
+### *9/* Nasze ostatnie realizacje
 
 #title
 ## Jesteśmy dumni <br> z *wykonanych projektów*
@@ -773,7 +1109,7 @@ contentFolder: realizacje
 selectedSlugs:
     - isw
     - 5gmadetogether
-moreBtn.url: 'https://webo.agency/realizacje'
+moreBtn.url: 'https://webo.agency/realizacje/'
 moreBtn.linktitle: Zobacz wszystkie projekty
 ---
 

@@ -15,21 +15,18 @@
 <script>
 export default {
   name: "BlockFaqMd",
-  provide() {
-    return {
-      faqActiveItem: () => this.activeItem,
-      faqHandleClick: this.handleItemClicked
-    };
-  },
   data() {
     return {
-      activeItem: null
+      faqState: {
+        activeItem: null,
+        handleItemClicked: (itemId) => {
+          this.faqState.activeItem = this.faqState.activeItem === itemId ? null : itemId;
+        }
+      }
     };
   },
-  methods: {
-    handleItemClicked(itemId) {
-      this.activeItem = this.activeItem === itemId ? null : itemId;
-    }
+  provide() {
+    return { faqState: this.faqState };
   }
 };
 </script>
