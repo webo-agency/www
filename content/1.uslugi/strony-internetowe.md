@@ -232,7 +232,7 @@ Dowiedz się więcej
 ::::offer-tile-md
 --- 
 icon: '/img/icons/wordpress-headles.svg'
-link: 'https://webo.agency/kontakt'
+link: 'https://webo.pl/uslugi/strony-headless-pwa/'
 delay: 2
 ---
 #title

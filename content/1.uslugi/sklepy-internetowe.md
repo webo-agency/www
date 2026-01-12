@@ -125,8 +125,24 @@ class: mb-10 tablet:mb-[60px]
 
 ::::offer-tile-md
 --- 
-icon: '/img/icons/wordpress.svg'
+icon: '/img/icons/woo.svg'
+link: 'https://webo.pl/uslugi/sklepy-woocommerce/'
+---
+#title
+#### WooCommerce
+
+#description
+Najpopularniejsze rozwiązanie e-commerce na świecie. Idealne rozwiązanie dla małych i średniej wielkości sklepów internetowych ze standardowymi funkcjami sprzedażowymi. 
+
+#readMoreText
+Dowiedz się więcej
+::::
+
+::::offer-tile-md
+--- 
+icon: '/img/icons/presta.svg'
 link: 'https://webo.agency/kontakt'
+delay: 1
 ---
 #title
 #### Prestashop
@@ -144,29 +160,13 @@ Dowiedz się więcej
 --- 
 icon: '/img/icons/drupal.svg'
 link: 'https://webo.agency/kontakt'
-delay: 1
+delay: 2
 ---
 #title
 #### DrupalCommerce
 
 #description
 Nowoczesne sklepy internetowe tworzone w jednym z najbezpieczniejszych systemów zarządzania treścią. Wydajne systemy z nieograniczoną możliwością rozwoju i licznymi integracjami.
-
-#readMoreText
-Dowiedz się więcej
-::::
-
-::::offer-tile-md
---- 
-icon: '/img/icons/wordpress-headles.svg'
-link: 'https://webo.agency/kontakt'
-delay: 2
----
-#title
-#### WooCommerce
-
-#description
-Najpopularniejsze rozwiązanie e-commerce na świecie. Idealne rozwiązanie dla małych i średniej wielkości sklepów internetowych ze standardowymi funkcjami sprzedażowymi. 
 
 #readMoreText
 Dowiedz się więcej
