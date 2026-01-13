@@ -51,8 +51,7 @@ export default {
         return { screenWidth }
     },
     inject: {
-        faqActiveItem: { default: () => () => null },
-        faqHandleClick: { default: () => () => {} }
+        faqState: { default: null }
     },
     props:{
         number: Number
@@ -65,7 +64,17 @@ export default {
     },
     computed: {
         isExpanded() {
-            return this.faqActiveItem() === this.itemId
+            return this.faqState?.activeItem === this.itemId
+        }
+    },
+    mounted() {
+        // Set first item as active if none selected yet
+        if (this.faqState?.activeItem === null) {
+            this.faqState.activeItem = this.itemId;
+        }
+        
+        if (this.isExpanded) {
+            this.$nextTick(() => this.setContainerHeight())
         }
     },
     watch:{
@@ -86,7 +95,7 @@ export default {
     },
     methods:{
         toggleExpand(){
-            this.faqHandleClick(this.itemId)
+            this.faqState?.handleItemClicked(this.itemId)
         },
         setContainerHeight(){
             const container = this.$refs['descriptionContainer']
