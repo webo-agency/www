@@ -11,7 +11,7 @@ hreflangs:
 ::block-banner-md
 ---
 bgImg: false
-headerWidth: 560
+headerWidth: 680
 descriptionWidth: 550
 isSecondSvg: true
 ---
@@ -248,7 +248,7 @@ center: true
 ### *3/* Dlaczego warto nam zaufać?
 
 #title
-## Nam zależy na jakości *a Tobie?*
+## Nam zależy na jakości, *a&nbsp;Tobie?*
 
 ::::
 
@@ -468,7 +468,6 @@ class: mb-10 gap-5 columns-1 flex flex-col tablet:flex-row _tablet:columns-3 [&_
 :::::tile-dark-icon-md
 ---
 iconUrl: '/img/icons/code-page.svg'
-delay: 0
 class: desktop:min-h-[270px] w-1/3
 ---
 
@@ -482,7 +481,7 @@ class: desktop:min-h-[270px] w-1/3
 :::::tile-dark-icon-md
 ---
 iconUrl: '/img/icons/gears.svg'
-delay: 3
+delay: 1
 class: desktop:min-h-[270px] w-1/3
 ---
 
@@ -496,7 +495,7 @@ class: desktop:min-h-[270px] w-1/3
 :::::tile-dark-icon-md
 ---
 iconUrl: '/img/icons/pencil.svg'
-delay: 1
+delay: 2
 class:  desktop:min-h-[270px] w-1/3
 ---
 
@@ -731,7 +730,7 @@ class: relative z-20
 ---
 :::::block-header-md
 ---
-maxWidth: 700
+maxWidth: 680
 class: mb-10
 ---
 
@@ -776,6 +775,7 @@ class: mb-20
 :::::block-header-md
 ---
 maxWidth: 520
+class: mb-5
 ---
 
 #subtitle
@@ -814,7 +814,7 @@ iconUrl: '/img/icons/uxui_bg_gray.svg'
 iconBig: true
 iconLeft: false
 animated: false
-class: test !max-h-[200px]
+class: text-left [&_h4]:text-xl !max-h-[200px]
 ---
 
 #title
@@ -826,11 +826,11 @@ class: test !max-h-[200px]
 
 ::::::list-item-ul-active-md
 ---
-iconUrl: '/img/icons/icon-4.svg'
+iconUrl: '/img/icons/icon-code-gray.svg'
 iconBig: true
 iconLeft: false
 animated: false
-class: test !max-h-[200px]
+class: text-left [&_h4]:text-xl !max-h-[200px]
 ---
 
 #title
@@ -852,7 +852,7 @@ iconUrl: '/img/icons/icon-tree.svg'
 iconBig: true
 iconLeft: false
 animated: false
-class: test !max-h-[200px]
+class: text-left [&_h4]:text-xl !max-h-[200px]
 ---
 
 #title
@@ -868,7 +868,7 @@ iconUrl: '/img/icons/icon-integration.svg'
 iconBig: true
 iconLeft: false
 animated: false
-class: test !max-h-[200px]
+class: text-left [&_h4]:text-xl !max-h-[200px] 
 ---
 
 #title
@@ -893,7 +893,7 @@ iconUrl: '/img/icons/icon-cube.svg'
 iconBig: true
 iconLeft: false
 animated: false
-class: test !max-h-[200px]
+class: text-left [&_h4]:text-xl !max-h-[200px]
 ---
 
 #title
@@ -907,7 +907,7 @@ iconUrl: '/img/icons/icon-docs.svg'
 iconBig: true
 iconLeft: false
 animated: false
-class: test !max-h-[200px]
+class: text-left [&_h4]:!text-xl !max-h-[200px]
 ---
 
 #title
@@ -1107,8 +1107,8 @@ class: mb-10 tablet:mb-20
 ---
 contentFolder: realizacje
 selectedSlugs:
+    - mutiny-group
     - isw
-    - 5gmadetogether
 moreBtn.url: 'https://webo.agency/realizacje/'
 moreBtn.linktitle: Zobacz wszystkie projekty
 ---
