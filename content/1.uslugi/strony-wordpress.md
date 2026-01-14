@@ -799,7 +799,7 @@ Dla wielu klientów WordPress kojarzy się z prostym edytorem treści. Tymczasem
 
 :::block-columns-1-1-1-md
 ---
-class: mb-10 tablet:mb-20 gap-[30px]
+class: mb-10 tablet:mb-20 tablet:gap-[30px]
 ---
 
 #left
@@ -814,7 +814,7 @@ iconUrl: '/img/icons/uxui_bg_gray.svg'
 iconBig: true
 iconLeft: false
 animated: false
-class: text-left [&_h4]:text-xl !max-h-[200px]
+class: text-left [&_h4]:text-lg [&_h4]:tablet:text-xl !min-h-[150px] tablet:!max-h-[180px]
 ---
 
 #title
@@ -830,7 +830,7 @@ iconUrl: '/img/icons/icon-code-gray.svg'
 iconBig: true
 iconLeft: false
 animated: false
-class: text-left [&_h4]:text-xl !max-h-[200px]
+class: text-left [&_h4]:text-lg [&_h4]:tablet:text-xl !min-h-[150px] tablet:!max-h-[180px]
 ---
 
 #title
@@ -852,7 +852,7 @@ iconUrl: '/img/icons/icon-tree.svg'
 iconBig: true
 iconLeft: false
 animated: false
-class: text-left [&_h4]:text-xl !max-h-[200px]
+class: text-left [&_h4]:text-lg [&_h4]:tablet:text-xl !min-h-[150px] tablet:!max-h-[180px]
 ---
 
 #title
@@ -868,7 +868,7 @@ iconUrl: '/img/icons/icon-integration.svg'
 iconBig: true
 iconLeft: false
 animated: false
-class: text-left [&_h4]:text-xl !max-h-[200px] 
+class: text-left [&_h4]:text-lg [&_h4]:tablet:text-xl !min-h-[150px] tablet:!max-h-[180px]
 ---
 
 #title
@@ -893,7 +893,7 @@ iconUrl: '/img/icons/icon-cube.svg'
 iconBig: true
 iconLeft: false
 animated: false
-class: text-left [&_h4]:text-xl !max-h-[200px]
+class: text-left [&_h4]:text-lg [&_h4]:tablet:text-xl !min-h-[150px] tablet:!max-h-[180px]
 ---
 
 #title
@@ -907,7 +907,7 @@ iconUrl: '/img/icons/icon-docs.svg'
 iconBig: true
 iconLeft: false
 animated: false
-class: text-left [&_h4]:!text-xl !max-h-[200px]
+class: text-left [&_h4]:text-lg [&_h4]:tablet:text-xl !min-h-[150px] tablet:!max-h-[180px]
 ---
 
 #title
@@ -986,7 +986,7 @@ class: mb-[50px] text-center relative
 ---
 
 #subtitle
-### *8/* Wszystko, co warto wiedzieć przed startem i rozwojem strony Wordpress
+### *7/* Wszystko, co warto wiedzieć przed startem i rozwojem strony Wordpress
 
 #title
 ## Najczęściej zadawane pytania (FAQ)
@@ -1095,7 +1095,7 @@ class: mb-10 tablet:mb-20
 ---
 
 #subtitle
-### *9/* Nasze ostatnie realizacje
+### *8/* Nasze ostatnie realizacje
 
 #title
 ## Jesteśmy dumni <br> z *wykonanych projektów*
@@ -1129,7 +1129,7 @@ class: mb-[50px] tablet:mb-[100px]
 ---
 
 #subtitle
-### *7/* Nasi klienci
+### *9/* Nasi klienci
 
 #title
 ## Poznaj firmy które *nam zaufały*

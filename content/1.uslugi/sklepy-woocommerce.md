@@ -706,7 +706,7 @@ class: mb-20
 
 :::block-columns-1-1-1-md
 ---
-class: mb-10 tablet:mb-20 gap-[30px]
+class: mb-10 tablet:mb-20 tablet:gap-[30px]
 ---
 
 #left
@@ -722,6 +722,7 @@ iconUrl: '/img/icons/doc_bg_gray.svg'
 iconBig: true
 iconLeft: false
 animated: false
+class: text-left [&_h4]:text-lg [&_h4]:tablet:text-xl !min-h-[150px] tablet:!min-h-[200px]
 ---
 
 #title
@@ -737,6 +738,7 @@ iconUrl: '/img/icons/uxui_bg_gray.svg'
 iconBig: true
 iconLeft: false
 animated: false
+class: text-left [&_h4]:text-lg [&_h4]:tablet:text-xl !min-h-[150px] tablet:!min-h-[200px]
 ---
 
 #title
@@ -760,6 +762,7 @@ iconUrl: '/img/icons/code_bg_gray.svg'
 iconBig: true
 iconLeft: false
 animated: false
+class: text-left [&_h4]:text-lg [&_h4]:tablet:text-xl !min-h-[150px] tablet:!min-h-[200px]
 ---
 
 #title
@@ -775,6 +778,7 @@ iconUrl: '/img/icons/weight_bg_gray.svg'
 iconBig: true
 iconLeft: false
 animated: false
+class: text-left [&_h4]:text-lg [&_h4]:tablet:text-xl !min-h-[150px] tablet:!min-h-[200px]
 ---
 
 #title
@@ -799,13 +803,14 @@ iconUrl: '/img/icons/doc_bg_gray.svg'
 iconBig: true
 iconLeft: false
 animated: false
+class: text-left [&_h4]:text-lg [&_h4]:tablet:text-xl !min-h-[150px] tablet:!min-h-[200px]
 ---
 
 #title
 #### Integracje z systemami ERP, magazynowymi, dostaw, płatności
 
 #description
-Obsługa różnych wersji językowych, walut i metod płatności dostosowanych do rynku zagranicznegoAutomatyzacje, synchronizacje stanów magazynowych, realizacje zamówień
+Automatyzacje, synchronizacje stanów magazynowych, realizacje zamówień
 
 ::::::
 :::::

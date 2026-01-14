@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-wrap gap-y-8 tablet:gap-y-16 gap-x-6 tablet:gap-x-24 items-center justify-center"
+    class="flex flex-wrap gap-y-8 tablet:gap-y-16 gap-x-6 tablet:gap-x-24 items-center justify-between"
   >
     <CustomLink
       v-for="(logo, index) in logos"

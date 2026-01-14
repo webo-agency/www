@@ -12,7 +12,7 @@
           :class="[iconBig ? 'w-12 tablet:w-[70px]' : 'w-10',{'tablet:mr-[30px]':iconLeft}]"
           :imgAttrs="{ class: 'w-full object-contain' }"
         />
-        <div :class="{'min-h-[240px]':!iconLeft}">
+        <div :class="{'tablet:min-h-[200px]':!iconLeft}">
           <div
             v-if="$slots.title"
             class="title mb-5 mt-2 font-semibold"

@@ -11,7 +11,7 @@ hreflangs:
 ::block-banner-md
 ---
 bgImg: false
-headerWidth: 460
+headerWidth: 720
 descriptionWidth: 475
 isSecondSvg: true
 ---
@@ -20,7 +20,7 @@ isSecondSvg: true
 *-/* Projektowanie i programowanie stron www
 
 #title
-# Strony internetowe
+# Tworzenie stron internetowych dopasowanych do Twojego biznesu
 
 #description
 Tworzymy szyte na miarę strony internetowe, projektując dla Ciebie indywidualny wygląd i&nbsp;kodując od podstaw.
@@ -60,16 +60,26 @@ class: mb-[60px]
 #description
 ::::::prose-p-3
 ---
-class: max-w-[650px] mb-5 [&_p]:!leading-8
+class: max-w-[650px] [&_p]:!leading-8
 --- 
-Nie korzystamy z szablonów czy gotowców. **Strony internetowe programujemy od podstaw**, korzystając tylko ze **sprawdzonych i nowoczesnych technologii** oraz jasnych procesów i standaryzacji. Dzięki temu zapewniamy najwyższą jakość, wydajność oraz bezpieczeństwo, **gwarantując stabilne działanie strony**, na lata.
+Nie korzystamy z gotowych szablonów ani kreatorów. Tworzenie stron internetowych realizujemy od podstaw, programując każdą witrynę w oparciu o sprawdzone i nowoczesne technologie. Dzięki przejrzystemu procesowi, standaryzacji i autorskiemu podejściu, gwarantujemy:
+::::::
+
+::::::prose-p-4
+---
+class: max-w-[650px] mb-5 [&_p]:!leading-7 ml-3
+--- 
+
+&#x2022; wysoką wydajność strony,<br>
+&bull; pełne bezpieczeństwo,<br>
+&#8226; łatwą rozbudowę i stabilność na lata,<br>
 ::::::
 
 ::::::prose-p-4
 ---
 class: text-base max-w-[650px] mb-5 [&_p]:!leading-7
 --- 
-Od warsztatów projektowych w trakcie których wybierzemy optymalną technologię, przez **strategię UX i projekt interfejsu strony**, wdrożenie programistyczne, po **rozwój i wsparcie techniczne** - z nami kompleksowo zrealizujesz stronę www, która będzie solidnym narzędziem w Twojej firmie.
+Od warsztatów projektowych w trakcie których wybierzemy optymalną technologię, przez strategię UX i projekt interfejsu strony, wdrożenie programistyczne, po rozwój i wsparcie techniczne - z nami kompleksowo zrealizujesz stronę www, która będzie solidnym narzędziem w Twojej firmie.
 ::::::
 :::::
 ::::
@@ -678,6 +688,176 @@ Często publikacja strony to dopiero początek, a podczas użytkowania strony po
 :::
 ::
 
+::page-section-md
+---
+classes: mb-20 tablet:mb-[100px]
+---
+
+:::block-columns-1-1-md
+
+#left
+
+::::effect-appear-md
+---
+class: relative overflow-hidden tablet:overflow-visible -mx-5 tablet:mx-0
+---
+
+:::::img-decorated-md
+---
+imgUrl: '/img/content-images/strony-wordpress/decor_code.svg'
+decoration: false
+class: hidden desktop:block mx-auto !mb-0 !p-0 !w-[100px] tablet:!w-[230px] !absolute top-1/3 right-0
+---
+:::::
+:::::img-decorated-md
+---
+imgUrl: '/img/content-images/strony-wordpress/decor_quarter_circle.svg'
+decoration: false
+class: hidden desktop:block mx-auto !mb-0 !p-0 !w-[122px] !absolute bottom-[100px] left-[-61px]
+---
+:::::
+:::::img-decorated-md
+---
+imgUrl: '/img/content-images/strony-internetowe/laptop_mockup_1.webp'
+decoration: false
+class: tablet:mb-20 !mb-10 z-0
+---
+
+:::::
+::::
+
+#right
+
+::::effect-appear-md
+---
+class: relative z-20
+---
+:::::block-header-md
+---
+maxWidth: 680
+class: mb-10
+---
+
+#subtitle
+### *7/* Wycena stron www
+
+#title
+## Jak wyceniamy projekty stron internetowych?
+
+#description
+::::::prose-p-4
+---
+class: mb-10
+---
+Nie korzystamy z gotowych pakietów ani cenników, które ograniczają możliwości rozwoju. Każdy projekt traktujemy indywidualnie, analizując Twoje potrzeby, cele biznesowe oraz zakres funkcjonalności.
+::::::
+::::::prose-p-4
+---
+class: mb-10
+---
+Wycena strony powstaje po wspólnych warsztatach lub bezpłatnej konsultacji - dzięki temu masz pewność, że finalna propozycja jest dopasowana, przejrzysta i uwzględnia zarówno technologię, jak i długookresowe plany rozwoju strony.
+::::::
+::::::prose-p-4
+**Zależy Ci na konkretach?** Porozmawiajmy o Twojej stronie - przygotujemy jasną ofertę bez zbędnych kosztów.
+::::::
+:::::
+::::
+::
+
+::page-section-md
+---
+class: mb-20 tablet:mb-[100px]
+---
+
+:::effect-appear-md
+---
+class: bg-green-gray relative
+---
+
+::::img-decorated-md
+---
+imgUrl: '/img/svg-arc.svg'
+decoration: false
+class: tablet:!pl-0 !mb-0 !w-[80px] tablet:!w-[122px] !absolute top-[20px] tablet:!top-[50px] left-[20px] tablet:!left-[50px] z-0
+---
+::::
+
+::::img-decorated-md
+---
+imgUrl: '/img/svg-square.svg'
+decoration: false
+class: tablet:!pl-0 !mb-0 !w-[60px] tablet:!w-[100px] !absolute bottom-[20px] tablet:!bottom-[50px] right-[20px] tablet:!right-[50px] z-0
+---
+::::
+
+::::block-faq-md
+
+#header
+:::::block-header-md
+---
+maxWidth: 900
+class: mb-[50px] text-center relative
+---
+
+#subtitle
+### *8/* Wszystko, co warto wiedzieć przed startem budowy strony
+
+#title
+## Najczęściej zadawane pytania (FAQ)
+
+:::::
+
+:::::block-expand-item-md
+
+#title
+##### Jak długo trwa stworzenie strony internetowej?
+
+#description
+W zależności od złożoności projektu - od 3 tygodni dla prostych realizacji do 8-12 tygodni przy bardziej zaawansowanych projektach. Dokładny harmonogram ustalamy po analizie założeń.
+
+:::::
+
+:::::block-expand-item-md
+
+#title
+##### Ile kosztuje stworzenie strony internetowej?
+
+#description
+Cena strony internetowej zależy od wielu czynników - zakresu funkcji, liczby podstron, technologii, designu oraz integracji (np. z systemami zewnętrznymi). Prosty serwis firmowy może kosztować od 6 000 zł netto, natomiast rozbudowany serwis z headless - kilkanaście, a nawet kilkadziesiąt tysięcy zł. Każdy projekt wyceniamy indywidualnie po analizie potrzeb.
+:::::
+
+:::::block-expand-item-md
+
+#title
+##### Czy mogę zlecić tylko projekt graficzny strony?
+
+#description
+Oczywiście. Możemy zaprojektować sam interfejs (UX/UI) Twojej strony - od architektury informacji po makiety UX i finalny design. Projekt można później wdrożyć u nas lub u Twojego developera.
+
+:::::
+
+:::::block-expand-item-md
+
+#title
+##### Czym różni się wasze podejście od pracy na gotowym szablonie?
+
+#description
+Gotowe szablony często ograniczają rozwój strony, spowalniają jej działanie i generują nadmiarowy kod. My tworzymy strony od podstaw - co oznacza pełną kontrolę nad każdym elementem i gwarancję wydajności oraz bezpieczeństwa.
+:::::
+
+:::::block-expand-item-md
+
+#title
+##### Czy oferujecie opiekę i wsparcie po wdrożeniu strony?
+
+#description
+Tak. Po wdrożeniu oferujemy opiekę techniczną, aktualizacje oraz wsparcie w rozbudowie strony. Możesz liczyć na stałą współpracę, monitoring działania i rozwój funkcji w miarę potrzeb.
+
+:::::
+::::
+:::
+::
+
 ::::block-cta-md
 ---
 maxWidth: 700
@@ -709,7 +889,7 @@ maxWidth: 550
 ---
 
 #subtitle
-### *7/* Nasze ostatnie realizacje
+### *9/* Nasze ostatnie realizacje
 
 #title
 ## Zobacz nasze realizacje stron z *których jesteśmy dumni*
@@ -742,7 +922,7 @@ class: mb-[50px] tablet:mb-[100px]
 ---
 
 #subtitle
-### *8/* Nasi klienci
+### *10/* Nasi klienci
 
 #title
 ## Poznaj firmy które *nam zaufały*
