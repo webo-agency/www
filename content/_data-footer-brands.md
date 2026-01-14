@@ -23,7 +23,6 @@ logos:
     - link: 'https://thoro.pl/'
       imgUrl: '/img/logos/thoro.svg'      
 
-
     - link: 'https://getsales.pl/'
       imgUrl: '/img/logos/getsales.png'
 
