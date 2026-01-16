@@ -7,7 +7,7 @@ category:
 image.url: '/img/blog-images/blog_webo_ux_w_e_commerce.webp'
 hreflangs:
     EN: '/blog/'
-    PL: '/blog/cms-wordpress-i-headless-czyli-silniki-rakietowe-dla-twojej-strony-www/'
+    PL: '/blog/ux-w-e-commerce-jak-realnie-poprawic-doswiadczenie-uzytkownika-w-sklepie-online/'
 public: true
 draft: false
 ---
