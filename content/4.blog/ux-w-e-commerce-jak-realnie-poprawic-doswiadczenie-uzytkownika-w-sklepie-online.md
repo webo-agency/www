@@ -1,10 +1,10 @@
 ---
 introduction.title: 'UX w e-commerce – jak realnie poprawić doświadczenie użytkownika w sklepie online'
 introduction.titleFormatted: 'UX w e-commerce – jak realnie poprawić doświadczenie użytkownika w sklepie online'
-introduction.description: 'UX w e-commerce – jak realnie poprawić doświadczenie użytkownika w sklepie online'
+introduction.description: 'W e-commerce UX nie jest dodatkiem do designu, lecz jednym z kluczowych czynników wpływających na sprzedaż.'
 category:
     - Technologia
-image.url: '/img/blog-images/webo_blog_headless_wp.jpg'
+image.url: '/img/blog-images/blog_webo_ux_w_e_commerce.webp'
 hreflangs:
     EN: '/blog/'
     PL: '/blog/cms-wordpress-i-headless-czyli-silniki-rakietowe-dla-twojej-strony-www/'
@@ -15,7 +15,7 @@ draft: false
 
 ::page-section-md
 ---
-class: mb-20 tablet:mb-[320px] bg-green-gray
+class: mb-20 desktop:mb-[320px] bg-green-gray
 ---
 :::effect-appear-md
 ::::block-header-post-md
@@ -134,7 +134,7 @@ class: mx-blog mb-10 tablet:mb-[60px]
 button.link: /kontakt
 button.title: 'SKONTAKTUJ SIĘ Z NAMI'
 button.isWide: true
-maxWidth: 100%
+maxWidth: 1100
 class: bg-green-gray p-5 desktop:!p-10 [&_.description]:!mb-0 [&_.description_p]:!text-lg [&_.description_p]:!mb-7 [&_.description]:!text-left [&_.title_h3]:!text-left [&_.title_h3]:!pb-0 [&_.title_h3]:!mb-7 [&_.title_h3]:!text-xl desktop:[&_.title_h3]:!text-[30px] [&_a]:!ml-0 [&_a]:!mr-auto
 ---
 
@@ -189,7 +189,7 @@ class: mb-10 tablet:mb-[60px]
 ---
 :::::block-cta-md
 ---
-maxWidth: 100%
+maxWidth: 1100
 class: bg-green-gray !p-10 !pb-8 !items-start [&_a]:!hidden [&_p]:!m-0 [&_.description]:!m-0 [&_.description_p]:!text-left [&_.description_p]:!text-[18px] [&_p]:!font-semibold
 ---
 
@@ -303,6 +303,7 @@ socials:
     - facebook
     - twitter
 showCopyLink: true
+class: text-base [&_p]:!text-base
 ---
 :::::
 ::::
