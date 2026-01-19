@@ -1,7 +1,7 @@
 <template>
   <div
     itemscope itemtype="https://schema.org/NewsArticle"
-    class="_overflow-x-hidden"
+    class=""
   >
     <div class="mx-blog desktop:translate-y-[-60px] relative z-20">
       <a href="/blog" class="mb-4 flex items-center gap-2">
@@ -26,7 +26,7 @@
     </div>  
 
     <div class="relative">
-      <nuxt-picture v-if="bgUrl" class="_absolute _inset-0 z-0 object-cover" :img-attrs="{class: 'w-full max-h-125 object-cover',itemprop: 'image'}" :src="bgUrl" />
+      <nuxt-picture v-if="bgUrl" class="z-0 object-cover" :img-attrs="{class: 'w-full max-h-125 object-cover',itemprop: 'image'}" :src="bgUrl" />
       <span class="absolute z-10 inset-0 bg-gradient-to-t from-black/75 to-transparent"></span>
     </div>
   </div>

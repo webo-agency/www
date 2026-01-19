@@ -21,6 +21,7 @@ class: mb-20 tablet:mb-[100px]
 ::::block-header-post-md
 ---
 bgUrl: /img/blog-images/webo_blog_ux.jpg
+class: mx-auto [&_img]:max-h-[200px] lg:[&_img]:max-h-[600px]
 ---
 
 #title
@@ -67,7 +68,7 @@ class: mb-20
 ---
 shareText: 'Udostępnij:'
 tags:
-    - Technologia
+    - Design
 ---
 
 :::
@@ -80,7 +81,7 @@ class: mb-20 tablet:mb-[100px]
 :::effect-appear-md
 ::::block-header-link-md
 ---
-url: 'https://webo.agency/blog'
+url: 'https://webo.agency/blog/'
 linktitle: Zobacz wszystkie wpisy
 ---
 
@@ -97,6 +98,7 @@ relatedPostsLinks:
 :::
 ::
 
+
 ::page-section-md
 ---
 class: mb-[50px] tablet:mb-[100px]
@@ -104,11 +106,11 @@ class: mb-[50px] tablet:mb-[100px]
 :::effect-appear-md
 ::::block-cta-md
 ---
-button.link: https://webo.agency/kontakt
+button.link: https://webo.agency/kontakt/
 button.title: 'Skontaktuj się z nami'
 button.isWide: true
 maxWidth: 560
-class: block [&_.title]:!mb-4 [&_p]:max-w-[312px] [&_p]:font-medium
+class: block [&_.title]:!mb-4  [&_p]:font-medium
 ---
 
 #title
