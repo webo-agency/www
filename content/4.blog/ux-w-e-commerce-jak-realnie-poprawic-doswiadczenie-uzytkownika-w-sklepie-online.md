@@ -191,13 +191,13 @@ class: mb-10 tablet:mb-[60px]
 :::::block-cta-md
 ---
 maxWidth: 1100
-class: bg-green-gray !p-10 !pb-8 !items-start [&_a]:!hidden [&_p]:!m-0 [&_.description]:!m-0 [&_.description_p]:!text-left [&_.description_p]:!text-[18px] [&_p]:!font-semibold
+class: bg-green-gray !p-10 !pb-8 !items-start [&_p]:!m-0 [&_.description]:!m-0 [&_.description_p]:!text-left [&_.description_p]:!text-[18px] [&_p]:!font-semibold [&_.btn-main]:!hidden [&_a]:!underline [&_a]:!text-inherit
 ---
 
 #title
 
 #description
-*<u>Tworzenie sklepów internetowych</u>* z intuicyjnym UX - sprawdź nasza ofertę!
+*<u><a href="/uslugi/sklepy-internetowe/">Tworzenie sklepów internetowych</a></u>* z intuicyjnym UX - sprawdź nasza ofertę!
 
 :::::
 ::::
