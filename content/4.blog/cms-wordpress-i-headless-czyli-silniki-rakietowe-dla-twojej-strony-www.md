@@ -5,6 +5,7 @@ introduction.description: 'Strony internetowe wykonane w architekturze Headless 
 category:
     - Technologia
 image.url: '/img/blog-images/webo_blog_headless_wp.jpg'
+date: 2025-01-26
 hreflangs:
     EN: '/blog/'
     PL: '/blog/cms-wordpress-i-headless-czyli-silniki-rakietowe-dla-twojej-strony-www/'

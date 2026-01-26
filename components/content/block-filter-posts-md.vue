@@ -48,7 +48,7 @@ const props = defineProps({
   filters: Array,
 });
 
-const { data: list } = await useAsyncData('blog-posts',() => queryContent(`/${props.contentFolder}/`).sort({ _path: 1 }).find())
+const { data: list } = await useAsyncData('blog-posts',() => queryContent(`/${props.contentFolder}/`).sort({ date: -1 }).find())
 
 const router = useRouter();
 const route = useRoute();

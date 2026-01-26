@@ -5,6 +5,7 @@ introduction.description: 'Szybkość ładowania strony to nie tylko kwestia tec
 category:
     - Technologia
 image.url: '/img/blog-images/webo_blog_speed.jpg'
+date: 2025-01-26
 hreflangs:
     EN: '/blog/what-affects-page-loading-speed-and-why-is-it-so-important/'
     PL: '/blog/co-wplywa-na-szybkosc-ladowania-strony-i-dlaczego-to-takie-wazne/'

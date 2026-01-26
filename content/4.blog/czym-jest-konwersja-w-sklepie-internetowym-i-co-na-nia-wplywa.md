@@ -5,6 +5,7 @@ introduction.description: 'Konwersja to nic innego jak procentowy wskaźnik odwi
 category:
     - Technologia
 image.url: '/img/blog-images/webo_blog_conversion.jpg'
+date: 2025-01-26
 hreflangs:
     EN: '/blog/'
     PL: '/blog/czym-jest-konwersja-w-sklepie-internetowym-i-co-na-nia-wplywa/'

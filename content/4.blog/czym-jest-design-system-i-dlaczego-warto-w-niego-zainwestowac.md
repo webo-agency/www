@@ -5,6 +5,7 @@ introduction.description: 'Design System jest zbiorem wytycznych oraz zasad doty
 category:
     - Design
 image.url: '/img/blog-images/webo_blog_design_system.jpg'
+date: 2025-01-26
 hreflangs:
     EN: '/blog/'
     PL: '/blog/czym-jest-design-system-i-dlaczego-warto-w-niego-zainwestowac/'
