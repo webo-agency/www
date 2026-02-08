@@ -17,6 +17,7 @@ headerWidth: 720
 descriptionWidth: 475
 isSecondSvg: true
 showClientsLogos: true
+class: desktop:mb-[150px] desktop:pt-[100px] h-auto desktop:h-[700px]
 ---
 
 #subtitle
@@ -41,18 +42,18 @@ Pracowaliśmy dla:
 
 ::::block-brands-md
 ---
-class: test01 flex-nowrap !gap-x-7 [&_picture]:opacity-90
+class: mb-10 desktop:mb-0 !justify-start desktop:flex-nowrap !gap-x-7 [&_picture]:opacity-90
 logos:
     - link: 'https://is-wireless.com/'
-      imgUrl: '/img/logos/thoro.svg'
+      imgUrl: '/img/logos/thoro2.svg'
     - link: 'https://shop-mancraft.com/pl/'
-      imgUrl: '/img/logos/echo.svg'
+      imgUrl: '/img/logos/echo2.svg'
     - link: 'https://5gmadetogether.com/'
-      imgUrl: '/img/logos/etisoft.svg'
+      imgUrl: '/img/logos/etisoft2.svg'
     - link: 'https://agencjagrow.pl/'
       imgUrl: '/img/logos/isw.svg'
     - link: 'https://thoro.pl/'
-      imgUrl: '/img/logos/sollux.svg'
+      imgUrl: '/img/logos/sollux2.svg'
 ---
 ::::
 :::
@@ -69,7 +70,7 @@ class: overflow-hidden desktop:overflow-visible
 ---
 imgUrl: '/img/content-images/dla-agencji/dla-agencji-banner.webp'
 decoration: false
-class: tablet:w-auto !w-full desktop:mt-[-230px] desktop:-mr-10 tablet:!pl-20 desktop-wide:!pl-20
+class: tablet:w-auto !w-full desktop:mt-[-160px] desktop:-mr-10 tablet:!pl-20 desktop-wide:!pl-20
 ---
 ::::
 
@@ -77,7 +78,7 @@ class: tablet:w-auto !w-full desktop:mt-[-230px] desktop:-mr-10 tablet:!pl-20 de
 ---
 imgUrl: '/img/content-images/dla-agencji/baner-decor-1.svg'
 decoration: false
-class: mx-auto !mb-0 !p-0 hidden tablet:!block !w-[122px] tablet:!w-[122px] h-[122px] !absolute !top-[-50px] tablet:!top-[200px] left-[-10px] tablet:!left-[50px] z-20
+class: mx-auto !mb-0 !p-0 hidden tablet:!block !w-[122px] tablet:!w-[122px] h-[122px] !absolute !top-[-50px] tablet:!top-[80px] left-[-10px] tablet:!left-[50px] z-20
 ---
 ::::
 
@@ -89,9 +90,6 @@ class: mx-auto !mb-0 !p-0 hidden tablet:!block !w-[122px] tablet:!w-[122px] h-[1
 ---
 ::::
 :::
-
-
-
 ::
 
 
@@ -100,55 +98,21 @@ class: mx-auto !mb-0 !p-0 hidden tablet:!block !w-[122px] tablet:!w-[122px] h-[1
 classes: mb-10 desktop:mb-[80px]
 ---
 
-:::block-columns-1-1-md
-
-#left
-::::effect-appear-md
-:::::block-header-md
+:::effect-appear-md
+::::block-header-md
 ---
 center: false
-maxWidth: 700
-class: mb-[60px]
+maxWidth: 1290
+class: mb-[60px] [&_h2]:!text-[30px]
 ---
 
 #subtitle
-### *1/* Dla nas liczy się jakość
+### *1/* Podwykonawca stron i sklepów internetowych
 
 #title
-## Tworzymy solidne strony <br> www *dla ambitnych firm*
+## Jeśli prowadzisz agencję i potrzebujesz solidnego zaplecza do realizacji stron i sklepów internetowych dla swoich klientów, jesteś w dobrym miejscu. *Działamy jako podwykonawca, w modelu white label lub partnerskim, dostarczając UX/UI, development i wsparcie techniczne* dokładnie wtedy, gdy tego potrzebujesz.
 
 #description
-::::::prose-p-3
----
-class: max-w-[650px] [&_p]:!leading-8
---- 
-Nie korzystamy z gotowych szablonów ani kreatorów. Tworzenie stron internetowych realizujemy od podstaw, programując każdą witrynę w oparciu o sprawdzone i nowoczesne technologie. Dzięki przejrzystemu procesowi, standaryzacji i autorskiemu podejściu, gwarantujemy:
-::::::
-
-::::::prose-p-4
----
-class: max-w-[650px] mb-5 [&_p]:!leading-7 ml-3
---- 
-
-&#x2022; wysoką wydajność strony,<br>
-&bull; pełne bezpieczeństwo,<br>
-&#8226; łatwą rozbudowę i stabilność na lata,<br>
-::::::
-
-::::::prose-p-4
----
-class: text-base max-w-[650px] mb-5 [&_p]:!leading-7
---- 
-Od warsztatów projektowych w trakcie których wybierzemy optymalną technologię, przez strategię UX i projekt interfejsu strony, wdrożenie programistyczne, po rozwój i wsparcie techniczne - z nami kompleksowo zrealizujesz stronę www, która będzie solidnym narzędziem w Twojej firmie.
-::::::
-:::::
-::::
-
-#right
-::::effect-appear-md
----
-class: h-full relative
----
 
 ::::
 :::
@@ -172,6 +136,14 @@ reverseMobile: true
 class: h-full relative
 ---
 
+:::::img-decorated-md
+---
+imgUrl: '/img/content-images/strony-wordpress/decor_quarter_circle.svg'
+decoration: false
+class: hidden desktop:block mx-auto !mb-0 !p-0 !w-[122px] !absolute bottom-[40px] left-[-60px]
+---
+:::::
+
 :::::effect-parallax-md
 ---
 parallaxScale: 0.09
@@ -180,7 +152,7 @@ class: overflow-hidden desktop:overflow-visible
 ---
 ::::::img-decorated-md
 ---
-imgUrl: '/img/content-images/strony-internetowe/section2-left-img.png'
+imgUrl: '/img/content-images/dla-agencji/dla_agencji_img_1.webp'
 decoration: false
 class: desktop:!pr-16 !w-full
 ---
@@ -198,24 +170,28 @@ class: mb-[60px] desktop:mt-[100px]
 ---
 
 #subtitle
-### *2/* Jakie strony dostarczamy?
+### *2/* Usługi white label dla agencji
 
 #title
-## Strony internetowe, platformy i dedykowane rozwiązania webowe
+## Solidne wdrożenia webowe, dla Twojej agencji
 :::::
 
 :::::prose-p-3
 ---
 class: max-w-full mb-10 [&_p]:!leading-8 desktop:[&_p]:text-lg
 --- 
-Niezależnie od tego czy potrzebujesz **landing page sprzedażowy**, dedykowane rozwiązanie webowe, czy **rozbudowany serwis internetowy** dla swojej firmy - nasz zespół to programiści z krwi i kości mający doświadczenie w **najbardziej skomplikowanych projektach**. Z przyjemnością  zrealizujemy dla Ciebie:
+Zamiast budować i utrzymywać własny zespół UX/UI i DEV, możesz wynająć sprawdzonych specjalistów, którzy będą pracowć dla Twoich klientów, pod Twoją marką i według Twoich zasad. My bierzemy na siebie projektowanie, wdrożenia i rozwój produktów, a Ty skupiasz się na sprzedaży, strategii i relacji z klientem.
+
+&nbsp;
+<br>
+Działamy jak część Twojej agencji - dopasowujemy się do procesów, narzędzi i stylu komunikacji. Bez chaosu, bez tłumaczenia podstaw i bez ryzyka, że finalny efekt nie dowiezie tego, co zostało obiecane klientowi.
 :::::
 
 :::::prose-p-3
 ---
 class: max-w-full bg-green-gray p-5 tablet:p-10 mb-10 [&_p]:!leading-8 desktop:text-[20px] !font-semibold [&_p]:!leading-[40px]
 --- 
-*/*&nbsp;Landing page&nbsp;&nbsp;&nbsp; */*&nbsp;Strony dla firm i&nbsp;instytucji&nbsp;&nbsp;&nbsp;  */*&nbsp;Platformy edukacyjne&nbsp;&nbsp;&nbsp; */*&nbsp;Serwisy internetowe&nbsp;&nbsp;&nbsp; */*&nbsp;Platforme informacyjne&nbsp;&nbsp;&nbsp; */*&nbsp;Strony z&nbsp;WCAG&nbsp;2.1&nbsp;&nbsp;&nbsp; */*&nbsp;Dedykowane rozwiązania
+*/*&nbsp;Studia brandingowee&nbsp;&nbsp;&nbsp; */*&nbsp;Agencje SEO&nbsp;&nbsp;&nbsp;  */*&nbsp;Studia projektowe i kreatywne&nbsp;&nbsp;&nbsp; */*&nbsp;Agencje marketingowe&nbsp;&nbsp;&nbsp; */*&nbsp;Agencje PR i komunikacji&nbsp;&nbsp;&nbsp; */*&nbsp;Firmy IT&nbsp;&nbsp;&nbsp; */*&nbsp;Firmy konsultingowe i doradcze
 :::::
 ::::
 :::
@@ -237,15 +213,15 @@ classes: mb-5 tablet:mb-[100px]
 ::::block-header-md
 ---
 center: true
-maxWidth: 480
+maxWidth: 700
 class: mb-20
 ---
 
 #subtitle
-### *3/* Dedykowane rozwiązania dla stron www
+### *3/* Nasze kompetencje
 
 #title
-## Strony www realizujemy *na platformach*
+## Jakie usługi dostarczamy?
 ::::
 :::
 
@@ -253,51 +229,74 @@ class: mb-20
 
 ::::offer-tile-md
 --- 
-icon: '/img/icons/wordpress.svg'
-link: 'https://webo.agency/uslugi/strony-wordpress'
+icon: '/img/icons/uxui2.svg'
+class: max-h-[336px] tracking-tighter [&_p]:tracking-tighter
 ---
 #title
-#### Wordpress
+#### Projektowanie UX/UI
 
 #description
-Najpopularniejszy i najłatwiejszy w obsłudze system zarządzania treścią, który idealnie sprawdzi się w przypadku stron firmowych, małych portali i landing page.
-
-#readMoreText
-Dowiedz się więcej
-::::
-
-
-
-::::offer-tile-md
---- 
-icon: '/img/icons/drupal.svg'
-link: 'https://webo.agency/kontakt'
-delay: 1
----
-#title
-#### Drupal
-
-#description
-Elastyczny i niesamowicie skalowalny system zarządzania treścią, na którym z powodzeniem zrealizujemy rozbudowane strony korporacyjne, zaawansowane serwisy i strony instytucji.
-
-#readMoreText
-Dowiedz się więcej
+Projektujemy UX/UI w oparciu o realne potrzeby użytkowników, cele biznesowe i charakter marki klienta. Każdy projekt jest szyty na miarę — bez szablonów, bez schematów, bez kompromisów.
 ::::
 
 ::::offer-tile-md
 --- 
-icon: '/img/icons/wordpress-headles.svg'
-link: 'https://webo.pl/uslugi/strony-headless-pwa/'
-delay: 2
+icon: '/img/icons/page.svg'
+class: max-h-[336px] tracking-tighter [&_p]:tracking-tighter
 ---
 #title
-#### Wordpress + Headless
+#### Wdrożenia stron www 
 
 #description
-Tradycyjny Wordpress w połączeniu z nową technologią = ultraszybkie ładowanie strony, najwyższe bezpieczeństwo, wielokanałowość i nielimitowane skalowanie.
+Tworzymy nowoczesne strony oparte na solidnych technologiach i czystym kodzie. Dbamy o to, aby wdrożenie było wierne założeniom projektowym, szybkie w działaniu i gotowe na skalowanie
+::::
 
-#readMoreText
-Dowiedz się więcej
+::::offer-tile-md
+--- 
+icon: '/img/icons/cart.svg'
+class: max-h-[336px] tracking-tighter [&_p]:tracking-tighter
+---
+#title
+#### Wdrożenia e-commerce
+
+#description
+Stawiamy na intuicyjny proces sprzedażowy i wygodę użytkownika. Każde wdrożenie dopasowujemy do celu biznesowego i strategii klienta, tak aby technologia realnie wspierała sprzedaż.
+::::
+
+::::offer-tile-md
+--- 
+icon: '/img/icons/landing.svg'
+class: max-h-[336px] tracking-tighter [&_p]:tracking-tighter
+---
+#title
+#### Tworzenia landing page
+
+#description
+Landingi projektujemy pod konkretny cel - sprzedaż, leady lub kampanie performance. Skupiamy się na strukturze, szybkości i celu biznesowym, zamiast powielać gotowe schematy.
+::::
+
+::::offer-tile-md
+--- 
+icon: '/img/icons/web_app.svg'
+class: max-h-[336px] tracking-tighter [&_p]:tracking-tighter
+---
+#title
+#### Aplikacje webowe
+
+#description
+Tworzymy aplikacje webowe szyte pod konkretne potrzeby firm, takie jak systemy CRM, systemy rezerwacji, panele administracyjne czy narzędzia wspierające procesy wewnętrzne.
+::::
+
+::::offer-tile-md
+--- 
+icon: '/img/icons/settings.svg'
+class: max-h-[336px] tracking-tighter [&_p]:tracking-tighter
+---
+#title
+#### Rozwój stron i sklepów www
+
+#description
+Wdrażamy nowe funkcje, tworzymy nowe podstrony,  optymalizujemy UX/UI i dbamy o stabilność technologiczną po publikacji. Wszystko po to aby strona www nadążała za rozwojem biznesu.
 ::::
 :::
 ::
@@ -317,7 +316,7 @@ class: top-20 right-[15%] fullHd:right-[20%] scale-x-[-1.6] scale-y-[1.6]
 
 ::::block-cta-md
 ---
-maxWidth: 800
+maxWidth: 700
 button.link: https://webo.agency/kontakt
 button.title: 'Skontaktuj się z nami'
 button.isWide: true
@@ -325,10 +324,10 @@ class: tablet:mb-36
 ---
 
 #title
-#### Nie wiesz jakiego rozwiązania potrzebujesz?
+#### Szukasz doświadczonego zespołu który zadba o *stronę Twojego klienta?*
 
 #description
-Umów się na bezpłatną konsultację!
+Umów się na bezpłatną konsultacjęSkontaktuj się z nami i porozmawiajmy na temat współpracy.
 
 ::::
 :::
@@ -337,401 +336,138 @@ Umów się na bezpłatną konsultację!
 
 ::page-section-md
 ---
-classes: mb-10 tablet:mb-[80px]
+class: mb-10 tablet:mb-[100px] bg-gray-darkest relative z-10 overflow-hidden pt-10 tablet:pt-[100px] [&_.right]:relative [&_.right]:flex [&_.right]:items-end
 ---
-
-:::effect-appear-md
-::::block-header-md
----
-center: true
-maxWidth: 540
-class: mb-20
----
-
-#subtitle
-### *4/* Najwyższe standardy stron internetowych?
-
-#title
-## W realizacjach stron internetowych stawiamy na
-
-::::
-:::
-
-:::block-columns-1-1-md
----
-class: mb-10 tablet:mb-20
----
-
-#left
 
 ::::effect-appear-md
-:::::block-list-ul-md
+:::::block-header-md
 ---
-decoration: false
----
-::::::list-item-ul-active-md
----
-iconUrl: '/img/icons/doc_bg_gray.svg'
-iconBig: true
-iconLeft: true
-animated: false
----
-
-#title
-#### Zgodność z dokumentacją techniczną
-
-#description
-Zawsze **opieramy się o dokumentację techniczną** rozwiązań z jakich korzystamy. Dzięki temu zapewniamy poprawność działania wdrożonych funkcji i **szybkość działania strony, bez zbędnego kodu**.
-
-::::::
-::::::list-item-ul-active-md
----
-iconUrl: '/img/icons/uxui_bg_gray.svg'
-iconBig: true
-iconLeft: true
-animated: false
----
-
-#title
-#### Projekt strony szyty na miarę
-
-
-#description
-W projektowaniu interfejsu kluczowe są dla nas Twoje wymagania oraz **potrzeby użytkowników**. Projektujemy m.in. architekturę informacji, prototyp strony i **design dopasowany do Twojej marki**, zapewniając **łatwą w obsłudze stronę**.
-
-::::::
-::::::list-item-ul-active-md
----
-iconUrl: '/img/icons/scaling_bg_gray.svg'
-iconBig: true
-iconLeft: true
-animated: false
----
-
-#title
-#### Skalowalność czyli przygotowanie do rozwoju
-
-#description
-Celem prowadzenia biznesu jest jego rozwój. Stawiamy na długofalowe rozwiązania wdrażając m.in. **nowoczesną architekturę i system przystosowany do dalszej rozbudowy** aby strona mogła wzrastać razem z rozwojem Twojej firmy.
-::::::
-:::::
-::::
-
-
-#right
-::::effect-appear-md
-:::::block-list-ul-md
-::::::list-item-ul-active-md
----
-iconUrl: '/img/icons/code_bg_gray.svg'
-iconBig: true
-iconLeft: true
-animated: false
----
-
-#title
-#### Programowanie stron od podstaw
-
-#description
-Webo to **zespół programistów** z krwi i kości, nie korzystamy ze słabych jakościowo gotowców. Strony internetowe programujemy od podstaw zapewniając **wysoką jakość, szybkość działania i wydajność**.
-
-::::::
-::::::list-item-ul-active-md
----
-iconUrl: '/img/icons/weight_bg_gray.svg'
-iconBig: true
-iconLeft: true
-animated: false
----
-
-#title
-#### Stabilne działanie strony przez lata
-
-#description
-Naszym zadaniem jest dostarczenie **stabilnie działającej strony** internetowej. To inwestycja która ma zapewnić Tobie **realizacje celów biznesowych** bez obaw o wydajność czy dostępność strony dla potencjalnych klientów.
-
-::::::
-::::::list-item-ul-active-md
----
-iconUrl: '/img/icons/tests_bg_gray.svg'
-iconBig: true
-iconLeft: true
-animated: false
----
-
-#title
-#### Szczegółowe testy przed publikacją
-
-#description
-Przeprowadzamy szczegółową **kontrolę jakości i funkcjonowania strony**. Testy wykonujemy na różnych urządzeniach i rozdzielczościach ekranu aby przed publikacją upewnić się że wszystko działa poprawnie.
-::::::
-:::::
-::::
-:::
-::
-
-
-
-
-::page-section-md
----
-classes: bg-gray-darkest pt-10 tablet:pt-[100px] mb-[100px]
----
-
-:::effect-appear-md
----
-class: relative z-20
----
-
-::::block-header-md
----
-maxWidth: 690
-class: mb-10 tablet:mb-20
 textWhite: true
-center: true
----
-
-#title
-## Dlaczego wysoka jakość strony internetowej *się opłaca?*
-
-::::
-:::::block-list-ul-md
----
-class: mb-10 tablet:mb-20 flex flex-wrap justify-center gap-5 tablet:[&>li]:w-[calc(50%_-_10px)] desktop:[&>li]:w-[calc(33.3333%_-_14px)]
----
-
-::::::tile-dark-icon-md
----
-iconUrl: '/img/icons/rocket.svg'
-center: true
-iconDecorated: true
----
-
-#title
-#### 30% szybsze ładowanie strony
-
-#description
-Które bezpośrednio wpływa na pozycjonowanie w wynikach Googla, a także na wrażenia użytkowników - współczynnik odrzuceń wzrasta o 90% gdy strona łąduje się powyżej 3s
-
-::::::
-::::::tile-dark-icon-md
----
-iconUrl: '/img/icons/upscaling.svg'
-center: true
-iconDecorated: true
----
-
-#title
-#### 50% niższy koszt rozbudowy
-
-#description
-Dobry jakościowo kod i zgodność z dokumentacją sprawiają że dalsza rozbudowa nie będzie niosła za sobą komplikacji i skróci czas jaki developer potrzebuje na wdrożenie nowych podstron czy funkcji.
-
-::::::
-::::::tile-dark-icon-md
----
-iconUrl: '/img/icons/stability.svg'
-center: true
-iconDecorated: true
----
-
-#title
-#### Stabilne działanie nawet przez wiele lat
-
-#description
-Jakościowe wdrożenie to pewność działania strony m.in. bez wtop wydajnościowych czy błędów blokujących otwarcie oraz maksymalizacja bezpieczeństwa danych.
-
-::::::
-
-:::::
-:::
-
-#full
-:::effect-appear-md
-::::effect-parallax-md
----
-parallaxScale: 0.08
-startBottom: true
-class: overflow-hidden
----
-:::::prose-figure
----
-src: '/img/content-images/strony-internetowe/section4.png'
-rounded: false
----
-:::::
-::::
-:::
-::
-
-
-
-
-::page-section-md
----
-classes: mb-10 tablet:mb-[100px]
----
-:::effect-appear-md
-::::block-header-two-cols-md
----
-class: mb-10 [&_.description]:!text-base
-maxWidth: 640
-decoration: false
+class: mb-10 tablet:mb-20 relative z-10
 ---
 
 #subtitle
-## *6/* Etapy realizacji strony internetowej
+### *3/* Dlaczego warto nam zaufac?
 
 #title
-## Jak przebiega nasz proces realizacji strony internetowej?
-
-#description
-Do stworzenia nowoczesnej strony internetowej potrzeba szerokiej wiedzy z zakresu technologii i projektowania nastawionego na użytkownika oraz wypracowanego procesu, który zapewnia realizację założeń bez obsuw czasowych i w ustalonym budżecie.
-::::
-:::
-
-#full
-
-:::block-swiper-tabs-md
----
-tabNames:
-    - Analiza założeń
-    - Projektowanie
-    - Programowanie
-    - Testy i publikacja
-    - Wsparcie i rozwój
----
-::::block-swiper-tabs-slide-md
----
-icon: '/img/icons/magnifier.svg'
----
-:::::block-header-md
----
-maxWidth: 700
----
-
-#title
-#### 01. Analiza założeń
-
-#description
-Jest to pierwszy krok jaki musimy
-wykonać w celu realizacji strony internetowej.
-Podczas pierwszej rozmowy dokładnie poznajemy Twoje potrzeby oraz założenia projektu.
-
-**Podczas tego etapu:**
-- Przeprowadzamy videowarsztaty
-- Dobieramy najlepszą technologię i rozwiązania, optymalne dla Twojego projektu
-- Przygotowujemy kosztorys, który zawiera szczegółowy sposób realizacji oraz stack technologiczny
-- Określamy czas trwania projektu i terminy odbioru<br>
-
-**Po akceptacji kosztorysu, proponowanych rozwiązań i terminów, podpisujemy umowę o współpracy i przechodzimy do realizacji.**
-
+## Mówmy o konkretach, <br> *bez lania wody*
 :::::
 ::::
 
-
-::::block-swiper-tabs-slide-md
+::::block-list-ul-md
 ---
-icon: '/img/icons/www-uxui.svg'
----
-:::::block-header-md
----
-maxWidth: 700
+class: mb-10 tablet:mb-20 gap-5 columns-1 tablet:columns-3 [&_li]:inline-block space-y-5 tablet-wide:w-3/4
 ---
 
-#title
-#### 02. Projektowanie interfejsu UX/UI
-
-#description
-Podczas tego etapu pracujemy nad wyglądem strony www. Prace zaczynamy od przeanalizowania przyzwyczajeń grupy docelowej (Twoich klientów) oraz otoczenia rynkowego - wszystko po to aby użytkownicy z łatwością odnaleźli się na nowej stronie. Następnie  opracowujemy moodboardy (tablice inspiracji), wytyczamy ścieżki użytkownika (user flow), projektujemy makiety UX, kończąc na finalnym wyglądzie Twojej strony.
-
-**Podczas tego etapu:**
-- Będziesz mieć wgląd w każdy etap pracy projektowej i bezpośredni kontakt z doświadczonym projektantem UX/UI.
-- Będziesz akceptować poszczególne etapy realizacji projektu Twojej strony www - od moodboardów po finalny wygląd.<br>
-
-**Po akceptacji finalnego wyglądu, projekt jest gotowy do etapu programowania**
-
-:::::
-::::
-
-::::block-swiper-tabs-slide-md
+:::::tile-dark-icon-md
 ---
-icon: '/img/icons/www-code.svg'
----
-:::::block-header-md
----
-maxWidth: 700
+iconUrl: '/img/icons/coding2.svg'
+delay: 0
+class: desktop:min-h-[340px]
 ---
 
 #title
-#### 03. Prace programistyczne
+#### Nie musisz budować ani zarządzać zespołem technicznym
 
 #description
-Po zaakceptowaniu projektu interfejsu, rozpoczynamy prace nad kompleksowym wdrożeniem strony internetowej w wybranej technologii. Działamy od konfiguracji infrastruktury technicznej, przez instalacje wymaganych narzędzi po zaprogramowanie strony.
-
-**Podczas tego etapu:**
-- Będziesz mieć stały podgląd strony w środowisku developerskim, który zapewni pełną kontrolę nad projektem
-- Skonfigurujemy infrastrukturę techniczną potrzebną do wydajnego działania strony internetowej
-- Zaprogramujemy stronę www wraz ze wszystkimi wymaganymi funkcjami i integracjami np. GA4.<br>
-
-**Po zakończeniu etapu programowania, przekazujemy stronę www do testów.**
-
+Cały obszar UX, UI, developmentu i supportu bierzemy na siebie. Ty możesz skupić się na strategii, kreacji i relacji z klientem, bez wchodzenia w techniczne detale.
 :::::
-::::
 
-
-::::block-swiper-tabs-slide-md
+:::::tile-dark-icon-md
 ---
-icon: '/img/icons/www-tests.svg'
----
-:::::block-header-md
----
-maxWidth: 700
+iconUrl: '/img/icons/avatar_star.svg'
+delay: 2
+class: desktop:min-h-[340px]
 ---
 
 #title
-#### 04. Testy i publikacja
+### Reprezentujemy Twoją agencję w kontakcie  z klientem
 
 #description
-W tym etapie gruntownie sprawdzamy działanie strony internetowej. Testy wykonujemy na wielu urządzeniach i rozdzielczościach ekranu (od najmniejszych smartfonów po wyświetlacze FHD), wszystko po to aby mieć pewność że wszystko działa jak należy. Po przejściu wewnętrznych testów, przekazujemy stronę do weryfikacji klientowi - to moment na dopracowanie projektu i zgłaszanie wszelkich uwag przed publikacją.
-
-**Podczas tego etapu:**
-- Sprawdzamy działanie każdej funkcji, wydajność strony, konfiguracje infrastruktury oraz wyświetlanie strony na wielu urządzeniach.
-- Przekazujemy stronę do weryfikacji klientowi, wykonujemy wszelkie poprawki aby przygotować stronę do publikacji.<br>
-
-**Po otrzymaniu od klienta zielonego światła na publikację, startujemy!**
+Zapewniamy Project Managera, który może występować jako część waszego zespołu. Prowadzimy rozmowy, warsztaty  i komunikację mailową, dbając o spójny przekaz i sprawny przebieg projektu.
 
 :::::
-::::
 
-
-::::block-swiper-tabs-slide-md
+:::::tile-dark-icon-md
 ---
-icon: '/img/icons/www-support.svg'
----
-:::::block-header-md
----
-maxWidth: 700
+iconUrl: '/img/icons/dollar.svg'
+delay: 1
+class: mt-5 desktop:min-h-[340px]
 ---
 
 #title
-#### 05. Wsparcie i rozwój
+#### Wspieramy Was już na etapie sprzedaży
 
 #description
-Często publikacja strony to dopiero początek, a podczas użytkowania strony pojawiają sie pomysły na nowe funkcjonalności, zakładki czy ulepszenia - w tym miejscu nie możemy także zapomnieć o koniecznych aktualizacjach czy monitorowaniu wydajności, bezpieczeństwa czy stabilności działania.
+Na podstawie przekazanych założeń przygotowujemy kosztorys, zakres i harmonogram prac. Następnie dopracowujemy je wspólnie, tak aby oferta była atrakcyjna dla klienta i opłacalna dla obu stron.
+:::::
 
-**W ramach usługi wsparcia zajmujemy się następującymi pracami:**
-- Aktualizacja środowiska (systemu) w ramach konserwacji
-- Monitorowanie bezpieczeństwa i szybkości strony
-- Projektowanie i rozbudowa strony
-- Projektowanie i wdrażanie nowych funkcjonalności i dedykowanych modułów
-- Reagowanie na ewentualne awarie<br>
+:::::tile-dark-icon-md
+---
+iconUrl: '/img/icons/scaling_chart.svg'
+delay: 3
+class: desktop:min-h-[340px]
+---
 
+#title
+#### Skalujecie się wtedy, kiedy macie projekty
+
+#description
+Mało zleceń? Nie generujecie kosztów. Dużo projektów? Macie zaplecze, które to udźwignie. Współpraca z podwykonawcą daje elastyczność bez ryzyka kadrowego.
+:::::
+
+:::::tile-dark-icon-md
+---
+iconUrl: '/img/icons/path.svg'
+delay: 3
+class: desktop:min-h-[340px] tablet:!mt-0
+---
+
+#title
+#### Koniec z chaosem w projektach
+
+#description
+Pracujecie z zespołem, który ma proces i bierze odpowiedzialność za terminy, nie pracujemy z dostępnością „jak się uda”. To oznacza przewidywalność, powtarzalną jakość i mniej gaszenia pożarów.
+:::::
+
+:::::tile-dark-icon-md
+---
+iconUrl: '/img/icons/circles.svg'
+delay: 3
+class: desktop:min-h-[340px]
+---
+
+#title
+#### Twoja marka zostaje na froncie, my działamy w tle
+
+#description
+Pracujemy jako podwykonawca który dopasowuje się do Twojego biznesu. Działamy w modelu partnerskim lub White Label występując w barwach Twojej firmy, dzięki czemu klient widzi dokładnie tyle ile powinien.
 :::::
 ::::
 
-:::
+::::effect-appear-md
+---
+class: tablet:absolute inset-y-0 right-0 tablet:w-[45%]
+---
+:::::effect-parallax-md
+---
+parallaxScale: 0.15
+startBottom: true
+class: overflow-hidden tablet:overflow-visible tablet:h-full
+innerClass: tablet:h-full
+---
+::::::img-decorated-md
+---
+imgUrl: '/img/content-images/dla-agencji/dla_agencji_img_2.webp'
+decoration: false
+gradient: true
+class: mt-0 !mb-0 !pl-0 !w-full tablet:h-full [&>div]:tablet:h-full [&_img]:object-left
+---
+::::::
+:::::
+::::
 ::
+
 
 ::page-section-md
 ---
@@ -749,13 +485,6 @@ class: relative overflow-hidden tablet:overflow-visible -mx-5 tablet:mx-0
 
 :::::img-decorated-md
 ---
-imgUrl: '/img/content-images/strony-wordpress/decor_code.svg'
-decoration: false
-class: hidden desktop:block mx-auto !mb-0 !p-0 !w-[100px] tablet:!w-[230px] !absolute top-1/3 right-0
----
-:::::
-:::::img-decorated-md
----
 imgUrl: '/img/content-images/strony-wordpress/decor_quarter_circle.svg'
 decoration: false
 class: hidden desktop:block mx-auto !mb-0 !p-0 !w-[122px] !absolute bottom-[100px] left-[-61px]
@@ -763,9 +492,9 @@ class: hidden desktop:block mx-auto !mb-0 !p-0 !w-[122px] !absolute bottom-[100p
 :::::
 :::::img-decorated-md
 ---
-imgUrl: '/img/content-images/strony-internetowe/laptop_mockup_1.webp'
+imgUrl: '/img/content-images/dla-agencji/dla_agencji_img_3.webp'
 decoration: false
-class: tablet:mb-20 !mb-10 z-0
+class: hidden tablet:block tablet:mb-20 tablet:!pr-20 !mb-10 z-0
 ---
 
 :::::
@@ -784,126 +513,260 @@ class: mb-10
 ---
 
 #subtitle
-### *7/* Wycena stron www
+### *5/* Nasze atuty
 
 #title
-## Jak wyceniamy projekty stron internetowych?
+## Czego możesz się spodziewać?
 
 #description
-::::::prose-p-4
+
+:::::
+
+:::::block-faq-simple-md
+
+::::::faq-item-simple-md
 ---
-class: mb-10
+number: '01'
 ---
-Nie korzystamy z gotowych pakietów ani cenników, które ograniczają możliwości rozwoju. Każdy projekt traktujemy indywidualnie, analizując Twoje potrzeby, cele biznesowe oraz zakres funkcjonalności.
+
+#title
+##### Jakościowy kod strony, bez śmieciowych builderów
+
+#description
+Tworzymy strony i sklepy w oparciu o czysty kod, solidne technologie i najnowsze standardy. Każde wdrożenie jest szytem na miarę - bez szablonów, bez zbędnych bibliotek, bez kompromisów. To oznacza szybszą stronę, łatwiejszy rozwój i mniejsze koszty utrzymania.
+
 ::::::
-::::::prose-p-4
+
+::::::faq-item-simple-md
 ---
-class: mb-10
+number: '02'
 ---
-Wycena strony powstaje po wspólnych warsztatach lub bezpłatnej konsultacji - dzięki temu masz pewność, że finalna propozycja jest dopasowana, przejrzysta i uwzględnia zarówno technologię, jak i długookresowe plany rozwoju strony.
+
+#title
+##### Nieszablonowe UX/UI dopasowane do marki i celów biznesowych
+
+#description
+Projektujemy interfejsy które są unikalne dla każdego klienta. Analizujemy Twoje cele biznesowe, potrzeby użytkowników i charakter marki. Każdy projekt to kombinacja ładnego designu, intuicyjnej nawigacji i wsparcia dla Twojej strategii sprzedażowej.
+
 ::::::
-::::::prose-p-4
-**Zależy Ci na konkretach?** Porozmawiajmy o Twojej stronie - przygotujemy jasną ofertę bez zbędnych kosztów.
+
+::::::faq-item-simple-md
+---
+number: '03'
+---
+
+#title
+##### Eksperckle wsparcie, które wzmacnia Twoją ofertę sprzedażową
+
+#description
+Nie zostawiamy Cię samego z wdrożoną stroną. Oferujemy Project Managera, wsparcie techniczne i koncepty na ewentualne rozszerzenia. Nasze doświadczenie w pracy z agencjami oznacza, że wiemy, co im potrzebne do efektywnego sprzedaży.
+
 ::::::
+
+::::::faq-item-simple-md
+---
+number: '04'
+---
+
+#title
+##### Gwarancja i bezpieczeństwo po wdrożeniu strony
+
+#description
+Bierzemy odpowiedzialność za jakość kodu, bezpieczeństwo oraz wydajność strony po publikacji. Wszystkie wdrożenia przechodzą testy, monitoring i bieżące aktualizacje. To oznacza mniej ryzyka i więcej spokojności dla Ciebie i Twojego klienta.
+
+::::::
+
+::::::faq-item-simple-md
+---
+number: '05'
+---
+
+#title
+##### Płynny przepływ pracy i bezpośrednia komunikacja
+
+#description
+Pracujemy z przejrzystymi procesami, jasnymi harmonogramami i regularną komunikacją. Wiesz na czym stoi projekt, w którym momencie się znajduje i co się dzieje dalej. Brak chaosu, brak niespodzianek.
+
+::::::
+
+::::::faq-item-simple-md
+---
+number: '06'
+---
+
+#title
+##### Doświadczenie w elastycznej współpracy z agencjami
+
+#description
+Dzielimy się naszą wiedzą na temat skalowania zespołów, zarządzania projektami i rozbudowy stron. Znamy wyzwania jakie stoją przed agencjami i wiemy, jak je rozwiązywać. Działamy jako długoterminowy partner, nie jednorazowy dostawca.
+
+::::::
+
 :::::
 ::::
 ::
 
+
+
 ::page-section-md
 ---
-class: mb-20 tablet:mb-[100px]
+classes: mb-10 tablet:mb-20
 ---
 
 :::effect-appear-md
+::::block-header-md
 ---
-class: bg-green-gray relative
----
-
-::::img-decorated-md
----
-imgUrl: '/img/svg-arc.svg'
-decoration: false
-class: tablet:!pl-0 !mb-0 !w-[80px] tablet:!w-[122px] !absolute top-[20px] tablet:!top-[50px] left-[20px] tablet:!left-[50px] z-0
----
-::::
-
-::::img-decorated-md
----
-imgUrl: '/img/svg-square.svg'
-decoration: false
-class: tablet:!pl-0 !mb-0 !w-[60px] tablet:!w-[100px] !absolute bottom-[20px] tablet:!bottom-[50px] right-[20px] tablet:!right-[50px] z-0
----
-::::
-
-::::block-faq-md
-
-#header
-:::::block-header-md
----
-maxWidth: 900
-class: mb-[50px] text-center relative
+center: true
+maxWidth: 800
+class: mb-20
 ---
 
 #subtitle
-### *8/* Wszystko, co warto wiedzieć przed startem budowy strony
+### *6/* Outsourcing stron www
 
 #title
-## Najczęściej zadawane pytania (FAQ)
-
-:::::
-
-:::::block-expand-item-md
-
-#title
-##### Jak długo trwa stworzenie strony internetowej?
+## Elastyczne modele współpracy B2B
 
 #description
-W zależności od złożoności projektu - od 3 tygodni dla prostych realizacji do 8-12 tygodni przy bardziej zaawansowanych projektach. Dokładny harmonogram ustalamy po analizie założeń.
+Oferujemy dwa modele współpracy, które dopasowujemy do sposobu działania Twojej agencji i potrzeb konkretnego projektu. Niezależnie od wybranego wariantu, celem jest sprawna realizacja, jasny podział odpowiedzialności i pełna kontrola nad procesem.
 
-:::::
+::::
 
-:::::block-expand-item-md
+::::block-columns-1-1-md
 
+#left
+::::card-icon-md
+---
+class: tablet:pr-2.5 [&_div_div]:bg-black [&_div_div]:!text-white
+icon: '/img/icons/partnership_gray_bg.svg'
+---
 #title
-##### Ile kosztuje stworzenie strony internetowej?
+#### Współpraca partnerska
+
+#content
+:::::block-list-ul-md
+---
+decoration: false
+---
+::::::list-item-ul-active-md
+---
+iconUrl: '/img/icons/arrow_up.svg'
+iconBig: false
+animated: false
+class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit [&_div_div]:flex-row [&_div_div]:gap-4
+---
 
 #description
-Cena strony internetowej zależy od wielu czynników - zakresu funkcji, liczby podstron, technologii, designu oraz integracji (np. z systemami zewnętrznymi). Prosty serwis firmowy może kosztować od 6 000 zł netto, natomiast rozbudowany serwis z headless - kilkanaście, a nawet kilkadziesiąt tysięcy zł. Każdy projekt wyceniamy indywidualnie po analizie potrzeb.
-:::::
+**<u>Przekazujesz klienta, my przejmujemy realizację</u>** - Po poleceniu klient trafia bezpośrednio do nas, a my odpowiadamy za cały dalszy proces. To model, w którym nie działamy w tle, tylko jako jawny partner w realizacji.
 
-:::::block-expand-item-md
-
-#title
-##### Czy mogę zlecić tylko projekt graficzny strony?
-
-#description
-Oczywiście. Możemy zaprojektować sam interfejs (UX/UI) Twojej strony - od architektury informacji po makiety UX i finalny design. Projekt można później wdrożyć u nas lub u Twojego developera.
-
-:::::
-
-:::::block-expand-item-md
-
-#title
-##### Czym różni się wasze podejście od pracy na gotowym szablonie?
+::::::
+::::::list-item-ul-active-md
+---
+iconUrl: '/img/icons/arrow_up.svg'
+iconBig: false
+animated: false
+class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit [&_div_div]:flex-row [&_div_div]:gap-4
+---
 
 #description
-Gotowe szablony często ograniczają rozwój strony, spowalniają jej działanie i generują nadmiarowy kod. My tworzymy strony od podstaw - co oznacza pełną kontrolę nad każdym elementem i gwarancję wydajności oraz bezpieczeństwa.
-:::::
+**<u>Sprzedaż i pełna obsługa po naszej stronie</u>** - Prowadzimy cały proces sprzedażowy, ustalamy zakres, kosztorys i harmonogram bezpośrednio z klientem. Ty nie angażujesz swojego zespołu  w ofertowanie ani prowadzenie projektu.
 
-:::::block-expand-item-md
-
-#title
-##### Czy oferujecie opiekę i wsparcie po wdrożeniu strony?
+::::::
+::::::list-item-ul-active-md
+---
+iconUrl: '/img/icons/arrow_up.svg'
+iconBig: false
+animated: false
+class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit [&_div_div]:flex-row [&_div_div]:gap-4
+---
 
 #description
-Tak. Po wdrożeniu oferujemy opiekę techniczną, aktualizacje oraz wsparcie w rozbudowie strony. Możesz liczyć na stałą współpracę, monitoring działania i rozwój funkcji w miarę potrzeb.
+**<u>Proste rozliczenie prowizyjne</u>** - Rozliczamy się bezpośrednio  z klientem końcowym, a Twoja agencja otrzymuje prowizję za polecenie. Minimum formalności i zero odpowiedzialności projektowej po Twojej stronie.
 
-:::::
+::::::
+::::::list-item-ul-active-md
+---
+iconUrl: '/img/icons/arrow_up.svg'
+iconBig: false
+animated: false
+class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit [&_div_div]:flex-row [&_div_div]:gap-4
+---
+
+#description
+**<u>Pełna transparentność postępów prac</u>** - Zapewniamy Tobie bieżący wgląd w postępy realizacji, tak abyś mógł koordynować działania po swojej. Dzięki temu działania Twojej agencji zostają zsynchronizowane z realizacją techniczną.
+
+::::::
+::::
+
+#right
+::::card-icon-md
+---
+class:  tablet:mt-[50px] tablet:pl-2.5
+icon: '/img/icons/white_label.svg'
+---
+#title
+#### White Label
+
+#content
+:::::block-list-ul-md
+---
+decoration: false
+---
+::::::list-item-ul-active-md
+---
+iconUrl: '/img/icons/arrow_up.svg'
+iconBig: false
+animated: false
+class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit [&_div_div]:flex-row [&_div_div]:gap-4
+---
+
+#description
+**<u>Działamy jako część Twojej agencji</u>** - Przybieramy barwy Twojej marki i komunikujemy się tak, jakbyśmy byli integralnym elementem zespołu. Dla klienta końcowego występujesz Ty - my pracujemy w tle.
+
+::::::
+::::::list-item-ul-active-md
+---
+iconUrl: '/img/icons/arrow_up.svg'
+iconBig: false
+animated: false
+class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit [&_div_div]:flex-row [&_div_div]:gap-4
+---
+
+#description
+**<u>Wspólna sprzedaż i przygotowanie kosztorysu</u>** - Bierzemy udział w procesie sprzedażowym, przygotowując kosztorys i zakres prac na bazie założeń projektowych. Następnie dopracowujemy ofertę razem, tak aby była atrakcyjna dla klienta i opłacalna dla Twojej agencji.
+
+::::::
+::::::list-item-ul-active-md
+---
+iconUrl: '/img/icons/arrow_up.svg'
+iconBig: false
+animated: false
+class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit [&_div_div]:flex-row [&_div_div]:gap-4
+---
+
+#description
+**<u>Jasny podział formalności i rozliczeń</u>** - Formalizujemy współpracę na linii my–agencja oraz agencja–klient. Ty rozliczasz się z klientem, my z Tobą - a Twoja agencja zarabia na ustalonej marży.
+
+::::::
+::::::list-item-ul-active-md
+---
+iconUrl: '/img/icons/arrow_up.svg'
+iconBig: false
+animated: false
+class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit [&_div_div]:flex-row [&_div_div]:gap-4
+---
+
+#description
+**<u>Jednolita komunikacja i PM</u>** - W modelu white label komunikujemy się z klientem w imieniu Twojej agencji. Jeśli to dla Ciebie istotne możemy samodzielnie prowadzić Project Management, zdejmując z Twojego zespołu operacyjną odpowiedzialność.
+
+::::::
+::::
 ::::
 :::
 ::
 
-::::block-cta-md
+
+::block-cta-md
 ---
 maxWidth: 700
 button.link: https://webo.agency/kontakt
@@ -913,11 +776,136 @@ class: tablet:mb-36
 ---
 
 #title
-#### Potrzebujesz *solidnej strony internetowej,* która pomoże w rozwoju Twojej firmy?
+#### Potrzebujesz solidnego zaplecza do *realizacji stron i sklepów?*
 
 #description
-Umów się na bezpłatną konsultację i porozmawiaj z ekspertem.
+Skontaktuj się i porozmawiajmy o współpracy  dopasowaej do Twojego biznesu.
+::
+
+::page-section-md
+---
+classes: mb-20 tablet:mb-[100px]
+---
+:::effect-appear-md
+::::block-header-md
+---
+center: true
+maxWidth: 550
+class: mb-20
+---
+
+#subtitle
+### *7/* Nasi partnerzy
+
+#title
+## Agencje z którymi współpracujemy
+
 ::::
+:::
+
+:::block-columns-1-1-md
+
+#left
+::::card-icon-md
+---
+class: tablet:pr-2.5 tablet:h-[490px]
+icon: '/img/content-images/dla-agencji/logo_grow.svg'
+---
+#title
+#### Model abonamentowy
+
+#content
+:::::prose-p3
+---
+class: mb-5 leading-8 text-lg
+--- 
+W modelu abonamentowym ustalamy pakiet godzin, który masz do wykorzystania każdego miesiąca na pracę specjalistów (projektantów i programistów). Ilość godzin w pakiecie dobierana jest indywidualnie na podstawie zgłoszonego przez Ciebie zapotrzebowania i planów rozwoju strony.
+:::::
+:::::prose-p4
+---
+class: mb-0 leading-7
+--- 
+Nie musisz się martwić o naszą dostępność, możesz swobodnie planować prace na stronie. Niezależnie od naszego obłożenia pracą, pakiet godzin jest gwarantowany każdego miesiąca.
+:::::
+::::
+
+#right
+::::card-icon-md
+---
+class:  tablet:pl-2.5 tablet:h-[490px]
+icon: '/img/content-images/dla-agencji/logo_trafficpeaks.svg'
+---
+#title
+#### Model elastyczny
+
+#content
+:::::prose-p3
+---
+class: mb-5 leading-8 text-lg
+--- 
+Jeśli masz mniejsze potrzeby i nie planujesz stałych comiesięcznych prac nad stroną, rozumiemy to. W modelu elastycznym prace realizujemy zleceniowo, każdorazowo ustalając termin wykonania.
+:::::
+:::::prose-p4
+---
+class: tablet:mb-16 desktop:mb-20 leading-7
+---
+Płacisz tylko i wyłącznie gdy potrzebujesz naszego wsparcia, możesz liczyć na nasze doradztwo i wsparcie w przypadku awarii, jednocześnie unikasz stałych kosztów.
+:::::
+::::
+:::
+
+
+:::block-columns-1-1-md
+
+#left
+::::card-icon-md
+---
+class: tablet:pr-2.5 tablet:h-[490px]
+icon: '/img/content-images/dla-agencji/logo_oxy.svg'
+---
+#title
+#### Model abonamentowy
+
+#content
+:::::prose-p3
+---
+class: mb-5 leading-8 text-lg
+--- 
+W modelu abonamentowym ustalamy pakiet godzin, który masz do wykorzystania każdego miesiąca na pracę specjalistów (projektantów i programistów). Ilość godzin w pakiecie dobierana jest indywidualnie na podstawie zgłoszonego przez Ciebie zapotrzebowania i planów rozwoju strony.
+:::::
+:::::prose-p4
+---
+class: mb-0 leading-7
+--- 
+Nie musisz się martwić o naszą dostępność, możesz swobodnie planować prace na stronie. Niezależnie od naszego obłożenia pracą, pakiet godzin jest gwarantowany każdego miesiąca.
+:::::
+::::
+
+#right
+::::card-icon-md
+---
+class: tablet:pl-2.5 tablet:h-[490px]
+icon: '/img/content-images/dla-agencji/logo_sembility.svg'
+---
+#title
+#### Model elastyczny
+
+#content
+:::::prose-p3
+---
+class: mb-5 leading-8 text-lg
+--- 
+Jeśli masz mniejsze potrzeby i nie planujesz stałych comiesięcznych prac nad stroną, rozumiemy to. W modelu elastycznym prace realizujemy zleceniowo, każdorazowo ustalając termin wykonania.
+:::::
+:::::prose-p4
+---
+class: tablet:mb-16 desktop:mb-20 leading-7
+---
+Płacisz tylko i wyłącznie gdy potrzebujesz naszego wsparcia, możesz liczyć na nasze doradztwo i wsparcie w przypadku awarii, jednocześnie unikasz stałych kosztów.
+:::::
+::::
+:::
+::
 
 
 
@@ -934,7 +922,7 @@ maxWidth: 550
 ---
 
 #subtitle
-### *9/* Nasze ostatnie realizacje
+### *8/* Nasze ostatnie realizacje
 
 #title
 ## Zobacz nasze realizacje stron z *których jesteśmy dumni*
@@ -948,10 +936,173 @@ contentFolder: realizacje
 moreBtn.url: 'https://webo.agency/realizacje'
 moreBtn.linktitle: Zobacz wszystkie projekty
 selectedSlugs:
-    - 5gmadetogether
+    - thoro
     - isw
+    - velair
+    - get-sales
 ---
 
+:::
+::
+
+
+::page-section-md
+---
+id: opinie
+class: mb-[50px] tablet:mb-[100px]
+---
+
+:::block-columns-1-1-md
+---
+class: mb-10 tablet:mb-24 [&_.right]:flex [&_.right]:items-center tablet:[&_.right]:justify-end [&_.right]:gap-[15px]
+---
+
+#right
+::::widget-rating-clutch
+---
+border: true
+shrinkMobile: true
+class: mt-6 tablet:mt-0
+---
+::::
+
+::::widget-rating-google
+---
+border: true
+class: mt-6 tablet:mt-0
+rating: 5
+link: https://www.google.com/search?q=webo+gliwice&sca_esv=581867933&ei=avdRZdPPHbCVxc8PqvGHwAM&ved=0ahUKEwjTrJKs38CCAxWwSvEDHar4ATgQ4dUDCBA&uact=5&oq=webo+gliwice&gs_lp=Egxnd3Mtd2l6LXNlcnAiDHdlYm8gZ2xpd2ljZTICECZIsdsJUPXHCVj1xwlwAngAkAEAmAFXoAFXqgEBMbgBA8gBAPgBAeIDBBgBIEGIBgE&sclient=gws-wiz-serp#lrd=0x471131b61b903edb:0xe16af5e90276dac,1,,,,
+text: See all our reviews
+---
+::::
+
+#left
+::::effect-appear-md
+:::::block-header-md
+
+#subtitle
+### *9/*  Opinie
+
+#title
+## Jesteśmy rekomendowani przez *małe i średnie przedsiębiorstwa*
+:::::
+::::
+:::
+
+
+
+#full
+:::effect-appear-md
+::::block-opinions-md
+:::::opinion-md
+---
+rating: 5
+---
+
+#author
+Radosław Cyganek
+
+#title
+Executive - **Proton Multimedia**<br>
+Administrator IT - **Mancraft**
+
+#message
+Dzięki pracy Webo mój klient osiągnął wyższe pozycje w wyszukiwarkach, **poprawił satysfakcję użytkowników i zwiększył ich zaangażowanie**. Firma proaktywnie **zarządzała ryzykiem** i zapewniała alternatywne rozwiązanie, aby osiągnąć cele klienta. Ich **szybkość reakcji i kreatywność** były godne pochwały.
+
+:::::
+:::::opinion-md
+---
+rating: 5
+---
+
+#author
+Adam Przebinda
+
+#title
+Członek zarządu - **DeltaHR**
+
+#message
+Bardzo profesjonalna firma, indywidualne podejście do klienta, **dobry i ciągły kontakt** co pozwala na bieżąco kontrolować pracę nad projektem. **Każdy szczegół dopracowany** dokładnie tak jak tego oczekiwałem, śmiało i z czystym sumieniem mogę polecić. **Wiedza, podejście do klienta, czas realizacji** - wszystko 10/10.
+
+:::::
+:::::opinion-md
+---
+rating: 5
+---
+
+#author
+Łukasz Jarota
+
+#title
+CEO & CO-OWNER - **Agencja Grow**
+
+#message
+Współpraca z ekipą jest niesamowita. **Gwarancja jakości**, **responsywności i kreatywności**. Polecam baaaardzo!
+
+:::::
+:::::opinion-md
+---
+rating: 5
+---
+
+#author
+Wojciech Szamocki
+
+#title
+Marketing Department - **Thoro / SOLLUX**
+
+#message
+Polecam współpracę z firmą Webo. **Rzetelnie wykonują założone taski** i **szukają najlepszych rozwiązań**.
+
+:::::
+:::::opinion-md
+---
+rating: 5
+---
+
+#message
+W firmie Webo zamówiłem **stronę www**. Już na etapie **badania potrzeb dało się czuć profesjonalizm**. Jestem **zadowolonym klientem** i używam swojej strony www w kontkatach z moimi klientami :)
+
+#author
+Bartłomiej Świstak Piotrowski
+
+#title
+Konsultant strategii w biznesie - **Krakowski świstak**
+
+
+
+:::::
+:::::opinion-md
+---
+rating: 5
+---
+
+#author
+Natalia Ryfa
+
+#title
+Business manager - **Oravio**
+
+#message
+Pomogli nam w przelaniu naszych wizji sklepu internetowego na realny, **dobrze odbierany przez klientów** i przede wszystkim sprawnie działający sklep! Dziękujemy i **polecamy Webo!** : )
+
+:::::
+:::::opinion-md
+---
+rating: 5
+---
+
+#author
+Adam Wasilewski
+
+#title
+Właściciel - **Caffe wasyl**
+
+#message
+**Dzięki Webo uratowałem swój biznes**, uruchomili mój sklep internetowy w **ciągu miesiąca**. Oby jak najwięcej takich ludzi!
+
+:::::
+::::
 :::
 ::
 
