@@ -35,6 +35,9 @@
               <button-scroll-down v-if="!bgImg" :getContainerRef="() => $refs.container" :isSecondSvg="isSecondSvg"
                 class="mt-6" />
             </div>
+            <div v-if="showClientsLogos" class="mt-12">
+              <slot name="clientsLogos"></slot>
+            </div>
           </div>
         </template>
         <template #right>
@@ -61,6 +64,10 @@ export default {
       default: 520,
     },
     isSecondSvg: {
+      type: Boolean,
+      default: false,
+    },
+    showClientsLogos: {
       type: Boolean,
       default: false,
     },

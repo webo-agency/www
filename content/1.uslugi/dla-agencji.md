@@ -1,37 +1,97 @@
 ---
 meta:
-    title: Tworzenie stron internetowych - profesjonalne strony WWW -  Webo.pl  
-    description: Nowoczesne strony www dla firm, zgodne z SEO i UX. Zdobądź nowych klientów - zamów wycenę już dziś!
+    title: Wynajmij solidny zespół webowy dla Twojej agencji -  Webo.pl  
+    description: Prowadzisz agencję i chcesz delegować pracę nad stronami swoich klientów? Wynajmij czołowych projektantów UX/UI oraz programistów i zyskaj solidnego partnera w biznesie.
 draft: false
 public: true
 hreflangs:
     EN: '/services/websites/'
     PL: '/uslugi/strony-internetowe/'
 ---
+
+
 ::block-banner-md
 ---
 bgImg: false
 headerWidth: 720
 descriptionWidth: 475
 isSecondSvg: true
+showClientsLogos: true
 ---
 
 #subtitle
-*-/* Projektowanie i programowanie stron www
 
 #title
-# Tworzenie stron internetowych dopasowanych do Twojego biznesu
+# Wynajmij solidny zespół webowy dla Twojej agencji
 
 #description
-Tworzymy szyte na miarę strony internetowe, projektując dla Ciebie indywidualny wygląd i&nbsp;kodując od podstaw.
+Prowadzisz agencję i chcesz delegować pracę nad stronami swoich klientów? Wynajmij czołowych projektantów UX/UI oraz programistów i zyskaj solidnego partnera w biznesie.
+
+#clientsLogos
+:::effect-appear-md
+---
+class: -mt-4
+---
+::::prose-p-3
+---
+class: mb-4 font-semibold text-lg
+---
+Pracowaliśmy dla:
+::::
+
+::::block-brands-md
+---
+class: test01 flex-nowrap !gap-x-7 [&_picture]:opacity-90
+logos:
+    - link: 'https://is-wireless.com/'
+      imgUrl: '/img/logos/thoro.svg'
+    - link: 'https://shop-mancraft.com/pl/'
+      imgUrl: '/img/logos/echo.svg'
+    - link: 'https://5gmadetogether.com/'
+      imgUrl: '/img/logos/etisoft.svg'
+    - link: 'https://agencjagrow.pl/'
+      imgUrl: '/img/logos/isw.svg'
+    - link: 'https://thoro.pl/'
+      imgUrl: '/img/logos/sollux.svg'
+---
+::::
+:::
 
 #right
-:::block-banner-decoration-md
+:::effect-parallax-md
 ---
-svgUrl_tl: '/img/svg-arc.svg'
-svgUrl_br: '/img/svg-square.svg'
+parallaxScale: 0.1
+startBottom: true
+class: overflow-hidden desktop:overflow-visible
 ---
+
+::::img-decorated-md
+---
+imgUrl: '/img/content-images/dla-agencji/dla-agencji-banner.webp'
+decoration: false
+class: tablet:w-auto !w-full desktop:mt-[-230px] desktop:-mr-10 tablet:!pl-20 desktop-wide:!pl-20
+---
+::::
+
+::::img-decorated-md
+---
+imgUrl: '/img/content-images/dla-agencji/baner-decor-1.svg'
+decoration: false
+class: mx-auto !mb-0 !p-0 hidden tablet:!block !w-[122px] tablet:!w-[122px] h-[122px] !absolute !top-[-50px] tablet:!top-[200px] left-[-10px] tablet:!left-[50px] z-20
+---
+::::
+
+::::img-decorated-md
+---
+imgUrl: '/img/content-images/dla-agencji/baner-decor-2.svg'
+decoration: false
+class: mx-auto !mb-0 !p-0 hidden tablet:!block !w-[122px] tablet:!w-[122px] h-[122px] !absolute _!top-[-50px] tablet:!bottom-[40px] _left-[-10px] tablet:!right-[-90px] z-20
+---
+::::
 :::
+
+
+
 ::
 
 
@@ -90,21 +150,6 @@ Od warsztatów projektowych w trakcie których wybierzemy optymalną technologi�
 class: h-full relative
 ---
 
-:::::effect-parallax-md
----
-parallaxScale: 0.1
-startBottom: true
-class: overflow-hidden desktop:overflow-visible
----
-
-::::::img-decorated-md
----
-imgUrl: '/img/content-images/strony-internetowe/section1-right-img.png'
-decoration: false
-class: tablet:w-auto !w-full desktop:mt-[-230px] desktop:-mr-10 tablet:!pl-20 desktop-wide:!pl-20
----
-::::::
-:::::
 ::::
 :::
 ::

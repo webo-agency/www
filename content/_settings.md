@@ -7,22 +7,24 @@ nav:
       link: https://webo.agency/uslugi/strony-internetowe/
       items:
         - title: Strony WordPress
-          link: ''       
+          link: 'https://webo.agency/uslugi/strony-wordpress/'       
         - title: Programowanie WordPress
-          link: ''       
-        - title: Strony HeadplessPWA
-          link: ''       
+          link: 'https://webo.agency/uslugi/programowanie-wordpress/'       
+        - title: Strony HeadlessPWA
+          link: 'https://webo.agency/uslugi/strony-headless-pwa/'       
         - title: Tworzenie landing page
           link: ''       
         - title: Wsparcie WordPress
-          link: ''       
+          link: 'https://webo.agency/uslugi/wsparcie-wordpress/'   
+        - title: Wynajmij nas
+          link: '/uslugi/dla-agencji/'                 
     - title: Sklepy internetowe
       link: https://webo.agency/uslugi/sklepy-internetowe/
       items:
         - title: Sklep WooCommerce
-          link: ''       
+          link: 'https://webo.agency/uslugi/sklepy-woocommerce/'       
         - title: Sklep Prestashop
-          link: ''       
+          link: 'https://webo.agency/uslugi/sklepy-prestashop/'       
         - title: Konfiguratory produktów
           link: ''       
         - title: Wsparcie i rozwój sklepów
@@ -67,7 +69,7 @@ nav:
     link: https://webo.agency/kontakt
     type: 'button'
 footer:
-    privacyPolicyLink: https://webo.agency/polityka-prywatnosci
+    privacyPolicyLink: https://webo.agency/polityka-prywatnosci/
     privacyPolicyTitle: Polityka prywatności
     servicesTitle: Usługi
     servicesMenu: 
@@ -91,18 +93,20 @@ footer:
           link: https://webo.agency/realizacje/
         - title: Opinie
           link: https://webo.agency/#opinie
+        - title: Blog
+          link: https://webo.agency/blog/
         - title: Kontakt
           link: https://webo.agency/kontakt/
 general:
     lang: PL
     brandName: Webo agency
-    address: ul. Lipowa 58C, 44-100 Gliwice
+    address: ul. Zwycięstwa 10, 44-100 Gliwice
     mail: info@webo.agency
     tel: '+48721733397'
     clutchLink: https://clutch.co/profile/webo
     googleRating: 5
     googleRatingLink: https://www.google.com/search?q=webo+gliwice&sca_esv=581867933&ei=avdRZdPPHbCVxc8PqvGHwAM&ved=0ahUKEwjTrJKs38CCAxWwSvEDHar4ATgQ4dUDCBA&uact=5&oq=webo+gliwice&gs_lp=Egxnd3Mtd2l6LXNlcnAiDHdlYm8gZ2xpd2ljZTICECZIsdsJUPXHCVj1xwlwAngAkAEAmAFXoAFXqgEBMbgBA8gBAPgBAeIDBBgBIEGIBgE&sclient=gws-wiz-serp#lrd=0x471131b61b903edb:0xe16af5e90276dac,1,,,,
-    googleRatingText: Read our reviews
+    googleRatingText: Przeczytaj recenzje
     socials:
         - type: facebook
           link: https://facebook.com/meet.webo/
