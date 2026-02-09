@@ -15,9 +15,7 @@ nav:
         - title: Tworzenie landing page
           link: ''       
         - title: Wsparcie WordPress
-          link: 'https://webo.agency/uslugi/wsparcie-wordpress/'   
-        - title: Wynajmij nas
-          link: '/uslugi/dla-agencji/'                 
+          link: 'https://webo.agency/uslugi/wsparcie-wordpress/'               
     - title: Sklepy internetowe
       link: https://webo.agency/uslugi/sklepy-internetowe/
       items:
@@ -59,6 +57,8 @@ nav:
             name: RestApi
           - icon: '/img/icons/cloudflare-black.svg'
             name: Cloudflare
+  - title: Dla agencji
+    link: https://webo.agency/uslugi/outsourcing-stron-i-sklepow-www/       
   - title: O nas
     link: https://webo.agency/o-nas
   - title: Realizacje

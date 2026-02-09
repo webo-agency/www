@@ -1,11 +1,8 @@
 <template>
-  <div class="border-b border-b-gray-light">
-    <div class="group flex items-center gap-4 tablet:gap-5 py-4 tablet:py-5 cursor-pointer hover:bg-gray-lighter transition duration-200"
-      @click="faqState.handleItemClicked(number)">
-      <div class="flex items-center justify-center shrink-0 w-[58px] h-[44px] rounded-full bg-[#e4efed] transition duration-200"
-        :class="{'bg-green-main': isExpanded}">
+  <div class="border-b border-b-gray-light" :data-faq-id="number">
+    <div class="group flex items-center gap-4 tablet:gap-5 py-4 tablet:py-5 transition duration-200">
+      <div class="flex items-center justify-center shrink-0 w-[58px] h-[44px] rounded-full bg-[#e4efed] transition duration-200">
         <span class="text-lg tablet:text-xl font-semibold leading-none text-center text-gray-darker transition duration-200"
-          :class="{'text-white': isExpanded}"
           :style="!isExpanded ? { color: '#202020' } : {}">
           {{ number }}
         </span>
@@ -21,12 +18,13 @@
         </svg>
       </div>
     </div>
-    <div v-if="$slots.description" class="overflow-hidden transition-all duration-500" 
-      :style="{'height': `${containerHeight}px`}">
+    <div v-if="$slots.description" class="overflow-hidden transition-all" 
+      :style="{'height': `${containerHeight}px`, 'transition-duration': isInScrollMode ? '50ms' : '500ms'}">
       <div
         ref="descriptionContainer"
         class="px-4 tablet:px-5 pb-4 tablet:pb-5 tablet:pl-20 [&_p]:text-lg tablet:text-base text-gray-darker leading-relaxed"
         :class="{'opacity-0': !isExpanded}"
+        :style="{'opacity': isScrollControlled ? (scrollProgress / 100) : (isExpanded ? 1 : 0), 'transition': isInScrollMode ? 'opacity 50ms' : 'opacity 500ms'}"
       >
         <ContentSlot :use="$slots.description" />
       </div>
@@ -46,16 +44,42 @@ export default {
   inject: ['faqState'],
   data() {
     return {
-      containerHeight: 0,
+      containerHeight: 0
     };
   },
   computed: {
     isExpanded() {
+      // During scroll mode, only show if has actual scroll progress
+      if (this.isInScrollMode) {
+        return this.scrollProgress > 0;
+      }
+      // Outside scroll mode, show based on active state
       return this.faqState.activeItem === this.number;
+    },
+    scrollProgress() {
+      return this.faqState.scrollProgress[this.number] || 0;
+    },
+    isScrollControlled() {
+      return this.isInScrollMode;
+    },
+    isInScrollMode() {
+      return this.faqState.isScrollingThroughFaq;
     }
   },
   watch: {
     isExpanded() {
+      if (!this.isInScrollMode) {
+        this.updateContainerHeight();
+      }
+    },
+    scrollProgress() {
+      if (this.isInScrollMode) {
+        this.updateContainerHeightByProgress();
+      }
+    }
+  },
+  methods: {
+    updateContainerHeight() {
       this.$nextTick(() => {
         if (this.isExpanded && this.$refs.descriptionContainer) {
           this.containerHeight = this.$refs.descriptionContainer.scrollHeight;
@@ -64,8 +88,17 @@ export default {
         }
       });
     },
+    updateContainerHeightByProgress() {
+      this.$nextTick(() => {
+        if (this.$refs.descriptionContainer) {
+          const fullHeight = this.$refs.descriptionContainer.scrollHeight;
+          this.containerHeight = (fullHeight / 100) * this.scrollProgress;
+        }
+      });
+    }
   },
   mounted() {
+    this.faqState.registerItem(this.number);
     this.$nextTick(() => {
       if (this.isExpanded && this.$refs.descriptionContainer) {
         this.containerHeight = this.$refs.descriptionContainer.scrollHeight;

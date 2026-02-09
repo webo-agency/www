@@ -103,7 +103,7 @@ classes: mb-10 desktop:mb-[80px]
 ---
 center: false
 maxWidth: 1290
-class: mb-[60px] [&_h2]:!text-[30px]
+class: mb-[60px]
 ---
 
 #subtitle
