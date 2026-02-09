@@ -44,15 +44,15 @@ Pracowaliśmy dla:
 ---
 class: mb-10 desktop:mb-0 !justify-start desktop:flex-nowrap !gap-x-7 [&_picture]:opacity-90
 logos:
-    - link: 'https://is-wireless.com/'
-      imgUrl: '/img/logos/thoro2.svg'
-    - link: 'https://shop-mancraft.com/pl/'
-      imgUrl: '/img/logos/echo2.svg'
-    - link: 'https://5gmadetogether.com/'
-      imgUrl: '/img/logos/etisoft2.svg'
-    - link: 'https://agencjagrow.pl/'
-      imgUrl: '/img/logos/isw.svg'
     - link: 'https://thoro.pl/'
+      imgUrl: '/img/logos/thoro2.svg'
+    - link: 'https://agencjaecho.pl/'
+      imgUrl: '/img/logos/echo2.svg'
+    - link: 'https://etisoft.com.pl/'
+      imgUrl: '/img/logos/etisoft2.svg'
+    - link: 'https://www.is-wireless.com/'
+      imgUrl: '/img/logos/isw.svg'
+    - link: 'https://sollux-lighting.com/pl/'
       imgUrl: '/img/logos/sollux2.svg'
 ---
 ::::
