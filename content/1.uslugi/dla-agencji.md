@@ -347,10 +347,10 @@ class: mb-10 tablet:mb-20 relative z-10
 ---
 
 #subtitle
-### *3/* Dlaczego warto nam zaufac?
+### *4/* Dlaczego warto?
 
 #title
-## Mówmy o konkretach, <br> *bez lania wody*
+## 6 korzyści ze<br>współpracy z nami?
 :::::
 ::::
 
@@ -784,7 +784,7 @@ Skontaktuj się i porozmawiajmy o współpracy dopasowaej do Twojego biznesu.
 
 ::page-section-md
 ---
-classes: mb-20 tablet:mb-[100px]
+classes: hidden mb-20 tablet:mb-[100px]
 ---
 :::effect-appear-md
 ::::block-header-md
