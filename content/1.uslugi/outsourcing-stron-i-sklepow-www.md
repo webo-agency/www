@@ -6,7 +6,7 @@ draft: false
 public: true
 hreflangs:
     EN: '/services/websites/'
-    PL: '/uslugi/strony-internetowe/'
+    PL: '/uslugi/outsourcing-stron-i-sklepow-www/'
 ---
 
 
@@ -533,7 +533,7 @@ number: '01'
 ##### Jakościowy kod strony, bez śmieciowych builderów
 
 #description
-Tworzymy strony i sklepy w oparciu o czysty kod, solidne technologie i najnowsze standardy. Każde wdrożenie jest szytem na miarę - bez szablonów, bez zbędnych bibliotek, bez kompromisów. To oznacza szybszą stronę, łatwiejszy rozwój i mniejsze koszty utrzymania.
+Tworzymy strony i sklepy w oparciu o czysty, zoptymalizowany kod zgodny z aktualnymi standardami. Bez śmieciowych builderów, bez półśrodków - strony są szybkie, skalowalne i gotowe na rozwój razem z Twoimi klientami.
 
 ::::::
 
@@ -543,10 +543,10 @@ number: '02'
 ---
 
 #title
-##### Nieszablonowe UX/UI dopasowane do marki i celów biznesowych
+##### Nieszablonowe UX/UI dopasowane do użytkowników, celów i marki
 
 #description
-Projektujemy interfejsy które są unikalne dla każdego klienta. Analizujemy Twoje cele biznesowe, potrzeby użytkowników i charakter marki. Każdy projekt to kombinacja ładnego designu, intuicyjnej nawigacji i wsparcia dla Twojej strategii sprzedażowej.
+Projektujemy UX/UI w oparciu o realne potrzeby użytkowników, cele biznesowe i charakter marki klienta. Dzięki temu strony i sklepy nie są kolejną generyczną realizacją, tylko spójnym, przemyślanym narzędziem, które wspiera sprzedaż i buduje wizerunek.
 
 ::::::
 
@@ -556,11 +556,10 @@ number: '03'
 ---
 
 #title
-##### Eksperckle wsparcie, które wzmacnia Twoją ofertę sprzedażową
+##### Eksperckie wsparcie, które wzmacnia Twoją ofertę sprzedażową
 
 #description
-Nie zostawiamy Cię samego z wdrożoną stroną. Oferujemy Project Managera, wsparcie techniczne i koncepty na ewentualne rozszerzenia. Nasze doświadczenie w pracy z agencjami oznacza, że wiemy, co im potrzebne do efektywnego sprzedaży.
-
+Doradzamy w zakresie UX/UI, technologii i architektury rozwiązań już na etapie planowania projektu. Dzięki temu sprzedajesz klientom przemyślane rozwiązania, które łatwo obronić w rozmowach biznesowych.
 ::::::
 
 ::::::faq-item-simple-md
@@ -572,7 +571,7 @@ number: '04'
 ##### Gwarancja i bezpieczeństwo po wdrożeniu strony
 
 #description
-Bierzemy odpowiedzialność za jakość kodu, bezpieczeństwo oraz wydajność strony po publikacji. Wszystkie wdrożenia przechodzą testy, monitoring i bieżące aktualizacje. To oznacza mniej ryzyka i więcej spokojności dla Ciebie i Twojego klienta.
+Bierzemy pełną odpowiedzialność za to, co dowozimy, i zapewniamy 12 miesięcy gwarancji na wykonane prace. Twoi klienci mają poczucie stabilności, a Ty nie zostajesz sam z problemami po publikacji projektu.
 
 ::::::
 
@@ -585,7 +584,7 @@ number: '05'
 ##### Płynny przepływ pracy i bezpośrednia komunikacja
 
 #description
-Pracujemy z przejrzystymi procesami, jasnymi harmonogramami i regularną komunikacją. Wiesz na czym stoi projekt, w którym momencie się znajduje i co się dzieje dalej. Brak chaosu, brak niespodzianek.
+Możemy podłączyć się do waszych narzędzi i kanałów komunikacji, takich jak Slack, Teams, Asana czy ClickUp. Dzięki temu projekty idą szybciej, a informacje nie giną w przekazywaniu między zespołami.
 
 ::::::
 
@@ -598,7 +597,7 @@ number: '06'
 ##### Doświadczenie w elastycznej współpracy z agencjami
 
 #description
-Dzielimy się naszą wiedzą na temat skalowania zespołów, zarządzania projektami i rozbudowy stron. Znamy wyzwania jakie stoją przed agencjami i wiemy, jak je rozwiązywać. Działamy jako długoterminowy partner, nie jednorazowy dostawca.
+Mamy doświadczenie w pracy zarówno w modelu white label, jak i w modelu partnerskim. Rozumiemy realia pracy agencyjnej, kompromisy, presję terminów, potrzebę elastycznego podejścia i to jak ważna jest sprawna komunikacja.
 
 ::::::
 
@@ -622,7 +621,7 @@ class: mb-20
 ---
 
 #subtitle
-### *6/* Outsourcing stron www
+### *6/* Outsourcing stron i sklepów www
 
 #title
 ## Elastyczne modele współpracy B2B
@@ -812,20 +811,20 @@ class: tablet:pr-2.5 tablet:h-[490px]
 icon: '/img/content-images/dla-agencji/logo_grow.svg'
 ---
 #title
-#### Model abonamentowy
+#### 
 
 #content
 :::::prose-p3
 ---
 class: mb-5 leading-8 text-lg
 --- 
-W modelu abonamentowym ustalamy pakiet godzin, który masz do wykorzystania każdego miesiąca na pracę specjalistów (projektantów i programistów). Ilość godzin w pakiecie dobierana jest indywidualnie na podstawie zgłoszonego przez Ciebie zapotrzebowania i planów rozwoju strony.
+
 :::::
 :::::prose-p4
 ---
 class: mb-0 leading-7
 --- 
-Nie musisz się martwić o naszą dostępność, możesz swobodnie planować prace na stronie. Niezależnie od naszego obłożenia pracą, pakiet godzin jest gwarantowany każdego miesiąca.
+
 :::::
 ::::
 
@@ -836,20 +835,20 @@ class:  tablet:pl-2.5 tablet:h-[490px]
 icon: '/img/content-images/dla-agencji/logo_trafficpeaks.svg'
 ---
 #title
-#### Model elastyczny
+#### 
 
 #content
 :::::prose-p3
 ---
 class: mb-5 leading-8 text-lg
 --- 
-Jeśli masz mniejsze potrzeby i nie planujesz stałych comiesięcznych prac nad stroną, rozumiemy to. W modelu elastycznym prace realizujemy zleceniowo, każdorazowo ustalając termin wykonania.
+
 :::::
 :::::prose-p4
 ---
 class: tablet:mb-16 desktop:mb-20 leading-7
 ---
-Płacisz tylko i wyłącznie gdy potrzebujesz naszego wsparcia, możesz liczyć na nasze doradztwo i wsparcie w przypadku awarii, jednocześnie unikasz stałych kosztów.
+
 :::::
 ::::
 :::
@@ -864,20 +863,20 @@ class: tablet:pr-2.5 tablet:h-[490px]
 icon: '/img/content-images/dla-agencji/logo_oxy.svg'
 ---
 #title
-#### Model abonamentowy
+#### 
 
 #content
 :::::prose-p3
 ---
 class: mb-5 leading-8 text-lg
 --- 
-W modelu abonamentowym ustalamy pakiet godzin, który masz do wykorzystania każdego miesiąca na pracę specjalistów (projektantów i programistów). Ilość godzin w pakiecie dobierana jest indywidualnie na podstawie zgłoszonego przez Ciebie zapotrzebowania i planów rozwoju strony.
+
 :::::
 :::::prose-p4
 ---
 class: mb-0 leading-7
 --- 
-Nie musisz się martwić o naszą dostępność, możesz swobodnie planować prace na stronie. Niezależnie od naszego obłożenia pracą, pakiet godzin jest gwarantowany każdego miesiąca.
+
 :::::
 ::::
 
@@ -888,20 +887,20 @@ class: tablet:pl-2.5 tablet:h-[490px]
 icon: '/img/content-images/dla-agencji/logo_sembility.svg'
 ---
 #title
-#### Model elastyczny
+#### 
 
 #content
 :::::prose-p3
 ---
 class: mb-5 leading-8 text-lg
 --- 
-Jeśli masz mniejsze potrzeby i nie planujesz stałych comiesięcznych prac nad stroną, rozumiemy to. W modelu elastycznym prace realizujemy zleceniowo, każdorazowo ustalając termin wykonania.
+
 :::::
 :::::prose-p4
 ---
 class: tablet:mb-16 desktop:mb-20 leading-7
 ---
-Płacisz tylko i wyłącznie gdy potrzebujesz naszego wsparcia, możesz liczyć na nasze doradztwo i wsparcie w przypadku awarii, jednocześnie unikasz stałych kosztów.
+
 :::::
 ::::
 :::
