@@ -381,10 +381,10 @@ class: desktop:min-h-[340px]
 ---
 
 #title
-### Reprezentujemy Twoją agencję w kontakcie  z klientem
+### Reprezentujemy Twoją agencję w kontakcie z klientem
 
 #description
-Zapewniamy Project Managera, który może występować jako część waszego zespołu. Prowadzimy rozmowy, warsztaty  i komunikację mailową, dbając o spójny przekaz i sprawny przebieg projektu.
+Zapewniamy Project Managera, który może występować jako część waszego zespołu. Prowadzimy rozmowy, warsztaty i komunikację mailową, dbając o spójny przekaz i sprawny przebieg projektu.
 
 :::::
 
@@ -669,7 +669,7 @@ class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit [&_div_div]:fl
 ---
 
 #description
-**<u>Sprzedaż i pełna obsługa po naszej stronie</u>** - Prowadzimy cały proces sprzedażowy, ustalamy zakres, kosztorys i harmonogram bezpośrednio z klientem. Ty nie angażujesz swojego zespołu  w ofertowanie ani prowadzenie projektu.
+**<u>Sprzedaż i pełna obsługa po naszej stronie</u>** - Prowadzimy cały proces sprzedażowy, ustalamy zakres, kosztorys i harmonogram bezpośrednio z klientem. Ty nie angażujesz swojego zespołu w ofertowanie ani prowadzenie projektu.
 
 ::::::
 ::::::list-item-ul-active-md
@@ -681,7 +681,7 @@ class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit [&_div_div]:fl
 ---
 
 #description
-**<u>Proste rozliczenie prowizyjne</u>** - Rozliczamy się bezpośrednio  z klientem końcowym, a Twoja agencja otrzymuje prowizję za polecenie. Minimum formalności i zero odpowiedzialności projektowej po Twojej stronie.
+**<u>Proste rozliczenie prowizyjne</u>** - Rozliczamy się bezpośrednio z klientem końcowym, a Twoja agencja otrzymuje prowizję za polecenie. Minimum formalności i zero odpowiedzialności projektowej po Twojej stronie.
 
 ::::::
 ::::::list-item-ul-active-md
@@ -779,7 +779,7 @@ class: tablet:mb-36
 #### Potrzebujesz solidnego zaplecza do *realizacji stron i sklepów?*
 
 #description
-Skontaktuj się i porozmawiajmy o współpracy  dopasowaej do Twojego biznesu.
+Skontaktuj się i porozmawiajmy o współpracy dopasowaej do Twojego biznesu.
 ::
 
 ::page-section-md
