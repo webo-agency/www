@@ -494,7 +494,7 @@ class: hidden desktop:block mx-auto !mb-0 !p-0 !w-[122px] !absolute bottom-[100p
 ---
 imgUrl: '/img/content-images/dla-agencji/dla_agencji_img_3.webp'
 decoration: false
-class: hidden tablet:block tablet:mb-20 tablet:!pr-20 !mb-10 z-0
+class: hidden tablet:block tablet:mb-20 tablet:!pr-20 !mb-10 z-0 [&_img]:w-[90%]
 ---
 
 :::::

@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-full" ref="faqContainer">
-    <div class="space-y-4 tablet:space-y-6">
+    <div class="space-y-2 tablet:space-y-6">
       <ContentSlot :use="$slots.default" />
     </div>
   </div>
@@ -56,7 +56,7 @@ export default {
     const sectionOptions = {
       root: null,
       rootMargin: '0px',
-      threshold: 1 // Start hijacking when 50% of section is visible
+      threshold: 0.7 // Start hijacking when 70% of section is visible
     };
 
     this.observer = new IntersectionObserver((entries) => {

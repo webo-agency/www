@@ -1,14 +1,14 @@
 <template>
   <div class="border-b border-b-gray-light" :data-faq-id="number">
-    <div class="group flex items-center gap-4 tablet:gap-5 py-4 tablet:py-5 transition duration-200">
-      <div class="flex items-center justify-center shrink-0 w-[58px] h-[44px] rounded-full bg-[#e4efed] transition duration-200">
-        <span class="text-lg tablet:text-xl font-semibold leading-none text-center text-gray-darker transition duration-200"
+    <div class="group flex items-center gap-4 tablet:gap-5 pt-0 pb-3 tablet:py-5 transition duration-200">
+      <div class="flex items-center justify-center shrink-0 w-12 tablet:w-[58px] h-10 tablet:h-[44px] rounded-full bg-[#e4efed] transition duration-200">
+        <span class="text-[15px] tablet:text-xl font-semibold leading-none text-center text-gray-darker transition duration-200"
           :style="!isExpanded ? { color: '#202020' } : {}">
           {{ number }}
         </span>
       </div>
       <div class="flex-1 pt-1">
-        <h4 v-if="$slots.title" class="text-lg tablet:text-xl font-semibold text-gray-darker leading-snug transition duration-200">
+        <h4 v-if="$slots.title" class="text-[15px] tablet:text-xl font-semibold text-gray-darker leading-snug transition duration-200">
           <ContentSlot :use="$slots.title" />
         </h4>
       </div>
@@ -22,7 +22,7 @@
       :style="{'height': `${containerHeight}px`, 'transition-duration': isInScrollMode ? '50ms' : '500ms'}">
       <div
         ref="descriptionContainer"
-        class="px-4 tablet:px-5 pb-4 tablet:pb-5 tablet:pl-20 [&_p]:text-lg tablet:text-base text-gray-darker leading-relaxed"
+        class="pl-2 tablet:px-5 pb-4 tablet:pb-5 tablet:pl-20 [&_p]:text-sm [&_p]:tablet:text-lg tracking-tighter text-gray-darker leading-relaxed"
         :class="{'opacity-0': !isExpanded}"
         :style="{'opacity': isScrollControlled ? (scrollProgress / 100) : (isExpanded ? 1 : 0), 'transition': isInScrollMode ? 'opacity 50ms' : 'opacity 500ms'}"
       >
