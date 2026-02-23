@@ -50,6 +50,10 @@ export default {
   @apply mx-5 tablet:mx-10 desktop:mx-auto desktop:max-w-[1100px];
 }
 
+:deep(.mx-blog p) {
+  @apply !mb-5;
+}
+
 :deep(.mx-none *) {
   @apply mx-0;
 }
@@ -83,7 +87,7 @@ export default {
   @apply mb-10 desktop:mb-20 text-6xl desktop:text-[70px];
 }
 .static-content :deep(h2) {
-  @apply mb-5 text-xl desktop:text-[30px] font-semibold;
+  @apply mb-5 text-xl desktop:text-[30px] desktop:leading-[40px] font-semibold;
 }
 .static-content :deep(h3) {
   @apply mb-7 desktop:mb-14 text-3xl desktop:text-4xl;

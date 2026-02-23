@@ -40,13 +40,13 @@
         </div>
 
         <!-- Tags Section -->
+        <span v-if="isSidebar && tagsTitle" class="ml-6 !mb-0 text-[#181D27] !text-base font-semibold">
+            {{ tagsTitle }}
+        </span>
         <ul
             v-if="tags && tags.length"
             :class="[isSidebar ? 'tags-list px-6 flex flex-col gap-y-3 [&_li]:before:!hidden [&_li]:!m-0' : 'tags-list px-6 flex flex-row flex-wrap gap-x-5 gap-y-2 mb-5 [&_li]:before:!hidden [&_li]:!m-0']"
         >
-            <p v-if="isSidebar && tagsTitle" class="text-[#181D27] !text-base font-semibold !mb-0">
-                {{ tagsTitle }}
-            </p>
             <li v-for="tag,index in tags" :key="index">
                 <nuxt-link :to="{path: archivePath, query:{cat: tag}}">{{tag}}</nuxt-link>
             </li>

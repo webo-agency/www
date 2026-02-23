@@ -1,7 +1,12 @@
 <template>
   <figure class="mx-auto">
-    <nuxt-picture class="block w-full object-cover overflow-hidden" :class="{ 'rounded-[5px]': rounded }"
-      :imgAttrs="{ class: 'w-full' }" v-if="src" :src="src"></nuxt-picture>
+    <nuxt-picture
+      v-if="src"
+      class="block w-full object-cover overflow-hidden"
+      :class="{ 'rounded-[5px]': rounded }"
+      :imgAttrs="{ class: 'w-full', alt }"
+      :src="src"
+    ></nuxt-picture>
   </figure>
 </template>
 
@@ -11,6 +16,10 @@ export default {
     src: {
       type: String,
       required: true,
+    },
+    alt: {
+      type: String,
+      default: '',
     },
     rounded: {
       type: Boolean,

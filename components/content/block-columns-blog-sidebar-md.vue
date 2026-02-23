@@ -1,6 +1,6 @@
 <template>
   <div
-    class="max-w-[1100px] mx-auto flex flex-col tablet:flex-row gap-y-10 gap-x-[60px]"
+    class="max-w-[1220px] mx-auto flex flex-col tablet:flex-row gap-y-10 gap-x-10"
     :class="[reverseMobile ? 'flex-col-reverse' : 'flex-col']"
   >
     <div class="left w-full basis-full tablet:basis-3/4">

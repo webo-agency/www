@@ -26,16 +26,24 @@
     </div>  
 
     <div class="relative">
-      <nuxt-picture v-if="bgUrl" class="z-0 object-cover" :img-attrs="{class: 'w-full max-h-125 object-cover',itemprop: 'image'}" :src="bgUrl" />
-      <span class="absolute z-10 inset-0 bg-gradient-to-t from-black/75 to-transparent"></span>
+      <nuxt-picture
+        v-if="bgUrl"
+        class="z-0 object-cover"
+        :img-attrs="{ class: 'w-full max-h-125 object-cover', itemprop: 'image', alt }"
+        :src="bgUrl"
+      />
+      <!-- <span class="absolute z-10 inset-0 bg-gradient-to-t from-black/75 to-transparent"></span> -->
     </div>
   </div>
 </template>
 
 <script setup>
-
   const props = defineProps({
     bgUrl: String,
+    alt: {
+      type: String,
+      default: '',
+    },
   })
 </script>
 
