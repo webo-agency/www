@@ -78,10 +78,10 @@ const headData = computed(() => {
   const introduction = pageData.value.introduction;
   const meta = pageData.value.meta;
 
-  data.title = introduction?.title || meta?.title || headGlobalData.title;
+  data.title = meta?.title || introduction?.title || headGlobalData.title;
   data.ogTitle = data.title;
 
-  data.description = introduction?.description || meta?.description || headGlobalData.description;
+  data.description = meta?.description || introduction?.description || headGlobalData.description;
   data.ogDescription = data.description;
 
   if (pageData.value.image?.url) data.ogImage = img(pageData.value.image.url)

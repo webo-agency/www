@@ -1,4 +1,7 @@
 ---
+meta:
+    title: Thoro - Wdrożenie nowej szaty graficznej sklepu internetowego Prestashop, polskiego producenta oświetlenia.
+    description: 'Wdrożenie redesignu sklepu internetowego Prestashop, w oparciu o przekazany projekt UX/UI i istniejącą infrastrukturę sklepu.'  
 introduction.title: 'Thoro - Wsparcie i rozwój sklepu internetowego Prestashop polskiego producenta oświetlenia'
 introduction.description: 'Thoro jest producentem oraz autorską marką oświetlenia, łączącą doskonałe wzornictwo oraz trwałą jakość. Nasza współpraca polega na rozwoju sklepu o nowe funkcjonalności, wsparciu w przypadku awarii, optymalizacji technologicznej oraz projektowaniu i wdrażaniu nowych podstron.'
 type:
