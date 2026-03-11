@@ -85,7 +85,7 @@ const headData = computed(() => {
   data.ogDescription = data.description;
 
   const imageUrl = pageData.value.image?.url || headGlobalData?.image?.url || headGlobalData?.['image.url']
-  if (imageUrl) data.ogImage = img(imageUrl)
+  if (imageUrl) data.ogImage = 'https://webo.pl' + imageUrl
 
   return data
 
