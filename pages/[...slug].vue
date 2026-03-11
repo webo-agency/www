@@ -84,7 +84,8 @@ const headData = computed(() => {
   data.description = meta?.description || introduction?.description || headGlobalData.description;
   data.ogDescription = data.description;
 
-  if (pageData.value.image?.url) data.ogImage = img(pageData.value.image.url)
+  const imageUrl = pageData.value.image?.url || headGlobalData?.image?.url || headGlobalData?.['image.url']
+  if (imageUrl) data.ogImage = img(imageUrl)
 
   return data
 

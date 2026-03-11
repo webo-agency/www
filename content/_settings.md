@@ -117,4 +117,6 @@ general:
 head:
     title: Specjaliści od solidnych stron internetowych i e-commerce
     description: Specjalizujemy się w projektowaniu i kodowaniu wysokiej jakości, nowoczesnych stron i sklepów www. Bez szablonów czy gotowców - od podstaw zgodnie z dokumentacją, jak należy. 
+    image:
+        url: '/img/featured_image.webp'
 ---
