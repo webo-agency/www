@@ -369,7 +369,7 @@ class: w-full z-10
 ::::::block-header-md
 ---
 maxWidth: 700
-class: mb-10 tablet:mb-16 tablet:mt-10 [&_.title]:!max-w-[400px]
+class: mb-10 tablet:mb-16 tablet:mt-10 [&_.title]:!max-w-[430px]
 textWhite: true
 ---
 
@@ -436,7 +436,7 @@ class: mb-10
 ::::effect-appear-md
 :::::block-header-md
 ---
-maxWidth: 600
+maxWidth: 580
 ---
 
 #subtitle
@@ -548,7 +548,7 @@ Każdy landing page testujemy przed publikacją, aby upewnić się, że działa 
 
 ::page-section-md
 ---
-classes: mb-20 tablet:mb-[100px]
+classes: mb-20 tablet:mb-20
 ---
 
 :::block-columns-1-1-md
@@ -630,6 +630,33 @@ class: mb-10
 ::::::
 :::::
 ::::
+::
+
+
+::page-section-md
+---
+classes: mb-5
+---
+:::effect-appear-md
+::::prose-figure
+---
+src: /img/content-images/strony-landing-page/mockup_6.webp
+---
+::::
+:::
+::
+
+::page-section-md
+---
+classes: mb-[100px]
+---
+:::effect-appear-md
+::::prose-figure
+---
+src: /img/content-images/strony-landing-page/mockup_7.webp
+---
+::::
+:::
 ::
 
 
@@ -720,7 +747,7 @@ Tak. Mamy doświadczenie w projektowaniu landing page pod konkretne typy kampani
 
 ::page-section-md
 ---
-class: mb-[100px] tablet:mb-[150px]
+class: mb-20 tablet:mb-[100px]
 ---
 ::::svg-decorated
 ---
