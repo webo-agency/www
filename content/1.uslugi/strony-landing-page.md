@@ -135,7 +135,7 @@ class: top-20 right-[10%] fullHd:right-[15%] scale-x-[-1.6] scale-y-[1.6]
 :::block-columns-5-7-md
 ---
 reverseWidths: true
-class: mb-10 tablet:mb-20
+class: mb-10 tablet:mb-20 [&_.left]:tablet:!basis-full
 ---
 
 #left
