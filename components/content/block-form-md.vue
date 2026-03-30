@@ -11,24 +11,24 @@
 
     <div class="order-2 tablet:order-none relative desktop-wide:shrink-0"
       :class="[$slots.side ? 'max-w-[820px] basis-1/2' : 'w-full', darkContainer ? 'text-white p-5 tablet:p-10 bg-gray-darkest rounded-[5px]' : 'text-gray-darker mb-10']">
-      <div v-if="$slots.header" class="mb-5 tablet:mb-7 desktop:text-[25px] font-semibold text-white">
+      <div v-if="$slots.header" class="mb-5 desktop:text-[25px] font-semibold text-white">
         <ContentSlot :use="$slots.header" />
       </div>
       <div class="w-full relative"
         :class="[darkContainer ? 'text-white [&_.textInput]:bg-gray-darker' : 'text-gray-darker']">
         <form name="contactForm" method="post" enctype="multipart/form-data" class="flex flex-col"
           @submit.prevent="sendForm()">
-          <ul v-if="$slots.radio" class="flex flex-wrap mb-8 desktop:mb-16 gap-2">
+          <ul v-if="$slots.radio" class="flex flex-wrap mb-9 gap-2">
             <slot name="radio"></slot>
           </ul>
-          <legend v-if="$slots.formtitle" class="text-lg desktop:text-xl font-semibold mb-2.5">
+          <legend v-if="$slots.formtitle" class="text-lg desktop:text-[25px] font-semibold mb-2.5">
             <ContentSlot :use="$slots.formtitle" />
           </legend>
           <div :class="[gridFields ? 'grid grid-cols-1 tablet:grid-cols-2 gap-x-2' : '']">
             <slot name="fields"></slot>
           </div>
-          <div class="flex flex-col mt-5 desktop:mt-10 transition" :class="{ 'opacity-0': mailSent }">
-            <div class="prose font-normal text-xs desktop:text-sm mb-6 desktop:mb-10"
+          <div class="flex flex-col mt-5 desktop:mt-7 transition" :class="{ 'opacity-0': mailSent }">
+            <div class="prose font-normal text-xs desktop:text-sm mb-6 desktop:mb-7"
               :class="[darkContainer ? 'text-white' : 'text-gray-dark/50']">
               <label class="flex gap-2.5 items-start">
                 <input type="checkbox" name="acceptance" required>
