@@ -1,6 +1,6 @@
 <template>
-  <li class="basis-full phoneWide:basis-1/2 desktop:basis-1/3">
-    <div class="flex mb-2 desktop:mb-4 mr-5 desktop:mr-[30px]">
+  <li class="basis-auto w-fit bg-[#20202080] p-3">
+    <div class="flex">
       <input
         type="radio"
         :id="value"
@@ -10,7 +10,7 @@
       />
       <label
         :for="value"
-        class="pl-2.5 desktop:pl-[15px] text-gray-darker text-base desktop:text-lg font-semibold cursor-pointer"
+        class="pl-2.5 desktop:pl-[15px] text-white text-base font-semibold cursor-pointer"
       >
         <ContentSlot :use="$slots.label" />
       </label>
@@ -28,7 +28,7 @@ export default {
 
 <style  lang="postcss" scoped>
 input[type="radio"] {
-  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTEiIGhlaWdodD0iOCIgdmlld0JveD0iMCAwIDExIDgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xMC40MDQ3IDEuNTE4ODNDMTAuNTcxNiAxLjM1MTk4IDEwLjY2NTMgMS4xMjU2OCAxMC42NjUzIDAuODg5NzFDMTAuNjY1MyAwLjY1Mzc0NSAxMC41NzE2IDAuNDI3NDQzIDEwLjQwNDcgMC4yNjA1OUMxMC4yMzc5IDAuMDkzNzM3MyAxMC4wMTE2IDYuMDkwMThlLTA5IDkuNzc1NTkgMEM5LjUzOTYyIC02LjA5MDE4ZS0wOSA5LjMxMzMyIDAuMDkzNzM3MyA5LjE0NjQ3IDAuMjYwNTlMMy41NTU0NyA1Ljg1MzM2TDEuNTE4ODMgMy44MTQ5NEMxLjM1MTk4IDMuNjQ4MDkgMS4xMjU2OCAzLjU1NDM1IDAuODg5NzExIDMuNTU0MzVDMC42NTM3NDUgMy41NTQzNSAwLjQyNzQ0MyAzLjY0ODA5IDAuMjYwNTkgMy44MTQ5NEMwLjA5MzczNzMgMy45ODE3OSAwIDQuMjA4MSAwIDQuNDQ0MDZDMCA0LjY4MDAzIDAuMDkzNzM3MyA0LjkwNjMzIDAuMjYwNTkgNS4wNzMxOEwyLjkyNjM1IDcuNzM4OTRDMy4wMDg5IDcuODIxNyAzLjEwNjk1IDcuODg3MzUgMy4yMTQ5MSA3LjkzMjE1QzMuMzIyODYgNy45NzY5NCAzLjQzODU5IDggMy41NTU0NyA4QzMuNjcyMzUgOCAzLjc4ODA5IDcuOTc2OTQgMy44OTYwNCA3LjkzMjE1QzQuMDAzOTkgNy44ODczNSA0LjEwMjA1IDcuODIxNyA0LjE4NDU5IDcuNzM4OTRMMTAuNDA0NyAxLjUxODgzWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==);
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2211%22%20height%3D%228%22%20fill%3D%22none%22%20viewBox%3D%220%200%2011%208%22%3E%3Cpath%20fill%3D%22%23000%22%20d%3D%22M10.405%201.519A.89.89%200%201%200%209.146.26l-5.59%205.592-2.037-2.038A.89.89%200%201%200%20.26%205.073L2.926%207.74a.89.89%200%200%200%201.259%200z%22/%3E%3C/svg%3E");
   @apply w-5 h-5 mt-1 rounded-[5px] appearance-none border border-green-main border-solid transition-all duration-200 bg-no-repeat bg-top checked:bg-center checked:bg-green-main;
 }
 </style>

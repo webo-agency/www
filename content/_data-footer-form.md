@@ -7,6 +7,7 @@ draft: true
 ---
 darkContainer: true
 decoration: true
+class: tablet:!flex-row-reverse
 ---
 
 #header

@@ -1,21 +1,32 @@
 <template>
   <div class="flex flex-col tablet:flex-row">
-    <div class="relative max-w-[820px] basis-2/3 desktop-wide:shrink-0"
-      :class="[darkContainer ? 'text-white p-5 tablet:p-10 desktop:p-[60px] bg-gray-darkest' : 'text-gray-darker mb-10']">
-      <div v-if="$slots.header" class="mb-5 tablet:mb-7">
+    <div class="contents tablet:block tablet:grow side">
+      <div class="order-1">
+        <slot name="side"></slot>
+      </div>
+      <div v-if="$slots['side-bottom']" class="order-3 tablet:order-none">
+        <slot name="side-bottom"></slot>
+      </div>
+    </div>
+
+    <div class="order-2 tablet:order-none relative desktop-wide:shrink-0"
+      :class="[$slots.side ? 'max-w-[820px] basis-1/2' : 'w-full', darkContainer ? 'text-white p-5 tablet:p-10 bg-gray-darkest rounded-[5px]' : 'text-gray-darker mb-10']">
+      <div v-if="$slots.header" class="mb-5 tablet:mb-7 desktop:text-[25px] font-semibold text-white">
         <ContentSlot :use="$slots.header" />
       </div>
       <div class="w-full relative"
         :class="[darkContainer ? 'text-white [&_.textInput]:bg-gray-darker' : 'text-gray-darker']">
         <form name="contactForm" method="post" enctype="multipart/form-data" class="flex flex-col"
           @submit.prevent="sendForm()">
-          <ul v-if="$slots.radio" class="flex flex-wrap mb-8 desktop:mb-16">
+          <ul v-if="$slots.radio" class="flex flex-wrap mb-8 desktop:mb-16 gap-2">
             <slot name="radio"></slot>
           </ul>
           <legend v-if="$slots.formtitle" class="text-lg desktop:text-xl font-semibold mb-2.5">
             <ContentSlot :use="$slots.formtitle" />
           </legend>
-          <slot name="fields"></slot>
+          <div :class="[gridFields ? 'grid grid-cols-1 tablet:grid-cols-2 gap-x-2' : '']">
+            <slot name="fields"></slot>
+          </div>
           <div class="flex flex-col mt-5 desktop:mt-10 transition" :class="{ 'opacity-0': mailSent }">
             <div class="prose font-normal text-xs desktop:text-sm mb-6 desktop:mb-10"
               :class="[darkContainer ? 'text-white' : 'text-gray-dark/50']">
@@ -74,7 +85,7 @@
       </div>
     </div>
 
-    <slot name="side"></slot>
+
   </div>
 </template>
 
@@ -96,6 +107,10 @@ export default {
         "Twoje dane przetważamy zgodnie z naszą **<a>polityką prywatności.</a>**",
     },
     darkContainer: {
+      type: Boolean,
+      default: false
+    },
+    gridFields: {
       type: Boolean,
       default: false
     },

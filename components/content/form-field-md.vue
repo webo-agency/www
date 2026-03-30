@@ -15,7 +15,7 @@
     </label>
   </div>
 
-  <div v-else-if="type == 'textarea'" class="formText">
+  <div v-else-if="type == 'textarea'" class="formText col-span-full">
     <textarea class="textInput min-h-[200px] max-h-[500px]" :name="name ? name : 'description'" :id="name ? name : 'description'" placeholder=" "
       :required="required"></textarea>
     <label v-if="$slots.placeholder" :for="name ? name : 'unknown'">
