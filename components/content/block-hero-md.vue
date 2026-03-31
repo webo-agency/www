@@ -1,15 +1,12 @@
 <template>
-  <div ref="container" class="relative h-[90vh] max-h-[860px] min-h-[650px] desktop:h-[860px] bg-black overflow-hidden -mt-[60px] desktop:-mt-[94px]">
-    <!-- Three.js Animated Background -->
+  <div ref="container" class="relative desktop:h-[890px] bg-black overflow-hidden -mt-[60px] desktop:-mt-[94px]">
     <HeroThreejsBg class="z-0" />
 
-    <!-- Subtle gradient overlays for readability -->
     <div class="absolute inset-0 z-[1] pointer-events-none bg-gradient-to-b from-black/10  to-black/80"></div>
     <div
       class="absolute inset-0 z-[1] pointer-events-none bg-gradient-to-tr from-green-main/10 via-transparent to-transparent">
     </div>
 
-    <!-- Decorative SVG squares -->
     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
       class="hidden desktop:block absolute top-[42%] left-[2%] fullHd:left-[10%] z-[2]">
       <path fill-rule="evenodd" clip-rule="evenodd"
@@ -35,7 +32,7 @@
       <div class="flex-1 flex items-end px-5 tablet:px-10 desktop:px-20 pb-10 tablet-wide:pb-24">
         <div class="w-full mx-auto max-w-screen-desktop-wide">
           <EffectAppearMdc>
-            <div class="pt-32 desktop:pt-0 mt-0 desktop:mt-[60px] transition duration-300">
+            <div class="pt-40 desktop:pt-0 mt-0 desktop:mt-[60px] transition duration-300">
               <p class="text-[14px] desktop:text-lg text-white">
                 <em class="font-semibold text-green-main not-italic mr-1">-/</em>
                 <ContentSlot :use="$slots.subtitle" unwrap="p" />
