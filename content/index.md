@@ -9,6 +9,20 @@ sitemap:
 ---
 button.title: Dowiedz się więcej
 button.link: https://webo.agency/uslugi/strony-internetowe
+logosText: "Zaufali nam:"
+logos:
+  - { src: '/img/logos/isw_32.svg', alt: 'IS-Wireless' }
+  - { src: '/img/logos/thoro_32.svg', alt: 'Thoro' }
+  - { src: '/img/logos/grow_32.svg', alt: 'Grow' }
+  - { src: '/img/logos/etisoft_32.svg', alt: 'Etisoft' }
+  - { src: '/img/logos/sollux_32.svg', alt: 'Sollux' }
+  - { src: '/img/logos/getsales_32.svg', alt: 'GetSales' }
+  - { src: '/img/logos/isw_32.svg', alt: 'IS-Wireless' }
+  - { src: '/img/logos/thoro_32.svg', alt: 'Thoro' }
+  - { src: '/img/logos/grow_32.svg', alt: 'Grow' }
+  - { src: '/img/logos/etisoft_32.svg', alt: 'Etisoft' }
+  - { src: '/img/logos/sollux_32.svg', alt: 'Sollux' }
+  - { src: '/img/logos/getsales_32.svg', alt: 'GetSales' }
 ---
 
 #subtitle
@@ -19,7 +33,7 @@ button.link: https://webo.agency/uslugi/strony-internetowe
 # Jesteśmy specjalistami od solidnych *stron internetowych*
 
 #description
-Tworzonych bez szablonów czy gotowców - <u>od podstaw zgodnie z dokumentacją, jak należy.</u>
+Tworzonych bez szablonów czy gotowców - <u>ale kodując od podstaw zgodnie z dokumentacją, jak należy.</u>
 
 ::
 

@@ -1,8 +1,8 @@
 <template>
-    <ContentRenderer v-if="formData" :value="formData" />
+    <ContentRenderer v-if="data" :value="data" />
 </template>
 
 <script setup>
-const { data: formData } = await useAsyncData(() => queryContent().where({ _file: "_data-footer-brands.md" }).findOne())
+const { data } = await useAsyncData(() => queryContent().where({ _file: "_data-footer-brands.md" }).findOne())
 
 </script>

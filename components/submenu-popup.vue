@@ -20,7 +20,7 @@
                 <div v-if="item.type == 'section'" class="h-full">
                   <SubmenuSectionTiles :data="item"/>
                 </div>
-                <div v-else class="pr-10 xl:pr-20 pt-10">
+                <div v-else class="pr-10 xl:pr-12 fullHd:pr-20 pt-10">
                   <CustomLink :url="item.link" :activeClass="item.link === 'https://webo.agency/'
                     ? 'text-green-main'
                     : 'text-gray-darker'

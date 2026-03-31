@@ -1,9 +1,10 @@
 <template>
   <nav 
-    class="fixed top-0 left-0 w-full z-40" 
+    class="fixed top-0 inset-x-0 tablet-wide:inset-x-2.5 z-40 transition-all" 
     :class="{
       'pointer-events-none': !isVisible && !mobileExpanded,
       '!z-50': mobileExpandedVisible,
+      'desktop:!top-2.5': scrollY < 40
     }"
   >
     <div
@@ -17,7 +18,7 @@
         { '-translate-y-full shadow-none': !isVisible && !mobileExpanded },
         { 'bg-green-gray': !isTransparent || mobileExpanded },
         {
-          'text-white border-b-[1px] !border-b-[rgba(8,219,186,0.2)]':
+          'text-white border-b-[1px] !border-b-transparent':
             isTransparent && !mobileExpanded,
         },
         {

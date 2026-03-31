@@ -5,7 +5,10 @@
   >
     <span v-if="title" v-html="title"></span>
     <slot></slot>
-    <span
+    <svg class="ml-4" v-if="arrowIcon" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0.75 13.75L13.75 0.75M13.75 0.75V13.23M13.75 0.75H1.27" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <span v-else
       class="h-0.5 w-[14px] ml-3 mt-0.5 bg-current group-hover:translate-x-1 transition duration-200"
     ></span>
   </button>
@@ -18,7 +21,10 @@
     <span v-if="title" v-html="title"></span>
     <slot></slot>
 
-    <span
+    <svg class="ml-4" v-if="arrowIcon" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0.75 13.75L13.75 0.75M13.75 0.75V13.23M13.75 0.75H1.27" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <span v-else
       class="h-0.5 w-[14px] ml-3 mt-0.5 bg-current group-hover:translate-x-1 transition duration-200"
     ></span>
   </CustomLink>
@@ -46,6 +52,10 @@ export default {
       type: Boolean,
       default: false,
     },
+    arrowIcon: {
+      type: Boolean,
+      default: false,
+    }
   },
   components: { CustomLink },
 };
