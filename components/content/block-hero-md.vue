@@ -84,7 +84,7 @@
           <span v-if="logosText" class="shrink-0 px-5 tablet:px-8 pt-4 tablet:pt-0 text-white text-base tablet:text-lg font-semibold whitespace-nowrap">
             {{ logosText }}
           </span>
-          <div ref="heroSwiper" class="swiper swiper-container relative w-full overflow-hidden h-20 tablet:h-[97px] py-4 tablet:py-6">
+          <div ref="heroSwiper" class="swiper swiper-container relative w-full overflow-hidden h-20 tablet:h-[97px] !py-4 tablet:!py-6">
             <div
               class="absolute top-0 left-0 w-7 h-full bg-gradient-to-r from-gray-darker to-transparent z-10 pointer-events-none">
             </div>
