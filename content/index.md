@@ -4,11 +4,14 @@ hreflangs:
     PL: '/'
 sitemap:
   priority: 1
+meta:
+    title: Specjaliści od solidnych stron internetowych i e-commerce - Webo.pl  
+    description: 'Znamy się na dwóch rzeczach: technologii i projektowaniu UX/UI. Dzięki temu realizujemy szyte na miarę strony www, dbając o najwyższą jakość wykonania.'
 ---
 ::block-hero-md
 ---
 button.title: Dowiedz się więcej
-button.link: https://webo.agency/uslugi/strony-internetowe
+button.link: https://webo.agency/uslugi/strony-internetowe/
 logosText: "Zaufali nam:"
 logos:
     - alt: 'IS-Wireless'
@@ -109,7 +112,7 @@ Znamy się na dwóch rzeczach: **technologii i projektowaniu**. Dzięki temu rea
 ---
 icon: '/img/icons/services-site.svg'
 technologies: '/img/icons/websites-technologies.svg'
-link: 'https://webo.agency/uslugi/strony-internetowe'
+link: 'https://webo.agency/uslugi/strony-internetowe/'
 delay: 1
 ---
 #title
@@ -126,7 +129,7 @@ Dowiedz się więcej
 ---
 icon: '/img/icons/services-store.svg'
 technologies: '/img/icons/stores-technologies.svg'
-link: 'https://webo.agency/uslugi/sklepy-internetowe'
+link: 'https://webo.agency/uslugi/sklepy-internetowe/'
 ---
 #title
 ### Sklepy internetowe
@@ -159,7 +162,7 @@ Dowiedz się więcej
 ---
 icon: '/img/icons/services-support.svg'
 technologies: '/img/icons/support-technologies.svg'
-link: 'https://webo.agency/uslugi/wsparcie-i-rozwoj'
+link: 'https://webo.agency/uslugi/wsparcie-i-rozwoj/'
 delay: 4
 ---
 #title
@@ -176,7 +179,7 @@ Dowiedz się więcej
 ---
 icon: '/img/icons/services-uxui.svg'
 technologies: '/img/icons/uxui-technologies.svg'
-link: 'https://webo.agency/uslugi/projektowanie-ux-ui'
+link: 'https://webo.agency/uslugi/projektowanie-ux-ui/'
 delay: 5
 ---
 #title
@@ -207,7 +210,7 @@ class: block desktop:hidden top-0 right-0
 
 ::::block-cta-md
 ---
-button.link: https://webo.agency/kontakt
+button.link: https://webo.agency/kontakt/
 button.title: 'Skontaktuj się z nami'
 button.isWide: true
 class: tablet:mb-[150px] 
@@ -223,6 +226,8 @@ Umów się na bezpłatną konsultację, porozmawiajmy!
 :::
 ::
 
+
+
 ::page-section-md
 ---
 id: realizacje
@@ -235,7 +240,7 @@ class: mb-[100px] tablet:mb-20
 ---
 
 #subtitle
-### *3/* Case study
+### *2/* Nasze realizacja
 
 #title
 ## Jesteśmy dumni <br> z *wykonanych projektów*
@@ -246,12 +251,12 @@ class: mb-[100px] tablet:mb-20
 :::block-cases-md
 ---
 contentFolder: realizacje
-moreBtn.url: 'https://webo.agency/realizacje'
+moreBtn.url: 'https://webo.agency/realizacje/'
 moreBtn.linktitle: Zobacz wszystkie projekty
 selectedSlugs:
     - velair
     - isw
-    - wallsociety
+    - sellineo
     - thoro
 ---
 
@@ -287,7 +292,7 @@ class: px-5 tablet:px-10
 Nasz zespół to solidne umysły ścisłe. Znamy się na technologii jak na niczym innym, pracujemy na twardych danych a nie domysłach.
 :::::::button-secondary-md
 ---
-link: 'https://webo.agency/o-nas'
+link: 'https://webo.agency/o-nas/'
 title: 'Dowiedz się więcej'
 ---
  
@@ -391,15 +396,11 @@ class: mt-0 !pl-0 !mb-0 !w-[70%] !ml-0
 ---
 ::::::
 :::::
-
 ::::
+
+
 :::
 ::
-
-
-
-
-
 
 ::page-section-md
 ---
@@ -419,7 +420,7 @@ decoration: false
 ## Wybierzemy najlepsze rozwiązanie *dla Twojego projektu*
 
 #description
-Do każdego projektu podchodzimy **indywidualnie**, analizując jego potrzeby i&nbsp;**dobierając optymalne rozwiązania**. Korzystamy tylko ze sprawdzonych systemów takich jak Wordpres / Drupal / Prestashop, **łącząc je z najnowszymi technologiami**.
+Do każdego projektu podchodzimy **indywidualnie**, analizując jego potrzeby i&nbsp;**dobierając optymalne rozwiązania**. Korzystamy tylko ze sprawdzonych systemów takich jak Wordpress / Drupal / Prestashop, **łącząc je z najnowszymi technologiami**.
 :::
 
 :::block-columns-2-5-md
@@ -619,8 +620,6 @@ Cloudflare
 :::
 ::
 
-
-
 ::page-section-md
 ---
 id: opinie
@@ -722,7 +721,8 @@ opinionSource: '/img/icons/clutch.svg'
 Radosław Cyganek
 
 #title
-Executive - **Proton Multimedia**
+Executive - **Proton Multimedia**<br>
+Administrator IT - **Mancraft**
 
 #message
 Dzięki pracy Webo mój klient osiągnął wyższe pozycje w wyszukiwarkach, **poprawił satysfakcję użytkowników i zwiększył ich zaangażowanie**. Firma proaktywnie **zarządzała ryzykiem** i zapewniała alternatywne rozwiązanie, aby osiągnąć cele klienta. Ich **szybkość reakcji i kreatywność** były godne pochwały.
@@ -815,21 +815,22 @@ Business manager - **Oravio**
 Pomogli nam w przelaniu naszych wizji sklepu internetowego na realny, **dobrze odbierany przez klientów** i przede wszystkim sprawnie działający sklep! Dziękujemy i **polecamy Webo!** : )
 
 :::::
+
 :::::opinion-md
 ---
 rating: 5
-avatar: '/img/logos/CaffeWasyl.png'
+avatar: '/img/content-images/eurostal_avatar.png'
 opinionSource: '/img/icons/google.svg'
 ---
 
 #author
-Adam Wasilewski
+Dawid Jasek
 
 #title
-Właściciel - **Caffe wasyl**
+Sales Manager - **Eurostal**
 
 #message
-**Dzięki Webo uratowałem swój biznes**, uruchomili mój sklep internetowy w **ciągu miesiąca**. Oby jak najwięcej takich ludzi!
+Świetna współpraca przy tworzeniu strony i konfiguratora. Firma WEBO to **profesjonaliści, którzy dotrzymują terminów** i mają świetne podejście do klienta. Wszystko działa bez zarzutu, Polecam !
 
 :::::
 ::::
@@ -864,8 +865,6 @@ class: mb-[50px] tablet:mb-[100px]
 ---
 class: mb-20 tablet:mb-[100px]
 ---
-:::effect-appear-md
-::::block-form-before-footer-md
-::::
+:::block-form-before-footer-md
 :::
 ::

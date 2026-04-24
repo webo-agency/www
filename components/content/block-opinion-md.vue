@@ -30,16 +30,16 @@
     </div>
     <div class="basis-[60%]">
       <div
-        class="relative bg-green-gray py-[60px] px-10 flex flex-col"
+        class="relative bg-green-gray pt-10 pb-2.5 lg:py-[60px] px-10 flex flex-col"
         :class="{ 'max-w-[695px] items-left mx-auto': center }"
       >
         <div><slot name="content" /></div>
-        <div class="flex gap-5">
+        <div class="flex gap-5 flex-col lg:flex-row">
           <div class="avatarImg">
             <nuxt-picture
-              src="/img/content-images/avatar-img.png"
+              :src="avatar || '/img/content-images/avatar-img.png'"
               fit="inside"
-              class="block max-w-[220px]"
+              class="block max-w-[220px] [&_img]:min-w-[70px] lg:[&_img]:min-w-auto"
             />
           </div>
           <div class="author-wrapper">
@@ -61,6 +61,7 @@ export default {
     rating: Number,
     center: Boolean,
     link: String,
+    avatar: String,
   }
 };
 </script>
@@ -73,6 +74,6 @@ export default {
   @apply !uppercase;
 }
 :deep(.authorTitle .p6 p) {
-  @apply !mb-4;
+  @apply !mb-4 text-xs;
 }
 </style>
