@@ -41,7 +41,8 @@ export default {
     'nuxt-simple-sitemap',
     "@vite-pwa/nuxt",
     "nuxt-vitalizer",
-    "@nuxtjs/google-fonts"
+    "@nuxtjs/google-fonts",
+    "nuxt-gtag"
   ],
   googleFonts: {
     download: true,
@@ -52,6 +53,23 @@ export default {
       }
     },
     display: 'swap', // 'auto' | 'block' | 'swap' | 'fallback' | 'optional'
+  },
+  gtag: {
+    initMode: "manual",
+    id: process.env.GA_ID,
+    initCommands: [
+      [
+        "consent",
+        "default",
+        {
+          ad_user_data: "denied",
+          ad_personalization: "denied",
+          ad_storage: "denied",
+          analytics_storage: "denied",
+          wait_for_update: 500,
+        },
+      ],
+    ],
   },
 
   content: {

@@ -36,6 +36,15 @@
         :showContributions="true"
       />
     </div>
+    <CookieConsent
+      v-if="cookieConsentData"
+      :title="cookieConsentData.title"
+      :checkbox-title="cookieConsentData.checkboxTitle"
+      :description="cookieConsentData.description"
+      :accept-btn="cookieConsentData.acceptBtn"
+      :reject-btn="cookieConsentData.rejectBtn"
+      :confirm-btn="cookieConsentData.confirmBtn"
+    />
   </div>
 </template>
 
@@ -46,6 +55,7 @@ const { data: settings } = await useAsyncData('settings',() =>
 
 const footerData = settings.value?.footer;
 const generalData = settings.value?.general;
+const cookieConsentData = settings.value?.cookieConsent;
 
 const currLang = useState("lang", () => generalData?.lang ?? "EN");
 

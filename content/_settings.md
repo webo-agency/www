@@ -114,6 +114,13 @@ general:
           link: https://www.linkedin.com/company/webo-agency/
         - type: behance
           link: https://www.behance.net/webo_agency
+cookieConsent:
+    title: Ustawienia plików cookie
+    checkboxTitle: Analityka
+    description: Analizujemy interakcję i przepływ użytkowników dla naszych wewnętrznych potrzeb
+    acceptBtn: Akceptuj wszystkie
+    rejectBtn: Odrzuć wszystkie
+    confirmBtn: Potwierdź obecne ustawienia
 head:
     title: Specjaliści od solidnych stron internetowych i e-commerce
     description: Specjalizujemy się w projektowaniu i kodowaniu wysokiej jakości, nowoczesnych stron i sklepów www. Bez szablonów czy gotowców - od podstaw zgodnie z dokumentacją, jak należy. 
