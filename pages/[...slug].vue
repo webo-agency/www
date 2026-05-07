@@ -18,31 +18,6 @@ const route = useRoute()
 const routeClean = route.fullPath.split('#')[0].split('?')[0]
 const { data: pageData } = await useAsyncData('page-data-' + routeClean, () => queryContent(route.path).findOne())
 
-const { data: siteHreflangs } = await useAsyncData('hreflangs-site', () => queryContent().only('hreflangs').find())
-
-onMounted(()=>{
-  if (!pageData.value) {
-    const domains = {
-      PL: "https://webo.pl",
-      EN: "https://webo.agency",
-    };
-
-    const foundRedirect = siteHreflangs.value.find(
-      (page) => page.hreflangs && Object.values(page.hreflangs).includes(routeClean)
-    );
-
-    if (foundRedirect){
-      const langKey = Object.keys(foundRedirect.hreflangs).find(
-        (key) => foundRedirect.hreflangs[key] === routeClean
-      );
-    
-      if (langKey) {
-        window.location.href = domains[langKey] + routeClean;
-      }
-    }
-  }
-})
-
 const siteConfig = useSiteConfig()
 
 const hrefLangs = computed(() => getPageLangs(pageData?.value?.hreflangs));
@@ -68,7 +43,6 @@ const headLinks = computed(() => {
   return [canonicalLink,...hrefs]
 })
 
-const img = useImage()
 const headData = computed(() => {
   if (!pageData.value) return {}
   

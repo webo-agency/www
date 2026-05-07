@@ -1,6 +1,6 @@
 {
   "name": "@webo-agency/theme",
-  "version": "3.7.111",
+  "version": "3.7.112",
   "main": "./nuxt.config.ts",
   "type": "module",
   "exports": "./nuxt.config.ts",
@@ -35,7 +35,6 @@
     "@nuxtjs/tailwindcss": "^6.8.1",
     "@stefanobartoletti/nuxt-social-share": "^0.5.0",
     "@unocss/transformer-directives": "^0.46.5",
-    "@vite-pwa/nuxt": "^0.10.6",
     "@vueuse/components": "^10.7.1",
     "@vueuse/core": "^9.13.0",
     "@vueuse/nuxt": "^9.13.0",
@@ -58,8 +57,6 @@
     "three": "^0.183.2"
   },
   "devDependencies": {
-    "workbox-build": "^7.3.0",
-    "workbox-window": "^7.3.0",
     "wrangler": "^3.82.0"
   }
 }

@@ -39,7 +39,6 @@ export default {
     "@nuxtjs/tailwindcss",
     '@stefanobartoletti/nuxt-social-share',
     'nuxt-simple-sitemap',
-    "@vite-pwa/nuxt",
     "nuxt-vitalizer",
     "@nuxtjs/google-fonts",
     "nuxt-gtag"
@@ -49,7 +48,7 @@ export default {
     inject: true,
     families: {
       Montserrat: {
-        wght: [400,500,600]
+        wght: [400, 500, 600]
       }
     },
     display: 'swap', // 'auto' | 'block' | 'swap' | 'fallback' | 'optional'
@@ -78,11 +77,11 @@ export default {
       clientDb: false
     },
   },
-  site:{
+  site: {
     url: 'https://webo.agency',
     trailingSlash: true
   },
-  sitemap:{
+  sitemap: {
     discoverImages: true,
     autoLastmod: true,
   },
@@ -134,38 +133,7 @@ export default {
       component: '0%',
       asset: '0%'
     }
-    
-  },
-  pwa: {
-    registerType: "autoUpdate",
-    manifest: {
-      name: "Webo.agency",
-      lang: "en",
-      theme_color: "#06ceaf",
-      id: "/?standalone=true",
-      start_url: "/",
-      orientation: "any",
-      icons: [
-        {
-          src: "symbol.png",
-          sizes: "512x512",
-          type: "image/png",
-          purpose: "any maskable",
-        },
-      ],
-    },
-    strategies: "generateSW",
-    workbox: {
-      globPatterns: [
-        "**/*.{js,css,html,png,svg,ico,json}",
-        "**/_payload.json"
-      ],
-      skipWaiting: true,
-      cleanupOutdatedCaches: true,
-      ignoreURLParametersMatching: [/^.*/],
-      maximumFileSizeToCacheInBytes: 4000000,
-      navigateFallback: null,
-    },
+
   },
 
   target: "static",
@@ -175,12 +143,12 @@ export default {
       failOnError: false,
     },
   },
-  experimental:{
+  experimental: {
     sharedPrerenderData: true,
     payloadExtraction: true,
-    defaults:{
-      nuxtLink:{
-        prefetchOn:{
+    defaults: {
+      nuxtLink: {
+        prefetchOn: {
           visibility: false,
           interaction: true,
         },

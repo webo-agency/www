@@ -1,5 +1,4 @@
 <template>
-  <NuxtPwaManifest />
   <div v-if="settings" class="h-full font-body desktop:p-2.5">
     <LayoutNavbar
       :menu="settings.nav"
