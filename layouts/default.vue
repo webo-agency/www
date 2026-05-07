@@ -35,15 +35,17 @@
         :showContributions="true"
       />
     </div>
-    <CookieConsent
-      v-if="cookieConsentData"
-      :title="cookieConsentData.title"
-      :checkbox-title="cookieConsentData.checkboxTitle"
-      :description="cookieConsentData.description"
-      :accept-btn="cookieConsentData.acceptBtn"
-      :reject-btn="cookieConsentData.rejectBtn"
-      :confirm-btn="cookieConsentData.confirmBtn"
-    />
+    <ClientOnly>
+      <CookieConsent
+        v-if="cookieConsentData"
+        :title="cookieConsentData.title"
+        :checkbox-title="cookieConsentData.checkboxTitle"
+        :description="cookieConsentData.description"
+        :accept-btn="cookieConsentData.acceptBtn"
+        :reject-btn="cookieConsentData.rejectBtn"
+        :confirm-btn="cookieConsentData.confirmBtn"
+      />
+    </ClientOnly>
   </div>
 </template>
 
