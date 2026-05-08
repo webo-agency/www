@@ -292,7 +292,7 @@ class: mx-blog
 isSidebar: true
 author: Maciej Z.
 authorAvatar: /img/content-images/avatar-maciej.webp
-postDate: 15.01.2026
+updatedAt: 15.01.2026
 shareText: 'Share the article:'
 tagsTitle: 'Tags:'
 tags:

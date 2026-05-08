@@ -7,6 +7,24 @@ public: true
 hreflangs:
     EN: '/services/woocommerce/'
     PL: '/uslugi/sklepy-woocommerce/'
+schemaOrg:
+  "@type": "Service"
+  serviceType: "Tworzenie sklepów internetowych WooCommerce"
+  provider:
+    "@type": "Organization"
+    name: "Webo"
+    url: "https://webo.pl/"
+  areaServed:
+    "@type": "Country"
+    "name": "Poland"
+  description: "Profesjonalne projektowanie i wdrażanie sklepów internetowych opartych na systemie WooCommerce. Sklepy zoptymalizowane pod SEO, szybkie i responsywne."
+  offers:
+    "@type": "Offer"
+    availability: "https://schema.org/InStock"
+    description: "Indywidualna wycena wdrożenia sklepu WooCommerce"
+  mainEntityOfPage:
+    "@type": "WebPage"
+    "@id": "https://webo.pl/uslugi/sklepy-woocommerce/"
 ---
 
 

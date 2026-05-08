@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-[900px] mx-auto py-[50px] tablet:py-[100px]">
+  <div class="max-w-[900px] mx-auto py-[50px] tablet:py-[100px]" itemscope itemtype="https://schema.org/FAQPage">
     <div 
       v-if="$slots.header"
       class="_mb-[50px] _tablet:mb-[70px]"

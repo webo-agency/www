@@ -5,7 +5,10 @@ introduction.description: 'Wybór odpowiedniej platformy dla Twojej strony może
 category:
     - Technologia
 image.url: '/img/blog-images/Headless_Wordpress_vs_klasyczny_Wordpress.webp'
-date: 2026-02-23
+author: Kamil Mędrala
+authorAvatar: /img/content-images/avatar-img.png
+authorUrl: https://pl.linkedin.com/in/kamil-medrala1
+updatedAt: 2026-02-23
 hreflangs:
     EN: '/blog/'
     PL: '/blog/headless-wordpress-vs-klasyczny-wordpress-co-wybrac-dla-twojej-strony/'
@@ -225,28 +228,11 @@ Podsumowując, wybór między Headless WordPress a klasycznym WordPressem zależ
 
 #right
 ::::effect-appear-md
----
-class: mx-blog
----
 :::::block-post-share
 ---
-isSidebar: true
-author: Kamil
-authorAvatar: /img/content-images/avatar-img.png
-postDate: 23.02.2026
 shareText: 'Share the article:'
 tagsTitle: 'Tags:'
-tags:
-    - Headless
-    - Sklepy internetowe
-    - Storny internetowe
-archivePath: /blog
-socials:
-    - linkedin
-    - facebook
-    - twitter
-showCopyLink: true
-class: text-base [&_p]:!text-base
+copyConfirmationText: 'Link copied!'
 ---
 :::::
 ::::

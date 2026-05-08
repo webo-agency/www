@@ -1,6 +1,5 @@
 <template>
   <div
-    itemscope itemtype="https://schema.org/NewsArticle"
     class=""
   >
     <div class="mx-blog desktop:translate-y-[-60px] relative z-20">
@@ -18,7 +17,6 @@
       </ul>
       <div
         v-if="$slots.title"
-        itemprop="headline"
         class="mb-5 lg:mb-0 text-2xl tablet:text-3xl desktop:text-5xl font-semibold text-gray-darker"
       >
         <ContentSlot :use="$slots.title" />
@@ -29,7 +27,7 @@
       <nuxt-picture
         v-if="bgUrl"
         class="z-0 object-cover"
-        :img-attrs="{ class: 'w-full max-h-125 object-cover', itemprop: 'image', alt }"
+        :img-attrs="{ class: 'w-full max-h-125 object-cover', alt }"
         :src="bgUrl"
       />
       <!-- <span class="absolute z-10 inset-0 bg-gradient-to-t from-black/75 to-transparent"></span> -->

@@ -18,6 +18,8 @@ const route = useRoute()
 const routeClean = route.fullPath.split('#')[0].split('?')[0]
 const { data: pageData } = await useAsyncData('page-data-' + routeClean, () => queryContent(route.path).findOne())
 
+provide('pageData', pageData)
+
 const siteConfig = useSiteConfig()
 
 const hrefLangs = computed(() => getPageLangs(pageData?.value?.hreflangs));
@@ -70,5 +72,60 @@ useSeoMeta(headData.value);
 useHead({
   link: headLinks,
 })
+
+function normalizeSchema(input) {
+  if (!input) return [];
+
+  const arr = Array.isArray(input) ? input : [input];
+
+  return arr.filter(Boolean);
+}
+
+const schemaLd = computed(() => {
+  if (!pageData.value) return null;
+
+  const sRaw = pageData.value.schemaOrg ?? null;
+  const graph = normalizeSchema(sRaw);
+
+  const isBlog = routeClean.startsWith('/blog/') && routeClean !== '/blog/';
+
+  if (isBlog) {
+    const hasNewsArticle = graph.some(item => item?.['@type'] === 'NewsArticle');
+    if (!hasNewsArticle) {
+      graph.push({
+        '@type': 'NewsArticle',
+        headline: headData.value.title,
+        description: headData.value.description,
+        image: pageData.value.image?.url || '',
+        url: routeClean,
+        datePublished: pageData.value.updatedAt || '',
+        author: {
+          '@type': 'Person',
+          name: pageData.value.author || 'Webo',
+          url: pageData.value.authorUrl || siteConfig.url || '',
+        }
+      });
+    }
+  }
+
+  if (graph.length === 0) return null;
+
+  return {
+    '@context': 'https://schema.org',
+    '@graph': graph
+  };
+});
+
+useHead({
+  script: computed(() => {
+    if (!schemaLd.value) return [];
+    return [
+      {
+        type: 'application/ld+json',
+        children: JSON.stringify(schemaLd.value)
+      }
+    ];
+  })
+});
 
 </script>

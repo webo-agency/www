@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <div class="group peer flex items-center px-5 py-3 tablet:px-[30px] tablet:py-[19px] cursor-pointer hover:bg-[#e4efed] transition duration-200"
         :class="{'bg-[#e4efed]':isExpanded}"
         @click="toggleExpand()">
@@ -13,6 +13,7 @@
             <div
                 v-if="$slots.title"
                 class="group-hover:underline text-gray-darker text-lg desktop:text-xl font-semibold transition duration-200 pr-3"
+                itemprop="name"
             >
                 <ContentSlot :use="$slots.title" />
             </div>
@@ -29,12 +30,14 @@
         :class="{'border-b-green-main':isExpanded}">
             <div class="overflow-hidden transition-all duration-500" 
             :style="{'height': `${containerHeight}px`}"
+            itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"
             >
                 <div
                     ref="descriptionContainer"
                     v-if="$slots.description"
                     class="bg-[#e4efed] text-base desktop:text-lg font-normal tablet:pl-[30px] p-5 pt-0 transition-opacity duration-300"
                     :class="{'opacity-0':!isExpanded}"
+                    itemprop="text"
                 >
                     <ContentSlot :use="$slots.description" />
                 </div>

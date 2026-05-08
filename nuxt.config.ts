@@ -41,7 +41,7 @@ export default {
     'nuxt-simple-sitemap',
     "nuxt-vitalizer",
     "@nuxtjs/google-fonts",
-    "nuxt-gtag"
+    "nuxt-gtag",
   ],
   googleFonts: {
     download: true,
