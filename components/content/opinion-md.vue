@@ -3,11 +3,19 @@
     class="swiper-slide bg-green-gray flex flex-col justify-between min-h-[560px] shrink-0 tablet:pr-10 p-[30px_20px] desktop:p-[60px_40px] !transition !duration-200">
     <div v-if="$slots.message" class="prose leading-7 text-sm tablet:text-base">
       <ContentSlot :use="$slots.message" />
-      <nuxt-picture v-if="opinionSource" :src="opinionSource"
+      <a
+        :href="link || '/'"
+        :target="link ? '_blank' : undefined"
+        :rel="link ? 'noopener noreferrer' : undefined"
+        :class="[!link && 'pointer-events-none']"
         class="block w-[70px] h-[50px] mt-5"
-        :imgAttrs="{ class: 'h-full w-full' }"
-        alt="icon"
-        loading="lazy" />
+      >
+        <nuxt-picture v-if="opinionSource" :src="opinionSource"
+          class="block w-full h-full"
+          :imgAttrs="{ class: 'h-full w-full' }"
+          alt="icon"
+          loading="lazy" />
+      </a>
     </div>
 
     <div class="relative flex flex-row gap-5 items-center">
@@ -54,6 +62,7 @@ export default {
     rating: Number,
     avatar: String,
     opinionSource: String,
+    link: String,
   },
 };
 </script>

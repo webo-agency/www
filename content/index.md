@@ -710,6 +710,28 @@ Właściciel - **Velair**<br>
 
 :::::
 
+
+:::::opinion-md
+---
+rating: 5
+avatar: '/img/content-images/traffic-peaks-logo.png'
+opinionSource: '/img/icons/clutch.svg'
+link: 'https://clutch.co/go-to-review/2d738f82-daea-4149-98bd-b5609745cca0/441375'
+---
+
+
+#author
+Kamil Gędłek
+
+#title
+CEO - **KGWEBS**<br>
+Head of SEO - **Traffic Peaks**<br>
+
+#message
+Webo dostarczyło **wyjątkowo szybką i intuicyjną stronę internetową**, która bezpośrednio wpłynęła na rozwój firmy klienta. Strona **zwiększyła generowanie leadów o 30%**, współczynnik konwersji o 30% i średni czas trwania sesji o 60%.
+
+:::::
+
 :::::opinion-md
 ---
 rating: 5
