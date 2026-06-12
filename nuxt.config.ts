@@ -38,10 +38,10 @@ export default {
     "@nuxt/image",
     "@nuxtjs/tailwindcss",
     '@stefanobartoletti/nuxt-social-share',
-    'nuxt-simple-sitemap',
     "nuxt-vitalizer",
     "@nuxtjs/google-fonts",
     "nuxt-gtag",
+    "@nuxtjs/sitemap"
   ],
   googleFonts: {
     download: true,
