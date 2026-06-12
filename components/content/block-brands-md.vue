@@ -2,11 +2,12 @@
   <div
     class="flex flex-wrap gap-y-8 tablet:gap-y-16 gap-x-6 tablet:gap-x-24 items-center justify-between"
   >
-    <CustomLink
+    <NuxtLink
       v-for="(logo, index) in logos"
       :key="index"
       class="group block h-7 phone-wide:h-10 tablet:h-16 max-w-[100px] tablet:max-w-[150px] tablet-wide:max-w-[215px] filter"
-      :url="logo.link ? logo.link : ''"
+      :to="logo.link ? logo.link : ''"
+      rel="nofollow"
     >
       <nuxt-picture
         v-if="logo.imgUrl"
@@ -19,7 +20,7 @@
           class: 'w-full h-full object-contain custom-filter duration-300',
         }"
       />
-    </CustomLink>
+    </NuxtLink>
   </div>
 </template>
 
