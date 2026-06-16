@@ -83,7 +83,7 @@
 </template>
 
 <script>
-import CustomLink from "./custom-link.vue";
+import CustomLink from "./custom/link.vue";
 export default {
   name: "Socials",
   props: {
