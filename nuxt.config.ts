@@ -1,5 +1,6 @@
 import { fileURLToPath } from "url";
 import { dirname, join } from "path";
+import tailwindcss from "@tailwindcss/vite";
 var appManifest = require("./package.json");
 
 require("dotenv").config();
@@ -29,14 +30,13 @@ export default {
   },
   components: true,
   css: [
-    join(currentDir, './assets/css/style.css'),
-    join(currentDir, './assets/css/main.css')
+    join(currentDir, './app/assets/css/style.css'),
+    join(currentDir, './app/assets/css/main.css')
   ],
-  plugins: [join(currentDir, './plugins/textformatter.js')],
+  plugins: [join(currentDir, './app/plugins/textformatter.js')],
   modules: [
     "@nuxt/content",
     "@nuxt/image",
-    "@nuxtjs/tailwindcss",
     '@stefanobartoletti/nuxt-social-share',
     "nuxt-vitalizer",
     "@nuxtjs/google-fonts",
@@ -158,14 +158,6 @@ export default {
   },
   build: {
     transpile: ["swiper"],
-    postcss: {
-      postcssOptions: {
-        plugins: {
-          tailwindcss: {},
-          autoprefixer: {},
-        },
-      },
-    },
   },
   vitalizer: {
     disablePrefetchLinks: true,
@@ -173,6 +165,7 @@ export default {
     disableStylesheets: 'entry',
   },
   vite: {
+    plugins: [tailwindcss()],
     build: {
       modulePreload: false,
       // rollupOptions: {

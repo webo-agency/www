@@ -1,16 +1,15 @@
-import { serverQueryContent } from '#content/server'
 import { SitemapStream, streamToPromise } from 'sitemap'
 
 export default defineEventHandler(async (event) => {
   // Fetch all documents
-  const docs = await serverQueryContent(event).find()
+  const docs = await queryCollection(event, 'content').all()
   const sitemap = new SitemapStream({
     hostname: 'https://webo.agency'
   })
 
   for (const doc of docs) {
     sitemap.write({
-      url: doc._path,
+      url: doc.path,
       changefreq: 'monthly'
     })
   }
