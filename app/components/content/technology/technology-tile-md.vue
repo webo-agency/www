@@ -17,7 +17,7 @@
           loading="lazy"
         ></nuxt-picture>
         <div v-if="$slots.title" class="title max-w-fit font-semibold">
-          <ContentSlot :use="$slots.title" />
+          <slot name="title" />
         </div>
       </div>
     </EffectAppearMdc>

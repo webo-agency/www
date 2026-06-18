@@ -5,10 +5,10 @@
                 <nuxt-picture v-if="icon" class="shrink-0 w-[76px] h-[56px] mb-5 tablet:mb-[30px]"
                     :src="icon"></nuxt-picture>
                 <div class="mb-6 [&_*]:font-semibold [&_*]:!mb-0 text-xl desktop:text-2xl">
-                    <ContentSlot :use="$slots.title" />
+                    <slot name="title" />
                 </div>
                 <div class="[&_p]:!leading-loose [&_p]:!mb-0">
-                    <ContentSlot :use="$slots.content" />
+                    <slot name="content" />
                 </div>
             </div>
         </EffectAppearMd>

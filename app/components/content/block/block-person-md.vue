@@ -16,13 +16,13 @@
             v-if="$slots.name"
             class="mb-1 text-lg desktop:text-xl font-semibold text-center"
           >
-            <ContentSlot :use="$slots.name" unwrap />
+            <slot name="name" mdc-unwrap />
         </div>
         <div
             v-if="$slots.description"
             class="text-base desktop:text-lg text-center"
           >
-            <ContentSlot :use="$slots.description" unwrap />
+            <slot name="description" mdc-unwrap />
         </div>
     </div>
   </div>

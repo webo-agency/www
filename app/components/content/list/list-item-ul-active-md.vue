@@ -18,10 +18,10 @@
             class="title mb-5 mt-2 font-semibold"
             :class="[{'tablet:mt-5':iconBig && !iconLeft},[iconLeft? 'text-xl' : 'text-2xl']]"
           >
-            <ContentSlot :use="$slots.title" />
+            <slot name="title" />
           </div>
           <div v-if="$slots.description" class="mb-5 leading-7">
-            <ContentSlot :use="$slots.description" />
+            <slot name="description" />
           </div>
           <div
             v-if="animated"

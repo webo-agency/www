@@ -25,13 +25,13 @@
           v-if="$slots.title"
           class="title text-lg desktop:text-xl font-semibold mb-[30px]"
         >
-          <ContentSlot :use="$slots.title" />
+          <slot name="title" />
         </div>
         <div
           v-if="$slots.description"
           class="text-sm desktop:text-base font-normal"
         >
-          <ContentSlot :use="$slots.description" />
+          <slot name="description" />
         </div>
     </div>
     

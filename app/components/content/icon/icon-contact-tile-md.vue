@@ -9,7 +9,7 @@
     <div
       class="prose ml-2.5 desktop:ml-[30px] text-lg desktop:text-xl font-semibold text-gray-darker"
     >
-      <ContentSlot :use="$slots.text" />
+      <slot name="text" />
     </div>
   </li>
 </template>

@@ -1,7 +1,7 @@
 <template>
   <div class="max-w-full">
     <div class="space-y-4 tablet:space-y-6">
-      <ContentSlot :use="$slots.default" />
+      <slot />
     </div>
   </div>
 </template>

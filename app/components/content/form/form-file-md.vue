@@ -37,13 +37,13 @@
             v-if="$slots.title"
             class="text-gray-dark text-base desktop:text-lg font-semibold"
           >
-            <ContentSlot :use="$slots.title" />
+            <slot name="title" />
           </div>
           <div
             v-if="$slots.description"
             class="text-gray-dark/50 text-sm desktop:text-base"
           >
-            <ContentSlot :use="$slots.description" />
+            <slot name="description" />
           </div>
         </div>
       </Transition>

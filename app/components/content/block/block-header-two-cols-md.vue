@@ -6,7 +6,7 @@
         class="subtitle text-base desktop:text-lg"
         :class="{ 'text-center': center }"
       >
-        <ContentSlot :use="$slots.subtitle" />
+        <slot name="subtitle" />
       </div>
       <div class="desktop:flex justify-between">
         <div
@@ -15,7 +15,7 @@
           :style="[{ 'max-width': maxWidth + 'px' }]"
           :class="{ 'tablet:pr-5': $slots.description }"
         >
-          <ContentSlot :use="$slots.title" />
+          <slot name="title" />
         </div>
         <div
           v-if="$slots.description"
@@ -57,7 +57,7 @@
               data-v-inspector="components/content/block-hero-md.vue:15:7"
             ></path>
           </svg>
-          <ContentSlot :use="$slots.description" />
+          <slot name="description" />
         </div>
       </div>
     </div>

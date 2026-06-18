@@ -12,7 +12,7 @@
     <div class="order-2 tablet:order-none relative desktop-wide:shrink-0"
       :class="[$slots.side ? 'max-w-[820px] basis-1/2' : 'w-full', darkContainer ? 'text-white p-5 tablet:p-10 bg-gray-darkest rounded-[5px]' : 'text-gray-darker mb-10']">
       <div v-if="$slots.header" class="mb-5 desktop:text-[25px] font-semibold text-white">
-        <ContentSlot :use="$slots.header" />
+        <slot name="header" />
       </div>
       <div class="w-full relative"
         :class="[darkContainer ? 'text-white [&_.textInput]:bg-gray-darker' : 'text-gray-darker']">
@@ -22,7 +22,7 @@
             <slot name="radio"></slot>
           </ul>
           <legend v-if="$slots.formtitle" class="text-lg desktop:text-[25px] font-semibold mb-2.5">
-            <ContentSlot :use="$slots.formtitle" />
+            <slot name="formtitle" />
           </legend>
           <div :class="[gridFields ? 'grid grid-cols-1 tablet:grid-cols-2 gap-x-2' : '']">
             <slot name="fields"></slot>
@@ -32,12 +32,12 @@
               :class="[darkContainer ? 'text-white' : 'text-gray-dark/50']">
               <label class="flex gap-2.5 items-start">
                 <input type="checkbox" name="acceptance" required>
-                <ContentSlot :use="$slots.policytext" />
+                <slot name="policytext" />
               </label>
             </div>
             <ButtonMain :tagButton="true" :isWide=true ref="sendButton"
               :class="[darkContainer ? 'text-gray-darker' : 'text-white']">
-              <ContentSlot :use="$slots.buttontext" />
+              <slot name="buttontext" />
             </ButtonMain>
           </div>
           <input type="hidden" name="static-form-name" value="contact" />
@@ -55,16 +55,16 @@
             </div>
             <div v-if="$slots.thanksMessage"
               class="text-3xl tablet:text-4xl desktop:text-5xl mb-5 desktop:mb-10 text-center font-semibold">
-              <ContentSlot :use="$slots.thanksMessage" />
+              <slot name="thanksMessage" />
             </div>
             <div v-if="$slots.thanksDescription"
               class="text-lg desktop:text-xl mb-7 desktop:mb-[50px] text-center font-semibold">
-              <ContentSlot :use="$slots.thanksDescription" />
+              <slot name="thanksDescription" />
             </div>
             <div v-if="$slots.buttonBackText">
               <ButtonMain class="mb-2.5 desktop:mb-6 !w-auto" :class="[darkContainer ? 'text-gray-darker' : 'text-white']"
                 :link="'https://webo.agency/'">
-                <ContentSlot :use="$slots.buttonBackText" />
+                <slot name="buttonBackText" />
               </ButtonMain>
             </div>
           </div>
@@ -72,7 +72,7 @@
         <Transition name="appear">
           <div v-if="isError" class="bg-red-300/20 flex gap-2.5 p-2.5 rounded-md mt-5 [&_a]:transition [&_a]:underline [&_a]:font-medium hover:[&_a]:text-green-main max-w-[700px]">
             <svg class="shrink-0 mt-1 fill-red-500" width="24" height="24" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 511.999 463.377"><path d="M289.639 9.137c12.411 7.25 23.763 18.883 33.037 34.913l.97 1.813 1.118 1.941 174.174 302.48c33.712 56.407-1.203 113.774-66.174 112.973v.12H73.485c-.895 0-1.78-.04-2.657-.112-59.104-.799-86.277-54.995-61.909-106.852.842-1.805 1.816-3.475 2.816-5.201L189.482 43.959l-.053-.032c9.22-15.786 20.717-27.457 33.411-34.805C243.788-3 268.711-3.086 289.639 9.137zM255.7 339.203c13.04 0 23.612 10.571 23.612 23.612 0 13.041-10.572 23.613-23.612 23.613-13.041 0-23.613-10.572-23.613-23.613s10.572-23.612 23.613-23.612zm17.639-35.379c-.794 19.906-34.506 19.931-35.278-.006-3.41-34.108-12.129-111.541-11.853-143.591.284-9.874 8.469-15.724 18.939-17.955 3.231-.686 6.781-1.024 10.357-1.019 3.595.008 7.153.362 10.387 1.051 10.818 2.303 19.309 8.392 19.309 18.446l-.043 1.005-11.818 142.069zM37.596 369.821L216.864 59.942c21.738-37.211 56.225-38.289 78.376 0l176.298 306.166c17.177 28.285 10.04 66.236-38.774 65.488H73.485c-33.017.756-52.841-25.695-35.889-61.775z"/></svg>
-            <ContentSlot :use="$slots.errorMessage"/>
+            <slot name="errorMessage" />
           </div>
         </Transition>
         <div v-if="decoration" class="hidden tablet:block absolute bottom-0 right-[-170px] ">
@@ -181,7 +181,7 @@ export default {
 }
 
 button[disabled] {
-  @apply opacity-30 pointer-events-none
+  @apply opacity-30 pointer-events-none;
 }
 
 input[type="checkbox"] {

@@ -2,7 +2,7 @@
   <div
     class="swiper-slide bg-green-gray !flex flex-col justify-between min-h-[560px] shrink-0 tablet:pr-10 p-[30px_20px] desktop:p-[60px_40px] !transition !duration-200">
     <div v-if="$slots.message" class="prose leading-7 text-sm tablet:text-base">
-      <ContentSlot :use="$slots.message" />
+      <slot name="message" />
       <a
         :href="link || '/'"
         :target="link ? '_blank' : undefined"
@@ -28,10 +28,10 @@
       </div>
       <div class="relative flex flex-col min-h-[82px]">
         <div v-if="$slots.author" class="prose text-xl font-semibold mb-[5px]">
-          <ContentSlot :use="$slots.author" />
+          <slot name="author" />
         </div>
         <div v-if="$slots.title" class="prose leading-5 text-xs uppercase">
-          <ContentSlot :use="$slots.title" />
+          <slot name="title" />
         </div>
 
         <div class="flex gap-[6px] mt-4 w-max">

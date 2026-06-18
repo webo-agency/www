@@ -116,24 +116,24 @@ export default {
 }
 
 .slides-narrow:deep(.swiper-slide){
-  @apply w-11/12 tablet:w-5/12
+  @apply w-11/12 tablet:w-5/12;
 }
 
 .slides-narrow:deep(.swiper-slide.swiper-slide-next){
-  @apply tablet:!opacity-100
+  @apply tablet:!opacity-100;
 }
 
 .slides-narrow:deep(.swiper-slide:last-child){
-  @apply tablet:!w-full tablet:[&>div]:w-5/12
+  @apply tablet:!w-full tablet:[&>div]:w-5/12;
 }
 
 
 .slides-default:deep(.swiper-slide){
-  @apply w-11/12 tablet:w-10/12 desktop:w-1/2
+  @apply w-11/12 tablet:w-10/12 desktop:w-1/2;
 }
 
 .slides-default:deep(.swiper-slide:last-child){
-  @apply desktop:!w-full desktop:[&>div]:w-1/2
+  @apply desktop:!w-full desktop:[&>div]:w-1/2;
 }
 
 .swiper-tabs-container:deep([data-swiper-next].swiper-button-disabled),

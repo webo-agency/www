@@ -48,13 +48,13 @@
               : 'text-lg desktop:text-xl',
           ]"
         >
-          <ContentSlot :use="$slots.title" />
+          <slot name="title" />
         </div>
         <div
           v-if="$slots.description"
           class="max-w-[350px] w-full mb-5 leading-5 text-xs desktop:text-sm font-normal text-white/75"
         >
-          <ContentSlot :use="$slots.description" />
+          <slot name="description" />
         </div>
       </div>
     </EffectAppearMdc>

@@ -6,7 +6,7 @@
         :url="link"
       >
         <div v-if="$slots.default" class="mr-2.5 [&_p]:!mb-0 [&_p]:!text-sm desktop:[&_p]:!text-base">
-          <ContentSlot :use="$slots.default" />
+          <slot />
         </div>
         <svg
           class="inline text-current fill-current"

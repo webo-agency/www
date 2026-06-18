@@ -34,7 +34,7 @@ export default {
 }
 
 .swiper-slide.swiper-slide-active :deep(.title){
-  @apply underline
+  @apply underline;
 }
 
 :deep(p) {

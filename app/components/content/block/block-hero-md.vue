@@ -35,16 +35,16 @@
             <div class="pt-40 desktop:pt-0 mt-0 desktop:mt-[60px] transition duration-300">
               <div class="text-[14px] desktop:text-lg text-white">
                 <em class="font-semibold text-green-main not-italic mr-1">-/</em>
-                <ContentSlot :use="$slots.subtitle" unwrap="p" />
+                <slot name="subtitle" mdc-unwrap="p" />
               </div>
 
               <div
                 class="inline-block max-w-[970px] mb-6 desktop:mb-10 text-[28px] tablet:text-5xl desktop:text-[60px] leading-[40px] desktop:leading-[73px] font-semibold text-white">
-                <ContentSlot :use="$slots.title" />
+                <slot name="title" />
               </div>
 
               <div class="max-w-[750px] mb-8 desktop:mb-14 text-[18px] desktop:text-2xl font-normal text-white">
-                <ContentSlot :use="$slots.description" />
+                <slot name="description" />
               </div>
 
               <div class="flex justify-between flex-col desktop:flex-row gap-10">

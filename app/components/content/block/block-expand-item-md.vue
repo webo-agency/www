@@ -15,7 +15,7 @@
                 class="group-hover:underline text-gray-darker text-lg desktop:text-xl font-semibold transition duration-200 pr-3"
                 itemprop="name"
             >
-                <ContentSlot :use="$slots.title" />
+                <slot name="title" />
             </div>
             <div v-if="$slots.description" class="shrink-0 p-[5px] w-[30px] h-[30px] relative ml-auto">
                 <div class="arrow_wrapper w-[54px] h-[27px] bg-[#e4efed] group-hover:bg-green-main rounded-full flex items-center justify-center top-[5px] left-[-20px] absolute transition duration-300" :class="{'bg-green-main':isExpanded}">
@@ -39,7 +39,7 @@
                     :class="{'opacity-0':!isExpanded}"
                     itemprop="text"
                 >
-                    <ContentSlot :use="$slots.description" />
+                    <slot name="description" />
                 </div>
             </div>
         </div>

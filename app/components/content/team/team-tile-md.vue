@@ -19,11 +19,11 @@
             class="title max-w-fit mb-1 text-xl desktop:text-2xl font-semibold"
             :class="[{ 'group-hover:underline': link }]"
           >
-            <ContentSlot :use="$slots.title" />
+            <slot name="title" />
           </div>
           <div class="description">
             <div v-if="$slots.description" class="">
-              <ContentSlot :use="$slots.description" />
+              <slot name="description" />
             </div>
           </div>
         </div>

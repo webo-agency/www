@@ -6,11 +6,11 @@
         <nuxt-picture v-if="icon" class="shrink-0 w-20 h-[60px] mb-5" :src="icon" loading="lazy" alt="Webo service icon"></nuxt-picture>
         <div v-if="$slots.title" class="title max-w-fit mb-5 text-xl desktop:text-2xl font-semibold" :class="[{ 'group-hover:underline': link, },
         ]">
-          <ContentSlot :use="$slots.title" />
+          <slot name="title" />
         </div>
         <div class="description mb-10 tablet:mb-[60px]">
           <div v-if="$slots.description" class="text-sm desktop:text-sm font-normal leading-normal">
-            <ContentSlot :use="$slots.description" />
+            <slot name="description" />
           </div>
           <nuxt-picture v-if="technologies" class="block min-w-[230px] h-[50px] mb-2 mt-5"
             :src="technologies" loading="lazy" alt="Webo service technologies"></nuxt-picture>
@@ -18,7 +18,7 @@
         <div v-if="$slots.readMoreText"
           class="mt-auto border-t border-[#e4efeddd] pt-[20px] text-base text-gray-darker font-semibold flex justify-between transition duration-200"
           :class="{ 'group-hover:text-[#08DBBA]': link }">
-          <ContentSlot :use="$slots.readMoreText" />
+          <slot name="readMoreText" />
           <svg xmlns="http://www.w3.org/2000/svg" width="23" height="30" viewBox="0 0 23 30" fill="none">
             <path
               d="M15.0863 7.11133L13.7605 8.43713L19.3853 14.062H0V15.937H19.3852L13.7605 21.5617L15.0863 22.8875L22.9745 14.9994L15.0863 7.11133Z"

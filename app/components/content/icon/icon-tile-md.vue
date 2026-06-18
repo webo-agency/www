@@ -27,13 +27,13 @@
               : 'mb-5 '
           "
         >
-          <ContentSlot :use="$slots.title" />
+          <slot name="title" />
         </div>
         <div
           v-if="$slots.description"
           class="w-full mb-5 desktop:mb-[30px] leading-7 text-sm desktop:text-base font-normal"
         >
-          <ContentSlot :use="$slots.description" />
+          <slot name="description" />
         </div>
         <div
           v-if="line"

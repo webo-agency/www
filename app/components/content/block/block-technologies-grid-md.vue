@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="title max-w-fit mb-5 text-xl desktop:text-2xl font-semibold">
-      <ContentSlot :use="$slots.title" />
+      <slot name="title" />
     </div>
 
     <div

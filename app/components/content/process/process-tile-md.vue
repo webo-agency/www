@@ -38,7 +38,7 @@
               class="text-lg desktop:text-xl font-semibold"
               :class="{ 'max-w-sm': !isWideType }"
             >
-              <ContentSlot :use="$slots.title" />
+              <slot name="title" />
             </div>
           </div>
           <div
@@ -50,7 +50,7 @@
               class="text-sm desktop:text-base font-normal"
               :class="[iconInline ? 'mb-[30px]' : 'mb-2']"
             >
-              <ContentSlot :use="$slots.description" />
+              <slot name="description" />
             </div>
             <div
               v-if="hoverEffect"

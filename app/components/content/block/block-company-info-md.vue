@@ -40,7 +40,7 @@
           </svg>
         </div>
       </li>
-      <ContentSlot :use="$slots.default" unwrap="ul" />
+      <slot mdc-unwrap="ul" />
     </ul>
   </div>
 </template>
@@ -54,6 +54,6 @@ export default {
 <style  lang="postcss" scoped>
 @reference "~/assets/css/main.css";
 ul :deep(li){
-@apply basis-full tablet:basis-1/2 tablet-wide:basis-1/4 pr-5 mb-5 tablet-wide:mb-0 text-lg desktop:text-xl
+@apply basis-full tablet:basis-1/2 tablet-wide:basis-1/4 pr-5 mb-5 tablet-wide:mb-0 text-lg desktop:text-xl;
 }
 </style>

@@ -9,7 +9,7 @@
         {{ symbol === "+" ? symbol + displayValue : displayValue + symbol }}
       </span>
       <div class="text-base desktop:text-xl font-semibold text-left">
-        <ContentSlot :use="$slots.title" />
+        <slot name="title" />
       </div>
     </div>
   </li>

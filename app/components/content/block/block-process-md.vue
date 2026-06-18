@@ -180,12 +180,12 @@ export default {
 @reference "~/assets/css/main.css";
 [data-swiper-prev].swiper-button-disabled,
 [data-swiper-next].swiper-button-disabled{
-  @apply pointer-events-none bg-green-light
+  @apply pointer-events-none bg-green-light;
 }
 
 [data-swiper-prev].swiper-button-disabled svg,
 [data-swiper-next].swiper-button-disabled svg{
-  @apply fill-green-main
+  @apply fill-green-main;
 }
 
 </style>

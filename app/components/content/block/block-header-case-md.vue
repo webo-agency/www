@@ -13,16 +13,16 @@
       v-if="$slots.title"
       class="text-3xl tablet:text-4xl desktop:text-5xl font-semibold pb-5"
     >
-      <ContentSlot :use="$slots.title" />
+      <slot name="title" />
     </div>
     <ul
       v-if="$slots.tags"
       class="tags-list flex flex-row flex-wrap gap-x-5 gap-y-2 mb-10"
     >
-      <ContentSlot :use="$slots.tags" unwrap="ul" />
+      <slot name="tags" mdc-unwrap="ul" />
     </ul>
     <div v-if="$slots.description" class="text-xl desktop:leading-[35px]">
-      <ContentSlot :use="$slots.description" />
+      <slot name="description" />
     </div>
 
     <div>
@@ -33,7 +33,7 @@
         :url="link"
       >
         <div v-if="$slots.buttontext" class="mr-2.5">
-          <ContentSlot :use="$slots.buttontext" />
+          <slot name="buttontext" />
         </div>
         <svg
           class="inline text-current fill-current"
@@ -67,7 +67,6 @@ export default {
 <style lang="postcss" scoped>
 @reference "~/assets/css/main.css";
 :deep(.tags-list li) {
-  @apply bg-green-gray text-gray-darker uppercase rounded-full py-[10px] px-[20px]
-    text-sm font-medium leading-none desktop:leading-none;
+  @apply bg-green-gray text-gray-darker uppercase rounded-full py-[10px] px-[20px] text-sm font-medium leading-none desktop:leading-none;
 }
 </style>

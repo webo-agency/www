@@ -13,10 +13,10 @@
         </div>
         <div class="flex-1 pt-2">
           <div v-if="$slots.title" class="text-base font-semibold [&_p]:m-0 [&_strong]:font-semibold">
-            <ContentSlot :use="$slots.title" />
+            <slot name="title" />
           </div>
           <div v-if="$slots.description" class="text-sm desktop:text-base font-normal text-gray-darker leading-relaxed [&_p]:m-0">
-            <ContentSlot :use="$slots.description" />
+            <slot name="description" />
           </div>
         </div>
       </div>

@@ -22,13 +22,13 @@
           class="mb-5 text-lg desktop:text-xl font-semibold"
           :class="{'max-w-sm':!iconInline}"
         >
-          <ContentSlot :use="$slots.title" />
+          <slot name="title" />
         </div>
         <div
           v-if="$slots.description"
           class="mb-5 desktop:mb-[30px] leading-7 text-sm desktop:text-base font-normal"
         >
-          <ContentSlot :use="$slots.description" />
+          <slot name="description" />
         </div>
       </div>
     </div>
@@ -52,7 +52,7 @@ export default {
 @reference "~/assets/css/main.css";
 .tile :deep(.line::after){
   content: '';
- @apply absolute -top-0.5 right-full w-full h-2 bg-green-main tablet-small:translate-x-0 transition duration-300
+ @apply absolute -top-0.5 right-full w-full h-2 bg-green-main tablet-small:translate-x-0 transition duration-300;
 }
 
 .tile :deep(.line.active) {
@@ -60,6 +60,6 @@ export default {
 }
 
 .tile:hover .line::after{
-  @apply tablet-small:translate-x-full
+  @apply tablet-small:translate-x-full;
 }
 </style>

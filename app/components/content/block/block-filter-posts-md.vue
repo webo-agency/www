@@ -2,7 +2,7 @@
   <div>
     <div class="flex flex-col tablet:flex-row tablet:items-center mb-10 border-b border-solid border-gray-default pb-5 tablet:pb-[30px]">
       <div v-if="$slots.filtersText" class="text-sm font-medium mr-5 mb-2 tablet:mb-0">
-        <ContentSlot :use="$slots.filtersText" />
+        <slot name="filtersText" />
       </div>
       <FiltersList :filters="filters" v-model="activeFilters" :clearText="allText"/>
     </div>
@@ -17,7 +17,7 @@
       <div ref="increaseBtn" class="flex items-center text-base text-green-main hover:text-green-mainHover font-semibold transition duration-200 cursor-pointer "
       @click="increaseVisible()"
       >
-        <ContentSlot :use="$slots.loadMore" />
+        <slot name="loadMore" />
         <svg
           class="inline text-current fill-current rotate-90 ml-3"
           width="23"

@@ -29,7 +29,7 @@
             </BlockHeaderMdc>
             <div v-if="$slots.description" class="pb-2 desktop:pb-4 font-medium text-white text-lg desktop:text-xl !leading-snug"
               :style="[{ 'max-width': descriptionWidth + 'px' }]" :class="{ '!text-black': !bgImg }">
-              <ContentSlot :use="$slots.description" />
+              <slot name="description" />
             </div>
             <div class="py-4 desktop:pt-0 desktop:pb-2">
               <button-scroll-down v-if="!bgImg" :getContainerRef="() => $refs.container" :isSecondSvg="isSecondSvg"

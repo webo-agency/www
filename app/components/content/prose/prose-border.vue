@@ -1,5 +1,5 @@
 <template>
   <div class="block-border">
-    <ContentSlot :use="$slots.default" />
+    <slot />
   </div>
 </template>

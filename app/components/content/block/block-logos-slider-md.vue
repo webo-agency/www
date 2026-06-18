@@ -7,7 +7,7 @@
         v-if="$slots.title"
         class="shrink-0 w-[241px] tablet:w-[300px] p-5 pb-0 tablet:pb-5 tablet:px-9 text-lg desktop:text-xl font-semibold"
       >
-        <ContentSlot :use="$slots.title" />
+        <slot name="title" />
       </span>
       <div ref="swiper" class="swiper swiper-container relative w-full h-full">
         <div

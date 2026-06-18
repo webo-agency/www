@@ -1,5 +1,5 @@
 <template>
   <div>
-    <span class="subtitle"><ContentSlot :use="$slots.default" /></span>
+    <span class="subtitle"><slot /></span>
   </div>
 </template>

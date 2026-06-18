@@ -2,7 +2,7 @@
   <div v-if="type == 'text'" class="formText">
     <input class="textInput" type="text" :name="name ? name : 'text_field'" :id="name ? name : 'text_field'" placeholder=" " :required="required" />
     <label v-if="$slots.placeholder" :for="name ? name : 'unknown'">
-      <ContentSlot :use="$slots.placeholder" unwrap="p" />
+      <slot name="placeholder" mdc-unwrap="p" />
       {{ required ? '*' : null }}
     </label>
   </div>
@@ -10,7 +10,7 @@
   <div v-else-if="type == 'email'" class="formText" :class="{ invalid: emailInput && !isEmailValid }">
     <input class="textInput" type="email" name="mail" id="mail" v-model="emailInput" placeholder=" " :required="required" />
     <label v-if="$slots.placeholder" for="mail">
-      <ContentSlot :use="$slots.placeholder" unwrap="p" />
+      <slot name="placeholder" mdc-unwrap="p" />
       {{ required ? '*' : null }}
     </label>
   </div>
@@ -19,7 +19,7 @@
     <textarea class="textInput min-h-50 max-h-125" :name="name ? name : 'description'" :id="name ? name : 'description'" placeholder=" "
       :required="required"></textarea>
     <label v-if="$slots.placeholder" :for="name ? name : 'unknown'">
-      <ContentSlot :use="$slots.placeholder" unwrap="p" />
+      <slot name="placeholder" mdc-unwrap="p" />
       {{ required ? '*' : null }}
     </label>
   </div>
@@ -27,7 +27,7 @@
   <div v-else class="formText">
     <input class="textInput" :type="type" :name="name ? name : 'unknown'" :id="name ? name : 'unknown'" placeholder=" " :required="required" />
     <label v-if="$slots.placeholder" :for="name ? name : 'unknown'">
-      <ContentSlot :use="$slots.placeholder" unwrap="p" />
+      <slot name="placeholder" mdc-unwrap="p" />
       {{ required ? '*' : null }}
     </label>
   </div>

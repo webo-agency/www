@@ -44,10 +44,10 @@ export default {
 <style lang="postcss" scoped>
 @reference "~/assets/css/main.css";
 .rating-list li{
-  @apply text-lg tablet:text-xl flex justify-between w-full max-w-[210px] !ml-0 !mb-1 before:!hidden
+  @apply text-lg tablet:text-xl flex justify-between w-full max-w-[210px] !ml-0 !mb-1 before:!hidden;
 }
 
 .rating-list li span{
-  @apply text-xl tablet:text-2xl font-semibold
+  @apply text-xl tablet:text-2xl font-semibold;
 }
 </style>

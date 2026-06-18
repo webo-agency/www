@@ -6,78 +6,91 @@
             <div
             class="swiper-wrapper items-center"
             >
-              <ContentList :path="archivePathWithTrailing" :query="{ where: { path: { $in: postsLinksFormatted } } }" v-slot="slotData">
-                <PostTileMd
-                  v-for="case_page in (slotData?.list || [])"
-                  :key="case_page.path || case_page._path"
-                  :data="case_page"
-                  class="swiper-slide shrink-0 flex-grow-0"
-                />
-                </ContentList>                 
+              <PostTileMd
+                v-for="case_page in (relatedPosts || [])"
+                :key="case_page.path"
+                :data="case_page"
+                class="swiper-slide shrink-0 flex-grow-0"
+              />
             </div>
         </div>
     </div>
   </template>
-  
-  <script>
+
+  <script setup>
+  import { computed } from 'vue'
   import { Swiper } from "swiper";
   import { Autoplay } from "swiper/modules";
   import "swiper/css/bundle";
-  
-  export default {
-    props: {
-      archivePathWithTrailing:{
-        type: String,
-        default: '/blog/'
+  const props = defineProps({
+    archivePathWithTrailing: {
+      type: String,
+      default: '/blog/'
+    },
+    relatedPostsLinks: {
+      type: Array,
+      default: () => []
+    }
+  })
+
+  const swiper = ref(null)
+
+  const swiperOptionsObject = {
+    modules: [Autoplay],
+    slidesPerView: 1.5,
+    spaceBetween: 20,
+    direction: "horizontal",
+    speed: 1500,
+    autoplay: {
+      delay: 2000,
+      disableOnInteraction: false,
+      pauseOnMouseEnter: false,
+    },
+    preloadImages: false,
+    lazy: {
+      loadPrevNext: true,
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 2
       },
-      relatedPostsLinks: Array,
-    },
-    data() {
-      return {
-        swiper: null,
-        swiperOptionsObject: {
-          modules: [Autoplay],
-          slidesPerView: 1.5,
-          spaceBetween: 20,
-          direction: "horizontal",
-          speed: 1500,
-          autoplay: {
-            delay: 2000,
-            disableOnInteraction: false,
-            pauseOnMouseEnter: false,
-          },
-          preloadImages: false,
-          lazy: {
-            loadPrevNext: true,
-          },
-          breakpoints:{
-            768:{
-                slidesPerView: 2
-            },
-            1024:{
-                slidesPerView: 3
-            }
-          }
-        },
-      };
-    },
-    computed:{
-        postsLinksFormatted(){
-        if (!this.relatedPostsLinks || this.relatedPostsLinks.length === 0) {
-          return []
-        }
+      1024: {
+        slidesPerView: 3
+      }
+    }
+  }
 
-        const basePath = this.archivePathWithTrailing.endsWith('/')
-          ? this.archivePathWithTrailing
-          : `${this.archivePathWithTrailing}/`
+  const postsLinksFormatted = computed(() => {
+    if (!props.relatedPostsLinks || props.relatedPostsLinks.length === 0) {
+      return []
+    }
 
-        return this.relatedPostsLinks.map((link) => `${basePath}${link}`)
-        }
+    const basePath = props.archivePathWithTrailing.endsWith('/')
+      ? props.archivePathWithTrailing
+      : `${props.archivePathWithTrailing}/`
+
+    return props.relatedPostsLinks.map((link) => `${basePath}${link}`)
+  })
+
+  const { data: relatedPosts } = await useAsyncData(
+    () => `related-posts-${postsLinksFormatted.value.join('|')}`,
+    async () => {
+      if (!postsLinksFormatted.value.length) {
+        return []
+      }
+
+      return await queryCollection('content')
+        .where('path', 'IN', postsLinksFormatted.value)
+        .all()
     },
-    mounted() {
-      this.swiper = new Swiper(this.$refs.swiper, this.swiperOptionsObject);
-    },
-  };
+    { watch: [postsLinksFormatted] }
+  )
+
+  onMounted(() => {
+    if (swiper.value) {
+      new Swiper(swiper.value, swiperOptionsObject)
+    }
+  })
   </script>
   
   <style></style>

@@ -12,7 +12,7 @@
         :for="value"
         class="pl-2.5 desktop:pl-[15px] text-white text-base font-semibold cursor-pointer"
       >
-        <ContentSlot :use="$slots.label" />
+        <slot name="label" />
       </label>
     </div>
   </li>

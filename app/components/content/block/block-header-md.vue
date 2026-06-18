@@ -6,7 +6,7 @@
         class="subtitle text-base desktop:text-lg font-normal"
         :class="{ 'text-center': center }"
       >
-        <ContentSlot :use="$slots.subtitle" />
+        <slot name="subtitle" />
       </div>
       <div
         v-if="$slots.title"
@@ -17,7 +17,7 @@
         ]"
         :style="[{ 'max-width': maxWidth + 'px' }]"
       >
-        <ContentSlot :use="$slots.title" />
+        <slot name="title" />
         <div
           v-if="titleUnderline"
           class="mt-7 mb-10 w-[200px] h-1 bg-green-main rounded-full"
@@ -31,7 +31,7 @@
           { 'max-width': !descriptionFullWidth ? maxWidth + 'px' : 'none' },
         ]"
       >
-        <ContentSlot :use="$slots.description" />
+        <slot name="description" />
       </div>
     </div>
   </div>

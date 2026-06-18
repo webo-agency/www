@@ -13,13 +13,13 @@
         v-if="$slots.tags"
         class="tags-list flex flex-row flex-wrap gap-x-5 gap-y-2 mb-5"
       >
-        <ContentSlot :use="$slots.tags" unwrap="ul" />
+        <slot name="tags" mdc-unwrap="ul" />
       </ul>
       <div
         v-if="$slots.title"
         class="mb-5 lg:mb-0 text-2xl tablet:text-3xl desktop:text-5xl font-semibold text-gray-darker"
       >
-        <ContentSlot :use="$slots.title" />
+        <slot name="title" />
       </div>
     </div>  
 

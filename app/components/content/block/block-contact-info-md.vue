@@ -17,7 +17,7 @@
         v-if="$slots.contacttext"
         class="text-lg desktop:text-[25px] font-semibold mb-5 desktop:mb-7"
       >
-        <ContentSlot :use="$slots.contacttext" />
+        <slot name="contacttext" />
       </div>
       <div
         v-if="mail"

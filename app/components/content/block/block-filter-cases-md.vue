@@ -1,13 +1,13 @@
 <template>
   <div>
     <div v-if="$slots.title" class="text-2xl tablet:text-3xl desktop:text-4xl font-semibold mb-10 tablet:mb-[60px]">
-      <ContentSlot :use="$slots.title" />
+      <slot name="title" />
     </div>
     <div class="flex flex-col tablet:flex-row justify-between mb-10">
       <FiltersList :filters="filters" v-model="activeType" />
       <div class="shrink-0 relative flex flex-wrap justify-between">
         <div v-if="$slots.select" class="block py-[7px] px-5 text-sm tablet:text-base text-gray-darker">
-          <ContentSlot :use="$slots.select" />
+          <slot name="select" />
         </div>
         <div class="relative w-[200px] h-[34px] tablet:h-[42px]">
           <div
@@ -50,7 +50,7 @@
       <div v-show="filteredCases.length > shownCasesCount"
         class="flex items-center text-base text-green-main hover:text-green-mainHover font-semibold transition duration-200 cursor-pointer "
         @click="increaseVisible()">
-        <ContentSlot :use="$slots.loadMore" />
+        <slot name="loadMore" />
         <svg class="inline text-current fill-current rotate-90 ml-3" width="23" height="16" viewBox="0 0 23 16"
           xmlns="http://www.w3.org/2000/svg">
           <path
@@ -133,15 +133,15 @@ function increaseVisible() {
 }
 
 .cases-container>*:nth-child(4n - 1) {
-  @apply tablet:w-4/5 tablet:self-end tablet:justify-self-start
+  @apply tablet:w-4/5 tablet:self-end tablet:justify-self-start;
 }
 
 .cases-container>*:nth-child(4n - 2) {
-  @apply tablet:w-4/5 tablet:self-start tablet:justify-self-end
+  @apply tablet:w-4/5 tablet:self-start tablet:justify-self-end;
 }
 
 .cases-container>*:nth-child(4n + 3),
 .cases-container>*:nth-child(4n + 4) {
-  @apply tablet:mb-10
+  @apply tablet:mb-10;
 }
 </style>

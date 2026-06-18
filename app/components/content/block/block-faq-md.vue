@@ -4,10 +4,10 @@
       v-if="$slots.header"
       class="_mb-[50px] _tablet:mb-[70px]"
     >
-      <ContentSlot :use="$slots.header" />
+      <slot name="header" />
     </div>
     <div class="border-t border-t-gray-light">
-      <ContentSlot :use="$slots.default" />
+      <slot />
     </div>
   </div>
 </template>

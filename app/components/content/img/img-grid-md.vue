@@ -74,7 +74,7 @@ export default {
 <style>
 @reference "~/assets/css/main.css";
 .img-grid{
-    @apply relative flex flex-col flex-wrap tablet:h-[900px] 
+    @apply relative flex flex-col flex-wrap tablet:h-[900px];
 }
 
 .img-grid > div {
@@ -82,14 +82,14 @@ export default {
 }
 
 .img-grid .placeholder{
-    @apply flex h-full justify-center bg-gray-light items-center text-4xl text-gray-dark/50 rounded-[5px] transition duration-300 hover:scale-105
+    @apply flex h-full justify-center bg-gray-light items-center text-4xl text-gray-dark/50 rounded-[5px] transition duration-300 hover:scale-105;
 }
 
 .img-grid .image{
-    @apply block h-full w-full object-cover rounded-[5px] transition duration-500 hover:scale-[1.02] overflow-hidden
+    @apply block h-full w-full object-cover rounded-[5px] transition duration-500 hover:scale-[1.02] overflow-hidden;
 }
 
 .img-grid .image img{
-    @apply h-full w-full object-cover
+    @apply h-full w-full object-cover;
 }
 </style>

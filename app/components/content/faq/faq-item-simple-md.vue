@@ -12,7 +12,7 @@
       </div>
       <div class="flex-1 pt-1">
         <h4 v-if="$slots.title" class="text-lg tablet:text-xl font-semibold text-gray-darker leading-snug transition duration-200">
-          <ContentSlot :use="$slots.title" />
+          <slot name="title" />
         </h4>
       </div>
       <div v-if="$slots.description" class="shrink-0 flex items-center justify-center w-6 h-6">
@@ -28,7 +28,7 @@
         class="px-4 tablet:px-5 pb-4 tablet:pb-5 tablet:pl-20 [&_p]:text-lg tablet:text-base text-gray-darker leading-relaxed"
         :class="{'opacity-0': !isExpanded}"
       >
-        <ContentSlot :use="$slots.description" />
+        <slot name="description" />
       </div>
     </div>
   </div>

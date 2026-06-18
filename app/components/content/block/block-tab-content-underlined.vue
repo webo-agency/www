@@ -8,13 +8,13 @@
         ]"
         :style="[{ 'max-width': maxWidth + 'px' }]"
       >
-        <ContentSlot :use="$slots.title" />
+        <slot name="title" />
       </div>
       <div
         v-if="$slots.content"
         class="text-base desktop:text-lg font-normal"
       >
-        <ContentSlot :use="$slots.content" />
+        <slot name="content" />
       </div>
       <span class="block relative w-[135px] h-0.5 rounded-full bg-green-main overflow-hidden "></span>
   </div>
@@ -36,16 +36,16 @@ export default {
 @reference "~/assets/css/main.css";
 
 .tab-block{
-    @apply mb-10 tablet:mb-0
+  @apply mb-10 tablet:mb-0;
 }
 .left .tab-block{
-    @apply tablet:pr-10 desktop:pr-24
+  @apply tablet:pr-10 desktop:pr-24;
 }
 .right .tab-block{
-    @apply tablet:pl-10 desktop:pl-24
+  @apply tablet:pl-10 desktop:pl-24;
 }
 
 .tab-block :deep() p{
-    @apply mb-4 tablet:mb-9 last:tablet:mb-7
+  @apply mb-4 tablet:mb-9 last:tablet:mb-7;
 }
 </style>
