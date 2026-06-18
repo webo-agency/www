@@ -88,6 +88,90 @@ export default {
 
 <style lang="postcss" scoped>
 @reference "~/assets/css/main.css";
+
+/* ========================================================================== */
+/* Plain CSS fallback for environments where SFC @apply is not transformed    */
+/* ========================================================================== */
+
+.title :deep(h2) {
+  font-size: 1.25rem;
+  line-height: 1.55;
+}
+
+.title :deep(h3) {
+  font-size: 1rem;
+  line-height: 1.75;
+  padding-bottom: 1.25rem;
+}
+
+.title :deep(h5) {
+  font-size: 1.25rem;
+  line-height: 1.55;
+  padding-bottom: 1.25rem;
+}
+
+.title :deep(h6) {
+  font-size: 1.125rem;
+  line-height: 1.55;
+  padding-bottom: 1.25rem;
+}
+
+.subtitle :deep(em) {
+  font-weight: 600;
+}
+
+.subtitle :deep(p) {
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .title :deep(h2) {
+    font-size: 1.875rem;
+    line-height: 1.2;
+  }
+
+  .title :deep(h3) {
+    font-size: 1.125rem;
+    line-height: 1.55;
+  }
+
+  .title :deep(h5) {
+    font-size: 1.875rem;
+    line-height: 1.2;
+  }
+
+  .title :deep(h6) {
+    font-size: 1.5rem;
+    line-height: 1.33;
+  }
+}
+
+@media (min-width: 1248px) {
+  .title :deep(h2) {
+    font-size: 2.25rem;
+    line-height: 1.2;
+  }
+
+  .title :deep(h3) {
+    font-size: 1.125rem;
+    line-height: 1.55;
+  }
+
+  .title :deep(h5) {
+    font-size: 2.25rem;
+    line-height: 1.2;
+  }
+
+  .title :deep(h6) {
+    font-size: 1.5rem;
+    line-height: 1.33;
+  }
+}
+
+/* ========================================================================== */
+/* Original Tailwind @apply source kept for reference and future restoration   */
+/* ========================================================================== */
+
 .title :deep(h2) {
   @apply text-2xl tablet:text-3xl desktop:text-4xl;
 }

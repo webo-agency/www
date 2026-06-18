@@ -1,4 +1,7 @@
 ---
+meta:
+    title: Headless CMS WordPress -  Webo.pl
+    description: Headless CMS - maksymalna wydajność i elastyczność. Postaw na nowoczesne rozwiązania - sprawdź naszą ofertę!
 draft: false
 public: true
 hreflangs:
@@ -57,13 +60,13 @@ class: items-center
 ---
 class: mb-5 leading-8
 ---
-Strony internetowe wykonane w **architekturze Headless** polegają na oddzieleniu interfejsu użytkownika (frontendu) od funkcji administracyjnych i zasobów wewnętrznych (backend). Obie warstwy są wobec siebie niezależne, a komunikacja między nimi wykonywana jest za pomocą API.
+Strony internetowe wykonane w **architekturze Headless** polegają na oddzieleniu interfejsu użytkownika (frontendu) od funkcji administracyjnych i zasobów wewnętrznych (backend). Obie warstwy są wobec siebie niezależne, a komunikacja między nimi wykonywana jest za pomocą specjalnego API.
 ::::::
 ::::::prose-p-4
 ---
 class: leading-7 text-base
 ---
-Takie rozwiązanie umożliwia Tobie m.in. **publikowanie treści w wielu kanałach** np. na stronie www oraz aplikacji mobilnej. Dodatkowo znacząco zwiększasz wydajność **i bezpieczeństwo strony internetowej**, ponieważ użytkownik ma dostęp tylko do warstwy frontendowej a cały system jest lżejszy i **znacznie szybszy.**
+Takie rozwiązanie umożliwia Tobie m.in. **publikowanie treści w wielu kanałach** np. na stronie www oraz aplikacji mobilnej. Dodatkowo znacząco zwiększasz **wydajność i bezpieczeństwo strony internetowej**, ponieważ użytkownik ma dostęp tylko do warstwy frontendowej a cały system jest lżejszy i z**nacznie szybszy.**
 ::::::
 
 :::::
@@ -125,7 +128,7 @@ class: mb-10
 ---
 class: mb-5 leading-8
 ---
-Nasze rozwiązanie to połączenie **architektury headless** z popularnym rozwiązaniem **WordPress CMS.** Dzięki niemu możesz nadal używać WordPressa ze wszystkimi jego elementami i korzystać ze wszystkich zalet nowoczesnej architektury.
+Nasze rozwiązanie to połączenie **architektury headless** z popularnym rozwiązaniem **WordPress CMS**. Dzięki niemu możesz nadal używać WordPressa ze wszystkimi jego elementami i korzystać ze wszystkich zalet nowoczesnej architektury.
 ::::::
 ::::::prose-p-4
 ---
@@ -160,7 +163,7 @@ class: block desktop:hidden top-0 right-0
 ::::block-cta-md
 ---
 maxWidth: 730
-button.link: https://webo.agency/kontakt
+button.link: https://webo.agency/kontakt/
 button.title: 'Skontaktuj się z nami'
 button.isWide: true
 class: tablet:mb-36 [&_.description]:desktop:!text-lg
@@ -216,7 +219,7 @@ class: test [&_div_div_div_picture]:scale-[1.5] _[&_div_div_div_picture]:pt-5 [&
 #### Wyższa wydajność
 
 #description
-Które bezpośrednio wpływa na pozycjonowanie w wynikach Googla, a także na wrażenia użytkowników - współczynnik odrzuceń wzrasta o 90% gdy strona łąduje się powyżej 3s
+Szybkość wczytywania i błyskawiczne przeładowywanie podstron jest zachowana nawet dla bardzo rozbudowanych witryn. Wszystko dzięki lekkości systemu, który nie wymaga każdorazowego generowania treści na serwerze.
 
 ::::::
 ::::::tile-dark-icon-md
@@ -242,7 +245,7 @@ iconDecorated: true
 #title
 #### Wielokanałowość
 #description
-Headless CMS umożliwia dostarczanie treści nie tylko na tradycyjne strony internetowe, ale także na aplikacje mobilne, platformy e-commerce, czy nawet urządzenia IoT. Pozwala to dotrzeć do szerszej grupy odbiorców, zarządzając treścią z jednego panelu.
+Headless CMS Wordpress umożliwia dostarczanie treści nie tylko na tradycyjne strony internetowe, ale także na aplikacje mobilne, platformy e-commerce, czy nawet urządzenia IoT. Pozwala to dotrzeć do szerszej grupy odbiorców, zarządzając treścią z jednego panelu.
 
 ::::::
 :::::
@@ -397,7 +400,7 @@ classes: mb-10 tablet:mb-20
 ::::block-header-md
 ---
 center: true
-maxWidth: 540
+maxWidth: 820
 class: mb-20
 ---
 
@@ -405,7 +408,7 @@ class: mb-20
 ### *4/* Przejdź na wyższy poziom
 
 #title
-## Headless Wordpress vs Standardowa strona
+## Headless Wordpress vs Standardowa strona - jakie są różnice?
 
 ::::
 
@@ -430,7 +433,7 @@ decoration: false
 iconUrl: '/img/icons/multichannels.svg'
 iconBig: false
 animated: false
-class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit
+class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit [&_div_div]:flex-row [&_div_div]:gap-4
 ---
 
 #description
@@ -442,7 +445,7 @@ class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit
 iconUrl: '/img/icons/1s.svg'
 iconBig: false
 animated: false
-class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit
+class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit [&_div_div]:flex-row [&_div_div]:gap-4
 ---
 
 #description
@@ -454,11 +457,11 @@ class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit
 iconUrl: '/img/icons/scalling.svg'
 iconBig: false
 animated: false
-class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit
+class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit [&_div_div]:flex-row [&_div_div]:gap-4
 ---
 
 #description
-**<u>Nielimitowane skalowanie strony</u>** - Specyfika konstrukcji stron headlessowych sprawia że rozbudowa strony i jej zasięgu działaniałnie nie wpływa na wydajność serwisu.
+**<u>Nielimitowane skalowanie strony</u>** - Specyfika konstrukcji stron headlessowych sprawia że rozbudowa strony i jej zasięgu działanianie wpływa na wydajność serwisu.
 
 ::::::
 ::::::list-item-ul-active-md
@@ -466,6 +469,7 @@ class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit
 iconUrl: '/img/icons/shield2.svg'
 iconBig: false
 animated: false
+class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit [&_div_div]:flex-row [&_div_div]:gap-4
 ---
 
 #description
@@ -493,7 +497,7 @@ decoration: false
 iconUrl: '/img/icons/singlechannel.svg'
 iconBig: false
 animated: false
-class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit
+class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit [&_div_div]:flex-row [&_div_div]:gap-4
 ---
 
 #description
@@ -505,11 +509,11 @@ class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit
 iconUrl: '/img/icons/2s.svg'
 iconBig: false
 animated: false
-class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit
+class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit [&_div_div]:flex-row [&_div_div]:gap-4
 ---
 
 #description
-**<u>Szybkie ładowanie strony</u>** - Przy odpowiednim wykonaniu, średnia prędkość wczytywania strony może wynieść ok. 2s co jest wystarczającym wynikiem dla większości stron
+**<u>Szybkie ładowanie strony</u>** - Przy odpowiednim wykonaniu, średnia prędkość wczytywania strony może wynieść ok. 2s co jest wystarczającym wynikiem dla większości stron.
 
 ::::::
 ::::::list-item-ul-active-md
@@ -517,7 +521,7 @@ class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit
 iconUrl: '/img/icons/scalling2.svg'
 iconBig: false
 animated: false
-class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit
+class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit [&_div_div]:flex-row [&_div_div]:gap-4
 ---
 
 #description
@@ -529,6 +533,7 @@ class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit
 iconUrl: '/img/icons/shield2.svg'
 iconBig: false
 animated: false
+class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit [&_div_div]:flex-row [&_div_div]:gap-4
 ---
 
 #description
@@ -711,6 +716,160 @@ Często publikacja strony to dopiero początek, a podczas użytkowania strony po
 
 
 
+::page-section-md
+---
+classes: mb-[60px]
+---
+
+:::block-columns-1-1-md
+
+#left
+
+::::effect-appear-md
+---
+class: relative overflow-hidden tablet:overflow-visible -mx-5 tablet:mx-0
+---
+
+:::::img-decorated-md
+---
+imgUrl: '/img/content-images/strony-wordpress/decor_code.svg'
+decoration: false
+class: hidden desktop:block mx-auto !mb-0 !p-0 !w-[100px] tablet:!w-[230px] !absolute top-1/3 right-0
+---
+:::::
+:::::img-decorated-md
+---
+imgUrl: '/img/content-images/strony-wordpress/decor_quarter_circle.svg'
+decoration: false
+class: hidden desktop:block mx-auto !mb-0 !p-0 !w-[122px] !absolute bottom-[100px] left-[-61px]
+---
+:::::
+:::::img-decorated-md
+---
+imgUrl: '/img/content-images/strony-headless-pwa/mockup_tablet.webp'
+decoration: false
+class: tablet:mb-20 !mb-10 z-0
+---
+
+:::::
+::::
+
+#right
+
+::::effect-appear-md
+---
+class: relative z-20
+---
+:::::block-header-md
+---
+maxWidth: 680
+class: mb-10
+---
+
+#subtitle
+### *6/* Headless CMS WordPress
+
+#title
+## Nowoczesne podejście do budowy stron i e-commerce - Headless WordPress
+
+#description
+::::::prose-p-4
+---
+class: mb-10
+---
+Tradycyjne strony internetowe mają swoje ograniczenia. Gdy system CMS i frontend są ze sobą ściśle powiązane, trudno osiągnąć najwyższą wydajność, pełną elastyczność technologiczną, a wielokanałowa dystrybucja treści jest w zasadzie niemożliwa. **Headless CMS WordPress** pozwala korzystać z przyjaznego panelu zarządzania treścią WordPressa, jednocześnie dając swobodę w budowie warstwy wizualnej - przy użyciu dowolnych frameworków frontendowych, takich jak Next.js (React) czy Nuxt (Vue). Dzięki temu strona może ładować się błyskawicznie, być idealnie dopasowana do urządzeń mobilnych i skalować się bez ograniczeń.
+::::::
+::::::prose-p-4
+---
+class: mb-10
+---
+Dzięki headless zyskujesz nie tylko elastyczność technologiczną i wielokanałowość, ale także większą odporność na błędy i wyzwania związane z tradycyjnymi systemami CMS. Warstwy są odseparowane - co oznacza większe bezpieczeństwo, łatwiejsze testowanie, lepsze SEO i ogromną swobodę w rozwoju projektu.
+::::::
+::::::prose-p-4
+Jeśli zależy Ci na wydajności, skalowalności i technologicznym zapleczu, które nadąży za rozwojem Twojej firmy - **headless WordPress** to rozwiązanie, które warto rozważyć.
+::::::
+:::::
+::::
+::
+
+
+
+::page-section-md
+---
+class: mb-20 tablet:mb-[100px]
+---
+
+:::effect-appear-md
+---
+class: bg-green-gray relative
+---
+
+::::img-decorated-md
+---
+imgUrl: '/img/svg-arc.svg'
+decoration: false
+class: tablet:!pl-0 !mb-0 !w-[80px] tablet:!w-[122px] !absolute top-[20px] tablet:!top-[50px] left-[20px] tablet:!left-[50px] z-0
+---
+::::
+
+::::img-decorated-md
+---
+imgUrl: '/img/svg-square.svg'
+decoration: false
+class: tablet:!pl-0 !mb-0 !w-[60px] tablet:!w-[100px] !absolute bottom-[20px] tablet:!bottom-[50px] right-[20px] tablet:!right-[50px] z-0
+---
+::::
+
+::::block-faq-md
+
+#header
+:::::block-header-md
+---
+maxWidth: 900
+class: mb-[50px] text-center relative
+---
+
+#subtitle
+### *7/* Wszystko, co warto wiedzieć o architekturze Headless
+
+#title
+## Najczęściej zadawane pytania (FAQ)
+
+:::::
+
+:::::block-expand-item-md
+
+#title
+##### Czym różni się headless WordPress od standardowego WordPressa?
+
+#description
+W klasycznym WordPressie frontend (czyli wygląd strony) i backend (panel zarządzania treścią) są ze sobą połączone. W **headless WordPress** warstwy te są odseparowane - WordPress działa jako CMS tylko do zarządzania treścią, a prezentacja odbywa się niezależnie, np. przez React lub Next.js. Daje to większą wydajność, elastyczność i bezpieczeństwo.
+
+:::::
+
+:::::block-expand-item-md
+
+#title
+##### Czy headless CMS nadaje się dla każdego?
+
+#description
+Nie dla każdego. **Headless CMS** jest idealnym rozwiązaniem dla firm, które potrzebują wysokiej wydajności, najwyższego poziomu bezpieczeństwa, wielokanałowego publikowania treści lub planują dynamiczny rozwój. Dla prostych stron wizytówkowych może być zbyt rozbudowany.
+:::::
+
+:::::block-expand-item-md
+
+#title
+##### Czy mogę prowadzić sklep internetowy w modelu headless?
+
+#description
+Tak. Headless e-commerce to coraz popularniejsze podejście, które pozwala budować superszybkie sklepy z indywidualnym frontendem i połączeniem z systemami takimi jak WooCommerce, Magento czy Shopify. Headless eliminuje ograniczenia wizualne i technologiczne typowe dla standardowych platform.
+
+:::::
+::::
+:::
+::
+
+
 
 ::page-section-md
 ---
@@ -724,7 +883,7 @@ class: mb-10 tablet:mb-20
 ---
 
 #subtitle
-### *6/* Nasze ostatnie realizacje
+### *8/* Nasze ostatnie realizacje
 
 #title
 ## Jesteśmy dumni <br> z *wykonanych projektów*
@@ -738,7 +897,7 @@ contentFolder: realizacje
 selectedSlugs:
     - isw
     - 5gmadetogether
-moreBtn.url: 'https://webo.agency/realizacje'
+moreBtn.url: 'https://webo.agency/realizacje/'
 moreBtn.linktitle: Zobacz wszystkie projekty
 ---
 

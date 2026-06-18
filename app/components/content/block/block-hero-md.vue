@@ -33,10 +33,10 @@
         <div class="w-full mx-auto max-w-screen-desktop-wide">
           <EffectAppearMdc>
             <div class="pt-40 desktop:pt-0 mt-0 desktop:mt-[60px] transition duration-300">
-              <p class="text-[14px] desktop:text-lg text-white">
+              <div class="text-[14px] desktop:text-lg text-white">
                 <em class="font-semibold text-green-main not-italic mr-1">-/</em>
                 <ContentSlot :use="$slots.subtitle" unwrap="p" />
-              </p>
+              </div>
 
               <div
                 class="inline-block max-w-[970px] mb-6 desktop:mb-10 text-[28px] tablet:text-5xl desktop:text-[60px] leading-[40px] desktop:leading-[73px] font-semibold text-white">

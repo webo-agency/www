@@ -14,6 +14,9 @@ const API_AFFIX = process.env.API_AFFIX;
 export default {
   name: "webo-theme",
   compatibilityDate: "2024-10-23",
+  future: {
+    compatibilityVersion: 5,
+  },
   devtools: { enabled: true },
   env: {
     CONTEXT: process.env.CONTEXT,

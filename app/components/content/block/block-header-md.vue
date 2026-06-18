@@ -61,6 +61,121 @@ export default {
 
 <style lang="postcss" scoped>
 @reference "~/assets/css/main.css";
+
+/* ========================================================================== */
+/* Plain CSS fallback for environments where SFC @apply is not transformed    */
+/* ========================================================================== */
+
+.title :deep(h1) {
+  padding-bottom: 20px;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.title :deep(h2) {
+  font-size: 25px;
+  line-height: 32px;
+}
+
+.title :deep(h3) {
+  padding-bottom: 20px;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.title :deep(h4) {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.title :deep(h5) {
+  padding-bottom: 20px;
+  font-size: 25px;
+  line-height: 32px;
+}
+
+.title :deep(h6) {
+  padding-bottom: 20px;
+  font-size: 20px;
+  line-height: 31px;
+}
+
+.subtitle :deep(em) {
+  font-weight: 600;
+}
+
+.subtitle :deep(p) {
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .title :deep(h1) {
+    font-size: 35px;
+    line-height: 42px;
+  }
+
+  .title :deep(h2) {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .title :deep(h3) {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .title :deep(h4) {
+    font-size: 20px;
+    line-height: 31px;
+  }
+
+  .title :deep(h5) {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .title :deep(h6) {
+    font-size: 25px;
+    line-height: 32px;
+  }
+}
+
+@media (min-width: 1248px) {
+  .title :deep(h1) {
+    font-size: 45px;
+    line-height: 55px;
+  }
+
+  .title :deep(h2) {
+    font-size: 35px;
+    line-height: 42px;
+  }
+
+  .title :deep(h3) {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .title :deep(h4) {
+    font-size: 25px;
+    line-height: 32px;
+  }
+
+  .title :deep(h5) {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .title :deep(h6) {
+    font-size: 25px;
+    line-height: 32px;
+  }
+}
+
+/* ========================================================================== */
+/* Original Tailwind @apply source kept for reference and future restoration   */
+/* ========================================================================== */
+
 .title :deep(h1) {
   @apply text-3xl tablet:text-4xl desktop:text-5xl pb-5;
 }

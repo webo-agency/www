@@ -1,7 +1,7 @@
 ---
 meta:
-  title: Wydajne sklepy internetowe B2B i B2C
-  description: Projektujemy i wdrażamy świetnie wyglądające i intuicyjne sklepy internetowe z płynnym procesem zakupowym oraz wieloma integracjami, przygotowane do dalszego rozwoju i ekspansji.
+  title: Tworzenie sklepów internetowych - profesjonalne rozwiązania e-commerce - Webo.pl
+  description: Tworzymy profesjonalne sklepy internetowe - responsywne, szybkie i bezpieczne. Rozpocznij sprzedaż online!
 draft: false
 public: true
 hreflangs:
@@ -10,12 +10,15 @@ hreflangs:
 ---
 
 
+
 ::block-banner-md
 ---
 bgImg: false
-headerWidth: 550
-descriptionWidth: 455
+headerWidth: 720
+descriptionWidth: 475
 isSecondSvg: true
+showClientsLogos: true
+class: desktop:mb-20 desktop:pt-[100px] h-auto desktop:h-[610px]
 ---
 
 #subtitle
@@ -27,71 +30,99 @@ isSecondSvg: true
 #description
 Projektujemy i wdrażamy świetnie wyglądające i wydajne sklepy internetowe z płynnym procesem zakupowym.
 
+#clientsLogos
+:::effect-appear-md
+---
+class: -mt-4
+---
+::::prose-p-3
+---
+class: mb-4 font-semibold text-lg
+---
+Projektowaliśmy m.in. dla:
+::::
+
+::::block-brands-md
+---
+class: mb-10 desktop:mb-0 !justify-start desktop:flex-nowrap !gap-x-7 [&_picture]:opacity-90
+logos:
+    - link: ''
+      imgUrl: '/img/logos/thoro_2.svg'
+    - link: ''
+      imgUrl: '/img/logos/franko.svg'      
+    - link: ''
+      imgUrl: '/img/logos/mancraft_2.svg'    
+    - link: ''
+      imgUrl: '/img/logos/velair_2.svg'     
+    - link: ''
+      imgUrl: '/img/logos/feeby_2.svg'                     
+---
+::::
+:::
+
 #right
 :::block-banner-decoration-md
 ---
-svgUrl_bl: '/img/svg-arc.svg'
+class: mx-auto [&_div.absolute:nth-of-type(2)]:!bottom-[20%] [&_div.absolute:nth-of-type(2)]:!left-[25%]
+rotate_bl: 0
+rotate_tr: 0
+
 svgUrl_tr: '/img/svg-square.svg'
+svgUrl_bl: '/img/svg-arc.svg'
 ---
 :::
 ::
 
+
 ::page-section-md
 ---
-classes: pt-20 mb-5 tablet:mb-[150px] overflow-hidden
+classes: mb-20 overflow-x-clip overflow-y-visible
 ---
-:::block-columns-1-1-md
+:::effect-appear-md
+::::block-columns-1-1-md
 ---
+reverseMobile: true
 class: items-center
 ---
 
 #left
-::::effect-appear-md
----
-class: relative z-20
----
 :::::block-header-md
----
-maxWidth: 690
----
 
 #subtitle
 ### *1/* Stawiamy na funkcjonalność i wydajność
 
 #title
-## Dostarczamy stabilnie działające sklepy *przygotowane do rozwoju*
+## Dostarczamy stabilnie działające sklepy online przygotowane do rozwoju
 
 #description
-:::::prose-p-3
+::::::prose-p-4
 ---
-class: mb-5 [&_p]:!leading-8 [&_p]:!mb-0
---- 
-Sklep internetowy to często serce biznesu, wyobraź sobie że Twoja działalność się rozwija, na sklep internetowy wchodzi coraz więcej klientów a Ty potrzebujesz nowych funkcji.  O takich sytuacjach myślimy już na samym początku, od wybóru platformy, przez przygotowanie infrastruktury po **projektowanie i programowanie sklepu** umożliwiające rozwój.
+class: mb-5 leading-8
+---
+Sklep internetowy to często serce biznesu, wyobraź sobie że Twoja działalność się rozwija, na sklep internetowy wchodzi coraz więcej klientów a Ty potrzebujesz nowych funkcji.  O takich sytuacjach myślimy już na samym początku, od wybóru platformy, przez przygotowanie infrastruktury po **projektowanie i&nbsp;programowanie** sklepu umożliwiające rozwój.
+::::::
+::::::prose-p-4
+---
+class: mb-5 leading-8 text-base
+---
+Szczególną uwagę zwracamy także na stabilność działania systemu. Korzystamy z nowoczesnych narzędzi aby zapewnić ciągłość sprzedaży - nieprzerwane działanie to podstawa która bezpośrednio wpływa na rentowność.
+::::::
 :::::
-
-:::::prose-p-4
----
-class: mb-0 [&_p]:!leading-7 [&_p]:!mb-0 text-base
----
-Szczególną uwagę zwracamy także na **stabilność działania** systemu. Korzystamy z nowoczesnych narzędzi aby zapewnić ciągłość sprzedaży - nieprzerwane działanie to podstawa która bezpośrednio wpływa na rentowność.
-:::::
-::::
 
 #right
-::::effect-appear-md
----
-class: relative z-10
----
+
 :::::img-decorated-md
 ---
-imgUrl: '/img/content-images/sklepy-internetowe/section1-right-img.png'
-decoration: false
-class: tablet:!pl-0 !mb-0 
+class: hidden desktop:block [&_.block]:scale-[1.1] [&_.block]:ml-[-20px] [&_.block_picture]:absolute desktop-wide:[&_.block_picture]:bottom-[-220px] desktop:[&_.block_picture]:bottom-[-200px] fullHd:[&_.block_picture]:bottom-[-240px] 
+decoration: true
+imgUrl: '/img/content-images/sklepy-internetowe/section1_right_img.webp'
 ---
 :::::
 ::::
 :::
 ::
+
+
 
 ::page-section-md
 ---
@@ -141,7 +172,7 @@ Dowiedz się więcej
 ::::offer-tile-md
 --- 
 icon: '/img/icons/presta.svg'
-link: 'https://webo.agency/kontakt'
+link: 'https://webo.pl/uslugi/sklepy-prestashop/'
 delay: 1
 ---
 #title
@@ -159,7 +190,7 @@ Dowiedz się więcej
 ::::offer-tile-md
 --- 
 icon: '/img/icons/drupal.svg'
-link: 'https://webo.agency/kontakt'
+link: 'https://webo.agency/kontakt/'
 delay: 2
 ---
 #title
@@ -189,7 +220,7 @@ class: top-20 right-[15%] fullHd:right-[20%] scale-x-[-1.6] scale-y-[1.6]
 ::::block-cta-md
 ---
 maxWidth: 800
-button.link: https://webo.agency/kontakt
+button.link: https://webo.agency/kontakt/
 button.title: 'Skontaktuj się'
 ---
 
@@ -240,7 +271,7 @@ decoration: false
 ---
 ::::::list-item-ul-active-md
 ---
-iconUrl: '/img/icons/translation_bg.svg'
+iconUrl: '/img/icons/translation_bg_2.svg'
 iconBig: true
 iconLeft: true
 animated: false
@@ -250,12 +281,12 @@ animated: false
 #### Sklepy wielojęzyczne i wielowalutowe
 
 #description
-Dostarczamy sklepy internetowe umoliwiające sprzedaż produktów na zagranicznych rynkach. W zależności od potrzeb sklepy mogą różnić się językiem, metodami płatności i dostawy czy ofertą produktową.
+Tworzymy sklepy internetowe umoliwiające **sprzedaż produktów na zagranicznych rynkach**. W zależności od potrzeb sklepy mogą różnić się językiem, metodami płatności i dostawy czy ofertą produktową.
 
 ::::::
 ::::::list-item-ul-active-md
 ---
-iconUrl: '/img/icons/uxui_bg.svg'
+iconUrl: '/img/icons/uxui_bg_2.svg'
 iconBig: true
 iconLeft: true
 animated: false
@@ -266,12 +297,12 @@ animated: false
 
 
 #description
-Projektując sklep internetowy skupiamy się na komforcie zakupów. Twój klient bez problemu znajdzie interesujący go produkt, przejdzie przez czytelną kartę produktu i intuicyjny proces zakupowy - im łatwiej tym lepiej, dla użytkownika i Twojego biznesu.
+Projektując sklep internetowy skupiamy się na komforcie zakupów. Twój klient bez problemu znajdzie interesujący go produkt, przejdzie przez **czytelną kartę produktu i intuicyjny proces zakupowy** - im łatwiej tym lepiej, dla użytkownika i Twojego biznesu.
 
 ::::::
 ::::::list-item-ul-active-md
 ---
-iconUrl: '/img/icons/gear_code_bg.svg'
+iconUrl: '/img/icons/gear_code_bg_2.svg'
 iconBig: true
 iconLeft: true
 animated: false
@@ -281,7 +312,7 @@ animated: false
 #### Zaawansowane funkcjonalności i moduły
 
 #description
-Jeśli Twój sklep potrzebuje nietypowych funkcji, dzięki którym wyprzedzisz konkurencję także możesz na nas liczyć. Jesteśmy zespołem do zadań specjalnych i nie boimy się wyzwań. Z chęcią zaprojektujemy i wdrożymy dla Ciebie dedykowane rozwiązania.
+Jeśli Twój sklep potrzebuje nietypowych funkcji, dzięki którym wyprzedzisz konkurencję także możesz na nas liczyć. Jesteśmy zespołem do zadań specjalnych i nie boimy się wyzwań. Z chęcią zaprojektujemy i wdrożymy dla Ciebie **dedykowane rozwiązania**.
 ::::::
 :::::
 ::::
@@ -292,7 +323,7 @@ Jeśli Twój sklep potrzebuje nietypowych funkcji, dzięki którym wyprzedzisz k
 :::::block-list-ul-md
 ::::::list-item-ul-active-md
 ---
-iconUrl: '/img/icons/integration_bg.svg'
+iconUrl: '/img/icons/integration_bg_2.svg'
 iconBig: true
 iconLeft: true
 animated: false
@@ -302,12 +333,12 @@ animated: false
 #### Integracje z zewnętrznymi systemami
 
 #description
-Wdrażamy m.in. systemy umożliwiające zarządzanie magazynami, bramki płatności i dostawy, automatyzacje marketingu i obsługi klienta, systemy księgowe i ERP oraz wiele innych.
+Wdrażamy m.in. systemy umożliwiające **zarządzanie magazynami**, bramki płatności i dostawy, **automatyzacje marketingu** i obsługi klienta, systemy księgowe i ERP oraz wiele innych.
 
 ::::::
 ::::::list-item-ul-active-md
 ---
-iconUrl: '/img/icons/configurator_bg.svg'
+iconUrl: '/img/icons/configurator_bg_2.svg'
 iconBig: true
 iconLeft: true
 animated: false
@@ -317,12 +348,12 @@ animated: false
 #### Konfiguratory produktów
 
 #description
-Jeśli Twój biznes oferuje wytwarzanie produktów na zamówienie, możemy stworzyć narzędzie, dzięki któremu klienci sami go spersonalizują. Na bazie wybranych cech otrzymają zaktualizowaną cenę oraz wizualizację produktu w 3D lub 2D.
+Jeśli Twój biznes oferuje **personalizacje produktów**, możemy stworzyć narzędzie, dzięki któremu klienci dostosują go do swoich wymagań. Na bazie wybranych cech otrzymają zaktualizowaną cenę oraz **wizualizację produktu w 3D** lub 2D.
 
 ::::::
 ::::::list-item-ul-active-md
 ---
-iconUrl: '/img/icons/process_bg.svg'
+iconUrl: '/img/icons/process_bg_2.svg'
 iconBig: true
 iconLeft: true
 animated: false
@@ -332,7 +363,7 @@ animated: false
 #### Automatyzacje procesów technologicznych
 
 #description
-Automatyczne generowanie raportu sprzedażowego czy weryfikacja VAT przy zakładaniu konta przez użytkowników, to tylko niektóre automatyzacje które możemy Ci zaoferować aby zaoszczędzić czas potrzebny na administrowanie sklepem.
+Automatyczne generowanie raportu sprzedażowego czy weryfikacja VAT przy zakładaniu konta przez użytkowników, to tylko niektóre **automatyzacje sklepu internetowego** które możemy Ci zaoferować aby zaoszczędzić czas potrzebny na administrowanie sklepem.
 ::::::
 :::::
 ::::
@@ -341,7 +372,7 @@ Automatyczne generowanie raportu sprzedażowego czy weryfikacja VAT przy zakład
 
 ::page-section-md
 ---
-classes: bg-gray-darkest pt-10 tablet:pt-[100px] mb-[100px] tablet:mb-[200px]
+classes: bg-gray-darkest pt-10 tablet:pt-[100px] mb-[100px]
 ---
 
 
@@ -447,7 +478,7 @@ Sklep internetowy przechowuje wiele różnych danych np. dane osobowe klientów 
 :::effect-appear-md
 ::::prose-figure
 ---
-src: '/img/content-images/sklepy-internetowe/section4.png'
+src: '/img/content-images/sklepy-internetowe/section4.webp'
 rounded: false
 ---
 ::::
@@ -662,11 +693,11 @@ class: mb-10 tablet:mb-16 tablet:mt-10
 
 #subtitle
 ::::::prose-p-3
-### *6/* Wsparcie techniczne i rozwój
+### *6/* Tworzenie sklepów WWW
 ::::::
 
 #title
-## O czym jeszcze <br> musisz wiedzieć?
+## Wsparcie techniczne i rozwójczyli co jeszcze musisz wiedzieć?
 
 #description
 ::::::prose-p-3
@@ -679,12 +710,213 @@ Stworzenie sklepu internetowego to dopiero początek, zaczynamy przygodę która
 ---
 class: mb-0 text-base [&_p]:!leading-7 [&_p]:!mb-0
 ---
-Do w/w zadań warto jest mieć zaufany i doświadczony zespół projektantów oraz programistów którzy gotowych do działania gdy tylko zajdzie taka potrzeba.
+Do w/w zadań warto jest mieć zaufany i doświadczony zespół projektantów oraz programistów gotowych do działania gdy tylko zajdzie taka potrzeba.
 ::::::
 :::::
 ::::
 :::
 ::
+
+
+::page-section-md
+---
+classes: mb-[60px]
+---
+
+:::block-columns-1-1-md
+
+#right
+
+::::effect-appear-md
+---
+class: relative overflow-hidden tablet:overflow-visible -mx-5 tablet:mx-0
+---
+
+:::::img-decorated-md
+---
+imgUrl: '/img/content-images/strony-wordpress/decor_quarter_circle.svg'
+decoration: false
+class: hidden mx-auto !mb-0 !p-0 !w-[122px] !absolute bottom-[100px] left-[-61px]
+---
+:::::
+:::::img-decorated-md
+---
+imgUrl: '/img/content-images/sklepy-internetowe/mockup_mobile.webp'
+decoration: false
+class: tablet:mb-20 !mb-10 z-0
+---
+
+:::::
+::::
+
+#left
+
+::::effect-appear-md
+---
+class: desktop:mt-[70px] relative z-20
+---
+:::::block-header-md
+---
+maxWidth: 680
+class: mb-10
+---
+
+#subtitle
+### *7/* Efekty dobrego UX
+
+#title
+## Kompleksowe tworzenie sklepów internetowych
+
+#description
+::::::prose-p-4
+---
+class: mb-10
+---
+Tworzenie sklepów online to znacznie więcej niż samo wdrożenie platformy sprzedażowej. To projekt, który musi być odpowiednio zaplanowany, zaprojektowany i zakodowany, by służył Twoim klientom i **wspierał rozwój biznesu**. Kiedy decydujesz się na robienie sklepów internetowych z naszą pomocą, stawiasz na **partnerstwo, technologiczne kompetencje i doświadczenie**, które przekłada się na realne wyniki.
+::::::
+::::::prose-p-4
+---
+class: mb-10 text-base
+---
+Każdy sklep www, który tworzymy, zaczyna się od **zrozumienia specyfiki biznesu** – produktów, procesów, potrzeb użytkowników i wymagań technicznych. Naszą rolą jest **dostarczenie narzędzia, które idealnie wspiera sprzedaż**: dopracowanego pod względem UX/UI, SEO, responsywności i wydajności. Projektujemy sklepy, które **działają szybko, są intuicyjne i gotowe do dalszego rozwoju**,  tak, aby klient mógł skutecznie wykorzystać je w swoich działaniach sprzedażowych.
+::::::
+:::::
+::::
+::
+
+
+::page-section-md
+---
+class: mb-[100px] tablet:mb-[100px]
+---
+:::effect-appear-md
+
+::::svg-bg-dots
+---
+decoration: true
+class: block desktop:hidden top-0 right-0
+---
+::::
+
+::::block-cta-md
+---
+maxWidth: 1300
+class: tablet:mb-36 [&_.description]:desktop:!text-lg !p-[40px] border border-[#DEE7E5] [&_a]:hidden [&_h4]:!text-left
+---
+
+#title
+#### *Dobieramy technologię, która najlepiej odpowiada skali projektu* - od WooCommerce, przez PrestaShop po architekturę headless. Dzięki temu sklep jest nie tylko estetyczny i wygodny, ale przede wszystkim wydajny, bezpieczny i przygotowany na rozbudowę w przyszłości.
+
+#description
+
+::::
+:::
+::
+
+
+
+::page-section-md
+---
+class: mb-20 tablet:mb-[100px]
+---
+
+:::effect-appear-md
+---
+class: bg-green-gray relative
+---
+
+::::img-decorated-md
+---
+imgUrl: '/img/svg-arc.svg'
+decoration: false
+class: tablet:!pl-0 !mb-0 !w-[80px] tablet:!w-[122px] !absolute top-[20px] tablet:!top-[50px] left-[20px] tablet:!left-[50px] z-0
+---
+::::
+
+::::img-decorated-md
+---
+imgUrl: '/img/svg-square.svg'
+decoration: false
+class: tablet:!pl-0 !mb-0 !w-[60px] tablet:!w-[100px] !absolute bottom-[20px] tablet:!bottom-[50px] right-[20px] tablet:!right-[50px] z-0
+---
+::::
+
+::::block-faq-md
+
+#header
+:::::block-header-md
+---
+maxWidth: 900
+class: mb-[50px] text-center relative
+---
+
+#subtitle
+### *8/* Wszystko, co warto wiedzieć przed realizacją sklepu
+
+#title
+## Najczęściej zadawane pytania (FAQ)
+
+:::::
+
+:::::block-expand-item-md
+
+#title
+##### Dlaczego jakość sklepu internetowego jest inwestycją?
+
+#description
+*<u><a href="/uslugi/projektowanie-ux-ui/">Projektowanie sklepów www</a></u>* wykonane z dbałością o detale przynosi realne zyski. Szybsze ładowanie stron i lepszy UX zmniejszają współczynnik odrzuceń i zachęcają użytkowników do pozostania oraz dokonania zakupu. Wysoka jakość kodu i zgodność z dokumentacją techniczną zmniejszają koszty utrzymania - mniej błędów oznacza mniej interwencji technicznych, niższe koszty wsparcia.
+
+:::::
+
+:::::block-expand-item-md
+
+#title
+##### Ile kosztuje stworzenie sklepu internetowego?
+
+#description
+Koszt zależy od wielu czynników: wybranej platformy, liczby produktów, integracji (np. płatności, dostawy, ERP), oraz zakresu projektowania. Proste sklepy online zaczynają się od kilku tysięcy zł netto. Każde **tworzenie sklepów www** wyceniamy indywidualnie po analizie wymagań.
+:::::
+
+:::::block-expand-item-md
+
+#title
+##### Jak długo trwa realizacja sklepu internetowego?
+
+#description
+Standardowy czas realizacji wynosi od 2 do 4 miesięcy. Na czas wpływa m.in. złożoność funkcji, liczba widoków do zaprojektowania oraz integracje. Przyspieszony tryb realizacji jest możliwy w przypadku mniej rozbudowanych sklepów.
+
+:::::
+:::::block-expand-item-md
+
+#title
+##### Co obejmuje nasza realizacja sklepu internetowego
+
+#description
+Podczas prac nad sklepem online tworzymy stabilne, szybkie i dobrze przemyślane środowisko sprzedażowe, dbając o strukturę informacji, organizację katalogu produktów oraz logiczne powiązania między elementami. Równolegle przygotowujemy solidne zaplecze techniczne - od konfiguracji systemu i infrastruktury po mechanizmy usprawniające obsługę zamówień i rozwój oferty. Dbamy o maksymalną wydajność i stabilność działania, minimalizując ryzyko przestojów dzięki lekkiej architekturze kodu i nowoczesnym technologiom.
+
+:::::
+:::::block-expand-item-md
+
+#title
+##### Czy mogę samodzielnie zarządzać sklepem po wdrożeniu?
+
+#description
+Tak. Sklepy tworzymy na systemach CMS (np. WooCommerce, PrestaShop), dzięki czemu możesz samodzielnie dodawać produkty, edytować treści, zarządzać zamówieniami czy obsługiwać klientów – bez konieczności znajomości programowania.
+
+:::::
+:::::block-expand-item-md
+
+#title
+##### Czy możecie rozbudować mój obecny sklep internetowy?
+
+#description
+Oczywiście. Oferujemy nie tylko tworzenie sklepów online od zera, ale także rozbudowę istniejących rozwiązań: dodawanie nowych funkcji, optymalizację UX, poprawę wydajności, redesign lub migrację na inną platformę.
+
+:::::
+::::
+:::
+::
+
 
 
 
@@ -700,7 +932,7 @@ class: mb-10 tablet:mb-20
 ---
 
 #subtitle
-### *7/* Nasze ostatnie realizacje
+### *9/* Nasze ostatnie realizacje
 
 #title
 ## Jasteśmy dumni <br> z *wykonanych projektów*
@@ -711,11 +943,11 @@ class: mb-10 tablet:mb-20
 :::block-cases-md
 ---
 contentFolder: realizacje
-moreBtn.url: 'https://webo.agency/realizacje'
+moreBtn.url: 'https://webo.agency/realizacje/'
 moreBtn.linktitle: Zobacz wszystkie projekty
 selectedSlugs:
-    - feeby
-    - oravio
+    - thoro
+    - velair
 ---
 
 :::
@@ -734,7 +966,7 @@ class: mb-[50px] tablet:mb-[100px]
 ---
 
 #subtitle
-### *8/* Nasi klienci
+### *10/* Nasi klienci
 
 #title
 ## Poznaj firmy które *nam zaufały*

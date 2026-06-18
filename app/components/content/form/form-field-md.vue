@@ -70,7 +70,11 @@ export default {
 }
 
 .formText label {
-  @apply absolute left-5 top-2.5 leading-3 text-[10px] text-current pointer-events-none transition-all duration-200;
+  @apply inline-flex absolute left-5 top-2.5 leading-3 text-[10px] text-current pointer-events-none transition-all duration-200;
+}
+
+.formText label > p {
+  @apply m-0 inline;
 }
 
 .formText .textInput:placeholder-shown~label {

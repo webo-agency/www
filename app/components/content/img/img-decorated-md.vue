@@ -39,6 +39,73 @@ export default {
 
 <style lang="postcss" scoped>
 @reference "~/assets/css/main.css";
+
+/* ========================================================================== */
+/* Plain CSS fallback for environments where SFC @apply is not transformed    */
+/* ========================================================================== */
+
+.left .img-decorated {
+  padding-right: 0;
+}
+
+.left .img-decoration {
+  margin-right: 0;
+  left: -20px;
+}
+
+.right .img-decorated {
+  padding-left: 0;
+}
+
+.right .img-decoration {
+  margin-left: 0;
+  right: -20px;
+}
+
+@media (min-width: 768px) {
+  .left .img-decorated {
+    padding-right: 80px;
+  }
+
+  .left .img-decoration {
+    margin-right: 80px;
+    left: -30px;
+  }
+
+  .right .img-decorated {
+    padding-left: 80px;
+  }
+
+  .right .img-decoration {
+    margin-left: 80px;
+    right: -30px;
+  }
+}
+
+@media (min-width: 1248px) {
+  .left .img-decorated {
+    padding-right: 120px;
+  }
+
+  .left .img-decoration {
+    margin-right: 120px;
+    left: -50px;
+  }
+
+  .right .img-decorated {
+    padding-left: 120px;
+  }
+
+  .right .img-decoration {
+    margin-left: 120px;
+    right: -50px;
+  }
+}
+
+/* ========================================================================== */
+/* Original Tailwind @apply source kept for reference and future restoration   */
+/* ========================================================================== */
+
 .left .img-decorated {
   @apply pr-0 tablet:pr-20 desktop:pr-[120px];
 }
