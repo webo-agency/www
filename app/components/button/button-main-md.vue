@@ -3,7 +3,6 @@
     :link="link"
     :title="title"
     :tagButton="tagButton"
-    :arrowIcon="arrowIcon"
     :rootClass="rootClass"
   >
     <slot></slot>
@@ -14,7 +13,7 @@
 import ButtonSharedMain from "./shared-main.vue";
 
 export default {
-  name: "ButtonMain",
+  name: "ButtonMainMd",
   components: { ButtonSharedMain },
   props: {
     link: {
@@ -34,14 +33,13 @@ export default {
       type: Boolean,
       default: false,
     },
-    arrowIcon: {
-      type: Boolean,
-      default: false,
-    },
   },
   computed: {
     rootClass() {
-      return "btn-main flex justify-between items-center w-max max-w-full py-[20px] px-[35px] rounded-full bg-[#08DBBA] hover:bg-green-mainHover shadow-xl shadow-[#079F88]/25 text-[15px] !text-[#333] font-semibold uppercase transition-all duration-300 group";
+      const base =
+        "flex justify-between items-center w-max max-w-full py-[13px] rounded-full bg-green-main hover:bg-green-mainHover shadow-xl shadow-[#079F88]/25 text-[15px] font-semibold uppercase transition-all duration-300 group";
+
+      return `${base} ${this.isWide ? "px-[25px]" : "px-8"}`;
     },
   },
 };

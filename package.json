@@ -47,7 +47,6 @@
     "mailgun.js": "^13.2.0",
     "markdown-it-attrs": "^5.0.0",
     "markdown-it-ins": "^4.0.0",
-    "node-fetch": "^3.3.2",
     "nuxt": "^4.4.8",
     "nuxt-booster": "^3.3.2",
     "nuxt-gtag": "^4.1.0",

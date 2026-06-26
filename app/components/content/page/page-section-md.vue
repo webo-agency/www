@@ -650,7 +650,7 @@ export default {
   @apply mb-7 desktop:mb-14 text-base desktop:text-lg;
 }
 .static-content :deep(.subtitle) {
-  @apply mb-1 text-base desktop:text-lg before:text-green-main before:content-[-/] before:font-semibold;
+  @apply mb-1 text-base desktop:text-lg before:text-green-main before:content-['-/'] before:font-semibold;
 }
 
 .static-content :deep(p),
