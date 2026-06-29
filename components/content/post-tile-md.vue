@@ -8,13 +8,13 @@
                 :imgAttrs="{ class: 'h-full w-full object-cover'}"></nuxt-picture>
         </div>
         <div class="px-2.5 tablet:px-5 pb-1 ">
+            <p v-if="formattedDate" class="mb-2 text-xs desktop:text-sm font-semibold text-gray-darker">
+                {{ formattedDate }}
+            </p>            
             <h4 v-if="data.introduction?.titleFormatted"
                 class="mb-1 tablet:mb-2 text-lg desktop:text-xl font-semibold group-hover:underline decoration-inherit transition duration-300 [&_em]:text-green-main [&_em]:group-hover:underline [&_em]:decoration-green-main [&_em]:not-italic"
                 v-html="$formatText(data.introduction.titleFormatted)">
             </h4>
-            <p v-if="formattedDate" class="mb-4 tablet:mb-6 text-xs desktop:text-sm font-semibold text-gray-darker">
-                {{ formattedDate }}
-            </p>
             <p v-if="data.introduction?.description" class="mb-4 tablet:mb-6 text-sm desktop:text-base font-normal">
                 {{ data.introduction.description }}
             </p>
