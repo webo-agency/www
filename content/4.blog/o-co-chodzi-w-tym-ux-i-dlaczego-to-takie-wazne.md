@@ -5,9 +5,12 @@ introduction.description: 'W dużym skrócie UX (od User Experience) to wszystki
 category:
     - Design
 image.url: '/img/blog-images/webo_blog_ux.jpg'
-date: 2025-01-26
+author: Maciej Z.
+authorAvatar: /img/content-images/avatar-maciej.webp
+authorUrl: https://linkedin.com/in/maciej-zawadzki-ba3194138
+updatedAt: 2025-01-26
 hreflangs:
-    EN: '/blog/'
+    EN: '/blog/what-is-ux-all-about-and-why-is-it-so-important/'
     PL: '/blog/o-co-chodzi-w-tym-ux-i-dlaczego-to-takie-wazne/'
 public: true
 draft: false
@@ -16,13 +19,13 @@ draft: false
 
 ::page-section-md
 ---
-class: mb-20 tablet:mb-[100px]
+class: mb-20 tablet:mb-[100px] 
 ---
 :::effect-appear-md
 ::::block-header-post-md
 ---
 bgUrl: /img/blog-images/webo_blog_ux.jpg
-class: mx-auto [&_img]:max-h-[200px] lg:[&_img]:max-h-[600px]
+class: mt-5 tablet:mt-[100px] [&_img]:max-h-[200px] lg:[&_img]:max-h-[600px]
 ---
 
 #title
@@ -39,14 +42,19 @@ class: mx-auto [&_img]:max-h-[200px] lg:[&_img]:max-h-[600px]
 ---
 class: static-content mb-10
 ---
-:::effect-appear-md
+
+:::block-columns-blog-sidebar-md
+
+#left
+
+::::effect-appear-md
 ---
 class: mx-blog
 ---
 
 ### **Czym jest UX?**
 
-::::prose-p3
+:::::prose-p3
 W dużym skrócie UX (od User Experience) to wszystkie doświadczenia, myśli i emocje jakie towarzyszą użytkownikowi podczas korzystania z produktu cyfrowego np. strony internetowej. Projektowanie UX jest zatem sposobem projektowania interfejsów, który uwzględnia potrzeby użytkowników, ich przyzwyczajenia i umiejętności a także założenia biznesu którego dotyczy strona. Wszystko po to aby użytkownik z łatwością poruszał się po stronie, bezproblemowo znajdując informacji jakich szuka.
 
 Brzmi to dosyć skomplikowanie ale na pomoc przychodzi nam iteracyjny proces, który w Webo wygląda następująco:
@@ -57,21 +65,18 @@ Brzmi to dosyć skomplikowanie ale na pomoc przychodzi nam iteracyjny proces, kt
 - Projektowanie warstwy graficznej - na podstawie zaakceptowanego prototypu, projektujemy szatę graficzną nowej strony/sklepu uwzględniając identyfikację wizualną marki i obecne trendy.
 - Po przejściu procesu projektowego nadszedł czas na wdrożenie i rozwój produktu - w tym miejscu implementujemy najlepsze wypracowane rozwiązanie w celu jego dalszego ulepszania, podczas konfrontacji z rynkiem.
 Na każdym etapie bardzo ważny jest kontakt z naszym klientem, który weryfikuje czy założenia projektu zostały spełnione, jednocześnie zgłaszając swoje uwagi i akceptując każdy kolejny etap. 
+:::::
 ::::
-:::
-::
 
-::page-section-md
+#right
+::::block-post-share
 ---
-class: mb-20
----
-:::block-post-share
----
-shareText: 'Udostępnij:'
-tags:
-    - Design
+shareText: 'Udostępnij artykuł:'
+tagsTitle: 'Kategorie:'
+copyConfirmationText: 'Link skopiowany!'
 ---
 
+::::
 :::
 ::
 

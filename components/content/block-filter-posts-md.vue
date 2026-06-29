@@ -11,7 +11,7 @@
       ref="postsContainer"
       class="relative grid grid-cols-1 tablet:grid-cols-2 tablet-wide:grid-cols-3 gap-5 overflow-hidden"
     >
-      <block-filter-tile-posts-md v-for="post_page in list" :key="post_page._path" :data="post_page" :activeFilters="activeFilters" />    
+      <block-filter-tile-posts-md v-for="post_page in sortedList" :key="post_page._path" :data="post_page" :activeFilters="activeFilters" />    
     </div>
     <div v-show="$slots.loadMore"  class="w-full flex justify-center items-center mt-10 tablet:mt-20">
       <div ref="increaseBtn" class="flex items-center text-base text-green-main hover:text-green-mainHover font-semibold transition duration-200 cursor-pointer "
@@ -58,6 +58,37 @@ const increaseBtn = ref(null);
 
 const activeFilters = ref(route.query.cat ? [route.query.cat] : []);
 const shownCases = ref(9);
+
+const parseDateValue = (value) => {
+  if (!value || typeof value !== 'string') {
+    return 0;
+  }
+
+  // Supports both ISO-like dates (YYYY-MM-DD) and legacy DD.MM.YYYY.
+  if (/^\d{4}-\d{2}-\d{2}$/.test(value)) {
+    const timestamp = new Date(`${value}T00:00:00Z`).getTime();
+    return Number.isNaN(timestamp) ? 0 : timestamp;
+  }
+
+  if (/^\d{2}\.\d{2}\.\d{4}$/.test(value)) {
+    const [day, month, year] = value.split('.');
+    const timestamp = new Date(`${year}-${month}-${day}T00:00:00Z`).getTime();
+    return Number.isNaN(timestamp) ? 0 : timestamp;
+  }
+
+  const timestamp = new Date(value).getTime();
+  return Number.isNaN(timestamp) ? 0 : timestamp;
+};
+
+const getPostTimestamp = (post) => parseDateValue(post?.date) || parseDateValue(post?.updatedAt);
+
+const sortedList = computed(() => {
+  if (!Array.isArray(list.value)) {
+    return [];
+  }
+
+  return [...list.value].sort((a, b) => getPostTimestamp(b) - getPostTimestamp(a));
+});
 
 
 const updateVisible = () => {

@@ -9,9 +9,12 @@
         </div>
         <div class="px-2.5 tablet:px-5 pb-1 ">
             <h4 v-if="data.introduction?.titleFormatted"
-                class="mb-4 tablet:mb-6 text-lg desktop:text-xl font-semibold group-hover:underline decoration-inherit transition duration-300 [&_em]:text-green-main [&_em]:group-hover:underline [&_em]:decoration-green-main [&_em]:not-italic"
+                class="mb-1 tablet:mb-2 text-lg desktop:text-xl font-semibold group-hover:underline decoration-inherit transition duration-300 [&_em]:text-green-main [&_em]:group-hover:underline [&_em]:decoration-green-main [&_em]:not-italic"
                 v-html="$formatText(data.introduction.titleFormatted)">
             </h4>
+            <p v-if="formattedDate" class="mb-4 tablet:mb-6 text-xs desktop:text-sm font-semibold text-gray-darker">
+                {{ formattedDate }}
+            </p>
             <p v-if="data.introduction?.description" class="mb-4 tablet:mb-6 text-sm desktop:text-base font-normal">
                 {{ data.introduction.description }}
             </p>
@@ -26,7 +29,38 @@
 </template>
 
 <script setup>
-defineProps({
+const props = defineProps({
     data: Object,
+})
+
+const parseDateValue = (value) => {
+    if (!value || typeof value !== 'string') {
+        return null
+    }
+
+    if (/^\d{4}-\d{2}-\d{2}$/.test(value)) {
+        const parsed = new Date(`${value}T00:00:00Z`)
+        return Number.isNaN(parsed.getTime()) ? null : parsed
+    }
+
+    if (/^\d{2}\.\d{2}\.\d{4}$/.test(value)) {
+        const [day, month, year] = value.split('.')
+        const parsed = new Date(`${year}-${month}-${day}T00:00:00Z`)
+        return Number.isNaN(parsed.getTime()) ? null : parsed
+    }
+
+    const parsed = new Date(value)
+    return Number.isNaN(parsed.getTime()) ? null : parsed
+}
+
+const formattedDate = computed(() => {
+    const sourceDate = props.data?.date || props.data?.updatedAt
+    const parsed = parseDateValue(sourceDate)
+
+    if (!parsed) {
+        return ''
+    }
+
+    return parsed.toLocaleDateString('pl-PL')
 })
 </script>
