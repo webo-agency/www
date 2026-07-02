@@ -11,7 +11,7 @@
         <path d="M24.1548 26.3732C22.1829 28.345 19.2252 29.5774 16.021 29.5774C9.85908 29.5774 5.4225 24.6479 5.4225 17.993C5.4225 11.3381 9.85908 6.40857 16.2675 6.40857C19.2252 6.40857 22.1829 7.64095 24.4012 9.85925L25.1407 10.5987L28.8378 6.90152L28.0984 6.16209C24.8942 2.95789 20.7041 1.23255 16.2675 1.23255C6.90136 0.986072 0 8.38038 0 17.993C0 27.6056 6.90136 34.9999 16.021 34.9999C20.4576 34.9999 24.8942 33.2746 27.8519 30.0704L28.5913 29.3309L24.8942 25.6338L24.1548 26.3732Z" fill="#16313C"/>
       </svg>
     </div>
-    <rating-stars v-if="rating" :rating="rating" />
+    <ui-rating-stars v-if="rating" :rating="rating" />
     <ul class="rating-list list-none">
       <li v-if="quality">
         Quality <span>{{ (Math.round(quality * 100) / 100).toFixed(1) }}</span>
@@ -41,8 +41,9 @@ export default {
 };
 </script>
 
-<style lang="postcss" scoped>
+<style  scoped>
 @reference "~/assets/css/main.css";
+
 .rating-list li{
   @apply text-lg tablet:text-xl flex justify-between w-full max-w-[210px] !ml-0 !mb-1 before:!hidden;
 }

@@ -1,5 +1,5 @@
 <template>
-    <CustomLink class="group flex flex-col w-full" :disabled="itemData.draft && !itemData.fallback" :activeClass="'none'"
+    <UiLink class="group flex flex-col w-full" :disabled="itemData.draft && !itemData.fallback" :activeClass="'none'"
         :url="itemData.fallback ? itemData.fallback : (itemData.url ? itemData.url : 'https://webo.agency' + itemData.path)">
         <div class="flex items-end aspect-video w-full rounded-[5px] overflow-hidden mb-4 tablet:mb-6">
             <nuxt-picture class="h-full w-full object-cover group-hover:scale-[103%] transition-all duration-500"
@@ -22,7 +22,7 @@
                     fill="#06CEAF" />
             </svg>
         </div>
-    </CustomLink>
+    </UiLink>
 </template>
 
 <script setup>

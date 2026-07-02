@@ -3,7 +3,7 @@ draft: true
 ---
 
 
-:::block-form-md
+:::block-form
 ---
 darkContainer: true
 decoration: true
@@ -11,7 +11,7 @@ class: tablet:!flex-row-reverse
 ---
 
 #header
-::::block-header-md
+::::block-header
 ---
 textWhite: true
 titleUnderline: true
@@ -24,7 +24,7 @@ titleUnderline: true
 ::::
 
 #fields
-::::form-field-md
+::::form-field
 ---
 name: name
 type: text
@@ -35,7 +35,7 @@ required: true
 Imię i nazwisko
 
 ::::
-::::form-field-md
+::::form-field
 ---
 name: company
 type: text
@@ -46,13 +46,13 @@ required: true
 Nazwa firmy
 
 ::::
-::::block-columns-1-1-md
+::::layout-columns-1-1
 ---
 class: gap-x-2
 ---
 
 #left
-:::::form-field-md
+:::::form-field
 ---
 type: email
 required: true
@@ -64,7 +64,7 @@ E-mail
 :::::
 
 #right
-:::::form-field-md
+:::::form-field
 ---
 name: phone
 type: tel
@@ -80,7 +80,7 @@ Numer telefonu
 ::::
 
 
-::::form-field-md
+::::form-field
 ---
 name: description
 type: textarea
@@ -108,7 +108,7 @@ Na Twoją wiadomość odpowiemy w ciągu 24h
 Niestety mamy chwilowy problem z działaniem formularza. Wyślij wiadomość na adres <a href="mailo:info@webo.agency">info@webo.agency</a>
 
 #side
-::::svg-decor-big-md
+::::svg-decor-big
 ---
 class: hidden tablet:block max-w-full mt-10 tablet:mt-0 tablet:pl-10 desktop:pl-20
 ---

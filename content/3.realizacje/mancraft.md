@@ -4,7 +4,7 @@ introduction.description: 'Głównym zadaniem była migracja starego sklepu z Pr
 type:
     - E-commerce
     - UX/UI
-    - Wsparcie
+    - Wsparcie/Rozwój
 technologies:
     - PrestaShop
     - TailwindCSS
@@ -15,12 +15,12 @@ tile_order: 8
 public: true
 ---
 
-::page-section-md
+::ui-container
 ---
 class: mb-10 tablet:mb-20 mt-[100px] tablet:mt-[200px]
 ---
-:::effect-appear-md
-::::block-header-case-md
+:::effect-appear
+::::block-header-case
 ---
 class: mx-default [&_h2]:text-[26px] [&_h2]:tablet:text-4xl [&_h2]:desktop:text-5xl
 logoUrl: '/img/logos/mancraft2.png'
@@ -45,28 +45,28 @@ Zobacz online
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-[50px] tablet:mb-[100px]
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/case-mancraft-img1.png"}
 ::::
 :::
 ::
 
 
-::page-section-md
+::ui-container
 ---
 class: static-content mb-10 tablet:mb-[90px]
 ---
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default
 ---
 ### **O kliencie**
 :::
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default flex flex-col md:flex-row gap-10 lg:gap-20 fullHd:gap-[140px]
 ---
@@ -136,21 +136,21 @@ class: mx-0 [&_p]:!mb-[15px] tablet:[&_p]:!mb-[20px]
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-[50px] tablet:mb-[100px]
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/case-mancraft-img2.png"}
 ::::
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: static-content
 ---
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default
 ---
@@ -162,7 +162,7 @@ Klient zgłosił się do nas z działającym sklepem internetowym wykonanym w sy
 ::::
 :::
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default tablet:[&_h4]:!mb-6 tablet:[&_.p3_p:not(:last-child)]:!mb-5
 ---
@@ -176,7 +176,7 @@ Po wykonaniu migracji skupiliśmy się na **rozwoju sklepu o nowe funkcjonalnoś
 ::::
 :::
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default tablet:[&_h4]:!mb-6 tablet:[&_.p3_p:not(:last-child)]:!mb-5
 ---
@@ -190,7 +190,7 @@ Poprawie uległa także forma składania zamówień przez klientów hurtowych. C
 ::::
 :::
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: mb-[50px] desktop:mb-[100px]
 ---
@@ -199,7 +199,7 @@ class: mb-[50px] desktop:mb-[100px]
 :::
 
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default tablet:[&_h4]:!mb-6 tablet:[&_.p3_p:not(:last-child)]:!mb-5
 ---
@@ -214,7 +214,7 @@ W celu zwiększenia bezpieczeństwa należało wprowadzić szereg dodatkowych za
 :::
 
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default tablet:[&_h4]:!mb-6 tablet:[&_.p3_p:not(:last-child)]:!mb-5
 ---
@@ -227,7 +227,7 @@ W dalszych krokach wdrożyliśmy **program lojalnościowy**, dzięki któremu kl
 :::
 
 
-:::effect-appear-md
+:::effect-appear
 ::::prose-bg{class='font-normal'}
 :::::prose-p1
 **Lista kluczowych funkcjonalności i automatyzacji**
@@ -251,12 +251,12 @@ class: mt-0 [&_li]:!mb-0
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: static-content mb-[50px] tablet:mb-[120px]
 ---
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default
 ---
@@ -269,7 +269,7 @@ Prócz silnika Prestashop 1.7 do realizacji sklepu dostosowaliśmy wiele sprawdz
 :::
 
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default
 ---
@@ -287,14 +287,14 @@ class: tablet:hidden mb-[60px]
 ::::
 :::
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default 
 ---
 #### **Integracje**
 :::
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default
 ---
@@ -311,11 +311,11 @@ class: tablet:hidden
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: static-content mb-[50px] tablet:mb-[100px]
 ---
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default tablet:[&_.p3_p:not(:last-child)]:!mb-5
 ---
@@ -329,7 +329,7 @@ W ramach dalszej współpracy, sprawujemy **opiekę nad bieżącym działaniem s
 ::::
 :::
 
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/case-mancraft-img4.png"}
 ---
 class: mb-[50px] tablet:mb-[100px] -mr-5 tablet:-mr-10
@@ -339,15 +339,15 @@ class: mb-[50px] tablet:mb-[100px] -mr-5 tablet:-mr-10
 ::
 
 
-::page-section-md
+::ui-container
 ---
 class: static-content mb-[50px] tablet:mb-[100px]
 ---
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default
 ---
-::::block-opinion-md
+::::block-opinion
 ---
 rating: 5
 hiddenStarQty: false
@@ -377,12 +377,12 @@ Executive - **Proton Multimedia**
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-[50px] tablet:mb-[100px]
 ---
-:::effect-appear-md
-::::block-cta-md
+:::effect-appear
+::::block-cta
 ---
 button.link: https://webo.agency/kontakt
 button.title: 'Skontaktuj się z nami'
@@ -398,13 +398,13 @@ Umów się na bezpłatną konsultację, porozmawiajmy!
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 id: realizacje
 class: mb-[80px] tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 class: mb-10 tablet:mb-20
 ---
@@ -418,7 +418,7 @@ class: mb-10 tablet:mb-20
 ::::
 :::
 
-:::block-cases-md
+:::block-cases
 ---
 contentFolder: realizacje
 moreBtn.url: 'https://webo.agency/realizacje'
@@ -431,12 +431,12 @@ selectedSlugs:
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: true
 class: mb-[50px] tablet:mb-[100px]
@@ -450,7 +450,7 @@ class: mb-[50px] tablet:mb-[100px]
 
 ::::
 :::
-:::block-brands-before-footer-md
+:::block-brands-before-footer
 :::
 ::
 

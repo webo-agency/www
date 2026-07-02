@@ -1,6 +1,6 @@
 <template>
   <div ref="container" class="relative desktop:h-[890px] bg-black overflow-hidden -mt-[60px] desktop:-mt-[94px]">
-    <HeroThreejsBg class="z-0" />
+    <UiHeroThreejsBg class="z-0" />
 
     <div class="absolute inset-0 z-[1] pointer-events-none bg-gradient-to-b from-black/10  to-black/80"></div>
     <div
@@ -49,7 +49,7 @@
 
               <div class="flex justify-between flex-col desktop:flex-row gap-10">
                 <div class="flex items-center gap-5">
-                  <ButtonMain class="text-gray-darker" :link="button.link" :title="button.title" :isWide="true"
+                  <UiButtonMain class="text-gray-darker" :link="button.link" :title="button.title" :isWide="true"
                     arrowIcon />
                   <div
                     class="hidden desktop:flex w-[60px] h-[60px] rounded-full border border-green-gray hover:border-green-main items-center justify-center cursor-pointer transition duration-300 group shrink-0"
@@ -105,7 +105,7 @@
 </template>
 
 <script setup>
-import EffectAppearMdc from "../effect/effect-appear-md.vue";
+import EffectAppearMdc from "../Effect/Appear.vue";
 import { Swiper } from "swiper";
 import { Autoplay, FreeMode } from "swiper/modules";
 import "swiper/css/bundle";

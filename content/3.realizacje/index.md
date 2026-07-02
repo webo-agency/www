@@ -3,12 +3,12 @@ hreflangs:
     EN: '/case-studies/'
     PL: '/realizacje/'
 ---
-::page-section-md
+::ui-container
 ---
 class:  mb-10 tablet:mb-20 mt-[100px] tablet:mt-[200px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: true
 ---
@@ -26,12 +26,12 @@ center: true
 ::
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-[50px] tablet:mb-[150px]
 ---
-:::effect-appear-md
-::::block-banner-cases-md
+:::effect-appear
+::::block-banner-cases
 ---
 logoUrl: '/img/logos/isw.svg'
 bgUrl: '/img/case-studies/IS-Wireless.jpg'
@@ -59,12 +59,12 @@ Zobacz online
 
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-[50px] tablet:mb-[150px]
 ---
 
-:::block-filter-cases-md
+:::block-filter-cases
 ---
 contentFolder: realizacje
 filters:
@@ -99,12 +99,12 @@ Wybierz technologie
 
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-[50px] tablet:mb-[100px]
 ---
-:::effect-appear-md
-::::block-cta-md
+:::effect-appear
+::::block-cta
 ---
 button.link: https://webo.agency/kontakt
 button.title: 'Skontaktuj się'
@@ -121,12 +121,12 @@ Skontaktuj się z nami i rozpocznij współpracę
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: true
 class: mb-[50px] tablet:mb-[100px]
@@ -140,6 +140,6 @@ class: mb-[50px] tablet:mb-[100px]
 
 ::::
 :::
-:::block-brands-before-footer-md
+:::block-brands-before-footer
 :::
 ::

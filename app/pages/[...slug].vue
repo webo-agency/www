@@ -1,12 +1,12 @@
 <template>
   <div>
     <ContentRenderer v-if="pageData" :value="pageData" />
-    <PageSection v-else>
+    <UiContainer v-else>
       <div class="my-[150px]">
         <h1 class="text-2xl mb-5">Page not found</h1>
-        <ButtonMain class="text-white" :link="'/'" :title="'Back to home'"></ButtonMain>
+        <UiButtonMain class="text-white" :link="'/'" :title="'Back to home'"></UiButtonMain>
       </div>
-    </PageSection>
+    </UiContainer>
   </div>
 </template>
   

@@ -6,15 +6,15 @@ sitemap:
   changefreq: daily
 ---
 
-::page-section-md
+::ui-container
 ---
 class: my-16 tablet:my-[100px]
 ---
-:::block-columns-1-1-md
+:::layout-columns-1-1
 
 #left
-::::effect-appear-md
-:::::block-header-md
+::::effect-appear
+:::::block-header
 
 #subtitle
 ## *-/* Blog
@@ -26,7 +26,7 @@ class: my-16 tablet:my-[100px]
 ::::
 
 <!-- #right
-::::effect-appear-md
+::::effect-appear
 ---
 class: text-justify desktop:pr-12 tablet:mt-8
 ---
@@ -38,12 +38,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-[50px] tablet:mb-[100px]
 ---
 
-:::block-filter-posts-md
+:::block-filter-posts
 ---
 allText: Wszystkie
 contentFolder: blog
@@ -59,22 +59,22 @@ Kategorie:
 Zobacz więcej
 
 :::
-:::block-bg-map-md{class="-z-10 !-bottom-[200px] !top-auto !h-full"}
+:::block-bg-map{class="-z-10 !-bottom-[200px] !top-auto !h-full"}
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-[50px] tablet:mb-[100px]
 ---
-:::effect-appear-md
-::::block-cta-md
+:::effect-appear
+::::block-cta
 ---
 button.link: https://webo.agency/kontakt
 button.title: 'Skontaktuj się z nami'
 button.isWide: true
 maxWidth: 560
-class: block [&_.title]:!mb-4 [&_p]:max-w-[312px] [&_p]:font-medium
+class: block [&_.title]:!mb-4  [&_p]:font-medium
 ---
 
 #title
@@ -87,12 +87,12 @@ Skontaktuj się z nami i skorzystaj z bezpłatnej konsultacji
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: true
 class: mb-[50px] tablet:mb-[100px]
@@ -106,6 +106,6 @@ class: mb-[50px] tablet:mb-[100px]
 
 ::::
 :::
-:::block-brands-before-footer-md
+:::block-brands-before-footer
 :::
 ::

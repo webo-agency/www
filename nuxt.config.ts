@@ -31,7 +31,16 @@ export default {
     },
     pageTransition: { name: "page", mode: "out-in" },
   },
-  components: true,
+  components: [
+    // Every component gets a nested, path-prefixed name derived from its folder:
+    //   Block/Hero.vue     -> <BlockHero>     (::block-hero in markdown)
+    //   Prose/H2.vue       -> <ProseH2>       (## headings)
+    //   Ui/Button/Main.vue -> <UiButtonMain>
+    //   Layout/Navbar.vue  -> <LayoutNavbar>
+    // global:true registers them app-wide so MDC (::component) resolves them
+    // during SSR/prerender without an explicit import.
+    { path: "~/components", pathPrefix: true, global: true },
+  ],
   css: [
     join(currentDir, './app/assets/css/style.css'),
     join(currentDir, './app/assets/css/main.css')
@@ -169,31 +178,18 @@ export default {
   },
   vite: {
     plugins: [tailwindcss()],
+    // Pre-bundle heavy deps discovered at runtime so dev doesn't reload on first load
+    optimizeDeps: {
+       include: [
+        '@vue/devtools-core',
+        '@vue/devtools-kit',
+        '@vueuse/components',
+        '@vueuse/core',
+        'three',
+      ]
+    },
     build: {
       modulePreload: false,
-      // rollupOptions: {
-      //   output: {
-      //     experimentalMinChunkSize: 250 * 1024,
-      //     manualChunks: (id, _) => {
-      //       if (
-      //         !id.includes("node_modules") &&
-      //         !id.startsWith("virtual:") &&
-      //         !id.includes("src") &&
-      //         !id.includes("assets")
-      //       ) {
-      //         if (id.includes("pages")) {
-      //           const parts = id.split("/");
-      //           const folderIndex = parts.indexOf("pages");
-      //           if (folderIndex + 2 < parts.length) {
-      //             const pageGroup = parts[folderIndex + 1];
-      //             return `chunk-pg-${pageGroup}`;
-      //           }
-      //           return "chunk-pg-misc";
-      //         }
-      //       }
-      //     },
-      //   },
-      // },
     },
   }
 };

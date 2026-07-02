@@ -10,7 +10,7 @@ hreflangs:
 ---
 
 
-::block-banner-md
+::block-banner
 ---
 bgImg: false
 headerWidth: 720
@@ -29,7 +29,7 @@ class: desktop:mb-[150px] desktop:pt-[100px] h-auto desktop:h-[700px]
 Prowadzisz agencję i chcesz delegować pracę nad stronami swoich klientów? Wynajmij czołowych projektantów UX/UI oraz programistów i zyskaj solidnego partnera w biznesie.
 
 #clientsLogos
-:::effect-appear-md
+:::effect-appear
 ---
 class: -mt-4
 ---
@@ -40,7 +40,7 @@ class: mb-4 font-semibold text-lg
 Pracowaliśmy dla:
 ::::
 
-::::block-brands-md
+::::block-brands
 ---
 class: mb-10 desktop:mb-0 !justify-start desktop:flex-nowrap !gap-x-7 [&_picture]:opacity-90
 logos:
@@ -59,14 +59,14 @@ logos:
 :::
 
 #right
-:::effect-parallax-md
+:::effect-parallax
 ---
 parallaxScale: 0.1
 startBottom: true
 class: overflow-hidden desktop:overflow-visible
 ---
 
-::::img-decorated-md
+::::img-decorated
 ---
 imgUrl: '/img/content-images/dla-agencji/dla-agencji-banner.webp'
 decoration: false
@@ -74,7 +74,7 @@ class: tablet:w-auto !w-full desktop:mt-[-160px] desktop:-mr-10 tablet:!pl-20 de
 ---
 ::::
 
-::::img-decorated-md
+::::img-decorated
 ---
 imgUrl: '/img/content-images/dla-agencji/baner-decor-1.svg'
 decoration: false
@@ -82,7 +82,7 @@ class: mx-auto !mb-0 !p-0 hidden tablet:!block !w-[122px] tablet:!w-[122px] h-[1
 ---
 ::::
 
-::::img-decorated-md
+::::img-decorated
 ---
 imgUrl: '/img/content-images/dla-agencji/baner-decor-2.svg'
 decoration: false
@@ -93,13 +93,13 @@ class: mx-auto !mb-0 !p-0 hidden tablet:!block !w-[122px] tablet:!w-[122px] h-[1
 ::
 
 
-::page-section-md
+::ui-container
 ---
 classes: mb-10 desktop:mb-[80px]
 ---
 
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: false
 maxWidth: 1290
@@ -118,12 +118,12 @@ class: mb-[60px] [&_h2]:!text-[30px]
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 classes: mb-5 tablet:mb-32
 ---
 
-:::block-columns-1-1-md
+:::layout-columns-1-1
 ---
 class: w-auto [&_div.left]:!basis-[40%] [&_div.right]:!basis-[60%]
 reverseMobile: true
@@ -131,12 +131,12 @@ reverseMobile: true
 
 
 #left
-::::effect-appear-md
+::::effect-appear
 ---
 class: h-full relative
 ---
 
-:::::img-decorated-md
+:::::img-decorated
 ---
 imgUrl: '/img/content-images/strony-wordpress/decor_quarter_circle.svg'
 decoration: false
@@ -144,13 +144,13 @@ class: hidden desktop:block mx-auto !mb-0 !p-0 !w-[122px] !absolute bottom-[40px
 ---
 :::::
 
-:::::effect-parallax-md
+:::::effect-parallax
 ---
 parallaxScale: 0.09
 startBottom: true
 class: overflow-hidden desktop:overflow-visible
 ---
-::::::img-decorated-md
+::::::img-decorated
 ---
 imgUrl: '/img/content-images/dla-agencji/dla_agencji_img_1.webp'
 decoration: false
@@ -161,8 +161,8 @@ class: desktop:!pr-16 !w-full
 ::::
 
 #right
-::::effect-appear-md
-:::::block-header-md
+::::effect-appear
+:::::block-header
 ---
 center: false
 maxWidth: 700
@@ -204,13 +204,13 @@ class: tablet:top-0 right-0
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 classes: mb-5 tablet:mb-[100px]
 ---
 
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: true
 maxWidth: 700
@@ -225,9 +225,9 @@ class: mb-20
 ::::
 :::
 
-:::block-offer-tiles-md
+:::block-offer-tiles
 
-::::offer-tile-md
+::::tile-offer
 --- 
 icon: '/img/icons/uxui2.svg'
 class: max-h-[336px] tracking-tighter [&_p]:tracking-tighter
@@ -239,7 +239,7 @@ class: max-h-[336px] tracking-tighter [&_p]:tracking-tighter
 Projektujemy UX/UI w oparciu o realne potrzeby użytkowników, cele biznesowe i charakter marki klienta. Każdy projekt jest szyty na miarę — bez szablonów, bez schematów, bez kompromisów.
 ::::
 
-::::offer-tile-md
+::::tile-offer
 --- 
 icon: '/img/icons/page.svg'
 class: max-h-[336px] tracking-tighter [&_p]:tracking-tighter
@@ -251,7 +251,7 @@ class: max-h-[336px] tracking-tighter [&_p]:tracking-tighter
 Tworzymy nowoczesne strony oparte na solidnych technologiach i czystym kodzie. Dbamy o to, aby wdrożenie było wierne założeniom projektowym, szybkie w działaniu i gotowe na skalowanie
 ::::
 
-::::offer-tile-md
+::::tile-offer
 --- 
 icon: '/img/icons/cart.svg'
 class: max-h-[336px] tracking-tighter [&_p]:tracking-tighter
@@ -263,7 +263,7 @@ class: max-h-[336px] tracking-tighter [&_p]:tracking-tighter
 Stawiamy na intuicyjny proces sprzedażowy i wygodę użytkownika. Każde wdrożenie dopasowujemy do celu biznesowego i strategii klienta, tak aby technologia realnie wspierała sprzedaż.
 ::::
 
-::::offer-tile-md
+::::tile-offer
 --- 
 icon: '/img/icons/landing.svg'
 class: max-h-[336px] tracking-tighter [&_p]:tracking-tighter
@@ -275,7 +275,7 @@ class: max-h-[336px] tracking-tighter [&_p]:tracking-tighter
 Landingi projektujemy pod konkretny cel - sprzedaż, leady lub kampanie performance. Skupiamy się na strukturze, szybkości i celu biznesowym, zamiast powielać gotowe schematy.
 ::::
 
-::::offer-tile-md
+::::tile-offer
 --- 
 icon: '/img/icons/web_app.svg'
 class: max-h-[336px] tracking-tighter [&_p]:tracking-tighter
@@ -287,7 +287,7 @@ class: max-h-[336px] tracking-tighter [&_p]:tracking-tighter
 Tworzymy aplikacje webowe szyte pod konkretne potrzeby firm, takie jak systemy CRM, systemy rezerwacji, panele administracyjne czy narzędzia wspierające procesy wewnętrzne.
 ::::
 
-::::offer-tile-md
+::::tile-offer
 --- 
 icon: '/img/icons/settings.svg'
 class: max-h-[336px] tracking-tighter [&_p]:tracking-tighter
@@ -301,11 +301,11 @@ Wdrażamy nowe funkcje, tworzymy nowe podstrony,  optymalizujemy UX/UI i dbamy o
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-[100px] tablet:mb-[100px]
 ---
-:::effect-appear-md
+:::effect-appear
 
 :::svg-decorated
 ---
@@ -314,7 +314,7 @@ class: top-20 right-[15%] fullHd:right-[20%] scale-x-[-1.6] scale-y-[1.6]
 ---
 :::
 
-::::block-cta-md
+::::block-cta
 ---
 maxWidth: 700
 button.link: https://webo.agency/kontakt
@@ -334,13 +334,13 @@ Umów się na bezpłatną konsultacjęSkontaktuj się z nami i porozmawiajmy na 
 ::
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-10 tablet:mb-[100px] bg-gray-darkest relative z-10 overflow-hidden pt-10 tablet:pt-[100px] [&_.right]:relative [&_.right]:flex [&_.right]:items-end
 ---
 
-::::effect-appear-md
-:::::block-header-md
+::::effect-appear
+:::::block-header
 ---
 textWhite: true
 class: mb-10 tablet:mb-20 relative z-10
@@ -354,12 +354,12 @@ class: mb-10 tablet:mb-20 relative z-10
 :::::
 ::::
 
-::::block-list-ul-md
+::::block-list-ul
 ---
 class: mb-10 tablet:mb-20 gap-5 columns-1 tablet:columns-3 [&_li]:inline-block space-y-5 tablet-wide:w-3/4
 ---
 
-:::::tile-dark-icon-md
+:::::tile-dark-icon
 ---
 iconUrl: '/img/icons/coding2.svg'
 delay: 0
@@ -373,7 +373,7 @@ class: desktop:min-h-[340px]
 Cały obszar UX, UI, developmentu i supportu bierzemy na siebie. Ty możesz skupić się na strategii, kreacji i relacji z klientem, bez wchodzenia w techniczne detale.
 :::::
 
-:::::tile-dark-icon-md
+:::::tile-dark-icon
 ---
 iconUrl: '/img/icons/avatar_star.svg'
 delay: 2
@@ -388,7 +388,7 @@ Zapewniamy Project Managera, który może występować jako część waszego zes
 
 :::::
 
-:::::tile-dark-icon-md
+:::::tile-dark-icon
 ---
 iconUrl: '/img/icons/dollar.svg'
 delay: 1
@@ -402,7 +402,7 @@ class: mt-5 desktop:min-h-[340px]
 Na podstawie przekazanych założeń przygotowujemy kosztorys, zakres i harmonogram prac. Następnie dopracowujemy je wspólnie, tak aby oferta była atrakcyjna dla klienta i opłacalna dla obu stron.
 :::::
 
-:::::tile-dark-icon-md
+:::::tile-dark-icon
 ---
 iconUrl: '/img/icons/scaling_chart.svg'
 delay: 3
@@ -416,7 +416,7 @@ class: desktop:min-h-[340px]
 Mało zleceń? Nie generujecie kosztów. Dużo projektów? Macie zaplecze, które to udźwignie. Współpraca z podwykonawcą daje elastyczność bez ryzyka kadrowego.
 :::::
 
-:::::tile-dark-icon-md
+:::::tile-dark-icon
 ---
 iconUrl: '/img/icons/path.svg'
 delay: 3
@@ -430,7 +430,7 @@ class: desktop:min-h-[340px] tablet:!mt-0
 Pracujecie z zespołem, który ma proces i bierze odpowiedzialność za terminy, nie pracujemy z dostępnością „jak się uda”. To oznacza przewidywalność, powtarzalną jakość i mniej gaszenia pożarów.
 :::::
 
-:::::tile-dark-icon-md
+:::::tile-dark-icon
 ---
 iconUrl: '/img/icons/circles.svg'
 delay: 3
@@ -445,18 +445,18 @@ Pracujemy jako podwykonawca który dopasowuje się do Twojego biznesu. Działamy
 :::::
 ::::
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: tablet:absolute inset-y-0 right-0 tablet:w-[45%]
 ---
-:::::effect-parallax-md
+:::::effect-parallax
 ---
 parallaxScale: 0.15
 startBottom: true
 class: overflow-hidden tablet:overflow-visible tablet:h-full
 innerClass: tablet:h-full
 ---
-::::::img-decorated-md
+::::::img-decorated
 ---
 imgUrl: '/img/content-images/dla-agencji/dla_agencji_img_2.webp'
 decoration: false
@@ -469,28 +469,28 @@ class: mt-0 !mb-0 !pl-0 !w-full tablet:h-full [&>div]:tablet:h-full [&_img]:obje
 ::
 
 
-::page-section-md
+::ui-container
 ---
 classes: mb-20 tablet:mb-[80px] [&_.right]:flex [&_.right]:flex-col [&_.right]:justify-center
 ---
 
-:::block-columns-1-1-md
+:::layout-columns-1-1
 
 #left
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: relative overflow-hidden tablet:overflow-visible -mx-5 tablet:mx-0
 ---
 
-:::::img-decorated-md
+:::::img-decorated
 ---
 imgUrl: '/img/content-images/strony-wordpress/decor_quarter_circle.svg'
 decoration: false
 class: hidden desktop:block mx-auto !mb-0 !p-0 !w-[122px] !absolute bottom-[100px] left-[-61px]
 ---
 :::::
-:::::img-decorated-md
+:::::img-decorated
 ---
 imgUrl: '/img/content-images/dla-agencji/dla_agencji_img_3.webp'
 decoration: false
@@ -502,11 +502,11 @@ class: hidden tablet:block tablet:mb-20 tablet:!pr-20 !mb-10 z-0
 
 #right
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: relative z-20
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 680
 class: mb-10
@@ -522,9 +522,9 @@ class: mb-10
 
 :::::
 
-:::::block-faq-simple-md
+:::::block-faq-simple
 
-::::::faq-item-simple-md
+::::::block-faq-simple-item
 ---
 number: '01'
 ---
@@ -537,7 +537,7 @@ Tworzymy strony i sklepy w oparciu o czysty, zoptymalizowany kod zgodny z aktual
 
 ::::::
 
-::::::faq-item-simple-md
+::::::block-faq-simple-item
 ---
 number: '02'
 ---
@@ -550,7 +550,7 @@ Projektujemy UX/UI w oparciu o realne potrzeby użytkowników, cele biznesowe i 
 
 ::::::
 
-::::::faq-item-simple-md
+::::::block-faq-simple-item
 ---
 number: '03'
 ---
@@ -562,7 +562,7 @@ number: '03'
 Doradzamy w zakresie UX/UI, technologii i architektury rozwiązań już na etapie planowania projektu. Dzięki temu sprzedajesz klientom przemyślane rozwiązania, które łatwo obronić w rozmowach biznesowych.
 ::::::
 
-::::::faq-item-simple-md
+::::::block-faq-simple-item
 ---
 number: '04'
 ---
@@ -575,7 +575,7 @@ Bierzemy pełną odpowiedzialność za to, co dowozimy, i zapewniamy 12 miesięc
 
 ::::::
 
-::::::faq-item-simple-md
+::::::block-faq-simple-item
 ---
 number: '05'
 ---
@@ -588,7 +588,7 @@ Możemy podłączyć się do waszych narzędzi i kanałów komunikacji, takich j
 
 ::::::
 
-::::::faq-item-simple-md
+::::::block-faq-simple-item
 ---
 number: '06'
 ---
@@ -607,13 +607,13 @@ Mamy doświadczenie w pracy zarówno w modelu white label, jak i w modelu partne
 
 
 
-::page-section-md
+::ui-container
 ---
 classes: mb-10 tablet:mb-20
 ---
 
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: true
 maxWidth: 800
@@ -631,10 +631,10 @@ Oferujemy dwa modele współpracy, które dopasowujemy do sposobu działania Two
 
 ::::
 
-::::block-columns-1-1-md
+::::layout-columns-1-1
 
 #left
-::::card-icon-md
+::::tile-icon
 ---
 class: tablet:pr-2.5 [&_div_div]:bg-black [&_div_div]:!text-white
 icon: '/img/icons/partnership_gray_bg.svg'
@@ -643,11 +643,11 @@ icon: '/img/icons/partnership_gray_bg.svg'
 #### Współpraca partnerska
 
 #content
-:::::block-list-ul-md
+:::::block-list-ul
 ---
 decoration: false
 ---
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/arrow_up.svg'
 iconBig: false
@@ -659,7 +659,7 @@ class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit [&_div_div]:fl
 **<u>Przekazujesz klienta, my przejmujemy realizację</u>** - Po poleceniu klient trafia bezpośrednio do nas, a my odpowiadamy za cały dalszy proces. To model, w którym nie działamy w tle, tylko jako jawny partner w realizacji.
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/arrow_up.svg'
 iconBig: false
@@ -671,7 +671,7 @@ class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit [&_div_div]:fl
 **<u>Sprzedaż i pełna obsługa po naszej stronie</u>** - Prowadzimy cały proces sprzedażowy, ustalamy zakres, kosztorys i harmonogram bezpośrednio z klientem. Ty nie angażujesz swojego zespołu w ofertowanie ani prowadzenie projektu.
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/arrow_up.svg'
 iconBig: false
@@ -683,7 +683,7 @@ class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit [&_div_div]:fl
 **<u>Proste rozliczenie prowizyjne</u>** - Rozliczamy się bezpośrednio z klientem końcowym, a Twoja agencja otrzymuje prowizję za polecenie. Minimum formalności i zero odpowiedzialności projektowej po Twojej stronie.
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/arrow_up.svg'
 iconBig: false
@@ -698,7 +698,7 @@ class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit [&_div_div]:fl
 ::::
 
 #right
-::::card-icon-md
+::::tile-icon
 ---
 class:  tablet:mt-[50px] tablet:pl-2.5
 icon: '/img/icons/white_label.svg'
@@ -707,11 +707,11 @@ icon: '/img/icons/white_label.svg'
 #### White Label
 
 #content
-:::::block-list-ul-md
+:::::block-list-ul
 ---
 decoration: false
 ---
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/arrow_up.svg'
 iconBig: false
@@ -723,7 +723,7 @@ class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit [&_div_div]:fl
 **<u>Działamy jako część Twojej agencji</u>** - Przybieramy barwy Twojej marki i komunikujemy się tak, jakbyśmy byli integralnym elementem zespołu. Dla klienta końcowego występujesz Ty - my pracujemy w tle.
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/arrow_up.svg'
 iconBig: false
@@ -735,7 +735,7 @@ class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit [&_div_div]:fl
 **<u>Wspólna sprzedaż i przygotowanie kosztorysu</u>** - Bierzemy udział w procesie sprzedażowym, przygotowując kosztorys i zakres prac na bazie założeń projektowych. Następnie dopracowujemy ofertę razem, tak aby była atrakcyjna dla klienta i opłacalna dla Twojej agencji.
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/arrow_up.svg'
 iconBig: false
@@ -747,7 +747,7 @@ class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit [&_div_div]:fl
 **<u>Jasny podział formalności i rozliczeń</u>** - Formalizujemy współpracę na linii my–agencja oraz agencja–klient. Ty rozliczasz się z klientem, my z Tobą - a Twoja agencja zarabia na ustalonej marży.
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/arrow_up.svg'
 iconBig: false
@@ -765,7 +765,7 @@ class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit [&_div_div]:fl
 ::
 
 
-::block-cta-md
+::block-cta
 ---
 maxWidth: 700
 button.link: https://webo.agency/kontakt
@@ -781,12 +781,12 @@ class: tablet:mb-36
 Skontaktuj się i porozmawiajmy o współpracy dopasowaej do Twojego biznesu.
 ::
 
-::page-section-md
+::ui-container
 ---
 classes: hidden mb-20 tablet:mb-[100px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: true
 maxWidth: 550
@@ -802,10 +802,10 @@ class: mb-20
 ::::
 :::
 
-:::block-columns-1-1-md
+:::layout-columns-1-1
 
 #left
-::::card-icon-md
+::::tile-icon
 ---
 class: tablet:pr-2.5 tablet:h-[490px]
 icon: '/img/content-images/dla-agencji/logo_grow.svg'
@@ -829,7 +829,7 @@ class: mb-0 leading-7
 ::::
 
 #right
-::::card-icon-md
+::::tile-icon
 ---
 class:  tablet:pl-2.5 tablet:h-[490px]
 icon: '/img/content-images/dla-agencji/logo_trafficpeaks.svg'
@@ -854,10 +854,10 @@ class: tablet:mb-16 desktop:mb-20 leading-7
 :::
 
 
-:::block-columns-1-1-md
+:::layout-columns-1-1
 
 #left
-::::card-icon-md
+::::tile-icon
 ---
 class: tablet:pr-2.5 tablet:h-[490px]
 icon: '/img/content-images/dla-agencji/logo_oxy.svg'
@@ -881,7 +881,7 @@ class: mb-0 leading-7
 ::::
 
 #right
-::::card-icon-md
+::::tile-icon
 ---
 class: tablet:pl-2.5 tablet:h-[490px]
 icon: '/img/content-images/dla-agencji/logo_sembility.svg'
@@ -908,13 +908,13 @@ class: tablet:mb-16 desktop:mb-20 leading-7
 
 
 
-::page-section-md
+::ui-container
 ---
 id: realizacje
 class: mb-[80px] tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 class: mb-10 tablet:mb-20
 maxWidth: 550
@@ -929,7 +929,7 @@ maxWidth: 550
 ::::
 :::
 
-:::block-cases-md
+:::block-cases
 ---
 contentFolder: realizacje
 moreBtn.url: 'https://webo.agency/realizacje'
@@ -945,13 +945,13 @@ selectedSlugs:
 ::
 
 
-::page-section-md
+::ui-container
 ---
 id: opinie
 class: mb-[50px] tablet:mb-[100px]
 ---
 
-:::block-columns-1-1-md
+:::layout-columns-1-1
 ---
 class: mb-10 tablet:mb-24 [&_.right]:flex [&_.right]:items-center tablet:[&_.right]:justify-end [&_.right]:gap-[15px]
 ---
@@ -976,8 +976,8 @@ text: See all our reviews
 ::::
 
 #left
-::::effect-appear-md
-:::::block-header-md
+::::effect-appear
+:::::block-header
 
 #subtitle
 ### *9/*  Opinie
@@ -991,9 +991,9 @@ text: See all our reviews
 
 
 #full
-:::effect-appear-md
-::::block-opinions-md
-:::::opinion-md
+:::effect-appear
+::::block-opinions
+:::::tile-opinion
 ---
 rating: 5
 ---
@@ -1009,7 +1009,7 @@ Administrator IT - **Mancraft**
 Dzięki pracy Webo mój klient osiągnął wyższe pozycje w wyszukiwarkach, **poprawił satysfakcję użytkowników i zwiększył ich zaangażowanie**. Firma proaktywnie **zarządzała ryzykiem** i zapewniała alternatywne rozwiązanie, aby osiągnąć cele klienta. Ich **szybkość reakcji i kreatywność** były godne pochwały.
 
 :::::
-:::::opinion-md
+:::::tile-opinion
 ---
 rating: 5
 ---
@@ -1024,7 +1024,7 @@ Członek zarządu - **DeltaHR**
 Bardzo profesjonalna firma, indywidualne podejście do klienta, **dobry i ciągły kontakt** co pozwala na bieżąco kontrolować pracę nad projektem. **Każdy szczegół dopracowany** dokładnie tak jak tego oczekiwałem, śmiało i z czystym sumieniem mogę polecić. **Wiedza, podejście do klienta, czas realizacji** - wszystko 10/10.
 
 :::::
-:::::opinion-md
+:::::tile-opinion
 ---
 rating: 5
 ---
@@ -1039,7 +1039,7 @@ CEO & CO-OWNER - **Agencja Grow**
 Współpraca z ekipą jest niesamowita. **Gwarancja jakości**, **responsywności i kreatywności**. Polecam baaaardzo!
 
 :::::
-:::::opinion-md
+:::::tile-opinion
 ---
 rating: 5
 ---
@@ -1054,7 +1054,7 @@ Marketing Department - **Thoro / SOLLUX**
 Polecam współpracę z firmą Webo. **Rzetelnie wykonują założone taski** i **szukają najlepszych rozwiązań**.
 
 :::::
-:::::opinion-md
+:::::tile-opinion
 ---
 rating: 5
 ---
@@ -1071,7 +1071,7 @@ Konsultant strategii w biznesie - **Krakowski świstak**
 
 
 :::::
-:::::opinion-md
+:::::tile-opinion
 ---
 rating: 5
 ---
@@ -1086,7 +1086,7 @@ Business manager - **Oravio**
 Pomogli nam w przelaniu naszych wizji sklepu internetowego na realny, **dobrze odbierany przez klientów** i przede wszystkim sprawnie działający sklep! Dziękujemy i **polecamy Webo!** : )
 
 :::::
-:::::opinion-md
+:::::tile-opinion
 ---
 rating: 5
 ---
@@ -1105,12 +1105,12 @@ Właściciel - **Caffe wasyl**
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: true
 class: mb-[50px] tablet:mb-[100px]
@@ -1124,13 +1124,13 @@ class: mb-[50px] tablet:mb-[100px]
 
 ::::
 :::
-:::block-brands-before-footer-md
+:::block-brands-before-footer
 :::
 ::
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::block-form-before-footer-md
+:::block-form-before-footer
 :::
 ::

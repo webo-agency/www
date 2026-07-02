@@ -8,7 +8,7 @@ hreflangs:
     EN: '/services/wordpress-websites/'
     PL: '/uslugi/strony-wordpress/'
 ---
-::block-banner-md
+::block-banner
 ---
 bgImg: false
 headerWidth: 680
@@ -25,7 +25,7 @@ isSecondSvg: true
 Szukasz doświadczonego zespołu od Wordpressa, który zaprojektuje i zakoduje Twoją stronę od podstaw? Dobrze trafiłeś!
 
 #right
-:::block-banner-decoration-md
+:::block-banner-decoration
 ---
 svgUrl_bl: '/img/svg-arc.svg'
 svgUrl_tr: '/img/svg-square.svg'
@@ -33,12 +33,12 @@ svgUrl_tr: '/img/svg-square.svg'
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 classes: mb-[100px] tablet:mb-[200px] overflow-x-clip overflow-y-visible
 ---
-:::effect-appear-md
-::::block-columns-1-1-md
+:::effect-appear
+::::layout-columns-1-1
 ---
 reverseMobile: true
 class: items-center
@@ -46,7 +46,7 @@ class: items-center
 
 #left
 
-:::::block-header-md
+:::::block-header
 
 #subtitle
 ### *1/*  Projektowanie i programowanie w Wordpress
@@ -71,7 +71,7 @@ Zaprojektujemy dla Ciebie indywidualny wygląd strony, pasujący do Twojej marki
 :::::
 
 #right
-:::::img-decorated-md
+:::::img-decorated
 ---
 class: block _hidden desktop:block [&_.block]:scale-[1.2] [&_.block]:ml-[-20px] desktop:[&_.block_picture]:absolute desktop-wide:[&_.block_picture]:bottom-[-220px] desktop:[&_.block_picture]:bottom-[-100px] fullHd:[&_.block_picture]:bottom-[-240px] 
 decoration: false
@@ -82,13 +82,13 @@ imgUrl: '/img/content-images/strony-wordpress/laptop_mockup_3.webp'
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 classes: mb-10 tablet:mb-20
 ---
 
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 class: mb-10 tablet:mb-20 [&_.description]:!text-base
 maxWidth: 640
@@ -106,8 +106,8 @@ center: true
 ::::
 :::
 
-:::block-offer-tiles-md
-::::offer-tile-md
+:::block-offer-tiles
+::::tile-offer
 --- 
 icon: '/img/icons/wordpress-icon1.svg'
 ---
@@ -118,7 +118,7 @@ icon: '/img/icons/wordpress-icon1.svg'
 
 ::::
 
-::::offer-tile-md
+::::tile-offer
 --- 
 icon: '/img/icons/wordpress-icon2.svg'
 delay: 1
@@ -130,7 +130,7 @@ delay: 1
 
 ::::
 
-::::offer-tile-md
+::::tile-offer
 --- 
 icon: '/img/icons/wordpress-icon3.svg'
 delay: 2
@@ -142,7 +142,7 @@ delay: 2
 
 ::::
 
-::::offer-tile-md
+::::tile-offer
 --- 
 icon: '/img/icons/wordpress-icon4.svg'
 delay: 3
@@ -154,7 +154,7 @@ delay: 3
 
 ::::
 
-::::offer-tile-md
+::::tile-offer
 --- 
 icon: '/img/icons/wordpress-icon5.svg'
 delay: 4
@@ -166,7 +166,7 @@ delay: 4
 
 ::::
 
-::::offer-tile-md
+::::tile-offer
 --- 
 icon: '/img/icons/wordpress-icon6.svg'
 delay: 5
@@ -179,18 +179,18 @@ delay: 5
 ::::
 :::
 
-:::block-bg-map-md
+:::block-bg-map
 ---
 class: -z-10
 ---
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-[100px] tablet:mb-[100px]
 ---
-:::effect-appear-md
+:::effect-appear
 
 :::svg-decorated
 ---
@@ -206,7 +206,7 @@ class: block desktop:hidden top-0 right-0
 ---
 ::::
 
-::::block-cta-md
+::::block-cta
 ---
 maxWidth: 730
 button.link: https://webo.agency/kontakt/
@@ -225,18 +225,18 @@ Umów się na bezpłatną konsultację i opowiedz nam więcej o swoim projekcie
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 classes: bg-gray-darkest pt-10 tablet:pt-[100px] mb-[100px]
 ---
 
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: relative z-20
 ---
 
-::::block-header-md
+::::block-header
 ---
 maxWidth: 690
 class: mb-10 tablet:mb-20
@@ -252,15 +252,15 @@ center: true
 
 ::::
 
-::::block-columns-1-1-md
+::::layout-columns-1-1
 ---
 class: mb-16
 ---
 
 #left
 
-:::::effect-appear-md
-::::::block-header-md
+:::::effect-appear
+::::::block-header
 ---
 maxWidth: 700
 class: mb-10 tablet:mb-16 tablet:mt-10
@@ -268,7 +268,7 @@ textWhite: true
 ---
 
 #subtitle
-:::::::img-decorated-md
+:::::::img-decorated
 ---
 imgUrl: '/img/icons/dark-laptop.svg'
 decoration: false
@@ -297,19 +297,19 @@ Dodatkowo dzięki naszemu podejściu ograniczasz koszty utrzymania strony, zwię
 :::::
 
 #right
-:::::effect-appear-md
+:::::effect-appear
 ---
 class: relative
 ---
 
-::::::img-decorated-md
+::::::img-decorated
 ---
 imgUrl: '/img/content-images/wsparcie-wordpress/decor-square.svg'
 decoration: false
 class: mx-auto !mb-0 !p-0 !w-[100px] tablet:!w-[100px] h-[100px] !absolute !bottom-[-50px] tablet:!bottom-[20px] right-[-10px] tablet:!right-[-50px]
 ---
 ::::::
-::::::img-decorated-md
+::::::img-decorated
 ---
 imgUrl: '/img/content-images/strony-wordpress/dark-laptop.png'
 decoration: false
@@ -320,7 +320,7 @@ class: w-full z-0
 :::::
 ::::
 
-::::block-columns-1-1-md
+::::layout-columns-1-1
 ---
 reverseMobile: true
 class: mb-16
@@ -328,19 +328,19 @@ class: mb-16
 
 #left
 
-:::::effect-appear-md
+:::::effect-appear
 ---
 class: relative
 ---
 
-::::::img-decorated-md
+::::::img-decorated
 ---
 imgUrl: '/img/content-images/wsparcie-wordpress/decor-circle.svg'
 decoration: false
 class: mx-auto !mb-0 !p-0 hidden tablet:!block !w-[122px] tablet:!w-[122px] h-[122px] !absolute !top-[-50px] tablet:!top-[120px] left-[-10px] tablet:!left-[-70px] z-0
 ---
 ::::::
-::::::img-decorated-md
+::::::img-decorated
 ---
 imgUrl: '/img/content-images/strony-wordpress/dark-laptop2.png'
 decoration: false
@@ -351,8 +351,8 @@ class: w-full z-0
 :::::
 
 #right
-:::::effect-appear-md
-::::::block-header-md
+:::::effect-appear
+::::::block-header
 ---
 maxWidth: 700
 class: mb-10 tablet:mb-16 tablet:mt-10
@@ -360,7 +360,7 @@ textWhite: true
 ---
 
 #subtitle
-:::::::img-decorated-md
+:::::::img-decorated
 ---
 imgUrl: '/img/icons/dark-uxui.svg'
 decoration: false
@@ -389,12 +389,12 @@ Odpowiednie przygotowany projekt strony przynosi szereg korzyści m.in. zwiększ
 :::::
 ::::
 
-::::block-columns-1-1-md
+::::layout-columns-1-1
 
 #left
 
-:::::effect-appear-md
-::::::block-header-md
+:::::effect-appear
+::::::block-header
 ---
 maxWidth: 700
 class: mb-10 tablet:mb-16 tablet:mt-10 pb-12
@@ -402,7 +402,7 @@ textWhite: true
 ---
 
 #subtitle
-:::::::img-decorated-md
+:::::::img-decorated
 ---
 imgUrl: '/img/icons/dark-weight.svg'
 decoration: false
@@ -431,19 +431,19 @@ Wysokiej jakości kod w połączeniu z nowoczesnymi narzędziami i technologią 
 :::::
 
 #right
-:::::effect-appear-md
+:::::effect-appear
 ---
 class: relative
 ---
 
-::::::img-decorated-md
+::::::img-decorated
 ---
 imgUrl: '/img/content-images/wsparcie-wordpress/decor-square.svg'
 decoration: false
 class: mx-auto !mb-0 !p-0 !w-[100px] tablet:!w-[100px] h-[100px] !absolute !bottom-[-50px] tablet:!bottom-[20px] left-[-10px] tablet:!left-[70px]
 ---
 ::::::
-::::::img-decorated-md
+::::::img-decorated
 ---
 imgUrl: '/img/content-images/strony-wordpress/dark-laptop3.png'
 decoration: false
@@ -460,12 +460,12 @@ class: text-[#FFF] text-3xl font-semibold !mb-10 pt-[60px] border-t-[1px] border
 ---
 Bezwzględnie stawiamy na:
 ::::
-::::block-list-ul-md
+::::block-list-ul
 ---
 class: mb-10 gap-5 columns-1 flex flex-col tablet:flex-row _tablet:columns-3 [&_li]:inline-block tablet:w-full
 ---
 
-:::::tile-dark-icon-md
+:::::tile-dark-icon
 ---
 iconUrl: '/img/icons/code-page.svg'
 class: desktop:min-h-[270px] w-1/3
@@ -478,7 +478,7 @@ class: desktop:min-h-[270px] w-1/3
 
 :::::
 
-:::::tile-dark-icon-md
+:::::tile-dark-icon
 ---
 iconUrl: '/img/icons/gears.svg'
 delay: 1
@@ -492,7 +492,7 @@ class: desktop:min-h-[270px] w-1/3
 
 :::::
 
-:::::tile-dark-icon-md
+:::::tile-dark-icon
 ---
 iconUrl: '/img/icons/pencil.svg'
 delay: 2
@@ -510,18 +510,18 @@ class:  desktop:min-h-[270px] w-1/3
 ::
 
 
-::page-section-md
+::ui-container
 ---
 classes: mb-10 tablet:mb-20
 ---
-:::block-columns-1-1-md
+:::layout-columns-1-1
 ---
 class: mb-10
 ---
 
 #left
-::::effect-appear-md
-:::::block-header-md
+::::effect-appear
+:::::block-header
 ---
 maxWidth: 580
 class: mb-7
@@ -537,14 +537,14 @@ class: mb-7
 ::::
 
 #right
-::::effect-appear-md
+::::effect-appear
 Do stworzenia nowoczesnej strony internetowej potrzeba szerokiej wiedzy z zakresu technologii i projektowania nastawionego na użytkownika oraz wypracowanego procesu, który zapewnia realizację założeń bez obsuw czasowych i w ustalonym budżecie.
 ::::
 :::
 
 #full
 
-:::block-swiper-tabs-md
+:::block-swiper-tabs
 ---
 tabNames:
     - Analiza założeń
@@ -553,11 +553,11 @@ tabNames:
     - Testy i publikacja
     - Wsparcie i rozwój
 ---
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/magnifier.svg'
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 700
 ---
@@ -580,11 +580,11 @@ Jest to pierwszy krok jaki musimy wykonać w celu realizacji strony internetowej
 ::::
 
 
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/www-uxui.svg'
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 700
 ---
@@ -604,11 +604,11 @@ Podczas tego etapu pracujemy nad wyglądem strony www. Prace zaczynamy od przean
 :::::
 ::::
 
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/www-code.svg'
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 700
 ---
@@ -631,11 +631,11 @@ Po zaakceptowaniu projektu interfejsu, rozpoczynamy prace nad kompleksowym wdro�
 
 
 
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/www-tests.svg'
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 700
 ---
@@ -656,11 +656,11 @@ W tym etapie gruntownie sprawdzamy działanie strony internetowej. Testy wykonuj
 ::::
 
 
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/www-support.svg'
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 700
 ---
@@ -684,35 +684,35 @@ Często publikacja strony to dopiero początek, a podczas użytkowania strony po
 ::
 
 
-::page-section-md
+::ui-container
 ---
 classes: mb-20 tablet:mb-[100px]
 ---
 
-:::block-columns-1-1-md
+:::layout-columns-1-1
 
 #left
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: relative overflow-hidden tablet:overflow-visible -mx-5 tablet:mx-0
 ---
 
-:::::img-decorated-md
+:::::img-decorated
 ---
 imgUrl: '/img/content-images/strony-wordpress/decor_code.svg'
 decoration: false
 class: hidden desktop:block mx-auto !mb-0 !p-0 !w-[100px] tablet:!w-[230px] !absolute top-1/3 right-0
 ---
 :::::
-:::::img-decorated-md
+:::::img-decorated
 ---
 imgUrl: '/img/content-images/strony-wordpress/decor_quarter_circle.svg'
 decoration: false
 class: hidden desktop:block mx-auto !mb-0 !p-0 !w-[122px] !absolute bottom-[100px] left-[-61px]
 ---
 :::::
-:::::img-decorated-md
+:::::img-decorated
 ---
 imgUrl: '/img/content-images/strony-wordpress/laptop_mockup_4_4.webp'
 decoration: false
@@ -724,11 +724,11 @@ class: tablet:mb-20 !mb-10 z-0
 
 #right
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: relative z-20
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 680
 class: mb-10
@@ -760,19 +760,19 @@ Jako **firma tworząca strony WordPress od podstaw**, doskonale rozumiemy potrze
 ::::
 ::
 
-::page-section-md
+::ui-container
 ---
 classes: mb-10 tablet:mb-20
 ---
 
-:::block-columns-1-1-md
+:::layout-columns-1-1
 ---
 class: mb-20
 ---
 
 #left
-::::effect-appear-md
-:::::block-header-md
+::::effect-appear
+:::::block-header
 ---
 maxWidth: 520
 class: mb-5
@@ -788,7 +788,7 @@ class: mb-5
 ::::
 
 #right
-::::effect-appear-md
+::::effect-appear
 ---
 class: h-full flex items-center
 ---
@@ -797,18 +797,18 @@ Dla wielu klientów WordPress kojarzy się z prostym edytorem treści. Tymczasem
 ::::
 :::
 
-:::block-columns-1-1-1-md
+:::layout-columns-1-1-1
 ---
 class: mb-10 tablet:mb-20 tablet:gap-[30px]
 ---
 
 #left
-::::effect-appear-md
-:::::block-list-ul-md
+::::effect-appear
+:::::block-list-ul
 ---
 decoration: false
 ---
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/uxui_bg_gray.svg'
 iconBig: true
@@ -824,7 +824,7 @@ class: text-left [&_h4]:text-lg [&_h4]:tablet:text-xl !min-h-[150px] tablet:!max
 
 ::::::
 
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/icon-code-gray.svg'
 iconBig: true
@@ -844,9 +844,9 @@ class: text-left [&_h4]:text-lg [&_h4]:tablet:text-xl !min-h-[150px] tablet:!max
 
 
 #center-col
-::::effect-appear-md
-:::::block-list-ul-md
-::::::list-item-ul-active-md
+::::effect-appear
+:::::block-list-ul
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/icon-tree.svg'
 iconBig: true
@@ -862,7 +862,7 @@ class: text-left [&_h4]:text-lg [&_h4]:tablet:text-xl !min-h-[150px] tablet:!max
 #description
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/icon-integration.svg'
 iconBig: true
@@ -881,13 +881,13 @@ class: text-left [&_h4]:text-lg [&_h4]:tablet:text-xl !min-h-[150px] tablet:!max
 ::::
 
 #right
-::::effect-appear-md
-:::::block-list-ul-md
+::::effect-appear
+:::::block-list-ul
 ---
 decoration: false
 ---
 
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/icon-cube.svg'
 iconBig: true
@@ -901,7 +901,7 @@ class: text-left [&_h4]:text-lg [&_h4]:tablet:text-xl !min-h-[150px] tablet:!max
 #description
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/icon-docs.svg'
 iconBig: true
@@ -922,11 +922,11 @@ class: text-left [&_h4]:text-lg [&_h4]:tablet:text-xl !min-h-[150px] tablet:!max
 ::
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-[100px] tablet:mb-[100px]
 ---
-:::effect-appear-md
+:::effect-appear
 
 ::::svg-bg-dots
 ---
@@ -935,7 +935,7 @@ class: block desktop:hidden top-0 right-0
 ---
 ::::
 
-::::block-cta-md
+::::block-cta
 ---
 maxWidth: 1300
 class: tablet:mb-36 [&_.description]:desktop:!text-lg !p-[40px] border border-[#DEE7E5] [&_a]:hidden
@@ -950,17 +950,17 @@ class: tablet:mb-36 [&_.description]:desktop:!text-lg !p-[40px] border border-[#
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[100px]
 ---
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: bg-green-gray relative
 ---
 
-::::img-decorated-md
+::::img-decorated
 ---
 imgUrl: '/img/svg-arc.svg'
 decoration: false
@@ -968,7 +968,7 @@ class: tablet:!pl-0 !mb-0 !w-[80px] tablet:!w-[122px] !absolute top-[20px] table
 ---
 ::::
 
-::::img-decorated-md
+::::img-decorated
 ---
 imgUrl: '/img/svg-square.svg'
 decoration: false
@@ -976,10 +976,10 @@ class: tablet:!pl-0 !mb-0 !w-[60px] tablet:!w-[100px] !absolute bottom-[20px] ta
 ---
 ::::
 
-::::block-faq-md
+::::block-faq
 
 #header
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 900
 class: mb-[50px] text-center relative
@@ -993,7 +993,7 @@ class: mb-[50px] text-center relative
 
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Ile kosztuje stworzenie strony na WordPress?
@@ -1003,7 +1003,7 @@ Koszt stworzenia strony internetowej w WordPress zależy od stopnia złożonośc
 
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Czy tworzycie strony WordPress od zera?
@@ -1012,7 +1012,7 @@ Koszt stworzenia strony internetowej w WordPress zależy od stopnia złożonośc
 Tak, **tworzenie strony internetowej** w naszym wykonaniu oznacza szyty na miarę projekt graficzny oraz programowanie od podstaw, bez użycia gotowych szablonów. Dzięki temu masz pełną kontrolę nad wyglądem i funkcjonalnością, a Twoja strona jest szybka, bezpieczna i dopasowana do biznesu.
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Czy mogę samodzielnie edytować treści na stronie?
@@ -1022,7 +1022,7 @@ Tak, to jedna z głównych zalet systemu WordPress. Po wdrożeniu strony otrzyma
 
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Czy oferujecie również wsparcie po wdrożeniu?
@@ -1031,7 +1031,7 @@ Tak, to jedna z głównych zalet systemu WordPress. Po wdrożeniu strony otrzyma
 Tak. Jako **firma tworząca strony WordPress**, zapewniamy nie tylko realizację projektu, ale także wsparcie techniczne, aktualizacje, monitoring oraz możliwość dalszej rozbudowy strony – zgodnie z Twoimi potrzebami.
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Jak długo trwa realizacja strony WordPress?
@@ -1044,11 +1044,11 @@ Tak. Jako **firma tworząca strony WordPress**, zapewniamy nie tylko realizację
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-[100px] tablet:mb-[100px]
 ---
-:::effect-appear-md
+:::effect-appear
 
 :::svg-decorated
 ---
@@ -1064,7 +1064,7 @@ class: block desktop:hidden top-0 right-0
 ---
 ::::
 
-::::block-cta-md
+::::block-cta
 ---
 maxWidth: 730
 button.link: https://webo.agency/kontakt/
@@ -1083,13 +1083,13 @@ Jeśli posiadasz już projekt strony www ale szukasz specjalistów którzy ją z
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 id: realizacje
 class: mb-[80px] tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 class: mb-10 tablet:mb-20
 ---
@@ -1103,7 +1103,7 @@ class: mb-10 tablet:mb-20
 ::::
 :::
 
-:::block-cases-md
+:::block-cases
 ---
 contentFolder: realizacje
 selectedSlugs:
@@ -1117,12 +1117,12 @@ moreBtn.linktitle: Zobacz wszystkie projekty
 ::
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: true
 class: mb-[50px] tablet:mb-[100px]
@@ -1136,15 +1136,15 @@ class: mb-[50px] tablet:mb-[100px]
 
 ::::
 :::
-:::block-brands-before-footer-md
+:::block-brands-before-footer
 :::
 ::
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-form-before-footer-md
+:::effect-appear
+::::block-form-before-footer
 ::::
 :::
 ::

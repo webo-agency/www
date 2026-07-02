@@ -11,7 +11,7 @@ hreflangs:
 
 
 
-::block-banner-md
+::block-banner
 ---
 bgImg: false
 headerWidth: 720
@@ -31,7 +31,7 @@ class: desktop:mb-20 desktop:pt-[100px] h-auto desktop:h-[610px]
 Projektujemy i wdrażamy świetnie wyglądające i wydajne sklepy internetowe z płynnym procesem zakupowym.
 
 #clientsLogos
-:::effect-appear-md
+:::effect-appear
 ---
 class: -mt-4
 ---
@@ -42,7 +42,7 @@ class: mb-4 font-semibold text-lg
 Projektowaliśmy m.in. dla:
 ::::
 
-::::block-brands-md
+::::block-brands
 ---
 class: mb-10 desktop:mb-0 !justify-start desktop:flex-nowrap !gap-x-7 [&_picture]:opacity-90
 logos:
@@ -61,7 +61,7 @@ logos:
 :::
 
 #right
-:::block-banner-decoration-md
+:::block-banner-decoration
 ---
 class: mx-auto [&_div.absolute:nth-of-type(2)]:!bottom-[20%] [&_div.absolute:nth-of-type(2)]:!left-[25%]
 rotate_bl: 0
@@ -74,19 +74,19 @@ svgUrl_bl: '/img/svg-arc.svg'
 ::
 
 
-::page-section-md
+::ui-container
 ---
 classes: mb-20 overflow-x-clip overflow-y-visible
 ---
-:::effect-appear-md
-::::block-columns-1-1-md
+:::effect-appear
+::::layout-columns-1-1
 ---
 reverseMobile: true
 class: items-center
 ---
 
 #left
-:::::block-header-md
+:::::block-header
 
 #subtitle
 ### *1/* Stawiamy na funkcjonalność i wydajność
@@ -111,7 +111,7 @@ Szczególną uwagę zwracamy także na stabilność działania systemu. Korzysta
 
 #right
 
-:::::img-decorated-md
+:::::img-decorated
 ---
 class: hidden desktop:block [&_.block]:scale-[1.1] [&_.block]:ml-[-20px] [&_.block_picture]:absolute desktop-wide:[&_.block_picture]:bottom-[-220px] desktop:[&_.block_picture]:bottom-[-200px] fullHd:[&_.block_picture]:bottom-[-240px] 
 decoration: true
@@ -124,11 +124,11 @@ imgUrl: '/img/content-images/sklepy-internetowe/section1_right_img.webp'
 
 
 
-::page-section-md
+::ui-container
 ---
 classes: mb-5 tablet:mb-20
 ---
-:::effect-appear-md
+:::effect-appear
 
 :::svg-bg-dots
 ---
@@ -137,7 +137,7 @@ class: tablet:-top-20 right-0
 ---
 :::
 
-::::block-header-md
+::::block-header
 ---
 center: true
 maxWidth: 570
@@ -152,9 +152,9 @@ class: mb-10 tablet:mb-[60px]
 ::::
 :::
 
-:::block-offer-tiles-md
+:::block-offer-tiles
 
-::::offer-tile-md
+::::tile-offer
 --- 
 icon: '/img/icons/woo.svg'
 link: 'https://webo.pl/uslugi/sklepy-woocommerce/'
@@ -169,7 +169,7 @@ Najpopularniejsze rozwiązanie e-commerce na świecie. Idealne rozwiązanie dla 
 Dowiedz się więcej
 ::::
 
-::::offer-tile-md
+::::tile-offer
 --- 
 icon: '/img/icons/presta.svg'
 link: 'https://webo.pl/uslugi/sklepy-prestashop/'
@@ -187,7 +187,7 @@ Dowiedz się więcej
 
 
 
-::::offer-tile-md
+::::tile-offer
 --- 
 icon: '/img/icons/drupal.svg'
 link: 'https://webo.agency/kontakt/'
@@ -206,7 +206,7 @@ Dowiedz się więcej
 ::
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-[100px] tablet:mb-[150px]
 ---
@@ -216,8 +216,8 @@ decoration: true
 class: top-20 right-[15%] fullHd:right-[20%] scale-x-[-1.6] scale-y-[1.6]
 ---
 ::::
-:::effect-appear-md
-::::block-cta-md
+:::effect-appear
+::::block-cta
 ---
 maxWidth: 800
 button.link: https://webo.agency/kontakt/
@@ -235,13 +235,13 @@ Umów się na bezpłatną konsultację!
 ::
 
 
-::page-section-md
+::ui-container
 ---
 classes: mb-10 tablet:mb-14
 ---
 
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: true
 maxWidth: 800
@@ -260,16 +260,16 @@ W zależności od wymagań Twojego projektu możemy dostarczyć
 ::::
 :::
 
-:::block-columns-1-1-md
+:::layout-columns-1-1
 
 #left
 
-::::effect-appear-md
-:::::block-list-ul-md
+::::effect-appear
+:::::block-list-ul
 ---
 decoration: false
 ---
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/translation_bg_2.svg'
 iconBig: true
@@ -284,7 +284,7 @@ animated: false
 Tworzymy sklepy internetowe umoliwiające **sprzedaż produktów na zagranicznych rynkach**. W zależności od potrzeb sklepy mogą różnić się językiem, metodami płatności i dostawy czy ofertą produktową.
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/uxui_bg_2.svg'
 iconBig: true
@@ -300,7 +300,7 @@ animated: false
 Projektując sklep internetowy skupiamy się na komforcie zakupów. Twój klient bez problemu znajdzie interesujący go produkt, przejdzie przez **czytelną kartę produktu i intuicyjny proces zakupowy** - im łatwiej tym lepiej, dla użytkownika i Twojego biznesu.
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/gear_code_bg_2.svg'
 iconBig: true
@@ -319,9 +319,9 @@ Jeśli Twój sklep potrzebuje nietypowych funkcji, dzięki którym wyprzedzisz k
 
 
 #right
-::::effect-appear-md
-:::::block-list-ul-md
-::::::list-item-ul-active-md
+::::effect-appear
+:::::block-list-ul
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/integration_bg_2.svg'
 iconBig: true
@@ -336,7 +336,7 @@ animated: false
 Wdrażamy m.in. systemy umożliwiające **zarządzanie magazynami**, bramki płatności i dostawy, **automatyzacje marketingu** i obsługi klienta, systemy księgowe i ERP oraz wiele innych.
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/configurator_bg_2.svg'
 iconBig: true
@@ -351,7 +351,7 @@ animated: false
 Jeśli Twój biznes oferuje **personalizacje produktów**, możemy stworzyć narzędzie, dzięki któremu klienci dostosują go do swoich wymagań. Na bazie wybranych cech otrzymają zaktualizowaną cenę oraz **wizualizację produktu w 3D** lub 2D.
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/process_bg_2.svg'
 iconBig: true
@@ -370,18 +370,18 @@ Automatyczne generowanie raportu sprzedażowego czy weryfikacja VAT przy zakład
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 classes: bg-gray-darkest pt-10 tablet:pt-[100px] mb-[100px]
 ---
 
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: relative z-20
 ---
 
-::::block-header-md
+::::block-header
 ---
 maxWidth: 690
 class: mb-10 tablet:mb-20
@@ -395,12 +395,12 @@ center: true
 ## Dlaczego wysoka jakość sklepu internetowego *się opłaca?*
 
 ::::
-:::::block-list-ul-md
+:::::block-list-ul
 ---
 class: mb-10 flex flex-wrap justify-center gap-5 tablet:[&>li]:w-[calc(50%_-_10px)] desktop:[&>li]:w-[calc(33.3333%_-_14px)]
 ---
 
-::::::tile-dark-icon-md
+::::::tile-dark-icon
 ---
 iconUrl: '/img/icons/rocket.svg'
 center: true
@@ -414,7 +414,7 @@ iconDecorated: true
 Które bezpośrednio wpływa na pozycjonowanie, a przede wszystkim konwersję. Z raportów Google wynika że użytkownicy porzucają sklep gdy ten ładuje się powyżej 4s → porzucają = nie kupią.
 
 ::::::
-::::::tile-dark-icon-md
+::::::tile-dark-icon
 ---
 iconUrl: '/img/icons/promotion.svg'
 center: true
@@ -428,7 +428,7 @@ iconDecorated: true
 Algorytm Google promuje szybkie i wysokiej jakości sklepy internetowe. Im wyższa ocena sklepu tym tańszy koszt kliknięcia w reklamę i wyższa pozycja w wynikach wyszukiwania.
 
 ::::::
-::::::tile-dark-icon-md
+::::::tile-dark-icon
 ---
 iconUrl: '/img/icons/stability.svg'
 center: true
@@ -442,7 +442,7 @@ iconDecorated: true
 Jakościowe wdrożenie to pewność działania m.in. bez wtop wydajnościowych czy błędów blokujących otwarcie sklepu, co jest szczególnie ważne w trakcie kampanii marketingowych.
 
 ::::::
-::::::tile-dark-icon-md
+::::::tile-dark-icon
 ---
 iconUrl: '/img/icons/support.svg'
 center: true
@@ -456,7 +456,7 @@ iconDecorated: true
 Koszt supportu = ilość stałych zadań utrzymaniowych w ciągu miesiąca. Im lepiej sklep jest wykonany tym mniej nieoczekiwanych zdarzeń do których potrzebny jest zespół IT. Możesz skupić się na promowaniu i rozwoju.
 
 ::::::
-::::::tile-dark-icon-md
+::::::tile-dark-icon
 ---
 iconUrl: '/img/icons/secure.svg'
 center: true
@@ -475,7 +475,7 @@ Sklep internetowy przechowuje wiele różnych danych np. dane osobowe klientów 
 :::
 
 #full
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure
 ---
 src: '/img/content-images/sklepy-internetowe/section4.webp'
@@ -486,18 +486,18 @@ rounded: false
 ::
 
 
-::page-section-md
+::ui-container
 ---
 classes: mb-10 tablet:mb-20
 ---
-:::block-columns-5-7-md
+:::layout-columns-5-7
 ---
 class: mb-10
 ---
 
 #left
-::::effect-appear-md
-:::::block-header-md
+::::effect-appear
+:::::block-header
 ---
 maxWidth: 480
 ---
@@ -512,14 +512,14 @@ maxWidth: 480
 ::::
 
 #right
-::::effect-appear-md
+::::effect-appear
 Ilość czynników jakie trzeba wziąć pod uwagę podczas tworzenia sklepów internetowych jest bardzo duża. Wszystko po to aby każdy element był przemyślany i dopracowany. Potrzeba do tego analizy założeń oraz wiedzy z zakresu projektowania i programowania, a wszystko powinno być spięte w dopracowanym procesie który gwarantuje wysoką jakość wykonania.
 ::::
 :::
 
 #full
 
-:::block-swiper-tabs-md
+:::block-swiper-tabs
 ---
 tabNames:
     - Analiza założeń
@@ -528,11 +528,11 @@ tabNames:
     - Testy i publikacja
     - Wsparcie i rozwój
 ---
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/magnifier.svg'
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 700
 ---
@@ -555,11 +555,11 @@ Jest to pierwszy krok jaki musimy wykonać w celu realizacji sklepu internetoweg
 ::::
 
 
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/www-uxui.svg'
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 700
 ---
@@ -579,11 +579,11 @@ Podczas tego etapu pracujemy nad szatą graficzną. Prace zaczynamy od przeanali
 :::::
 ::::
 
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/www-code.svg'
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 700
 ---
@@ -606,11 +606,11 @@ Po zaakceptowaniu projektu interfejsu, rozpoczynamy prace nad kompleksowym wdro�
 
 
 
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/www-tests.svg'
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 700
 ---
@@ -631,11 +631,11 @@ W tym etapie gruntownie sprawdzamy działanie sklepu internetowej. Testy wykonuj
 ::::
 
 
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/www-support.svg'
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 700
 ---
@@ -660,20 +660,20 @@ Publikacja sklepu to dopiero początek, podczas użytkowania sklepu pojawiają s
 ::
 
 
-::page-section-md
+::ui-container
 ---
 classes: mb-20 tablet:mb-[100px]
 ---
 
-:::block-columns-1-1-md
+:::layout-columns-1-1
 ---
 class: items-center
 ---
 
 #left
 
-::::effect-appear-md
-:::::img-decorated-md
+::::effect-appear
+:::::img-decorated
 ---
 imgUrl: '/img/content-images/sklepy-internetowe/section6.png'
 decoration: false
@@ -684,8 +684,8 @@ class: tablet:!pr-5 mb-5 phone-wide:mx-auto phone:w-full phone-wide:!w-[80%] tab
 ::::
 
 #right
-::::effect-appear-md
-:::::block-header-md
+::::effect-appear
+:::::block-header
 ---
 maxWidth: 700
 class: mb-10 tablet:mb-16 tablet:mt-10
@@ -718,28 +718,28 @@ Do w/w zadań warto jest mieć zaufany i doświadczony zespół projektantów or
 ::
 
 
-::page-section-md
+::ui-container
 ---
 classes: mb-[60px]
 ---
 
-:::block-columns-1-1-md
+:::layout-columns-1-1
 
 #right
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: relative overflow-hidden tablet:overflow-visible -mx-5 tablet:mx-0
 ---
 
-:::::img-decorated-md
+:::::img-decorated
 ---
 imgUrl: '/img/content-images/strony-wordpress/decor_quarter_circle.svg'
 decoration: false
 class: hidden mx-auto !mb-0 !p-0 !w-[122px] !absolute bottom-[100px] left-[-61px]
 ---
 :::::
-:::::img-decorated-md
+:::::img-decorated
 ---
 imgUrl: '/img/content-images/sklepy-internetowe/mockup_mobile.webp'
 decoration: false
@@ -751,11 +751,11 @@ class: tablet:mb-20 !mb-10 z-0
 
 #left
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: desktop:mt-[70px] relative z-20
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 680
 class: mb-10
@@ -785,11 +785,11 @@ Każdy sklep www, który tworzymy, zaczyna się od **zrozumienia specyfiki bizne
 ::
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-[100px] tablet:mb-[100px]
 ---
-:::effect-appear-md
+:::effect-appear
 
 ::::svg-bg-dots
 ---
@@ -798,7 +798,7 @@ class: block desktop:hidden top-0 right-0
 ---
 ::::
 
-::::block-cta-md
+::::block-cta
 ---
 maxWidth: 1300
 class: tablet:mb-36 [&_.description]:desktop:!text-lg !p-[40px] border border-[#DEE7E5] [&_a]:hidden [&_h4]:!text-left
@@ -815,17 +815,17 @@ class: tablet:mb-36 [&_.description]:desktop:!text-lg !p-[40px] border border-[#
 
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[100px]
 ---
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: bg-green-gray relative
 ---
 
-::::img-decorated-md
+::::img-decorated
 ---
 imgUrl: '/img/svg-arc.svg'
 decoration: false
@@ -833,7 +833,7 @@ class: tablet:!pl-0 !mb-0 !w-[80px] tablet:!w-[122px] !absolute top-[20px] table
 ---
 ::::
 
-::::img-decorated-md
+::::img-decorated
 ---
 imgUrl: '/img/svg-square.svg'
 decoration: false
@@ -841,10 +841,10 @@ class: tablet:!pl-0 !mb-0 !w-[60px] tablet:!w-[100px] !absolute bottom-[20px] ta
 ---
 ::::
 
-::::block-faq-md
+::::block-faq
 
 #header
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 900
 class: mb-[50px] text-center relative
@@ -858,7 +858,7 @@ class: mb-[50px] text-center relative
 
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Dlaczego jakość sklepu internetowego jest inwestycją?
@@ -868,7 +868,7 @@ class: mb-[50px] text-center relative
 
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Ile kosztuje stworzenie sklepu internetowego?
@@ -877,7 +877,7 @@ class: mb-[50px] text-center relative
 Koszt zależy od wielu czynników: wybranej platformy, liczby produktów, integracji (np. płatności, dostawy, ERP), oraz zakresu projektowania. Proste sklepy online zaczynają się od kilku tysięcy zł netto. Każde **tworzenie sklepów www** wyceniamy indywidualnie po analizie wymagań.
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Jak długo trwa realizacja sklepu internetowego?
@@ -886,7 +886,7 @@ Koszt zależy od wielu czynników: wybranej platformy, liczby produktów, integr
 Standardowy czas realizacji wynosi od 2 do 4 miesięcy. Na czas wpływa m.in. złożoność funkcji, liczba widoków do zaprojektowania oraz integracje. Przyspieszony tryb realizacji jest możliwy w przypadku mniej rozbudowanych sklepów.
 
 :::::
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Co obejmuje nasza realizacja sklepu internetowego
@@ -895,7 +895,7 @@ Standardowy czas realizacji wynosi od 2 do 4 miesięcy. Na czas wpływa m.in. z�
 Podczas prac nad sklepem online tworzymy stabilne, szybkie i dobrze przemyślane środowisko sprzedażowe, dbając o strukturę informacji, organizację katalogu produktów oraz logiczne powiązania między elementami. Równolegle przygotowujemy solidne zaplecze techniczne - od konfiguracji systemu i infrastruktury po mechanizmy usprawniające obsługę zamówień i rozwój oferty. Dbamy o maksymalną wydajność i stabilność działania, minimalizując ryzyko przestojów dzięki lekkiej architekturze kodu i nowoczesnym technologiom.
 
 :::::
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Czy mogę samodzielnie zarządzać sklepem po wdrożeniu?
@@ -904,7 +904,7 @@ Podczas prac nad sklepem online tworzymy stabilne, szybkie i dobrze przemyślane
 Tak. Sklepy tworzymy na systemach CMS (np. WooCommerce, PrestaShop), dzięki czemu możesz samodzielnie dodawać produkty, edytować treści, zarządzać zamówieniami czy obsługiwać klientów – bez konieczności znajomości programowania.
 
 :::::
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Czy możecie rozbudować mój obecny sklep internetowy?
@@ -920,13 +920,13 @@ Oczywiście. Oferujemy nie tylko tworzenie sklepów online od zera, ale także r
 
 
 
-::page-section-md
+::ui-container
 ---
 id: realizacje
 class: mb-[80px] tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 class: mb-10 tablet:mb-20
 ---
@@ -940,7 +940,7 @@ class: mb-10 tablet:mb-20
 ::::
 :::
 
-:::block-cases-md
+:::block-cases
 ---
 contentFolder: realizacje
 moreBtn.url: 'https://webo.agency/realizacje/'
@@ -954,12 +954,12 @@ selectedSlugs:
 ::
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: true
 class: mb-[50px] tablet:mb-[100px]
@@ -973,13 +973,13 @@ class: mb-[50px] tablet:mb-[100px]
 
 ::::
 :::
-:::block-brands-before-footer-md
+:::block-brands-before-footer
 :::
 ::
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::block-form-before-footer-md
+:::block-form-before-footer
 :::
 ::

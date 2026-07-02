@@ -14,12 +14,12 @@ draft: false
 ---
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[100px]
 ---
-:::effect-appear-md
-::::block-header-post-md
+:::effect-appear
+::::block-header-post
 ---
 bgUrl: /img/blog-images/webo_blog_ux.jpg
 class: mx-auto [&_img]:max-h-[200px] lg:[&_img]:max-h-[600px]
@@ -35,11 +35,11 @@ class: mx-auto [&_img]:max-h-[200px] lg:[&_img]:max-h-[600px]
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: static-content mb-10
 ---
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-blog
 ---
@@ -61,7 +61,7 @@ Na każdym etapie bardzo ważny jest kontakt z naszym klientem, który weryfikuj
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-20
 ---
@@ -75,12 +75,12 @@ tags:
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[100px]
 ---
-:::effect-appear-md
-::::block-header-link-md
+:::effect-appear
+::::block-header-link
 ---
 url: 'https://webo.agency/blog/'
 linktitle: Zobacz wszystkie wpisy
@@ -100,12 +100,12 @@ relatedPostsLinks:
 ::
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-[50px] tablet:mb-[100px]
 ---
-:::effect-appear-md
-::::block-cta-md
+:::effect-appear
+::::block-cta
 ---
 button.link: https://webo.agency/kontakt/
 button.title: 'Skontaktuj się z nami'
@@ -124,12 +124,12 @@ Skontaktuj się z nami i skorzystaj z bezpłatnej konsultacji
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: true
 class: mb-[50px] tablet:mb-[100px]
@@ -143,6 +143,6 @@ class: mb-[50px] tablet:mb-[100px]
 
 ::::
 :::
-:::block-brands-before-footer-md
+:::block-brands-before-footer
 :::
 ::

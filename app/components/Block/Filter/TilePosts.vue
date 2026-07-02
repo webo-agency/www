@@ -3,7 +3,7 @@
     class="case-tile relative w-full flex flex-col z-20"
     v-show="isVisible"
     :class="{'case-tile-hidden':!isVisible}">
-        <PostTileMd :data="data"/>
+        <TilePost :data="data"/>
     </div>
 </template>
 

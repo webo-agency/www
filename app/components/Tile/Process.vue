@@ -64,7 +64,7 @@
 </template>
 
 <script>
-import EffectAppearMdc from "../effect/effect-appear-md.vue";
+import EffectAppearMdc from "../Effect/Appear.vue";
 export default {
   props: {
     number: Number,
@@ -89,8 +89,9 @@ export default {
 };
 </script>
 
-<style lang="postcss" scoped>
+<style  scoped>
 @reference "~/assets/css/main.css";
+
 .swiper-slide-active.group .line::after {
   @apply desktop:translate-x-0;
 }

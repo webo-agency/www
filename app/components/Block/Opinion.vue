@@ -8,7 +8,7 @@
         <div class="title text-left [&_h3]:!mb-[30px]">
           <slot name="title" />
         </div>
-        <CustomLink
+        <UiLink
           v-if="link"
           class=""
           :url="link"
@@ -19,7 +19,7 @@
             fit="inside"
             class="block [&>img]:mx-auto [&>img]:desktop:-ml-10 [&>img]:w-1/2 [&>img]:desktop:w-[220px]"
           />
-        </CustomLink>
+        </UiLink>
           <nuxt-picture
             v-else
             src="/img/content-images/opinion-google.png"
@@ -47,7 +47,7 @@
               <slot name="author" />
             </div>
             <div class="authorTitle"><slot name="authorTitle" /></div>
-            <rating-stars v-if="rating" :rating="rating" />
+            <ui-rating-stars v-if="rating" :rating="rating" />
           </div>
         </div>
       </div>
@@ -66,8 +66,9 @@ export default {
 };
 </script>
 
-<style lang="postcss" scoped>
+<style  scoped>
 @reference "~/assets/css/main.css";
+
 :deep(.author *) {
   @apply !mb-1;
 }

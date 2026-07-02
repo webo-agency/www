@@ -17,12 +17,12 @@ draft: false
 ---
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 desktop:mb-[310px] bg-green-gray
 ---
-:::effect-appear-md
-::::block-header-post-md
+:::effect-appear
+::::block-header-post
 ---
 bgUrl: /img/blog-images/Headless_Wordpress_vs_klasyczny_Wordpress.webp
 alt: "Headless WordPress vs klasyczny WordPress"
@@ -38,19 +38,19 @@ class: translate-y-[40px] desktop:translate-y-[220px] [&_h1]:max-w-[1080px]
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: static-content mb-10
 ---
 
-:::block-columns-blog-sidebar-md
+:::layout-columns-blog-sidebar
 ---
 class:
 ---
 
 #left
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: _mx-blog [&_p]:!mb-10
 ---
@@ -61,7 +61,7 @@ Wybór odpowiedniej platformy dla Twojej strony może mieć kluczowe znaczenie. 
 :::::
 
 ::::
-::::effect-appear-md
+::::effect-appear
 ---
 class: mx-blog mb-10 [&_li]:before:!bg-black [&_li]:!mb-2  [&_ul]:!mb-8
 ---
@@ -75,7 +75,7 @@ Takie rozwiązanie pozwala na większą elastyczność w projektowaniu interfejs
 :::::
 ::::
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: mx-blog mb-10
 ---
@@ -88,7 +88,7 @@ rounded: true
 :::::
 ::::
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: mx-blog [&_li]:!mb-2 [&_ul]:!mb-5
 ---
@@ -106,7 +106,7 @@ Główne różnice między tymi dwoma podejściami dotyczą architektury i sposo
 - **3. Elastyczność:** Dzięki wykorzystaniu API, Headless WordPress pozwala na łatwe dostarczanie treści do różnych platform i urządzeń.
 ::::
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: mx-blog [&_h2]:desktop:!text-2xl
 ---
@@ -132,11 +132,11 @@ class: ml-0 [&_p]:!mb-[40px] [&_ul]:!mb-10 [&_li]:before:!bg-black
 ::::
 
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: mx-blog mb-10 tablet:mb-[60px]
 ---
-:::::block-cta-md
+:::::block-cta
 ---
 button.link: /uslugi/strony-internetowe
 button.title: 'Zobacz, jak tworzymy strony'
@@ -154,7 +154,7 @@ Doradzamy i projektujemy strony internetowe w WordPressie - od prostych serwisó
 :::::
 ::::
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: mx-blog mb-10
 ---
@@ -170,7 +170,7 @@ Dla mniejszych sklepów, które nie potrzebują tak zaawansowanych funkcji, klas
 :::::
 ::::
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: mx-blog mb-10
 ---
@@ -184,11 +184,11 @@ rounded: true
 ::::
 
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: mb-10
 ---
-:::::block-cta-md
+:::::block-cta
 ---
 maxWidth: 1100
 class: bg-green-gray !p-10 !pb-8 !items-start [&_p]:!m-0 [&_.description]:!m-0 [&_.description_p]:!text-left [&_.description_p]:!text-[18px] [&_p]:!font-semibold [&_.btn-main]:!hidden [&_a]:!underline [&_a]:!text-inherit
@@ -203,7 +203,7 @@ class: bg-green-gray !p-10 !pb-8 !items-start [&_p]:!m-0 [&_.description]:!m-0 [
 ::::
 
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: mx-blog
 ---
@@ -227,7 +227,7 @@ Podsumowując, wybór między Headless WordPress a klasycznym WordPressem zależ
 
 
 #right
-::::effect-appear-md
+::::effect-appear
 :::::block-post-share
 ---
 shareText: 'Share the article:'
@@ -239,12 +239,12 @@ copyConfirmationText: 'Link copied!'
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[100px]
 ---
-:::effect-appear-md
-::::block-header-link-md
+:::effect-appear
+::::block-header-link
 ---
 url: 'https://webo.agency/blog'
 linktitle: Zobacz wszystkie wpisy
@@ -264,7 +264,7 @@ relatedPostsLinks:
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-[100px] tablet:mb-[150px]
 ---
@@ -274,8 +274,8 @@ decoration: true
 class: top-20 right-[15%] fullHd:right-[20%] scale-x-[-1.6] scale-y-[1.6]
 ---
 ::::
-:::effect-appear-md
-::::block-cta-md
+:::effect-appear
+::::block-cta
 ---
 maxWidth: 800
 button.link: https://webo.agency/kontakt
@@ -293,12 +293,12 @@ Umów się na bezpłatną konsultację i opowiedz nam więcej o swoim projekcie
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: true
 class: mb-[50px] tablet:mb-[100px]
@@ -312,6 +312,6 @@ class: mb-[50px] tablet:mb-[100px]
 
 ::::
 :::
-:::block-brands-before-footer-md
+:::block-brands-before-footer
 :::
 ::

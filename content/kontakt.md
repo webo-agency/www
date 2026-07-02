@@ -9,14 +9,14 @@ meta:
 ---
 
 
-::page-section-md 
+::ui-container 
 ---
 class: overflow-hidden bg-green-gray pt-16 pb-16 desktop:pt-24 desktop:pb-24
 id: formularz
 ---
 
 
-:::block-form-md
+:::block-form
 ---
 darkContainer: true
 gridFields: true
@@ -27,7 +27,7 @@ class: mx-auto [&_.contents]:tablet:!flex [&_.contents]:tablet:flex-col-reverse 
 ## W czym możemy Ci pomóc?
 
 #radio
-::::form-radio-md
+::::form-radio
 ---
 value: Strona
 ---
@@ -35,7 +35,7 @@ value: Strona
 Strona www
 ::::
 
-::::form-radio-md
+::::form-radio
 ---
 value: Sklep
 ---
@@ -43,7 +43,7 @@ value: Sklep
 Sklep internetowy
 ::::
 
-::::form-radio-md
+::::form-radio
 ---
 value: Projektowanie
 ---
@@ -51,7 +51,7 @@ value: Projektowanie
 Projektowanie UX/UI
 ::::
 
-::::form-radio-md
+::::form-radio
 ---
 value: Wsparcie i rozwój
 ---
@@ -59,7 +59,7 @@ value: Wsparcie i rozwój
 Wsparcie i rozwój
 ::::
 
-::::form-radio-md
+::::form-radio
 ---
 value: Współpraca
 ---
@@ -67,7 +67,7 @@ value: Współpraca
 Współpraca agencyjna
 ::::
 
-::::form-radio-md
+::::form-radio
 ---
 value: Inne
 ---
@@ -81,7 +81,7 @@ Wypełnij formularz
 
 
 #fields
-::::form-field-md
+::::form-field
 ---
 name: name
 type: text
@@ -92,7 +92,7 @@ required: true
 Imię i nazwisko
 
 ::::
-::::form-field-md
+::::form-field
 ---
 name: company
 type: text
@@ -103,7 +103,7 @@ required: true
 Nazwa firmy
 
 ::::
-::::form-field-md
+::::form-field
 ---
 type: email
 required: true
@@ -114,7 +114,7 @@ E-mail
 
 ::::
 
-::::form-field-md
+::::form-field
 ---
 name: phone
 type: tel
@@ -126,7 +126,7 @@ Numer telefonu
 
 ::::
 
-::::form-field-md
+::::form-field
 ---
 name: description
 type: textarea
@@ -158,7 +158,7 @@ Wróć do strony głównej
 
 #side
 
-::::block-header-md
+::::block-header
 ---
 class: mb-8 desktop:mb-10 desktop:[&_h2]:!text-[35px]
 maxWidth: 610
@@ -177,7 +177,7 @@ Wypełnij formularz, a my **skontaktujemy się z Tobą w&nbsp;ciągu 24h** i z c
 
 #side-bottom
 
-::::block-contact-info-md
+::::block-contact-info
 ---
 tel: '+48725122385'
 mail: info@webo.agency
@@ -187,7 +187,7 @@ regon: '382 471 232'
 ---
 
 #icons
-:::::icon-contact-tile-md
+:::::tile-contact
 ---
 iconUrl: '/img/icons/24h.png'
 ---
@@ -196,7 +196,7 @@ iconUrl: '/img/icons/24h.png'
 Skontaktujemy się z Tobą w&nbsp;ciągu 24 godzin
 
 :::::
-:::::icon-contact-tile-md
+:::::tile-contact
 ---
 iconUrl: '/img/icons/board.png'
 ---
@@ -205,7 +205,7 @@ iconUrl: '/img/icons/board.png'
 Przeanalizujemy Twoje założenia i doradzimy
 
 :::::
-:::::icon-contact-tile-md
+:::::tile-contact
 ---
 iconUrl: '/img/icons/list.png'
 ---
@@ -219,7 +219,7 @@ Stworzymy ofertę dopasowaną do Twoich potrzeb
 Nie lubisz formularzy?
 ::::
 
-::::block-brands-md
+::::block-brands
 ---
 class: max-w-[576px] mb-10 desktop:mb-0 mt-10 !justify-start desktop:flex-wrap !gap-5 !gap-x-10 [&_picture]:opacity-90 [&_a]:max-w-[160px] [&_a]:max-h-[32px]
 logos:
@@ -245,13 +245,13 @@ logos:
 ::
 
 
-::page-section-md
+::ui-container
 ---
 id: opinie
 class: mb-[50px] tablet:mb-[100px] pt-10 tablet:pt-[100px]
 ---
 
-:::block-columns-1-1-md
+:::layout-columns-1-1
 ---
 class: mb-10 tablet:mb-24 [&_.right]:flex [&_.right]:items-center [&_.right]:justify-end [&_.right]:gap-[20px]
 ---
@@ -276,8 +276,8 @@ text: See all our reviews
 ::::
 
 #left
-::::effect-appear-md
-:::::block-header-md
+::::effect-appear
+:::::block-header
 ---
 maxWidth: 715
 ---
@@ -294,10 +294,10 @@ maxWidth: 715
 
 
 #full
-:::effect-appear-md
-::::block-opinions-md
+:::effect-appear
+::::block-opinions
 
-:::::opinion-md
+:::::tile-opinion
 ---
 rating: 5
 avatar: '/img/logos/isw.png'
@@ -316,7 +316,7 @@ Webo dostarczyło **stabilną i skalowalną stronę internetową**, skutecznie w
 
 :::::
 
-:::::opinion-md
+:::::tile-opinion
 ---
 rating: 5
 avatar: '/img/logos/velair.png'
@@ -335,7 +335,7 @@ Właściciel - **Velair**<br>
 
 :::::
 
-:::::opinion-md
+:::::tile-opinion
 ---
 rating: 5
 avatar: '/img/logos/Mancraft.png'
@@ -352,7 +352,7 @@ Executive - **Proton Multimedia**
 Dzięki pracy Webo mój klient osiągnął wyższe pozycje w wyszukiwarkach, **poprawił satysfakcję użytkowników i zwiększył ich zaangażowanie**. Firma proaktywnie **zarządzała ryzykiem** i zapewniała alternatywne rozwiązanie, aby osiągnąć cele klienta. Ich **szybkość reakcji i kreatywność** były godne pochwały.
 
 :::::
-:::::opinion-md
+:::::tile-opinion
 ---
 rating: 5
 avatar: '/img/logos/DeltaHR.png'
@@ -369,7 +369,7 @@ Członek zarządu - **DeltaHR**
 Bardzo profesjonalna firma, indywidualne podejście do klienta, **dobry i ciągły kontakt** co pozwala na bieżąco kontrolować pracę nad projektem. **Każdy szczegół dopracowany** dokładnie tak jak tego oczekiwałem, śmiało i z czystym sumieniem mogę polecić. **Wiedza, podejście do klienta, czas realizacji** - wszystko 10/10.
 
 :::::
-:::::opinion-md
+:::::tile-opinion
 ---
 rating: 5
 avatar: '/img/logos/grow.svg'
@@ -386,7 +386,7 @@ CEO & CO-OWNER - **Agencja Grow**
 Współpraca z ekipą jest niesamowita. **Gwarancja jakości**, **responsywności i kreatywności**. Polecam baaaardzo!
 
 :::::
-:::::opinion-md
+:::::tile-opinion
 ---
 rating: 5
 avatar: '/img/logos/thoro.svg'
@@ -403,7 +403,7 @@ Marketing Department - **Thoro / SOLLUX**
 Polecam współpracę z firmą Webo. **Rzetelnie wykonują założone taski** i **szukają najlepszych rozwiązań**.
 
 :::::
-:::::opinion-md
+:::::tile-opinion
 ---
 rating: 5
 avatar: '/img/logos/Swistak.png'
@@ -422,7 +422,7 @@ Konsultant strategii w biznesie - **Krakowski świstak**
 
 
 :::::
-:::::opinion-md
+:::::tile-opinion
 ---
 rating: 5
 avatar: '/img/logos/Oravio.png'
@@ -439,7 +439,7 @@ Business manager - **Oravio**
 Pomogli nam w przelaniu naszych wizji sklepu internetowego na realny, **dobrze odbierany przez klientów** i przede wszystkim sprawnie działający sklep! Dziękujemy i **polecamy Webo!** : )
 
 :::::
-:::::opinion-md
+:::::tile-opinion
 ---
 rating: 5
 avatar: '/img/logos/CaffeWasyl.png'

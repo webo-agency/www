@@ -8,7 +8,7 @@ hreflangs:
     EN: '/services/headless-and-pwa-websites/'
     PL: '/uslugi/strony-headless-pwa/'
 ---
-::block-banner-md
+::block-banner
 ---
 bgImg: false
 headerWidth: 550
@@ -26,7 +26,7 @@ isSecondSvg: true
 Czyli połączenie funkcjonalności i łatwości edycji Wordpress CMS z nowoczesną architekturą, dzięki której Twoja strona zyska silniki rakietowe.
 
 #right
-:::block-banner-decoration-md
+:::block-banner-decoration
 ---
 svgUrl_bl: '/img/svg-arc.svg'
 svgUrl_tr: '/img/svg-square.svg'
@@ -34,12 +34,12 @@ svgUrl_tr: '/img/svg-square.svg'
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 classes: mb-[100px] tablet:mb-[200px] overflow-x-clip overflow-y-visible
 ---
-:::effect-appear-md
-::::block-columns-1-1-md
+:::effect-appear
+::::layout-columns-1-1
 ---
 reverseMobile: true
 class: items-center
@@ -47,7 +47,7 @@ class: items-center
 
 #left
 
-:::::block-header-md
+:::::block-header
 
 #subtitle
 ### *1/* Wykorzystanie WordPress jako backendu
@@ -72,7 +72,7 @@ Takie rozwiązanie umożliwia Tobie m.in. **publikowanie treści w wielu kanała
 :::::
 
 #right
-:::::img-decorated-md
+:::::img-decorated
 ---
 class: hidden desktop:block [&_.block]:scale-[1.6] [&_.block]:ml-[-20px] [&_.block_picture]:absolute desktop-wide:[&_.block_picture]:bottom-[-220px] desktop:[&_.block_picture]:bottom-[-100px] fullHd:[&_.block_picture]:bottom-[-240px] 
 decoration: false
@@ -83,20 +83,20 @@ imgUrl: '/img/content-images/strony-headless-pwa/phones.png'
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 classes: mb-20 tablet:mb-[100px]
 ---
 
-:::block-columns-1-1-md
+:::layout-columns-1-1
 
 #left
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: relative z-10 overflow-hidden tablet:overflow-visible -mx-5 tablet:mx-0
 ---
-:::::img-decorated-md
+:::::img-decorated
 ---
 imgUrl: '/img/content-images/strony-headless-pwa/laptop.png'
 decoration: false
@@ -108,11 +108,11 @@ class:
 
 #right
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: relative z-20
 ---
-:::::block-header-md
+:::::block-header
 ---
 class: mb-10
 ---
@@ -140,11 +140,11 @@ Zyskujesz ultraszybkość, wydajność, bezpieczeństwo oraz wielokanałowość 
 ::::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-[100px] tablet:mb-[100px]
 ---
-:::effect-appear-md
+:::effect-appear
 
 :::svg-decorated
 ---
@@ -160,7 +160,7 @@ class: block desktop:hidden top-0 right-0
 ---
 ::::
 
-::::block-cta-md
+::::block-cta
 ---
 maxWidth: 730
 button.link: https://webo.agency/kontakt/
@@ -179,18 +179,18 @@ Skontaktuj się z nami i skorzystaj z bezpłatnej konsultacji podczas której om
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 classes: bg-gray-darkest pt-10 tablet:pt-[100px] mb-[100px]
 ---
 
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: relative z-20
 ---
 
-::::block-header-md
+::::block-header
 ---
 maxWidth: 690
 class: mb-10 tablet:mb-20
@@ -202,12 +202,12 @@ center: true
 ## Korzyści stron headless dla Twojej firmy
 
 ::::
-:::::block-list-ul-md
+:::::block-list-ul
 ---
 class: mb-10 tablet:mb-20 flex flex-wrap justify-center gap-5 tablet:[&>li]:w-[calc(50%_-_10px)] desktop:[&>li]:w-[calc(33.3333%_-_14px)]
 ---
 
-::::::tile-dark-icon-md
+::::::tile-dark-icon
 ---
 iconUrl: '/img/icons/60.svg'
 center: true
@@ -222,7 +222,7 @@ class: test [&_div_div_div_picture]:scale-[1.5] _[&_div_div_div_picture]:pt-5 [&
 Szybkość wczytywania i błyskawiczne przeładowywanie podstron jest zachowana nawet dla bardzo rozbudowanych witryn. Wszystko dzięki lekkości systemu, który nie wymaga każdorazowego generowania treści na serwerze.
 
 ::::::
-::::::tile-dark-icon-md
+::::::tile-dark-icon
 ---
 iconUrl: '/img/icons/shield2.svg'
 center: true
@@ -235,7 +235,7 @@ iconDecorated: true
 Odseparowanie warstw sprawia że użytkownik ma minimalny kontakt z systemem wewnętrznym i bazą danych. Dzięki temu strony wykonane w architekturze headless są znacznie bardziej odporne na ataki i czynniki zewnętrzne.
 
 ::::::
-::::::tile-dark-icon-md
+::::::tile-dark-icon
 ---
 iconUrl: '/img/icons/stability.svg'
 center: true
@@ -252,7 +252,7 @@ Headless CMS Wordpress umożliwia dostarczanie treści nie tylko na tradycyjne s
 :::
 
 #full
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure
 ---
 src: '/img/content-images/strony-headless-pwa/fullwidth.png'
@@ -262,13 +262,13 @@ rounded: false
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 classes: mb-10 tablet:mb-20
 ---
 
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: true
 maxWidth: 540
@@ -283,10 +283,10 @@ class: mb-20
 
 ::::
 
-::::block-columns-1-1-1-md
+::::layout-columns-1-1-1
 
 #left
-:::::process-tile-md
+:::::tile-process
 ---
 number: 1
 isWideType: true
@@ -301,7 +301,7 @@ class: item !h-auto !pr-0
 W headless wydajność opiera się na warstwie frontend, strona nie wymaga utrzymywania rozbudowanej infrastruktury serwerowej co znacznie obniża koszty.
 :::::
 
-:::::process-tile-md
+:::::tile-process
 ---
 number: 3
 isWideType: true
@@ -316,7 +316,7 @@ class: item !h-auto !pr-0
 W Headless masz pełną elastyczność w wyborze technologii używanej do prezentacji treści (frontend), nie jesteś ograniczony wymogami systemu CMS. 
 :::::
 
-:::::process-tile-md
+:::::tile-process
 ---
 number: 5
 isWideType: true
@@ -332,7 +332,7 @@ Zarządzanie treścią prowadzone jest z jednego panelu, który automatycznie pr
 :::::
 
 #center-col
-:::::img-decorated-md
+:::::img-decorated
 ---
 imgUrl: '/img/content-images/strony-headless-pwa/mobile_isw.png'
 decoration: false
@@ -342,7 +342,7 @@ class: hidden tablet:block scale-[3] mt-[170px] z-[-1]
 :::::
 
 #right
-:::::process-tile-md
+:::::tile-process
 ---
 number: 2
 isWideType: true
@@ -357,7 +357,7 @@ class: item !h-auto !pr-0
 Natychmiastowa interakcja z użytkownikami, możliwość nieograniczonego dostosowania interfejsu oraz błyskawiczne przełączanie między stronami zwiększa zadowolenie podczas korzystania ze strony.
 :::::
 
-:::::process-tile-md
+:::::tile-process
 ---
 number: 4
 isWideType: true
@@ -372,7 +372,7 @@ class: item !h-auto !pr-0
 Ponieważ w Headless CMS frontend i backend są oddzielone, możesz bez ograniczeń rozbudowywać swoją stronę bez obaw o utratę wydajności lub ograniczenia backendu.
 :::::
 
-:::::process-tile-md
+:::::tile-process
 ---
 number: 6
 isWideType: true
@@ -391,13 +391,13 @@ Architektura headless umożliwia niezależną pracę programistów frontend, bez
 ::
 
 
-::page-section-md
+::ui-container
 ---
 classes: mb-10 tablet:mb-20
 ---
 
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: true
 maxWidth: 820
@@ -412,10 +412,10 @@ class: mb-20
 
 ::::
 
-::::block-columns-1-1-md
+::::layout-columns-1-1
 
 #left
-::::card-icon-md
+::::tile-icon
 ---
 class: tablet:pr-2.5 [&_div_div]:bg-black [&_div_div]:!text-white
 icon: '/img/icons/nuxt-dark.svg'
@@ -424,11 +424,11 @@ icon: '/img/icons/nuxt-dark.svg'
 #### Headless Wordpress
 
 #content
-:::::block-list-ul-md
+:::::block-list-ul
 ---
 decoration: false
 ---
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/multichannels.svg'
 iconBig: false
@@ -440,7 +440,7 @@ class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit [&_div_div]:fl
 **<u>Wielokanałowość</u>** - możliwość zarządzania treścią z jednego miejsca dla wielu platform, dzięki czemu zaoszczędzisz środki przeznaczone na utrzymanie rozbudowanej infrastruktury.
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/1s.svg'
 iconBig: false
@@ -452,7 +452,7 @@ class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit [&_div_div]:fl
 **<u>Ultraszybkie ładowanie strony</u>** - Średni czas ładowania spadnie nawet poniżej 1s, zwiększając dzięki temu komfort i zaangażowanie użytkowników.
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/scalling.svg'
 iconBig: false
@@ -464,7 +464,7 @@ class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit [&_div_div]:fl
 **<u>Nielimitowane skalowanie strony</u>** - Specyfika konstrukcji stron headlessowych sprawia że rozbudowa strony i jej zasięgu działanianie wpływa na wydajność serwisu.
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/shield2.svg'
 iconBig: false
@@ -479,7 +479,7 @@ class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit [&_div_div]:fl
 ::::
 
 #right
-::::card-icon-md
+::::tile-icon
 ---
 class:  tablet:mt-[50px] tablet:pl-2.5
 icon: '/img/icons/wordpress.svg'
@@ -488,11 +488,11 @@ icon: '/img/icons/wordpress.svg'
 #### Standardowa strona
 
 #content
-:::::block-list-ul-md
+:::::block-list-ul
 ---
 decoration: false
 ---
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/singlechannel.svg'
 iconBig: false
@@ -504,7 +504,7 @@ class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit [&_div_div]:fl
 **<u>Brak wielokanałowości</u>** - Tradycyjne rozwiązania umożliwiają tworzenie nowych strony tylko w obrębie wybranej technologii. Każdy kanał wymaga osobnego zaplecza i systemu zarządzania treścią.
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/2s.svg'
 iconBig: false
@@ -516,7 +516,7 @@ class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit [&_div_div]:fl
 **<u>Szybkie ładowanie strony</u>** - Przy odpowiednim wykonaniu, średnia prędkość wczytywania strony może wynieść ok. 2s co jest wystarczającym wynikiem dla większości stron.
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/scalling2.svg'
 iconBig: false
@@ -528,7 +528,7 @@ class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit [&_div_div]:fl
 **<u>Ograniczone skalowanie strony</u>** - Możliwości rozbudowy standardowej strony internetowej zależą od wybranego systemu i jego ograniczeń.
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/shield2.svg'
 iconBig: false
@@ -547,13 +547,13 @@ class: icon [&_div_div_picture]:pt-2.5 [&_div_div_div]:!min-h-fit [&_div_div]:fl
 
 
 
-::page-section-md
+::ui-container
 ---
 classes: mb-10 tablet:mb-[150px]
 ---
 
-::::effect-appear-md
-:::::block-header-two-cols-md
+::::effect-appear
+:::::block-header-two-cols
 ---
 class: mb-10 [&_.description]:!text-base
 maxWidth: 590
@@ -574,7 +574,7 @@ Do stworzenia nowoczesnej strony internetowej potrzeba szerokiej wiedzy z zakres
 
 #full
 
-:::block-swiper-tabs-md
+:::block-swiper-tabs
 ---
 tabNames:
     - Analiza założeń
@@ -583,11 +583,11 @@ tabNames:
     - Testy i publikacja
     - Wsparcie i rozwój
 ---
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/magnifier.svg'
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 700
 ---
@@ -610,11 +610,11 @@ Jest to pierwszy krok jaki musimy wykonać w celu realizacji strony internetowej
 ::::
 
 
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/www-uxui.svg'
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 700
 ---
@@ -634,11 +634,11 @@ Podczas tego etapu pracujemy nad wyglądem strony www. Prace zaczynamy od przean
 :::::
 ::::
 
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/www-code.svg'
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 700
 ---
@@ -661,11 +661,11 @@ Po zaakceptowaniu projektu interfejsu, rozpoczynamy prace nad kompleksowym wdro�
 
 
 
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/www-tests.svg'
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 700
 ---
@@ -686,11 +686,11 @@ W tym etapie gruntownie sprawdzamy działanie strony internetowej. Testy wykonuj
 ::::
 
 
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/www-support.svg'
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 700
 ---
@@ -716,35 +716,35 @@ Często publikacja strony to dopiero początek, a podczas użytkowania strony po
 
 
 
-::page-section-md
+::ui-container
 ---
 classes: mb-[60px]
 ---
 
-:::block-columns-1-1-md
+:::layout-columns-1-1
 
 #left
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: relative overflow-hidden tablet:overflow-visible -mx-5 tablet:mx-0
 ---
 
-:::::img-decorated-md
+:::::img-decorated
 ---
 imgUrl: '/img/content-images/strony-wordpress/decor_code.svg'
 decoration: false
 class: hidden desktop:block mx-auto !mb-0 !p-0 !w-[100px] tablet:!w-[230px] !absolute top-1/3 right-0
 ---
 :::::
-:::::img-decorated-md
+:::::img-decorated
 ---
 imgUrl: '/img/content-images/strony-wordpress/decor_quarter_circle.svg'
 decoration: false
 class: hidden desktop:block mx-auto !mb-0 !p-0 !w-[122px] !absolute bottom-[100px] left-[-61px]
 ---
 :::::
-:::::img-decorated-md
+:::::img-decorated
 ---
 imgUrl: '/img/content-images/strony-headless-pwa/mockup_tablet.webp'
 decoration: false
@@ -756,11 +756,11 @@ class: tablet:mb-20 !mb-10 z-0
 
 #right
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: relative z-20
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 680
 class: mb-10
@@ -794,17 +794,17 @@ Jeśli zależy Ci na wydajności, skalowalności i technologicznym zapleczu, kt�
 
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[100px]
 ---
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: bg-green-gray relative
 ---
 
-::::img-decorated-md
+::::img-decorated
 ---
 imgUrl: '/img/svg-arc.svg'
 decoration: false
@@ -812,7 +812,7 @@ class: tablet:!pl-0 !mb-0 !w-[80px] tablet:!w-[122px] !absolute top-[20px] table
 ---
 ::::
 
-::::img-decorated-md
+::::img-decorated
 ---
 imgUrl: '/img/svg-square.svg'
 decoration: false
@@ -820,10 +820,10 @@ class: tablet:!pl-0 !mb-0 !w-[60px] tablet:!w-[100px] !absolute bottom-[20px] ta
 ---
 ::::
 
-::::block-faq-md
+::::block-faq
 
 #header
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 900
 class: mb-[50px] text-center relative
@@ -837,7 +837,7 @@ class: mb-[50px] text-center relative
 
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Czym różni się headless WordPress od standardowego WordPressa?
@@ -847,7 +847,7 @@ W klasycznym WordPressie frontend (czyli wygląd strony) i backend (panel zarzą
 
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Czy headless CMS nadaje się dla każdego?
@@ -856,7 +856,7 @@ W klasycznym WordPressie frontend (czyli wygląd strony) i backend (panel zarzą
 Nie dla każdego. **Headless CMS** jest idealnym rozwiązaniem dla firm, które potrzebują wysokiej wydajności, najwyższego poziomu bezpieczeństwa, wielokanałowego publikowania treści lub planują dynamiczny rozwój. Dla prostych stron wizytówkowych może być zbyt rozbudowany.
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Czy mogę prowadzić sklep internetowy w modelu headless?
@@ -871,13 +871,13 @@ Tak. Headless e-commerce to coraz popularniejsze podejście, które pozwala budo
 
 
 
-::page-section-md
+::ui-container
 ---
 id: realizacje
 class: mb-[80px] tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 class: mb-10 tablet:mb-20
 ---
@@ -891,7 +891,7 @@ class: mb-10 tablet:mb-20
 ::::
 :::
 
-:::block-cases-md
+:::block-cases
 ---
 contentFolder: realizacje
 selectedSlugs:
@@ -905,12 +905,12 @@ moreBtn.linktitle: Zobacz wszystkie projekty
 ::
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: true
 class: mb-[50px] tablet:mb-[100px]
@@ -924,13 +924,13 @@ class: mb-[50px] tablet:mb-[100px]
 
 ::::
 :::
-:::block-brands-before-footer-md
+:::block-brands-before-footer
 :::
 ::
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::block-form-before-footer-md
+:::block-form-before-footer
 :::
 ::

@@ -57,7 +57,6 @@
 
 <script>
 export default {
-  name: "Opinion",
   props: {
     rating: Number,
     avatar: String,
@@ -69,6 +68,7 @@ export default {
 
 <style scoped>
 @reference "~/assets/css/main.css";
+
 .swiper-slide.swiper-slide-prev,
 .swiper-slide {
   @apply opacity-30;

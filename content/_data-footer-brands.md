@@ -2,7 +2,7 @@
 draft: true
 ---
 
-::block-brands-md
+::block-brands
 ---
 logos:
     - link: 'https://is-wireless.com/'

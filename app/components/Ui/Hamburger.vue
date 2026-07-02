@@ -8,7 +8,6 @@
 
 <script>
 export default {
-  name: "HamburgerBtn",
   props: {
     btnActive: Boolean,
   },

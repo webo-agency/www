@@ -14,7 +14,6 @@
 
 <script>
 export default {
-  name: "BlockFaqMd",
   data() {
     return {
       faqState: {

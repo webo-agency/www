@@ -1,19 +1,18 @@
 <template>
-  <CustomLink
+  <UiLink
     :url="link"
     :activeClass="'none'"
     class="uppercase text-green-main font-semibold border-0 border-b-2 border-b-transparent hover:border-b-green-main transition duration-200 py-2.5 mt-5 inline-block"
   >
     <span v-if="title" v-html="title"></span>
     <slot></slot>
-  </CustomLink>
+  </UiLink>
 </template>
 
 <script>
-import CustomLink from "../custom/link.vue";
+import UiLink from "../Link.vue";
 
 export default {
-  name: "ButtonSecondaryMd",
   props: {
     link: {
       type: String,
@@ -25,7 +24,7 @@ export default {
       required: true,
     },
   },
-  components: { CustomLink },
+  components: { UiLink },
 };
 </script>
 

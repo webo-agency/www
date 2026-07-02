@@ -14,7 +14,6 @@ import { computed, ref } from "vue";
 import { useElementBounding, useWindowSize } from "@vueuse/core";
 
 export default {
-  name: "EffectAppear",
   props: {
     toggleOpacity:{
       type:Boolean,
@@ -79,8 +78,9 @@ export default {
 };
 </script>
 
-<style  lang="postcss" scoped>
+<style   scoped>
 @reference "~/assets/css/main.css";
+
 @media only screen and (max-width: 767px) {
   .desktop-delay :deep() {
     @apply !delay-[0s];

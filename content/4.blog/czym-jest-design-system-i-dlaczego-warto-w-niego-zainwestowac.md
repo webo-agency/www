@@ -14,12 +14,12 @@ draft: false
 ---
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[100px]
 ---
-:::effect-appear-md
-::::block-header-post-md
+:::effect-appear
+::::block-header-post
 ---
 bgUrl: /img/blog-images/webo_blog_design_system.jpg
 ---
@@ -34,11 +34,11 @@ bgUrl: /img/blog-images/webo_blog_design_system.jpg
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: static-content mb-10
 ---
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-blog
 ---
@@ -50,7 +50,7 @@ Design System jest zbiorem wytycznych oraz zasad dotyczących tworzenia i dział
 ::::
 
 :::
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-blog
 ---
@@ -67,7 +67,7 @@ class: mx-blog
 ::::
 :::
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-blog
 ---
@@ -80,7 +80,7 @@ Jeśli prowadzisz stronę internetową, sklep lub aplikację którą planujesz r
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-20
 ---
@@ -94,12 +94,12 @@ tags:
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[100px]
 ---
-:::effect-appear-md
-::::block-header-link-md
+:::effect-appear
+::::block-header-link
 ---
 url: 'https://webo.agency/blog'
 linktitle: Zobacz wszystkie wpisy
@@ -118,18 +118,18 @@ relatedPostsLinks:
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-[50px] tablet:mb-[100px]
 ---
-:::effect-appear-md
-::::block-cta-md
+:::effect-appear
+::::block-cta
 ---
 button.link: https://webo.agency/kontakt
 button.title: 'Skontaktuj się z nami'
 button.isWide: true
 maxWidth: 560
-class: block [&_.title]:!mb-4 [&_p]:max-w-[312px] [&_p]:font-medium
+class: block [&_.title]:!mb-4  [&_p]:font-medium
 ---
 
 #title
@@ -142,12 +142,12 @@ Skontaktuj się z nami i skorzystaj z bezpłatnej konsultacji
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: true
 class: mb-[50px] tablet:mb-[100px]
@@ -161,6 +161,6 @@ class: mb-[50px] tablet:mb-[100px]
 
 ::::
 :::
-:::block-brands-before-footer-md
+:::block-brands-before-footer
 :::
 ::

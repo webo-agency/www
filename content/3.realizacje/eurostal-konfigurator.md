@@ -2,7 +2,7 @@
 introduction.title: 'Eurostal - dynamiczny konfigurator 3D dla polskiego producenta garaży blaszanych'
 introduction.description: 'Konfigurator Eurostal umożliwia pełne dostosowanie garaży blaszanych dla klientów z wielu krajów. Wdrożone rozwiązanie pozwala dynamicznie generować model 3D garażu na podstawie opcji wybranych przez użytkownika.'
 type:
-    - Aplikacja internetowa
+    - Wsparcie/Rozwój
 technologies:
     - Wordpress CMS
     - TailwindCSS
@@ -17,12 +17,12 @@ hreflangs:
 ---
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-10 tablet:mb-20 mt-[100px] tablet:mt-[200px]
 ---
-:::effect-appear-md
-::::block-header-case-md
+:::effect-appear
+::::block-header-case
 ---
 class: mx-default
 logoUrl: '/img/logos/Eurostal.png'
@@ -45,27 +45,27 @@ Zobacz online
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-[50px] tablet:mb-[150px]
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/case-eurostall-img1.png"}
 ::::
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: static-content mb-10 tablet:mb-[90px]
 ---
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default
 ---
 ### **O kliencie**
 :::
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default flex flex-col md:flex-row gap-10 lg:gap-20
 ---
@@ -126,11 +126,11 @@ class: mx-0 [&_p]:!mb-4
 :prose-hr{class='mb-10 md:mb-[100px]'}
 
 
-::page-section-md
+::ui-container
 ---
 class: static-content mb-[50px] desktop:mb-[100px]
 ---
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default
 ---
@@ -146,7 +146,7 @@ Zlecenie zgłoszone przez klienta polegało na przygotowaniu konfiguratora 3D ga
 ::::
 :::
 
-:::effect-appear-md
+:::effect-appear
 ::::prose-bg{class='font-semibold'}
 :::::prose-p1
 **Zakres prac**
@@ -163,12 +163,12 @@ Zlecenie zgłoszone przez klienta polegało na przygotowaniu konfiguratora 3D ga
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: static-content mb-[50px] tablet:mb-[100px]
 ---
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default
 ---
@@ -180,7 +180,7 @@ Podczas pracy nad konfiguratorem, musieliśmy zwrócić szczególną uwagę na a
 ::::
 :::
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default
 ---
@@ -222,11 +222,11 @@ System konfguratora umożliwia rozbudowę o automatyczne obliczanie ceny, na baz
 ::
 
 
-::page-section-md
+::ui-container
 ---
 class: static-content
 ---
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default [&_h3]:!mb-0
 ---
@@ -234,22 +234,22 @@ class: mx-default [&_h3]:!mb-0
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-[50px] tablet:mb-[100px]
 ---
 
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/case-eurostall-img2.png"}
 ::::
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: static-content
 ---
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default [&_h3]:!mb-0
 ---
@@ -257,22 +257,22 @@ class: mx-default [&_h3]:!mb-0
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-[50px]
 ---
 
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/case-eurostall-img3.png"}
 ::::
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: static-content mb-[50px] desktop:mb-[100px]
 ---
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default
 ---
@@ -289,14 +289,14 @@ Bardzo duża ilość możliwych konfiguracji garażu uniemożliwiała skorzystan
 ::::
 :::
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default
 ---
 #### **Wykorzystane technologie**
 :::
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default
 ---
@@ -313,11 +313,11 @@ class: tablet:hidden
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: static-content mb-[50px] desktop:mb-[100px]
 ---
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default relative
 ---
@@ -339,23 +339,23 @@ W efekcie prac nasz klient otrzymał gotowy konfigurator produktu który może b
 ::
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-[50px] tablet:mb-[100px]
 ---
 
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/case-eurostall-img4.png"}
 ::::
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: static-content mb-[50px] tablet:mb-[100px]
 ---
-:::effect-appear-md
-::::block-opinion-md
+:::effect-appear
+::::block-opinion
 ---
 rating: 5
 link: 'https://www.google.com/search?sa=X&sca_esv=950f1dd50efd152d&tbm=lcl&q=Webo+Opinie&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxI2NDA0NbQ0NLUwM7O0ANJGJiYbGBlfMXKHpyblK_gXZOZlpi5iReYBAMr9MB02AAAA&rldimm=1015191586698915244&hl=pl-PL&ved=2ahUKEwjvh8C7pfaOAxWRHxAIHUsvAXsQ9fQKegQISBAF&biw=1920&bih=1031&dpr=1#lkt=LocalPoiReviews'
@@ -384,12 +384,12 @@ Sales Manager - **Eurostal**
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-[50px] tablet:mb-[100px]
 ---
-:::effect-appear-md
-::::block-cta-md
+:::effect-appear
+::::block-cta
 ---
 button.link: https://webo.agency/kontakt/
 button.title: 'Skontaktuj się'
@@ -405,13 +405,13 @@ Skontaktuj się z nami i rozpocznij współpracę
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 id: realizacje
 class: mb-[80px] tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 class: mb-10 tablet:mb-20
 ---
@@ -425,7 +425,7 @@ class: mb-10 tablet:mb-20
 ::::
 :::
 
-:::block-cases-md
+:::block-cases
 ---
 contentFolder: realizacje
 moreBtn.url: 'https://webo.agency/realizacje/'
@@ -438,12 +438,12 @@ selectedSlugs:
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: true
 class: mb-[50px] tablet:mb-[100px]
@@ -457,6 +457,6 @@ class: mb-[50px] tablet:mb-[100px]
 
 ::::
 :::
-:::block-brands-before-footer-md
+:::block-brands-before-footer
 :::
 ::

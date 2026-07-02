@@ -3,7 +3,7 @@ introduction.title: 'Projekt strony internetowej dla międzynarodowej konferencj
 introduction.description: '5G Made Together jest stowarzyszeniem i konferencją organizowaną kilka razy w ciągu roku, poruszając zagadnienia transformacji cyfrowej, technologii, cyberbezpieczeństwa, biznesu i nauki.'
 type:
     - UX/UI
-    - Rozwój
+    - Wsparcie/Rozwój
 technologies:
     - Wordpress CMS
     - TailwindCSS
@@ -16,12 +16,12 @@ public: true
 ---
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-10 tablet:mb-20 mt-[100px] tablet:mt-[200px]
 ---
-:::effect-appear-md
-::::block-header-case-md
+:::effect-appear
+::::block-header-case
 ---
 class: mx-default
 logoUrl: '/img/logos/5G.png'
@@ -46,27 +46,27 @@ Zobacz online
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-[50px] tablet:mb-[150px]
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/case-5g-img1.png"}
 ::::
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: static-content mb-10 tablet:mb-[90px]
 ---
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default
 ---
 ### **O kliencie**
 :::
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default flex flex-col md:flex-row gap-10 lg:gap-20
 ---
@@ -128,11 +128,11 @@ class: mx-0 [&_p]:!mb-4
 :prose-hr{class='mb-10 md:mb-[100px]'}
 
 
-::page-section-md
+::ui-container
 ---
 class: static-content mb-[50px] desktop:mb-[100px]
 ---
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default
 ---
@@ -150,7 +150,7 @@ Efektem pierwszej fazy projektu była w pełni **skonfigurowana infrastruktura**
 ::::
 :::
 
-:::effect-appear-md
+:::effect-appear
 ::::prose-bg{class='font-semibold'}
 :::::prose-p1
 **Zakres prac**
@@ -169,22 +169,22 @@ Efektem pierwszej fazy projektu była w pełni **skonfigurowana infrastruktura**
 
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-[50px] desktop:mb-[100px]
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/case-5g-img2.png"}
 ::::
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: static-content mb-[50px] tablet:mb-[100px]
 ---
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default
 ---
@@ -200,7 +200,7 @@ Zgodnie z otrzymanym założeniem strona konferencji początkowo miała działa�
 ::::
 :::
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default
 ---
@@ -216,11 +216,11 @@ W tym celu postawiliśmy na ostre kształty przełamane zaokrąglonymi przyciska
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-[50px] tablet:mb-[100px]
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure
 ---
 src: '/img/content-images/case-5g-img3.png'
@@ -232,11 +232,11 @@ rounded: false
 
 
 
-::page-section-md
+::ui-container
 ---
 class: static-content mb-[50px] tablet:mb-[120px]
 ---
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default
 ---
@@ -244,7 +244,7 @@ class: mx-default
 ### **Wdrożenie w _architekturze Headless_**
 :::
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default
 ---
@@ -253,14 +253,14 @@ Po zakończeniu prac projektowych rozpoczęliśmy pracę nad programowaniem stro
 ::::
 :::
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default
 ---
 #### **Wykorzystane technologie**
 :::
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default
 ---
@@ -277,11 +277,11 @@ class: tablet:hidden
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: static-content mb-[50px] tablet:mb-[100px]
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-bg
 :::::prose-p1
 Strony internetowe wykonane w **architekturze Headless** polegają na oddzieleniu interfejsu użytkownika (frontendu) od funkcji administracyjnych i zasobów wewnętrznych (backend). Obie warstwy są wobec siebie niezależne, a komunikacja między nimi wykonywana jest za pomocą API.
@@ -291,7 +291,7 @@ Strony internetowe wykonane w **architekturze Headless** polegają na oddzieleni
 Dzięki architekturze Headless umożliwiamy m.in lepszą optymalizację serwisu, ultra szybkie ładowanie, nielimitowany rozwój strony, spełniając przy tym najwyższe standardy bezpieczeństwa.
 :::::
 
-:::::button-arrow-md
+:::::ui-button-arrow
 ---
 link: '/uslugi/strony-headless-pwa'
 ---
@@ -302,11 +302,11 @@ Dowiedz się więcej
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: static-content mb-[50px] tablet:mb-[100px]
 ---
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default
 ---
@@ -322,12 +322,12 @@ W efekcie zakończonych prac, nasz klient otrzymał w pełni funkcjonalną stron
 ::
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-[50px] tablet:mb-[100px]
 ---
 #full
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure
 ---
 src: '/img/content-images/case-5g-img4.png'
@@ -336,12 +336,12 @@ rounded: false
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-[50px] tablet:mb-[100px]
 ---
-:::effect-appear-md
-::::block-cta-md
+:::effect-appear
+::::block-cta
 ---
 button.link: https://webo.agency/kontakt
 button.title: 'Skontaktuj się'
@@ -357,13 +357,13 @@ Skontaktuj się z nami i rozpocznij współpracę
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 id: realizacje
 class: mb-[80px] tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 class: mb-10 tablet:mb-20
 ---
@@ -377,7 +377,7 @@ class: mb-10 tablet:mb-20
 ::::
 :::
 
-:::block-cases-md
+:::block-cases
 ---
 contentFolder: realizacje
 moreBtn.url: 'https://webo.agency/realizacje'
@@ -390,12 +390,12 @@ selectedSlugs:
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: true
 class: mb-[50px] tablet:mb-[100px]
@@ -409,6 +409,6 @@ class: mb-[50px] tablet:mb-[100px]
 
 ::::
 :::
-:::block-brands-before-footer-md
+:::block-brands-before-footer
 :::
 ::

@@ -1,7 +1,7 @@
 <template>
   <ul class="flex">
     <li v-for="(item, index) in socials" :key="index" class="mr-2.5 last:mr-0">
-      <CustomLink
+      <UiLink
         v-if="item.link && item.type"
         :url="item.link"
         :aria-label="item.type"
@@ -77,20 +77,19 @@
             fill="#fff"
           />
         </svg>
-      </CustomLink>
+      </UiLink>
     </li>
   </ul>
 </template>
 
 <script>
-import CustomLink from "./custom/link.vue";
+import UiLink from "./Link.vue";
 export default {
-  name: "Socials",
   props: {
     socials: Array,
     invertColors: Boolean,
   },
-  components: { CustomLink },
+  components: { UiLink },
 };
 </script>
 

@@ -1,4 +1,4 @@
-::page-section-md
+::ui-container
 ---
 class: my-[100px] tablet:my-[150px] static-content-basic
 innerContainerClasses: px-0 !max-w-5xl

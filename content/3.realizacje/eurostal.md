@@ -4,7 +4,7 @@ introduction.description: 'Eurostal to producent wysokiej jakości garaży blasz
 '
 type:
     - UX/UI
-    - Rozwój
+    - Wsparcie/Rozwój
 technologies:
     - Wordpress CMS
 image.url: '/img/case-studies/Eurostal.jpg'

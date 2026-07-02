@@ -42,7 +42,6 @@
 
 <script>
 export default {
-  name: "CustomLink",
   props: {
     disabled:{
       type: Boolean,

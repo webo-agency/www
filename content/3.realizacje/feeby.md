@@ -4,7 +4,7 @@ introduction.description: 'Sklep Feeby umożliwia zakup dekoracji ściennych z s
 type:
     - E-commerce
     - UX/UI
-    - Wsparcie
+    - Wsparcie/Rozwój
 technologies:
     - TailwindCSS
     - Vue.js
@@ -19,12 +19,12 @@ fallback: 'https://www.behance.net/gallery/149635813/Feeby-Home-decor-E-commerce
 ---
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-10 tablet:mb-20 mt-[100px] tablet:mt-[200px]
 ---
-:::effect-appear-md
-::::block-header-case-md
+:::effect-appear
+::::block-header-case
 ---
 class: mx-default
 logoUrl: '/img/logos/Feeby.png'
@@ -47,22 +47,22 @@ link: '/'
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-[50px] tablet:mb-[150px]
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/case-feeby-img1.png"}
 ::::
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: static-content mb-[100px] tablet:mb-[200px]
 ---
-:::effect-appear-md
-::::block-columns-1-1-md
+:::effect-appear
+::::layout-columns-1-1
 ---
 class: mx-default items-center
 ---
@@ -77,7 +77,7 @@ Prócz standardowej oferty marka Feeby **współpracuje ze znanymi artystami z c
 :::::
 
 #right
-:::::img-decorated-md
+:::::img-decorated
 ---
 imgUrl: '/img/content-images/case-feeby-img.png'
 ---
@@ -86,11 +86,11 @@ imgUrl: '/img/content-images/case-feeby-img.png'
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: static-content mb-10 desktop:mb-20
 ---
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default
 ---
@@ -103,22 +103,22 @@ Firma Feeby zgłosiła się do nas po rekomendacji jednego z naszych dotychczaso
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-[50px] desktop:mb-[100px]
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/case-feeby-full4.png"}
 ::::
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: static-content mb-[50px] tablet:mb-[100px]
 ---
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default
 ---
@@ -139,11 +139,11 @@ Głównym założeniem w realizacji sklepu było stworzenie intuicyjnego rozwią
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: static-content mb-[50px] tablet:mb-[120px]
 ---
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default
 ---
@@ -160,7 +160,7 @@ Podczas wdożenia, kluczowym założeniem było zastosowanie platformy Prestasho
 ::::
 :::
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default
 ---
@@ -168,7 +168,7 @@ class: mx-default
 #### **Wykorzystane technologie**
 
 :::
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default
 ---
@@ -187,12 +187,12 @@ class: tablet:hidden
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-[100px] tablet:mb-[150px]
 ---
 #full
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure
 ---
 src: '/img/content-images/case-feeby-full1.png'
@@ -206,12 +206,12 @@ rounded: false
 
 
 
-::page-section-md
+::ui-container
 ---
 class: static-content mb-10 tablet:mb-20
 ---
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default
 ---
@@ -224,17 +224,17 @@ Po ustaleniu szczegółów projektu, omówieniu założeń oraz zakresu pracy, r
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: static-content mb-[50px] tablet:mb-[100px]
 ---
 
-:::block-columns-1-1-md
+:::layout-columns-1-1
 ---
 class: mx-default items-center
 ---
 #left
-::::effect-appear-md
+::::effect-appear
 
 #### **Projekt UX/UI**
 
@@ -248,8 +248,8 @@ Podczas pracy projektowej przeszliśmy z klientem przez proces rozpoczynając od
 ::::
 
 #right
-::::effect-appear-md
-:::::img-decorated-md
+::::effect-appear
+:::::img-decorated
 ---
 decoration: false
 imgUrl: '/img/content-images/case-feeby-img2.png'
@@ -263,12 +263,12 @@ imgUrl: '/img/content-images/case-feeby-img2.png'
 
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-[100px] tablet:mb-[150px]
 ---
 #full
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure
 ---
 src: "/img/content-images/case-feeby-full2.png"
@@ -279,18 +279,18 @@ rounded: false
 ::
 
 
-::page-section-md
+::ui-container
 ---
 class: static-content mb-[100px] tablet:mb-[150px]
 ---
-:::effect-appear-md
-::::block-columns-1-1-md
+:::effect-appear
+::::layout-columns-1-1
 ---
 class: mx-default
 ---
 
 #left
-:::::img-decorated-md
+:::::img-decorated
 ---
 shadow: true
 imgUrl: '/img/content-images/case-programmer.png'
@@ -323,16 +323,16 @@ Takie podejście pozwoliło na utrzymanie ciągłości działania sklepu, kontyn
 
 
 
-::page-section-md
+::ui-container
 ---
 class: static-content mb-[100px] tablet:mb-[150px]
 ---
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default
 ---
 
-::::block-header-md
+::::block-header
 ---
 center: true
 maxWidth: 600
@@ -357,13 +357,13 @@ class: max-w-5xl
 ::
 
 
-::page-section-md
+::ui-container
 ---
 class: static-content bg-gray-light mb-[50px] tablet:mb-[150px]
 ---
 
 #full
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure
 ---
 src: '/img/content-images/case-feeby-full3.png'
@@ -372,12 +372,12 @@ rounded: false
 ---
 :::
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default
 ---
 
-::::block-header-md
+::::block-header
 ---
 class: pb-[50px] tablet:pb-[100px]
 center: true
@@ -401,12 +401,12 @@ W pierwszych miesiącach współpracy dostarczyliśmy konfigurator fototapet pre
 
 
 
-::page-section-md
+::ui-container
 ---
 class: static-content mb-[50px] tablet:mb-[100px]
 ---
-:::effect-appear-md
-::::block-columns-5-7-md
+:::effect-appear
+::::layout-columns-5-7
 ---
 class: mx-default
 ---
@@ -424,7 +424,7 @@ refer: 5
 
 #right
 
-:::::block-opinion-md
+:::::block-opinion
 
 #title
 ### **Opinia klienta**
@@ -450,12 +450,12 @@ Marketing and Sales Executive - IS-Wireless
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-[50px] tablet:mb-[100px]
 ---
-:::effect-appear-md
-::::block-cta-md
+:::effect-appear
+::::block-cta
 ---
 button.link: https://webo.agency/kontakt
 button.title: 'Skontaktuj się'
@@ -471,12 +471,12 @@ Skontaktuj się z nami i rozpocznij współpracę
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: true
 class: mb-[50px] tablet:mb-[100px]
@@ -490,6 +490,6 @@ class: mb-[50px] tablet:mb-[100px]
 
 ::::
 :::
-:::block-brands-before-footer-md
+:::block-brands-before-footer
 :::
 ::

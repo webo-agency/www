@@ -27,12 +27,12 @@
           class="inline-block text-green-main w-5 tablet:w-8 font-semibold mr-2.5"
           >M/</span
         >
-        <CustomLink
+        <UiLink
           class="inline-block underline font-normal"
           :url="'mailto:' + mail"
           :title="mail"
         >
-        </CustomLink>
+        </UiLink>
       </div>
       <div
         v-if="tel"
@@ -42,12 +42,12 @@
           class="inline-block text-green-main w-5 tablet:w-8 font-semibold mr-2.5"
           >T/</span
         >
-        <CustomLink
+        <UiLink
           class="inline-block underline font-normal"
           :url="'tel:' + tel"
           :title="$addTelSpaces(tel)"
         >
-        </CustomLink>
+        </UiLink>
       </div>
       <div v-if="address || nip || regon" class="flex items-start gap-5 mt-8">
         <div class="shrink-0">
@@ -69,7 +69,6 @@
 
 <script>
 export default {
-  name: "BlockContactInfo",
   props: {
     mail: String,
     tel: String,

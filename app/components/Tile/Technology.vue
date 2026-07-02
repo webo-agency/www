@@ -25,10 +25,9 @@
 </template>
 
 <script>
-import EffectAppearMdc from "../effect/effect-appear-md.vue";
-import CustomLink from "../../custom/link.vue";
+import EffectAppearMdc from "../Effect/Appear.vue";
+import UiLink from "../Ui/Link.vue";
 export default {
-  name: "TechnologyTileMdc",
   props: {
     link: String,
     icon: String,
@@ -43,7 +42,7 @@ export default {
       default: false,
     },
   },
-  components: { EffectAppearMdc, CustomLink },
+  components: { EffectAppearMdc, UiLink },
 };
 </script>
 

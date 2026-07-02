@@ -67,7 +67,6 @@ import { Pagination, Navigation, Autoplay } from "swiper/modules";
 import "swiper/css/bundle";
 
 export default {
-  name: "BlockOpinionsMdc",
 
   data() {
     return {
@@ -118,6 +117,7 @@ export default {
 
 <style scoped>
 @reference "~/assets/css/main.css";
+
 .swiper-pagination :deep(.swiper-pagination-bullet) {
   @apply w-[25px] h-[5px] rounded-[5px] opacity-100 bg-gray-default transition duration-200 mx-[5px];
 }

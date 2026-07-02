@@ -36,7 +36,7 @@
         :class="isTransparent && !mobileExpanded ? 'text-white' : 'text-gray-darker'"
       >
         <div class="flex items-center justify-between py-3 tablet:py-2 desktop:py-0">
-          <CustomLink
+          <UiLink
             url="https://webo.agency/"
             active-class="none"
             aria-label="Homepage"
@@ -55,8 +55,8 @@
               <path fill-rule="evenodd" clip-rule="evenodd" d="M64.8764 40.9943L42.5738 41C38.4712 41 35.1411 37.6687 35.1411 33.5662V18.6985C35.1411 14.5948 38.4712 11.2647 42.5738 11.2647H57.4425C61.5451 11.2647 64.8764 14.5948 64.8764 18.6985V31.5338H44.6016V28.8331H62.1733V19.4664C62.1733 16.1089 60.0311 13.9677 56.6747 13.9677H43.3428C39.9852 13.9677 37.8441 16.1089 37.8441 19.4664V32.7983C37.8441 36.1547 39.9852 38.2958 43.3428 38.2958H64.8764V40.9943Z" />
               <path fill-rule="evenodd" clip-rule="evenodd" d="M22.7255 41H21.6578V38.2821H22.2426C25.4629 38.1425 27.4518 36.0655 27.4564 32.7983V11.2647H30.1548L30.1593 33.5662C30.1593 37.6687 26.8292 41 22.7255 41ZM2.70368 11.2647V32.7983C2.70826 36.0655 4.69716 38.1425 7.91856 38.2821L7.43449 41C3.33079 41 0 37.6687 0 33.5662L0.0051477 11.2647H2.70368ZM15.08 41H7.43449L7.91856 38.2821H12.377L12.3759 28.8331H15.0743L15.08 41Z" />
             </svg>
-          </CustomLink>
-          <HamburgerBtn
+          </UiLink>
+          <UiHamburger
             class="flex flex-col justify-between desktop:hidden"
             :btn-active="mobileExpanded"
             @click="toggleMobile"
@@ -84,7 +84,7 @@
               @mouseleave="handleMenuItemLeave(item)"
             >
             <div class="border-b border-b-black/10 desktop:border-none">
-              <CustomLink
+              <UiLink
                 :url="item.link"
                 :active-class="'none-temp'"
                 itemprop="url"
@@ -109,7 +109,7 @@
                   itemprop="name"
                   class="h-0.5 w-[14px] ml-3 mt-0.5 bg-current z-10 group-hover:translate-x-1 transition-transform duration-200"
                 />
-              </CustomLink>
+              </UiLink>
             </div>
 
               <div
@@ -131,14 +131,14 @@
                 <div class="mobile-accordion-content desktop:hidden overflow-hidden h-0 transition-all duration-300">
                   <ul>
                     <li v-for="(subItem, subIndex) in item.items" :key="subIndex" itemprop="name" class="border-b border-b-black/10">
-                      <CustomLink
+                      <UiLink
                         :url="subItem.link"
                         class="flex items-center text-lg uppercase py-[18px] pr-10 text-gray-darker hover:text-green-main transition duration-300"
                         @click="handleMenuClick"
                       >
                         <span class="w-2.5 h-[5px] mx-2.5 rounded-full bg-green-main"></span>
                         <div itemprop="name">{{ subItem.title }}</div>
-                      </CustomLink>
+                      </UiLink>
                       <div v-if="subItem.items || subItem.type == 'section'" data-collapsed="true" class="relative transition duration-300">
                         <div
                           class="absolute right-0 desktop:right-2 z-20 top-[-60px] desktop:top-[-46px] w-14 h-14 desktop:w-10 desktop:h-10 flex justify-center items-center desktop:pointer-events-none text-gray-darker desktop:text-inherit"
@@ -150,17 +150,17 @@
                         </div>
                         <div class="mobile-accordion-content overflow-hidden h-0 transition-all duration-300">
                           <div v-if="subItem.type == 'section'">
-                            <SubmenuSectionTiles :data="subItem" />
+                            <LayoutSubmenuSectionTiles :data="subItem" />
                           </div>
                           <ul v-else-if="subItem.items">
                             <li v-for="(subItemDeep, subIndexDeep) in subItem.items" :key="subIndexDeep" itemprop="name">
-                              <CustomLink
+                              <UiLink
                                 :url="subItemDeep.link"
                                 class="flex items-center text-base py-4 pl-8 text-gray-darker hover:text-green-main transition duration-300 "
                                 @click="handleMenuClick"
                               >
                                 <div itemprop="name">{{ subItemDeep.title }}</div>
-                              </CustomLink>
+                              </UiLink>
                             </li>
                           </ul>
                         </div>
@@ -172,20 +172,20 @@
             </li>
 
             <li class="transition-[transform,opacity] duration-300 order-[9999]" :class="{ '-translate-x-full desktop:translate-x-0 opacity-0': !mobileExpanded && !isLargeScreen }" :style="getLangSwitcherStyle">
-              <LangSwitcher />
+              <UiLangSwitcher />
             </li>
           </ul>
 
           <div class="desktop:hidden flex flex-col mb-5 transition duration-500" :class="{ 'translate-y-[80vh] desktop:translate-y-0 opacity-0': !mobileExpanded && !isLargeScreen }">
             <WidgetRatingClutch :shrink-mobile="false" class="mb-5" />
-            <Socials v-if="socials" :socials="socials" :invert-colors="true" />
+            <UiSocials v-if="socials" :socials="socials" :invert-colors="true" />
           </div>
         </div>
       </div>
 
       <div class="hidden desktop:block absolute top-full inset-x-0 w-full z-0 bg-green-gray"
         @mouseover="popUpHover = true" @mouseleave="popupReset">
-        <SubmenuPopup :active="popUpActive" :name="hoverItem" :data="popUpData" @link-clicked="popupReset" />
+        <LayoutSubmenuPopup :active="popUpActive" :name="hoverItem" :data="popUpData" @link-clicked="popupReset" />
       </div>
     </div>
   </nav>
@@ -195,10 +195,10 @@
 import { ref, computed, watch, onMounted, onUnmounted } from 'vue';
 import { useScroll } from '@vueuse/core';
 import { useRoute } from 'vue-router';
-import SubmenuPopup from '../submenu/popup.vue';
-import HamburgerBtn from '../hamburger/btn.vue';
-import Socials from '../socials.vue';
-import CustomLink from '../custom/link.vue';
+import LayoutSubmenuPopup from './Submenu/Popup.vue';
+import UiHamburger from '../Ui/Hamburger.vue';
+import UiSocials from '../Ui/Socials.vue';
+import UiLink from '../Ui/Link.vue';
 
 const props = defineProps({
   menu: { type: Array, default: () => [] },
@@ -312,6 +312,7 @@ onUnmounted(() => window.removeEventListener('resize', onWidthChange));
 
 <style scoped>
 @reference "~/assets/css/main.css";
+
 .nuxt-link-active { @apply text-green-main; }
 [data-collapsed="false"] .collapse-icon { @apply rotate-180; }
 .scrollbar-none { -ms-overflow-style: none; scrollbar-width: none; }

@@ -2,9 +2,9 @@
 introduction.title: 'GetSales - Projekt i wdrożenie odświeżonej strony www agencji wsparcia sprzedaży B2B'
 introduction.description: 'GetSales to jedyna w polsce agencja wsparcia sprzedaży B2B, pomagająca firmom na całej długości procesu pozyskiwania klienta. Naszym zadaniem było projektowanie ux/ui kluczowych stron oraz kodowanie projektu graficznego na istniejącej stronie klienta.'
 type:
-    - Strona internetowa
-    - Projektowanie UX/UI
-    - Programowanie wordpress
+    - Strony www
+    - UX/UI
+    - Wsparcie/Rozwój
 technologies:
     - Wordpress CMS
 image.url: '/img/case-studies/getsales-bg.png'
@@ -15,12 +15,12 @@ public: true
 ---
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-10 tablet:mb-20 mt-[100px] tablet:mt-[200px]
 ---
-:::effect-appear-md
-::::block-header-case-md
+:::effect-appear
+::::block-header-case
 ---
 class: mx-default
 logoUrl: '/img/logos/getsales-logo2.png'
@@ -45,34 +45,34 @@ Zobacz online
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-[50px] tablet:mb-[100px]
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/case-getsales-img1.png"}
 ::::
 :::
 ::
 
 
-::page-section-md
+::ui-container
 ---
 class: _static-content mb-[50px] tablet:mb-[100px]
 ---
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: _mx-default
 ---
-::::block-columns-1-1-md
+::::layout-columns-1-1
 ---
 reverseMobile: true
 class: items-center [&_div.right]:self-start
 ---
 
 #left
-::::card-icon-md
+::::tile-icon
 ---
 class: tablet:pr-2.5 [&_div_div.group]:p-10 [&_div_div]:bg-primary [&_div_div]:!text-gray-darker [&_h4]:!mb-4 [&_h4]:tablet:text-[35px]
 icon: '/img/icons/info.svg'
@@ -81,11 +81,11 @@ icon: '/img/icons/info.svg'
 #### Projekt w pigułce
 
 #content
-:::::block-list-ul-md
+:::::block-list-ul
 ---
 decoration: false
 ---
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/list-1.svg'
 iconBig: false
@@ -101,7 +101,7 @@ Analiza i warsztaty UX
 Na podstawie otrzymanych wymagań przeprowadziliśmy **audyt struktury informacji** oraz układu i stylistyki obecnej strony, wyznaczając kierunek projektowy zgodny z **dobrymi praktykami UX** i celami biznesowymi klienta.
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/list-2.svg'
 iconBig: false
@@ -116,7 +116,7 @@ Projekt strony internetowej
 Zaprojektowaliśmy stronę główną, podstrony usług i wydarzenia, opierając się na **przemyślanej architekturze informacji**, kładąc szczególny nacisk na użyteczność strony, przejrzystość oferty i spójność wizualną.
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/list-3.svg'
 iconBig: false
@@ -136,7 +136,7 @@ Wdrożyliśmy nowy system komponentów w środowisku WordPress, **integrując go
 
 #right
 
-::::card-icon-md
+::::tile-icon
 ---
 class: tablet:pr-2.5 [&_div_div.group]:p-10 [&_div_div]:bg-white [&_div_div]:!text-gray-darker [&_h4]:!mb-4 [&_h4]:tablet:text-[35px]
 icon: '/img/icons/double_check.svg'
@@ -145,11 +145,11 @@ icon: '/img/icons/double_check.svg'
 #### Rezultat pracy
 
 #content
-:::::block-list-ul-md
+:::::block-list-ul
 ---
 decoration: false
 ---
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 
 iconBig: false
@@ -171,81 +171,81 @@ Zaprogramowane strony zostały dostosowane do wyświetlania na urządzeniach mob
 
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-5
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/case-getsales-img2.png"}
 ::::
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-5
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/case-getsales-img3.png"}
 ::::
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-5
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/case-getsales-img4.png"}
 ::::
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-5
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/case-getsales-img5.png"}
 ::::
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-5
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/case-getsales-img6.png"}
 ::::
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-5
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/case-getsales-img7.png"}
 ::::
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-5
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/case-getsales-img8.png"}
 ::::
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-5 tablet:mb-[100px]
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/case-getsales-img9.png"}
 ::::
 :::
@@ -254,12 +254,12 @@ class: mb-5 tablet:mb-[100px]
 
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-[50px] tablet:mb-[100px]
 ---
-:::effect-appear-md
-::::block-cta-md
+:::effect-appear
+::::block-cta
 ---
 button.link: https://webo.agency/kontakt
 button.title: 'Skontaktuj się'
@@ -275,13 +275,13 @@ Umów się na bezpłatną konsultację, porozmawiajmy!
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 id: realizacje
 class: mb-[80px] tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 class: mb-10 tablet:mb-20
 ---
@@ -295,7 +295,7 @@ class: mb-10 tablet:mb-20
 ::::
 :::
 
-:::block-cases-md
+:::block-cases
 ---
 contentFolder: realizacje
 moreBtn.url: 'https://webo.agency/realizacje'
@@ -308,12 +308,12 @@ selectedSlugs:
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: true
 class: mb-[50px] tablet:mb-[100px]
@@ -327,6 +327,6 @@ class: mb-[50px] tablet:mb-[100px]
 
 ::::
 :::
-:::block-brands-before-footer-md
+:::block-brands-before-footer
 :::
 ::

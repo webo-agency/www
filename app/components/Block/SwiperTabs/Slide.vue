@@ -16,6 +16,7 @@ export default {
 </script>
 <style scoped>
 @reference "~/assets/css/main.css";
+
 :deep(p),
 :deep(li) {
   @apply !text-sm tablet:!text-base mb-4;

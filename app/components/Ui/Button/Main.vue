@@ -1,5 +1,5 @@
 <template>
-  <ButtonSharedMain
+  <UiButtonSharedMain
     :link="link"
     :title="title"
     :tagButton="tagButton"
@@ -7,24 +7,22 @@
     :rootClass="rootClass"
   >
     <slot></slot>
-  </ButtonSharedMain>
+  </UiButtonSharedMain>
 </template>
 
 <script>
-import ButtonSharedMain from "./shared-main.vue";
+import UiButtonSharedMain from "./SharedMain.vue";
 
 export default {
-  name: "ButtonMain",
-  components: { ButtonSharedMain },
+  components: { UiButtonSharedMain },
   props: {
     link: {
       type: String,
-      required: true,
       default: "/",
     },
     title: {
       type: String,
-      required: true,
+      default: "",
     },
     tagButton: {
       type: Boolean,

@@ -1,9 +1,9 @@
 <template>
-  <CustomLink
+  <UiLink
     :url="props.href"
   >
     <slot />
-  </CustomLink>
+  </UiLink>
 </template>
 
 <script setup lang="ts">

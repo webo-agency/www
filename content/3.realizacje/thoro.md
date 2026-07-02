@@ -19,12 +19,12 @@ draft: false
 ---
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-10 tablet:mb-20 mt-[100px] tablet:mt-[200px]
 ---
-:::effect-appear-md
-::::block-header-case-md
+:::effect-appear
+::::block-header-case
 ---
 class: mx-default
 logoUrl: '/img/logos/thoro.svg'
@@ -48,34 +48,34 @@ Zobacz online
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-[50px] tablet:mb-[100px]
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/case-thoro-img1.webp"}
 ::::
 :::
 ::
 
 
-::page-section-md
+::ui-container
 ---
 class: _static-content mb-[50px] tablet:mb-[100px]
 ---
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: _mx-default
 ---
-::::block-columns-1-1-md
+::::layout-columns-1-1
 ---
 reverseMobile: true
 class: items-center [&_div.right]:self-start
 ---
 
 #left
-::::card-icon-md
+::::tile-icon
 ---
 class: tablet:pr-2.5 [&_div_div.group]:p-10 [&_div_div]:bg-primary [&_div_div]:!text-gray-darker [&_h4]:!mb-4 [&_h4]:tablet:text-[35px]
 icon: '/img/icons/info.svg'
@@ -84,11 +84,11 @@ icon: '/img/icons/info.svg'
 #### Projekt w pigułce
 
 #content
-:::::block-list-ul-md
+:::::block-list-ul
 ---
 decoration: false
 ---
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/list-1.svg'
 iconBig: false
@@ -104,7 +104,7 @@ Przygotowanie środowiska deweloperskiego
 Przygotowaliśmy środowisko deweloperskie wraz z **repozytorium projektu na GitHub**, dzięki czemu zyskaliśmy pełną kontrolę nad kodem i możliwość **bezpiecznej pracy nad nowym layoutem**. Pozwoliło to wdrażać zmiany bez wpływu na ciągłość sprzedaży sklepu produkcyjnego.
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/list-2.svg'
 iconBig: false
@@ -119,7 +119,7 @@ Wdrożenie nowej szaty graficznej sklepu
 Nowy wygląd sklepu Thoro zakodowaliśmy na podstawie **projektu dostarczonego przez klienta**. Wymagało to precyzyjnego odzworowania widoków desktop i mobile, wraz z **dostosowaniem funkcjonalności do nowych założeń** - tak aby całość była spójna i funkcjonalna.
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/list-3.svg'
 iconBig: false
@@ -139,7 +139,7 @@ Przeprowadziliśmy **szczegółowe testy funkcjonalne i wizualne**, weryfikując
 
 #right
 
-::::card-icon-md
+::::tile-icon
 ---
 class: tablet:pr-2.5 [&_div_div.group]:p-10 [&_div_div]:bg-white [&_div_div]:!text-gray-darker [&_h4]:!mb-4 [&_h4]:tablet:text-[35px]
 icon: '/img/icons/double_check.svg'
@@ -148,11 +148,11 @@ icon: '/img/icons/double_check.svg'
 #### Rezultat pracy i dalsze wsparcie
 
 #content
-:::::block-list-ul-md
+:::::block-list-ul
 ---
 decoration: false
 ---
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 
 iconBig: false
@@ -174,91 +174,91 @@ W ramach dalszej współpracy sprawujemy **stałą opiekę nad sklepem**, dbają
 
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-5
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/case-thoro-img2.webp"}
 ::::
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-5
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/case-thoro-img3.webp"}
 ::::
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class:
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/case-thoro-img4.webp"}
 ::::
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class:
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/case-thoro-img5.webp"}
 ::::
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-5
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/case-thoro-img6.webp"}
 ::::
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class:
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/case-thoro-img7.webp"}
 ::::
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class:
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/case-thoro-img8.webp"}
 ::::
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class:
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/case-thoro-img9.webp"}
 ::::
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-5 tablet:mb-[100px]
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/case-thoro-img10.webp"}
 ::::
 :::
@@ -267,12 +267,12 @@ class: mb-5 tablet:mb-[100px]
 
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-[50px] tablet:mb-[100px]
 ---
-:::effect-appear-md
-::::block-cta-md
+:::effect-appear
+::::block-cta
 ---
 button.link: https://webo.agency/kontakt
 button.title: 'Skontaktuj się'
@@ -288,13 +288,13 @@ Umów się na bezpłatną konsultację, porozmawiajmy!
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 id: realizacje
 class: mb-[80px] tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 class: mb-10 tablet:mb-20
 ---
@@ -308,7 +308,7 @@ class: mb-10 tablet:mb-20
 ::::
 :::
 
-:::block-cases-md
+:::block-cases
 ---
 contentFolder: realizacje
 moreBtn.url: 'https://webo.agency/realizacje'
@@ -321,12 +321,12 @@ selectedSlugs:
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: true
 class: mb-[50px] tablet:mb-[100px]
@@ -340,6 +340,6 @@ class: mb-[50px] tablet:mb-[100px]
 
 ::::
 :::
-:::block-brands-before-footer-md
+:::block-brands-before-footer
 :::
 ::

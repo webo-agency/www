@@ -11,9 +11,9 @@
         </span>
       </div>
       <div class="flex-1 pt-1">
-        <h4 v-if="$slots.title" class="text-lg tablet:text-xl font-semibold text-gray-darker leading-snug transition duration-200">
+        <div v-if="$slots.title" class="text-lg tablet:text-xl font-semibold text-gray-darker leading-snug transition duration-200">
           <slot name="title" />
-        </h4>
+        </div>
       </div>
       <div v-if="$slots.description" class="shrink-0 flex items-center justify-center w-6 h-6">
         <svg class="w-5 h-5 transition duration-300" :class="{'rotate-180': isExpanded}" xmlns="http://www.w3.org/2000/svg" width="15" height="8" viewBox="0 0 15 8" fill="none">
@@ -36,7 +36,6 @@
 
 <script>
 export default {
-  name: "FaqItemSimpleMd",
   props: {
     number: {
       type: String,

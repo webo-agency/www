@@ -11,7 +11,7 @@ public: true
 
 
 
-::block-banner-md
+::block-banner
 ---
 bgImg: false
 headerWidth: 600
@@ -30,7 +30,7 @@ class: phone:!mb-0
 Projektujemy strony i sklepy internetowe 
 
 #right
-:::block-banner-decoration-md
+:::block-banner-decoration
 ---
 rotate_bl: 90
 rotate_tr: 90
@@ -40,21 +40,21 @@ svgUrl_tr: '/img/svg-arc.svg'
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 classes: pt-20 mb-5 tablet:mb-20 overflow-hidden
 ---
-:::block-columns-1-1-md
+:::layout-columns-1-1
 ---
 class: items-center
 ---
 
 #left
-::::effect-appear-md
+::::effect-appear
 ---
 class: relative z-20
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 580
 ---
@@ -75,11 +75,11 @@ Projektowanie UX/UI to sposób projektowania m.in. stron internetowych, który w
 ::::
 
 #right
-::::effect-appear-md
+::::effect-appear
 ---
 class: relative z-10
 ---
-:::::img-decorated-md
+:::::img-decorated
 ---
 imgUrl: '/img/content-images/projektowanie-uxui/section1-right-img.png'
 decoration: false
@@ -91,13 +91,13 @@ class: tablet:!pl-0 !mb-0 !-mx-10 tablet:!ml-0 desktop:!-ml-10 tablet:!-mr-40 de
 ::
 
 
-::page-section-md
+::ui-container
 ---
 classes: mb-10 tablet:mb-20
 ---
 
-:::effect-appear-md
-::::block-header-two-cols-md
+:::effect-appear
+::::block-header-two-cols
 ---
 class: mb-10 tablet:mb-20 [&_.description]:!text-base
 maxWidth: 640
@@ -115,8 +115,8 @@ Uwielbiamy wyzwania i rozwiązywanie problemów,specjalizujemy się w projektowa
 ::::
 :::
 
-:::block-offer-tiles-md
-::::offer-tile-md
+:::block-offer-tiles
+::::tile-offer
 --- 
 icon: '/img/icons/services-site.svg'
 link: 'https://webo.agency/uslugi/strony-internetowe'
@@ -126,7 +126,7 @@ link: 'https://webo.agency/uslugi/strony-internetowe'
 
 ::::
 
-::::offer-tile-md
+::::tile-offer
 --- 
 icon: '/img/icons/services-store.svg'
 link: 'https://webo.agency/uslugi/sklepy-internetowe'
@@ -137,7 +137,7 @@ delay: 1
 
 ::::
 
-::::offer-tile-md
+::::tile-offer
 --- 
 icon: '/img/icons/services-apps.svg'
 link: ''
@@ -149,18 +149,18 @@ delay: 2
 ::::
 :::
 
-:::block-bg-map-md
+:::block-bg-map
 ---
 class: -z-10
 ---
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-[100px] tablet:mb-[100px]
 ---
-:::effect-appear-md
+:::effect-appear
 
 :::svg-decorated
 ---
@@ -176,7 +176,7 @@ class: block desktop:hidden top-0 right-0
 ---
 ::::
 
-::::block-cta-md
+::::block-cta
 ---
 maxWidth: 730
 button.link: https://webo.agency/kontakt
@@ -196,18 +196,18 @@ Skontaktuj się z nami i skorzystaj z bezpłatnej konsultacji podczas której om
 ::
 
 
-::page-section-md
+::ui-container
 ---
 classes: bg-gray-darkest pt-10 tablet:pt-[100px] mb-[100px] tablet:mb-[100px]
 ---
 
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: relative z-20
 ---
 
-::::block-header-md
+::::block-header
 ---
 maxWidth: 940
 class: mb-10 tablet:mb-20 [&_.title]:!max-w-[500px]
@@ -225,12 +225,12 @@ center: true
 Wygląd i działanie Twojej strony internetowej ma ogromne znaczenie - już w pierwszej sekundzie przebywania na stronie, użytkownicy decydują czy na niej zostaną. Dzięki UX/UI wpłyniesz na
 
 ::::
-:::::block-list-ul-md
+:::::block-list-ul
 ---
 class: mb-10 tablet:mb-20 flex flex-wrap justify-center gap-5 tablet:[&>li]:w-[calc(50%_-_10px)] desktop:[&>li]:w-[calc(33.3333%_-_14px)]
 ---
 
-::::::tile-dark-icon-md
+::::::tile-dark-icon
 ---
 iconUrl: '/img/icons/user.svg'
 center: true
@@ -244,7 +244,7 @@ iconDecorated: true
 m.in. dzięki dopracowanej architekturze informacji i warstwie wizualnej użytkownicy z chęcią będą wracać do Twojej strony i zostawać na niej dłużej
 
 ::::::
-::::::tile-dark-icon-md
+::::::tile-dark-icon
 ---
 iconUrl: '/img/icons/target.svg'
 center: true
@@ -258,7 +258,7 @@ iconDecorated: true
 niezależnie od tego czy sprzedajesz produkty czy prowadzisz serwis internetowy, odpowiednio zaprojektowany interfejs pomoże w realizacji celów jakie stawiasz przed stroną. 
 
 ::::::
-::::::tile-dark-icon-md
+::::::tile-dark-icon
 ---
 iconUrl: '/img/icons/coin.svg'
 center: true
@@ -272,7 +272,7 @@ iconDecorated: true
 dzięki intuicyjnej obsłudze i odpowiednim ścieżkom poruszania, użytkownik łatwiej dociera do potrzebnych informacji, a Ty zwiększasz szanse na sprzedaż swojego produktu lub usługi
 
 ::::::
-::::::tile-dark-icon-md
+::::::tile-dark-icon
 ---
 iconUrl: '/img/icons/piggy-bank.svg'
 center: true
@@ -286,7 +286,7 @@ iconDecorated: true
 szeroka wiedza z zakresu technologii pozwala projektować interfejs uwzględniając jej ograniczenia, zachowując jednocześnie funkcjonalność i łatwość obsługi strony
 
 ::::::
-::::::tile-dark-icon-md
+::::::tile-dark-icon
 ---
 iconUrl: '/img/icons/layout.svg'
 center: true
@@ -304,7 +304,7 @@ budowa atrakcyjnego wyglądu na bazie istniejącej identyfikacji wizualnej spraw
 :::
 
 #full
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure
 ---
 src: '/img/content-images/projektowanie-uxui/section3.png'
@@ -315,12 +315,12 @@ rounded: false
 ::
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-[50px] tablet:mb-[150px]
 ---
-:::effect-appear-md
-::::block-header-two-cols-md
+:::effect-appear
+::::block-header-two-cols
 ---
 maxWidth: 840
 class: mb-10 tablet:mb-[60px]
@@ -340,7 +340,7 @@ Projektowanie interfejsów stron internetowych może wydawać się skomplikowane
 :::
 
 #full
-:::block-swiper-tabs-md
+:::block-swiper-tabs
 ---
 slidesNarrow: true
 tabNames:
@@ -352,11 +352,11 @@ tabNames:
     - Wdrożenie i rozwój
 ---
 
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/uxui-teamwork.svg'
 ---
-:::::block-header-md
+:::::block-header
 
 #title
 #### 01. Warsztaty
@@ -367,11 +367,11 @@ Faza Discovery czyli zebranie wymagań - w pierwszym kroku zapraszamy Cię na ro
 :::::
 ::::
 
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/uxui-analysis.svg'
 ---
-:::::block-header-md
+:::::block-header
 
 #title
 #### 02. Analiza założeń
@@ -383,11 +383,11 @@ Analiza otrzymanych informacji - podczas tego etapu porządkujemy otrzymane dane
 ::::
 
 
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/uxui-prototyping.svg'
 ---
-:::::block-header-md
+:::::block-header
 
 #title
 #### 03. Projektowanie prototypu
@@ -397,11 +397,11 @@ Stworzenie koncepcji produktu - w kolejnym kroku projektujemy architekturę info
 
 :::::
 ::::
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/uxui-exam.svg'
 ---
-:::::block-header-md
+:::::block-header
 
 #title
 #### 04. Weryfikacja / testy
@@ -411,11 +411,11 @@ W tym etapie sprawdzamy czy prototyp spełnia cele i założenia oraz czy odpowi
 
 :::::
 ::::
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/uxui-design.svg'
 ---
-:::::block-header-md
+:::::block-header
 
 #title
 #### 05. Projektowanie interfejsu
@@ -425,11 +425,11 @@ na podstawie zaakceptowanego prototypu, projektujemy szatę graficzną strony/sk
 
 :::::
 ::::
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/uxui-shuttle.svg'
 ---
-:::::block-header-md
+:::::block-header
 
 #title
 #### 06. Wdrożenie i rozwój
@@ -443,12 +443,12 @@ Po przejściu procesu projektowego nadszedł czas na wdrożenie i rozwój produk
 ::
 
 
-::page-section-md
+::ui-container
 ---
 classes: 
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: true
 maxWidth: 540
@@ -464,19 +464,19 @@ class: mb-20
 ::::
 :::
 
-:::block-columns-1-1-md
+:::layout-columns-1-1
 ---
 class: mb-10 tablet:mb-0
 ---
 
 #left
 
-::::effect-appear-md
-:::::block-list-ul-md
+::::effect-appear
+:::::block-list-ul
 ---
 decoration: false
 ---
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/journey_bg.svg'
 iconBig: true
@@ -491,7 +491,7 @@ animated: false
 Określa emocje towarzyszące użytkownikom podczas korzystania z interfejsu. Dzięki odpowiedniemu wykorzystaniu, możemy zidentyfikować obszary wymagające poprawy na naszej stronie, sklepie czy aplikacji.
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/path_bg.svg'
 iconBig: true
@@ -507,7 +507,7 @@ animated: false
 To schemat określający ścieżkę jaką musi pokonać użytkownik na stronie internetowej w celu wykonania zadania np. zakup produktu w sklepie www
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/design-system_bg.svg'
 iconBig: true
@@ -527,9 +527,9 @@ Jest to zbiór wytycznych i elementów standardowych (np. różnych wersji przyc
 
 
 #right
-::::effect-appear-md
-:::::block-list-ul-md
-::::::list-item-ul-active-md
+::::effect-appear
+:::::block-list-ul
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/architecture_bg.svg'
 iconBig: true
@@ -544,7 +544,7 @@ animated: false
 Architektura informacji odpowiada za organizację i podział treści na stronie w celu ułatwienia wyszukiwania potrzebnych materiałów przez użytkownika.
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/ui-design_bg.svg'
 iconBig: true
@@ -559,7 +559,7 @@ animated: false
 To graficzna prezentacja układu elementów na stronie, pozwalająca na określenie funkcji, typu treści (m.in. grafiki, nagłówka, akapitu czy przycisku) i sposobie interakcji użytkownika ze stroną.
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/project_bg.svg'
 iconBig: true
@@ -579,11 +579,11 @@ Jest to wizualna prezentacja docelowego wyglądu strony, projektowana z naciskie
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 classes: mb-20 tablet:mb-[150px]
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure
 ---
 src: /img/content-images/ui-components.png
@@ -592,13 +592,13 @@ src: /img/content-images/ui-components.png
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 id: realizacje
 class: mb-[80px] tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 class: mb-10 tablet:mb-20
 ---
@@ -612,7 +612,7 @@ class: mb-10 tablet:mb-20
 ::::
 :::
 
-:::block-cases-md
+:::block-cases
 ---
 contentFolder: realizacje
 selectedSlugs:
@@ -628,12 +628,12 @@ moreBtn.linktitle: Zobacz wszystkie projekty
 ::
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: true
 class: mb-[50px] tablet:mb-[100px]
@@ -647,13 +647,13 @@ class: mb-[50px] tablet:mb-[100px]
 
 ::::
 :::
-:::block-brands-before-footer-md
+:::block-brands-before-footer
 :::
 ::
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::block-form-before-footer-md
+:::block-form-before-footer
 :::
 ::

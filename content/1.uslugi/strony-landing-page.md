@@ -10,7 +10,7 @@ hreflangs:
 ---
 
 
-::block-banner-md
+::block-banner
 ---
 bgImg: false
 headerWidth: 660
@@ -29,7 +29,7 @@ class: desktop:mb-20 desktop:pt-[100px] h-auto desktop:h-[680px]
 W Webo tworzymy landing page bez gotowych szablonów, szybkie, przejrzyste i zaprojektowane pod skuteczną konwersję.
 
 #clientsLogos
-:::effect-appear-md
+:::effect-appear
 ---
 class: -mt-4
 ---
@@ -40,7 +40,7 @@ class: mb-4 font-semibold text-lg
 Wspieraliśmy m.in.:
 ::::
 
-::::block-brands-md
+::::block-brands
 ---
 class: mb-10 desktop:mb-0 !justify-start desktop:flex-nowrap !gap-x-7 [&_picture]:opacity-90
 logos:
@@ -57,7 +57,7 @@ logos:
 :::
 
 #right
-:::block-banner-decoration-md
+:::block-banner-decoration
 ---
 class: mx-auto [&_div.absolute:nth-of-type(1)]:!left-[25%] [&_div.absolute:nth-of-type(2)]:!bottom-[20%] fullHd:[&_div.absolute:nth-of-type(2)]:!bottom-[25%]
 rotate_bl: 0
@@ -70,25 +70,25 @@ svgUrl_br: '/img/svg-square.svg'
 ::
 
 
-::page-section-md
+::ui-container
 ---
 classes: mb-20 desktop:mb-[200px] overflow-x-clip overflow-y-visible
 ---
-:::effect-appear-md
+:::effect-appear
 :::svg-bg-dots
 ---
 decoration: true
 class: tablet:top-0 right-0
 ---
 :::
-::::block-columns-1-1-md
+::::layout-columns-1-1
 ---
 reverseMobile: true
 class: items-center
 ---
 
 #left
-:::::block-header-md
+:::::block-header
 
 #subtitle
 ### *1/* Realizujemy cele
@@ -107,7 +107,7 @@ Dobrze zaprojektowana strona landing page nie tylko wygląda profesjonalnie, ale
 
 #right
 
-:::::img-decorated-md
+:::::img-decorated
 ---
 class: hidden desktop:block [&_.block]:scale-[1.35] [&_.block]:ml-[-20px] [&_.block_picture]:absolute desktop-wide:[&_.block_picture]:bottom-[-120px] desktop:[&_.block_picture]:bottom-[-130px] fullHd:[&_.block_picture]:bottom-[-160px] 
 decoration: true
@@ -120,7 +120,7 @@ imgUrl: '/img/content-images/strony-landing-page/mockup_1.webp'
 
 
 
-::page-section-md
+::ui-container
 ---
 classes: mb-10 tablet:mb-20
 ---
@@ -132,15 +132,15 @@ class: top-20 right-[10%] fullHd:right-[15%] scale-x-[-1.6] scale-y-[1.6]
 ---
 :::
 
-:::block-columns-5-7-md
+:::layout-columns-5-7
 ---
 reverseWidths: true
 class: mb-10 tablet:mb-20 [&_.left]:tablet:!basis-full
 ---
 
 #left
-::::effect-appear-md
-:::::block-header-md
+::::effect-appear
+:::::block-header
 ---
 maxWidth: 1024
 ---
@@ -162,15 +162,15 @@ Nie każda kampania wymaga całej strony internetowej - czasem jeden, dobrze zap
 :::
 
 
-:::effect-appear-md
-::::block-icon-tiles-grid-md
+:::effect-appear
+::::block-icon-tiles-grid
 
 #title
 ### Dedykowany landing page sprawdzi się gdy:
 
 #items
 
-:::::icon-tile-grid-md
+:::::tile-icon-grid
 ---
 icon: '/img/icons/marketing.svg'
 ---
@@ -180,7 +180,7 @@ icon: '/img/icons/marketing.svg'
 **Prowadzisz kampanię reklamową** <br>w&nbsp;Google&nbsp;Ads, Meta Ads lub e-mail marketingu
 :::::
 
-:::::icon-tile-grid-md
+:::::tile-icon-grid
 ---
 icon: '/img/icons/rocket_2.svg'
 delay: 1
@@ -191,7 +191,7 @@ delay: 1
 **Chcesz zwiększyć konwersję**, rezygnując z&nbsp;rozpraszających elementów tradycyjnej strony
 :::::
 
-:::::icon-tile-grid-md
+:::::tile-icon-grid
 ---
 icon: '/img/icons/presentation.svg'
 delay: 2
@@ -202,7 +202,7 @@ delay: 2
 **Potrzebujesz prostego, szybkiego i&nbsp;skutecznego miejsca** do prezentacji konkretnej oferty
 :::::
 
-:::::icon-tile-grid-md
+:::::tile-icon-grid
 ---
 icon: '/img/icons/full_control.svg'
 delay: 3
@@ -216,7 +216,7 @@ delay: 3
 ::::
 :::
 
-:::block-bg-map-md
+:::block-bg-map
 ---
 class: -z-10
 ---
@@ -224,9 +224,9 @@ class: -z-10
 ::
 
 
-::page-section-md
-:::effect-appear-md
-::::block-cta-md
+::ui-container
+:::effect-appear
+::::block-cta
 ---
 maxWidth: 1300
 class: mb-10 tablet:mb-[100px] py-10 desktop:!py-[60px] [&_.description]:!max-w-[1160px] [&_.description]:desktop:!text-lg border border-[#DEE7E5] [&_a]:hidden [&_h4]:!text-left
@@ -241,18 +241,18 @@ class: mb-10 tablet:mb-[100px] py-10 desktop:!py-[60px] [&_.description]:!max-w-
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 classes: bg-gray-darkest pt-10 tablet:pt-[100px] mb-[100px]
 ---
 
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: relative z-20
 ---
 
-::::block-header-md
+::::block-header
 ---
 maxWidth: 760
 class: mb-10 tablet:mb-20
@@ -268,15 +268,15 @@ center: true
 
 ::::
 
-::::block-columns-1-1-md
+::::layout-columns-1-1
 ---
 class: mb-16 [&_.left]:flex [&_.left]:items-center
 ---
 
 #left
 
-:::::effect-appear-md
-::::::block-header-md
+:::::effect-appear
+::::::block-header
 ---
 maxWidth: 700
 class: mb-10 tablet:mb-16 tablet:mt-10
@@ -284,7 +284,7 @@ textWhite: true
 ---
 
 #subtitle
-:::::::img-decorated-md
+:::::::img-decorated
 ---
 imgUrl: '/img/icons/brain.svg'
 decoration: false
@@ -311,19 +311,19 @@ Projektujemy przejrzyste layouty, ograniczamy elementy rozpraszające i maksymal
 :::::
 
 #right
-:::::effect-appear-md
+:::::effect-appear
 ---
 class: relative
 ---
 
-::::::img-decorated-md
+::::::img-decorated
 ---
 imgUrl: '/img/content-images/wsparcie-wordpress/decor-square.svg'
 decoration: false
 class: mx-auto !mb-0 !p-0 !w-[100px] tablet:!w-[100px] h-[100px] !absolute !bottom-[-50px] tablet:!bottom-[20px] right-[-10px] tablet:!right-[-50px]
 ---
 ::::::
-::::::img-decorated-md
+::::::img-decorated
 ---
 imgUrl: '/img/content-images/strony-landing-page/mockup_2.webp'
 decoration: false
@@ -334,7 +334,7 @@ class: w-full z-0
 :::::
 ::::
 
-::::block-columns-1-1-md
+::::layout-columns-1-1
 ---
 reverseMobile: true
 class: mb-16 [&_.right]:flex [&_.right]:items-center
@@ -342,19 +342,19 @@ class: mb-16 [&_.right]:flex [&_.right]:items-center
 
 #left
 
-:::::effect-appear-md
+:::::effect-appear
 ---
 class: relative
 ---
 
-::::::img-decorated-md
+::::::img-decorated
 ---
 imgUrl: '/img/content-images/wsparcie-wordpress/decor-circle.svg'
 decoration: false
 class: mx-auto !mb-0 !p-0 hidden tablet:!block !w-[122px] tablet:!w-[122px] h-[122px] !absolute !top-[-50px] tablet:!top-[120px] left-[-10px] tablet:!left-[-70px] z-0
 ---
 ::::::
-::::::img-decorated-md
+::::::img-decorated
 ---
 imgUrl: '/img/content-images/strony-landing-page/mockup_3.webp'
 decoration: false
@@ -365,8 +365,8 @@ class: w-full z-10
 :::::
 
 #right
-:::::effect-appear-md
-::::::block-header-md
+:::::effect-appear
+::::::block-header
 ---
 maxWidth: 700
 class: mb-10 tablet:mb-16 tablet:mt-10 [&_.title]:!max-w-[430px]
@@ -374,7 +374,7 @@ textWhite: true
 ---
 
 #subtitle
-:::::::img-decorated-md
+:::::::img-decorated
 ---
 imgUrl: '/img/icons/gear_dark.svg'
 decoration: false
@@ -405,8 +405,8 @@ Współpraca z nami to też jasny proces - od analizy i makiety, przez projekt g
 :::
 
 #full
-:::effect-appear-md
-::::effect-parallax-md
+:::effect-appear
+::::effect-parallax
 ---
 parallaxScale: 0.08
 startBottom: true
@@ -423,18 +423,18 @@ rounded: false
 ::
 
 
-::page-section-md
+::ui-container
 ---
 classes: mb-10 tablet:mb-[110px]
 ---
-:::block-columns-1-1-md
+:::layout-columns-1-1
 ---
 class: mb-10
 ---
 
 #left
-::::effect-appear-md
-:::::block-header-md
+::::effect-appear
+:::::block-header
 ---
 maxWidth: 580
 ---
@@ -449,7 +449,7 @@ maxWidth: 580
 ::::
 
 #right
-::::effect-appear-md
+::::effect-appear
 ---
 class: h-full flex items-center
 ---
@@ -459,7 +459,7 @@ Do stworzenia nowoczesnego landing page potrzebne jest połączenie wiedzy techn
 
 #full
 
-:::block-swiper-tabs-md
+:::block-swiper-tabs
 ---
 tabNames:
     - Analiza założeń
@@ -467,11 +467,11 @@ tabNames:
     - Programowanie
     - Testy
 ---
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/magnifier.svg'
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 700
 ---
@@ -486,11 +486,11 @@ Zaczynamy od zrozumienia celu kampanii - czy to sprzedaż, zapis na webinar, pob
 ::::
 
 
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/www-uxui.svg'
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 700
 ---
@@ -504,11 +504,11 @@ Analizujemy persony użytkowników, projektujemy układ treści, hierarchię inf
 :::::
 ::::
 
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/www-code.svg'
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 700
 ---
@@ -524,11 +524,11 @@ Tworzymy responsywny layout, który działa na wszystkich urządzeniach, zapewni
 
 
 
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/secure2.svg'
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 700
 ---
@@ -546,12 +546,12 @@ Każdy landing page testujemy przed publikacją, aby upewnić się, że działa 
 
 
 
-::page-section-md
+::ui-container
 ---
 classes: mb-20 tablet:mb-20
 ---
 
-:::block-columns-1-1-md
+:::layout-columns-1-1
 ---
 reverseMobile: true
 class: mb-0 [&_.right]:flex [&_.right]:items-center
@@ -559,33 +559,33 @@ class: mb-0 [&_.right]:flex [&_.right]:items-center
 
 #left
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: relative overflow-hidden tablet:overflow-visible -mx-5 tablet:mx-0
 ---
 
-:::::effect-parallax-md
+:::::effect-parallax
 ---
 parallaxScale: 0
 startBottom: true
 class: overflow-hidden desktop:overflow-visible
 ---
 
-::::::img-decorated-md
+::::::img-decorated
 ---
 imgUrl: '/img/content-images/strony-landing-page/decor_manual_setup.svg'
 decoration: false
 class: hidden desktop:block mx-auto !mb-0 !p-0 !w-[100px] tablet:!w-[230px] !absolute top-1/3 right-10
 ---
 ::::::
-::::::img-decorated-md
+::::::img-decorated
 ---
 imgUrl: '/img/content-images/strony-wordpress/decor_quarter_circle.svg'
 decoration: false
 class: hidden desktop:block mx-auto !mb-0 !p-0 !w-[122px] !absolute bottom-[100px] left-[-60px]
 ---
 ::::::
-::::::img-decorated-md
+::::::img-decorated
 ---
 imgUrl: '/img/content-images/strony-landing-page/mockup_5.webp'
 decoration: false
@@ -598,11 +598,11 @@ class: tablet:mb-20 !mb-10 z-0 [&_img]:max-h-[700px] desktop:scale-[]
 
 #right
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: relative z-20
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 640
 class: mb-10
@@ -633,11 +633,11 @@ class: mb-10
 ::
 
 
-::page-section-md
+::ui-container
 ---
 classes: mb-5
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure
 ---
 src: /img/content-images/strony-landing-page/mockup_6.webp
@@ -646,11 +646,11 @@ src: /img/content-images/strony-landing-page/mockup_6.webp
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 classes: mb-[100px]
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure
 ---
 src: /img/content-images/strony-landing-page/mockup_7.webp
@@ -660,17 +660,17 @@ src: /img/content-images/strony-landing-page/mockup_7.webp
 ::
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[100px]
 ---
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: bg-green-gray relative
 ---
 
-::::img-decorated-md
+::::img-decorated
 ---
 imgUrl: '/img/svg-arc.svg'
 decoration: false
@@ -678,7 +678,7 @@ class: tablet:!pl-0 !mb-0 !w-[80px] tablet:!w-[122px] !absolute top-[20px] table
 ---
 ::::
 
-::::img-decorated-md
+::::img-decorated
 ---
 imgUrl: '/img/svg-square.svg'
 decoration: false
@@ -686,10 +686,10 @@ class: tablet:!pl-0 !mb-0 !w-[60px] tablet:!w-[100px] !absolute bottom-[20px] ta
 ---
 ::::
 
-::::block-faq-md
+::::block-faq
 
 #header
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 900
 class: mb-[50px] text-center relative
@@ -703,7 +703,7 @@ class: mb-[50px] text-center relative
 
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Ile kosztuje stworzenie landing page?
@@ -713,7 +713,7 @@ Cena zależy od zakresu projektu - prosty landing z formularzem kontaktowym to k
 
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Czy landing page będzie zgodny z Google Ads?
@@ -723,7 +723,7 @@ Tak. Projektujemy **strony landing page** zgodne z wytycznymi Google Ads, Meta A
 
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Ile trwa wykonanie landing page?
@@ -733,7 +733,7 @@ W zależności od złożoności - od 3 do 10 dni roboczych. Proste landingi jest
 
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Czy wykonujecie też landing page pod kampanie mailingowe lub webinary?
@@ -745,7 +745,7 @@ Tak. Mamy doświadczenie w projektowaniu landing page pod konkretne typy kampani
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[100px]
 ---
@@ -755,8 +755,8 @@ decoration: true
 class: top-20 right-[15%] fullHd:right-[20%] scale-x-[-1.6] scale-y-[1.6]
 ---
 ::::
-:::effect-appear-md
-::::block-cta-md
+:::effect-appear
+::::block-cta
 ---
 maxWidth: 1024
 button.link: https://webo.agency/kontakt
@@ -776,13 +776,13 @@ Pomożemy zaprojektować, zakodować i uruchomić stronę, która konwertuje.
 ::
 
 
-::page-section-md
+::ui-container
 ---
 id: realizacje
 class: mb-[80px] tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 class: mb-10 tablet:mb-20
 ---
@@ -796,7 +796,7 @@ class: mb-10 tablet:mb-20
 ::::
 :::
 
-:::block-cases-md
+:::block-cases
 ---
 contentFolder: realizacje
 moreBtn.url: 'https://webo.agency/realizacje'
@@ -809,12 +809,12 @@ selectedSlugs:
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: true
 class: mb-[50px] tablet:mb-[100px]
@@ -828,13 +828,13 @@ class: mb-[50px] tablet:mb-[100px]
 
 ::::
 :::
-:::block-brands-before-footer-md
+:::block-brands-before-footer
 :::
 ::
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::block-form-before-footer-md
+:::block-form-before-footer
 :::
 ::

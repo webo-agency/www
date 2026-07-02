@@ -28,7 +28,7 @@ schemaOrg:
 ---
 
 
-::block-banner-md
+::block-banner
 ---
 bgImg: false
 headerWidth: 720
@@ -46,7 +46,7 @@ isSecondSvg: true
 Tworzymy bezpieczne i skuteczne sklepy internetowe na WooCommerce, od UX i designu, przez kodowanie i konfigurację, aż po dalsze wsparcie.
 
 #right
-:::block-banner-decoration-md
+:::block-banner-decoration
 ---
 svgUrl_tl: '/img/svg-arc.svg'
 svgUrl_br: '/img/svg-square.svg'
@@ -54,21 +54,21 @@ svgUrl_br: '/img/svg-square.svg'
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 classes: mb-[100px] tablet:mb-[200px] overflow-x-clip overflow-y-visible
 ---
-:::block-columns-1-1-md
+:::layout-columns-1-1
 ---
 class: items-center
 ---
 
 #left
-::::effect-appear-md
+::::effect-appear
 ---
 class: relative z-20
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 690
 ---
@@ -96,11 +96,11 @@ Nasze doświadczenie w **WooCommerce** pozwala dostarczać rozwiązania skrojone
 ::::
 
 #right
-::::effect-appear-md
+::::effect-appear
 ---
 class: block mt-10 desktop:mt-0 desktop:block [&_.block]:scale-[1] [&_.block]:ml-[-20px] desktop:[&_.block_picture]:absolute desktop-wide:[&_.block_picture]:bottom-[-220px] desktop:[&_.block_picture]:bottom-[-100px] fullHd:[&_.block_picture]:bottom-[-240px] 
 ---
-:::::img-decorated-md
+:::::img-decorated
 ---
 imgUrl: '/img/content-images/sklepy-woocommerce/woo-img1.webp'
 decoration: false
@@ -111,20 +111,20 @@ class: tablet:!pl-0 !mb-0
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 classes: mb-20 tablet:mb-[100px]
 ---
 
-:::block-columns-1-1-md
+:::layout-columns-1-1
 
 #left
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: relative z-10 overflow-hidden tablet:overflow-visible -mx-5 tablet:mx-0
 ---
-:::::img-decorated-md
+:::::img-decorated
 ---
 imgUrl: '/img/content-images/sklepy-woocommerce/woo-img2.webp'
 decoration: false
@@ -136,11 +136,11 @@ class: scale-[1.1]
 
 #right
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: relative z-20 desktop:mt-[70px]
 ---
-:::::block-header-md
+:::::block-header
 ---
 class: mb-10
 ---
@@ -168,19 +168,19 @@ class: tablet:top-0 right-0
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 classes: mb-10 tablet:mb-20
 ---
 
-:::block-columns-1-1-md
+:::layout-columns-1-1
 ---
 class: mb-10
 ---
 
 #left
-::::effect-appear-md
-:::::block-header-md
+::::effect-appear
+:::::block-header
 ---
 maxWidth: 480
 ---
@@ -195,7 +195,7 @@ maxWidth: 480
 ::::
 
 #right
-::::effect-appear-md
+::::effect-appear
 ---
 class: h-full flex items-center
 ---
@@ -203,8 +203,8 @@ WooCommerce to elastyczne i ekonomiczne rozwiązanie e-commerce oparte na WordPr
 ::::
 :::
 
-:::block-offer-tiles-md
-::::offer-tile-md
+:::block-offer-tiles
+::::tile-offer
 --- 
 icon: '/img/icons/click.svg'
 ---
@@ -216,7 +216,7 @@ prosty panel do zarządzania sprzedażą, produktami, zamówieniami i treściami
 
 ::::
 
-::::offer-tile-md
+::::tile-offer
 --- 
 icon: '/img/icons/scalling3.svg'
 delay: 1
@@ -229,7 +229,7 @@ od małych sklepów po rozbudowane, wielojęzykowe platformy sprzedażowe z licz
 
 ::::
 
-::::offer-tile-md
+::::tile-offer
 --- 
 icon: '/img/icons/equalizer.svg'
 delay: 2
@@ -242,7 +242,7 @@ biblioteka modułów dzięki której w łatwy sposób rozwiniesz funkcje sprzeda
 
 ::::
 
-::::offer-tile-md
+::::tile-offer
 --- 
 icon: '/img/icons/seo2.svg'
 delay: 3
@@ -256,7 +256,7 @@ dzięki solidnym podstawom WordPressa i elastycznym narzędziom, które ułatwia
 
 ::::
 
-::::offer-tile-md
+::::tile-offer
 --- 
 icon: '/img/icons/licence.svg'
 delay: 4
@@ -269,7 +269,7 @@ WooCommerce jest darmowy, a finalny koszt zależy wyłącznie od zakresu wdroże
 
 ::::
 
-::::offer-tile-md
+::::tile-offer
 --- 
 icon: '/img/icons/design.svg'
 delay: 5
@@ -283,7 +283,7 @@ sklep można rozwijać w dowolnym kierunku, bez typowych ograniczeń platform Sa
 ::::
 :::
 
-:::block-bg-map-md
+:::block-bg-map
 ---
 class: -z-10
 ---
@@ -292,18 +292,18 @@ class: -z-10
 
 <!--  -->
 
-::page-section-md
+::ui-container
 ---
 classes: bg-gray-darkest pt-10 tablet:pt-[100px] mb-[100px]
 ---
 
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: relative z-20
 ---
 
-::::block-columns-1-1-md
+::::layout-columns-1-1
 ---
 reverseMobile: true
 class: mb-16 [&_.right]:flex [&_.right]:items-center
@@ -311,8 +311,8 @@ class: mb-16 [&_.right]:flex [&_.right]:items-center
 
 #left
 
-:::::effect-appear-md
-::::::img-decorated-md
+:::::effect-appear
+::::::img-decorated
 ---
 imgUrl: '/img/content-images/sklepy-woocommerce/woo-img3.webp'
 decoration: false
@@ -323,8 +323,8 @@ class: w-full
 :::::
 
 #right
-:::::effect-appear-md
-::::::block-header-md
+:::::effect-appear
+::::::block-header
 ---
 maxWidth: 700
 class: mb-10 tablet:mb-16 tablet:mt-10
@@ -350,12 +350,12 @@ class: text-[#FFF] text-3xl text-center font-semibold !mb-10 pt-[60px] border-t-
 ---
 Pracując z nami, otrzymujesz:
 ::::
-::::block-list-ul-md
+::::block-list-ul
 ---
 class: mb-10 gap-5 columns-1 flex flex-col tablet:flex-row  [&_li]:inline-block tablet:w-full tablet:flex-wrap
 ---
 
-:::::tile-dark-icon-md
+:::::tile-dark-icon
 ---
 iconUrl: '/img/icons/code-page.svg'
 delay: 0
@@ -370,7 +370,7 @@ każda funkcja jest dodana w konkretnym celu.
 
 :::::
 
-:::::tile-dark-icon-md
+:::::tile-dark-icon
 ---
 iconUrl: '/img/icons/gear2.svg'
 delay: 1
@@ -385,7 +385,7 @@ UX, logika działania i struktura pod realne zachowania użytkowników.
 
 :::::
 
-:::::tile-dark-icon-md
+:::::tile-dark-icon
 ---
 iconUrl: '/img/icons/architecture.svg'
 delay: 2
@@ -400,7 +400,7 @@ którą łatwo rozbudować, gdy potrzebujesz nowych funkcji, wersji językowych 
 
 :::::
 
-:::::tile-dark-icon-md
+:::::tile-dark-icon
 ---
 iconUrl: '/img/icons/secure4.svg'
 delay: 3
@@ -415,7 +415,7 @@ zamiast ryzyka związanego z masowymi motywami.
 
 :::::
 
-:::::tile-dark-icon-md
+:::::tile-dark-icon
 ---
 iconUrl: '/img/icons/speed2.svg'
 delay: 4
@@ -430,7 +430,7 @@ które bezpośrednio zwiększają konwersję i komfort użytkownika.
 
 :::::
 
-:::::tile-dark-icon-md
+:::::tile-dark-icon
 ---
 iconUrl: '/img/icons/adjustments.svg'
 delay: 5
@@ -454,8 +454,8 @@ Wybierając indywidualne podejście do tworzenia sklepu, zyskujesz nie tylko lep
 :::
 
 #full
-:::effect-appear-md
-::::effect-parallax-md
+:::effect-appear
+::::effect-parallax
 ---
 parallaxScale: 0.08
 startBottom: true
@@ -471,18 +471,18 @@ rounded: false
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 classes: mb-10 tablet:mb-20
 ---
-:::block-columns-5-7-md
+:::layout-columns-5-7
 ---
 class: mb-10
 ---
 
 #left
-::::effect-appear-md
-:::::block-header-md
+::::effect-appear
+:::::block-header
 ---
 maxWidth: 480
 ---
@@ -497,7 +497,7 @@ maxWidth: 480
 ::::
 
 #right
-::::effect-appear-md
+::::effect-appear
 ---
 class: h-full flex items-center
 ---
@@ -507,7 +507,7 @@ Do stworzenia nowoczesnego sklepu internetowego potrzebne jest połączenie wied
 
 #full
 
-:::block-swiper-tabs-md
+:::block-swiper-tabs
 ---
 tabNames:
     - Analiza założeń
@@ -517,11 +517,11 @@ tabNames:
     - Skalowanie
     - Wsparcie i rozwój
 ---
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/magnifier.svg'
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 700
 ---
@@ -538,11 +538,11 @@ Na tej podstawie przygotowujemy projekt architektury sklepu oraz plan funkcji, m
 ::::
 
 
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/www-uxui.svg'
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 700
 ---
@@ -556,11 +556,11 @@ Projektujemy makiety UX, oraz wygląd strony głównej, strony kategorii, produk
 :::::
 ::::
 
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/www-code.svg'
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 700
 ---
@@ -578,11 +578,11 @@ Kodujemy rozwiązania idealnie dopasowane do potrzeb Twojego biznesu. Cała arch
 
 
 
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/secure2.svg'
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 700
 ---
@@ -597,11 +597,11 @@ Szybki sklep to lepsze SEO i niższy współczynnik odrzuceń. Zadbamy m.in. o: 
 ::::
 
 
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/scaling4.svg'
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 700
 ---
@@ -615,11 +615,11 @@ Tworzenie sklepu „na teraz” to jak postawienie magazynu bez miejsca na dodat
 :::::
 ::::
 
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/handshake.svg'
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 700
 ---
@@ -635,20 +635,20 @@ Po uruchomieniu sklepu nie zostawiamy Cię samemu sobie. Oferujemy opiekę techn
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 classes: mb-20 tablet:mb-[100px]
 ---
 
-:::block-columns-1-1-md
+:::layout-columns-1-1
 
 #left
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: relative z-10 overflow-hidden tablet:overflow-visible -mx-5 tablet:mx-0
 ---
-:::::img-decorated-md
+:::::img-decorated
 ---
 imgUrl: '/img/content-images/sklepy-woocommerce/woo-img4.webp'
 decoration: false
@@ -660,11 +660,11 @@ class: scale-[1.05]
 
 #right
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: relative z-20 desktop:mt-[70px]
 ---
-:::::block-header-md
+:::::block-header
 ---
 class: mb-10
 ---
@@ -700,13 +700,13 @@ class: tablet:top-0 right-0
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 classes: mb-10 tablet:mb-20
 ---
 
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: false
 maxWidth: 1062
@@ -722,19 +722,19 @@ class: mb-20
 ::::
 :::
 
-:::block-columns-1-1-1-md
+:::layout-columns-1-1-1
 ---
 class: mb-10 tablet:mb-20 tablet:gap-[30px]
 ---
 
 #left
 
-::::effect-appear-md
-:::::block-list-ul-md
+::::effect-appear
+:::::block-list-ul
 ---
 decoration: false
 ---
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/doc_bg_gray.svg'
 iconBig: true
@@ -750,7 +750,7 @@ class: text-left [&_h4]:text-lg [&_h4]:tablet:text-xl !min-h-[150px] tablet:!min
 Obsługa różnych wersji językowych, walut i metod płatności dostosowanych do rynku zagranicznego
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/uxui_bg_gray.svg'
 iconBig: true
@@ -772,9 +772,9 @@ Porzucone koszyki, rekomendacje, cross‑sell, up‑sell, integracje z newslette
 
 
 #center-col
-::::effect-appear-md
-:::::block-list-ul-md
-::::::list-item-ul-active-md
+::::effect-appear
+:::::block-list-ul
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/code_bg_gray.svg'
 iconBig: true
@@ -790,7 +790,7 @@ class: text-left [&_h4]:text-lg [&_h4]:tablet:text-xl !min-h-[150px] tablet:!min
 Pozwalające klientowi spersonalizować produkt przed zakupem
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/weight_bg_gray.svg'
 iconBig: true
@@ -810,12 +810,12 @@ Dodawanie / edycja produktów, zarządzanie zamówieniami, raporty sprzedażowe,
 ::::
 
 #right
-::::effect-appear-md
-:::::block-list-ul-md
+::::effect-appear
+:::::block-list-ul
 ---
 decoration: false
 ---
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/doc_bg_gray.svg'
 iconBig: true
@@ -836,17 +836,17 @@ Automatyzacje, synchronizacje stanów magazynowych, realizacje zamówień
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[100px]
 ---
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: bg-green-gray relative
 ---
 
-::::img-decorated-md
+::::img-decorated
 ---
 imgUrl: '/img/svg-arc.svg'
 decoration: false
@@ -854,7 +854,7 @@ class: tablet:!pl-0 !mb-0 !w-[80px] tablet:!w-[122px] !absolute top-[20px] table
 ---
 ::::
 
-::::img-decorated-md
+::::img-decorated
 ---
 imgUrl: '/img/svg-square.svg'
 decoration: false
@@ -862,10 +862,10 @@ class: tablet:!pl-0 !mb-0 !w-[60px] tablet:!w-[100px] !absolute bottom-[20px] ta
 ---
 ::::
 
-::::block-faq-md
+::::block-faq
 
 #header
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 900
 class: mb-[50px] text-center relative
@@ -879,7 +879,7 @@ class: mb-[50px] text-center relative
 
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Ile kosztuje stworzenie sklepu WooCommerce?
@@ -889,7 +889,7 @@ Cena zależy od zakresu funkcjonalności, liczby produktów, projektów graficzn
 
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Jak długo trwa tworzenie sklepu WordPress?
@@ -899,7 +899,7 @@ Standardowy czas realizacji to 6-12 tygodni. Projektowanie, kodowanie, integracj
 
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Czy mogę samodzielnie zarządzać sklepem po wdrożeniu?
@@ -909,7 +909,7 @@ Tak. **Tworzenie sklepu WooCommerce** zakłada prostą edycję produktów, cen, 
 
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Czy mogę zintegrować WooCommerce z płatnościami i dostawą?
@@ -918,7 +918,7 @@ Tak. **Tworzenie sklepu WooCommerce** zakłada prostą edycję produktów, cen, 
 Tak. Integrujemy sklepy z bramkami płatności (np. PayU, Przelewy24, Stripe), kurierami, systemami fakturowania i magazynowymi - dopasowujemy integracje do Twojego modelu biznesowego.
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Czy oferujecie wsparcie techniczne po wdrożeniu?
@@ -931,7 +931,7 @@ Tak, po zakończeniu **tworzenia sklepu WordPress** oferujemy wsparcie techniczn
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-[100px] tablet:mb-[150px]
 ---
@@ -941,8 +941,8 @@ decoration: true
 class: top-20 right-[15%] fullHd:right-[20%] scale-x-[-1.6] scale-y-[1.6]
 ---
 ::::
-:::effect-appear-md
-::::block-cta-md
+:::effect-appear
+::::block-cta
 ---
 maxWidth: 800
 button.link: https://webo.agency/kontakt
@@ -960,13 +960,13 @@ Umów się na bezpłatną konsultację i opowiedz nam więcej o swoim projekcie
 ::
 
 
-::page-section-md
+::ui-container
 ---
 id: realizacje
 class: mb-[80px] tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 class: mb-10 tablet:mb-20
 ---
@@ -980,7 +980,7 @@ class: mb-10 tablet:mb-20
 ::::
 :::
 
-:::block-cases-md
+:::block-cases
 ---
 contentFolder: realizacje
 moreBtn.url: 'https://webo.agency/realizacje'
@@ -995,12 +995,12 @@ selectedSlugs:
 
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: true
 class: mb-[50px] tablet:mb-[100px]
@@ -1014,13 +1014,13 @@ class: mb-[50px] tablet:mb-[100px]
 
 ::::
 :::
-:::block-brands-before-footer-md
+:::block-brands-before-footer
 :::
 ::
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::block-form-before-footer-md
+:::block-form-before-footer
 :::
 ::

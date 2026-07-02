@@ -4,7 +4,7 @@
       <slot name="title" />
     </div>
     <div class="flex flex-col tablet:flex-row justify-between mb-10">
-      <FiltersList :filters="filters" v-model="activeType" />
+      <UiFilterList :filters="filters" v-model="activeType" />
       <div class="shrink-0 relative flex flex-wrap justify-between">
         <div v-if="$slots.select" class="block py-[7px] px-5 text-sm tablet:text-base text-gray-darker">
           <slot name="select" />
@@ -43,7 +43,7 @@
       </div>
     </div>
     <div class="cases-container overflow-hidden">
-      <CaseTileMd v-for="case_page, index in filteredCases" :key="case_page.path" :data="case_page" :showTech="true"
+      <TileCase v-for="case_page, index in filteredCases" :key="case_page.path" :data="case_page" :showTech="true"
         :mousePos="mousePos" class="animation-appear" :class="{ '!hidden': index + 1 > shownCasesCount }" />
     </div>
     <div v-if="$slots.loadMore" class="w-full flex justify-center items-center mt-10 tablet:mt-20">
@@ -93,11 +93,11 @@ const shownCasesCount = ref(6);
 
 const filteredCases = computed(() => {
   return (cases.value || [])
-    .filter(casePage => casePage.path !== `/${props.contentFolder}/isw` && casePage.path !== `/${props.contentFolder}` && casePage.tile_hidden !== true)
-    .sort((a, b) => (a.tile_order ?? 9999) - (b.tile_order ?? 9999))
+    .filter(casePage => casePage.path !== `/${props.contentFolder}/isw` && casePage.path !== `/${props.contentFolder}` && casePage.meta.tile_hidden !== true)
+    .sort((a, b) => (a.meta.tile_order ?? 9999) - (b.meta.tile_order ?? 9999))
     .filter(casePage => {
-      const techMatch = activeTech.value.length === 0 || casePage.technologies?.some(r => activeTech.value.join().includes(r));
-      const typeMatch = activeType.value.length === 0 || casePage.type?.some(r => activeType.value.join().includes(r));
+      const techMatch = activeTech.value.length === 0 || casePage.meta.technologies?.some(r => activeTech.value.includes(r));
+      const typeMatch = activeType.value.length === 0 || casePage.meta.type?.some(r => activeType.value.includes(r));
 
       return techMatch && typeMatch;
     })
@@ -114,6 +114,7 @@ function increaseVisible() {
 
 <style>
 @reference "~/assets/css/main.css";
+
 @keyframes appear {
   from {
     opacity: 0;

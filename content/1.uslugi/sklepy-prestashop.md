@@ -10,7 +10,7 @@ hreflangs:
 ---
 
 
-::block-banner-md
+::block-banner
 ---
 bgImg: false
 headerWidth: 720
@@ -28,7 +28,7 @@ isSecondSvg: true
 Oferujemy kompleksowe projektowanie i wdrażanie sklepów PrestaShop, które są, wydajne, łatwe w obsłudze i przygotowane do skutecznej sprzedaży.
 
 #right
-:::block-banner-decoration-md
+:::block-banner-decoration
 ---
 svgUrl_tl: '/img/svg-arc.svg'
 svgUrl_br: '/img/svg-square.svg'
@@ -36,21 +36,21 @@ svgUrl_br: '/img/svg-square.svg'
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 classes: mb-[50px] tablet:mb-[200px] overflow-x-clip overflow-y-visible
 ---
-:::block-columns-1-1-md
+:::layout-columns-1-1
 ---
 class: items-center
 ---
 
 #left
-::::effect-appear-md
+::::effect-appear
 ---
 class: relative z-20
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 560
 class: ml-0 tablet:[&_p]:!min-w-[640px] 
@@ -72,19 +72,19 @@ Marzysz o **sklepie na PrestaShop**, który łączy piękny wygląd, intuicyjną
 ::::
 
 #right
-::::effect-appear-md
+::::effect-appear
 ---
 class: h-full relative
 ---
 
-:::::effect-parallax-md
+:::::effect-parallax
 ---
 parallaxScale: 0.1
 startBottom: true
 class: overflow-hidden desktop:overflow-visible
 ---
 
-::::::img-decorated-md
+::::::img-decorated
 ---
 imgUrl: '/img/content-images/sklepy-prestashop/presta-img1.webp'
 decoration: false
@@ -96,29 +96,29 @@ class: tablet:w-auto !w-full desktop:mt-[-230px] tablet:!pl-10
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-[50px] tablet:mb-[150px]
 ---
 
-:::block-columns-1-1-md
+:::layout-columns-1-1
 ---
 reverseMobile: true
 ---
 
 #left
-::::effect-appear-md
+::::effect-appear
 ---
 class: h-full relative
 ---
 
-:::::effect-parallax-md
+:::::effect-parallax
 ---
 parallaxScale: 0.09
 startBottom: true
 class: overflow-hidden desktop:overflow-visible
 ---
-::::::img-decorated-md
+::::::img-decorated
 ---
 imgUrl: '/img/content-images/sklepy-prestashop/presta-img2.webp'
 decoration: false
@@ -130,11 +130,11 @@ class: desktop:!pr-16 !w-full
 
 #right
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: relative z-20 desktop:mt-[70px]
 ---
-:::::block-header-md
+:::::block-header
 ---
 class: mb-10 [&_h2]:max-w-[500px]
 ---
@@ -162,19 +162,19 @@ class: tablet:top-0 right-0
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 classes: mb-10 tablet:mb-20
 ---
 
-:::block-columns-1-1-md
+:::layout-columns-1-1
 ---
 class: mb-10
 ---
 
 #left
-::::effect-appear-md
-:::::block-header-md
+::::effect-appear
+:::::block-header
 ---
 maxWidth: 640
 ---
@@ -189,7 +189,7 @@ maxWidth: 640
 ::::
 
 #right
-::::effect-appear-md
+::::effect-appear
 ---
 class: h-full flex items-center max-w-[480px]
 ---
@@ -197,8 +197,8 @@ class: h-full flex items-center max-w-[480px]
 ::::
 :::
 
-:::block-offer-tiles-md
-::::offer-tile-md
+:::block-offer-tiles
+::::tile-offer
 --- 
 icon: '/img/icons/system.svg'
 ---
@@ -214,7 +214,7 @@ Programujemy funkcjonalności wspierające sprzedaż i wygodne zarządzanie skle
 
 ::::
 
-::::offer-tile-md
+::::tile-offer
 --- 
 icon: '/img/icons/ux_ui_2.svg'
 delay: 1
@@ -231,7 +231,7 @@ Wersję mobilną dopracowujemy ze szczególnym naciskiem na komfort użytkownik�
 
 ::::
 
-::::offer-tile-md
+::::tile-offer
 --- 
 icon: '/img/icons/chart_2.svg'
 delay: 2
@@ -249,25 +249,25 @@ Dzięki temu sklep działa szybko, stabilnie i bezproblemowo nawet przy większy
 ::::
 :::
 
-:::block-bg-map-md
+:::block-bg-map
 ---
 class: -z-10
 ---
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 classes: bg-gray-darkest pt-10 tablet:pt-[100px] mb-[100px]
 ---
 
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: relative z-20
 ---
 
-::::block-header-md
+::::block-header
 ---
 maxWidth: 690
 class: mb-10 tablet:mb-20
@@ -283,15 +283,15 @@ center: true
 
 ::::
 
-::::block-columns-1-1-md
+::::layout-columns-1-1
 ---
 class: mb-16 [&_.left]:flex [&_.left]:items-center
 ---
 
 #left
 
-:::::effect-appear-md
-::::::block-header-md
+:::::effect-appear
+::::::block-header
 ---
 maxWidth: 700
 class: mb-10 tablet:mb-16 tablet:mt-10
@@ -299,7 +299,7 @@ textWhite: true
 ---
 
 #subtitle
-:::::::img-decorated-md
+:::::::img-decorated
 ---
 imgUrl: '/img/icons/scaling5.svg'
 decoration: false
@@ -322,19 +322,19 @@ PrestaShop to otwarte oprogramowanie (open-source), które daje szerokie możliw
 :::::
 
 #right
-:::::effect-appear-md
+:::::effect-appear
 ---
 class: relative
 ---
 
-::::::img-decorated-md
+::::::img-decorated
 ---
 imgUrl: '/img/content-images/wsparcie-wordpress/decor-square.svg'
 decoration: false
 class: mx-auto !mb-0 !p-0 !w-[100px] tablet:!w-[100px] h-[100px] !absolute !bottom-[-50px] tablet:!bottom-[20px] right-[-10px] tablet:!right-[-50px]
 ---
 ::::::
-::::::img-decorated-md
+::::::img-decorated
 ---
 imgUrl: '/img/content-images/sklepy-prestashop/presta-img3.webp'
 decoration: false
@@ -345,7 +345,7 @@ class: w-full z-0
 :::::
 ::::
 
-::::block-columns-1-1-md
+::::layout-columns-1-1
 ---
 reverseMobile: true
 class: mb-16 [&_.right]:flex [&_.right]:items-center
@@ -353,19 +353,19 @@ class: mb-16 [&_.right]:flex [&_.right]:items-center
 
 #left
 
-:::::effect-appear-md
+:::::effect-appear
 ---
 class: relative
 ---
 
-::::::img-decorated-md
+::::::img-decorated
 ---
 imgUrl: '/img/content-images/wsparcie-wordpress/decor-circle.svg'
 decoration: false
 class: mx-auto !mb-0 !p-0 hidden tablet:!block !w-[122px] tablet:!w-[122px] h-[122px] !absolute !top-[-50px] tablet:!top-[120px] left-[-10px] tablet:!left-[-70px] z-0
 ---
 ::::::
-::::::img-decorated-md
+::::::img-decorated
 ---
 imgUrl: '/img/content-images/sklepy-prestashop/presta-img4.webp'
 decoration: false
@@ -376,8 +376,8 @@ class: w-full z-10
 :::::
 
 #right
-:::::effect-appear-md
-::::::block-header-md
+:::::effect-appear
+::::::block-header
 ---
 maxWidth: 700
 class: mb-10 tablet:mb-16 tablet:mt-10
@@ -385,7 +385,7 @@ textWhite: true
 ---
 
 #subtitle
-:::::::img-decorated-md
+:::::::img-decorated
 ---
 imgUrl: '/img/icons/handshake_2.svg'
 decoration: false
@@ -408,15 +408,15 @@ PrestaShop oferuje funkcje, które wspierają pozycjonowanie: konfigurowalne adr
 :::::
 ::::
 
-::::block-columns-1-1-md
+::::layout-columns-1-1
 ---
 class: mb-0 [&_.left]:flex [&_.left]:items-center
 ---
 
 #left
 
-:::::effect-appear-md
-::::::block-header-md
+:::::effect-appear
+::::::block-header
 ---
 maxWidth: 700
 class: mb-10 tablet:mb-16 tablet:mt-10 pb-12
@@ -424,7 +424,7 @@ textWhite: true
 ---
 
 #subtitle
-:::::::img-decorated-md
+:::::::img-decorated
 ---
 imgUrl: '/img/icons/secure3.svg'
 decoration: false
@@ -447,8 +447,8 @@ Dzięki otwartemu kodowi i dużej społeczności błędy oraz podatności są sz
 :::::
 
 #right
-:::::effect-appear-md
-::::::img-decorated-md
+:::::effect-appear
+::::::img-decorated
 ---
 imgUrl: '/img/content-images/sklepy-prestashop/presta-img5.webp'
 decoration: false
@@ -460,8 +460,8 @@ class: w-full
 :::
 
 #full
-:::effect-appear-md
-::::effect-parallax-md
+:::effect-appear
+::::effect-parallax
 ---
 parallaxScale: 0.08
 startBottom: true
@@ -477,12 +477,12 @@ rounded: false
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 classes: mb-20 tablet:mb-[130px]
 ---
 
-:::block-columns-1-1-md
+:::layout-columns-1-1
 ---
 reverseMobile: true
 class: mb-0 [&_.right]:flex [&_.right]:items-center
@@ -490,33 +490,33 @@ class: mb-0 [&_.right]:flex [&_.right]:items-center
 
 #left
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: relative overflow-hidden tablet:overflow-visible -mx-5 tablet:mx-0
 ---
 
-:::::effect-parallax-md
+:::::effect-parallax
 ---
 parallaxScale: 0.1
 startBottom: true
 class: overflow-hidden desktop:overflow-visible
 ---
 
-::::::img-decorated-md
+::::::img-decorated
 ---
 imgUrl: '/img/content-images/sklepy-prestashop/decor_setup.svg'
 decoration: false
 class: hidden desktop:block mx-auto !mb-0 !p-0 !w-[100px] tablet:!w-[230px] !absolute top-1/3 right-0
 ---
 ::::::
-::::::img-decorated-md
+::::::img-decorated
 ---
 imgUrl: '/img/content-images/strony-wordpress/decor_quarter_circle.svg'
 decoration: false
 class: hidden desktop:block mx-auto !mb-0 !p-0 !w-[122px] !absolute bottom-[100px] left-[-61px]
 ---
 ::::::
-::::::img-decorated-md
+::::::img-decorated
 ---
 imgUrl: '/img/content-images/sklepy-prestashop/presta-img7.webp'
 decoration: false
@@ -529,11 +529,11 @@ class: tablet:mb-20 !mb-10 z-0 [&_img]:max-h-[700px]
 
 #right
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: relative z-20
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 640
 class: mb-10
@@ -562,18 +562,18 @@ Także jeśli prowadzisz kampanie marketingowe, potrzebujesz integracji z system
 ::::
 ::
 
-::page-section-md
+::ui-container
 ---
 classes: mb-10 tablet:mb-20
 ---
-:::block-columns-1-1-md
+:::layout-columns-1-1
 ---
 class: mb-10
 ---
 
 #left
-::::effect-appear-md
-:::::block-header-md
+::::effect-appear
+:::::block-header
 ---
 maxWidth: 600
 ---
@@ -588,7 +588,7 @@ maxWidth: 600
 ::::
 
 #right
-::::effect-appear-md
+::::effect-appear
 ---
 class: h-full flex items-center
 ---
@@ -598,7 +598,7 @@ Do stworzenia nowoczesnego sklepu internetowego potrzebne jest połączenie wied
 
 #full
 
-:::block-swiper-tabs-md
+:::block-swiper-tabs
 ---
 tabNames:
     - Analiza założeń
@@ -608,11 +608,11 @@ tabNames:
     - Publikacja
     - Wsparcie i rozwój
 ---
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/magnifier.svg'
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 700
 ---
@@ -627,11 +627,11 @@ Na początku poznajemy cele biznesowe, grupę docelową, ofertę oraz planowane 
 ::::
 
 
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/www-uxui.svg'
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 700
 ---
@@ -645,11 +645,11 @@ Tworzymy makiety, projekt graficzny oraz spójną strukturę nawigacji. Dbamy o 
 :::::
 ::::
 
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/www-code.svg'
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 700
 ---
@@ -665,11 +665,11 @@ Po akceptacji projektu przechodzimy do realizacji: kodujemy sklep, konfigurujemy
 
 
 
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/secure2.svg'
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 700
 ---
@@ -684,11 +684,11 @@ Na tym etapie kompleksowo testujemy sklep na różnych urządzeniach i przegląd
 ::::
 
 
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/public.svg'
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 700
 ---
@@ -702,11 +702,11 @@ Po zakończeniu fazy testów uruchamiamy sklep w środowisku produkcyjnym. Po pu
 :::::
 ::::
 
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/handshake.svg'
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 700
 ---
@@ -722,17 +722,17 @@ Po uruchomieniu zapewniamy opiekę techniczną, aktualizacje i szybkie reagowani
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[100px]
 ---
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: bg-green-gray relative
 ---
 
-::::img-decorated-md
+::::img-decorated
 ---
 imgUrl: '/img/svg-arc.svg'
 decoration: false
@@ -740,7 +740,7 @@ class: tablet:!pl-0 !mb-0 !w-[80px] tablet:!w-[122px] !absolute top-[20px] table
 ---
 ::::
 
-::::img-decorated-md
+::::img-decorated
 ---
 imgUrl: '/img/svg-square.svg'
 decoration: false
@@ -748,10 +748,10 @@ class: tablet:!pl-0 !mb-0 !w-[60px] tablet:!w-[100px] !absolute bottom-[20px] ta
 ---
 ::::
 
-::::block-faq-md
+::::block-faq
 
 #header
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 900
 class: mb-[50px] text-center relative
@@ -765,7 +765,7 @@ class: mb-[50px] text-center relative
 
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Ile kosztuje stworzenie sklepu na PrestaShop?
@@ -775,7 +775,7 @@ Koszt **tworzenia sklepu internetowego PrestaShop** zależy od wielu czynników,
 
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Ile trwa stworzenie sklepu PrestaShop?
@@ -785,7 +785,7 @@ Czas realizacji zależy od złożoności projektu, ale standardowo **tworzenie s
 
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Czy PrestaShop sprawdzi się przy dużej liczbie produktów?
@@ -795,7 +795,7 @@ Tak, **sklep na PrestaShop** świetnie radzi sobie z rozbudowanym katalogiem pro
 
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Czy mogę samodzielnie zarządzać sklepem po wdrożeniu?
@@ -804,7 +804,7 @@ Tak, **sklep na PrestaShop** świetnie radzi sobie z rozbudowanym katalogiem pro
 Oczywiście. Panel administracyjny PrestaShop jest intuicyjny i przystosowany dla użytkowników bez wiedzy technicznej. Po wdrożeniu sklepu przeprowadzamy szkolenie i udostępniamy instrukcje.
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Jakie integracje mogę wdrożyć w sklepie PrestaShop?
@@ -814,7 +814,7 @@ Możemy zintegrować Twój sklep z systemami płatności i kurierami, systemami 
 
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Czy oferujecie wsparcie po uruchomieniu sklepu?
@@ -826,7 +826,7 @@ Tak, zapewniamy pełne wsparcie techniczne, aktualizacje, monitoring działania 
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-[100px] tablet:mb-[150px]
 ---
@@ -836,8 +836,8 @@ decoration: true
 class: top-20 right-[15%] fullHd:right-[20%] scale-x-[-1.6] scale-y-[1.6]
 ---
 ::::
-:::effect-appear-md
-::::block-cta-md
+:::effect-appear
+::::block-cta
 ---
 maxWidth: 740
 button.link: https://webo.agency/kontakt
@@ -856,13 +856,13 @@ Umów się na bezpłatną konsultację i opowiedz nam więcej o swoim projekcie
 ::
 
 
-::page-section-md
+::ui-container
 ---
 id: realizacje
 class: mb-[80px] tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 class: mb-10 tablet:mb-20
 ---
@@ -876,7 +876,7 @@ class: mb-10 tablet:mb-20
 ::::
 :::
 
-:::block-cases-md
+:::block-cases
 ---
 contentFolder: realizacje
 moreBtn.url: 'https://webo.agency/realizacje'
@@ -889,12 +889,12 @@ selectedSlugs:
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: true
 class: mb-[50px] tablet:mb-[100px]
@@ -908,13 +908,13 @@ class: mb-[50px] tablet:mb-[100px]
 
 ::::
 :::
-:::block-brands-before-footer-md
+:::block-brands-before-footer
 :::
 ::
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::block-form-before-footer-md
+:::block-form-before-footer
 :::
 ::

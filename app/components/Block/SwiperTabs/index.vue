@@ -111,6 +111,7 @@ export default {
 
 <style scoped>
 @reference "~/assets/css/main.css";
+
 .swiper-tabs-container:deep(.swiper-slide-thumb-active > div) {
   @apply !border-b-green-main !opacity-100;
 }

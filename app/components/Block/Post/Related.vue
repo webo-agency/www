@@ -6,7 +6,7 @@
             <div
             class="swiper-wrapper items-center"
             >
-              <PostTileMd
+              <TilePost
                 v-for="case_page in (relatedPosts || [])"
                 :key="case_page.path"
                 :data="case_page"

@@ -1,7 +1,7 @@
 <template>
   <div class="self-stretch mb-5">
     <EffectAppearMdc class="desktop-delay h-full" :delay="delay * 100">
-      <CustomLink :url="link ?? ''" :activeClass="'none'"
+      <UiLink :url="link ?? ''" :activeClass="'none'"
         class="group h-full p-5 pt-10 desktop-wide:px-10 tablet:pt-[60px] flex flex-col text-gray-darker bg-green-gray transition duration-200 ">
         <nuxt-picture v-if="icon" class="shrink-0 w-20 h-[60px] mb-5" :src="icon" loading="lazy" alt="Webo service icon"></nuxt-picture>
         <div v-if="$slots.title" class="title max-w-fit mb-5 text-xl desktop:text-2xl font-semibold" :class="[{ 'group-hover:underline': link, },
@@ -25,16 +25,15 @@
               fill="#202020" class="transition duration-200" :class="{ 'group-hover:fill-[#08DBBA]': link }" />
           </svg>
         </div>
-      </CustomLink>
+      </UiLink>
     </EffectAppearMdc>
   </div>
 </template>
 
 <script>
-import EffectAppearMdc from "../effect/effect-appear-md.vue";
-import CustomLink from "../../custom/link.vue";
+import EffectAppearMdc from "../Effect/Appear.vue";
+import UiLink from "../Ui/Link.vue";
 export default {
-  name: "OfferTileMdc",
   props: {
     link: String,
     icon: String,
@@ -45,7 +44,7 @@ export default {
     },
 
   },
-  components: { EffectAppearMdc, CustomLink },
+  components: { EffectAppearMdc, UiLink },
 };
 </script>
 

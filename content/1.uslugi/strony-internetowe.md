@@ -8,7 +8,7 @@ hreflangs:
     EN: '/services/websites/'
     PL: '/uslugi/strony-internetowe/'
 ---
-::block-banner-md
+::block-banner
 ---
 bgImg: false
 headerWidth: 720
@@ -26,7 +26,7 @@ isSecondSvg: true
 Tworzymy szyte na miarę strony internetowe, projektując dla Ciebie indywidualny wygląd i&nbsp;kodując od podstaw.
 
 #right
-:::block-banner-decoration-md
+:::block-banner-decoration
 ---
 svgUrl_tl: '/img/svg-arc.svg'
 svgUrl_br: '/img/svg-square.svg'
@@ -35,16 +35,16 @@ svgUrl_br: '/img/svg-square.svg'
 ::
 
 
-::page-section-md
+::ui-container
 ---
 classes: mb-10 desktop:mb-[80px]
 ---
 
-:::block-columns-1-1-md
+:::layout-columns-1-1
 
 #left
-::::effect-appear-md
-:::::block-header-md
+::::effect-appear
+:::::block-header
 ---
 center: false
 maxWidth: 700
@@ -85,19 +85,19 @@ Od warsztatów projektowych w trakcie których wybierzemy optymalną technologi�
 ::::
 
 #right
-::::effect-appear-md
+::::effect-appear
 ---
 class: h-full relative
 ---
 
-:::::effect-parallax-md
+:::::effect-parallax
 ---
 parallaxScale: 0.1
 startBottom: true
 class: overflow-hidden desktop:overflow-visible
 ---
 
-::::::img-decorated-md
+::::::img-decorated
 ---
 imgUrl: '/img/content-images/strony-internetowe/section1-right-img.png'
 decoration: false
@@ -109,12 +109,12 @@ class: tablet:w-auto !w-full desktop:mt-[-230px] desktop:-mr-10 tablet:!pl-20 de
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 classes: mb-5 tablet:mb-32
 ---
 
-:::block-columns-1-1-md
+:::layout-columns-1-1
 ---
 class: w-auto [&_div.left]:!basis-[40%] [&_div.right]:!basis-[60%]
 reverseMobile: true
@@ -122,18 +122,18 @@ reverseMobile: true
 
 
 #left
-::::effect-appear-md
+::::effect-appear
 ---
 class: h-full relative
 ---
 
-:::::effect-parallax-md
+:::::effect-parallax
 ---
 parallaxScale: 0.09
 startBottom: true
 class: overflow-hidden desktop:overflow-visible
 ---
-::::::img-decorated-md
+::::::img-decorated
 ---
 imgUrl: '/img/content-images/strony-internetowe/section2-left-img.png'
 decoration: false
@@ -144,8 +144,8 @@ class: desktop:!pr-16 !w-full
 ::::
 
 #right
-::::effect-appear-md
-:::::block-header-md
+::::effect-appear
+:::::block-header
 ---
 center: false
 maxWidth: 700
@@ -183,13 +183,13 @@ class: tablet:top-0 right-0
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 classes: mb-5 tablet:mb-[100px]
 ---
 
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: true
 maxWidth: 480
@@ -204,9 +204,9 @@ class: mb-20
 ::::
 :::
 
-:::block-offer-tiles-md
+:::block-offer-tiles
 
-::::offer-tile-md
+::::tile-offer
 --- 
 icon: '/img/icons/wordpress.svg'
 link: 'https://webo.agency/uslugi/strony-wordpress'
@@ -223,7 +223,7 @@ Dowiedz się więcej
 
 
 
-::::offer-tile-md
+::::tile-offer
 --- 
 icon: '/img/icons/drupal.svg'
 link: 'https://webo.agency/kontakt'
@@ -239,7 +239,7 @@ Elastyczny i niesamowicie skalowalny system zarządzania treścią, na którym z
 Dowiedz się więcej
 ::::
 
-::::offer-tile-md
+::::tile-offer
 --- 
 icon: '/img/icons/wordpress-headles.svg'
 link: 'https://webo.pl/uslugi/strony-headless-pwa/'
@@ -257,11 +257,11 @@ Dowiedz się więcej
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-[100px] tablet:mb-[100px]
 ---
-:::effect-appear-md
+:::effect-appear
 
 :::svg-decorated
 ---
@@ -270,7 +270,7 @@ class: top-20 right-[15%] fullHd:right-[20%] scale-x-[-1.6] scale-y-[1.6]
 ---
 :::
 
-::::block-cta-md
+::::block-cta
 ---
 maxWidth: 800
 button.link: https://webo.agency/kontakt
@@ -290,13 +290,13 @@ Umów się na bezpłatną konsultację!
 ::
 
 
-::page-section-md
+::ui-container
 ---
 classes: mb-10 tablet:mb-[80px]
 ---
 
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: true
 maxWidth: 540
@@ -312,19 +312,19 @@ class: mb-20
 ::::
 :::
 
-:::block-columns-1-1-md
+:::layout-columns-1-1
 ---
 class: mb-10 tablet:mb-20
 ---
 
 #left
 
-::::effect-appear-md
-:::::block-list-ul-md
+::::effect-appear
+:::::block-list-ul
 ---
 decoration: false
 ---
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/doc_bg_gray.svg'
 iconBig: true
@@ -339,7 +339,7 @@ animated: false
 Zawsze **opieramy się o dokumentację techniczną** rozwiązań z jakich korzystamy. Dzięki temu zapewniamy poprawność działania wdrożonych funkcji i **szybkość działania strony, bez zbędnego kodu**.
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/uxui_bg_gray.svg'
 iconBig: true
@@ -355,7 +355,7 @@ animated: false
 W projektowaniu interfejsu kluczowe są dla nas Twoje wymagania oraz **potrzeby użytkowników**. Projektujemy m.in. architekturę informacji, prototyp strony i **design dopasowany do Twojej marki**, zapewniając **łatwą w obsłudze stronę**.
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/scaling_bg_gray.svg'
 iconBig: true
@@ -374,9 +374,9 @@ Celem prowadzenia biznesu jest jego rozwój. Stawiamy na długofalowe rozwiązan
 
 
 #right
-::::effect-appear-md
-:::::block-list-ul-md
-::::::list-item-ul-active-md
+::::effect-appear
+:::::block-list-ul
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/code_bg_gray.svg'
 iconBig: true
@@ -391,7 +391,7 @@ animated: false
 Webo to **zespół programistów** z krwi i kości, nie korzystamy ze słabych jakościowo gotowców. Strony internetowe programujemy od podstaw zapewniając **wysoką jakość, szybkość działania i wydajność**.
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/weight_bg_gray.svg'
 iconBig: true
@@ -406,7 +406,7 @@ animated: false
 Naszym zadaniem jest dostarczenie **stabilnie działającej strony** internetowej. To inwestycja która ma zapewnić Tobie **realizacje celów biznesowych** bez obaw o wydajność czy dostępność strony dla potencjalnych klientów.
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/tests_bg_gray.svg'
 iconBig: true
@@ -428,17 +428,17 @@ Przeprowadzamy szczegółową **kontrolę jakości i funkcjonowania strony**. Te
 
 
 
-::page-section-md
+::ui-container
 ---
 classes: bg-gray-darkest pt-10 tablet:pt-[100px] mb-[100px]
 ---
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: relative z-20
 ---
 
-::::block-header-md
+::::block-header
 ---
 maxWidth: 690
 class: mb-10 tablet:mb-20
@@ -450,12 +450,12 @@ center: true
 ## Dlaczego wysoka jakość strony internetowej *się opłaca?*
 
 ::::
-:::::block-list-ul-md
+:::::block-list-ul
 ---
 class: mb-10 tablet:mb-20 flex flex-wrap justify-center gap-5 tablet:[&>li]:w-[calc(50%_-_10px)] desktop:[&>li]:w-[calc(33.3333%_-_14px)]
 ---
 
-::::::tile-dark-icon-md
+::::::tile-dark-icon
 ---
 iconUrl: '/img/icons/rocket.svg'
 center: true
@@ -469,7 +469,7 @@ iconDecorated: true
 Które bezpośrednio wpływa na pozycjonowanie w wynikach Googla, a także na wrażenia użytkowników - współczynnik odrzuceń wzrasta o 90% gdy strona łąduje się powyżej 3s
 
 ::::::
-::::::tile-dark-icon-md
+::::::tile-dark-icon
 ---
 iconUrl: '/img/icons/upscaling.svg'
 center: true
@@ -483,7 +483,7 @@ iconDecorated: true
 Dobry jakościowo kod i zgodność z dokumentacją sprawiają że dalsza rozbudowa nie będzie niosła za sobą komplikacji i skróci czas jaki developer potrzebuje na wdrożenie nowych podstron czy funkcji.
 
 ::::::
-::::::tile-dark-icon-md
+::::::tile-dark-icon
 ---
 iconUrl: '/img/icons/stability.svg'
 center: true
@@ -502,8 +502,8 @@ Jakościowe wdrożenie to pewność działania strony m.in. bez wtop wydajności
 :::
 
 #full
-:::effect-appear-md
-::::effect-parallax-md
+:::effect-appear
+::::effect-parallax
 ---
 parallaxScale: 0.08
 startBottom: true
@@ -522,12 +522,12 @@ rounded: false
 
 
 
-::page-section-md
+::ui-container
 ---
 classes: mb-10 tablet:mb-[100px]
 ---
-:::effect-appear-md
-::::block-header-two-cols-md
+:::effect-appear
+::::block-header-two-cols
 ---
 class: mb-10 [&_.description]:!text-base
 maxWidth: 640
@@ -547,7 +547,7 @@ Do stworzenia nowoczesnej strony internetowej potrzeba szerokiej wiedzy z zakres
 
 #full
 
-:::block-swiper-tabs-md
+:::block-swiper-tabs
 ---
 tabNames:
     - Analiza założeń
@@ -556,11 +556,11 @@ tabNames:
     - Testy i publikacja
     - Wsparcie i rozwój
 ---
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/magnifier.svg'
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 700
 ---
@@ -585,11 +585,11 @@ Podczas pierwszej rozmowy dokładnie poznajemy Twoje potrzeby oraz założenia p
 ::::
 
 
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/www-uxui.svg'
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 700
 ---
@@ -609,11 +609,11 @@ Podczas tego etapu pracujemy nad wyglądem strony www. Prace zaczynamy od przean
 :::::
 ::::
 
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/www-code.svg'
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 700
 ---
@@ -635,11 +635,11 @@ Po zaakceptowaniu projektu interfejsu, rozpoczynamy prace nad kompleksowym wdro�
 ::::
 
 
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/www-tests.svg'
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 700
 ---
@@ -660,11 +660,11 @@ W tym etapie gruntownie sprawdzamy działanie strony internetowej. Testy wykonuj
 ::::
 
 
-::::block-swiper-tabs-slide-md
+::::block-swiper-tabs-slide
 ---
 icon: '/img/icons/www-support.svg'
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 700
 ---
@@ -688,35 +688,35 @@ Często publikacja strony to dopiero początek, a podczas użytkowania strony po
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 classes: mb-20 tablet:mb-[80px] [&_.right]:flex [&_.right]:flex-col [&_.right]:justify-center
 ---
 
-:::block-columns-1-1-md
+:::layout-columns-1-1
 
 #left
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: relative overflow-hidden tablet:overflow-visible -mx-5 tablet:mx-0
 ---
 
-:::::img-decorated-md
+:::::img-decorated
 ---
 imgUrl: '/img/content-images/strony-wordpress/decor_code.svg'
 decoration: false
 class: hidden desktop:block mx-auto !mb-0 !p-0 !w-[100px] tablet:!w-[230px] !absolute top-1/3 right-0
 ---
 :::::
-:::::img-decorated-md
+:::::img-decorated
 ---
 imgUrl: '/img/content-images/strony-wordpress/decor_quarter_circle.svg'
 decoration: false
 class: hidden desktop:block mx-auto !mb-0 !p-0 !w-[122px] !absolute bottom-[100px] left-[-61px]
 ---
 :::::
-:::::img-decorated-md
+:::::img-decorated
 ---
 imgUrl: '/img/content-images/strony-internetowe/laptop_mockup_1.webp'
 decoration: false
@@ -728,11 +728,11 @@ class: tablet:mb-20 !mb-10 z-0
 
 #right
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: relative z-20
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 680
 class: mb-10
@@ -764,17 +764,17 @@ Wycena strony powstaje po wspólnych warsztatach lub bezpłatnej konsultacji - d
 ::::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[100px]
 ---
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: bg-green-gray relative
 ---
 
-::::img-decorated-md
+::::img-decorated
 ---
 imgUrl: '/img/svg-arc.svg'
 decoration: false
@@ -782,7 +782,7 @@ class: tablet:!pl-0 !mb-0 !w-[80px] tablet:!w-[122px] !absolute top-[20px] table
 ---
 ::::
 
-::::img-decorated-md
+::::img-decorated
 ---
 imgUrl: '/img/svg-square.svg'
 decoration: false
@@ -790,10 +790,10 @@ class: tablet:!pl-0 !mb-0 !w-[60px] tablet:!w-[100px] !absolute bottom-[20px] ta
 ---
 ::::
 
-::::block-faq-md
+::::block-faq
 
 #header
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 900
 class: mb-[50px] text-center relative
@@ -808,7 +808,7 @@ class: mb-[50px] text-center relative
 :::::
 
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Jak długo trwa stworzenie strony internetowej?
@@ -818,7 +818,7 @@ W zależności od złożoności projektu - od 3 tygodni dla prostych realizacji 
 
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Ile kosztuje stworzenie strony internetowej?
@@ -827,7 +827,7 @@ W zależności od złożoności projektu - od 3 tygodni dla prostych realizacji 
 Cena strony internetowej zależy od wielu czynników - zakresu funkcji, liczby podstron, technologii, designu oraz integracji (np. z systemami zewnętrznymi). Prosty serwis firmowy może kosztować od 6 000 zł netto, natomiast rozbudowany serwis z headless - kilkanaście, a nawet kilkadziesiąt tysięcy zł. Każdy projekt wyceniamy indywidualnie po analizie potrzeb.
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Czy mogę zlecić tylko projekt graficzny strony?
@@ -837,7 +837,7 @@ Oczywiście. Możemy zaprojektować sam interfejs (UX/UI) Twojej strony - od arc
 
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Czym różni się wasze podejście od pracy na gotowym szablonie?
@@ -846,7 +846,7 @@ Oczywiście. Możemy zaprojektować sam interfejs (UX/UI) Twojej strony - od arc
 Gotowe szablony często ograniczają rozwój strony, spowalniają jej działanie i generują nadmiarowy kod. My tworzymy strony od podstaw - co oznacza pełną kontrolę nad każdym elementem i gwarancję wydajności oraz bezpieczeństwa.
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Czy oferujecie opiekę i wsparcie po wdrożeniu strony?
@@ -859,7 +859,7 @@ Tak. Po wdrożeniu oferujemy opiekę techniczną, aktualizacje oraz wsparcie w r
 :::
 ::
 
-::::block-cta-md
+::::block-cta
 ---
 maxWidth: 700
 button.link: https://webo.agency/kontakt
@@ -877,13 +877,13 @@ Umów się na bezpłatną konsultację i porozmawiaj z ekspertem.
 
 
 
-::page-section-md
+::ui-container
 ---
 id: realizacje
 class: mb-[80px] tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 class: mb-10 tablet:mb-20
 maxWidth: 550
@@ -898,7 +898,7 @@ maxWidth: 550
 ::::
 :::
 
-:::block-cases-md
+:::block-cases
 ---
 contentFolder: realizacje
 moreBtn.url: 'https://webo.agency/realizacje'
@@ -911,12 +911,12 @@ selectedSlugs:
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: true
 class: mb-[50px] tablet:mb-[100px]
@@ -930,13 +930,13 @@ class: mb-[50px] tablet:mb-[100px]
 
 ::::
 :::
-:::block-brands-before-footer-md
+:::block-brands-before-footer
 :::
 ::
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::block-form-before-footer-md
+:::block-form-before-footer
 :::
 ::

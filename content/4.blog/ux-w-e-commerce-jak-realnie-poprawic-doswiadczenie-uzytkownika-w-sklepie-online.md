@@ -14,12 +14,12 @@ draft: false
 ---
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 desktop:mb-[320px] bg-green-gray
 ---
-:::effect-appear-md
-::::block-header-post-md
+:::effect-appear
+::::block-header-post
 ---
 bgUrl: /img/blog-images/ux-e-commerce.webp
 class: translate-y-[40px] desktop:translate-y-[220px]
@@ -34,19 +34,19 @@ class: translate-y-[40px] desktop:translate-y-[220px]
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: static-content mb-10
 ---
 
-:::block-columns-blog-sidebar-md
+:::layout-columns-blog-sidebar
 ---
 class:
 ---
 
 #left
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: mx-blog
 ---
@@ -59,7 +59,7 @@ W tym artykule skupiamy się na praktycznych aspektach UX w sklepach internetowy
 :::::
 
 ::::
-::::effect-appear-md
+::::effect-appear
 ---
 class: mx-blog
 ---
@@ -88,7 +88,7 @@ Dobrze zaprojektowany UX nie zmusza użytkownika do myślenia, lecz prowadzi go 
 
 ::::
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: mx-blog mb-10 tablet:mb-[60px]
 ---
@@ -100,7 +100,7 @@ rounded: true
 :::::
 ::::
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: mx-blog
 ---
@@ -126,11 +126,11 @@ Im prostsze wnioski z danych, tym lepsze decyzje UX.
 
 ::::
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: mx-blog mb-10 tablet:mb-[60px]
 ---
-:::::block-cta-md
+:::::block-cta
 ---
 button.link: /kontakt
 button.title: 'SKONTAKTUJ SIĘ Z NAMI'
@@ -148,7 +148,7 @@ Opowiedz nam o swoim sklepie - dobierzemy rozwiązania UX i e-commerce, które r
 :::::
 ::::
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: mx-blog
 ---
@@ -172,7 +172,7 @@ Im prostsza i krótsza droga od wejścia do sklepu do karty produktu, tym mniejs
 :::::
 ::::
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: mx-blog mb-10 tablet:mb-[60px]
 ---
@@ -184,11 +184,11 @@ rounded: true
 :::::
 ::::
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: mb-10 tablet:mb-[60px]
 ---
-:::::block-cta-md
+:::::block-cta
 ---
 maxWidth: 1100
 class: bg-green-gray !p-10 !pb-8 !items-start [&_p]:!m-0 [&_.description]:!m-0 [&_.description_p]:!text-left [&_.description_p]:!text-[18px] [&_p]:!font-semibold [&_.btn-main]:!hidden [&_a]:!underline [&_a]:!text-inherit
@@ -202,7 +202,7 @@ class: bg-green-gray !p-10 !pb-8 !items-start [&_p]:!m-0 [&_.description]:!m-0 [
 :::::
 ::::
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: mx-blog
 ---
@@ -228,7 +228,7 @@ Dobry mobilny UX to skrócenie procesu zakupowego do absolutnego minimum. Oznacz
 :::::
 ::::
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: mx-blog
 ---
@@ -254,7 +254,7 @@ Każdy z tych elementów obniża zaufanie użytkownika i zwiększa ryzyko porzuc
 :::::
 ::::
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: mx-blog
 ---
@@ -283,7 +283,7 @@ Na zakończenie warto podkreślić, że skuteczne UX w e-commerce nie polega na 
 ::::
 
 #right
-::::effect-appear-md
+::::effect-appear
 ---
 class: mx-blog
 ---
@@ -311,12 +311,12 @@ class: text-base [&_p]:!text-base
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[100px]
 ---
-:::effect-appear-md
-::::block-header-link-md
+:::effect-appear
+::::block-header-link
 ---
 url: 'https://webo.agency/blog'
 linktitle: Zobacz wszystkie wpisy
@@ -336,7 +336,7 @@ relatedPostsLinks:
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-[100px] tablet:mb-[150px]
 ---
@@ -346,8 +346,8 @@ decoration: true
 class: top-20 right-[15%] fullHd:right-[20%] scale-x-[-1.6] scale-y-[1.6]
 ---
 ::::
-:::effect-appear-md
-::::block-cta-md
+:::effect-appear
+::::block-cta
 ---
 maxWidth: 800
 button.link: https://webo.agency/kontakt
@@ -365,12 +365,12 @@ Umów się na bezpłatną konsultację i opowiedz nam więcej o swoim projekcie
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: true
 class: mb-[50px] tablet:mb-[100px]
@@ -384,6 +384,6 @@ class: mb-[50px] tablet:mb-[100px]
 
 ::::
 :::
-:::block-brands-before-footer-md
+:::block-brands-before-footer
 :::
 ::

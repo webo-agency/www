@@ -8,7 +8,6 @@
 
 <script>
 export default {
-  name: "BlockFaqSimpleMd",
   data() {
     return {
       faqState: {

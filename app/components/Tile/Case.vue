@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col shrink-0">
-    <CustomLink class="group hover:text-green-main flex flex-col w-full overflow-hidden" :disabled="itemData.draft && !itemData.fallback"
+    <UiLink class="group hover:text-green-main flex flex-col w-full overflow-hidden" :disabled="itemData.draft && !itemData.fallback"
       :activeClass="'none'" :url="itemData.fallback ?? (itemData.url ?? ('https://webo.agency' + itemData.path))">
       <div ref="imgContainer"
         class="[&:hover_.arrow]:scale-100 relative flex aspect-square tablet:aspect-[0.9] w-full mb-5 desktop:mb-10 overflow-hidden">
@@ -37,7 +37,7 @@
         :class="{ 'group-hover:underline': !itemData.draft || itemData.fallback }">
         {{ itemData.introduction.title }}
       </h3>
-    </CustomLink>
+    </UiLink>
     <p v-if="itemData.introduction?.description"
       class="mb-5 tablet:mb-8 mr-2.5 tablet:mr-5 text-sm leading-7 desktop:text-base">
       {{ itemData.introduction.description }}

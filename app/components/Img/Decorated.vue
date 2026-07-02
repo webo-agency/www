@@ -37,8 +37,9 @@ export default {
 };
 </script>
 
-<style lang="postcss" scoped>
+<style  scoped>
 @reference "~/assets/css/main.css";
+
 
 /* ========================================================================== */
 /* Plain CSS fallback for environments where SFC @apply is not transformed    */

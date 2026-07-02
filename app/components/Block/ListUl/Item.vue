@@ -1,6 +1,6 @@
 <template>
   <li>
-    <effect-appear :toggleOpacity="false">
+    <ui-effect-appear :toggleOpacity="false">
       <div
         class="flex flex-col"
         :class="[animated ? 'li-faded pb-10 tablet:pb-16' : 'pb-5 tablet:pb-7',{'tablet:flex-row':iconLeft}]"
@@ -29,7 +29,7 @@
           ></div>
         </div>
       </div>
-    </effect-appear>
+    </ui-effect-appear>
   </li>
 </template>
 
@@ -55,6 +55,7 @@ export default {
 
 <style>
 @reference "~/assets/css/main.css";
+
 .effect .li-faded {
   @apply opacity-25 transition duration-300;
 }

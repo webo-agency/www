@@ -3,7 +3,7 @@ introduction.title: 'Sklep internetowy w oparciu o Wordpress + Woocommerce dosta
 introduction.description: 'CaffeWasyl to sklep internetowy oferujący mieszanki kaw i herbat dla smakoszy. Naszym zadaniem było stworzenie sklepu internetowego i uruchomienie sprzedaży w ciągu miesiąca od zgłoszenia.'
 type:
     - E-commerce
-    - Wsparcie
+    - Wsparcie/Rozwój
 technologies:
     - Wordpress CMS
 image.url: '/img/case-studies/CaffeWasyl.jpg'

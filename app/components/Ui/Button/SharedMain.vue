@@ -29,7 +29,7 @@
     ></span>
   </button>
 
-  <CustomLink
+  <UiLink
     v-else
     :url="link"
     :activeClass="'none'"
@@ -59,24 +59,22 @@
       v-else
       class="h-0.5 w-[14px] ml-3 mt-0.5 bg-current group-hover:translate-x-1 transition duration-200"
     ></span>
-  </CustomLink>
+  </UiLink>
 </template>
 
 <script>
-import CustomLink from "../custom/link.vue";
+import UiLink from "../Link.vue";
 
 export default {
-  name: "ButtonSharedMain",
-  components: { CustomLink },
+  components: { UiLink },
   props: {
     link: {
       type: String,
-      required: true,
       default: "/",
     },
     title: {
       type: String,
-      required: true,
+      default: "",
     },
     tagButton: {
       type: Boolean,

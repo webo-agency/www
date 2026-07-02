@@ -18,7 +18,6 @@
 
 <script>
 export default {
-  name: "BlockTechnologiesGridMdc",
   props: {
     tilesTight: {
       type: Boolean,

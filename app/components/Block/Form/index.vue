@@ -35,10 +35,10 @@
                 <slot name="policytext" />
               </label>
             </div>
-            <ButtonMain :tagButton="true" :isWide=true ref="sendButton"
+            <UiButtonMain :tagButton="true" :isWide=true ref="sendButton"
               :class="[darkContainer ? 'text-gray-darker' : 'text-white']">
               <slot name="buttontext" />
-            </ButtonMain>
+            </UiButtonMain>
           </div>
           <input type="hidden" name="static-form-name" value="contact" />
         </form>
@@ -62,10 +62,10 @@
               <slot name="thanksDescription" />
             </div>
             <div v-if="$slots.buttonBackText">
-              <ButtonMain class="mb-2.5 desktop:mb-6 !w-auto" :class="[darkContainer ? 'text-gray-darker' : 'text-white']"
+              <UiButtonMain class="mb-2.5 desktop:mb-6 !w-auto" :class="[darkContainer ? 'text-gray-darker' : 'text-white']"
                 :link="'https://webo.agency/'">
                 <slot name="buttonBackText" />
-              </ButtonMain>
+              </UiButtonMain>
             </div>
           </div>
         </Transition>
@@ -90,9 +90,8 @@
 </template>
 
 <script>
-import ButtonMain from "../../button/main.vue";
+import UiButtonMain from "../../Ui/Button/Main.vue";
 export default {
-  name: "BlockFormMdc",
   data() {
     return {
       isOverDropZone: false,
@@ -154,12 +153,13 @@ export default {
       this.$refs['svgPath'].classList.add('svg-check-animation')
     }
   },
-  components: { ButtonMain },
+  components: { UiButtonMain },
 };
 </script>
 
 <style scoped>
 @reference "~/assets/css/main.css";
+
 .appear-enter-active,
 .appear-leave-active {
   transition: opacity 0.2s ease;

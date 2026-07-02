@@ -55,13 +55,13 @@
                     class="inline-block text-green-main w-5 tablet:w-8 font-semibold mr-2.5"
                     >M/</span
                   >
-                  <CustomLink
+                  <UiLink
                     itemprop="email"
                     class="inline-block underline font-normal"
                     :url="'mailto:' + mail"
                     :title="mail"
                   >
-                  </CustomLink>
+                  </UiLink>
                 </div>
                 <div
                   v-if="tel"
@@ -71,13 +71,13 @@
                     class="inline-block text-green-main w-5 tablet:w-8 font-semibold mr-2.5"
                     >T/</span
                   >
-                  <CustomLink
+                  <UiLink
                     itemprop="telephone"
                     class="inline-block underline font-normal"
                     :url="'tel:' + tel"
                     :title="$addTelSpaces(tel)"
                   >
-                  </CustomLink>
+                  </UiLink>
                 </div>
               </div>
             </div>
@@ -94,13 +94,13 @@
                   :key="index"
                   class="block mb-2 tablet:mb-4 max-w-[270px] text-base desktop:text-lg pr-5"
                 >
-                  <CustomLink
+                  <UiLink
                     v-if="item.link"
                     class="text-inherit hover:text-green-main transition duration-300"
                     :url="item.link"
                     :activeClass="'none'"
                     >{{ item.title }}
-                  </CustomLink>
+                  </UiLink>
                   <div
                     v-else-if="item.title"
                     v-html="$formatText(item.title)"
@@ -119,13 +119,13 @@
                   :key="index"
                   class="block mb-2 tablet:mb-4 max-w-[250px] text-base desktop:text-lg pr-5"
                 >
-                  <CustomLink
+                  <UiLink
                     v-if="item.link"
                     class="text-inherit hover:text-green-main transition duration-300"
                     :url="item.link"
                     :activeClass="'none'"
                     >{{ item.title }}
-                  </CustomLink>
+                  </UiLink>
                   <div
                     v-else-if="item.title"
                     v-html="$formatText(item.title)"
@@ -147,7 +147,7 @@
                 class="prose text-base mb-3"
                 v-html="location"
               ></div>
-              <Socials
+              <UiSocials
                 v-if="socials"
                 class="mb-10 tablet:mb-0"
                 :socials="socials"
@@ -227,22 +227,21 @@
       <span class="text-xs desktop:text-sm mb-2.5 tablet:mb-0"
         >2024 Webo | All rights reserved</span
       >
-      <CustomLink
+      <UiLink
         v-if="privacyPolicyLink"
         class="text-xs desktop:text-sm hover:text-green-main transition duration-300"
         :url="privacyPolicyLink"
         :activeClass="'none'"
         >{{ privacyPolicyTitle ? privacyPolicyTitle : "Polityka prywatności" }}
-      </CustomLink>
+      </UiLink>
     </div>
   </div>
 </template>
 
 <script>
-import Socials from "../socials.vue";
-import CustomLink from "../custom/link.vue";
+import UiSocials from "../Ui/Socials.vue";
+import UiLink from "../Ui/Link.vue";
 export default {
-  name: "LayoutFooter",
   props: {
     tel: String,
     mail: String,
@@ -262,7 +261,7 @@ export default {
     googleRatingText: String,
     showContributions: Boolean,
   },
-  components: { Socials, CustomLink },
+  components: { UiSocials, UiLink },
 };
 </script>
 

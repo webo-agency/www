@@ -10,7 +10,7 @@ hreflangs:
 ---
 
 
-::block-banner-md
+::block-banner
 ---
 bgImg: false
 headerWidth: 720
@@ -28,7 +28,7 @@ isSecondSvg: true
 Gotowe motywy i wtyczki WordPress ograniczają możliwości, dlatego tworzymy indywidualne rozwiązania zapewniające pełną kontrolę.
 
 #right
-:::block-banner-decoration-md
+:::block-banner-decoration
 ---
 svgUrl_tl: '/img/svg-arc.svg'
 svgUrl_br: '/img/svg-square.svg'
@@ -36,16 +36,16 @@ svgUrl_br: '/img/svg-square.svg'
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 classes: mb-10 desktop:mb-[200px]
 ---
 
-:::block-columns-1-1-md
+:::layout-columns-1-1
 
 #left
-::::effect-appear-md
-:::::block-header-md
+::::effect-appear
+:::::block-header
 ---
 center: false
 maxWidth: 700
@@ -69,19 +69,19 @@ Gotowe szablony WordPress i zestawy wtyczek często nie wystarczają, gdy chcesz
 ::::
 
 #right
-::::effect-appear-md
+::::effect-appear
 ---
 class: h-full relative
 ---
 
-:::::effect-parallax-md
+:::::effect-parallax
 ---
 parallaxScale: 0.1
 startBottom: true
 class: overflow-hidden desktop:overflow-visible
 ---
 
-::::::img-decorated-md
+::::::img-decorated
 ---
 imgUrl: '/img/content-images/programowanie-wordpress/programowanie_wordpress_img1.webp'
 decoration: false
@@ -94,26 +94,26 @@ class: tablet:w-auto !w-full desktop:mt-[-230px] tablet:!pl-20 desktop-wide:!pl-
 ::
 
 
-::page-section-md
+::ui-container
 ---
 classes: mb-20 tablet:mb-[150px]
 ---
 
-:::block-columns-1-1-md
+:::layout-columns-1-1
 
 #left
-::::effect-appear-md
+::::effect-appear
 ---
 class: h-full relative
 ---
 
-:::::effect-parallax-md
+:::::effect-parallax
 ---
 parallaxScale: 0.09
 startBottom: true
 class: overflow-hidden desktop:overflow-visible
 ---
-::::::img-decorated-md
+::::::img-decorated
 ---
 imgUrl: '/img/content-images/programowanie-wordpress/programowanie_wordpress_img2.webp'
 decoration: false
@@ -125,11 +125,11 @@ class: desktop:!pr-16 !w-full
 
 #right
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: relative z-20 desktop:mt-[70px]
 ---
-:::::block-header-md
+:::::block-header
 ---
 class: mb-10
 ---
@@ -157,19 +157,19 @@ class: tablet:top-0 right-0
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 classes: mb-10 tablet:mb-20
 ---
 
-:::block-columns-1-1-md
+:::layout-columns-1-1
 ---
 class: mb-10
 ---
 
 #left
-::::effect-appear-md
-:::::block-header-md
+::::effect-appear
+:::::block-header
 ---
 maxWidth: 480
 ---
@@ -184,7 +184,7 @@ maxWidth: 480
 ::::
 
 #right
-::::effect-appear-md
+::::effect-appear
 ---
 class: h-full flex items-center
 ---
@@ -193,8 +193,8 @@ Nasze **usługi programistyczne WordPress** obejmują szeroki zakres działań -
 ::::
 :::
 
-:::block-offer-tiles-md
-::::offer-tile-md
+:::block-offer-tiles
+::::tile-offer
 --- 
 icon: '/img/icons/icon01.svg'
 ---
@@ -203,7 +203,7 @@ icon: '/img/icons/icon01.svg'
 
 ::::
 
-::::offer-tile-md
+::::tile-offer
 --- 
 icon: '/img/icons/icon02.svg'
 delay: 1
@@ -213,7 +213,7 @@ delay: 1
 
 ::::
 
-::::offer-tile-md
+::::tile-offer
 --- 
 icon: '/img/icons/icon03.svg'
 delay: 2
@@ -223,7 +223,7 @@ delay: 2
 
 ::::
 
-::::offer-tile-md
+::::tile-offer
 --- 
 icon: '/img/icons/icon04.svg'
 delay: 3
@@ -234,7 +234,7 @@ delay: 3
 
 ::::
 
-::::offer-tile-md
+::::tile-offer
 --- 
 icon: '/img/icons/icon05.svg'
 delay: 4
@@ -244,7 +244,7 @@ delay: 4
 
 ::::
 
-::::offer-tile-md
+::::tile-offer
 --- 
 icon: '/img/icons/icon06.svg'
 delay: 5
@@ -255,16 +255,16 @@ delay: 5
 ::::
 :::
 
-:::block-bg-map-md
+:::block-bg-map
 ---
 class: -z-10
 ---
 :::
 ::
 
-::page-section-md
-:::effect-appear-md
-::::block-cta-md
+::ui-container
+:::effect-appear
+::::block-cta
 ---
 maxWidth: 1300
 class: tablet:mb-36 [&_.description]:desktop:!text-lg !p-[40px] border border-[#DEE7E5] [&_a]:hidden [&_h4]:!text-left
@@ -279,18 +279,18 @@ class: tablet:mb-36 [&_.description]:desktop:!text-lg !p-[40px] border border-[#
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 classes: bg-gray-darkest pt-10 tablet:pt-[100px] mb-[100px] tablet:mb-[200px]
 ---
 
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: relative z-20
 ---
 
-::::block-header-md
+::::block-header
 ---
 maxWidth: 690
 class: mb-10 tablet:mb-20
@@ -305,12 +305,12 @@ center: true
 ## Kodowanie WordPress - dlaczego nasze podejście działa?
 
 ::::
-:::::block-list-ul-md
+:::::block-list-ul
 ---
 class: mb-10 flex flex-wrap justify-center gap-5 tablet:[&>li]:w-[calc(50%_-_10px)] desktop:[&>li]:w-[calc(33.3333%_-_14px)]
 ---
 
-::::::tile-dark-icon-md
+::::::tile-dark-icon
 ---
 iconUrl: '/img/icons/icon_tile01.svg'
 center: true
@@ -324,7 +324,7 @@ iconDecorated: true
 Nasze podejście opiera się na pełnym zrozumieniu systemu oraz potrzeb biznesowych klienta. Działamy nie jak agencja marketingowa, ale jak **partner technologiczny** - analizujemy, proponujemy lepsze rozwiązania, wdrażamy z myślą o długoterminowym rozwoju projektu.
 
 ::::::
-::::::tile-dark-icon-md
+::::::tile-dark-icon
 ---
 iconUrl: '/img/icons/icon_tile02.svg'
 center: true
@@ -338,7 +338,7 @@ iconDecorated: true
 Każdy projekt zaczynamy od analizy technicznej i planowania architektury systemu. Na tej podstawie budujemy dedykowany motyw, pluginy, piszemy czysty, skalowalny kod i testujemy go w różnych środowiskach. Dzięki temu możesz mieć pewność, że Twoja strona nie tylko działa, ale będzie działać stabilnie także w przyszłości.
 
 ::::::
-::::::tile-dark-icon-md
+::::::tile-dark-icon
 ---
 iconUrl: '/img/icons/icon_tile03.svg'
 center: true
@@ -355,12 +355,12 @@ Każde wdrożenie testujemy gruntownie przed publikacją - dbamy o bezpieczeńst
 :::::
 :::
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: relative z-20
 ---
 
-::::block-columns-5-7-md
+::::layout-columns-5-7
 ---
 reverseMobile: true
 class: mb-16 [&_.right]:flex [&_.right]:items-center
@@ -368,8 +368,8 @@ class: mb-16 [&_.right]:flex [&_.right]:items-center
 
 #left
 
-:::::effect-appear-md
-::::::img-decorated-md
+:::::effect-appear
+::::::img-decorated
 ---
 imgUrl: '/img/content-images/programowanie-wordpress/programowanie_wordpress_img3.webp'
 decoration: false
@@ -380,8 +380,8 @@ class: w-full !pr-[70px]
 :::::
 
 #right
-:::::effect-appear-md
-::::::block-header-md
+:::::effect-appear
+::::::block-header
 ---
 maxWidth: 840
 class: mb-10 tablet:mb-16 tablet:mt-10
@@ -412,7 +412,7 @@ class: max-w-full bg-gradient-to-b from-[#20202080] to-[#20202000] from-[#202020
 ::::
 :::
 
-:::effect-appear-md
+:::effect-appear
 ::::prose-p-3
 ---
 class: mx-auto max-w-[920px] mb-10 tablet:mb-20 text-white text-center
@@ -423,8 +423,8 @@ Jeśli zależy Ci na jakości, czystym kodzie, szybkości działania i możliwo�
 :::
 
 #full
-:::effect-appear-md
-::::effect-parallax-md
+:::effect-appear
+::::effect-parallax
 ---
 parallaxScale: 0.08
 startBottom: true
@@ -442,25 +442,25 @@ rounded: false
 
 
 
-::page-section-md
+::ui-container
 ---
 classes: mb-20 tablet:mb-[150px]
 ---
 
-:::block-columns-1-1-md
+:::layout-columns-1-1
 
 #left
-::::effect-appear-md
+::::effect-appear
 ---
 class: relative z-10 overflow-hidden tablet:overflow-visible -mx-5 tablet:mx-0
 ---
-:::::effect-parallax-md
+:::::effect-parallax
 ---
 parallaxScale: 0.09
 startBottom: true
 class: overflow-hidden desktop:overflow-visible
 ---
-::::::img-decorated-md
+::::::img-decorated
 ---
 imgUrl: '/img/content-images/programowanie-wordpress/programowanie_wordpress_img5.webp'
 decoration: false
@@ -472,11 +472,11 @@ class: desktop:!pr-16 !w-full
 
 #right
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: relative z-20 desktop:mt-[70px]
 ---
-:::::block-header-md
+:::::block-header
 ---
 class: mb-10
 ---
@@ -508,17 +508,17 @@ class: tablet:top-0 right-0
 ::
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[100px]
 ---
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: bg-green-gray relative
 ---
 
-::::img-decorated-md
+::::img-decorated
 ---
 imgUrl: '/img/svg-arc.svg'
 decoration: false
@@ -526,7 +526,7 @@ class: tablet:!pl-0 !mb-0 !w-[80px] tablet:!w-[122px] !absolute top-[20px] table
 ---
 ::::
 
-::::img-decorated-md
+::::img-decorated
 ---
 imgUrl: '/img/svg-square.svg'
 decoration: false
@@ -534,10 +534,10 @@ class: tablet:!pl-0 !mb-0 !w-[60px] tablet:!w-[100px] !absolute bottom-[20px] ta
 ---
 ::::
 
-::::block-faq-md
+::::block-faq
 
 #header
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 900
 class: mb-[50px] text-center relative
@@ -551,7 +551,7 @@ class: mb-[50px] text-center relative
 
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Czym różni się kodowanie WordPress od instalacji gotowego motywu?
@@ -561,7 +561,7 @@ Kodowanie WordPress to proces tworzenia funkcji, motywów i struktur od podstaw,
 
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Ile kosztuje programowanie funkcji w WordPress?
@@ -571,7 +571,7 @@ Koszt zależy od zakresu funkcjonalności - proste rozwiązania mogą kosztować
 
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Czy możecie stworzyć własny motyw WordPress od zera?
@@ -581,7 +581,7 @@ Tak. W Webo projektujemy i kodujemy motywy od podstaw - bez predefiniowanych sza
 
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Czy mogę zlecić Wam zaprogramowanie istniejącego projektu strony?
@@ -590,7 +590,7 @@ Tak. W Webo projektujemy i kodujemy motywy od podstaw - bez predefiniowanych sza
 Oczywiście. Często pracujemy nad rozbudową istniejących stron WordPress - dopisujemy funkcje, optymalizujemy kod, naprawiamy błędy lub poprawiamy wydajność. Przed rozpoczęciem współpracy analizujemy jakość obecnego wdrożenia i przedstawiamy rekomendacje.
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Jak długo trwa programowanie dedykowanych funkcji?
@@ -603,7 +603,7 @@ W zależności od skomplikowania funkcji - od kilku dni roboczych (proste rozsze
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-[100px] tablet:mb-[150px]
 ---
@@ -613,8 +613,8 @@ decoration: true
 class: top-20 right-[15%] fullHd:right-[20%] scale-x-[-1.6] scale-y-[1.6]
 ---
 ::::
-:::effect-appear-md
-::::block-cta-md
+:::effect-appear
+::::block-cta
 ---
 maxWidth: 800
 button.link: https://webo.agency/kontakt
@@ -632,13 +632,13 @@ Umów się na bezpłatną konsultację i opowiedz nam więcej o swoim projekcie
 ::
 
 
-::page-section-md
+::ui-container
 ---
 id: realizacje
 class: mb-[80px] tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 class: mb-10 tablet:mb-20
 ---
@@ -652,7 +652,7 @@ class: mb-10 tablet:mb-20
 ::::
 :::
 
-:::block-cases-md
+:::block-cases
 ---
 contentFolder: realizacje
 moreBtn.url: 'https://webo.agency/realizacje'
@@ -667,12 +667,12 @@ selectedSlugs:
 
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: true
 class: mb-[50px] tablet:mb-[100px]
@@ -686,13 +686,13 @@ class: mb-[50px] tablet:mb-[100px]
 
 ::::
 :::
-:::block-brands-before-footer-md
+:::block-brands-before-footer
 :::
 ::
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::block-form-before-footer-md
+:::block-form-before-footer
 :::
 ::

@@ -18,10 +18,10 @@
               :class="column.some(item => item.type == 'section') ? 'grow' : 'max-w-[410px]'">
               <div v-for="item in column" :key="item.title">
                 <div v-if="item.type == 'section'" class="h-full">
-                  <SubmenuSectionTiles :data="item"/>
+                  <LayoutSubmenuSectionTiles :data="item"/>
                 </div>
                 <div v-else class="pr-10 xl:pr-12 fullHd:pr-20 pt-10">
-                  <CustomLink :url="item.link" :activeClass="item.link === 'https://webo.agency/'
+                  <UiLink :url="item.link" :activeClass="item.link === 'https://webo.agency/'
                     ? 'text-green-main'
                     : 'text-gray-darker'
                     "
@@ -30,16 +30,16 @@
                     <span class="inline-block w-[30px] h-[15px] rounded-full bg-green-main mr-4">
                     </span>
                     {{ $formatText(item.title) }}
-                  </CustomLink>
+                  </UiLink>
                   <ul v-if="item.items" class="pl-[50px] mb-14">
                     <li v-for="item in item.items" :key="item.title" class="block mb-5">
-                      <CustomLink :url="item.link" :activeClass="item.link === 'https://webo.agency/'
+                      <UiLink :url="item.link" :activeClass="item.link === 'https://webo.agency/'
                         ? 'text-green-main'
                         : 'text-gray-darker'
                         " class="py-1 text-base font-semibold hover:text-green-main transition duration-200"
                         @click="emitLinkClick()">
                         {{ $formatText(item.title) }}
-                      </CustomLink>
+                      </UiLink>
                     </li>
                   </ul>
                 </div>
@@ -53,15 +53,14 @@
 </template>
 
 <script>
-import CustomLink from "../custom/link.vue";
+import UiLink from "../../Ui/Link.vue";
 export default {
-  name: "subMenuPopup",
   props: {
     name: String,
     data: Object,
     active: Boolean,
   },
-  components: { CustomLink },
+  components: { UiLink },
   data() {
     return {
       innerHeight: 0,
@@ -114,6 +113,7 @@ export default {
 </script>
 
 <style>
+@reference "~/assets/css/main.css";
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.15s ease-in-out;
@@ -128,4 +128,3 @@ export default {
   @apply after:translate-x-full;
 }
 </style>
-@reference "~/assets/css/main.css";

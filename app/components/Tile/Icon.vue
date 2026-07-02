@@ -1,6 +1,6 @@
 <template>
     <div class="mb-5">
-        <EffectAppearMd class="desktop-delay h-full" :delay="delay * 100">
+        <EffectAppear class="desktop-delay h-full" :delay="delay * 100">
             <div class="group h-full p-5 pt-10 desktop-wide:p-10 flex flex-col text-gray-darker bg-green-gray">
                 <nuxt-picture v-if="icon" class="shrink-0 w-[76px] h-[56px] mb-5 tablet:mb-[30px]"
                     :src="icon"></nuxt-picture>
@@ -11,7 +11,7 @@
                     <slot name="content" />
                 </div>
             </div>
-        </EffectAppearMd>
+        </EffectAppear>
     </div>
 </template>
   

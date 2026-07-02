@@ -10,7 +10,7 @@ hreflangs:
 ---
 
 
-::block-banner-md
+::block-banner
 ---
 bgImg: false
 headerWidth: 720
@@ -28,7 +28,7 @@ isSecondSvg: true
 Zapewniamy kompleksową opiekę techniczną WordPress, dzięki której Twoja strona działa szybko, bezpiecznie i bez przestojów.
 
 #right
-:::block-banner-decoration-md
+:::block-banner-decoration
 ---
 svgUrl_tl: '/img/svg-arc.svg'
 svgUrl_br: '/img/svg-square.svg'
@@ -36,21 +36,21 @@ svgUrl_br: '/img/svg-square.svg'
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 classes: mb-[100px] tablet:mb-[200px] overflow-x-clip overflow-y-visible
 ---
-:::block-columns-1-1-md
+:::layout-columns-1-1
 ---
 class: items-center
 ---
 
 #left
-::::effect-appear-md
+::::effect-appear
 ---
 class: relative z-20
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 690
 ---
@@ -78,11 +78,11 @@ W Webo zapewniamy nie tylko szybką reakcję, ale i proaktywne działania, dzię
 ::::
 
 #right
-::::effect-appear-md
+::::effect-appear
 ---
 class: block mt-10 desktop:mt-0 desktop:block [&_.block]:scale-[1] [&_.block]:ml-[-20px] desktop:[&_.block_picture]:absolute desktop-wide:[&_.block_picture]:bottom-[-220px] desktop:[&_.block_picture]:bottom-[-100px] fullHd:[&_.block_picture]:bottom-[-240px] 
 ---
-:::::img-decorated-md
+:::::img-decorated
 ---
 imgUrl: '/img/content-images/wsparcie-wordpress/support-wordpress-img1.webp'
 decoration: false
@@ -93,20 +93,20 @@ class: tablet:!pl-0 !mb-0
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 classes: mb-20 tablet:mb-[100px]
 ---
 
-:::block-columns-1-1-md
+:::layout-columns-1-1
 
 #left
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: relative z-10 overflow-hidden tablet:overflow-visible -mx-5 tablet:mx-0
 ---
-:::::img-decorated-md
+:::::img-decorated
 ---
 imgUrl: '/img/content-images/wsparcie-wordpress/support-wordpress-img2.webp'
 decoration: false
@@ -118,11 +118,11 @@ class: scale-[1.1]
 
 #right
 
-::::effect-appear-md
+::::effect-appear
 ---
 class: relative z-20 desktop:mt-[0px]
 ---
-:::::block-header-md
+:::::block-header
 ---
 class: mb-10
 ---
@@ -156,18 +156,18 @@ class: tablet:top-0 right-0
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 classes: bg-gray-darkest pt-10 tablet:pt-[100px] mb-[100px]
 ---
 
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: relative z-20
 ---
 
-::::block-header-md
+::::block-header
 ---
 maxWidth: 690
 class: mb-10 tablet:mb-20
@@ -183,15 +183,15 @@ center: true
 
 ::::
 
-::::block-columns-1-1-md
+::::layout-columns-1-1
 ---
 class: mb-16 [&_.left]:flex [&_.left]:items-center
 ---
 
 #left
 
-:::::effect-appear-md
-::::::block-header-md
+:::::effect-appear
+::::::block-header
 ---
 maxWidth: 700
 class: mb-10 tablet:mb-16 tablet:mt-10
@@ -199,7 +199,7 @@ textWhite: true
 ---
 
 #subtitle
-:::::::img-decorated-md
+:::::::img-decorated
 ---
 imgUrl: '/img/icons/award.svg'
 decoration: false
@@ -222,19 +222,19 @@ Nasze doświadczenie techniczne wyróżnia nas na tle wielu firm, które oferuj�
 :::::
 
 #right
-:::::effect-appear-md
+:::::effect-appear
 ---
 class: relative
 ---
 
-::::::img-decorated-md
+::::::img-decorated
 ---
 imgUrl: '/img/content-images/wsparcie-wordpress/decor-square.svg'
 decoration: false
 class: mx-auto !mb-0 !p-0 !w-[100px] tablet:!w-[100px] h-[100px] !absolute !bottom-[-50px] tablet:!bottom-[20px] right-[-10px] tablet:!right-[-50px]
 ---
 ::::::
-::::::img-decorated-md
+::::::img-decorated
 ---
 imgUrl: '/img/content-images/wsparcie-wordpress/support-wordpress-img3.webp'
 decoration: false
@@ -245,7 +245,7 @@ class: w-full z-0
 :::::
 ::::
 
-::::block-columns-1-1-md
+::::layout-columns-1-1
 ---
 reverseMobile: true
 class: mb-16 [&_.right]:flex [&_.right]:items-center
@@ -253,19 +253,19 @@ class: mb-16 [&_.right]:flex [&_.right]:items-center
 
 #left
 
-:::::effect-appear-md
+:::::effect-appear
 ---
 class: relative
 ---
 
-::::::img-decorated-md
+::::::img-decorated
 ---
 imgUrl: '/img/content-images/wsparcie-wordpress/decor-circle.svg'
 decoration: false
 class: mx-auto !mb-0 !p-0 hidden tablet:!block !w-[122px] tablet:!w-[122px] h-[122px] !absolute !top-[-50px] tablet:!top-[120px] left-[-10px] tablet:!left-[-70px] z-0
 ---
 ::::::
-::::::img-decorated-md
+::::::img-decorated
 ---
 imgUrl: '/img/content-images/wsparcie-wordpress/support-wordpress-img4.webp'
 decoration: false
@@ -276,8 +276,8 @@ class: w-full z-10
 :::::
 
 #right
-:::::effect-appear-md
-::::::block-header-md
+:::::effect-appear
+::::::block-header
 ---
 maxWidth: 700
 class: mb-10 tablet:mb-16 tablet:mt-10
@@ -285,7 +285,7 @@ textWhite: true
 ---
 
 #subtitle
-:::::::img-decorated-md
+:::::::img-decorated
 ---
 imgUrl: '/img/icons/speed.svg'
 decoration: false
@@ -308,15 +308,15 @@ W ramach wsparcia technicznego WordPress zapewniamy realną pomoc - nie odsyłam
 :::::
 ::::
 
-::::block-columns-1-1-md
+::::layout-columns-1-1
 ---
 class: mb-0 [&_.left]:flex [&_.left]:items-center
 ---
 
 #left
 
-:::::effect-appear-md
-::::::block-header-md
+:::::effect-appear
+::::::block-header
 ---
 maxWidth: 700
 class: mb-10 tablet:mb-16 tablet:mt-10 pb-12
@@ -324,7 +324,7 @@ textWhite: true
 ---
 
 #subtitle
-:::::::img-decorated-md
+:::::::img-decorated
 ---
 imgUrl: '/img/icons/secure3.svg'
 decoration: false
@@ -347,8 +347,8 @@ class: mb-5 [&_p]:!leading-loose [&_p]:!mb-0
 :::::
 
 #right
-:::::effect-appear-md
-::::::img-decorated-md
+:::::effect-appear
+::::::img-decorated
 ---
 imgUrl: '/img/content-images/wsparcie-wordpress/support-wordpress-img5.webp'
 decoration: false
@@ -358,7 +358,7 @@ class: w-full
 :::::
 ::::
 
-::::block-columns-1-1-md
+::::layout-columns-1-1
 ---
 reverseMobile: true
 class: mb-16 [&_.right]:flex [&_.right]:items-center
@@ -366,19 +366,19 @@ class: mb-16 [&_.right]:flex [&_.right]:items-center
 
 #left
 
-:::::effect-appear-md
+:::::effect-appear
 ---
 class: relative
 ---
 
-::::::img-decorated-md
+::::::img-decorated
 ---
 imgUrl: '/img/content-images/wsparcie-wordpress/decor-circle.svg'
 decoration: false
 class: mx-auto !mb-0 !p-0 hidden tablet:!block !w-[122px] tablet:!w-[122px] h-[122px] !absolute !top-[-50px] tablet:!top-[120px] left-[-10px] tablet:!left-[-70px] z-0
 ---
 ::::::
-::::::img-decorated-md
+::::::img-decorated
 ---
 imgUrl: '/img/content-images/wsparcie-wordpress/support-wordpress-img6.webp'
 decoration: false
@@ -389,8 +389,8 @@ class: w-full
 :::::
 
 #right
-:::::effect-appear-md
-::::::block-header-md
+:::::effect-appear
+::::::block-header
 ---
 maxWidth: 700
 class: mb-10 tablet:mb-16 tablet:mt-10
@@ -398,7 +398,7 @@ textWhite: true
 ---
 
 #subtitle
-:::::::img-decorated-md
+:::::::img-decorated
 ---
 imgUrl: '/img/icons/scaling5.svg'
 decoration: false
@@ -423,8 +423,8 @@ Współpracując z nami, zyskujesz także **elastyczność** - dopasowujemy zakr
 :::
 
 #full
-:::effect-appear-md
-::::effect-parallax-md
+:::effect-appear
+::::effect-parallax
 ---
 parallaxScale: 0.08
 startBottom: true
@@ -441,19 +441,19 @@ rounded: false
 ::
 
 
-::page-section-md
+::ui-container
 ---
 classes: mb-10 tablet:mb-20
 ---
 
-:::block-columns-1-1-md
+:::layout-columns-1-1
 ---
 class: mb-20
 ---
 
 #left
-::::effect-appear-md
-:::::block-header-md
+::::effect-appear
+:::::block-header
 ---
 maxWidth: 480
 ---
@@ -468,7 +468,7 @@ maxWidth: 480
 ::::
 
 #right
-::::effect-appear-md
+::::effect-appear
 ---
 class: h-full flex items-center
 ---
@@ -477,18 +477,18 @@ class: h-full flex items-center
 ::::
 :::
 
-:::block-columns-1-1-1-md
+:::layout-columns-1-1-1
 ---
 class: mb-10 tablet:mb-20 gap-[30px]
 ---
 
 #left
-::::effect-appear-md
-:::::block-list-ul-md
+::::effect-appear
+:::::block-list-ul
 ---
 decoration: false
 ---
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/icon-1.svg'
 iconBig: true
@@ -504,7 +504,7 @@ Regularnie przeprowadzamy bezpieczne aktualizacje rdzenia WordPressa, szablonów
 
 ::::::
 
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/icon-4.svg'
 iconBig: true
@@ -519,7 +519,7 @@ animated: false
 Tworzymy automatyczne kopie zapasowe całej strony - plików, bazy danych i konfiguracji. Backupy przechowujemy lokalnie lub zewnętrznie (np. w chmurze), dzięki czemu w każdej chwili możemy przywrócić poprzednią wersję strony w razie awarii.
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/icon-7.svg'
 iconBig: true
@@ -539,9 +539,9 @@ Potrzebujesz dodać nową podstronę, formularz, funkcję e-commerce lub integra
 
 
 #center-col
-::::effect-appear-md
-:::::block-list-ul-md
-::::::list-item-ul-active-md
+::::effect-appear
+:::::block-list-ul
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/icon-2.svg'
 iconBig: true
@@ -557,7 +557,7 @@ animated: false
 Nasze systemy śledzą aktywność na stronie w czasie rzeczywistym. Monitorujemy próby logowania, zmiany w plikach systemowych, podejrzane działania botów oraz luki w zabezpieczeniach. Dzięki temu możemy szybko reagować na zagrożenia i wdrażać niezbędne środki ochronne.
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/icon-5.svg'
 iconBig: true
@@ -578,13 +578,13 @@ W przypadku problemów z wyświetlaniem strony, błędów PHP, awarii hostingu c
 ::::
 
 #right
-::::effect-appear-md
-:::::block-list-ul-md
+::::effect-appear
+:::::block-list-ul
 ---
 decoration: false
 ---
 
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/icon-3.svg'
 iconBig: true
@@ -600,7 +600,7 @@ Analizujemy i przyspieszamy Twoją stronę poprzez m.in. kompresję zasobów, ł
 
 ::::::
 
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/icon-6.svg'
 iconBig: true
@@ -620,17 +620,17 @@ W razie infekcji strony wirusami, trojanami lub spamem podejmujemy szybkie dzia�
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[100px]
 ---
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: bg-green-gray relative
 ---
 
-::::img-decorated-md
+::::img-decorated
 ---
 imgUrl: '/img/svg-arc.svg'
 decoration: false
@@ -638,7 +638,7 @@ class: tablet:!pl-0 !mb-0 !w-[80px] tablet:!w-[122px] !absolute top-[20px] table
 ---
 ::::
 
-::::img-decorated-md
+::::img-decorated
 ---
 imgUrl: '/img/svg-square.svg'
 decoration: false
@@ -646,10 +646,10 @@ class: tablet:!pl-0 !mb-0 !w-[60px] tablet:!w-[100px] !absolute bottom-[20px] ta
 ---
 ::::
 
-::::block-faq-md
+::::block-faq
 
 #header
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 900
 class: mb-[50px] text-center relative
@@ -663,7 +663,7 @@ class: mb-[50px] text-center relative
 
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Na czym polega wsparcie techniczne WordPress?
@@ -673,7 +673,7 @@ Wsparcie techniczne WordPress obejmuje wszystkie działania związane z utrzyman
 
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Ile kosztuje administracja WordPress?
@@ -682,7 +682,7 @@ Wsparcie techniczne WordPress obejmuje wszystkie działania związane z utrzyman
 Koszt opieki zależy od zakresu i złożoności projektu. Miesięczne wsparcie dla standardowych stron zaczyna się od kilkuset złotych netto, a w przypadku rozbudowanych serwisów cena ustalana jest indywidualnie.
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Czy mogę liczyć na pomoc w razie awarii strony?
@@ -692,7 +692,7 @@ Tak, oferujemy zarówno stałą opiekę, jak i doraźną pomoc techniczną WordP
 
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Czy zapewniacie backup strony?
@@ -701,7 +701,7 @@ Tak, oferujemy zarówno stałą opiekę, jak i doraźną pomoc techniczną WordP
 Tak. Konfigurujemy automatyczne kopie zapasowe oraz umożliwiamy szybkie przywrócenie strony w razie potrzeby. Backupy mogą być przechowywane na Twoim hostingu lub zewnętrznie.
 :::::
 
-:::::block-expand-item-md
+:::::block-expand-item
 
 #title
 ##### Czy w ramach opieki mogę zlecić rozbudowę strony?
@@ -714,7 +714,7 @@ Tak. Jeśli masz pomysł na nową funkcję lub potrzebujesz zmian - zrealizujemy
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-[100px] tablet:mb-[150px]
 ---
@@ -724,8 +724,8 @@ decoration: true
 class: top-20 right-[15%] fullHd:right-[20%] scale-x-[-1.6] scale-y-[1.6]
 ---
 ::::
-:::effect-appear-md
-::::block-cta-md
+:::effect-appear
+::::block-cta
 ---
 maxWidth: 800
 button.link: https://webo.agency/kontakt
@@ -742,13 +742,13 @@ Umów się na bezpłatną konsultację i opowiedz nam więcej o swoim projekcie
 ::
 
 
-::page-section-md
+::ui-container
 ---
 id: realizacje
 class: mb-[80px] tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 class: mb-10 tablet:mb-20
 ---
@@ -762,7 +762,7 @@ class: mb-10 tablet:mb-20
 ::::
 :::
 
-:::block-cases-md
+:::block-cases
 ---
 contentFolder: realizacje
 moreBtn.url: 'https://webo.agency/realizacje'
@@ -777,12 +777,12 @@ selectedSlugs:
 
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: true
 class: mb-[50px] tablet:mb-[100px]
@@ -796,13 +796,13 @@ class: mb-[50px] tablet:mb-[100px]
 
 ::::
 :::
-:::block-brands-before-footer-md
+:::block-brands-before-footer
 :::
 ::
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::block-form-before-footer-md
+:::block-form-before-footer
 :::
 ::

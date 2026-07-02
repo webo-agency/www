@@ -4,14 +4,14 @@
       <div v-if="$slots.filtersText" class="text-sm font-medium mr-5 mb-2 tablet:mb-0">
         <slot name="filtersText" />
       </div>
-      <FiltersList :filters="filters" v-model="activeFilters" :clearText="allText"/>
+      <UiFilterList :filters="filters" v-model="activeFilters" :clearText="allText"/>
     </div>
     <div
       v-if="contentFolder"
       ref="postsContainer"
       class="relative grid grid-cols-1 tablet:grid-cols-2 tablet-wide:grid-cols-3 gap-5 overflow-hidden"
     >
-      <block-filter-tile-posts-md v-for="post_page in normalizedList" :key="post_page.path" :data="post_page" :activeFilters="activeFilters" />    
+      <block-filter-tile-posts v-for="post_page in normalizedList" :key="post_page.path" :data="post_page" :activeFilters="activeFilters" />    
     </div>
     <div v-show="$slots.loadMore"  class="w-full flex justify-center items-center mt-10 tablet:mt-20">
       <div ref="increaseBtn" class="flex items-center text-base text-green-main hover:text-green-mainHover font-semibold transition duration-200 cursor-pointer "

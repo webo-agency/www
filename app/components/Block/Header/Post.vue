@@ -45,8 +45,9 @@
   })
 </script>
 
-<style  lang="postcss" scoped>
+<style   scoped>
 @reference "~/assets/css/main.css";
+
 :deep(.tags-list li) {
   @apply bg-white text-gray-darker rounded-full py-3 px-5 text-sm uppercase font-normal leading-none;
 }

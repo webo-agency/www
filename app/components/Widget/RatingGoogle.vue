@@ -1,5 +1,5 @@
 <template>
-  <CustomLink v-if="rating && link && text" class="h-[65px] p-2 bg-white rounded-[5px] flex items-center" :class="[
+  <UiLink v-if="rating && link && text" class="h-[65px] p-2 bg-white rounded-[5px] flex items-center" :class="[
     { 'border-[1px] border-green-main': border },
     [shrinkMobile ? 'w-[100px] tablet:w-fit' : 'w-fit'],
   ]" :url="link">
@@ -20,11 +20,11 @@
       </svg>
       <div class="right-col">
         <p class="hidden desktop:block text-xs text-black">Google Rating</p>
-        <RatingStars class="!mb-0" :rating="rating" :small="true" />
+        <UiRatingStars class="!mb-0" :rating="rating" :small="true" />
         <p class="text-[10px] text-gray-dark">{{ text }}</p>
       </div>
     </div>
-  </CustomLink>
+  </UiLink>
 </template>
 <script setup>
 defineProps({

@@ -8,7 +8,7 @@ hreflangs:
     EN: '/services/support-and-development/'
     PL: '/uslugi/wsparcie-i-rozwoj/'
 ---
-::block-banner-md
+::block-banner
 ---
 bgImg: false
 headerWidth: 520
@@ -26,7 +26,7 @@ isSecondSvg: true
 Jeśli potrzebujesz stałego nadzoru nad swoją stroną lub sklepem, a na dodatek planujesz rozbudowę lub prace optymalizacyjne, ta oferta jest dla Ciebie.
 
 #right
-:::block-banner-decoration-md
+:::block-banner-decoration
 ---
 svgUrl_tl: '/img/svg-arc.svg'
 svgUrl_br: '/img/svg-square.svg'
@@ -34,21 +34,21 @@ svgUrl_br: '/img/svg-square.svg'
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 classes: pt-20 mb-5 tablet:mb-20 overflow-hidden
 ---
-:::block-columns-1-1-md
+:::layout-columns-1-1
 ---
 class: items-center
 ---
 
 #left
-::::effect-appear-md
+::::effect-appear
 ---
 class: relative z-20
 ---
-:::::block-header-md
+:::::block-header
 ---
 maxWidth: 610
 ---
@@ -76,11 +76,11 @@ Wsparcie techniczne to przede wszystkim oszczędność czasu jaki poświęcasz n
 ::::
 
 #right
-::::effect-appear-md
+::::effect-appear
 ---
 class: relative z-10
 ---
-:::::img-decorated-md
+:::::img-decorated
 ---
 imgUrl: '/img/content-images/wsparcie-i-rozwoj/section1-right-img.png'
 decoration: false
@@ -92,13 +92,13 @@ class: tablet:!pl-0 !mb-0
 ::
 
 
-::page-section-md
+::ui-container
 ---
 classes: mb-10 tablet:mb-20
 ---
 
-:::effect-appear-md
-::::block-header-two-cols-md
+:::effect-appear
+::::block-header-two-cols
 ---
 class: mb-10 tablet:mb-20 
 maxWidth: 480
@@ -113,11 +113,11 @@ maxWidth: 480
 ::::
 :::
 
-:::block-offer-tiles-md
+:::block-offer-tiles
 ---
 tilesTight: true
 ---
-::::offer-tile-md
+::::tile-offer
 --- 
 icon: '/img/icons/services-update.svg'
 ---
@@ -126,7 +126,7 @@ icon: '/img/icons/services-update.svg'
 
 ::::
 
-::::offer-tile-md
+::::tile-offer
 --- 
 icon: '/img/icons/services-fast.svg'
 delay: 1
@@ -136,7 +136,7 @@ delay: 1
 
 ::::
 
-::::offer-tile-md
+::::tile-offer
 --- 
 icon: '/img/icons/services-scale.svg'
 delay: 2
@@ -146,7 +146,7 @@ delay: 2
  
 ::::
 
-::::offer-tile-md
+::::tile-offer
 --- 
 icon: '/img/icons/services-process.svg'
 delay: 3
@@ -156,7 +156,7 @@ delay: 3
  
 ::::
 
-::::offer-tile-md
+::::tile-offer
 --- 
 icon: '/img/icons/services-code.svg'
 delay: 4
@@ -166,7 +166,7 @@ delay: 4
  
 ::::
 
-::::offer-tile-md
+::::tile-offer
 --- 
 icon: '/img/icons/services-integration.svg'
 delay: 5
@@ -176,7 +176,7 @@ delay: 5
  
 ::::
 
-::::offer-tile-md
+::::tile-offer
 --- 
 icon: '/img/icons/services-alert.svg'
 delay: 6
@@ -186,7 +186,7 @@ delay: 6
  
 ::::
 
-::::offer-tile-md
+::::tile-offer
 --- 
 icon: '/img/icons/services-secure.svg'
 delay: 7
@@ -197,18 +197,18 @@ delay: 7
 ::::
 :::
 
-:::block-bg-map-md
+:::block-bg-map
 ---
 class: -z-10
 ---
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-[100px] tablet:mb-[100px]
 ---
-:::effect-appear-md
+:::effect-appear
 
 :::svg-decorated
 ---
@@ -224,7 +224,7 @@ class: block desktop:hidden top-0 right-0
 ---
 ::::
 
-::::block-cta-md
+::::block-cta
 ---
 maxWidth: 650
 button.link: https://webo.agency/kontakt
@@ -244,18 +244,18 @@ Skontaktuj się z nami i skorzystaj z bezpłatnej konsultacji podczas której om
 ::
 
 
-::page-section-md
+::ui-container
 ---
 classes: bg-gray-darkest pt-10 tablet:pt-[100px] mb-20 tablet:mb-[130px]
 ---
 
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: relative z-20
 ---
 
-::::block-header-md
+::::block-header
 ---
 maxWidth: 600
 class: mb-10 tablet:mb-20
@@ -270,12 +270,12 @@ center: true
 ## Co zyskujesz powierzając nam *opiekę nad stroną www?*
 
 ::::
-:::::block-list-ul-md
+:::::block-list-ul
 ---
 class: mb-10 tablet:mb-20 flex flex-wrap justify-center gap-5 tablet:[&>li]:w-[calc(50%_-_10px)] desktop:[&>li]:w-[calc(33.3333%_-_14px)]
 ---
 
-::::::tile-dark-icon-md
+::::::tile-dark-icon
 ---
 iconUrl: '/img/icons/coder.svg'
 center: true
@@ -289,7 +289,7 @@ iconDecorated: true
 Nie musisz za każdym razem szukać pomocy zespołu IT ryzykując przy tym jakością wykonania, masz sprawdzony i doświadczony zespół zawsze pod ręką.
 
 ::::::
-::::::tile-dark-icon-md
+::::::tile-dark-icon
 ---
 iconUrl: '/img/icons/siren.svg'
 center: true
@@ -303,7 +303,7 @@ iconDecorated: true
 W przypadku awarii (szczególnie w sklepie internetowym) liczy się czas. Posiadając stałego opiekuna, reakcja jest niemal natychmiastowa - czasem nawet nie zauważysz awarii.
 
 ::::::
-::::::tile-dark-icon-md
+::::::tile-dark-icon
 ---
 iconUrl: '/img/icons/calendar.svg'
 center: true
@@ -317,7 +317,7 @@ iconDecorated: true
 Dzięki stałemu wsparciu możesz planować pracę z wyprzedzeniam. Potrzebujesz Landing page pod kampanię? A może rozważasz nową funkcjonalność? Masz zespół który zrealizuje pracę w Twoim harmonogramie.
 
 ::::::
-::::::tile-dark-icon-md
+::::::tile-dark-icon
 ---
 iconUrl: '/img/icons/shield.svg'
 center: true
@@ -331,7 +331,7 @@ iconDecorated: true
 Stałe wsparcie = stały rozwój. Prowadzimy m.in. monitoring zdarzeń, aktualizacje środowiska oraz systemów zabezpieczeń, optymalizację kodu i wiele innych działań które wpływają na bezpieczeństwo oraz wydajność witryny.
 
 ::::::
-::::::tile-dark-icon-md
+::::::tile-dark-icon
 ---
 iconUrl: '/img/icons/chat.svg'
 center: true
@@ -349,7 +349,7 @@ Jeśli potrzebujesz porady, możesz do nas uderzać. Odpowiemy na każde pytanie
 :::
 
 #full
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure
 ---
 src: '/img/content-images/wsparcie-i-rozwoj/section3.png'
@@ -360,12 +360,12 @@ rounded: false
 ::
 
 
-::page-section-md
+::ui-container
 ---
 classes: mb-10 tablet:mb-20
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: true
 maxWidth: 650
@@ -381,19 +381,19 @@ class: mb-20
 ::::
 :::
 
-:::block-columns-1-1-md
+:::layout-columns-1-1
 ---
 class: mb-10 tablet:mb-20
 ---
 
 #left
 
-::::effect-appear-md
-:::::block-list-ul-md
+::::effect-appear
+:::::block-list-ul
 ---
 decoration: false
 ---
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/ide_bg.svg'
 iconBig: true
@@ -408,7 +408,7 @@ animated: false
 Przed publikacją zmian, wszystkie prace przygotowujemy w specjalnym środowisku developerskim - dzięki temu zabezpieczamy ciągłość działania strony produkcyjnej (opublikowanej w internecie).
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 class: tablet:mb-8 desktop:mb-6
 iconUrl: '/img/icons/phone_bg.svg'
@@ -424,7 +424,7 @@ animated: false
 Przypisujemy indywidualnego opiekuna Twojej strony, do którego możesz zadzwonić lub napisać. 
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/timer_bg.svg'
 iconBig: true
@@ -444,9 +444,9 @@ Dajemy Ci pełną kontrolę - zaczynamy realizację gdy dasz nam zielone świat�
 
 
 #right
-::::effect-appear-md
-:::::block-list-ul-md
-::::::list-item-ul-active-md
+::::effect-appear
+:::::block-list-ul
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/headset_bg.svg'
 iconBig: true
@@ -461,7 +461,7 @@ animated: false
 Dzięki któremu masz możliwość dodawania zadań, ustalania priorytetu, podgląd stanu prac i komunikacji z zespołem IT - wszystko pod ręką w jednym miejscu.
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/support_bg.svg'
 iconBig: true
@@ -476,7 +476,7 @@ animated: false
 Po zakończeniu każdego miesiąca, przesyłamy raport z podsumowaniem prac zawierający listę wykonywanych zadań w trakcie miesiąca, poziom realizacji oraz podsumowanie przepracowanych godzin/zadanie.
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/file_bg.svg'
 iconBig: true
@@ -497,12 +497,12 @@ Po zakończeniu każdego miesiąca, przesyłamy raport z podsumowaniem prac zawi
 ::
 
 
-::page-section-md
+::ui-container
 ---
 classes: mb-20 tablet:mb-[100px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: true
 maxWidth: 550
@@ -518,10 +518,10 @@ class: mb-20
 ::::
 :::
 
-:::block-columns-1-1-md
+:::layout-columns-1-1
 
 #left
-::::card-icon-md
+::::tile-icon
 ---
 class: tablet:pr-2.5
 icon: '/img/icons/services-calendar.svg'
@@ -545,7 +545,7 @@ Nie musisz się martwić o naszą dostępność, możesz swobodnie planować pra
 ::::
 
 #right
-::::card-icon-md
+::::tile-icon
 ---
 class:  tablet:mt-[50px] tablet:pl-2.5
 icon: '/img/icons/services-worktime.svg'
@@ -572,20 +572,20 @@ Płacisz tylko i wyłącznie gdy potrzebujesz naszego wsparcia, możesz liczyć 
 ::
 
 
-::page-section-md
+::ui-container
 ---
 classes: mb-20 tablet:mb-[100px]
 ---
 
-:::block-columns-1-1-md
+:::layout-columns-1-1
 ---
 class: items-center
 ---
 
 #left
 
-::::effect-appear-md
-:::::img-decorated-md
+::::effect-appear
+:::::img-decorated
 ---
 imgUrl: '/img/content-images/support-altassian.png'
 decoration: false
@@ -596,8 +596,8 @@ class: tablet:!pr-5 mb-5 phone-wide:mx-auto phone:w-full phone-wide:!w-[80%] tab
 ::::
 
 #right
-::::effect-appear-md
-:::::block-header-md
+::::effect-appear
+:::::block-header
 ---
 maxWidth: 600
 class: mb-10 tablet:mb-16
@@ -630,13 +630,13 @@ Dzięki HelpDesk masz możliwość dodawania zadań, ustalania priorytetów,  po
 
 
 
-::page-section-md
+::ui-container
 ---
 id: realizacje
 class: mb-[80px] tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 class: mb-10 tablet:mb-20
 ---
@@ -650,7 +650,7 @@ class: mb-10 tablet:mb-20
 ::::
 :::
 
-:::block-cases-md
+:::block-cases
 ---
 contentFolder: realizacje
 moreBtn.url: 'https://webo.agency/realizacje'
@@ -660,12 +660,12 @@ moreBtn.linktitle: Zobacz wszystkie projekty
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: true
 class: mb-[50px] tablet:mb-[100px]
@@ -679,13 +679,13 @@ class: mb-[50px] tablet:mb-[100px]
 
 ::::
 :::
-:::block-brands-before-footer-md
+:::block-brands-before-footer
 :::
 ::
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::block-form-before-footer-md
+:::block-form-before-footer
 :::
 ::

@@ -11,7 +11,7 @@
       <main>
         <slot />
       </main>
-      <button-scroll-up class="shrink-0" />
+      <ui-button-scroll-up class="shrink-0" />
       <LayoutFooter
         :mail="generalData.mail"
         :tel="generalData.tel"
@@ -32,7 +32,7 @@
       />
     </div>
     <ClientOnly>
-      <CookieConsent
+      <UiCookieConsent
         v-if="cookieConsentData"
         :title="cookieConsentData.title"
         :checkbox-title="cookieConsentData.checkboxTitle"

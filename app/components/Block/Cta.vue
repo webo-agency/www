@@ -26,7 +26,7 @@
         </div>
       </template>
     </BlockHeaderMdc>
-    <ButtonMain
+    <UiButtonMain
       class="mt-5 mx-auto desktop:mx-0 text-black z-20"
       :link="button.link"
       :title="button.title"
@@ -36,12 +36,11 @@
 </template>
 
 <script>
-import BlockHeaderMdc from "./block-header-md.vue";
-import ButtonMain from "../../button/main.vue";
+import BlockHeaderMdc from "./Header/index.vue";
+import UiButtonMain from "../Ui/Button/Main.vue";
 
 export default {
-  name: "BlockCtaMdc",
-  components: { BlockHeaderMdc, ButtonMain },
+  components: { BlockHeaderMdc, UiButtonMain },
   props: {
     maxWidth: {
       type: Number,

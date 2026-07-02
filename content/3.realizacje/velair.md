@@ -2,8 +2,8 @@
 introduction.title: 'Velair - Projekt UX/UI i wdrożenie sklepu internetowego polskiego producenta AGD'
 introduction.description: 'Sklep Velair to polska marka zajmująca się sprzedażą przenośnych klimatyzatorów i osuszaczy powietrza. Naszym  zadaniem było zaprojektowanie i wdrożenie butikowego sklepu internetowego Wordpress + WooCommerce.'
 type:
-    - Sklepy internetowe
-    - Projekt UX/UI
+    - E-commerce
+    - UX/UI
 technologies:
     - Wordpress CMS
     - TailwindCSS
@@ -15,12 +15,12 @@ public: true
 ---
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-10 tablet:mb-20 mt-[100px] tablet:mt-[200px]
 ---
-:::effect-appear-md
-::::block-header-case-md
+:::effect-appear
+::::block-header-case
 ---
 class: mx-default
 logoUrl: '/img/logos/velair.png'
@@ -44,34 +44,34 @@ Zobacz online
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-[50px] tablet:mb-[100px]
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/case-velair-img1.jpg"}
 ::::
 :::
 ::
 
 
-::page-section-md
+::ui-container
 ---
 class: _static-content mb-[50px] tablet:mb-[100px]
 ---
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: _mx-default
 ---
-::::block-columns-1-1-md
+::::layout-columns-1-1
 ---
 reverseMobile: true
 class: items-center [&_div.right]:self-start
 ---
 
 #left
-::::card-icon-md
+::::tile-icon
 ---
 class: tablet:pr-2.5 [&_div_div.group]:p-10 [&_div_div]:bg-primary [&_div_div]:!text-gray-darker [&_h4]:!mb-4 [&_h4]:tablet:text-[35px]
 icon: '/img/icons/info.svg'
@@ -80,11 +80,11 @@ icon: '/img/icons/info.svg'
 #### Projekt w pigułce
 
 #content
-:::::block-list-ul-md
+:::::block-list-ul
 ---
 decoration: false
 ---
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/list-1.svg'
 iconBig: false
@@ -100,7 +100,7 @@ Analiza konkurencji i warsztaty
 Przeprowadziliśmy analizę rynku i warsztaty projektowe, by lepiej zrozumieć cele klienta i zaproponować optymalne rozwiązania.
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/list-2.svg'
 iconBig: false
@@ -115,7 +115,7 @@ Projekt UX/UI sklepu internetowego
 Stworzyliśmy intuicyjny i nowoczesny interfejs głównej strony oraz kluczowych podstron, oparty na przemyślanej architekturze informacji.
 
 ::::::
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 iconUrl: '/img/icons/list-3.svg'
 iconBig: false
@@ -135,7 +135,7 @@ Wdrożyliśmy sklep na WordPress + WooCommerce, programując wszystkie widoki, f
 
 #right
 
-::::card-icon-md
+::::tile-icon
 ---
 class: tablet:pr-2.5 [&_div_div.group]:p-10 [&_div_div]:bg-white [&_div_div]:!text-gray-darker [&_h4]:!mb-4 [&_h4]:tablet:text-[35px]
 icon: '/img/icons/double_check.svg'
@@ -144,11 +144,11 @@ icon: '/img/icons/double_check.svg'
 #### Rezultat pracy
 
 #content
-:::::block-list-ul-md
+:::::block-list-ul
 ---
 decoration: false
 ---
-::::::list-item-ul-active-md
+::::::block-list-ul-item
 ---
 
 iconBig: false
@@ -170,92 +170,92 @@ Efektem realizacji jest nowoczesny, funkcjonalny i w pełni zoptymalizowany skle
 
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-5
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/case-velair-img2.png"}
 ::::
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-5
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/case-velair-img3.jpg"}
 ::::
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-5
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/case-velair-img4.png"}
 ::::
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-5
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/case-velair-img5.jpg"}
 ::::
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-5
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/case-velair-img6.png"}
 ::::
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-5
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/case-velair-img7.jpg"}
 ::::
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-5
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/case-velair-img8.png"}
 ::::
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-[50px] tablet:mb-[100px]
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/case-velair-img9.png"}
 ::::
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: static-content mb-[50px] tablet:mb-[100px]
 ---
-:::effect-appear-md
-::::block-opinion-md
+:::effect-appear
+::::block-opinion
 ---
 rating: 5
 link: 'https://www.google.com/search?sa=X&sca_esv=950f1dd50efd152d&tbm=lcl&q=Webo+Opinie&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxI2NDA0NbQ0NLUwM7O0ANJGJiYbGBlfMXKHpyblK_gXZOZlpi5iReYBAMr9MB02AAAA&rldimm=1015191586698915244&hl=pl-PL&ved=2ahUKEwjvh8C7pfaOAxWRHxAIHUsvAXsQ9fQKegQISBAF&biw=1920&bih=1031&dpr=1#lkt=LocalPoiReviews'
@@ -283,12 +283,12 @@ Właściciel - **Velair**
 ::
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-[50px] tablet:mb-[100px]
 ---
-:::effect-appear-md
-::::block-cta-md
+:::effect-appear
+::::block-cta
 ---
 button.link: https://webo.agency/kontakt
 button.title: 'Skontaktuj się'
@@ -304,13 +304,13 @@ Umów się na bezpłatną konsultację, porozmawiajmy!
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 id: realizacje
 class: mb-[80px] tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 class: mb-10 tablet:mb-20
 ---
@@ -324,7 +324,7 @@ class: mb-10 tablet:mb-20
 ::::
 :::
 
-:::block-cases-md
+:::block-cases
 ---
 contentFolder: realizacje
 moreBtn.url: 'https://webo.agency/realizacje'
@@ -337,12 +337,12 @@ selectedSlugs:
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: true
 class: mb-[50px] tablet:mb-[100px]
@@ -356,6 +356,6 @@ class: mb-[50px] tablet:mb-[100px]
 
 ::::
 :::
-:::block-brands-before-footer-md
+:::block-brands-before-footer
 :::
 ::

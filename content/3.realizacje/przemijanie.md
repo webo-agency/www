@@ -4,7 +4,7 @@ introduction.description: 'Przemijanie to fundajca pomagająca seniorom. Naszym 
 '
 type:
     - Strony www
-    - Wsparcie
+    - Wsparcie/Rozwój
 technologies:
     - TailwindCSS
     - Drupal CMS

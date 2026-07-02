@@ -16,12 +16,12 @@ public: false
 draft: true
 ---
 
-::page-section-md
+::ui-container
 ---
 class: mb-10 tablet:mb-20 mt-[100px] tablet:mt-[200px]
 ---
-:::effect-appear-md
-::::block-header-case-md
+:::effect-appear
+::::block-header-case
 ---
 class: mx-default
 logoUrl: '/img/logos/isw.png'
@@ -46,22 +46,22 @@ Zobacz online
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-[50px] tablet:mb-[150px]
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/test-image.png"}
 ::::
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: static-content mb-[100px] tablet:mb-[200px]
 ---
-:::effect-appear-md
-::::block-columns-1-1-md
+:::effect-appear
+::::layout-columns-1-1
 ---
 class: mx-default
 ---
@@ -76,7 +76,7 @@ Prócz standardowej oferty marka Feeby współpracuje ze znanymi artystami z ca�
 :::::
 
 #right
-:::::img-decorated-md
+:::::img-decorated
 ---
 imgUrl: '/img/case-studies/Mancraft.jpg'
 ---
@@ -85,11 +85,11 @@ imgUrl: '/img/case-studies/Mancraft.jpg'
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: static-content mb-10 desktop:mb-20
 ---
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default
 ---
@@ -102,22 +102,22 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-[50px] desktop:mb-[100px]
 ---
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure{src="/img/content-images/test-image.png"}
 ::::
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: static-content mb-[50px] tablet:mb-[100px]
 ---
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default
 ---
@@ -141,7 +141,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ::::
 :::
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: mb-[100px] tablet:mb-[150px]
 ---
@@ -153,7 +153,7 @@ ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor i
 ::::
 :::
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default
 ---
@@ -171,11 +171,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ::
 
 
-::page-section-md
+::ui-container
 ---
 class: static-content mb-[50px] tablet:mb-[120px]
 ---
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default
 ---
@@ -190,7 +190,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ::::
 :::
 
-:::effect-appear-md
+:::effect-appear
 ::::prose-bg
 :::::prose-p1
 Headless + Wordpress CMS - lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -208,17 +208,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 
-::page-section-md
+::ui-container
 ---
 class: static-content mb-[100px] tablet:mb-[150px]
 ---
 
-:::block-columns-1-1-md
+:::layout-columns-1-1
 ---
 class: mx-default
 ---
 #left
-::::effect-appear-md
+::::effect-appear
 
 #### **Wykorzystane technologie**
 
@@ -228,8 +228,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ::::
 
 #right
-::::effect-appear-md
-:::::img-decorated-md
+::::effect-appear
+:::::img-decorated
 ---
 imgUrl: '/img/case-studies/Mancraft.jpg'
 ---
@@ -242,12 +242,12 @@ imgUrl: '/img/case-studies/Mancraft.jpg'
 
 
 
-::page-section-md
+::ui-container
 ---
 class: mb-[100px] tablet:mb-[150px]
 ---
 #full
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure
 ---
 src: "/img/content-images/test-image.png"
@@ -258,12 +258,12 @@ rounded: false
 ::
 
 
-::page-section-md
+::ui-container
 ---
 class: static-content mb-[50px] tablet:mb-[100px]
 ---
 
-:::effect-appear-md
+:::effect-appear
 ---
 class: mx-default
 ---
@@ -276,12 +276,12 @@ class: mx-default
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: static-content mb-[50px] tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-columns-1-1-md
+:::effect-appear
+::::layout-columns-1-1
 ---
 class: mx-default
 ---
@@ -294,7 +294,7 @@ class: mx-default
 
 
 #right
-:::::img-decorated-md
+:::::img-decorated
 ---
 imgUrl: '/img/case-studies/Mancraft.jpg'
 ---
@@ -304,18 +304,18 @@ imgUrl: '/img/case-studies/Mancraft.jpg'
 ::
 
 
-::page-section-md
+::ui-container
 ---
 class: static-content mb-[100px] tablet:mb-[150px]
 ---
-:::effect-appear-md
-::::block-columns-1-1-md
+:::effect-appear
+::::layout-columns-1-1
 ---
 class: mx-default
 ---
 
 #left
-:::::img-decorated-md
+:::::img-decorated
 ---
 imgUrl: '/img/case-studies/Mancraft.jpg'
 ---
@@ -338,12 +338,12 @@ imgUrl: '/img/case-studies/Mancraft.jpg'
 
 
 
-::page-section-md
+::ui-container
 ---
 class:  mb-[100px] tablet:mb-[150px]
 ---
 #full
-:::effect-appear-md
+:::effect-appear
 ::::prose-figure
 ---
 src: "/img/content-images/test-image.png"
@@ -355,12 +355,12 @@ rounded: false
 
 
 
-::page-section-md
+::ui-container
 ---
 class: static-content mb-[50px] tablet:mb-[100px]
 ---
-:::effect-appear-md
-::::block-columns-5-7-md
+:::effect-appear
+::::layout-columns-5-7
 ---
 class: mx-default
 ---
@@ -378,7 +378,7 @@ refer: 5
 
 #right
 
-:::::block-opinion-md
+:::::block-opinion
 
 #title
 ### **Opinia klienta**
@@ -404,12 +404,12 @@ Marketing and Sales Executive - IS-Wireless
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-[50px] tablet:mb-[100px]
 ---
-:::effect-appear-md
-::::block-cta-md
+:::effect-appear
+::::block-cta
 ---
 button.link: https://webo.agency/kontakt
 button.title: 'Skontaktuj się'
@@ -425,12 +425,12 @@ Skontaktuj się z nami i rozpocznij współpracę
 :::
 ::
 
-::page-section-md
+::ui-container
 ---
 class: mb-20 tablet:mb-[130px]
 ---
-:::effect-appear-md
-::::block-header-md
+:::effect-appear
+::::block-header
 ---
 center: true
 class: mb-[50px] tablet:mb-[100px]
@@ -444,7 +444,7 @@ class: mb-[50px] tablet:mb-[100px]
 
 ::::
 :::
-:::block-brands-before-footer-md
+:::block-brands-before-footer
 :::
 ::
 

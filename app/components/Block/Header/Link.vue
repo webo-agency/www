@@ -17,7 +17,7 @@
       </template>
     </BlockHeaderMdc>
     {{ $slots.linktitle }}
-    <CustomLink
+    <UiLink
       v-if="url"
       class="prose flex items-center w-max mt-10 text-base text-green-main hover:text-green-mainHover font-semibold transition duration-200"
       active-class=""
@@ -35,27 +35,27 @@
           d="M15.0863 0.111816L13.7605 1.43762L19.3853 7.06244H0V8.9375H19.3852L13.7605 14.5621L15.0863 15.8879L22.9745 7.99988L15.0863 0.111816Z"
         />
       </svg>
-    </CustomLink>
+    </UiLink>
   </div>
 </template>
 
 <script>
-import BlockHeaderMdc from "./block-header-md.vue";
-import CustomLink from "../../custom/link.vue";
+import BlockHeaderMdc from "./index.vue";
+import UiLink from "../../Ui/Link.vue";
 export default {
-  name: "BlockHeaderLink",
   props: {
     center: Boolean,
     maxWidth: Number,
     url: String,
     linktitle: String,
   },
-  components: { BlockHeaderMdc, CustomLink },
+  components: { BlockHeaderMdc, UiLink },
 };
 </script>
 
-<style  lang="postcss" scoped>
+<style   scoped>
 @reference "~/assets/css/main.css";
+
 div.no-padding :deep() {
   @apply px-0;
 }

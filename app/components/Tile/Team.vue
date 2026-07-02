@@ -33,10 +33,9 @@
 </template>
 
 <script>
-import EffectAppearMdc from "../effect/effect-appear-md.vue";
-import CustomLink from "../../custom/link.vue";
+import EffectAppearMdc from "../Effect/Appear.vue";
+import UiLink from "../Ui/Link.vue";
 export default {
-  name: "OfferTileMdc",
   props: {
     link: String,
     bgImage: String,
@@ -46,7 +45,7 @@ export default {
       default: 0,
     },
   },
-  components: { EffectAppearMdc, CustomLink },
+  components: { EffectAppearMdc, UiLink },
 };
 </script>
 

@@ -61,6 +61,7 @@ export default {
 
 <style scoped>
 @reference "~/assets/css/main.css";
+
 .formText {
   @apply relative pt-2 max-w-175;
 }
@@ -70,7 +71,7 @@ export default {
 }
 
 .formText label {
-  @apply inline-flex absolute left-5 top-2.5 leading-3 text-[10px] text-current pointer-events-none transition-all duration-200;
+  @apply inline-flex absolute left-5 top-2.5 text-[10px] text-current pointer-events-none transition-all duration-200;
 }
 
 .formText label > p {

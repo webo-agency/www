@@ -57,7 +57,6 @@
 
 <script>
 export default {
-  name: "BlockOfferTilesMdc",
   props: {
     decoration: {
       type: Boolean,

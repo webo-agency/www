@@ -8,11 +8,11 @@
       }" width="1920" height="650">
       </nuxt-picture>
     </div>
-    <PageSectionMd class="" :class="[
+    <UiContainer class="" :class="[
       { 'pt-20 desktop:pt-24': bgImg },
       { 'pt-14 desktop:pt-0': !bgImg },
     ]">
-      <BlockColumns11Md>
+      <LayoutColumns11>
         <template #left>
           <div class="h-full flex flex-col justify-center">
             <BlockHeaderMdc class="" :textWhite="true" :maxWidth="headerWidth ? headerWidth : 520">
@@ -32,7 +32,7 @@
               <slot name="description" />
             </div>
             <div class="py-4 desktop:pt-0 desktop:pb-2">
-              <button-scroll-down v-if="!bgImg" :getContainerRef="() => $refs.container" :isSecondSvg="isSecondSvg"
+              <ui-button-scroll-down v-if="!bgImg" :getContainerRef="() => $refs.container" :isSecondSvg="isSecondSvg"
                 class="mt-6" />
             </div>
             <div v-if="showClientsLogos" class="mt-12">
@@ -43,14 +43,14 @@
         <template #right>
           <slot name="right"></slot>
         </template>
-      </BlockColumns11Md>
-    </PageSectionMd>
+      </LayoutColumns11>
+    </UiContainer>
   </div>
 </template>
 
 <script>
-import PageSectionMd from "../page/page-section-md.vue";
-import BlockHeaderMdc from "./block-header-md.vue";
+import UiContainer from "../../Ui/Container.vue";
+import BlockHeaderMdc from "../Header/index.vue";
 export default {
   props: {
     bgImg: {
@@ -73,7 +73,7 @@ export default {
     },
   },
   components: {
-    PageSectionMd,
+    UiContainer,
     BlockHeaderMdc,
   },
 };

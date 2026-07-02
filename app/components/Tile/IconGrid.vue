@@ -25,9 +25,8 @@
 </template>
 
 <script>
-import EffectAppearMdc from "../effect/effect-appear-md.vue";
+import EffectAppearMdc from "../Effect/Appear.vue";
 export default {
-  name: "IconTileGridMdc",
   props: {
     icon: String,
     delay: {
