@@ -56,7 +56,7 @@ class: mb-[50px] tablet:mb-[150px]
 class: static-content mb-[100px] tablet:mb-[200px]
 ---
 :::effect-appear
-::::layout-columns-1-1
+::::block-columns-1-1
 ---
 class: mx-default items-center
 ---
@@ -64,7 +64,7 @@ class: mx-default items-center
 #left
 ### **O kliencie**
 
-:::::prose-p3
+:::::text-p3
 Firma Oravio produkuje wysokiej klasy, stylowe i niezwykle eleganckie szczoteczeki soniczne, wykorzystywane do higieny jamy ustnej zarówno na co dzień, w podróży jak i podczas leczenia ortodontycznego. Dzięki dużemu zróżnicowaniu oferty, Oravio dociera do szerokiego grona odbiorców, dbając nie tylko o piekny uśmiech ale przede wszystkim o zdrowie swoich klientów.
 
 Najważniejszymi cechami produktu są wykonanie z **trwałych i bezpiecznych materiałów, wydajne czyszczenie, precyzja, funkcjonalność i styl.**
@@ -92,7 +92,7 @@ class: mx-default
 
 ### **Wyzwanie i cele**
 
-::::prose-p3
+::::text-p3
 Najważniejszym zadaniem zleconym przez naszego klienta było **zaprojektowanie nowego sklepu internetowego**. Całość interfejsu miała pasować do nowoczesnego charakteru marki i odzwierciedlać jej główne cechy. Przede wszystkim nowy sklep miał być **łatwy w obsłudze dla użytkowników**. 
 ::::
 :::
@@ -120,7 +120,7 @@ class: mx-default
 
 ### **Projekt**
 
-::::prose-p3
+::::text-p3
 Podczas projektowania sklepu, szczególną uwagę zwróciliśmy na minimalizm, nowoczesność i detale szczoteczek. Dzięki połączeniu tych 3 cech stworzyliśmy **niepowtarzalny interfejs**, który w estetyczny i pasujący do marki sposób, **eksponuje najważniejsze cechy produktu**.
 ::::
 :::
@@ -166,7 +166,7 @@ rounded: false
 class: static-content mb-[100px] tablet:mb-[150px]
 ---
 :::effect-appear
-::::layout-columns-1-1
+::::block-columns-1-1
 ---
 class: mx-default
 ---
@@ -182,24 +182,24 @@ imgUrl: '/img/content-images/case-oravio-img6.png'
 #right
 #### **Realizacja**
 
-:::::prose-p3
+:::::text-p3
 Prace nad projektem UX/UI rozpoczęliśmy od **omówienia szczegółów** oraz zapoznania się z **koncepcją i założeniami klienta**. Projektując sklep  przeszliśmy przez następujące etapy: 
 :::::
 
-1. ::::::prose-p3
+1. ::::::text-p3
 **Analiza otrzymanych informacji i założeń** (zapoznanie się z wymogami projektu)
 ::::::
-2. ::::::prose-p3
+2. ::::::text-p3
 **Opracowanie tablic inspiracji (tzw. moodboardów)** (pasujących do koncepcji marki Oravio)
 ::::::
-3. ::::::prose-p3
+3. ::::::text-p3
 **Zaprojektowanie strony głównej** (na podstawie założeń projektowych i moodboardów)
 ::::::
-4. ::::::prose-p3
+4. ::::::text-p3
 **Zaprojektowanie podstron sklepu** (po zaakceptowaniu strony głównej przez klienta)
 ::::::
 
-:::::prose-p3
+:::::text-p3
 Podczas prac projektowych klient na bieżąco informowany był o postępach w realizacji oraz brał udział w konsultacjach. Takie podejście pozwoliło na dostarczenie **projektu sklepu internetowego, spełniające oczekiwania** firmy Oravio, w optymalnym czasie. 
 :::::
 ::::
@@ -244,7 +244,7 @@ center: true
 
 #content
 
-:::::prose-p3
+:::::text-p3
 Webo pomogło nam w przelaniu naszych wizji sklepu internetowego na realny, **dobrze odbierany przez klientów** i przede wszystkim sprawnie działający sklep! Dziękujemy i **polecamy Webo!** : )
 :::::
 
@@ -253,7 +253,7 @@ Webo pomogło nam w przelaniu naszych wizji sklepu internetowego na realny, **do
 #### **Natalia Ryfa**
 
 #authorTitle
-:::::prose-p6
+:::::text-p6
 Business manager - **Oravio**
 :::::
 ::::

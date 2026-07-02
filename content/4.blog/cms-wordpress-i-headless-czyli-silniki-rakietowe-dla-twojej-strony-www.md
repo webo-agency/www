@@ -45,7 +45,7 @@ class: mx-blog
 
 ### **Co to jest Headless CMS?**
 
-::::prose-p3
+::::text-p3
 Strony internetowe wykonane w architekturze Headless polegają na oddzieleniu interfejsu użytkownika (frontendu) od funkcji administracyjnych i zasobów wewnętrznych (backend). Obie warstwy są wobec siebie niezależne, a komunikacja między nimi wykonywana jest za pomocą API. Strona internetowa wykonana w architekturze Headless umożliwia m.in lepszą optymalizację serwisu, ultra szybkie łądowanie, nielimitowany rozwój strony spełniając przy tym najwyższe standardy bezpieczeństwa. W połączeniu z systemem zarządzania treści Wordpress, zyskujesz w/w zalety z zachowaniem funkcjonalności i łatwości edycji treści WP.
 ::::
 
@@ -57,7 +57,7 @@ class: mx-blog
 
 #### **Kiedy warto realizować serwisy internetowe w oparciu o Headless?**
 
-::::prose-p3
+::::text-p3
 Strony internetowe Headless mają szczególnie dużą wartość dla firm technologicznych oraz działających w dziale R&D (badania i rozwój). Wynika to ze specyfiki sektorów działalności i narażeniu na możliwe zewnętrzne zagrożenia. Headless znajdzie też zastosowanie dla rozbudowanych serwisów internetowych publikujących treści w wielu kanałach dystrybucji i działających na dużą skalę, potrzebujących wysokiej wydajności i redukcji kosztów utrzymania w długim okresie czasu.
 ::::
 

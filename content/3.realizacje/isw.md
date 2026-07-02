@@ -61,7 +61,7 @@ class: mb-[50px] tablet:mb-[150px]
 class: static-content mb-[100px] tablet:mb-[200px]
 ---
 :::effect-appear
-::::layout-columns-1-1
+::::block-columns-1-1
 ---
 class: mx-default
 ---
@@ -69,7 +69,7 @@ class: mx-default
 #left
 ### **O kliencie**
 
-:::::prose-p3
+:::::text-p3
 Feeby to polski producent **tapet**
 
 Prócz standardowej oferty marka Feeby współpracuje ze znanymi artystami z całego świata, wzbogacjając tym samym katalog produktów o unikalne dekoracje dla swoich klientów.
@@ -96,7 +96,7 @@ class: mx-default
 
 ### **Wyzwanie i cele**
 
-::::prose-p3
+::::text-p3
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 ::::
 :::
@@ -124,7 +124,7 @@ class: mx-default
 
 #### **Kluczowe obszary działania**
 
-::::prose-p3
+::::text-p3
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 ::::
 
@@ -132,7 +132,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - Tu
 - Jest
 
-::::prose-p3
+::::text-p3
 ---
 class: mb-[50px] tablet:mb-[100px]
 ---
@@ -148,7 +148,7 @@ class: mb-[100px] tablet:mb-[150px]
 
 > ### **Lorem ipsum dolor sit amet, consectetur adipiscing elit**
 >
-> ::::prose-p2
+> ::::text-p2
 ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
 ::::
 :::
@@ -158,7 +158,7 @@ ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor i
 class: mx-default
 ---
 
-::::prose-p3
+::::text-p3
 ---
 class: mb-[50px] tablet:mb-[125px]
 ---
@@ -182,7 +182,7 @@ class: mx-default
 
 ### **Zastosowane rozwiązanie**
 
-::::prose-p3
+::::text-p3
 ---
 class: mb-10 tablet:mb-20
 ---
@@ -191,11 +191,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 :::
 
 :::effect-appear
-::::prose-bg
-:::::prose-p1
+::::text-bg
+:::::text-p1
 Headless + Wordpress CMS - lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 :::::
-:::::prose-p2
+:::::text-p2
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 :::::
 ::::
@@ -213,7 +213,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 class: static-content mb-[100px] tablet:mb-[150px]
 ---
 
-:::layout-columns-1-1
+:::block-columns-1-1
 ---
 class: mx-default
 ---
@@ -222,7 +222,7 @@ class: mx-default
 
 #### **Wykorzystane technologie**
 
-:::::prose-p3
+:::::text-p3
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 :::::
 ::::
@@ -270,7 +270,7 @@ class: mx-default
 
 ### **Realizacja**
 
-::::prose-p3
+::::text-p3
 **Lorem ipsum dolor sit amet, consectetur adipiscing elit**, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 ::::
 :::
@@ -281,14 +281,14 @@ class: mx-default
 class: static-content mb-[50px] tablet:mb-[130px]
 ---
 :::effect-appear
-::::layout-columns-1-1
+::::block-columns-1-1
 ---
 class: mx-default
 ---
 #left
 #### **Najwyższy poziom bezpieczeństwa i wydajności dzięki Headless**
 
-::::prose-p3
+::::text-p3
 **Lorem ipsum dolor sit amet, consectetur adipiscing elit**, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 ::::
 
@@ -309,7 +309,7 @@ imgUrl: '/img/case-studies/Mancraft.jpg'
 class: static-content mb-[100px] tablet:mb-[150px]
 ---
 :::effect-appear
-::::layout-columns-1-1
+::::block-columns-1-1
 ---
 class: mx-default
 ---
@@ -324,7 +324,7 @@ imgUrl: '/img/case-studies/Mancraft.jpg'
 #right
 #### **Redesign kluczowych elementów**
 
-:::::prose-p3
+:::::text-p3
 **Lorem ipsum dolor sit amet, consectetur adipiscing elit**, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 :::::
 
@@ -360,7 +360,7 @@ rounded: false
 class: static-content mb-[50px] tablet:mb-[100px]
 ---
 :::effect-appear
-::::layout-columns-5-7
+::::block-columns-5-7
 ---
 class: mx-default
 ---
@@ -385,7 +385,7 @@ refer: 5
 
 #content
 
-::::::prose-p3
+::::::text-p3
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
 **Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.**
@@ -396,7 +396,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 #### **Rafał Kowalski**
 
 #authorTitle
-::::::prose-p6
+::::::text-p6
 Marketing and Sales Executive - IS-Wireless
 ::::::
 :::::

@@ -46,7 +46,7 @@ class: mx-blog
 
 ### **Czym jest UX?**
 
-::::prose-p3
+::::text-p3
 W dużym skrócie UX (od User Experience) to wszystkie doświadczenia, myśli i emocje jakie towarzyszą użytkownikowi podczas korzystania z produktu cyfrowego np. strony internetowej. Projektowanie UX jest zatem sposobem projektowania interfejsów, który uwzględnia potrzeby użytkowników, ich przyzwyczajenia i umiejętności a także założenia biznesu którego dotyczy strona. Wszystko po to aby użytkownik z łatwością poruszał się po stronie, bezproblemowo znajdując informacji jakich szuka.
 
 Brzmi to dosyć skomplikowanie ale na pomoc przychodzi nam iteracyjny proces, który w Webo wygląda następująco:

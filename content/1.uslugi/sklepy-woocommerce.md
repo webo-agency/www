@@ -58,7 +58,7 @@ svgUrl_br: '/img/svg-square.svg'
 ---
 classes: mb-[100px] tablet:mb-[200px] overflow-x-clip overflow-y-visible
 ---
-:::layout-columns-1-1
+:::block-columns-1-1
 ---
 class: items-center
 ---
@@ -80,14 +80,14 @@ maxWidth: 690
 ## Sklepy WooCommerce,<br>*które sprzedają*
 
 #description
-:::::prose-p-3
+:::::text-p3
 ---
 class: mb-5 [&_p]:!leading-8 [&_p]:!mb-0
 --- 
 Chcesz posiadać **sklep internetowy na WooCommerce**, który działa szybko, bezpiecznie i wygląda tak, że przyciąga klientów od pierwszego spojrzenia? Z nami **tworzenie sklepu online** oznacza kompletną realizację - od dopasowania UX do istniejącej strategii i przygotowania warstwy wizualnej, przez kodowanie i konfigurację techniczną, aż po uruchomienie oraz bieżące wsparcie. 
 :::::
 
-:::::prose-p-4
+:::::text-p4
 ---
 class: mb-0 [&_p]:!leading-7 [&_p]:!mb-0 text-base
 ---
@@ -116,7 +116,7 @@ class: tablet:!pl-0 !mb-0
 classes: mb-20 tablet:mb-[100px]
 ---
 
-:::layout-columns-1-1
+:::block-columns-1-1
 
 #left
 
@@ -152,7 +152,7 @@ class: mb-10
 ## Bezpieczeństwo, wydajność i dopracowane *doświadczenie zakupowe*
 
 #description
-::::::prose-p-4
+::::::text-p4
 ---
 class: mb-5 leading-8
 ---
@@ -173,7 +173,7 @@ class: tablet:top-0 right-0
 classes: mb-10 tablet:mb-20
 ---
 
-:::layout-columns-1-1
+:::block-columns-1-1
 ---
 class: mb-10
 ---
@@ -303,7 +303,7 @@ classes: bg-gray-darkest pt-10 tablet:pt-[100px] mb-[100px]
 class: relative z-20
 ---
 
-::::layout-columns-1-1
+::::block-columns-1-1
 ---
 reverseMobile: true
 class: mb-16 [&_.right]:flex [&_.right]:items-center
@@ -475,7 +475,7 @@ rounded: false
 ---
 classes: mb-10 tablet:mb-20
 ---
-:::layout-columns-5-7
+:::block-columns-5-7
 ---
 class: mb-10
 ---
@@ -640,7 +640,7 @@ Po uruchomieniu sklepu nie zostawiamy Cię samemu sobie. Oferujemy opiekę techn
 classes: mb-20 tablet:mb-[100px]
 ---
 
-:::layout-columns-1-1
+:::block-columns-1-1
 
 #left
 
@@ -676,14 +676,14 @@ class: mb-10
 ## *Bezpieczeństwo*<br>na pierwszym miejscu
 
 #description
-:::::prose-p-3
+:::::text-p3
 ---
 class: mb-5 [&_p]:!leading-8 [&_p]:!mb-0
 --- 
 Gotowe motywy, zwłaszcza darmowe lub masowo używane, bywają niedostosowane do aktualnych wersji WordPressa i WooCommerce, mają niezałatane luki lub zawierają zbędny kod, który zwiększa ryzyko ataków.
 :::::
 
-:::::prose-p-4
+:::::text-p4
 ---
 class: mb-0 [&_p]:!leading-7 [&_p]:!mb-0 text-base
 ---
@@ -722,7 +722,7 @@ class: mb-20
 ::::
 :::
 
-:::layout-columns-1-1-1
+:::block-columns-1-1-1
 ---
 class: mb-10 tablet:mb-20 tablet:gap-[30px]
 ---

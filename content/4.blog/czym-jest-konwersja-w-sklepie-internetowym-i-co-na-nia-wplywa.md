@@ -45,7 +45,7 @@ class: mx-blog
 
 ### **Co to jest konwersja w sklepie?**
 
-::::prose-p3
+::::text-p3
 Konwersja to nic innego jak procentowy wskaźnik odwiedzających nasz sklep, którzy wykonują pożądaną akcję (cel konwersji), np. dokonują zakupu produktu. To taka magiczna liczba, która mówi nam, ile osób spośród naszych gości staje się naszymi klientami. I oczywiście, im wyższa konwersja, tym lepiej!
 ::::
 
@@ -57,7 +57,7 @@ class: mx-blog
 
 #### **Jakie mogą być cele konwersji? Są to m.in.:**
 
-::::prose-p3
+::::text-p3
 - Dokonanie zakupu produktu
 - Subskrypcja newslettera
 - Dodanie opinii o sklepie lub produkcie
@@ -73,7 +73,7 @@ class: mx-blog
 
 #### **Co wpływa na konwersję?**
 
-::::prose-p3
+::::text-p3
 - Stan witryny - Nasza strona musi być przejrzysta, atrakcyjna i łatwa w obsłudze. Bardzo ważna jest także szybkość ładowania i wydajność, a bezpieczeństwo to priorytet -  w końcu klienci podają nam m.in. dane osobowe i dane do płatności! Nie możemy także zapomnieć o podstawach takich jak odpowiednie wyświetlanie sklepu na urządzeniach mobilnych czy stosowanie odpowiednich funkcji zachęcających użytkownika do działania.
 - Jasna prezentacja oferty - Atrakcyjna oferta i przejrzyste warunki sprzedaży to podstawa bez której nie osiągniemy sukcesu. Zadbaj o kluczowe informację sprzedażowe, poinformuj użytkownika o Twojej przewadze konkurencyjnej, dodaj atrakcyjne zdjęcia produktu i opisy - osoby odwiedzające nasz sklep nie mogą mieć wątpliwości co i na jakich warunkach kupują.
 - User experience czyli doświadczenia użytkownika - Czy użytkownik w łatwy sposób porusza się po stronie? Czy z łatwością odnajduje się w katalogu produktów? Czy karta produktu ma odpowiednią architekturę informacji? Czy użytkownik intuicyjnie przechodzi przez proces zakupowy? To tylko kilka kluczowych pytań na których odpowiedź może pomóc nam w poprawie doświadczeń zakupowych.
@@ -89,7 +89,7 @@ class: mx-blog
 
 #### **Jak więc zadbać o konwersję w swoim sklepie?**
 
-::::prose-p3
+::::text-p3
 - Badaj dane: Analizuj statystyki, dowiedz się, gdzie klienci rezygnują z zakupów, a gdzie zostają. To pomoże zidentyfikować słabe punkty.
 - Testuj i optymalizuj: Przeprowadzaj testy A/B, aby sprawdzić, które zmiany na stronie przynoszą najlepsze efekty i dostosowuj swoją stronę.
 - Wsłuchuj się w klientów: Pytaj klientów o ich opinie i sugestie. To może dostarczyć cennych wskazówek.

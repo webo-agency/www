@@ -41,7 +41,7 @@ svgUrl_br: '/img/svg-square.svg'
 classes: mb-10 desktop:mb-[200px]
 ---
 
-:::layout-columns-1-1
+:::block-columns-1-1
 
 #left
 ::::effect-appear
@@ -59,7 +59,7 @@ class: mb-[60px]
 ## Pełna kontrola i większa wydajność WordPressa
 
 #description
-::::::prose-p-3
+::::::text-p3
 ---
 class: max-w-[650px] [&_p]:!leading-8
 --- 
@@ -99,7 +99,7 @@ class: tablet:w-auto !w-full desktop:mt-[-230px] tablet:!pl-20 desktop-wide:!pl-
 classes: mb-20 tablet:mb-[150px]
 ---
 
-:::layout-columns-1-1
+:::block-columns-1-1
 
 #left
 ::::effect-appear
@@ -141,7 +141,7 @@ class: mb-10
 ## Niestandardowe funkcje i integracje WordPress
 
 #description
-::::::prose-p-4
+::::::text-p4
 ---
 class: mb-5 leading-8
 ---
@@ -162,7 +162,7 @@ class: tablet:top-0 right-0
 classes: mb-10 tablet:mb-20
 ---
 
-:::layout-columns-1-1
+:::block-columns-1-1
 ---
 class: mb-10
 ---
@@ -360,7 +360,7 @@ Każde wdrożenie testujemy gruntownie przed publikacją - dbamy o bezpieczeńst
 class: relative z-20
 ---
 
-::::layout-columns-5-7
+::::block-columns-5-7
 ---
 reverseMobile: true
 class: mb-16 [&_.right]:flex [&_.right]:items-center
@@ -399,7 +399,7 @@ W Webo mamy wieloletnie doświadczenie w tworzeniu stron i systemów opartych o 
 **Współpracując z nami zyskujesz:**
 <br>
 &nbsp;
-:::::::prose-p-3
+:::::::text-p3
 ---
 class: max-w-full bg-gradient-to-b from-[#20202080] to-[#20202000] from-[#202020] to-[#20202000] p-5 tablet:p-10 mb-10 [&_p]:!leading-8 desktop:text-[20px] !font-semibold [&_p]:!leading-[48px]
 --- 
@@ -413,7 +413,7 @@ class: max-w-full bg-gradient-to-b from-[#20202080] to-[#20202000] from-[#202020
 :::
 
 :::effect-appear
-::::prose-p-3
+::::text-p3
 ---
 class: mx-auto max-w-[920px] mb-10 tablet:mb-20 text-white text-center
 ---
@@ -447,7 +447,7 @@ rounded: false
 classes: mb-20 tablet:mb-[150px]
 ---
 
-:::layout-columns-1-1
+:::block-columns-1-1
 
 #left
 ::::effect-appear
@@ -488,7 +488,7 @@ class: mb-10
 ## Postaw na elastyczne rozwiązania szyte pod Twój projekt
 
 #description
-:::::prose-p-3
+:::::text-p3
 ---
 class: mb-5 [&_p]:!leading-8 [&_p]:!mb-0
 --- 

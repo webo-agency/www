@@ -10,7 +10,7 @@ sitemap:
 ---
 class: my-16 tablet:my-[100px]
 ---
-:::layout-columns-1-1
+:::block-columns-1-1
 
 #left
 ::::effect-appear

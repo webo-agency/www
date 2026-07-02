@@ -68,7 +68,7 @@ class: _static-content mb-[50px] tablet:mb-[100px]
 ---
 class: _mx-default
 ---
-::::layout-columns-1-1
+::::block-columns-1-1
 ---
 reverseMobile: true
 class: items-center [&_div.right]:self-start

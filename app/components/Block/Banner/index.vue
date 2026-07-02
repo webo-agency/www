@@ -12,7 +12,7 @@
       { 'pt-20 desktop:pt-24': bgImg },
       { 'pt-14 desktop:pt-0': !bgImg },
     ]">
-      <LayoutColumns11>
+      <BlockColumns11>
         <template #left>
           <div class="h-full flex flex-col justify-center">
             <BlockHeaderMdc class="" :textWhite="true" :maxWidth="headerWidth ? headerWidth : 520">
@@ -43,7 +43,7 @@
         <template #right>
           <slot name="right"></slot>
         </template>
-      </LayoutColumns11>
+      </BlockColumns11>
     </UiContainer>
   </div>
 </template>

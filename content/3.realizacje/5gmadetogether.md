@@ -71,51 +71,51 @@ class: mx-default
 class: mx-default flex flex-col md:flex-row gap-10 lg:gap-20
 ---
 
-::::prose-p3
+::::text-p3
 
 **Konferencja 5G Made Together** organizowana jest kilka razy w roku, obejmując tematy z zakresu transformacji cyfrowej, technologii, cyberbezpieczeństwa, biznesu i nauki. Każda edycja to liczne grono znakomitych specjalistów z całego świata, w tym najlepszych inżynierów, przedsiębiorców, wykładowców akademickich i członków organizacji rządowych.
 
 Organizatorem konferencji jest firma IS-Wireless, która rozwija i dostarcza sieci mobilne 4G i 5G w modelu otwartym (Open RAN), zyskującym popularność na całym świecie. Firma dostarcza oprogramowanie i sprzęt niezbędny do budowy sieci mobilnych zarówno w obszarze RAN, jak i Core.
 ::::
 
-::::prose-bg
+::::text-bg
 ---
 class: min-w-[280px] md:self-baseline !p-[30px] !mx-0 font-semibold
 --- 
 
-::::prose-p6
+::::text-p6
 ---
 class: uppercase [&_p]:!mb-2
 ---
 _Kraj_
 ::::
-::::prose-p4
+::::text-p4
 ---
 class: mx-0 [&_p]:!mb-4
 ---
 **Polska**
 ::::
 
-::::prose-p6
+::::text-p6
 ---
 class: uppercase [&_p]:!mb-2
 ---
 _Branża_
 ::::
-::::prose-p4
+::::text-p4
 ---
 class: mx-0 [&_p]:!mb-4
 ---
 **Technologie**
 ::::
 
-::::prose-p6
+::::text-p6
 ---
 class: uppercase [&_p]:!mb-2
 ---
 _Zakres prac_
 ::::
-::::prose-p4
+::::text-p4
 ---
 class: mx-0 [&_p]:!mb-4
 ---
@@ -141,7 +141,7 @@ class: mx-default
 
 #### **MVP strony internetowej**
 
-::::prose-p3
+::::text-p3
 Naszym wyzwaniem było ekspresowe przygotowanie strony internetowej w formie MVP (Minimalna wersja produktu). Strona internetowa musiała być zbudowana błyskawicznie, aby utworzyć narzędzie do promocji nadchodzącego wydarzenia.
 
 Realizacje wykonywane w formie MVP muszą być **ściśle uzgodnione z klientem**, aby spełnić najważniejsze wymogi projektu. **Krótki czas realizacji** wymaga kompromisów - zgodnie z podjętą decyzją, najważniejszym celem do osiągnięcia w tej fazie było udostępnienie treści potencjalnym słuchaczom oraz streaming video na czas wydarzenia. 
@@ -151,12 +151,12 @@ Efektem pierwszej fazy projektu była w pełni **skonfigurowana infrastruktura**
 :::
 
 :::effect-appear
-::::prose-bg{class='font-semibold'}
-:::::prose-p1
+::::text-bg{class='font-semibold'}
+:::::text-p1
 **Zakres prac**
 :::::
 
-:::::prose-p2
+:::::text-p2
 - Konfiguracja infrastruktury technicznej
 - Wdrożenie MVP (Minimum Viable Product) strony na pierwszą edycję wydarzenia
 - Projekt architektury informacji oraz makiet UX
@@ -193,7 +193,7 @@ class: mx-default
 
 #### **Architektura informacji i makiety UX**
 
-::::prose-p3
+::::text-p3
 W każdym projekcie najważniejsza jest **użyteczność strony internetowej**. Podstawą projektowanej strony była architektura informacji i makieta UX. Wykonaliśmy projekt prototypu docelowego serwisu obejmującego stronę główną, bibliotekę nadchodzących i ubiegłych wydarzeń, podstronę o konferencji oraz podstronę o organizatorze.
 
 Zgodnie z otrzymanym założeniem strona konferencji początkowo miała działać w formie 1 strony tzw. **strona One Page**. Makiety UX pozostałych podstron zostały przygotowane do wykorzystania w przyszłości.
@@ -207,7 +207,7 @@ class: mx-default
 
 #### **Noweczesny interfejs**
 
-::::prose-p3
+::::text-p3
 Po zakończeniu prac nad makietami UX, rozpoczęliśmy **projekt UI** (tzw. szata graficzna strony). Zazwyczaj strony konferencji są schematyczne - naszym założeniem było  wyłamanie się ze schematu i **zaprojektowanie minimalistycznie wyglądającego interfejsu**, który nawiąże do nowych technologii i sektora klienta.
 
 W tym celu postawiliśmy na ostre kształty przełamane zaokrąglonymi przyciskami, zastosowaliśmy niebieską kolorystykę z charakterystycznym błękitem jako kolor przewodni, a jako dodatek grafikę fal radiowych, która nawiązuje do sektora organizatora konferencji. Realizacja założeń gwarantowała nam uzyskanie wyróżniającej się strony www.
@@ -248,7 +248,7 @@ class: mx-default
 ---
 class: mx-default
 ---
-::::prose-p3
+::::text-p3
 Po zakończeniu prac projektowych rozpoczęliśmy pracę nad programowaniem strony. Chcąc uzyskać najwyższą jakość witryny, swobodę dalszych prac nad rozbudową oraz najwyższe standardy bezpieczeństwa i wydajności, zastosowaliśmy rozwiązanie znane ze strony organizatora (www.is-wireless.com).
 ::::
 :::
@@ -282,12 +282,12 @@ class: tablet:hidden
 class: static-content mb-[50px] tablet:mb-[100px]
 ---
 :::effect-appear
-::::prose-bg
-:::::prose-p1
+::::text-bg
+:::::text-p1
 Strony internetowe wykonane w **architekturze Headless** polegają na oddzieleniu interfejsu użytkownika (frontendu) od funkcji administracyjnych i zasobów wewnętrznych (backend). Obie warstwy są wobec siebie niezależne, a komunikacja między nimi wykonywana jest za pomocą API.
 :::::
 
-:::::prose-p2
+:::::text-p2
 Dzięki architekturze Headless umożliwiamy m.in lepszą optymalizację serwisu, ultra szybkie ładowanie, nielimitowany rozwój strony, spełniając przy tym najwyższe standardy bezpieczeństwa.
 :::::
 
@@ -313,7 +313,7 @@ class: mx-default
 
 ### **Rezultat pracy**
 
-::::prose-p3
+::::text-p3
 Ostatnim krokiem prac była **optymalizacja szybkości strony**, która zakończyła prace nad stroną www. **Szybkość działania strony www** wpływa na wiele obszarów związanych z obecnością w internecie m.in na koszty reklam, pozycje w wyszukiwarce Google czy na zadowolenie użytkowników. Wykonanie prac optymalizacyjnych przed opublikowaniem witryny owocuje zmniejszeniem kosztów prowadzenia strony w przyszłości.
 
 W efekcie zakończonych prac, nasz klient otrzymał w pełni funkcjonalną stronę www, z indywidualnym projektem graficznym, która przygotowana jest do dalszej rozbudowy. Strona internetowa spełnia najwyższe standardy bezpieczeństwa i wydajności, a dodatkowo cieszy oko użytkowników nieszablonowym wyglądem.

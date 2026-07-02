@@ -251,7 +251,7 @@ id: opinie
 class: mb-[50px] tablet:mb-[100px] pt-10 tablet:pt-[100px]
 ---
 
-:::layout-columns-1-1
+:::block-columns-1-1
 ---
 class: mb-10 tablet:mb-24 [&_.right]:flex [&_.right]:items-center [&_.right]:justify-end [&_.right]:gap-[20px]
 ---

@@ -71,63 +71,63 @@ class: mx-default
 class: mx-default flex flex-col md:flex-row gap-10 lg:gap-20 fullHd:gap-[140px]
 ---
 
-::::prose-p3
+::::text-p3
 **Mutiny Group** to agencja marketingowa z Trójmiasta składająca się ze zgranego zespołu ludzi, którzy od lat tworzą wyjątkowe wydarzenia i nie boją się przekraczać granic. Oferują działania z zakresu: Marketingu i PR, Eventów, Scenografii, Foto / Video, Grafika i 3D oraz IT.
 
 Klient zgłosił się do nas z potrzebą **zaprojektowania i wdrożenia nowoczesnej strony internetowej**, która posłuży do budowy i dalszego umacniania pozycji firmy w internecie.
 ::::
 
-::::prose-bg
+::::text-bg
 ---
 class: md:min-w-[330px] md:self-baseline !p-[30px] !mx-0 font-semibold
 --- 
 
-::::prose-p6
+::::text-p6
 ---
 class: uppercase [&_p]:!mb-0 tablet:[&_p]:!mb-2
 ---
 _Kraj_
 ::::
-::::prose-p4
+::::text-p4
 ---
 class: mx-0 [&_p]:!mb-[15px] tablet:[&_p]:!mb-[20px]
 ---
 **Polska**
 ::::
 
-::::prose-p6
+::::text-p6
 ---
 class: uppercase [&_p]:!mb-0 tablet:[&_p]:!mb-2
 ---
 _Data Realizacji_
 ::::
-::::prose-p4
+::::text-p4
 ---
 class: mx-0 [&_p]:!mb-[15px] tablet:[&_p]:!mb-[20px]
 ---
 **2023**
 ::::
 
-::::prose-p6
+::::text-p6
 ---
 class: uppercase [&_p]:!mb-0 tablet:[&_p]:!mb-2
 ---
 _Branża_
 ::::
-::::prose-p4
+::::text-p4
 ---
 class: mx-0 [&_p]:!mb-[15px] tablet:[&_p]:!mb-[20px]
 ---
 **Marketing, PR, Eventy, Photo & Video**
 ::::
 
-::::prose-p6
+::::text-p6
 ---
 class: uppercase [&_p]:!mb-0 tablet:[&_p]:!mb-2
 ---
 _Zakres prac_
 ::::
-::::prose-p4
+::::text-p4
 ---
 class: mx-0 [&_p]:!mb-[15px] tablet:[&_p]:!mb-[20px]
 ---
@@ -157,7 +157,7 @@ class: mx-default max-w-[934px]
 
 ### **Projekt**
 
-::::prose-p3
+::::text-p3
 Projekt strony Mutiny Group miał być **niecodzienny i odważny**, taki jak marka naszego klienta. Aby sprostać temu wyzwaniu przeszliśmy przez pełen proces projektowania UX/UI, który rozpoczęliśmy od określenia niezbędnych do przygotowania elementów, następnie przechodząc przez etap projektowania UX strony oraz opracowania interfejsu graficznego.
 ::::
 :::
@@ -247,7 +247,7 @@ class: mx-default max-w-[934px] tablet:[&_h4]:!mb-6 tablet:[&_.p3_p:not(:last-ch
 
 #### **Makiety funkcjonalne UX**
 
-::::prose-p3
+::::text-p3
 Prace nad etapem projektowania UX rozpoczęliśmy od warsztatów, podczas których określiliśmy oczekiwania dotyczące interfejsu i zakres wymaganych funkcjonalności. Pozwoliło to nam na wypracowanie optymalnej mapy strony wraz z architekturą informacji. W kolejnym kroku zaprojektowaliśmy prototyp strony głównej, prezentujący układ i sposób wyświetlania elementów dla każdej z zaplanowanych sekcji. Po uzyskaniu akceptacji makiety, stworzyliśmy prototypy dla pozostałych podstron.
 
 Makiety funkcjonalne UX umożliwiają **szczegółowe przetestowanie funkcjonalności** strony oraz sprawdzenie zgodności z wymaganiami juz **na wczesnym etapie realizacji**. Dzięki temu można dokonać odpowiednich korekt, a także zmian w założeniach **bez kosztownych prac** podczas dalszych, bardziej zaawansowanych etapów.
@@ -278,7 +278,7 @@ class: mx-default max-w-[934px] tablet:[&_h4]:!mb-6 tablet:[&_.p3_p:not(:last-ch
 
 #### **Projekt interfejsu użytkownika UI**
 
-::::prose-p3
+::::text-p3
 Po zrealizowaniu etapu projektowania UX strony oraz uzyskaniu akceptacji klienta, rozpoczęliśmy pracę nad przygotowaniem projektu graficznego.
 
 Rozpoczęliśmy od dobrania odpowiednich kolorów i czcionek, pasujących do już istniejącej identyfikacji wizualnej firmy Mutiny. Następnie, na bazie wcześniej przygotowanych makiet UX, zaprojektowaliśmy stronę główną, charekteryzującą się ciemnym motywem, kontrastowymi przyciskami oraz niestandardowymi kształtami. Podstrony zostały zaprojektowane w skali szarości co jeszcze bardziej podkreśliło nieszablonowe działania naszego klienta. W celu utrzymania spójności oraz przygotowania bazy pod dalszy rozwój strony, stworzyliśmy design system, który definiuje wygląd wszystkich elementów interaktywnych (np. różnych wersji przycisków, kafelek i galerii) oraz określa ramy wizualne.
@@ -300,7 +300,7 @@ class: mx-default max-w-[934px]
 
 ### **Wdrożenie programistyczne**
 
-::::prose-p3
+::::text-p3
 Programowanie strony www to często najbardziej wymagający etap realizacji, który wymaga nie tylko dopracowania strony na poziomie wizualnym ale także zadbania o kwestie techniczne takie jak wydajność czy bezpieczeństwo.
 
 Strona internetowa Mutiny Group została wdrożona na platformie CMS Wordpress, z wykorzystaniem nowoczesnej funkcji Wordpress Full Site Editing. Prócz programowania wyglądu zgodnie z wypracowanym projektem graficznym, dostosowaliśmy stronę do wymogów RWD (wyświetlanie na urządzeniach mobilnych, w tym na tablecie i różnych rodzajach telefonów), rozszerzyliśmy o funkcję SEO (umożliwiając wprowadzenie treści i nagłówków przyjaznych wyszukiwarką), a także zadbaliśmy o wydajność strony dokonując m.in optymalizacji grafik i plików szablonu. Wersje językowe strony wprowadzone zostały z wykorzystaniem funkcji Multisite, tak aby nasz klient zachował pełną niezależność we wprowadzaniu zmian dla każdej z wersji. Po wdrożenia programistycznym, przekazaliśmy stronę w ręce klienta w celu redakcji treści.

@@ -268,7 +268,7 @@ selectedSlugs:
 class: bg-gray-darkest relative z-10 overflow-hidden pt-10 tablet:pt-[100px] [&_.right]:relative [&_.right]:flex [&_.right]:items-end
 ---
 
-:::layout-columns-1-1
+:::block-columns-1-1
 
 #left
 ::::effect-appear
@@ -285,7 +285,7 @@ class: mb-10 tablet:mb-20
 ## Dlaczego warto <br> nam *zaufać?*
 
 #description
-::::::prose-p-3
+::::::text-p3
 ---
 class: px-5 tablet:px-10
 ---
@@ -423,7 +423,7 @@ decoration: false
 Do każdego projektu podchodzimy **indywidualnie**, analizując jego potrzeby i&nbsp;**dobierając optymalne rozwiązania**. Korzystamy tylko ze sprawdzonych systemów takich jak Wordpress / Drupal / Prestashop, **łącząc je z najnowszymi technologiami**.
 :::
 
-:::layout-columns-2-5
+:::block-columns-2-5
 
 #left
 ::::effect-appear
@@ -626,7 +626,7 @@ id: opinie
 class: mb-[50px] tablet:mb-[100px]
 ---
 
-:::layout-columns-1-1
+:::block-columns-1-1
 ---
 class: mb-10 tablet:mb-24 [&_.right]:flex [&_.right]:items-center [&_.right]:justify-end [&_.right]:gap-[20px]
 ---

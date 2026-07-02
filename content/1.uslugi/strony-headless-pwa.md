@@ -39,7 +39,7 @@ svgUrl_tr: '/img/svg-square.svg'
 classes: mb-[100px] tablet:mb-[200px] overflow-x-clip overflow-y-visible
 ---
 :::effect-appear
-::::layout-columns-1-1
+::::block-columns-1-1
 ---
 reverseMobile: true
 class: items-center
@@ -56,13 +56,13 @@ class: items-center
 ## Czym jest Headless CMS
 
 #description
-::::::prose-p-4
+::::::text-p4
 ---
 class: mb-5 leading-8
 ---
 Strony internetowe wykonane w **architekturze Headless** polegają na oddzieleniu interfejsu użytkownika (frontendu) od funkcji administracyjnych i zasobów wewnętrznych (backend). Obie warstwy są wobec siebie niezależne, a komunikacja między nimi wykonywana jest za pomocą specjalnego API.
 ::::::
-::::::prose-p-4
+::::::text-p4
 ---
 class: leading-7 text-base
 ---
@@ -88,7 +88,7 @@ imgUrl: '/img/content-images/strony-headless-pwa/phones.png'
 classes: mb-20 tablet:mb-[100px]
 ---
 
-:::layout-columns-1-1
+:::block-columns-1-1
 
 #left
 
@@ -124,13 +124,13 @@ class: mb-10
 ## Tworzymy strony Headless <br> *w oparciu o Wordpress CMS*
 
 #description
-::::::prose-p-4
+::::::text-p4
 ---
 class: mb-5 leading-8
 ---
 Nasze rozwiązanie to połączenie **architektury headless** z popularnym rozwiązaniem **WordPress CMS**. Dzięki niemu możesz nadal używać WordPressa ze wszystkimi jego elementami i korzystać ze wszystkich zalet nowoczesnej architektury.
 ::::::
-::::::prose-p-4
+::::::text-p4
 ---
 class: leading-7 text-base
 ---
@@ -283,7 +283,7 @@ class: mb-20
 
 ::::
 
-::::layout-columns-1-1-1
+::::block-columns-1-1-1
 
 #left
 :::::tile-process
@@ -412,7 +412,7 @@ class: mb-20
 
 ::::
 
-::::layout-columns-1-1
+::::block-columns-1-1
 
 #left
 ::::tile-icon
@@ -721,7 +721,7 @@ Często publikacja strony to dopiero początek, a podczas użytkowania strony po
 classes: mb-[60px]
 ---
 
-:::layout-columns-1-1
+:::block-columns-1-1
 
 #left
 
@@ -773,19 +773,19 @@ class: mb-10
 ## Nowoczesne podejście do budowy stron i e-commerce - Headless WordPress
 
 #description
-::::::prose-p-4
+::::::text-p4
 ---
 class: mb-10
 ---
 Tradycyjne strony internetowe mają swoje ograniczenia. Gdy system CMS i frontend są ze sobą ściśle powiązane, trudno osiągnąć najwyższą wydajność, pełną elastyczność technologiczną, a wielokanałowa dystrybucja treści jest w zasadzie niemożliwa. **Headless CMS WordPress** pozwala korzystać z przyjaznego panelu zarządzania treścią WordPressa, jednocześnie dając swobodę w budowie warstwy wizualnej - przy użyciu dowolnych frameworków frontendowych, takich jak Next.js (React) czy Nuxt (Vue). Dzięki temu strona może ładować się błyskawicznie, być idealnie dopasowana do urządzeń mobilnych i skalować się bez ograniczeń.
 ::::::
-::::::prose-p-4
+::::::text-p4
 ---
 class: mb-10
 ---
 Dzięki headless zyskujesz nie tylko elastyczność technologiczną i wielokanałowość, ale także większą odporność na błędy i wyzwania związane z tradycyjnymi systemami CMS. Warstwy są odseparowane - co oznacza większe bezpieczeństwo, łatwiejsze testowanie, lepsze SEO i ogromną swobodę w rozwoju projektu.
 ::::::
-::::::prose-p-4
+::::::text-p4
 Jeśli zależy Ci na wydajności, skalowalności i technologicznym zapleczu, które nadąży za rozwojem Twojej firmy - **headless WordPress** to rozwiązanie, które warto rozważyć.
 ::::::
 :::::

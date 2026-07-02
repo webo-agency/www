@@ -40,7 +40,7 @@ svgUrl_br: '/img/svg-square.svg'
 ---
 classes: mb-[100px] tablet:mb-[200px] overflow-x-clip overflow-y-visible
 ---
-:::layout-columns-1-1
+:::block-columns-1-1
 ---
 class: items-center
 ---
@@ -62,14 +62,14 @@ maxWidth: 690
 ## Kompleksowe *wsparcie WordPress* 
 
 #description
-:::::prose-p-3
+:::::text-p3
 ---
 class: mb-5 [&_p]:!leading-8 [&_p]:!mb-0
 --- 
 Twoja strona działa wolno? Pojawiły się błędy po aktualizacji WordPressa lub wtyczek? A może potrzebujesz regularnej opieki nad serwisem? Nasz zespół oferuje kompleksowe **wsparcie WordPress** - od jednorazowej pomocy technicznej po stałą administrację stroną internetową.
 :::::
 
-:::::prose-p-4
+:::::text-p4
 ---
 class: mb-0 [&_p]:!leading-7 [&_p]:!mb-0 text-base
 ---
@@ -98,7 +98,7 @@ class: tablet:!pl-0 !mb-0
 classes: mb-20 tablet:mb-[100px]
 ---
 
-:::layout-columns-1-1
+:::block-columns-1-1
 
 #left
 
@@ -134,13 +134,13 @@ class: mb-10
 ## *Opieka techniczna WordPress*<br>- dlaczego Twoja strona jej potrzebuje?
 
 #description
-::::::prose-p-4
+::::::text-p4
 ---
 class: mb-5 leading-8
 ---
 Strona internetowa to nie tylko projekt graficzny i treści. To działający system, który codziennie musi sprostać nowym wyzwaniom - aktualizacjom, zmianom w algorytmach Google, nowym wersjom wtyczek, rosnącym wymaganiom użytkowników czy cyberzagrożeniom. Właśnie dlatego **opieka techniczna** nie powinna być traktowana jako dodatek, ale jako niezbędny element prowadzenia nowoczesnej witryny.
 ::::::
-::::::prose-p-4
+::::::text-p4
 ---
 class: mb-0 [&_p]:!leading-7 [&_p]:!mb-0 text-base
 ---
@@ -183,7 +183,7 @@ center: true
 
 ::::
 
-::::layout-columns-1-1
+::::block-columns-1-1
 ---
 class: mb-16 [&_.left]:flex [&_.left]:items-center
 ---
@@ -212,7 +212,7 @@ class: ml-0 !mb-5 !w-20 tablet:!w-[160px] desktop:!w-[200px]
 #### Ekspercka wiedza techniczna WordPress
 
 #description
-:::::::prose-p-3
+:::::::text-p3
 ---
 class: mb-5 [&_p]:!leading-loose [&_p]:!mb-0
 --- 
@@ -245,7 +245,7 @@ class: w-full z-0
 :::::
 ::::
 
-::::layout-columns-1-1
+::::block-columns-1-1
 ---
 reverseMobile: true
 class: mb-16 [&_.right]:flex [&_.right]:items-center
@@ -298,7 +298,7 @@ class: ml-0 !pl-0 !mb-5 !w-20
 #### Szybkie i skuteczne wsparcie techniczne
 
 #description
-:::::::prose-p-3
+:::::::text-p3
 ---
 class: mb-5 [&_p]:!leading-loose [&_p]:!mb-0
 --- 
@@ -308,7 +308,7 @@ W ramach wsparcia technicznego WordPress zapewniamy realną pomoc - nie odsyłam
 :::::
 ::::
 
-::::layout-columns-1-1
+::::block-columns-1-1
 ---
 class: mb-0 [&_.left]:flex [&_.left]:items-center
 ---
@@ -337,7 +337,7 @@ class: ml-0 !mb-5 !w-20 tablet:!w-[160px] desktop:!w-[200px]
 #### Bezpieczeństwo i stabilność strony
 
 #description
-:::::::prose-p-3
+:::::::text-p3
 ---
 class: mb-5 [&_p]:!leading-loose [&_p]:!mb-0
 --- 
@@ -358,7 +358,7 @@ class: w-full
 :::::
 ::::
 
-::::layout-columns-1-1
+::::block-columns-1-1
 ---
 reverseMobile: true
 class: mb-16 [&_.right]:flex [&_.right]:items-center
@@ -411,7 +411,7 @@ class: ml-0 !pl-0 !mb-5 !w-20
 #### Elastyczna współpraca dopasowana do Twoich potrzeb
 
 #description
-:::::::prose-p-3
+:::::::text-p3
 ---
 class: mb-5 [&_p]:!leading-loose [&_p]:!mb-0
 --- 
@@ -446,7 +446,7 @@ rounded: false
 classes: mb-10 tablet:mb-20
 ---
 
-:::layout-columns-1-1
+:::block-columns-1-1
 ---
 class: mb-20
 ---
@@ -477,7 +477,7 @@ class: h-full flex items-center
 ::::
 :::
 
-:::layout-columns-1-1-1
+:::block-columns-1-1-1
 ---
 class: mb-10 tablet:mb-20 gap-[30px]
 ---

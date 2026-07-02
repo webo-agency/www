@@ -39,7 +39,7 @@ class: translate-y-[40px] desktop:translate-y-[220px]
 class: static-content mb-10
 ---
 
-:::layout-columns-blog-sidebar
+:::block-columns-blog-sidebar
 ---
 class:
 ---
@@ -51,7 +51,7 @@ class:
 class: mx-blog
 ---
 
-:::::prose-p3
+:::::text-p3
 Stworzenie efektywnej strony głównej to kluczowy krok w procesie zwiększania konwersji na Twojej stronie internetowej. Gdy użytkownik odwiedza Twoją stronę, pierwsze wrażenie jest niezwykle istotne i może zadecydować o tym, czy zostanie on na dłużej, czy opuści witrynę. W tym artykule przyjrzymy się, jakie elementy strony głównej mogą znacząco wpłynąć na poprawę wskaźników konwersji. Dowiesz się, jak optymalizować swoją stronę, aby przyciągać uwagę użytkowników i skutecznie zachęcać ich do podjęcia pożądanych działań.
 
 :::::
@@ -64,7 +64,7 @@ class: mx-blog
 
 ## Jakie są kluczowe elementy strony głównej?
 
-:::::prose-p3
+:::::text-p3
 Strona główna pełni rolę wizytówki Twojej firmy w Internecie. To często pierwszy punkt kontaktu użytkownika z marką, dlatego jej zadaniem jest nie tylko przyciągnięcie uwagi, ale również szybkie przekazanie najważniejszych informacji i zachęcenie do dalszej interakcji. Skuteczna strona główna powinna być projektowana jako część spójnej całości, dlatego *<u class="font-semibold">tworzenie nowoczesnych stron internetowych</u>* powinno uwzględniać zarówno estetykę, jak i realne cele biznesowe oraz konwersję.
 
 Konwersja to wykonanie przez użytkownika pożądanej akcji na stronie internetowej, takiej jak zakup, wypełnienie formularza, zapis do newslettera czy kliknięcie w przycisk CTA. Jest ona jednym z kluczowych wskaźników skuteczności strony. Strona główna musi prowadzić użytkownika w sposób logiczny i intuicyjny do wykonania tej akcji. Kluczowe elementy strony mają więc bezpośredni wpływ na to, czy użytkownik podejmie decyzję o dalszym działaniu.
@@ -78,14 +78,14 @@ class: mx-blog
 
 ## 1. Przejrzysta struktura i intuicyjność
 
-:::::prose-p3
+:::::text-p3
 ---
 class: mb-0 [&_p]:!mb-5
 ---
 Przejrzysta i intuicyjna struktura strony głównej wpływa na to, jak użytkownik odbiera stronę już od pierwszych sekund oraz czy zdecyduje się na dalszą interakcję. Użytkownik powinien w ciągu kilku sekund zrozumieć:
 :::::
 
-:::::prose-p3
+:::::text-p3
 ---
 class: ml-0 [&_li]:before:!bg-black [&_ul]:!mb-2
 ---
@@ -94,7 +94,7 @@ class: ml-0 [&_li]:before:!bg-black [&_ul]:!mb-2
 - jakie działania może podjąć dalej.<br>
 :::::
 
-:::::prose-p3
+:::::text-p3
 Logiczny układ sekcji, odpowiednia hierarchia nagłówków oraz czytelne odstępy między elementami znacząco poprawiają komfort korzystania ze strony. Intuicyjna struktura strony i logiczny układ treści są efektem świadomych decyzji projektowych, dlatego *<u class="font-semibold">projektowanie UX/UI</u>* odgrywa kluczową rolę w zwiększaniu zaangażowania użytkowników i konwersji.
 
 :::::
@@ -108,7 +108,7 @@ class: mx-blog
 
 ## 2. Menu i nawigacja
 
-:::::prose-p3
+:::::text-p3
 ---
 class: ml-0 [&_p]:!mb-[30px]
 ---
@@ -116,7 +116,7 @@ class: ml-0 [&_p]:!mb-[30px]
 Menu i nawigacja mają kluczowe znaczenie dla konwersji. Dobrze zaprojektowana nawigacja prowadzi użytkownika w sposób logiczny i przewidywalny, minimalizując frustrację i skracając ścieżkę do celu. Skuteczne menu na stronie głównej powinno:
 :::::
 
-:::::prose-p3
+:::::text-p3
 ---
 class: ml-0 [&_li]:before:!bg-black [&_ul]:!mb-[30px]
 ---
@@ -127,7 +127,7 @@ class: ml-0 [&_li]:before:!bg-black [&_ul]:!mb-[30px]
 - **Być spójne na wszystkich urządzeniach** - nawigacja mobilna powinna być równie intuicyjna jak desktopowa, z czytelnym menu i łatwym dostępem do najważniejszych sekcji.<br>
 :::::
 
-:::::prose-p3
+:::::text-p3
 Dobrze zaprojektowane menu skraca ścieżkę użytkownika do wykonania pożądanej akcji, zmniejsza współczynnik odrzuceń i zwiększa prawdopodobieństwo konwersji już na etapie pierwszej wizyty na stronie głównej.
 :::::
 ::::
@@ -151,13 +151,13 @@ class: mx-blog
 
 ## 3. Sekcja hero (pierwszy ekran)
 
-:::::prose-p3
+:::::text-p3
 ---
 class: ml-0 [&_p]:!mb-8
 ---
 To obszar widoczny od razu po wejściu na stronę, który decyduje, czy użytkownik zostanie na stronie dłużej. W ciągu kilku sekund użytkownik powinien zrozumieć, czy trafił w odpowiednie miejsce i czy warto poświęcić stronie więcej uwagi. Sekcja hero powinna zawierać:
 :::::
-:::::prose-p3
+:::::text-p3
 ---
 class: ml-0 [&_li]:before:!bg-black [&_li]:!mb-1 [&_ul]:!mb-8
 ---
@@ -165,7 +165,7 @@ class: ml-0 [&_li]:before:!bg-black [&_li]:!mb-1 [&_ul]:!mb-8
 - krótki opis uzupełniający,<br>
 - wyraźne wezwanie do działania (CTA), np. „Skontaktuj się”, „Sprawdź ofertę”.<br>
 :::::
-:::::prose-p3
+:::::text-p3
 Dobrze zaprojektowana sekcja hero przyciąga uwagę, porządkuje pierwsze wrażenie i ma bezpośredni wpływ na to, czy użytkownik podejmie dalszą interakcję.
 :::::
 ::::
@@ -177,7 +177,7 @@ class: mx-blog
 
 ## 4. Wartościowa treść
 
-:::::prose-p3
+:::::text-p3
 ---
 class: ml-0 [&_p]:!mb-8 [&_li]:before:!bg-black [&_li]:!mb-1 [&_ul]:!mb-8
 ---
@@ -199,7 +199,7 @@ class: mx-blog
 
 ## 5. Elementy wizualne
 
-:::::prose-p3
+:::::text-p3
 ---
 class: ml-0 [&_p]:!mb-8 [&_li]:before:!bg-black [&_li]:!mb-1 [&_ul]:!mb-8
 ---
@@ -222,7 +222,7 @@ class: mx-blog
 
 ## 6. Wezwania do działania - Call To Action (CTA)
 
-:::::prose-p3
+:::::text-p3
 ---
 class: ml-0 [&_p]:!mb-8 [&_li]:before:!bg-black [&_li]:!mb-1 [&_ul]:!mb-8
 ---
@@ -256,14 +256,14 @@ class: mx-blog
 
 ## 7. Dowody społeczne
 
-:::::prose-p3
+:::::text-p3
 ---
 class: ml-0 [&_p]:!mb-[20px]
 ---
 
 Dowody społeczne odgrywają istotną rolę w procesie podejmowania decyzji przez użytkowników, szczególnie na etapie pierwszego kontaktu z marką. Pokazują, że z oferty skorzystali już inni klienci, co znacząco obniża barierę niepewności i zwiększa poczucie bezpieczeństwa.
 :::::
-:::::prose-p3
+:::::text-p3
 ---
 class: ml-0 [&_p]:!mb-[50px]
 ---
@@ -278,7 +278,7 @@ class: mx-blog
 
 ## 8. Stopka
 
-:::::prose-p3
+:::::text-p3
 ---
 class: ml-0 [&_p]:!mb-8 [&_li]:before:!bg-black [&_li]:!mb-1 [&_ul]:!mb-[40px]
 ---
@@ -322,7 +322,7 @@ class: mx-blog
 
 ## Jakie znaczenie ma design strony dla użytkowników?
 
-:::::prose-p3
+:::::text-p3
 ---
 class: ml-0 [&_p]:!mb-8 [&_li]:before:!bg-black [&_li]:!mb-1 [&_ul]:!mb-8
 ---
@@ -339,7 +339,7 @@ class: ml-0 [&_p]:!mb-8 [&_li]:before:!bg-black [&_li]:!mb-1 [&_ul]:!mb-8
 
 :::::
 
-:::::prose-p3
+:::::text-p3
 Dobrze zaprojektowany UX/UI minimalizuje wysiłek użytkownika, zwiększa komfort korzystania ze strony i bezpośrednio przekłada się na wyższe zaangażowanie oraz lepsze wyniki konwersji.
 
 :::::
@@ -352,14 +352,14 @@ class: mx-blog
 
 ## Jak wykorzystać CTA w optymalny sposób?
 
-:::::prose-p3
+:::::text-p3
 ---
 class: ml-0 [&_p]:!mb-8 [&_li]:before:!bg-black [&_li]:!mb-1 [&_ul]:!mb-8
 ---
 
 Przyciski **CTA (Call to Action)** to kluczowy element, który może znacząco zwiększyć konwersję na stronie głównej. Ich zadaniem jest zachęcenie użytkownika do podjęcia konkretnej akcji, takiej jak zapisanie się do newslettera, zakup produktu czy skontaktowanie się z firmą.
 :::::
-:::::prose-p3
+:::::text-p3
 Aby CTA były skuteczne, powinny być widoczne i wyróżniać się na tle reszty strony. Używaj wyraźnych i zachęcających do działania tekstów, zadbaj także o odpowiednią treść w przyciskach np.  "Umów bezpłątną konsultację", "Zamów wycenę", zamiast ,,Kliknij tutaj”. Pamiętaj, aby CTA były umieszczone w strategicznych miejscach, np. pod sekcją prezentującą ofertę lub Twoje przewagi konkurencyjne.
 
 :::::
@@ -372,7 +372,7 @@ class: mx-blog
 
 ## Co to jest A/B testing i jak go stosować?
 
-:::::prose-p3
+:::::text-p3
 ---
 class: ml-0 [&_p]:!mb-8 [&_li]:before:!bg-black [&_li]:!mb-1 [&_ul]:!mb-8
 ---
@@ -380,7 +380,7 @@ class: ml-0 [&_p]:!mb-8 [&_li]:before:!bg-black [&_li]:!mb-1 [&_ul]:!mb-8
 **A/B testing** to metoda, która pozwala na porównanie dwóch wersji strony internetowej w celu określenia, która z nich jest bardziej efektywna pod kątem konwersji. Jest to niezwykle przydatne narzędzie, które pozwala na optymalizację strony poprzez testowanie różnych elementów, takich jak nagłówki, CTA czy układ strony.
 
 :::::
-:::::prose-p3
+:::::text-p3
 Aby przeprowadzić A/B testing, należy stworzyć dwie wersje tej samej strony, różniące się jednym elementem. Następnie, za pomocą narzędzi analitycznych, takich jak Google Analytics, można śledzić, która wersja osiąga lepsze wyniki. Dzięki regularnym testom można ciągle ulepszać stronę i zwiększać jej efektywność.
 
 :::::
@@ -393,7 +393,7 @@ class: mx-blog
 
 ## Jakie informacje umieścić w sekcji o nas?
 
-:::::prose-p3
+:::::text-p3
 ---
 class: ml-0 [&_p]:!mb-8 [&_li]:before:!bg-black [&_li]:!mb-1 [&_ul]:!mb-8
 ---
@@ -424,7 +424,7 @@ class: mx-blog
 
 ## Jakich błędów unikać przy projektowaniu strony głównej?
 
-:::::prose-p3
+:::::text-p3
 ---
 class: ml-0 [&_p]:!mb-8 [&_li]:before:!bg-black [&_li]:!mb-1 [&_ul]:!mb-8
 ---
@@ -438,7 +438,7 @@ Kolejnym błędem jest brak spójności wizualnej, który może zdezorientować 
 Istotnym błędem jest nieprzemyślana ścieżka użytkownika oraz chaotyczna architektura informacji. Brak logicznego układu treści, niespójne nazewnictwo i niejasne powiązania między podstronami sprawiają, że użytkownik szybko traci orientację na stronie.
 
 :::::
-:::::prose-p3
+:::::text-p3
 Aby uniknąć problemów z użytecznością, wydajnością i konwersją, warto zadbać o **stałe** *<u class="font-semibold">wsparcie i rozwój strony internetowej</u>*, które pozwala regularnie optymalizować kluczowe elementy strony głównej.
 
 :::::
@@ -451,7 +451,7 @@ class: mx-blog
 
 ## Jak analizować dane dotyczące konwersji?
 
-:::::prose-p3
+:::::text-p3
 ---
 class: ml-0 [&_p]:!mb-8 [&_li]:before:!bg-black [&_li]:!mb-1 [&_ul]:!mb-8
 ---

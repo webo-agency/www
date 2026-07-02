@@ -44,7 +44,7 @@ svgUrl_tr: '/img/svg-arc.svg'
 ---
 classes: pt-20 mb-5 tablet:mb-20 overflow-hidden
 ---
-:::layout-columns-1-1
+:::block-columns-1-1
 ---
 class: items-center
 ---
@@ -66,7 +66,7 @@ maxWidth: 580
 ## Projektujemy aby korzystanie ze stron było *proste, szybkie i przyjemne*
 
 #description
-:::::prose-p-4
+:::::text-p4
 ---
 class: mb-10
 ---
@@ -333,7 +333,7 @@ class: mb-10 tablet:mb-[60px]
 ## Jak wygląda proces <br> *projektowania UX/UI?*
 
 #description
-:::::prose-p3
+:::::text-p3
 Projektowanie interfejsów stron internetowych może wydawać się skomplikowane, zlecając nam zaprojektowanie swojej strony internetowej możesz spodziewać się działania zgodnie z iteracyjnym procesem:
 :::::
 ::::
@@ -464,7 +464,7 @@ class: mb-20
 ::::
 :::
 
-:::layout-columns-1-1
+:::block-columns-1-1
 ---
 class: mb-10 tablet:mb-0
 ---

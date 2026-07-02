@@ -45,7 +45,7 @@ class: mx-blog
 
 ### **Co to jest Design System?**
 
-::::prose-p3
+::::text-p3
 Design System jest zbiorem wytycznych oraz zasad dotyczących tworzenia i działania rozwiązań cyfrowych (np. stosowanych na stronach www). Opisuje ramy wizualne i sposób działania poszczególnych elementów interfejsu, określając kierunek rozwoju ale też i ograniczenia, pomagające w zachowaniu spójności i jednolitego wyglądu na strony, aplikacji lub sklepu internetowego.
 ::::
 
@@ -57,7 +57,7 @@ class: mx-blog
 
 #### **Inwestowanie w Design System na stronie internetowej ma wiele korzyści, m.in. są to:**
 
-::::prose-p3
+::::text-p3
 - Efektywność projektowania - Posiadanie zestawu gotowych komponentów i zasad projektowania przyspiesza proces projektowania nowych podstron lub funkcji. Projektanci i deweloperzy nie muszą za każdym razem wynajdywać koła od nowa, co może zaoszczędzić wiele czasu i zasobów.
 - Łatwiejsza skalowalność - Design system ułatwia i przyśpiesza rozbudowę strony internetowej. Dzięki zdefiniowanym elementom interfejsu, elastycznym komponentom i wytycznym, można łatwo budować nowe sekcje, strony lub funkcje, zachowując spójność wizualną interfejsu.
 - Zwiększenie zaangażowania użytkowników - Przemyślane projektowanie jest kluczowe dla zwiększenia zaangażowania użytkowników. Design system może zawierać najlepsze praktyki dotyczące nawigacji, czytelności i interakcji, co przekłada się na lepsze doświadczenia użytkowników.
@@ -74,7 +74,7 @@ class: mx-blog
 
 #### **Kiedy warto budować własny design system?**
 
-::::prose-p3
+::::text-p3
 Jeśli prowadzisz stronę internetową, sklep lub aplikację którą planujesz rozwijać np. dodając kolejne podstrony, wprowadzając nowe typy treści lub nowe funkcjonalności, warto przed pracami uzbroić się w odpowiednio zaprojektowany Design System. Korzystając z biblioteki gotowych elementów oraz zasad i wytycznych, zespół projektantów i programistów zdecydowanie szybciej przeprowadzi prace, a końcowy efekt będzie spójny z dotychczasowym działaniem i wyglądem strony.
 ::::
 :::

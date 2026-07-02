@@ -62,7 +62,7 @@ class: mb-[50px] tablet:mb-[150px]
 class: static-content mb-[100px] tablet:mb-[200px]
 ---
 :::effect-appear
-::::layout-columns-1-1
+::::block-columns-1-1
 ---
 class: mx-default items-center
 ---
@@ -70,7 +70,7 @@ class: mx-default items-center
 #left
 ### **O kliencie**
 
-:::::prose-p3
+:::::text-p3
 Feeby to polski producent dekoracji działający na rynku od ponad 25 lat. Współpracuje z wieloma znanymi sieciami handlowymi, docierając ze swoimi produktami do klientów w polsce i za granicą. W swojej ofercie posiada ponad 7 000 produktów m.in. personalizowane fototapety, obrazy, plakaty i parawany spełniające najwyższe normy jakościowe. Od kilku dekad podążają za nowymi trendami w dekoracji wnętrz, stale poszerzając ofertę i rozwijając linie technologiczne.
 
 Prócz standardowej oferty marka Feeby **współpracuje ze znanymi artystami z całego świata**, wzbogacjając tym samym katalog produktów o unikalne dekoracje dla swoich klientów.
@@ -97,7 +97,7 @@ class: mx-default
 
 ### **Wyzwanie i cele**
 
-::::prose-p3
+::::text-p3
 Firma Feeby zgłosiła się do nas po rekomendacji jednego z naszych dotychczasowych klientów. Wcześniej marka funkcjonowała w internecie na jednej ze znanych platform SAAS, która nie spełniała oczekiwań.
 ::::
 :::
@@ -125,7 +125,7 @@ class: mx-default
 
 #### **Kluczowe obszary działania**
 
-::::prose-p3
+::::text-p3
 Głównym założeniem w realizacji sklepu było stworzenie intuicyjnego rozwiązania z płynnym procesem zakupowym. Prócz wymagań projektowych, wdrożyliśmy i zintegrowaliśmy sklep z popularnymi systemami płatności i wysyłki,  rozwinęliśmy funkcje zarządzania, a także przygotowaliśmy aplikację do dalszego rozwoju.
 ::::
 
@@ -150,7 +150,7 @@ class: mx-default
 
 ### **Zastosowane rozwiązanie**
 
-::::prose-p3
+::::text-p3
 ---
 class: mb-10 tablet:mb-20
 ---
@@ -218,7 +218,7 @@ class: mx-default
 
 ### **Realizacja**
 
-::::prose-p3
+::::text-p3
 Po ustaleniu szczegółów projektu, omówieniu założeń oraz zakresu pracy, rozpoczęliśmy realizację prac.
 ::::
 :::
@@ -229,7 +229,7 @@ Po ustaleniu szczegółów projektu, omówieniu założeń oraz zakresu pracy, r
 class: static-content mb-[50px] tablet:mb-[100px]
 ---
 
-:::layout-columns-1-1
+:::block-columns-1-1
 ---
 class: mx-default items-center
 ---
@@ -238,7 +238,7 @@ class: mx-default items-center
 
 #### **Projekt UX/UI**
 
-:::::prose-p3
+:::::text-p3
 
 Największą grupą klientów sklepu Feeby są kobiety / matki w wieku 30+. Naszym założeniem było zaprojektowanie minimalistycznego, wygodnego w użytkowaniu sklepu pasującego do nowoczesnego charakteru marki ze szczególnym naciskiem na wersję mobilną.
 
@@ -284,7 +284,7 @@ rounded: false
 class: static-content mb-[100px] tablet:mb-[150px]
 ---
 :::effect-appear
-::::layout-columns-1-1
+::::block-columns-1-1
 ---
 class: mx-default
 ---
@@ -300,21 +300,21 @@ imgUrl: '/img/content-images/case-programmer.png'
 #right
 #### **Wdrożenie**
 
-:::::prose-p3
+:::::text-p3
 Działając wg metodologii Agile przechodziliśmy kilka iteracji w drodzę do oddania kolejnych etapów sklepu. Zgodnie z założeniem i potrzebami klienta, wdrożenie podzieliliśmy na 3 etapy, podczas których na bieżąco przekazywaliśmy informację o postępach prac:
 :::::
 
-1. ::::::prose-p3
+1. ::::::text-p3
 **Uruchomienie sklepu w formie MVP** z kluczowymi funkcjonalnościami
 ::::::
-2. ::::::prose-p3
+2. ::::::text-p3
 **Wdrożenie kompletnych układów podstron** i rozbudowa o pozostałe funkcjonalności
 ::::::
-3. ::::::prose-p3
+3. ::::::text-p3
 **Wdrożenie docelowych styli interfejsu / wyglądu sklepu**
 ::::::
 
-:::::prose-p3
+:::::text-p3
 Takie podejście pozwoliło na utrzymanie ciągłości działania sklepu, kontynuowanie sprzedaży oraz działań marketingowych po wygaśnięciu współpracy z platformą SAAS
 :::::
 ::::
@@ -342,7 +342,7 @@ maxWidth: 600
 #### Integracje
 
 #description
-:::::prose-p3
+:::::text-p3
 Sklep Feeby wymagał wdrożenia licznych integracji i analityki, wśród najważniejszych znalazły się
 :::::
 ::::
@@ -388,7 +388,7 @@ maxWidth: 700
 #### Współpraca powdrożeniowa
 
 #description
-:::::prose-p3
+:::::text-p3
 Po pomyślnym wdrożeniu i opublikowaniu sklepu oraz dzięki zaufaniu jakim obdarzył nas klient, rozpoczęliśmy współpracę polegającą na wsparciu technicznym i rozbudowie.
 
 W pierwszych miesiącach współpracy dostarczyliśmy konfigurator fototapet premium, dzięki któremu umożliwiliśmy użytkownikom sklepu dostosowanie produktu do indywidualnych preferencji. Kolejnymi pracami w ramach wsparcia były optymalizacja sklepu, aktualizacja środowiska Prestashop do nowszej wersji czy wdrożenie funkcjonalności usprawniających zarządzanie sklepem.
@@ -406,7 +406,7 @@ W pierwszych miesiącach współpracy dostarczyliśmy konfigurator fototapet pre
 class: static-content mb-[50px] tablet:mb-[100px]
 ---
 :::effect-appear
-::::layout-columns-5-7
+::::block-columns-5-7
 ---
 class: mx-default
 ---
@@ -431,7 +431,7 @@ refer: 5
 
 #content
 
-::::::prose-p3
+::::::text-p3
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
 **Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.**
@@ -442,7 +442,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 #### **Rafał Kowalski**
 
 #authorTitle
-::::::prose-p6
+::::::text-p6
 Marketing and Sales Executive - IS-Wireless
 ::::::
 :::::

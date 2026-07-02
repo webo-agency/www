@@ -43,7 +43,7 @@ class: translate-y-[40px] desktop:translate-y-[220px] [&_h1]:max-w-[1080px]
 class: static-content mb-10
 ---
 
-:::layout-columns-blog-sidebar
+:::block-columns-blog-sidebar
 ---
 class:
 ---
@@ -55,7 +55,7 @@ class:
 class: _mx-blog [&_p]:!mb-10
 ---
 
-:::::prose-p3
+:::::text-p3
 Wybór odpowiedniej platformy dla Twojej strony może mieć kluczowe znaczenie. Dwie popularne opcje to klasyczny WordPress oraz jego nowoczesna odmiana - Headless WordPress. Ale który z nich jest lepszy dla Twojego projektu? W tym artykule przyjrzymy się obu rozwiązaniom, ich zaletom i wadom, a także pomożemy Ci zdecydować, które z nich najlepiej odpowiada Twoim potrzebom.
 
 :::::
@@ -68,7 +68,7 @@ class: mx-blog mb-10 [&_li]:before:!bg-black [&_li]:!mb-2  [&_ul]:!mb-8
 
 ## Czym jest Headless WordPress i jak działa?
 
-:::::prose-p3
+:::::text-p3
 *<u><strong><a href="/uslugi/strony-headless-pwa/">Headless WordPress</a></strong></u>* to nowoczesne podejście do zarządzania treścią, które oddziela warstwę prezentacyjną (frontend) od warstwy zarządzania treścią (backend). W praktyce oznacza to, że WordPress działa jako system zarządzania treścią (CMS), podczas gdy frontend strony jest obsługiwany przez oddzielną aplikację, najczęściej stworzoną w oparciu o frameworki JavaScript takie jak Next.js (React) czy Nuxt (Vue).
 
 Takie rozwiązanie pozwala na większą elastyczność w projektowaniu interfejsu użytkownika oraz wyższą wydajność, ponieważ frontend może być zoptymalizowany niezależnie od backendu. Co więcej, dzięki wykorzystaniu API, treści mogą być łatwo dostarczane do różnych urządzeń i platform, takich jak aplikacje mobilne czy urządzenia IoT.
@@ -95,7 +95,7 @@ class: mx-blog [&_li]:!mb-2 [&_ul]:!mb-5
 
 ## Jakie są główne różnice między Headless a klasycznym WordPressem?
 
-:::::prose-p3
+:::::text-p3
 ---
 class: mb-0 [&_p]:!mb-5 [&_li]:before:!bg-transparent
 ---
@@ -113,7 +113,7 @@ class: mx-blog [&_h2]:desktop:!text-2xl
 
 ## Kiedy wybrać klasycznego WordPressa, a kiedy Headless WordPress?
 
-:::::prose-p3
+:::::text-p3
 ---
 class: ml-0 [&_p]:!mb-[40px] [&_ul]:!mb-10 [&_li]:before:!bg-black
 ---
@@ -161,7 +161,7 @@ class: mx-blog mb-10
 
 ## Czy Headless WordPress ma zastosowanie w e-commerce?
 
-:::::prose-p3
+:::::text-p3
 W kontekście e-commerce, Headless WordPress może być atrakcyjną opcją dla firm, które potrzebują zaawansowanej personalizacji i szybkości działania. Dzięki oddzieleniu warstwy prezentacyjnej, sklepy internetowe mogą oferować bardziej interaktywne i dynamiczne doświadczenia użytkownika, przy jednocześnie prostym zarządzaniu produktami i treściami w WordPressie.
 
 Dzięki takiej architekturze można też łatwo tworzyć frontend dla wielu kanałów sprzedaży - stron WWW, aplikacji mobilnych czy systemów zewnętrznych - niezależnie od tego, jaki CMS lub platforma e-commerce znajduje się na backendzie.
@@ -210,7 +210,7 @@ class: mx-blog
 
 ## Jakie są koszty implementacji Headless WordPress?
 
-:::::prose-p3
+:::::text-p3
 ---
 class: ml-0 [&_p]:!mb-8 [&_li]:before:!bg-black [&_li]:!mb-1 [&_ul]:!mb-8
 ---

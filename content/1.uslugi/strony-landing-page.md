@@ -33,7 +33,7 @@ W Webo tworzymy landing page bez gotowych szablonów, szybkie, przejrzyste i zap
 ---
 class: -mt-4
 ---
-::::prose-p-3
+::::text-p3
 ---
 class: mb-4 font-semibold text-lg
 ---
@@ -81,7 +81,7 @@ decoration: true
 class: tablet:top-0 right-0
 ---
 :::
-::::layout-columns-1-1
+::::block-columns-1-1
 ---
 reverseMobile: true
 class: items-center
@@ -97,7 +97,7 @@ class: items-center
 ## Landing page, <br>które pozyskują leady
 
 #description
-::::::prose-p-4
+::::::text-p4
 ---
 class: mb-5 leading-8
 ---
@@ -132,7 +132,7 @@ class: top-20 right-[10%] fullHd:right-[15%] scale-x-[-1.6] scale-y-[1.6]
 ---
 :::
 
-:::layout-columns-5-7
+:::block-columns-5-7
 ---
 reverseWidths: true
 class: mb-10 tablet:mb-20 [&_.left]:tablet:!basis-full
@@ -268,7 +268,7 @@ center: true
 
 ::::
 
-::::layout-columns-1-1
+::::block-columns-1-1
 ---
 class: mb-16 [&_.left]:flex [&_.left]:items-center
 ---
@@ -297,7 +297,7 @@ class: ml-0 !mb-5 !w-20 tablet:!w-[160px] desktop:!w-[200px]
 #### Nasze projekty są przemyślane
 
 #description
-:::::::prose-p-3
+:::::::text-p3
 ---
 class: mb-5 [&_p]:!leading-loose [&_p]:!mb-0
 --- 
@@ -334,7 +334,7 @@ class: w-full z-0
 :::::
 ::::
 
-::::layout-columns-1-1
+::::block-columns-1-1
 ---
 reverseMobile: true
 class: mb-16 [&_.right]:flex [&_.right]:items-center
@@ -387,13 +387,13 @@ class: ml-0 !pl-0 !mb-5 !w-20
 #### Wydajne wdrożenie i&nbsp;pełna&nbsp;kontrola nad projektem
 
 #description
-:::::::prose-p-3
+:::::::text-p3
 ---
 class: mb-5 [&_p]:!leading-loose [&_p]:!mb-0
 --- 
 Pod względem technicznym tworzymy strony w oparciu o zoptymalizowany kod HTML/CSS i odpowiednio skonfigurowany system WordPress, w zależności od wymagań projektu. Dzięki temu landingi są **lekkie, szybkie, zgodne z Core Web Vitals, SEO i łatwe do dalszej rozbudowy**. Jeśli kampania okaże się sukcesem, bez problemu przekształcimy landing w mikroserwis, stronę ofertową lub pełny funnel sprzedażowy.
 :::::::
-:::::::prose-p-3
+:::::::text-p3
 ---
 class: mb-5 [&_p]:!leading-loose [&_p]:!mb-0
 --- 
@@ -427,7 +427,7 @@ rounded: false
 ---
 classes: mb-10 tablet:mb-[110px]
 ---
-:::layout-columns-1-1
+:::block-columns-1-1
 ---
 class: mb-10
 ---
@@ -551,7 +551,7 @@ Każdy landing page testujemy przed publikacją, aby upewnić się, że działa 
 classes: mb-20 tablet:mb-20
 ---
 
-:::layout-columns-1-1
+:::block-columns-1-1
 ---
 reverseMobile: true
 class: mb-0 [&_.right]:flex [&_.right]:items-center
@@ -615,14 +615,14 @@ class: mb-10
 ## Projektowanie *landing page* od zera, UX, kod i skuteczność
 
 #description
-::::::prose-p-4
+::::::text-p4
 ---
 class: mb-10
 ---
 Nie korzystamy z gotowych szablonów. Każdy projekt powstaje od zera - zarówno pod względem UX/UI, jak i kodu. Dzięki temu strona ładuje się szybko, jest maksymalnie przejrzysta i prowadzi użytkownika do jasno określonej akcji. 
 
 ::::::
-::::::prose-p-4
+::::::text-p4
 ---
 class: mb-10
 ---

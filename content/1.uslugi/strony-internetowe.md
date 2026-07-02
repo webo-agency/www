@@ -40,7 +40,7 @@ svgUrl_br: '/img/svg-square.svg'
 classes: mb-10 desktop:mb-[80px]
 ---
 
-:::layout-columns-1-1
+:::block-columns-1-1
 
 #left
 ::::effect-appear
@@ -58,14 +58,14 @@ class: mb-[60px]
 ## Tworzymy solidne strony <br> www *dla ambitnych firm*
 
 #description
-::::::prose-p-3
+::::::text-p3
 ---
 class: max-w-[650px] [&_p]:!leading-8
 --- 
 Nie korzystamy z gotowych szablonów ani kreatorów. Tworzenie stron internetowych realizujemy od podstaw, programując każdą witrynę w oparciu o sprawdzone i nowoczesne technologie. Dzięki przejrzystemu procesowi, standaryzacji i autorskiemu podejściu, gwarantujemy:
 ::::::
 
-::::::prose-p-4
+::::::text-p4
 ---
 class: max-w-[650px] mb-5 [&_p]:!leading-7 ml-3
 --- 
@@ -75,7 +75,7 @@ class: max-w-[650px] mb-5 [&_p]:!leading-7 ml-3
 &#8226; łatwą rozbudowę i stabilność na lata,<br>
 ::::::
 
-::::::prose-p-4
+::::::text-p4
 ---
 class: text-base max-w-[650px] mb-5 [&_p]:!leading-7
 --- 
@@ -114,7 +114,7 @@ class: tablet:w-auto !w-full desktop:mt-[-230px] desktop:-mr-10 tablet:!pl-20 de
 classes: mb-5 tablet:mb-32
 ---
 
-:::layout-columns-1-1
+:::block-columns-1-1
 ---
 class: w-auto [&_div.left]:!basis-[40%] [&_div.right]:!basis-[60%]
 reverseMobile: true
@@ -159,14 +159,14 @@ class: mb-[60px] desktop:mt-[100px]
 ## Strony internetowe, platformy i dedykowane rozwiązania webowe
 :::::
 
-:::::prose-p-3
+:::::text-p3
 ---
 class: max-w-full mb-10 [&_p]:!leading-8 desktop:[&_p]:text-lg
 --- 
 Niezależnie od tego czy potrzebujesz **landing page sprzedażowy**, dedykowane rozwiązanie webowe, czy **rozbudowany serwis internetowy** dla swojej firmy - nasz zespół to programiści z krwi i kości mający doświadczenie w **najbardziej skomplikowanych projektach**. Z przyjemnością  zrealizujemy dla Ciebie:
 :::::
 
-:::::prose-p-3
+:::::text-p3
 ---
 class: max-w-full bg-green-gray p-5 tablet:p-10 mb-10 [&_p]:!leading-8 desktop:text-[20px] !font-semibold [&_p]:!leading-[40px]
 --- 
@@ -312,7 +312,7 @@ class: mb-20
 ::::
 :::
 
-:::layout-columns-1-1
+:::block-columns-1-1
 ---
 class: mb-10 tablet:mb-20
 ---
@@ -693,7 +693,7 @@ Często publikacja strony to dopiero początek, a podczas użytkowania strony po
 classes: mb-20 tablet:mb-[80px] [&_.right]:flex [&_.right]:flex-col [&_.right]:justify-center
 ---
 
-:::layout-columns-1-1
+:::block-columns-1-1
 
 #left
 
@@ -745,19 +745,19 @@ class: mb-10
 ## Jak wyceniamy projekty stron internetowych?
 
 #description
-::::::prose-p-4
+::::::text-p4
 ---
 class: mb-10
 ---
 Nie korzystamy z gotowych pakietów ani cenników, które ograniczają możliwości rozwoju. Każdy projekt traktujemy indywidualnie, analizując Twoje potrzeby, cele biznesowe oraz zakres funkcjonalności.
 ::::::
-::::::prose-p-4
+::::::text-p4
 ---
 class: mb-10
 ---
 Wycena strony powstaje po wspólnych warsztatach lub bezpłatnej konsultacji - dzięki temu masz pewność, że finalna propozycja jest dopasowana, przejrzysta i uwzględnia zarówno technologię, jak i długookresowe plany rozwoju strony.
 ::::::
-::::::prose-p-4
+::::::text-p4
 **Zależy Ci na konkretach?** Porozmawiajmy o Twojej stronie - przygotujemy jasną ofertę bez zbędnych kosztów.
 ::::::
 :::::

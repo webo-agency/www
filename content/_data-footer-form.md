@@ -46,7 +46,7 @@ required: true
 Nazwa firmy
 
 ::::
-::::layout-columns-1-1
+::::block-columns-1-1
 ---
 class: gap-x-2
 ---

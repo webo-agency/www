@@ -2,7 +2,7 @@
   <div
     ref="container"
     class="transition duration-500"
-    :class="{ 'opacity-0 translate-y-2.5': !visited }"
+    :class="{ 'opacity-0 translate-y-2.5': !visited && toggleOpacity, 'effect': trackCenter, 'active': isInCenter }"
     :style="{ 'transition-delay': delay + 'ms' }"
   >
     <slot></slot>
@@ -19,6 +19,16 @@ export default {
       type: Number,
       default: 0,
     },
+    toggleOpacity: {
+      type: Boolean,
+      default: true,
+    },
+    // Adds .effect / .active classes when the element passes the window
+    // center — used by list items that fade siblings in and out.
+    trackCenter: {
+      type: Boolean,
+      default: false,
+    },
   },
   async setup() {
     const container = ref(null);
@@ -34,23 +44,36 @@ export default {
         windowHeight.value - (windowWidth.value > 768 ? calcOffset : 150)
       );
     });
+    const isInWindowCenter = computed(() => {
+      return (
+        windowHeight.value / 2 - (height.value + 36) < y.value &&
+        y.value < windowHeight.value / 2
+      );
+    });
     return {
       container,
       y,
       height,
       windowHeight,
       isVisible,
+      isInWindowCenter,
     };
   },
   data() {
     return {
       visited: false,
+      isInCenter: false,
     };
   },
   watch: {
     isVisible(value) {
       if (value) {
         this.visited = true;
+      }
+    },
+    isInWindowCenter(value) {
+      if (this.trackCenter) {
+        this.isInCenter = value;
       }
     },
   },

@@ -38,7 +38,7 @@ svgUrl_br: '/img/svg-square.svg'
 ---
 classes: pt-20 mb-5 tablet:mb-20 overflow-hidden
 ---
-:::layout-columns-1-1
+:::block-columns-1-1
 ---
 class: items-center
 ---
@@ -60,14 +60,14 @@ maxWidth: 610
 ## Skup się na biznesie, stronę www *zostaw specjalistom*
 
 #description
-:::::prose-p-3
+:::::text-p3
 ---
 class: mb-5 [&_p]:!leading-8 [&_p]:!mb-0
 --- 
 Administracja stroną to czasochłonne zajęcie - m.in aktualizacje, reagowanie na awarie czy dłubanie przy rozbudowie. A co gdybyś miał od tego doświadczony zespół, który przejmie Twoje obowiązki, na dodatek doradzi w kwestii UX oraz IT i szybciej zrealizuje pracę? 
 :::::
 
-:::::prose-p-4
+:::::text-p4
 ---
 class: mb-0 [&_p]:!leading-7 text-base [&_p]:!mb-0
 ---
@@ -381,7 +381,7 @@ class: mb-20
 ::::
 :::
 
-:::layout-columns-1-1
+:::block-columns-1-1
 ---
 class: mb-10 tablet:mb-20
 ---
@@ -518,7 +518,7 @@ class: mb-20
 ::::
 :::
 
-:::layout-columns-1-1
+:::block-columns-1-1
 
 #left
 ::::tile-icon
@@ -530,13 +530,13 @@ icon: '/img/icons/services-calendar.svg'
 #### Model abonamentowy
 
 #content
-:::::prose-p3
+:::::text-p3
 ---
 class: mb-5 leading-8 text-lg
 --- 
 W modelu abonamentowym ustalamy pakiet godzin, który masz do wykorzystania każdego miesiąca na pracę specjalistów (projektantów i programistów). Ilość godzin w pakiecie dobierana jest indywidualnie na podstawie zgłoszonego przez Ciebie zapotrzebowania i planów rozwoju strony.
 :::::
-:::::prose-p4
+:::::text-p4
 ---
 class: mb-0 leading-7
 --- 
@@ -554,13 +554,13 @@ icon: '/img/icons/services-worktime.svg'
 #### Model elastyczny
 
 #content
-:::::prose-p3
+:::::text-p3
 ---
 class: mb-5 leading-8 text-lg
 --- 
 Jeśli masz mniejsze potrzeby i nie planujesz stałych comiesięcznych prac nad stroną, rozumiemy to. W modelu elastycznym prace realizujemy zleceniowo, każdorazowo ustalając termin wykonania.
 :::::
-:::::prose-p4
+:::::text-p4
 ---
 class: tablet:mb-16 desktop:mb-20 leading-7
 ---
@@ -577,7 +577,7 @@ Płacisz tylko i wyłącznie gdy potrzebujesz naszego wsparcia, możesz liczyć 
 classes: mb-20 tablet:mb-[100px]
 ---
 
-:::layout-columns-1-1
+:::block-columns-1-1
 ---
 class: items-center
 ---
@@ -610,13 +610,13 @@ class: mb-10 tablet:mb-16
 ## HelpDesk czyli <br> *Twój system dowodzenia*
 
 #description
-::::::prose-p-3
+::::::text-p3
 ---
 class: mb-5 [&_p]:!leading-8 [&_p]:!mb-0
 --- 
 Niezależnie od tego jaki model współpracy wybierzesz, otrzymasz dostęp do naszego systemu zgłoszeń do którego wykorystujemy narzędzie JIRA. 
 ::::::
-::::::prose-p-4
+::::::text-p4
 ---
 class: mb-0 [&_p]:!leading-7 text-base [&_p]:!mb-0
 ---

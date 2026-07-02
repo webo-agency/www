@@ -70,51 +70,51 @@ class: mx-default
 class: mx-default flex flex-col md:flex-row gap-10 lg:gap-20
 ---
 
-::::prose-p3
+::::text-p3
 
 **Eurostal** działa na rynku od 2009 roku. Dzięki wieloletniemu doświadczeniu i wykwalifikowanej kadrze stał się liderem w produkcji lekkich konstrukcji stalowych. W ofercie Eurostal znajdują się garaże blaszane, hale, magazyny, domki narzędziowe i ogrodowe, wiaty na śmieci i drewno, kojce dla psów oraz różne, nawet najbardziej skomplikowane, nietypowe konstrukcje realizowane zawsze z myślą o spełnieniu kolejnej potrzeby klienta..
 
 Swoją działania prowadzi głównie poza granicami Polski (m.in. w Czechach, Słowacji na Węgrzech, w Rumunii oraz na terenie Niemiec i Włoch) gdzie zyskał uznanie tysięcy klientów. 
 ::::
 
-::::prose-bg
+::::text-bg
 ---
 class: min-w-[280px] md:self-baseline !p-[30px] !mx-0 font-semibold
 --- 
 
-::::prose-p6
+::::text-p6
 ---
 class: uppercase [&_p]:!mb-2
 ---
 _Kraj_
 ::::
-::::prose-p4
+::::text-p4
 ---
 class: mx-0 [&_p]:!mb-4
 ---
 **Polska**
 ::::
 
-::::prose-p6
+::::text-p6
 ---
 class: uppercase [&_p]:!mb-2
 ---
 _Branża_
 ::::
-::::prose-p4
+::::text-p4
 ---
 class: mx-0 [&_p]:!mb-4
 ---
 **Produkcja konstrukcji stalowych**
 ::::
 
-::::prose-p6
+::::text-p6
 ---
 class: uppercase [&_p]:!mb-2
 ---
 _Zakres prac_
 ::::
-::::prose-p4
+::::text-p4
 ---
 class: mx-0 [&_p]:!mb-4
 ---
@@ -139,7 +139,7 @@ class: mx-default
 
 #### **Konfigurator 3D produktu na Woocommerce**
 
-::::prose-p3
+::::text-p3
 Przed wdrożeniem kofniguratora, użytkownik miał możliwość dokonania zamówienia tylko z dostępnej oferty produktowej. Stworzenie garażu na wymiar wymagało bezpośredniego kontaktu i omawiania szczegółów podczas rozmowy z handlowcem.
 
 Zlecenie zgłoszone przez klienta polegało na przygotowaniu konfiguratora 3D garaży, który usprawni i skróci proces sprzedażowy. Stworzenie konfiguratora miało na celu umożliwienie użytkownikom swobodnego zaprojektowania swojego garażu, skracając tym samym czas pracy handlowców jaki musieli poświęcać na ustalanie szczegółów konstrukcji. 
@@ -147,12 +147,12 @@ Zlecenie zgłoszone przez klienta polegało na przygotowaniu konfiguratora 3D ga
 :::
 
 :::effect-appear
-::::prose-bg{class='font-semibold'}
-:::::prose-p1
+::::text-bg{class='font-semibold'}
+:::::text-p1
 **Zakres prac**
 :::::
 
-:::::prose-p2
+:::::text-p2
 - Projekt UX/UI konfiguratora
 - Wdrożenie silnika konfiguratora z wykorzystaniem biblioteki ThreeJS
 - Wdrożenie pól wyboru zgodnie z przygotowanym projektem
@@ -175,7 +175,7 @@ class: mx-default
 
 ### **Kluczowe elementy**
 
-::::prose-p3
+::::text-p3
 Podczas pracy nad konfiguratorem, musieliśmy zwrócić szczególną uwagę na aspekt techniczny produkowanych przed klienta garaży. Wymiar konstrukcji uzależniony jest od wielu elementów, które do swoich potrzeb może dostosować użytkownik. Prócz aspektów technicznych bardzo ważne było umożliwienie podglądu garażu w trybie rzeczywistym.
 ::::
 :::
@@ -185,7 +185,7 @@ Podczas pracy nad konfiguratorem, musieliśmy zwrócić szczególną uwagę na a
 class: mx-default
 ---
 
-1. ::::prose-p3
+1. ::::text-p3
 ---
 class: mx-0 [&_p]:mt-4
 ---
@@ -194,7 +194,7 @@ class: mx-0 [&_p]:mt-4
 Wszystkie parametry garażu muszą być spójne ze specyfikacją techniczną tak aby skonfigurowany garaż był zgodny z rzeczywistymi możliwościami produkcji. M.in. wysokość garażu uzależniona jest od wysokości wybranej bramy, rodzaj dachu i wysokości garażu wpływa na możliwość osadzenia drzwi, a stopień nachylenia dachu uzależniony jest od szerokości. Wszystkie zależności obliczane są na podstawie danych technicznych przekazanych przez klienta.
 ::::
 
-2. ::::prose-p3
+2. ::::text-p3
 ---
 class: mx-0 [&_p]:mt-4
 ---
@@ -202,7 +202,7 @@ class: mx-0 [&_p]:mt-4
 
 Jednym z głównych założeń była możliwość swobodnego oglądania garażu. Wymagało to stworzenia widoku 3D, dzięki któremu użytkownik może obracać garaż w dowolnym kierunu oraz przybliżać / oddalać widok za pomocą scrollowania. Zmiany w modelu generowane są automatycznie po wybraniu opcji przeż użytkownika, bez konieczności przeładowania strony.
 ::::
-3. ::::prose-p3
+3. ::::text-p3
 ---
 class: mx-0 [&_p]:mt-4
 ---
@@ -210,7 +210,7 @@ class: mx-0 [&_p]:mt-4
 
 Konfigurując swój garaż użytkownik ma możliwość ustawienia wysokości i szerokości bramy oraz dostosowania jej położenia w poziomie. Jako opcja dostępne są także drzwi i okna które można swobodnie przesuwać w 2 płaszczyznach. Prócz tego użytkownik może wybrać rodzaj konstrukcji, kolor poszycia oraz dobrać akcesoria np. system alarmowy.
 ::::
-4. ::::prose-p3
+4. ::::text-p3
 ---
 class: mx-0 [&_p]:mt-4
 ---
@@ -281,7 +281,7 @@ class: mx-default
 
 #### **Konfigurator produktu 3D z wykorzystaniem ThreeJS**
 
-::::prose-p3
+::::text-p3
 Z racji na to że sklep internetowy Eurostal zbudowany jest na platformie WooCommerce, musieliśmy zapewnić poprawność działania właśnie w tym systemie. Wdrożone rozwiązanie musiało umożliwić edycję parametrów konfiguratora z poziomu panelu administracyjnego Wordpress.
 
 Bardzo duża ilość możliwych konfiguracji garażu uniemożliwiała skorzystanie z prostych form wizualizacji np. wgrania zdjęć różnych wersji garażu. Silnik konfiguratora Eurostal zbudowany został z wykorzystaniem biblioteki ThreeJS, która rysuje model 3D wykonując algorytm obliczający współrzędne. Oznacza to ze konfigurator nie potrzebuje wgrania gotowych zdjęć / renderów produktu - model 3D generowany jest w czasie rzeczywistym.
@@ -330,7 +330,7 @@ class: -bottom-6 -left-32
 ::::
 
 ### **Rezultat pracy**
-::::prose-p3
+::::text-p3
 Ostatnim etapem prac było wykonanie optymalizacji zdjęć które przyśpieszyło czas ładowania, dodanie prostego formularza kontaktowego oraz publikacja konfiguratora na kilku sklepach klienta.
 
 W efekcie prac nasz klient otrzymał gotowy konfigurator produktu który może być dowolnie rozbudowywany, zarówno o funkcje sprzedażowe, jak i konstrukcyjne wpływające na wygląd i specyfikę sprzedawanych garaży - zastosowana technologia nie stawia ograniczeń. 
@@ -367,7 +367,7 @@ avatar: '/img/content-images/eurostal_avatar.png'
 
 #content
 
-:::::prose-p3
+:::::text-p3
 Świetna współpraca przy tworzeniu strony i konfiguratora. Firma WEBO to **profesjonaliści, którzy dotrzymują terminów** i mają świetne podejście do klienta. Wszystko działa bez zarzutu, Polecam !
 
 :::::
@@ -377,7 +377,7 @@ avatar: '/img/content-images/eurostal_avatar.png'
 #### **Dawid Jasek**
 
 #authorTitle
-:::::prose-p6
+:::::text-p6
 Sales Manager - **Eurostal**
 :::::
 ::::

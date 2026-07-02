@@ -64,7 +64,7 @@ class: _static-content mb-[50px] tablet:mb-[100px]
 ---
 class: _mx-default
 ---
-::::layout-columns-1-1
+::::block-columns-1-1
 ---
 reverseMobile: true
 class: items-center [&_div.right]:self-start
@@ -266,7 +266,7 @@ link: 'https://www.google.com/search?sa=X&sca_esv=950f1dd50efd152d&tbm=lcl&q=Web
 
 #content
 
-:::::prose-p3
+:::::text-p3
 Świetna współpraca – **bardzo sprawna komunikacja, trafne pomysły** i spostrzeżenia, szybko, sprawnie i w **bardzo przyjemnej atmosferze**. Strona **wygląda super, wszystko działa jak trzeba**. Polecam z czystym sumieniem!
 :::::
 
@@ -275,7 +275,7 @@ link: 'https://www.google.com/search?sa=X&sca_esv=950f1dd50efd152d&tbm=lcl&q=Web
 #### **Mateusz Pienkowski**
 
 #authorTitle
-:::::prose-p6
+:::::text-p6
 Właściciel - **Velair**
 :::::
 ::::

@@ -40,7 +40,7 @@ svgUrl_br: '/img/svg-square.svg'
 ---
 classes: mb-[50px] tablet:mb-[200px] overflow-x-clip overflow-y-visible
 ---
-:::layout-columns-1-1
+:::block-columns-1-1
 ---
 class: items-center
 ---
@@ -63,7 +63,7 @@ class: ml-0 tablet:[&_p]:!min-w-[640px]
 ## *Sklepy PrestaShop* dopasowane do Twojego biznesu
 
 #description
-:::::prose-p-3
+:::::text-p3
 ---
 class: mb-5 [&_p]:!leading-8 [&_p]:!mb-0
 --- 
@@ -101,7 +101,7 @@ class: tablet:w-auto !w-full desktop:mt-[-230px] tablet:!pl-10
 class: mb-[50px] tablet:mb-[150px]
 ---
 
-:::layout-columns-1-1
+:::block-columns-1-1
 ---
 reverseMobile: true
 ---
@@ -146,7 +146,7 @@ class: mb-10 [&_h2]:max-w-[500px]
 ## Tworzymy szyte na miarę sklepy Prestashop z myślą o&nbsp;*stabilnym działaniu*
 
 #description
-::::::prose-p-4
+::::::text-p4
 ---
 class: mb-5 leading-8 min-w-full
 ---
@@ -167,7 +167,7 @@ class: tablet:top-0 right-0
 classes: mb-10 tablet:mb-20
 ---
 
-:::layout-columns-1-1
+:::block-columns-1-1
 ---
 class: mb-10
 ---
@@ -283,7 +283,7 @@ center: true
 
 ::::
 
-::::layout-columns-1-1
+::::block-columns-1-1
 ---
 class: mb-16 [&_.left]:flex [&_.left]:items-center
 ---
@@ -312,7 +312,7 @@ class: ml-0 !mb-5 !w-20 tablet:!w-[160px] desktop:!w-[200px]
 #### Ogromna elastyczność i tysiące modułów
 
 #description
-:::::::prose-p-3
+:::::::text-p3
 ---
 class: mb-5 [&_p]:!leading-loose [&_p]:!mb-0
 --- 
@@ -345,7 +345,7 @@ class: w-full z-0
 :::::
 ::::
 
-::::layout-columns-1-1
+::::block-columns-1-1
 ---
 reverseMobile: true
 class: mb-16 [&_.right]:flex [&_.right]:items-center
@@ -398,7 +398,7 @@ class: ml-0 !pl-0 !mb-5 !w-20
 #### Wsparcie w pozycjonowaniu stron internetowych
 
 #description
-:::::::prose-p-3
+:::::::text-p3
 ---
 class: mb-5 [&_p]:!leading-loose [&_p]:!mb-0
 --- 
@@ -408,7 +408,7 @@ PrestaShop oferuje funkcje, które wspierają pozycjonowanie: konfigurowalne adr
 :::::
 ::::
 
-::::layout-columns-1-1
+::::block-columns-1-1
 ---
 class: mb-0 [&_.left]:flex [&_.left]:items-center
 ---
@@ -437,7 +437,7 @@ class: ml-0 !mb-5 !w-20 tablet:!w-[160px] desktop:!w-[200px]
 #### Wysokie bezpieczeństwo i stabilność działania
 
 #description
-:::::::prose-p-3
+:::::::text-p3
 ---
 class: mb-5 [&_p]:!leading-loose [&_p]:!mb-0
 --- 
@@ -482,7 +482,7 @@ rounded: false
 classes: mb-20 tablet:mb-[130px]
 ---
 
-:::layout-columns-1-1
+:::block-columns-1-1
 ---
 reverseMobile: true
 class: mb-0 [&_.right]:flex [&_.right]:items-center
@@ -546,13 +546,13 @@ class: mb-10
 ## Do kogo kierujemy ofertę *tworzenia sklepów PrestaShop*
 
 #description
-::::::prose-p-4
+::::::text-p4
 ---
 class: mb-10
 ---
 Nasza propozycja jest idealna dla firm, które chcą wejść na rynek e‑commerce z gotowym, profesjonalnym sklepem, ale nie chcą być ograniczone standardowymi rozwiązaniami. Jeśli sprzedajesz produkty fizyczne, cyfrowe, prowadzisz sprzedaż lokalną i międzynarodową, potrzebujesz funkcji zaawansowanych (np. konfiguratory, zestawy produktów, promocje, rabaty grupowe) - sklep PrestaShop będzie świetnym wyborem.
 ::::::
-::::::prose-p-4
+::::::text-p4
 ---
 class: mb-10
 ---
@@ -566,7 +566,7 @@ Także jeśli prowadzisz kampanie marketingowe, potrzebujesz integracji z system
 ---
 classes: mb-10 tablet:mb-20
 ---
-:::layout-columns-1-1
+:::block-columns-1-1
 ---
 class: mb-10
 ---

@@ -38,7 +38,7 @@ svgUrl_tr: '/img/svg-square.svg'
 classes: mb-[100px] tablet:mb-[200px] overflow-x-clip overflow-y-visible
 ---
 :::effect-appear
-::::layout-columns-1-1
+::::block-columns-1-1
 ---
 reverseMobile: true
 class: items-center
@@ -55,13 +55,13 @@ class: items-center
 ## W dostarczaniu stron *stawiamy&nbsp;na&nbsp;jakość*
 
 #description
-::::::prose-p-4
+::::::text-p4
 ---
 class: mb-10
 ---
 Wordpress CMS jest najpopularniejszym systemem zarządzania treścią stron internetowych na świecie. Bardzo dobrze znamy ten system a na dodatek łączymy go z nowoczesnymi rozwiązaniami i technologiami.
 ::::::
-::::::prose-p-4
+::::::text-p4
 ---
 class: text-base
 ---
@@ -252,7 +252,7 @@ center: true
 
 ::::
 
-::::layout-columns-1-1
+::::block-columns-1-1
 ---
 class: mb-16
 ---
@@ -281,13 +281,13 @@ class: ml-0 !mb-5 !w-20 tablet:!w-[160px] desktop:!w-[200px]
 #### Programujemy od podstaw - bez użycia słabych&nbsp;wydajnościowo szablonów
 
 #description
-:::::::prose-p-3
+:::::::text-p3
 ---
 class: mb-5 [&_p]:!leading-loose [&_p]:!mb-0
 --- 
 Gotowe szablony często zawierają dużo niepotrzebnego kodu i funkcji, które m.in. zmniejszają wydajność strony i ograniczają jej bezpieczeństwo. W Webo stawiamy na programowanie stron od podstaw, przemyślane funkcję i optymalny kod, co pozwala na osiągnięcie znacznie wyższych wyników wydajnościowych oraz wysoką elastyczność w modyfikacjach i rozbudowie. 
 :::::::
-:::::::prose-p-4
+:::::::text-p4
 ---
 class: mb-0 [&_p]:!leading-loose [&_p]:!mb-0
 ---
@@ -320,7 +320,7 @@ class: w-full z-0
 :::::
 ::::
 
-::::layout-columns-1-1
+::::block-columns-1-1
 ---
 reverseMobile: true
 class: mb-16
@@ -373,13 +373,13 @@ class: ml-0 !pl-0 !mb-5 !w-20
 #### Projektujemy indywidualnie dla&nbsp;Twojej&nbsp;firmy&nbsp;i&nbsp;jej&nbsp;potrzeb
 
 #description
-:::::::prose-p-3
+:::::::text-p3
 ---
 class: mb-5 [&_p]:!leading-loose [&_p]:!mb-0
 --- 
 Czy chciałbyś aby Twoja strona wyglądała jak 1000 innych stron w internecie? Lub aby nie spełniała potrzeb Twojego biznesu i oczekiwań klientów?  Jeśli odpowiedź to ,,nie” już wiesz dlaczego tak ważne jest aby projekt UX/UI strony internetowej był przygotowany indywidualnie dla Twojej firmy.
 :::::::
-:::::::prose-p-4
+:::::::text-p4
 ---
 class: mb-0 [&_p]:!leading-loose [&_p]:!mb-0
 ---
@@ -389,7 +389,7 @@ Odpowiednie przygotowany projekt strony przynosi szereg korzyści m.in. zwiększ
 :::::
 ::::
 
-::::layout-columns-1-1
+::::block-columns-1-1
 
 #left
 
@@ -415,13 +415,13 @@ class: ml-0 !mb-5 !w-20 tablet:!w-[160px] desktop:!w-[200px]
 #### Tworzymy strony stabilnie działające przez lata&nbsp;i&nbsp;przygotowanie do rozwoju
 
 #description
-:::::::prose-p-3
+:::::::text-p3
 ---
 class: mb-5 [&_p]:!leading-loose [&_p]:!mb-0
 --- 
 Strona internetowa jest inwestycją, która ma przynosić Twojej firmie korzyści a nie być kulą u nogi. Naszym zadaniem jest stworzenie strony stabilnie działającej przez lata, bez obaw o wydajność czy dostępność dla potencjalnych klientów.
 :::::::
-:::::::prose-p-4
+:::::::text-p4
 ---
 class: mb-0 [&_p]:!leading-loose [&_p]:!mb-0
 ---
@@ -514,7 +514,7 @@ class:  desktop:min-h-[270px] w-1/3
 ---
 classes: mb-10 tablet:mb-20
 ---
-:::layout-columns-1-1
+:::block-columns-1-1
 ---
 class: mb-10
 ---
@@ -689,7 +689,7 @@ Często publikacja strony to dopiero początek, a podczas użytkowania strony po
 classes: mb-20 tablet:mb-[100px]
 ---
 
-:::layout-columns-1-1
+:::block-columns-1-1
 
 #left
 
@@ -741,19 +741,19 @@ class: mb-10
 ## Profesjonalna budowa stron na WordPress - *solidna baza dla Twojego biznesu*
 
 #description
-::::::prose-p-4
+::::::text-p4
 ---
 class: mb-10
 ---
 Coraz więcej firm decyduje się na **tworzenie strony internetowej w WordPress**, ponieważ system ten łączy prostotę obsługi z ogromnymi możliwościami technicznymi. Kluczowe jest jednak to, kto i jak realizuje taki projekt. W Webo nie korzystamy z gotowych szablonów - każda strona na **WordPress powstaje od zera**, dokładnie pod wymagania danego biznesu.
 ::::::
-::::::prose-p-4
+::::::text-p4
 ---
 class: mb-10
 ---
 Zamiast iść na skróty, oferujemy w pełni **dedykowane tworzenie stron WordPress**, co oznacza indywidualny projekt graficzny, czysty i zoptymalizowany kod oraz pełną kontrolę nad funkcjonalnością i wydajnością witryny. Dzięki temu masz pewność, że Twoja strona nie tylko świetnie wygląda, ale też działa szybko, jest bezpieczna i gotowa na dalszy rozwój.
 ::::::
-::::::prose-p-4
+::::::text-p4
 Jako **firma tworząca strony WordPress od podstaw**, doskonale rozumiemy potrzeby nowoczesnych biznesów – od prostych serwisów firmowych, przez rozbudowane platformy informacyjne, aż po integracje z systemami zewnętrznymi i dedykowane moduły. Łączymy **projektowanie UX/UI**, programowanie front-end i back-end oraz optymalizację SEO, tworząc kompletne rozwiązania online.
 ::::::
 :::::
@@ -765,7 +765,7 @@ Jako **firma tworząca strony WordPress od podstaw**, doskonale rozumiemy potrze
 classes: mb-10 tablet:mb-20
 ---
 
-:::layout-columns-1-1
+:::block-columns-1-1
 ---
 class: mb-20
 ---
@@ -797,7 +797,7 @@ Dla wielu klientów WordPress kojarzy się z prostym edytorem treści. Tymczasem
 ::::
 :::
 
-:::layout-columns-1-1-1
+:::block-columns-1-1-1
 ---
 class: mb-10 tablet:mb-20 tablet:gap-[30px]
 ---

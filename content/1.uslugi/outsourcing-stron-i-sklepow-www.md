@@ -33,7 +33,7 @@ Prowadzisz agencję i chcesz delegować pracę nad stronami swoich klientów? Wy
 ---
 class: -mt-4
 ---
-::::prose-p-3
+::::text-p3
 ---
 class: mb-4 font-semibold text-lg
 ---
@@ -123,7 +123,7 @@ class: mb-[60px] [&_h2]:!text-[30px]
 classes: mb-5 tablet:mb-32
 ---
 
-:::layout-columns-1-1
+:::block-columns-1-1
 ---
 class: w-auto [&_div.left]:!basis-[40%] [&_div.right]:!basis-[60%]
 reverseMobile: true
@@ -176,7 +176,7 @@ class: mb-[60px] desktop:mt-[100px]
 ## Solidne wdrożenia webowe, dla Twojej agencji
 :::::
 
-:::::prose-p-3
+:::::text-p3
 ---
 class: max-w-full mb-10 [&_p]:!leading-8 desktop:[&_p]:text-lg
 --- 
@@ -187,7 +187,7 @@ Zamiast budować i utrzymywać własny zespół UX/UI i DEV, możesz wynająć s
 Działamy jak część Twojej agencji - dopasowujemy się do procesów, narzędzi i stylu komunikacji. Bez chaosu, bez tłumaczenia podstaw i bez ryzyka, że finalny efekt nie dowiezie tego, co zostało obiecane klientowi.
 :::::
 
-:::::prose-p-3
+:::::text-p3
 ---
 class: max-w-full bg-green-gray p-5 tablet:p-10 mb-10 [&_p]:!leading-8 desktop:text-[20px] !font-semibold [&_p]:!leading-[40px]
 --- 
@@ -474,7 +474,7 @@ class: mt-0 !mb-0 !pl-0 !w-full tablet:h-full [&>div]:tablet:h-full [&_img]:obje
 classes: mb-20 tablet:mb-[80px] [&_.right]:flex [&_.right]:flex-col [&_.right]:justify-center
 ---
 
-:::layout-columns-1-1
+:::block-columns-1-1
 
 #left
 
@@ -631,7 +631,7 @@ Oferujemy dwa modele współpracy, które dopasowujemy do sposobu działania Two
 
 ::::
 
-::::layout-columns-1-1
+::::block-columns-1-1
 
 #left
 ::::tile-icon
@@ -802,7 +802,7 @@ class: mb-20
 ::::
 :::
 
-:::layout-columns-1-1
+:::block-columns-1-1
 
 #left
 ::::tile-icon
@@ -814,13 +814,13 @@ icon: '/img/content-images/dla-agencji/logo_grow.svg'
 #### 
 
 #content
-:::::prose-p3
+:::::text-p3
 ---
 class: mb-5 leading-8 text-lg
 --- 
 
 :::::
-:::::prose-p4
+:::::text-p4
 ---
 class: mb-0 leading-7
 --- 
@@ -838,13 +838,13 @@ icon: '/img/content-images/dla-agencji/logo_trafficpeaks.svg'
 #### 
 
 #content
-:::::prose-p3
+:::::text-p3
 ---
 class: mb-5 leading-8 text-lg
 --- 
 
 :::::
-:::::prose-p4
+:::::text-p4
 ---
 class: tablet:mb-16 desktop:mb-20 leading-7
 ---
@@ -854,7 +854,7 @@ class: tablet:mb-16 desktop:mb-20 leading-7
 :::
 
 
-:::layout-columns-1-1
+:::block-columns-1-1
 
 #left
 ::::tile-icon
@@ -866,13 +866,13 @@ icon: '/img/content-images/dla-agencji/logo_oxy.svg'
 #### 
 
 #content
-:::::prose-p3
+:::::text-p3
 ---
 class: mb-5 leading-8 text-lg
 --- 
 
 :::::
-:::::prose-p4
+:::::text-p4
 ---
 class: mb-0 leading-7
 --- 
@@ -890,13 +890,13 @@ icon: '/img/content-images/dla-agencji/logo_sembility.svg'
 #### 
 
 #content
-:::::prose-p3
+:::::text-p3
 ---
 class: mb-5 leading-8 text-lg
 --- 
 
 :::::
-:::::prose-p4
+:::::text-p4
 ---
 class: tablet:mb-16 desktop:mb-20 leading-7
 ---
@@ -951,7 +951,7 @@ id: opinie
 class: mb-[50px] tablet:mb-[100px]
 ---
 
-:::layout-columns-1-1
+:::block-columns-1-1
 ---
 class: mb-10 tablet:mb-24 [&_.right]:flex [&_.right]:items-center tablet:[&_.right]:justify-end [&_.right]:gap-[15px]
 ---

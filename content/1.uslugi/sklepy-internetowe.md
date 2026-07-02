@@ -35,7 +35,7 @@ Projektujemy i wdrażamy świetnie wyglądające i wydajne sklepy internetowe z 
 ---
 class: -mt-4
 ---
-::::prose-p-3
+::::text-p3
 ---
 class: mb-4 font-semibold text-lg
 ---
@@ -79,7 +79,7 @@ svgUrl_bl: '/img/svg-arc.svg'
 classes: mb-20 overflow-x-clip overflow-y-visible
 ---
 :::effect-appear
-::::layout-columns-1-1
+::::block-columns-1-1
 ---
 reverseMobile: true
 class: items-center
@@ -95,13 +95,13 @@ class: items-center
 ## Dostarczamy stabilnie działające sklepy online przygotowane do rozwoju
 
 #description
-::::::prose-p-4
+::::::text-p4
 ---
 class: mb-5 leading-8
 ---
 Sklep internetowy to często serce biznesu, wyobraź sobie że Twoja działalność się rozwija, na sklep internetowy wchodzi coraz więcej klientów a Ty potrzebujesz nowych funkcji.  O takich sytuacjach myślimy już na samym początku, od wybóru platformy, przez przygotowanie infrastruktury po **projektowanie i&nbsp;programowanie** sklepu umożliwiające rozwój.
 ::::::
-::::::prose-p-4
+::::::text-p4
 ---
 class: mb-5 leading-8 text-base
 ---
@@ -260,7 +260,7 @@ W zależności od wymagań Twojego projektu możemy dostarczyć
 ::::
 :::
 
-:::layout-columns-1-1
+:::block-columns-1-1
 
 #left
 
@@ -490,7 +490,7 @@ rounded: false
 ---
 classes: mb-10 tablet:mb-20
 ---
-:::layout-columns-5-7
+:::block-columns-5-7
 ---
 class: mb-10
 ---
@@ -665,7 +665,7 @@ Publikacja sklepu to dopiero początek, podczas użytkowania sklepu pojawiają s
 classes: mb-20 tablet:mb-[100px]
 ---
 
-:::layout-columns-1-1
+:::block-columns-1-1
 ---
 class: items-center
 ---
@@ -692,7 +692,7 @@ class: mb-10 tablet:mb-16 tablet:mt-10
 ---
 
 #subtitle
-::::::prose-p-3
+::::::text-p3
 ### *6/* Tworzenie sklepów WWW
 ::::::
 
@@ -700,13 +700,13 @@ class: mb-10 tablet:mb-16 tablet:mt-10
 ## Wsparcie techniczne i rozwójczyli co jeszcze musisz wiedzieć?
 
 #description
-::::::prose-p-3
+::::::text-p3
 ---
 class: mb-5 [&_p]:!leading-8 [&_p]:!mb-0
 --- 
 Stworzenie sklepu internetowego to dopiero początek, zaczynamy przygodę która jest pełna wyzwań. Kampanie marketingowe, optymalizacja sprzedaży, rozwój o nowe pomysły, wyścig z konkurencją. Z przyjemnością będziemy Cię w tym wspierać.
 ::::::
-::::::prose-p-4
+::::::text-p4
 ---
 class: mb-0 text-base [&_p]:!leading-7 [&_p]:!mb-0
 ---
@@ -723,7 +723,7 @@ Do w/w zadań warto jest mieć zaufany i doświadczony zespół projektantów or
 classes: mb-[60px]
 ---
 
-:::layout-columns-1-1
+:::block-columns-1-1
 
 #right
 
@@ -768,13 +768,13 @@ class: mb-10
 ## Kompleksowe tworzenie sklepów internetowych
 
 #description
-::::::prose-p-4
+::::::text-p4
 ---
 class: mb-10
 ---
 Tworzenie sklepów online to znacznie więcej niż samo wdrożenie platformy sprzedażowej. To projekt, który musi być odpowiednio zaplanowany, zaprojektowany i zakodowany, by służył Twoim klientom i **wspierał rozwój biznesu**. Kiedy decydujesz się na robienie sklepów internetowych z naszą pomocą, stawiasz na **partnerstwo, technologiczne kompetencje i doświadczenie**, które przekłada się na realne wyniki.
 ::::::
-::::::prose-p-4
+::::::text-p4
 ---
 class: mb-10 text-base
 ---

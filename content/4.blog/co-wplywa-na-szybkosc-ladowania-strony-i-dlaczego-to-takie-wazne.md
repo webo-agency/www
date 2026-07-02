@@ -45,7 +45,7 @@ class: mx-blog
 
 ### **Dlaczego szybkość jest ważna?**
 
-::::prose-p3
+::::text-p3
 Raporty Cloudflare i Google mówią nam jasno:
 - Blisko połowa użytkowników, spodziewa się, że strona internetowa załaduje się w ciągu 2 sekund i krócej.
 - Każde dodatkowe 0,5 sekundy to spadek odwiedzin kolejnych podstron o 20%.
@@ -61,7 +61,7 @@ class: mx-blog
 
 #### **Co wpływa na szybkość ładowania strony?**
 
-::::prose-p3
+::::text-p3
 - Kod strony: Zadbajmy o czysty, zoptymalizowany kod, stosowanie sprawdzonych praktyk i posiłkowanie się dokumentacją. Unikajmy nadmiernego użycia skryptów i wtyczek.
 - Rozmiar mediów: Duże obrazy i multimedia mogą znacząco zwolnić stronę. Optymalizacja grafik jest kluczowa.
 - Serwer: Wydajny serwer, odpowiednio skalowalny i dostosowany do potrzeb strony pomaga zapewnić użytkownikom szybki dostęp do treści.

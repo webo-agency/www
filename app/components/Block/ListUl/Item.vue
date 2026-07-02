@@ -1,6 +1,6 @@
 <template>
   <li>
-    <ui-effect-appear :toggleOpacity="false">
+    <effect-appear :toggleOpacity="false" :trackCenter="true">
       <div
         class="flex flex-col"
         :class="[animated ? 'li-faded pb-10 tablet:pb-16' : 'pb-5 tablet:pb-7',{'tablet:flex-row':iconLeft}]"
@@ -29,7 +29,7 @@
           ></div>
         </div>
       </div>
-    </ui-effect-appear>
+    </effect-appear>
   </li>
 </template>
 

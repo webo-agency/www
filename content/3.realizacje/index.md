@@ -14,7 +14,7 @@ center: true
 ---
 
 #subtitle
-:::::prose-p3 
+:::::text-p3 
 *-/* Realizacje 
 :::::
 
@@ -42,7 +42,7 @@ link: 'https://www.is-wireless.com/'
 #### Strona interntowa w architekturze headless dla polskiego dostawcy rozwiązań sieciowych 5G
 
 #description
-:::::prose-p3
+:::::text-p3
 ---
 class: leading-8
 ---

@@ -39,7 +39,7 @@ class: translate-y-[40px] desktop:translate-y-[220px]
 class: static-content mb-10
 ---
 
-:::layout-columns-blog-sidebar
+:::block-columns-blog-sidebar
 ---
 class:
 ---
@@ -51,7 +51,7 @@ class:
 class: mx-blog
 ---
 
-:::::prose-p3
+:::::text-p3
 W e-commerce UX nie jest dodatkiem do designu, lecz jednym z kluczowych czynników wpływających na sprzedaż. Nawet drobne problemy w nawigacji, procesie zakupowym czy wersji mobilnej mogą prowadzić do porzuconych koszyków i utraty klientów. Dobre doświadczenie użytkownika oznacza dziś przede wszystkim prostotę, szybkość i brak barier na drodze do zakupu.
 
 W tym artykule skupiamy się na praktycznych aspektach UX w sklepach internetowych - tych, które faktycznie wpływają na konwersję, a nie tylko dobrze wyglądają w teorii.
@@ -66,11 +66,11 @@ class: mx-blog
 
 ## Najważniejsze elementy UX w sklepie internetowym
 
-:::::prose-p3
+:::::text-p3
 *<u class="font-semibold">Projektowanie UX</u>* w e-commerce składa się z wielu elementów, które muszą ze sobą współgrać. Problemy rzadko wynikają z jednego błędu — najczęściej są efektem kilku drobnych niedociągnięć. Do najważniejszych elementów UX należą:
 :::::
 
-:::::prose-p3
+:::::text-p3
 ---
 class: ml-0 [&_li]:before:!bg-black
 ---
@@ -82,7 +82,7 @@ class: ml-0 [&_li]:before:!bg-black
 - **Elementy budujące zaufanie** - takie jak opinie klientów, dane kontaktowe, stosowanie wymaganych zgód, czy informacje dotyczące reklamacji i zwrotów<br>
 :::::
 
-:::::prose-p3
+:::::text-p3
 Dobrze zaprojektowany UX nie zmusza użytkownika do myślenia, lecz prowadzi go naturalnie do finalizacji zakupu.
 :::::
 
@@ -107,11 +107,11 @@ class: mx-blog
 
 ## Jak lepiej zrozumieć potrzeby użytkowników?
 
-:::::prose-p3
+:::::text-p3
 Skuteczny UX nie opiera się na przypuszczeniach, lecz na danych. Zrozumienie zachowań użytkowników pozwala wykryć realne problemy, które często nie są widoczne na pierwszy rzut oka.
 :::::
 
-:::::prose-p3
+:::::text-p3
 ---
 class: ml-0 [&_li]:before:!bg-black [&_ul]:!mb-2
 ---
@@ -119,7 +119,7 @@ class: ml-0 [&_li]:before:!bg-black [&_ul]:!mb-2
 - **Testy użyteczności** - obserwacja realnych użytkowników ujawnia problemy, których nie widać w statystykach.<br>
 - **Ankiety i feedback** - krótkie pytania po zakupie lub rezygnacji z koszyka potrafią dać bardzo konkretne odpowiedzi.<br>
 :::::
-:::::prose-p3
+:::::text-p3
 Im prostsze wnioski z danych, tym lepsze decyzje UX.
 
 :::::
@@ -155,7 +155,7 @@ class: mx-blog
 
 ## Narzędzia wspierające optymalizację UX
 
-:::::prose-p3
+:::::text-p3
 Do poprawy UX w e-commerce nie są potrzebne skomplikowane ani kosztowne systemy, lecz świadome wykorzystanie odpowiednich narzędzi. Dużą rolę odgrywają **narzędzia do prototypowania**, które pozwalają testować zmiany i nowe pomysły jeszcze przed ich wdrożeniem na działającej stronie. Dzięki temu możliwe jest szybkie wychwycenie potencjalnych problemów bez ryzyka wpływu na sprzedaż.
 
 Cennym źródłem wiedzy są również **mapy cieplne oraz nagrania sesji użytkowników**, które pokazują, w jaki sposób klienci poruszają się po sklepie, gdzie klikają i w których miejscach się zatrzymują. Uzupełnieniem tych analiz są **testy A/B**, pozwalające porównywać różne wersje kluczowych elementów, takich jak checkout, karty produktów czy nagłówki. Dzięki takim narzędziom decyzje dotyczące UX opierają się na danych i realnych zachowaniach użytkowników, a nie wyłącznie na intuicji.
@@ -163,7 +163,7 @@ Cennym źródłem wiedzy są również **mapy cieplne oraz nagrania sesji użytk
 
 ## Nawigacja i struktura - najczęstsze źródło problemów
 
-:::::prose-p3
+:::::text-p3
 Źle zaprojektowana nawigacja to jedna z głównych przyczyn porzuceń sklepu internetowego. Użytkownik, który nie jest w stanie szybko odnaleźć interesującego go produktu, zazwyczaj nie poświęca więcej niż kilka sekund na dalsze poszukiwania i po prostu opuszcza stronę. W e-commerce nawigacja musi działać intuicyjnie,  klient powinien od razu rozumieć, gdzie się znajduje i jak dotrzeć do celu.
 
 Dobra nawigacja opiera się na logicznej, możliwie płaskiej strukturze kategorii, **która nie zmusza użytkownika do przechodzenia przez wiele poziomów menu**. Istotnym elementem jest także **dobrze widoczna i skuteczna wyszukiwarka**, szczególnie w sklepach z rozbudowanym asortymentem. Użytkownik powinien mieć również możliwość łatwego cofnięcia się do poprzednich etapów przeglądania, bez utraty kontekstu czy wybranych filtrów.
@@ -209,13 +209,13 @@ class: mx-blog
 
 ## UX mobilny - obszar, który często traci sprzedaż
 
-:::::prose-p3
+:::::text-p3
 ---
 class: ml-0 [&_p]:!mb-8
 ---
 W wielu sklepach większość ruchu pochodzi z urządzeń mobilnych, ale to właśnie tam konwersja jest najniższa. Powodem są najczęściej niedopasowane interfejsy.
 :::::
-:::::prose-p3
+:::::text-p3
 ---
 class: ml-0 [&_li]:before:!bg-black [&_li]:!mb-1 [&_ul]:!mb-8
 ---
@@ -223,7 +223,7 @@ class: ml-0 [&_li]:before:!bg-black [&_li]:!mb-1 [&_ul]:!mb-8
 - zbyt długi i skomplikowany checkout,<br>
 - wolne ładowanie strony.<br>
 :::::
-:::::prose-p3
+:::::text-p3
 Dobry mobilny UX to skrócenie procesu zakupowego do absolutnego minimum. Oznacza to ograniczenie liczby kroków, uproszczenie formularzy oraz maksymalne wykorzystanie automatyzacji, takich jak uzupełnianie danych czy szybkie metody płatności. Im mniej wysiłku musi wykonać użytkownik na smartfonie, tym większa szansa na sfinalizowanie zakupu.
 :::::
 ::::
@@ -235,7 +235,7 @@ class: mx-blog
 
 ## Najczęstsze błędy UX w sklepach online
 
-:::::prose-p3
+:::::text-p3
 ---
 class: ml-0 [&_p]:!mb-8 [&_li]:before:!bg-black [&_li]:!mb-1 [&_ul]:!mb-8
 ---
@@ -261,7 +261,7 @@ class: mx-blog
 
 ## Jak mierzyć skuteczność UX w e-commerce?
 
-:::::prose-p3
+:::::text-p3
 ---
 class: ml-0 [&_p]:!mb-8 [&_li]:before:!bg-black [&_li]:!mb-1 [&_ul]:!mb-8
 ---
