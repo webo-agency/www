@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col gap-y-4">
-        <div v-if="pageData?.author || pageData?.updatedAt" class="flex items-center gap-3">
+        <div v-if="pageData?.author || pageData?.updatedAt" class="hidden tablet:flex items-center gap-3">
             <img v-if="pageData?.authorAvatar" :src="pageData?.authorAvatar" :alt="pageData?.author" class="w-10 h-10 rounded-full object-cover" />
             <div class="h-full flex items-center justify-between gap-4">
                 <span v-if="pageData?.author" itemprop="author" class="text-gray-darker text-sm">{{ pageData?.author }}</span>

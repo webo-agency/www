@@ -550,10 +550,11 @@ Tworzymy wydajne sklepy PrestaShop z indywidualnym UX, szybkim działaniem i arc
 
 ::::effect-appear-md
 ---
-class: mx-blog mt-10 hidden
+class: mx-blog mt-10
 ---
 :::::block-post-author
-Maciej Zawadzki od lat zajmuje się projektowaniem sklepów internetowych i stron www, które realnie wspierają sprzedaż. Jako CEO i UX&UI Designer w Webo odpowiada za strategię projektową i jakość doświadczeń użytkowników w realizowanych wdrożeniach e-commerce.
+Współzałożyciel i CEO agencji Webo, UX/UI designer oraz project manager z ponad 8-letnim doświadczeniem w branży digital. Projektował serwisy internetowe i aplikacje dla firm z sektorów high-tech, przemysłowego, finansowego, produkcyjnego i usługowego. W pracy łączy perspektywę biznesową, projektową i technologiczną, pomagając tworzyć rozwiązania cyfrowe dopasowane do potrzeb użytkowników i celów organizacji.
+
 :::::
 ::::
 
