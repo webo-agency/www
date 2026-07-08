@@ -66,6 +66,8 @@ export default {
             id: process.env.CLARITY_ID,
             trigger: "onNuxtReady",
             defaultConsent: false,
+            bundle: false,
+            proxy: false,
           },
         }
       : {},
