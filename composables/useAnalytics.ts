@@ -23,6 +23,8 @@ export default function useAnalytics() {
 
   const { gtag, initialize } = useGtag()
 
+  const clarity = useRuntimeConfig().public.clarityId ? useScriptClarity() : null
+
   const hasConsent = computed(() => consent.value !== null)
   const isGranted = computed(() => consent.value?.analytics_storage === 'granted')
 
@@ -31,16 +33,19 @@ export default function useAnalytics() {
     consent.value = GRANTED_ALL
     initialize()
     gtag('consent', 'update', GRANTED_ALL)
+    clarity?.proxy.clarity('consent', true)
   }
 
   function rejectAll() {
     consent.value = DENIED_ALL
     gtag('consent', 'update', DENIED_ALL)
+    clarity?.proxy.clarity('consent', false)
   }
 
   function trackEvent(eventName: string, params?: Record<string, any>) {
     if (!isGranted.value) return
     gtag('event', eventName, params)
+    clarity?.proxy.clarity('event', eventName)
   }
 
   return {

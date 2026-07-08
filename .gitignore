@@ -18,3 +18,5 @@ sw.*
 # Nuxt generated build
 .output
 .dev.vars
+
+.env

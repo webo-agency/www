@@ -41,6 +41,7 @@ export default {
     "nuxt-vitalizer",
     "@nuxtjs/google-fonts",
     "nuxt-gtag",
+    "@nuxt/scripts",
     "@nuxtjs/sitemap"
   ],
   googleFonts: {
@@ -52,6 +53,22 @@ export default {
       }
     },
     display: 'swap', // 'auto' | 'block' | 'swap' | 'fallback' | 'optional'
+  },
+  runtimeConfig: {
+    public: {
+      clarityId: process.env.CLARITY_ID || "",
+    },
+  },
+  scripts: {
+    registry: process.env.CLARITY_ID
+      ? {
+          clarity: {
+            id: process.env.CLARITY_ID,
+            trigger: "onNuxtReady",
+            defaultConsent: false,
+          },
+        }
+      : {},
   },
   gtag: {
     initMode: "manual",
