@@ -11,7 +11,7 @@ logo.url: '/img/logos/sellineo.svg'
 tile_hidden: false
 public: true
 draft: false
-tile_order: 12
+tile_order: 2
 hreflangs:
     EN: ''
     PL: ''
