@@ -349,7 +349,7 @@ class: tablet:hidden mb-[60px]
 :::effect-appear-md
 ::::prose-figure{src="/img/content-images/case-sellineo-img7.webp"}
 ---
-class: mb-15 lg:mb-[100px]
+class: mb-[60px] lg:mb-[100px]
 ---
 ::::
 :::
