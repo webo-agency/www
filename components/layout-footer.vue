@@ -225,7 +225,7 @@
       class="px-5 tablet:px-10 desktop:px-20 bg-green-gray h-[60px] text-gray-darker flex flex-col tablet:flex-row items-center justify-between py-2.5"
     >
       <span class="text-xs desktop:text-sm mb-2.5 tablet:mb-0"
-        >2024 Webo | All rights reserved</span
+        >{{ new Date().getFullYear() }} Webo | All rights reserved</span
       >
       <CustomLink
         v-if="privacyPolicyLink"
