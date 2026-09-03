@@ -367,8 +367,9 @@ linktitle: Zobacz wszystkie wpisy
 ::::block-post-related
 ---
 relatedPostsLinks:
-    - co-wplywa-na-szybkosc-ladowania-strony-i-dlaczego-to-takie-wazne
-    - czym-jest-konwersja-w-sklepie-internetowym-i-co-na-nia-wplywa
+    - szablon-vs-dedykowany-projekt-strony-internetowej-dlaczego-dedykowany-projekt-wygrywa
+    - headless-wordpress-vs-klasyczny-wordpress-co-wybrac-dla-twojej-strony
+    - jak-zaprojektowac-strone-internetowa-ktora-sprzedaje-zasady-dobrego-ux
 ---
 ::::
 :::

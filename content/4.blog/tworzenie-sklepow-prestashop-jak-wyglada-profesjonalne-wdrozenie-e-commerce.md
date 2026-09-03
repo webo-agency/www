@@ -554,7 +554,6 @@ class: mx-blog mt-10
 ---
 :::::block-post-author
 Współzałożyciel i CEO agencji Webo, UX/UI designer oraz project manager z ponad 8-letnim doświadczeniem w branży digital. Projektował serwisy internetowe i aplikacje dla firm z sektorów high-tech, przemysłowego, finansowego, produkcyjnego i usługowego. W pracy łączy perspektywę biznesową, projektową i technologiczną, pomagając tworzyć rozwiązania cyfrowe dopasowane do potrzeb użytkowników i celów organizacji.
-
 :::::
 ::::
 
@@ -594,8 +593,9 @@ linktitle: Zobacz wszystkie wpisy
 ::::block-post-related
 ---
 relatedPostsLinks:
-    - co-wplywa-na-szybkosc-ladowania-strony-i-dlaczego-to-takie-wazne
-    - czym-jest-konwersja-w-sklepie-internetowym-i-co-na-nia-wplywa
+    - ux-w-e-commerce-jak-realnie-poprawic-doswiadczenie-uzytkownika-w-sklepie-online
+    - tworzenie-sklepow-woocommerce-jak-wyglada-profesjonalne-wdrozenie-sklepu-na-wordpressie
+    - najczestsze-bledy-ux-ktore-obnizaja-konwersje-w-sklepie-internetowym
 ---
 ::::
 :::

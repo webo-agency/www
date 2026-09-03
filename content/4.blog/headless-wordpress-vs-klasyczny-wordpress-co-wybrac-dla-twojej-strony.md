@@ -7,10 +7,10 @@ category:
 image.url: '/img/blog-images/Headless_Wordpress_vs_klasyczny_Wordpress.webp'
 author: Kamil Mędrala
 authorAvatar: /img/content-images/avatar-img.png
-authorUrl: https://pl.linkedin.com/in/kamil-medrala1
+authorUrl: https://linkedin.com/in/kamil-medrala1
 updatedAt: 2026-02-23
 hreflangs:
-    EN: '/blog/'
+    EN: '/blog/headless-wordpress-vs-classic-wordpress-what-to-choose-for-your-site/'
     PL: '/blog/headless-wordpress-vs-klasyczny-wordpress-co-wybrac-dla-twojej-strony/'
 public: true
 draft: false
@@ -81,7 +81,7 @@ class: mx-blog mb-10
 ---
 :::::prose-figure
 ---
-src: /img/blog-images/Strona_internetowa_Wordpress_+_Headless.webp
+src: /img/blog-images/Strona_internetowa_Wordpress_Headless.webp
 alt: "Strona internetowa Wordpress + Headless"
 rounded: true
 ---
@@ -228,11 +228,14 @@ Podsumowując, wybór między Headless WordPress a klasycznym WordPressem zależ
 
 #right
 ::::effect-appear-md
+---
+class: mx-blog
+---
 :::::block-post-share
 ---
-shareText: 'Share the article:'
-tagsTitle: 'Tags:'
-copyConfirmationText: 'Link copied!'
+shareText: 'Udostępnij artykuł:'
+tagsTitle: 'Kategorie:'
+copyConfirmationText: 'Link skopiowany!'
 ---
 :::::
 ::::
@@ -257,8 +260,9 @@ linktitle: Zobacz wszystkie wpisy
 ::::block-post-related
 ---
 relatedPostsLinks:
-    - co-wplywa-na-szybkosc-ladowania-strony-i-dlaczego-to-takie-wazne
-    - czym-jest-konwersja-w-sklepie-internetowym-i-co-na-nia-wplywa
+    - szablon-vs-dedykowany-projekt-strony-internetowej-dlaczego-dedykowany-projekt-wygrywa
+    - jak-zapewnic-wysoka-wydajnosc-strony-internetowej
+    - ile-kosztuje-stworzenie-strony-internetowej-od-zera
 ---
 ::::
 :::
