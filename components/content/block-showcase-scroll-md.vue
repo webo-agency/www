@@ -43,12 +43,14 @@
       class="relative z-10 mx-auto w-full max-w-[1248px] lg:min-w-[1350px] rounded-[20px] bg-[rgba(255,255,255,0.4)] p-1.5 shadow-[0_16px_100px_0_#0000001A] backdrop-blur-[41.2px] tablet:rounded-[40px] tablet:p-3"
     >
       <div
+        ref="frame"
         class="frame relative aspect-[4/5] w-full lg:min-w-[1248px] overflow-hidden rounded-[14px] bg-white tablet:aspect-[16/10] tablet:rounded-[30px]"
       >
         <nuxt-img
           :src="src"
           :alt="alt"
           class="scroll-img absolute left-0 top-0 block h-auto w-full"
+          :class="{ 'is-playing': visible }"
           :style="{ animationDuration: `${speed}s` }"
           draggable="false"
           loading="lazy"
@@ -79,6 +81,24 @@ export default {
       default: true,
     },
   },
+  data() {
+    return {
+      visible: false,
+    };
+  },
+  mounted() {
+    // animacja startuje, gdy okno jest widoczne podczas scrollowania, i pauzuje po zniknięciu z ekranu
+    this.observer = new IntersectionObserver(
+      ([entry]) => {
+        this.visible = entry.isIntersecting;
+      },
+      { threshold: 0.3 }
+    );
+    this.observer.observe(this.$refs.frame);
+  },
+  beforeUnmount() {
+    this.observer?.disconnect();
+  },
 };
 </script>
 
@@ -88,7 +108,12 @@ export default {
 }
 
 .scroll-img {
-  animation: showcase-scroll 16s linear infinite alternate;
+  animation: showcase-scroll 17s linear infinite alternate;
+  animation-play-state: paused;
+}
+
+.scroll-img.is-playing {
+  animation-play-state: running;
 }
 
 .frame:hover .scroll-img {

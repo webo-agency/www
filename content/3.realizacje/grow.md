@@ -274,7 +274,7 @@ class: mb-[20px]
 ---
 src: '/img/content-images/grow_scroll_content.webp'
 alt: 'Strona główna agencji Grow po redesignie'
-speed: 16
+speed: 17
 ---
 ::::
 :::
