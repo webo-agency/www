@@ -15,8 +15,8 @@ tile_hidden: false
 public: true
 tile_order: 1
 hreflangs:
-    EN: '/case-studies/hirefast/'
-    PL: '/realizacje/hirefast/'
+    EN: '/case-studies/grow/'
+    PL: '/realizacje/grow/'
 ---
 
 
@@ -28,8 +28,8 @@ class: mb-10 tablet:mb-20 mt-[100px] tablet:mt-[200px]
 ::::block-header-case-md
 ---
 class: mx-default
-logoUrl: '/img/logos/hirefast-black.svg'
-link: 'https://hirefast.pl/'
+logoUrl: '/img/logos/grow_logo2.svg'
+link: 'https://agencjagrow.pl/'
 ---
 
 #title
@@ -193,7 +193,6 @@ afterAlt: 'Strona agencji Grow po redesignie'
 ::
 
 
-
 ::page-section-md
 ---
 class: mb-5
@@ -265,12 +264,18 @@ class: mb-5
 :::
 ::
 
+
 ::page-section-md
 ---
-class: mb-5
+class: mb-[20px]
 ---
 :::effect-appear-md
-::::prose-figure{src="/img/content-images/case_grow_img9.webp"}
+::::block-showcase-scroll-md
+---
+src: '/img/content-images/grow_scroll_content.webp'
+alt: 'Strona główna agencji Grow po redesignie'
+speed: 16
+---
 ::::
 :::
 ::
