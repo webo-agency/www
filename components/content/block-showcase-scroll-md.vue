@@ -50,8 +50,6 @@
           :src="src"
           :alt="alt"
           class="scroll-img absolute left-0 top-0 block h-auto w-full"
-          :class="{ 'is-playing': visible }"
-          :style="{ animationDuration: `${speed}s` }"
           draggable="false"
           loading="lazy"
         />
@@ -71,26 +69,42 @@ export default {
       type: String,
       default: '',
     },
-    // czas jednego przewinięcia (w dół lub w górę) w sekundach - im dłuższa grafika, tym większa wartość
-    speed: {
+    // czas przewijania w dół w sekundach - im dłuższa grafika, tym większa wartość
+    speedDown: {
       type: Number,
       default: 20,
+    },
+    // czas szybkiego powrotu na górę w sekundach
+    speedUp: {
+      type: Number,
+      default: 2,
     },
     decoration: {
       type: Boolean,
       default: true,
     },
   },
-  data() {
-    return {
-      visible: false,
-    };
-  },
   mounted() {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    const img = this.$refs.frame.querySelector('img');
+    const total = this.speedDown + this.speedUp;
+
+    // w dół ze stałą prędkością, powrót na górę szybko z łagodnym startem i hamowaniem
+    this.animation = img.animate(
+      [
+        { transform: 'translateY(0)', easing: 'ease-in' },
+        { transform: 'translateY(calc(-100% + 100cqh))', offset: this.speedDown / total, easing: 'ease-in-out' },
+        { transform: 'translateY(0)' },
+      ],
+      { duration: total * 1000, iterations: Infinity }
+    );
+    this.animation.pause();
+
     // animacja startuje, gdy okno jest widoczne podczas scrollowania, i pauzuje po zniknięciu z ekranu
     this.observer = new IntersectionObserver(
       ([entry]) => {
-        this.visible = entry.isIntersecting;
+        entry.isIntersecting ? this.animation.play() : this.animation.pause();
       },
       { threshold: 0.3 }
     );
@@ -98,6 +112,7 @@ export default {
   },
   beforeUnmount() {
     this.observer?.disconnect();
+    this.animation?.cancel();
   },
 };
 </script>
@@ -107,31 +122,4 @@ export default {
   container-type: size;
 }
 
-.scroll-img {
-  animation: showcase-scroll 17s linear infinite alternate;
-  animation-play-state: paused;
-}
-
-.scroll-img.is-playing {
-  animation-play-state: running;
-}
-
-.frame:hover .scroll-img {
-  animation-play-state: running;
-}
-
-@keyframes showcase-scroll {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(calc(-100% + 100cqh));
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .scroll-img {
-    animation: none;
-  }
-}
 </style>
