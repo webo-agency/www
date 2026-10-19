@@ -1,11 +1,15 @@
 <template>
-  <div class="block-showcase-scroll relative px-5 py-10 tablet:px-10 tablet:py-[60px] overflow-hidden">
+  <div
+    class="block-showcase-scroll relative px-5 py-10 tablet:px-10 tablet:py-[60px] overflow-hidden"
+    :class="{ 'rounded-[5px] bg-gray-light': variant === 'gray' }"
+  >
     <div
-      v-if="decoration"
+      v-if="variant === 'green' && decoration"
       class="pointer-events-none absolute right-0 top-0 h-2/3 w-[85%] lg:w-[1242px] rounded-[5px] bg-[#A9E8D3]/90"
     ></div>
 
     <div
+      v-if="variant === 'green'"
       class="pointer-events-none absolute left-0 top-0"
     >
       <svg class="max-w-[350px] lg:max-w-full" xmlns="http://www.w3.org/2000/svg" width="634" height="513" viewBox="0 0 634 513" fill="none">
@@ -23,6 +27,7 @@
     </div>
 
     <div
+      v-if="variant === 'green'"
       class="pointer-events-none absolute right-0 bottom-0"
     >
       <svg class="max-w-[350px] lg:max-w-full" xmlns="http://www.w3.org/2000/svg" width="563" height="528" viewBox="0 0 563 528" fill="none">
@@ -78,6 +83,12 @@ export default {
     speedUp: {
       type: Number,
       default: 2,
+    },
+    // green - zielone dekoracje i rozmyte koła, gray - jednolite tło #F5F6F6 bez dekoracji
+    variant: {
+      type: String,
+      default: 'green',
+      validator: (value) => ['green', 'gray'].includes(value),
     },
     decoration: {
       type: Boolean,
