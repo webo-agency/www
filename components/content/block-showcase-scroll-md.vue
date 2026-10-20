@@ -45,11 +45,11 @@
     </div>    
 
     <div
-      class="relative z-10 mx-auto w-full max-w-[1248px] lg:min-w-[1350px] rounded-[20px] bg-[rgba(255,255,255,0.4)] p-1.5 shadow-[0_16px_100px_0_#0000001A] backdrop-blur-[41.2px] tablet:rounded-[40px] tablet:p-3"
+      class="relative z-10 mx-auto w-full max-w-[1350px] rounded-[20px] bg-[rgba(255,255,255,0.4)] p-1.5 shadow-[0_16px_100px_0_#0000001A] backdrop-blur-[41.2px] tablet:rounded-[40px] tablet:p-3"
     >
       <div
         ref="frame"
-        class="frame relative aspect-[4/5] w-full lg:min-w-[1248px] overflow-hidden rounded-[14px] bg-white tablet:aspect-[16/10] tablet:rounded-[30px]"
+        class="frame relative aspect-[4/5] w-full overflow-hidden rounded-[14px] bg-white tablet:aspect-[16/10] tablet:rounded-[30px]"
       >
         <nuxt-img
           :src="src"
