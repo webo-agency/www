@@ -25,7 +25,7 @@ const siteConfig = useSiteConfig()
 const hrefLangs = computed(() => getPageLangs(pageData?.value?.hreflangs));
 const hrefLangsState = useState("hrefLangs" + route.fullPath.split('#')[0], () => hrefLangs.value);
 const canonical = computed(()=>
-  siteConfig.url + route.path
+  siteConfig.url + (route.path.endsWith('/') ? route.path : route.path + '/')
 )
 
 const headLinks = computed(() => {
@@ -81,6 +81,45 @@ function normalizeSchema(input) {
   return arr.filter(Boolean);
 }
 
+// Sections that have their own listing page and appear as the middle breadcrumb level
+const breadcrumbSections = {
+  blog: 'Blog',
+  realizacje: 'Realizacje',
+  'case-studies': 'Case Studies',
+};
+
+const isPL = props.globalSettings?.general?.lang === 'PL';
+
+function buildBreadcrumb() {
+  const segments = routeClean.split('/').filter(Boolean);
+  if (segments.length === 0) return null;
+
+  const items = [
+    { name: isPL ? 'Strona główna' : 'Home', item: siteConfig.url + '/' },
+  ];
+
+  if (segments.length > 1 && breadcrumbSections[segments[0]]) {
+    items.push({
+      name: breadcrumbSections[segments[0]],
+      item: siteConfig.url + '/' + segments[0] + '/',
+    });
+  }
+
+  const pageName = pageData.value.breadcrumb
+    || headData.value.title.replace(/\s+[|-]\s+Webo(\.pl)?\s*$/i, '');
+  items.push({ name: pageName, item: canonical.value });
+
+  return {
+    '@type': 'BreadcrumbList',
+    itemListElement: items.map((entry, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: entry.name,
+      item: entry.item,
+    })),
+  };
+}
+
 const schemaLd = computed(() => {
   if (!pageData.value) return null;
 
@@ -90,23 +129,37 @@ const schemaLd = computed(() => {
   const isBlog = routeClean.startsWith('/blog/') && routeClean !== '/blog/';
 
   if (isBlog) {
-    const hasNewsArticle = graph.some(item => item?.['@type'] === 'NewsArticle');
-    if (!hasNewsArticle) {
+    const hasArticle = graph.some(item => ['NewsArticle', 'BlogPosting'].includes(item?.['@type']));
+    if (!hasArticle) {
       graph.push({
-        '@type': 'NewsArticle',
-        headline: headData.value.title,
+        '@type': 'BlogPosting',
+        mainEntityOfPage: canonical.value,
+        headline: pageData.value.introduction?.title || headData.value.title,
         description: headData.value.description,
-        image: pageData.value.image?.url || '',
-        url: routeClean,
+        image: pageData.value.image?.url ? siteConfig.url + pageData.value.image.url : '',
+        url: canonical.value,
         datePublished: pageData.value.updatedAt || '',
+        dateModified: pageData.value.dateModified || pageData.value.updatedAt || '',
+        inLanguage: isPL ? 'pl-PL' : 'en-US',
         author: {
           '@type': 'Person',
           name: pageData.value.author || 'Webo',
           url: pageData.value.authorUrl || siteConfig.url || '',
-        }
+        },
+        publisher: {
+          '@type': 'Organization',
+          '@id': siteConfig.url + '/#organization',
+          name: 'Webo',
+          url: siteConfig.url + '/',
+          logo: siteConfig.url + '/symbol.png',
+        },
       });
     }
   }
+
+  const hasBreadcrumb = graph.some(item => item?.['@type'] === 'BreadcrumbList');
+  const breadcrumb = hasBreadcrumb ? null : buildBreadcrumb();
+  if (breadcrumb) graph.push(breadcrumb);
 
   if (graph.length === 0) return null;
 

@@ -3,7 +3,7 @@
     class=""
   >
     <div class="mx-blog desktop:translate-y-[-60px] relative z-20">
-      <a href="/blog" class="mb-4 flex items-center gap-2">
+      <a href="/blog/" class="mb-4 flex items-center gap-2">
         <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
           <path d="M13.75 13.75L0.75 0.75M0.75 0.75V13.23M0.75 0.75H13.23" stroke="#06CEAF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
