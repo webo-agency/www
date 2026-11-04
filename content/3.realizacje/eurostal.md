@@ -9,7 +9,6 @@ technologies:
     - Wordpress CMS
 image.url: '/img/case-studies/Eurostal.jpg'
 tile_hidden: true
-public: false
 draft: true
 fallback: 'https://www.behance.net/gallery/138146291/EUROSTAL-Metal-garage-e-commerce'
 ---

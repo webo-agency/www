@@ -80,14 +80,12 @@ const parseDateValue = (value) => {
   return Number.isNaN(timestamp) ? 0 : timestamp;
 };
 
-const getPostTimestamp = (post) => parseDateValue(post?.date) || parseDateValue(post?.updatedAt);
-
 const sortedList = computed(() => {
   if (!Array.isArray(list.value)) {
     return [];
   }
 
-  return [...list.value].sort((a, b) => getPostTimestamp(b) - getPostTimestamp(a));
+  return [...list.value].sort((a, b) => parseDateValue(b?.date) - parseDateValue(a?.date));
 });
 
 

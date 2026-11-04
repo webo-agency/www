@@ -8,6 +8,5 @@ technologies:
     - Wordpress CMS
 image.url: '/img/case-studies/DeltaHR.jpg'
 tile_hidden: true
-public: false
 draft: true
 ---

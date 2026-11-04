@@ -3,7 +3,6 @@ meta:
   title: Wydajne sklepy internetowe B2B i B2C
   description: Projektujemy i wdrażamy świetnie wyglądające i intuicyjne sklepy internetowe z płynnym procesem zakupowym oraz wieloma integracjami, przygotowane do dalszego rozwoju i ekspansji.
 draft: false
-public: true
 hreflangs:
     EN: '/services/e-commerce/'
     PL: '/uslugi/sklepy-internetowe/'

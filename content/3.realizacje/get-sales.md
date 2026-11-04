@@ -11,7 +11,6 @@ image.url: '/img/case-studies/getsales-bg.png'
 logo.url: '/img/logos/getsales-logo.png'
 tile_hidden: false
 tile_order: 4
-public: true
 ---
 
 

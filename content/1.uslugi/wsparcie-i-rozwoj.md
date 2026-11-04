@@ -3,7 +3,6 @@ meta:
     title: Wsparcie techniczne i rozwój stron i sklepów www
     description: Kompleksowo obsługujemy strony i sklepy internetowe. Od aktualizacji, przez rozbudowę i programowanie dedykowanych modułów i podstron, po monitoring bezpieczeństwa i szybkości oraz reagowanie w przypadku awarii.
 draft: false
-public: true
 hreflangs:
     EN: '/services/support-and-development/'
     PL: '/uslugi/wsparcie-i-rozwoj/'

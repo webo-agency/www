@@ -13,7 +13,6 @@ image.url: '/img/case-studies/Proton-bg.png'
 logo.url: '/img/logos/Proton.png'
 tile_hidden: false
 tile_order: 6
-public: false
 draft: true
 fallback: 'https://www.behance.net/gallery/105506995/Proton-Multimedia-IT-Services?tracking_source=search_projects_recommended%7Cwebo.agency'
 ---

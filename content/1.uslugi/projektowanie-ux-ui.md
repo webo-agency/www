@@ -6,7 +6,6 @@ hreflangs:
     EN: '/services/ux-ui-design/'
     PL: '/uslugi/projektowanie-ux-ui/'
 draft: false
-public: true
 ---
 
 

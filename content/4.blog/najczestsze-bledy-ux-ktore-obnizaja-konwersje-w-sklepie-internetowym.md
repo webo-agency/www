@@ -9,11 +9,10 @@ image.url: '/img/blog-images/najczestsze-bledy-ux--ktore-obnizaja-konwersje-w-sk
 author: Maciej Z.
 authorAvatar: /img/content-images/avatar-maciej.webp
 authorUrl: https://linkedin.com/in/maciej-zawadzki-ba3194138
-updatedAt: 2026-04-14
+date: 2026-04-14
 hreflangs:
     EN: '/blog/most-common-ux-mistakes-that-lower-conversion-in-an-online-store/'
     PL: '/blog/najczestsze-bledy-ux-ktore-obnizaja-konwersje-w-sklepie-internetowym/'
-public: true
 draft: false
 ---
 

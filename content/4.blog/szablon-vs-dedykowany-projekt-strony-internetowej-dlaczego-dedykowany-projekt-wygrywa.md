@@ -10,11 +10,10 @@ author: Maciej Zawadzki
 authorRole: CEO / UX&UI Designer
 authorAvatar: /img/content-images/avatar-maciej.webp
 authorUrl: https://linkedin.com/in/maciej-zawadzki-ba3194138
-updatedAt: 2026-08-06
+date: 2026-08-06
 hreflangs:
     EN: '/blog/template-vs-custom-website-design-hy-a-custom-design-wins'
     PL: '/blog/szablon-vs-dedykowany-projekt-strony-internetowej-dlaczego-dedykowany-projekt-wygrywa/'
-public: true
 draft: false
 ---
 

@@ -8,11 +8,10 @@ image.url: '/img/blog-images/webo_blog_speed.jpg'
 author: Maciej Z.
 authorAvatar: /img/content-images/avatar-maciej.webp
 authorUrl: https://linkedin.com/in/maciej-zawadzki-ba3194138
-updatedAt: 2025-01-26
+date: 2025-01-26
 hreflangs:
     EN: '/blog/what-affects-page-loading-speed-and-why-is-it-so-important/'
     PL: '/blog/co-wplywa-na-szybkosc-ladowania-strony-i-dlaczego-to-takie-wazne/'
-public: true
 draft: false
 ---
 

@@ -54,7 +54,7 @@ const parseDateValue = (value) => {
 }
 
 const formattedDate = computed(() => {
-    const sourceDate = props.data?.date || props.data?.updatedAt
+    const sourceDate = props.data?.date
     const parsed = parseDateValue(sourceDate)
 
     if (!parsed) {

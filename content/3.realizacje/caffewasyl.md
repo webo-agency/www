@@ -8,6 +8,5 @@ technologies:
     - Wordpress CMS
 image.url: '/img/case-studies/CaffeWasyl.jpg'
 tile_hidden: true
-public: false
 draft: true
 ---

@@ -3,7 +3,6 @@ meta:
     title: Wynajmij solidny zespół webowy dla Twojej agencji -  Webo.pl  
     description: Prowadzisz agencję i chcesz delegować pracę nad stronami swoich klientów? Wynajmij czołowych projektantów UX/UI oraz programistów i zyskaj solidnego partnera w biznesie.
 draft: false
-public: true
 hreflangs:
     EN: '/services/websites/'
     PL: '/uslugi/outsourcing-stron-i-sklepow-www/'

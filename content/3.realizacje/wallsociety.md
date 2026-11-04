@@ -10,7 +10,6 @@ technologies:
 image.url: '/img/case-studies/WallSociety-bg.png'
 logo.url: '/img/logos/WallSociety.png'
 tile_hidden: false
-public: false
 draft: true
 tile_order: 10
 ---

@@ -10,6 +10,5 @@ technologies:
     - Drupal CMS
 image.url: '/img/case-studies/Przemijanie.png'
 tile_hidden: true
-public: false
 draft: true
 ---

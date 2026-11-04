@@ -12,7 +12,6 @@ image.url: '/img/case-studies/Mancraft-bg.png'
 logo.url: '/img/logos/Mancraft.png'
 tile_hidden: false
 tile_order: 8
-public: true
 ---
 
 ::page-section-md

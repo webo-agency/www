@@ -16,7 +16,7 @@ const props = defineProps({
 })
 const route = useRoute()
 const routeClean = route.fullPath.split('#')[0].split('?')[0]
-const { data: pageData } = await useAsyncData('page-data-' + routeClean, () => queryContent(route.path).findOne())
+const { data: pageData } = await useAsyncData('page-data-' + routeClean, () => queryContent(route.path).findOne().then((doc) => (doc?.draft === true ? null : doc)))
 
 provide('pageData', pageData)
 
@@ -138,8 +138,8 @@ const schemaLd = computed(() => {
         description: headData.value.description,
         image: pageData.value.image?.url ? siteConfig.url + pageData.value.image.url : '',
         url: canonical.value,
-        datePublished: pageData.value.updatedAt || '',
-        dateModified: pageData.value.dateModified || pageData.value.updatedAt || '',
+        datePublished: pageData.value.date || '',
+        dateModified: pageData.value.updatedAt || pageData.value.date || '',
         inLanguage: isPL ? 'pl-PL' : 'en-US',
         author: {
           '@type': 'Person',

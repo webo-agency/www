@@ -1,6 +1,5 @@
 ---
 draft: false
-public: true
 hreflangs:
     EN: '/services/headless-and-pwa-websites/'
     PL: '/uslugi/strony-headless-pwa/'

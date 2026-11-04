@@ -3,7 +3,6 @@ meta:
   title: Tworzenie stron WordPresss - strony WWW dla firm -  Webo.pl
   description: Projektujemy i wdrażamy strony WordPress dopasowane do Twoich potrzeb. Zacznij budować swoją markę online!
 draft: false
-public: true
 hreflangs:
     EN: '/services/wordpress-websites/'
     PL: '/uslugi/strony-wordpress/'

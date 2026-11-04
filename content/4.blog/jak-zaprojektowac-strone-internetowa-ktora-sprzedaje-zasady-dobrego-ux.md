@@ -11,11 +11,10 @@ author: Maciej Zawadzki
 authorRole: CEO / UX&UI Designer
 authorAvatar: /img/content-images/avatar-maciej.webp
 authorUrl: https://linkedin.com/in/maciej-zawadzki-ba3194138
-updatedAt: 2026-09-02
+date: 2026-09-02
 hreflangs:
     EN: '/blog/how-to-design-a-website-that-sells-the-principles-of-good-ux.md'
     PL: '/blog/jak-zaprojektowac-strone-internetowa-ktora-sprzedaje-zasady-dobrego-ux.md/'
-public: true
 draft: false
 ---
 

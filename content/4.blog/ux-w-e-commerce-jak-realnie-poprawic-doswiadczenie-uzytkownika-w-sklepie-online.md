@@ -8,11 +8,10 @@ image.url: '/img/blog-images/blog_webo_ux_w_e_commerce.webp'
 author: Maciej Z.
 authorAvatar: /img/content-images/avatar-maciej.webp
 authorUrl: https://linkedin.com/in/maciej-zawadzki-ba3194138
-updatedAt: 2026-01-15
+date: 2026-01-15
 hreflangs:
     EN: '/blog/ux-in-e-commerce-how-to-really-improve-the-user-experience-in-an-online-store/'
     PL: '/blog/ux-w-e-commerce-jak-realnie-poprawic-doswiadczenie-uzytkownika-w-sklepie-online/'
-public: true
 draft: false
 ---
 

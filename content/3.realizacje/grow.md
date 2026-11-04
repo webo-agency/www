@@ -12,7 +12,6 @@ technologies:
 image.url: '/img/content-images/case_grow_tile.webp'
 logo.url: '/img/logos/grow_logo_tile.svg'
 tile_hidden: false
-public: true
 tile_order: 1
 hreflangs:
     EN: '/case-studies/grow/'

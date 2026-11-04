@@ -10,11 +10,10 @@ image.url: '/img/blog-images/tworzenie-sklepow-woocommerce-hero.webp'
 author: Maciej Zawadzki
 authorAvatar: /img/content-images/avatar-img.png
 authorUrl: https://linkedin.com/in/maciej-zawadzki-ba3194138
-updatedAt: 2026-06-09
+date: 2026-06-09
 hreflangs:
     EN: '/blog/creating-woocommerce-stores-what-a-professional-wordpress-store-mplementation-looks-like/'
     PL: '/blog/tworzenie-sklepow-woocommerce-jak-wyglada-profesjonalne-wdrozenie-sklepu-na-wordpressie/'
-public: true
 draft: false
 ---
 

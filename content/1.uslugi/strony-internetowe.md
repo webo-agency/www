@@ -3,7 +3,6 @@ meta:
     title: Tworzenie stron internetowych - profesjonalne strony WWW -  Webo.pl  
     description: Nowoczesne strony www dla firm, zgodne z SEO i UX. Zdobądź nowych klientów - zamów wycenę już dziś!
 draft: false
-public: true
 hreflangs:
     EN: '/services/websites/'
     PL: '/uslugi/strony-internetowe/'

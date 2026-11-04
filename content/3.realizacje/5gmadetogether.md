@@ -12,7 +12,6 @@ image.url: '/img/case-studies/5gmadetogether-bg.png'
 logo.url: '/img/logos/5gmadetogether.png'
 tile_hidden: false
 tile_order: 3
-public: true
 ---
 
 
