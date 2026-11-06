@@ -135,7 +135,7 @@
             </div>
           </div>
           <div class="flex flex-col tablet:flex-row">
-            <div class="flex flex-col basis-1/3 min-w-max shrink-0 pr-5">
+            <div class="flex flex-col basis-1/3 tablet:min-w-max shrink-0 pr-5">
               <div
                 v-if="brandName"
                 itemprop="name"
