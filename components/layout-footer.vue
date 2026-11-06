@@ -144,7 +144,7 @@
               ></div>
               <div
                 v-if="location"
-                class="prose text-base mb-3"
+                class="prose text-base mb-3 max-w-[380px]"
                 v-html="location"
               ></div>
               <Socials

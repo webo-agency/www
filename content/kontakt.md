@@ -4,8 +4,10 @@ hreflangs:
     PL: '/kontakt/'
 
 meta:
-    title: Kontakt
-    description: 'Skontaktuj się z nami. Masz pytania o stronę www lub sklep internetowy? Chętnie pomożemy i dobierzemy najlepsze rozwiązania dla Twojej firmy. Napisz do nas!'       
+    title: 'Kontakt - Webo, strony i sklepy internetowe'
+    description: 'Skontaktuj się z nami. Masz pytania o stronę www lub sklep internetowy? Chętnie pomożemy i dobierzemy najlepsze rozwiązania dla Twojej firmy. Napisz do nas!'   
+image:
+    url: '/img/featured_image.webp'           
 ---
 
 
@@ -160,12 +162,12 @@ Wróć do strony głównej
 
 ::::block-header-md
 ---
-class: mb-8 desktop:mb-10 desktop:[&_h2]:!text-[35px]
+class: mb-8 desktop:mb-10 desktop:[&_h2]:!text-[35px] desktop:[&_div_div]:mb-10 desktop:[&_.subtitle]:!mb-5
 maxWidth: 610
 ---
 
 #subtitle
-### *-/* Kontakt
+# *-/* Kontakt
 
 #title
 ## Realizacja celów wymaga pierwszego kroku!
@@ -179,11 +181,12 @@ Wypełnij formularz, a my **skontaktujemy się z Tobą w&nbsp;ciągu 24h** i z c
 
 ::::block-contact-info-md
 ---
-tel: '+48725122385'
+tel: '+48721733397'
 mail: info@webo.agency
-address: 'Zwycięstwa 10, 44-100 Gliwice, Poland'
-nip: '631 261 36 26'
-regon: '382 471 232'
+company-name: 'Webo Sp. z o.o.'
+address: 'Park Naukowo-Technologiczny Technopark, Technopark 2, ul. Wincentego Pola 27, 44-100 Gliwice | Polska'
+nip: '631 274 1643'
+krs: '000 124 5372'
 ---
 
 #icons

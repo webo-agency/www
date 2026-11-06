@@ -99,8 +99,8 @@ footer:
           link: https://webo.agency/kontakt/
 general:
     lang: PL
-    brandName: Webo agency
-    address: ul. Zwycięstwa 10, 44-100 Gliwice
+    brandName: Webo
+    address: Park Naukowo-Technologiczny Technopark, Technopark 2, ul. Wincentego Pola 27, 44-100 Gliwice | Polska
     mail: info@webo.agency
     tel: '+48721733397'
     clutchLink: https://clutch.co/profile/webo
