@@ -50,7 +50,7 @@ schemaOrg:
 button.title: Poznaj ofertę stron www
 button.link: https://webo.agency/uslugi/strony-internetowe/
 secondaryButton.title: Sprawdź realizacje
-secondaryButton.link: /realizacje/
+secondaryButton.link: https://webo.agency/realizacje/
 logosText: "Zaufali nam:"
 logos:
     - alt: 'IS-Wireless'

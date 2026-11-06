@@ -54,7 +54,9 @@
                   <CustomLink v-if="secondaryButton?.link && secondaryButton?.title" :url="secondaryButton.link"
                     :activeClass="'none'"
                     class="flex items-center w-max max-w-full py-[19px] px-[35px] rounded-full border border-green-gray hover:border-green-main text-[15px] !text-white font-semibold uppercase transition duration-300"
-                    :title="secondaryButton.title" />
+                  >
+                    <span v-html="secondaryButton.title"></span>
+                  </CustomLink>
                   <div
                     v-else
                     class="hidden desktop:flex w-[60px] h-[60px] rounded-full border border-green-gray hover:border-green-main items-center justify-center cursor-pointer transition duration-300 group shrink-0"
