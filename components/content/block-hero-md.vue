@@ -48,10 +48,15 @@
               </div>
 
               <div class="flex justify-between flex-col desktop:flex-row gap-10">
-                <div class="flex items-center gap-5">
+                <div class="flex flex-wrap items-center gap-5">
                   <ButtonMain class="text-gray-darker" :link="button.link" :title="button.title" :isWide="true"
                     arrowIcon />
+                  <CustomLink v-if="secondaryButton?.link && secondaryButton?.title" :url="secondaryButton.link"
+                    :activeClass="'none'"
+                    class="flex items-center w-max max-w-full py-[19px] px-[35px] rounded-full border border-green-gray hover:border-green-main text-[15px] !text-white font-semibold uppercase transition duration-300"
+                    :title="secondaryButton.title" />
                   <div
+                    v-else
                     class="hidden desktop:flex w-[60px] h-[60px] rounded-full border border-green-gray hover:border-green-main items-center justify-center cursor-pointer transition duration-300 group shrink-0"
                     role="button" aria-label="Scroll down" @click="scrollDown">
                     <svg width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -118,6 +123,7 @@ const props = defineProps({
     required: false,
     default: () => ({ link: "/", title: "Click here" }),
   },
+  secondaryButton: { type: Object, required: false },
   googleRating: Number,
   googleRatingLink: String,
   googleRatingText: String,

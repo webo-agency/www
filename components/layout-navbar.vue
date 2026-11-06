@@ -68,7 +68,7 @@
           itemtype="https://schema.org/SiteNavigationElement"
           class="flex flex-col justify-between desktop:justify-center h-full scrollbar-none overflow-y-auto desktop:overflow-visible"
         >
-          <ul class="grow desktop:grow-0 shrink-0 flex flex-col desktop:flex-row desktop:items-center desktop:gap-[26px] mt-10 desktop:my-0">
+          <ul class="grow desktop:grow-0 shrink-0 flex flex-col desktop:flex-row desktop:items-center desktop:gap-[14px] desktop-wide:gap-[26px] mt-10 desktop:my-0">
             <li
               v-for="(item, index) in menu"
               :key="index"

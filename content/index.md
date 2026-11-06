@@ -5,13 +5,52 @@ hreflangs:
 sitemap:
   priority: 1
 meta:
-    title: Specjaliści od solidnych stron internetowych i e-commerce - Webo.pl  
-    description: 'Znamy się na dwóch rzeczach: technologii i projektowaniu UX/UI. Dzięki temu realizujemy szyte na miarę strony www, dbając o najwyższą jakość wykonania.'
+    title: 'Webo - strony www, sklepy i aplikacje webowe | Gliwice'
+    description: 'Agencja z Gliwic: projektujemy i programujemy szyte na miarę strony www, sklepy WooCommerce i PrestaShop oraz aplikacje webowe. Zobacz realizacje.'
+schemaOrg:
+  - "@type": "LocalBusiness"
+    "@id": "https://webo.pl/#organization"
+    name: "Webo"
+    alternateName:
+      - "Webo agency"
+      - "Webo.pl"
+    url: "https://webo.pl/"
+    logo: "https://webo.pl/symbol.png"
+    image: "https://webo.pl/symbol.png"
+    description: "Agencja z Gliwic: projektujemy i programujemy szyte na miarę strony www, sklepy WooCommerce i PrestaShop oraz aplikacje webowe."
+    telephone: "+48721733397"
+    email: "info@webo.agency"
+    address:
+      "@type": "PostalAddress"
+      streetAddress: "ul. Wincentego Pola 27"
+      postalCode: "44-100"
+      addressLocality: "Gliwice"
+      addressCountry: "PL"
+    hasMap: "https://maps.google.com/?cid=1015191586698915244"
+    areaServed:
+      "@type": "Country"
+      name: "Poland"
+    sameAs:
+      - "https://facebook.com/meet.webo/"
+      - "https://www.linkedin.com/company/webo-agency/"
+      - "https://www.behance.net/webo_agency"
+      - "https://clutch.co/profile/webo"
+      - "https://webo.agency/"
+  - "@type": "WebSite"
+    "@id": "https://webo.pl/#website"
+    name: "Webo"
+    alternateName: "Webo.pl"
+    url: "https://webo.pl/"
+    inLanguage: "pl-PL"
+    publisher:
+      "@id": "https://webo.pl/#organization"
 ---
 ::block-hero-md
 ---
-button.title: Dowiedz się więcej
+button.title: Poznaj ofertę stron www
 button.link: https://webo.agency/uslugi/strony-internetowe/
+secondaryButton.title: Sprawdź realizacje
+secondaryButton.link: /realizacje/
 logosText: "Zaufali nam:"
 logos:
     - alt: 'IS-Wireless'
@@ -65,7 +104,7 @@ logos:
 # Jesteśmy specjalistami od solidnych *stron internetowych*
 
 #description
-Tworzonych bez szablonów czy gotowców - <u>ale kodując od podstaw zgodnie z dokumentacją, jak należy.</u>
+Łączymy dopracowany UX/UI z przemyślaną architekturą i technologią. Dbając o jakość na każdym etapie<br> - <u>bez przypadkowych decyzji i dróg na skróty.</u>
 
 ::
 
@@ -709,7 +748,6 @@ Właściciel - **Velair**<br>
 Świetna współpraca – **bardzo sprawna komunikacja, trafne pomysły** i spostrzeżenia, szybko, sprawnie i w **bardzo przyjemnej atmosferze**. Strona **wygląda super, wszystko działa jak trzeba**. Polecam z czystym sumieniem!
 
 :::::
-
 
 :::::opinion-md
 ---
