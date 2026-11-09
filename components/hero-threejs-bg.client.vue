@@ -154,6 +154,20 @@ onMounted(async () => {
   let width = container.clientWidth
   let height = container.clientHeight
 
+  // WebGL2 can be unavailable (GPU blocklisted, hardware acceleration off, GPU process
+  // crashed, old devices). Without this guard the throw happens during hydration and
+  // Nuxt renders a full-page 500. Fall back to the plain black hero background instead.
+  try {
+    renderer = new THREE.WebGLRenderer({
+      canvas: canvas.value,
+      alpha: true,
+      antialias: false
+    })
+  } catch (e) {
+    console.warn('[hero-threejs-bg] WebGL unavailable, skipping background animation.', e)
+    return
+  }
+
   const scene = new THREE.Scene()
 
   const camera = new THREE.PerspectiveCamera(42, width / height, 0.5, 800)
@@ -162,13 +176,8 @@ onMounted(async () => {
 
   camera.position.copy(baseCameraPos)
   camera.lookAt(lookAtTarget)
-  camera.rotation.z = 0.32 
+  camera.rotation.z = 0.32
 
-  renderer = new THREE.WebGLRenderer({
-    canvas: canvas.value,
-    alpha: true,
-    antialias: false
-  })
   renderer.setSize(width, height)
   renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
   renderer.setClearColor(0x000000, 0)
@@ -258,12 +267,17 @@ onMounted(async () => {
     renderer.setSize(width, height)
   }
 
-  useEventListener(window, 'resize', onResize)
+  // Called after `await`, so it isn't bound to the component scope — stop it manually.
+  const stopResize = useEventListener(window, 'resize', onResize)
 
   cleanupFn = () => {
     if (animationId) cancelAnimationFrame(animationId)
+    stopResize()
     geometry.dispose()
     material.dispose()
+    // dispose() alone keeps the GL context alive until GC; release it now so repeated
+    // navigations to the hero page don't pile up contexts (browsers cap them at ~16).
+    renderer?.forceContextLoss()
     renderer?.dispose()
     renderer = null
   }
