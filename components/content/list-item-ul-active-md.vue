@@ -15,12 +15,12 @@
         <div :class="{'tablet:min-h-[200px]':!iconLeft}">
           <div
             v-if="$slots.title"
-            class="title mb-5 mt-2 font-semibold"
+            class="title mb-4 mt-1 font-semibold"
             :class="[{'tablet:mt-5':iconBig && !iconLeft},[iconLeft? 'text-xl' : 'text-2xl']]"
           >
             <ContentSlot :use="$slots.title" />
           </div>
-          <div v-if="$slots.description" class="mb-5 leading-7">
+          <div v-if="$slots.description" class="mb-[30px] leading-7">
             <ContentSlot :use="$slots.description" />
           </div>
           <div

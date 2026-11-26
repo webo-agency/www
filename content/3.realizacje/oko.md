@@ -9,8 +9,8 @@ type:
     - Strony WWW
     - Programowanie
 technologies:
-image.url: '/img/content-images/case_grow_tile.webp'
-logo.url: '/img/logos/oko_logo_tile.svg'
+image.url: '/img/content-images/case_oko_tile.webp'
+logo.url: '/img/logos/oko_logo_tile_transparent.svg'
 tile_hidden: false
 tile_order: 1
 hreflangs:
@@ -77,7 +77,7 @@ class: items-center [&_div.right]:self-start
 #left
 ::::card-icon-md
 ---
-class: tablet:pr-2.5 [&_div_div.group]:p-10 [&_div_div]:bg-primary [&_div_div]:!text-gray-darker [&_h4]:!mb-4 [&_h4]:tablet:text-[35px]
+class: tablet:pr-2.5 [&_div_div.group]:p-10 [&_div_div]:bg-primary [&_div_div]:!text-gray-darker [&_h4]:!mb-4 [&_h4]:tablet:text-[30px]
 icon: '/img/icons/info.svg'
 ---
 #title
@@ -93,7 +93,7 @@ decoration: false
 iconUrl: '/img/icons/list-1.svg'
 iconBig: false
 animated: false
-class: icon [&_div_div]:!pb-1 [&_div_div_div]:!min-h-fit [&_div_div.flex]:lg:flex-row [&_div_div.flex]:gap-7 [&_div_div_picture]:!w-[60px] [&_div.title_p]:!text-xl [&_div.title]:!mb-2 [&_div_div_div_div_p]:!tracking-normal
+class: icon [&_div_div]:!pb-1 [&_div_div_div]:!min-h-fit [&_div_div.flex]:lg:flex-row [&_div_div.flex]:gap-7 [&_div_div_picture]:!w-[60px] [&_div_div_picture_img]:!h-[40px] [&_div.title_p]:!text-xl [&_div.title]:!mb-2 [&_div_div_div_div_p]:!tracking-normal
 
 ---
 
@@ -141,7 +141,7 @@ Responsywność, testy i publikacja
 
 ::::card-icon-md
 ---
-class: tablet:pr-2.5 [&_div_div.group]:p-10 [&_div_div]:bg-white [&_div_div]:!text-gray-darker [&_h4]:!mb-4 [&_h4]:tablet:text-[35px]
+class: tablet:pr-2.5 [&_div_div.group]:p-10 [&_div_div]:bg-white [&_div_div]:!text-gray-darker [&_h4]:!mb-4 [&_h4]:tablet:text-[30px]
 icon: '/img/icons/double_check.svg'
 ---
 #title
